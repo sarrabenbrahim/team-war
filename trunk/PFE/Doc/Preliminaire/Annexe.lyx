@@ -1,0 +1,918 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Annexe
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Gestion-de-Projet-Agile"
+
+\end_inset
+
+Gestion de Projet Agile
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Source : Équipe 
+\emph on
+PolyBenchmark
+\emph default
+ PRT 2010
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Méthode 
+\emph on
+SCRUM
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+SCRUM
+\end_layout
+
+\end_inset
+
+
+\emph default
+ : Origines
+\end_layout
+
+\begin_layout Standard
+Le mot 
+\emph on
+SCRUM
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+SCRUM
+\end_layout
+
+\end_inset
+
+
+\emph default
+ est issu de l'anglais.
+ Dans le milieu rugbistique, ce terme de 
+\emph on
+SCRUM
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+SCRUM
+\end_layout
+
+\end_inset
+
+
+\emph default
+ signifie 
+\begin_inset Quotes fld
+\end_inset
+
+mélée
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Ce terme est très adapté à ce mode de gestion de projet car il mèle bien
+ les compétences de chacun.
+\end_layout
+
+\begin_layout Subsection
+Méthode 
+\emph on
+SCRUM 
+\emph default
+: Caractéristiques
+\end_layout
+
+\begin_layout Standard
+Notre équipe va fonctionner différemment des autres projets dans la mesure
+ où nous employons une méthode de gestion de projet "Agile".
+ La méthode agile retenue est la méthode SCRUM.
+\end_layout
+
+\begin_layout Standard
+Caractéristiques principales de cette méthode :
+\end_layout
+
+\begin_layout Description
+Simplicité La gestion de projet a été simplifiée au maximum pour n'en garder
+ que la quintessence.
+\end_layout
+
+\begin_layout Description
+Flexibilité Cette flexibilité est obtenu par une forte implication du client.
+ Le client peut faire des modifications sur ses besoins mais pas à n'importe
+ quel moment.
+ Uniquement entre deux itération.
+ Cela permet de mieux répondre aux besoins du client.
+\end_layout
+
+\begin_layout Description
+Auto-gestion Basée sur la confiance mutuelle entre les membres de l'équipe
+ ainsi qu'avec le client.
+ Motivation de l'équipe.
+ 
+\end_layout
+
+\begin_layout Description
+Application Satisfaction du client en lui livrant quelque chose de fonctionnel.
+\end_layout
+
+\begin_layout Standard
+Nous pouvons visualiser l'ensemble de cette méthode par le schéma (Ref:
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Structure-Methode-Scrum"
+
+\end_inset
+
+ )
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Structure-Methode-Scrum"
+
+\end_inset
+
+
+\emph on
+Structure Globale de la méthode SCRUM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/garciaf/SVN/Polybenchmark/PRT/doc/Schema_et_Legende/ScrumShemaGlobal.bmp
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Source : Wikipedia.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Organisation de l'équipe
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Organisation-de-l'équipe"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Product
+\begin_inset space ~
+\end_inset
+
+Owner
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Product Owner
+\end_layout
+
+\end_inset
+
+ équivalent du Maître d'ouvrage (MOA) il représente le client c'est lui
+ qui définira les fonctionnalités prioritaires de chaque itération.
+ Il les classe selon les besoins du client, qu'il représente (ou qu'il est).
+\end_layout
+
+\begin_layout Description
+Équipe l'équipe travaille en collaboration en mettant à profit les différences
+ de chacun.
+ La polyvalence de chaque membre est recherchée par différentes méthodes
+ de travail.
+ Le travail en binôme est hautement recommandé.
+ Les paires d'élèves sont changées régulièrement de façon à faire circuler
+ les compétences dans toute l'équipe.
+\end_layout
+
+\begin_layout Description
+SCRUM
+\begin_inset space ~
+\end_inset
+
+Master
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+SCRUM Master
+\end_layout
+
+\end_inset
+
+ On peut voir le 
+\emph on
+SCRUM Master
+\emph default
+ comme un "coach" de l'équipe.
+ Il gère humainement l'équipe (motivation, conflits internes).
+ D'un point de vue technique, ce dernier intervient la où il y a des difficultés
+, il est en charge de trouver une solution à chaque problème remonté par
+ l'équipe.
+ Il est également chargé d'interagir avec le 
+\emph on
+Product Owner
+\emph default
+ afin de ne pas surcharger l'équipe de cette mission.
+\end_layout
+
+\begin_layout Subsection
+Itération : 
+\emph on
+Sprint
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Sprint
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le projet est découpé en itérations ou 
+\emph on
+sprint
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Sprint
+\end_layout
+
+\end_inset
+
+
+\emph default
+.
+ Une itération est caractérisée par une livraison du code & programme au
+ client.
+ Cette livraison est une version du projet aux fonctionnalités limités,
+ mais fonctionnelle.
+ Une itération peut durer de une à quatre semaines.
+ Pendant cette période, l'équipe de développement se concentre sur l'implémentat
+ion des fonctionnalités prioritaires/urgentes définies par le 
+\emph on
+Product Owner
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Product Owner
+\end_layout
+
+\end_inset
+
+
+\emph default
+ (cf.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Organisation-de-l'équipe"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+L'ensemble des fonctionnalités à implémenter dans le 
+\emph on
+sprint
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Sprint
+\end_layout
+
+\end_inset
+
+
+\emph default
+, appellé aussi 
+\emph on
+Product BackLog
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Product BackLog
+\end_layout
+
+\end_inset
+
+
+\emph default
+ (cf.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Liste-des-fonctionnalités"
+
+\end_inset
+
+).
+ Ce 
+\emph on
+Product BackLog
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Product BackLog
+\end_layout
+
+\end_inset
+
+
+\emph default
+ doit être réalisable durant l'itération.
+ Cette étape est importante et pour estimer la charge d'une tâche la méthode
+ du 
+\emph on
+Planning Poker
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Estimation collégiale du temps
+\end_layout
+
+\end_inset
+
+
+\emph default
+ est souvent utilisée.
+\end_layout
+
+\begin_layout Standard
+L'équipe se concentrera en priorité
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+au début du 
+\emph on
+Sprint
+\end_layout
+
+\end_inset
+
+ sur les erreurs du programme (débuggage).
+\end_layout
+
+\begin_layout Standard
+Pendant un 
+\emph on
+sprint 
+\emph default
+le client ne peut pas faire de modification des fonctionnalités à implémenter,
+ pour faire un changement le client devra attendre le prochain 
+\emph on
+sprint
+\emph default
+.
+ La fin d'un 
+\emph on
+sprint
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Sprint
+\end_layout
+
+\end_inset
+
+
+\emph default
+ est caractérisée par un retour ou 
+\emph on
+feedback.
+
+\emph default
+ Au cours de cette revue, une démonstration sera faite au client et une
+ retrospective du 
+\emph on
+sprint 
+\emph default
+faite à cette occasion (Reflexion sur ce qui marche et ne marche pas au
+ sein de l'équipe et du développement).
+ 
+\end_layout
+
+\begin_layout Subsection
+Liste des fonctionnalités : 
+\emph on
+Product BackLog
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Product BackLog
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Liste-des-fonctionnalités"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le "
+\emph on
+Product BackLog
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Product BackLog
+\end_layout
+
+\end_inset
+
+
+\emph default
+" est une liste détaillée des fonctionnalités de notre PRT qui est définie
+ par le client et/ou son représentant.
+ Ce représentant peut être un membre de l'équipe ou un membre extérieur.
+ La contrainte le concernant est sa disponibilité qui doit être suffisante
+ pour que l'équipe puisse considérer cet interveant comme une source d'informati
+on.
+ Ce membre externe est qualifié de 
+\emph on
+Product Owner
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Product Owner
+\end_layout
+
+\end_inset
+
+ 
+\emph default
+car c'est lui qui établi la liste des fonctionnalités souhaitées ainsi que
+ leur classement (de priorité).
+ Ce classement permettra à l'équipe de choisir les fonctionnalités à implémenter
+ lors du sprint
+\emph on
+
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Sprint
+\end_layout
+
+\end_inset
+
+
+\emph default
+ suivant.
+ Ce classement permet aussi d'avoir une vue d'ensembe 
+\end_layout
+
+\begin_layout Standard
+l'on définira au début du projet (nous ou alors le "Product Owner" qui représent
+e le client au sein de l'équipe).
+ Il va nous permettre d'avoir une vue d'ensemble du projet plus détaillée.
+ Cet outil permettra de faciliter la communication avec le client car il
+ a la possibilité de définir des priorités entre fonctionnalités.
+\end_layout
+
+\begin_layout Subsection
+Réunion quotidienne
+\emph on
+ 
+\emph default
+: 
+\emph on
+Daily Scrum
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Daily Scrum
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Notre équipe se retrouvera quotidiennement.
+ Le "
+\emph on
+SCRUM Master
+\emph default
+
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+SCRUM Master
+\end_layout
+
+\end_inset
+
+" introduit la réunion en posant trois questions à chaque membres de l'équipe:
+ 
+\end_layout
+
+\begin_layout Enumerate
+Qu'est ce qui a été fait ? 
+\end_layout
+
+\begin_layout Enumerate
+Qu'est ce que vous allez faire? 
+\end_layout
+
+\begin_layout Enumerate
+Quelles sont les difficultés ? 
+\end_layout
+
+\begin_layout Standard
+La dernière question permet de faire remonter les difficultés et les éléments
+ imprévus au niveau de l'équipe.
+ Le rôle du 
+\emph on
+SCRUM
+\emph default
+ 
+\emph on
+Master
+\emph default
+
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+SCRUM Master
+\end_layout
+
+\end_inset
+
+ est alors de trouver une solution acceptable pour continuer sans perturber
+ l'équipe.
+\end_layout
+
+\begin_layout Subsubsection
+Diagramme d'avancement : 
+\emph on
+BurnDown Chart
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+BurnDown Chart
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le 
+\emph on
+BurnDown
+\emph default
+ 
+\emph on
+Chart
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+BurnDown Chart
+\end_layout
+
+\end_inset
+
+
+\emph default
+ (représente l'état d'avancement du Sprint ) retranscrit de manière graphique
+ les informations remontées en 
+\emph on
+Daily
+\emph default
+ 
+\emph on
+Scrum
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Daily Scrum
+\end_layout
+
+\end_inset
+
+
+\emph default
+.
+ L'allure du graphe nous donne la vitesse d'avancement du sprint au jour
+ le jour, et surtout le reste à faire pour le 
+\emph on
+Sprint
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Sprint
+\end_layout
+
+\end_inset
+
+
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+il y a trois outils qui permettent de réaliser le 
+\emph on
+BurnDown
+\emph default
+ 
+\emph on
+Chart
+\emph default
+ : 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Task Board
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Task Board
+\end_layout
+
+\end_inset
+
+
+\emph default
+ : c'est un tableau récaputilatif de l'ensemble des actions faites, en cours,
+ à faire par l'équipe qui sera reporté sur un graphe "Down Chart" qui permettra
+ de voir l'évolution du travail.
+ On peux utiliser des 
+\begin_inset Quotes fld
+\end_inset
+
+Post-it
+\begin_inset Formula $\copyright$
+\end_inset
+
+
+\begin_inset Quotes frd
+\end_inset
+
+ qui contiennent la fonctionnalité à faire et la personne en charge ainsi
+ que l'estimation du temps restant alloué à cette tache.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Rétrospective
+\emph default
+ : Il s'agit du bilan produit à la fin de l'itération.
+ Il permet de mettre en évidence les points à améliorer.
+ Cette démarche permet d'améliorer la qualité de manière continue.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Sprint BackLog
+\emph default
+ : c'est une liste qui définit l'ensemble des fonctionnalités à implémenter
+ durant le sprint.
+ Cette liste est déterminée en fonction du 
+\emph on
+Product Backlog (
+\emph default
+notamment les priorités)
+\emph on
+.
+\end_layout
+
+\begin_layout Subsubsection
+La fabrication du Burn-Down Chart
+\emph on
+
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+BurnDown Chart
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le burn Down-Chart est représenté par un graphe (ex : 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:BurnDown-Chart"
+
+\end_inset
+
+) dont l'abscisse est le temps et dont l'ordonnée correspond à la somme
+ des évaluations des objectifs restants à réaliser.
+ A la fin de chaque 
+\emph on
+Daily SCRUM,
+\emph default
+ le 
+\emph on
+Task Board
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+Task Board
+\end_layout
+
+\end_inset
+
+
+\emph default
+ évolue.
+ Les fonctionnalités qui sont terminées sont reportées sur le 
+\emph on
+BurnDown Chart
+\emph default
+ et tâches non finies sont réévaluées.
+ C'est ainsi que ce graphique est construit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:BurnDown-Chart"
+
+\end_inset
+
+
+\emph on
+ Exemple de BurnDown ChartTask Board
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/garciaf/SVN/Polybenchmark/PRT/doc/Schema_et_Legende/BurndownChart.png
+	lyxscale 30
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Sur la figure, la ligne verte représente l'avancement théorique de l'équipe,
+ la ligne rouge, mise à jour régulièrement représente l'avancement réel
+ de l'équipe.
+ Ce graphique permet de connaître facilement l'avancement de l'équipe.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
