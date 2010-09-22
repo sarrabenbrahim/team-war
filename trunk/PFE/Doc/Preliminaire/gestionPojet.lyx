@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -60,12 +60,32 @@ Organisation de l'équipe
 status open
 
 \begin_layout Plain Layout
-rôles
+rôles, j'ai mis tel quel ce qu'il y a dans le CR_4
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+Rahma (Chef d'équipe) 
+\end_layout
+
+\begin_layout Itemize
+Fabien (Responsable communication) 
+\end_layout
+
+\begin_layout Itemize
+Jaafar (Gestion de Projet & Document) 
+\end_layout
+
+\begin_layout Itemize
+Abdelali (Responsable developpement) 
+\end_layout
+
+\begin_layout Itemize
+Philipe (Responsable Réunion)
 \end_layout
 
 \begin_layout Section
@@ -77,11 +97,127 @@ Choix de la méthode agile
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+Après une explication détaillée du sujet par notre client.
+ Il est apparue que la gestion de projet collant au mieux au sujet du PFE
+ est la méthode agile
+\begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-JUSTIFICATION du choix de la methode
+Explication détaillé de la méthode en annexe
+\end_layout
+
+\end_inset
+
+.
+ En effet il apparaît que le projet pourra subir de nombreuses modifications
+ en fonction de l'avancement.
+ 
+\end_layout
+
+\begin_layout Standard
+Plutôt que de subir ces modifications avec une gestion de projet traditionnelle.
+ Nous préférons en prendre notre partie et l'intégrer dans notre gestion
+ de projet.
+\end_layout
+
+\begin_layout Standard
+En effet la méthode agile est une méthode de suivie de projet héritée des
+ développements informatiques.
+ 
+\end_layout
+
+\begin_layout Subsection
+Caractéristiques de la méthode agile
+\end_layout
+
+\begin_layout Standard
+Notre équipe fonctionne sur le modèle de la gestion de projet "Agile".
+ La méthode agile retenue est la méthode 
+\emph on
+SCRUM
+\emph default
+.
+ Ces caractéristiques principales sont :
+\end_layout
+
+\begin_layout Description
+Simplicité La gestion de projet a été simplifiée au maximum pour n'en garder
+ que la quintessence.
+\end_layout
+
+\begin_layout Description
+Flexibilité Cette flexibilité est obtenu par une forte implication du client.
+ Le client peut faire des modifications sur ses besoins mais pas à n'importe
+ quel moment.
+ Uniquement entre deux itération.
+ Cela permet de mieux répondre aux besoins du client.
+\end_layout
+
+\begin_layout Description
+Auto-gestion Basée sur la confiance mutuelle entre les membres de l'équipe
+ ainsi qu'avec le client.
+ Motivation de l'équipe.
+ 
+\end_layout
+
+\begin_layout Description
+Application Satisfaction du client en lui livrant quelque chose de fonctionnel.
+\end_layout
+
+\begin_layout Standard
+Nous pouvons visualiser l'ensemble de cette méthode par le schéma (Réf:
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Structure-Methode-Scrum"
+
+\end_inset
+
+ )
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Structure-Methode-Scrum"
+
+\end_inset
+
+
+\emph on
+Structure Globale de la méthode SCRUM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ScrumShemaGlobal.png
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Source : Wikipedia.
 \end_layout
 
 \end_inset
@@ -93,18 +229,65 @@ JUSTIFICATION du choix de la methode
 Product back log
 \end_layout
 
+\begin_layout Standard
+Après une première interprétation du sujet nous avons retenue différentes
+ grandes tâches.
+ Ces tâches seront détaillés d'avantage en fonction de la compréhension
+ du sujet et de l'avancement du projet.
+ Cette liste de tâche sera notre matière première pour constituer nos 
+\emph on
+Sprint
+\emph default
+.
+ 
+\end_layout
+
 \begin_layout Itemize
 introduction de la méthode AGILE
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-Travail bibliographique pour la société ST M
+Mise en place de la méthode AGILE au sein de l'équipe
 \end_layout
 
 \begin_layout Itemize
-Benchmarking 
+Installation des différents outils
 \end_layout
 
+\end_deeper
+\begin_layout Itemize
+Travail bibliographique 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Consultation des différentes publications sur le sujet
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Benchmarking
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Visions des pratiques des autres industries 
+\end_layout
+
+\begin_layout Itemize
+Transposition des 
+\begin_inset Quotes fld
+\end_inset
+
+Bonnes pratiques
+\begin_inset Quotes frd
+\end_inset
+
+ au sein de ST MicroElectronique
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Proposition d'algorithme ou heuristique
 \end_layout
@@ -118,16 +301,93 @@ Première itération
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Détail de l'itération arrivant à la livraison de ce présent rapport
+La première itération de notre équipe comprends la mise en place de la méthode
+ SCRUM et la rédaction du rapport préliminaire, l'échéance étant le 01/10/2010
+ pour la remise du rapport, nous avons aussi une remise à notre tuteur avant
+ le 27/09/2010.
+ 
 \end_layout
 
+\begin_layout Standard
+Nous avons ensuite découpé le travail de la manière suivante : 
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Garcia
+\noun default
+ Fabien
+\begin_inset Formula $\rightarrow$
 \end_inset
 
+ Rédaction de la partie méthode agile
+\end_layout
 
+\begin_layout Itemize
+
+\noun on
+Nakara
+\noun default
+ Rahma 
+\noun on
+& Amrani-Mesbahi
+\noun default
+ Jaafar 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Rédaction de la présentation de l'entreprise, introduction et conclusion
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Ait Belkacem
+\noun default
+ Abdelali & 
+\noun on
+Nguyen
+\noun default
+ Philipe 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Rédaction de la partie compréhension du sujet et détails
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Amrani-Mesbahi
+\noun default
+ Jaafar 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Mise en place de la méthode 
+\emph on
+SCRUM
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Garcia
+\noun default
+ Fabien 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Mise en place système d'inforamation et outils collaboratifs (SVN)
+\end_layout
+
+\begin_layout Standard
+Au terme de cette itération un premier rapport préliminaire sera livré à
+ notre tuteur et notre client.
+ De plus les outils de gestion agile seront mis en place au sein de l'équipe.
+ 
 \end_layout
 
 \end_body
