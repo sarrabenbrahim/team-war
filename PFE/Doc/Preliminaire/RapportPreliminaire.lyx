@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -277,7 +277,7 @@ Philipe NGUYEN
 
 
 \begin_inset Graphics
-	filename D:/home/garciaf/SVN/team-war/Logo/team-WAR.png
+	filename ../../../Logo/team-WAR.png
 	lyxscale 10
 	width 6cm
 
@@ -332,19 +332,6 @@ status open
 
 \backslash
 boitecolor{white}{black}{Team-war@prunetwork.fr}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-http://polybenchmark.googlecode.com/
 \end_layout
 
 \end_inset
