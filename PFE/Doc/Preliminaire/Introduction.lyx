@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -52,33 +52,81 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-Actuellement dans la société STMicroelectronics spécialisée dans le développemen
-t, la fabrication et la commercialisation des puces électroniques (semi
- conducteurs); le nombre de plaque de silicium est simplement compté entre
- deux contrôles ( i.e mesures).
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Pourquoi ne pas commencer par une petite note sur le contexte du PFE ? Du
+ genre Au terme de notre formation, nous entemmons un projet par équipe
+ de fin d'étude.
+ Dans le cadre de ce projet bla bla bla.
+\end_layout
+
+\begin_layout Plain Layout
+Et enchainer sur le fait que notre client est un industriel STMicroElectronique
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Actuellement dans la société 
+\emph on
+STMicroelectronics
+\emph default
+ spécialisée dans le développement, la fabrication et la commercialisation
+ des puces électroniques (semi conducteurs); le nombre de plaque de silicium
+ est simplement compté entre deux contrôles ( i.e mesures).
  En effet les mesures effectuées sur les plaques de production et sur les
  plaques de test liées aux qualifications périodiques sont prisent en compte
  de la même manière sans se préoccuper de la signification des mesures.
  D'autre part ce comptage peut être référencé par apport à une machine ou
  une technologie ( i.e produit) sans tenir compte de l'existence des différents
  paramètres ni de l'interaction potentielle entre ces derniers.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Peut-être un poil trop technique pour une intro, non ? 
+\end_layout
+
+\end_inset
+
  
 \end_layout
 
 \begin_layout Standard
-Afin de réaliser cette étude de faisabilité nous allons tout d'abord faire
- la présentation de la société STMicroelectronic et de son activité.
+Ce rapport préliminaire constitue la première étape de notre étude de faisabilit
+é.
+ Dans ce présent rapport nous nous contentons de jeter les bases de notre
+ étude et la compréhension du projet.
+ Dans une première partie nous présentons en détail la société cliente du
+ projet, 
+\emph on
+STMicroelectronic
+\emph default
+.
  
 \end_layout
 
 \begin_layout Standard
-Ensuite, nous détaillerons le sujet et les attentes du client en l'occurrence
- STMicroelectronic.
+En deuxième partie, nous spécifions le sujet et les attentes de 
+\emph on
+STMicroelectronic
+\emph default
+.
 \end_layout
 
 \begin_layout Standard
-Enfin, nous exposerons l'outil AGILE que nous utiliserons pour la gestion
- de projet ainsi que l'organisation et le rôle de chaque membre de l'équipe.
+Enfin, nous exposerons nous détaillons notre gestion de projet.
+ Pour cela nous detaillerons l'outil 
+\emph on
+SCRUM
+\emph default
+ faisant partis des méthodes agileset nous préciserons le rôle de chaque
+ membre de l'équipe.
 \end_layout
 
 \end_body
