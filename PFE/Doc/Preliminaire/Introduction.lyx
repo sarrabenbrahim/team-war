@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -49,6 +49,36 @@ figs-within-sections
 
 \begin_layout Chapter
 Introduction
+\end_layout
+
+\begin_layout Standard
+Actuellement dans la société STMicroelectronics spécialisée dans le développemen
+t, la fabrication et la commercialisation des puces électroniques (semi
+ conducteurs); le nombre de plaque de silicium est simplement compté entre
+ deux contrôles ( i.e mesures).
+ En effet les mesures effectuées sur les plaques de production et sur les
+ plaques de test liées aux qualifications périodiques sont prisent en compte
+ de la même manière sans se préoccuper de la signification des mesures.
+ D'autre part ce comptage peut être référencé par apport à une machine ou
+ une technologie ( i.e produit) sans tenir compte de l'existence des différents
+ paramètres ni de l'interaction potentielle entre ces derniers.
+ 
+\end_layout
+
+\begin_layout Standard
+Afin de réaliser cette étude de faisabilité nous allons tout d'abord faire
+ la présentation de la société STMicroelectronic et de son activité.
+ 
+\end_layout
+
+\begin_layout Standard
+Ensuite, nous détaillerons le sujet et les attentes du client en l'occurrence
+ STMicroelectronic.
+\end_layout
+
+\begin_layout Standard
+Enfin, nous exposerons l'outil AGILE que nous utiliserons pour la gestion
+ de projet ainsi que l'organisation et le rôle de chaque membre de l'équipe.
 \end_layout
 
 \end_body
