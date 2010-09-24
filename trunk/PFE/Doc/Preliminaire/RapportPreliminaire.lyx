@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -218,11 +218,7 @@ Détermination d'un Wafer à Risque dans une ligne de production
 \begin_inset Formula $5^{ème}$
 \end_inset
 
- Année : Poly'
-\emph on
-B
-\emph default
-enchmark
+ Année : Team-War
 \begin_inset Newline newline
 \end_inset
 
@@ -247,7 +243,7 @@ boitecolor{yellow}{red}{Version Intermédiaire}
 \noun on
 Abdelali 
 \noun default
-AIT
+NAIT
 \begin_inset space ~
 \end_inset
 
@@ -281,7 +277,7 @@ Philipe NGUYEN
 
 
 \begin_inset Graphics
-	filename /home/garciaf/SVN/team-war/Logo/team-WAR.png
+	filename D:/home/garciaf/SVN/team-war/Logo/team-WAR.png
 	lyxscale 10
 	width 6cm
 
