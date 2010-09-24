@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -84,7 +84,12 @@ Contraintes
 status open
 
 \begin_layout Plain Layout
-Philippe Test!
+Philippe Test! Tu as vu ça marche ! (Fabien)
+\end_layout
+
+\begin_layout Plain Layout
+PS : N'oubliez jamais de faire des up avant de commencer à travailler sinon
+ vous n'allez pas aimer ce qui va se passer.
 \end_layout
 
 \end_inset

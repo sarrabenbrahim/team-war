@@ -56,36 +56,95 @@ Organisation de l'équipe
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-rôles, j'ai mis tel quel ce qu'il y a dans le CR_4
+Après notre première réunion, nous avons décidé de nous répartir les responsabil
+ités en fonctions des centres d'intérêts de chacun.
+ Nous avons organisés les responsabilités en fonction du sujet de PFE lui
+ même.
+ 
 \end_layout
 
+\begin_layout Description
+
+\noun on
+Nakara
+\noun default
+
+\begin_inset space ~
+\end_inset
+
+Rahma Chef d'équipe.
+ Son rôle est proche de celui du 
+\emph on
+coach
+\emph default
+ dans une équipe, il fait en sorte de tirer le meilleur de chacun.
+ Il est est aussi celui qui tranche les problèmes épineux.
+ 
+\end_layout
+
+\begin_layout Description
+
+\noun on
+Garcia
+\noun default
+
+\begin_inset space ~
+\end_inset
+
+Fabien Responsable communication.
+ Interface entre l'équipe et les intervenants extérieurs.
+\end_layout
+
+\begin_layout Description
+
+\noun on
+Amrani-Mesbahi
+\begin_inset space ~
 \end_inset
 
 
+\noun default
+Jaafar Gestion de Projet & Document.
+ Son rôle est de mettre en place la méthode SCRUM et de gérer le système
+ d'information propre à l'équipe.
+ 
 \end_layout
 
-\begin_layout Itemize
-Rahma (Chef d'équipe) 
+\begin_layout Description
+
+\noun on
+Ait
+\begin_inset space ~
+\end_inset
+
+Belkacem
+\begin_inset space ~
+\end_inset
+
+
+\noun default
+Abdelali Responsable développement.
+ Dans le cadre du PFE, une réflexion sur des développements informatique
+ sera mené.
+ Il aura pour mission de manager cette partie du projet.
 \end_layout
 
-\begin_layout Itemize
-Fabien (Responsable communication) 
-\end_layout
+\begin_layout Description
 
-\begin_layout Itemize
-Jaafar (Gestion de Projet & Document) 
-\end_layout
+\noun on
+Nguyen
+\begin_inset space ~
+\end_inset
 
-\begin_layout Itemize
-Abdelali (Responsable developpement) 
-\end_layout
 
-\begin_layout Itemize
-Philipe (Responsable Réunion)
+\noun default
+Philipe Responsable Réunion.
+ Dans une optique d'optimiser notre temps de travail et améliorer notre
+ efficacité.
+ Son rôle est de contrôler le bon déroulement de tous les meeting entre
+ équipe, il anime aussi la réunion et s'assure que les discussions vont
+ dans le bon sens.
+ 
 \end_layout
 
 \begin_layout Section
@@ -380,7 +439,7 @@ Garcia
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-Mise en place système d'inforamation et outils collaboratifs (SVN)
+Mise en place système d'information et outils collaboratifs (SVN)
 \end_layout
 
 \begin_layout Standard
