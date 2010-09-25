@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -49,6 +49,145 @@ figs-within-sections
 
 \begin_layout Chapter
 Présentation Entreprise ST Micro Electronique
+\end_layout
+
+\begin_layout Section
+Présentation de l’entreprise
+\end_layout
+
+\begin_layout Standard
+Crée en 1998, STMicroelectronics n’a cessé de fournir à ces clients des
+ semi-conducteurs innovant s’appuyant sur ça technologie et son expertise.
+\end_layout
+
+\begin_layout Standard
+STMicroelectronics connue aussi sous le nom de ST est parmi l’un des leaders
+ mondiaux du développement et la réalisation de solutions sur silicium.
+ La firme occupe la 5éme position mondiale dans la fabrication des semi-conducte
+urs avec un chiffre d’affaire qui relève de 8,51 milliards de dollars selon
+ des statistiques faites en 2009 et avec plus de 5100 collaborateurs répartis
+ sur les 5 continents.
+ ST dispose d’un portefeuille très varié de produits de l’industrie, elle
+ fournit des semi-conducteurs innovant à ces clients qui correspondent à
+ leurs attentes tous en s’appuyant sur son large éventail de technologies.
+ Son expertise du silicium et des systèmes, sa puissance industrielle, son
+ portefeuille de propriétés intellectuelles et ses alliances stratégiques
+ permettent de placer ST en tête des technologies de systèmes sur puce,
+ et ses produits contribuent pleinement à la convergence des applications
+ et des marchés.
+ ST collabore avec différents secteurs d’activité.
+ Parmi ces secteurs on trouve :
+\end_layout
+
+\begin_layout Standard
+- Télécommunication mobile - Carte à puces, passeport, banque, carte vitale
+ - Equipements industriels - Grand public TV, électroménager, Décodeur TV,
+ console de jeux - Automobile - Ordinateur et périphérique
+\end_layout
+
+\begin_layout Subsection
+Historique
+\end_layout
+
+\begin_layout Standard
+Nommée SGS-Thomson après la fusion de la société italienne SGS –Società
+ Generale Semiconduttori- et la société française Thomson semi-conducteurs
+ en 1987, St n’a pas gardé pour longtemps ce nom la puisqu’en 1998 Thomson
+ s’est retiré et elle fut nommé STMicroelectronics.
+ Avant le retrait du capital Thomson, SGS-Thomson a racheté Inmos, Société
+ britanique en 1989 qui commençait sa fabrication de microprocesseurs Transputer
+ depuis 1978.
+ Au début des 90’s un accord de partenariat technologique entre SGS-Thomson
+ et Philips Semiconductors fut signé permettant a cette dernière de bénéficier
+ en 1993 de la nouvelle salle blanche de l'unité de R&D de SGS-Thomson à
+ Crolles sur un projet baptisé Grenoble 92.
+ L’année qui suit SGS-Thomson rachète quelques activités de semi-conducteurs
+ de la société canadienne Nortel Networks et l'usine de Rancho Bernardo,
+ pour racheter toute l’activité en 2000.
+ En 2002, Motorola Semiconductors et TSMC s'associent au partenariat technologiq
+ue ST-Philips.
+ C'est la création de l'Alliance Crolles2 avec la construction d'une nouvelle
+ unité de fabrication 300 mm, dans une salle blanche de 10.000 m², mais cette
+ alliance n’a pas durer pour longtemps puisqu’en 2007 NXP (ex Philips Semiconduc
+tors) et Freescale (ex Motorola Semi-conducteur) quittent Crolles2.
+ En cette même année ST et Intel créent une société commune nommée Numonyx
+ regroupant ainsi leurs activités de mémoires flash.
+ En avril 2008, ST détiendra 80% de la nouvelle société en créant une co-entrepr
+ise dans le domaine des technologies mobiles avec NXP Semiconductors et
+ se lança quelques mois après dans le projet ST-NXP Wireless.
+ En 2009, ST se lia à Ericsson sous le nom de ST-Ericsson tout en gardant
+ les mêmes activités et tranchant les 20% que NXP détenait de l’union ST-NXP
+ Wireless.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename E:/team-war/PFE/Doc/Images/HistoriqueSiteRouset.PNG
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Historique du site de Rousset"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La figure ci-dessous montre toutes les phases de changement d’actionnariat
+ Figure 1.1.1: Historique du site de Rousset
+\end_layout
+
+\begin_layout Subsection
+STMicroelectronics dans le monde
+\end_layout
+
+\begin_layout Standard
+STMicroelectronics a une présence mondiale très large.
+ La société emploie près de cinquante mille personnes qui sont réparties
+ sur dix-sept sites de production principaux.
+ Elle dénombre seize centres de Recherche et Développement avancé, trente-neuf
+ centres de conception et d’application et quatre-vingt-huit bureaux de
+ vente directe répartis dans trente et un pays.
+ La carte suivante présente le positionnement des différents sites dans
+ le monde.
+\end_layout
+
+\begin_layout Standard
+Bibliographie : http://www.st.com/ http://fr.wikipedia.org/wiki/STMicroelectronics
 \end_layout
 
 \end_body
