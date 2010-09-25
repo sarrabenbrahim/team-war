@@ -1,0 +1,143 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Sujet
+\end_layout
+
+\begin_layout Section
+Formulation du problème
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+2 solutions existantes: controle avec les plaques(trés long et trés cher)
+ ; controle des machines(moins cher, plus court, immobilsation de la machine,
+ arret de production).
+\end_layout
+
+\begin_layout Plain Layout
+la production n'est pas linèaire elle est bronienne , organisée sous forme
+ d'atelier.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Contraintes
+\end_layout
+
+\begin_layout Section
+Démarche adoptée
+\end_layout
+
+\begin_layout Standard
+Dans le but de trouver des méthodes d'estimation de volume de production
+ à risque, nous commencerons par une étude détaillée du sujet ainsi que
+ des articles en cours de publication afin de mieux comprendre le sujet
+ et ses nouveaux termes tel que W@R(le wafer at risque), après cela nous
+ aurons une vision globale de la situation actuelle du système de contrôle
+ qualité de l'entreprise, et pour avoir des idées en plus, nous prévoirons
+ de faire un Benchmarking ce qui nous ramènera à rechercher des solutions
+ pratiquées par les autres industries pour résoudre ce genre de problème.
+\end_layout
+
+\begin_layout Standard
+A ce niveau là nous essayerons de faire une modélisation de toutes les méthodes
+ et solutions trouvées, les exécutées sur papier au début dans l'attente
+ de faire un algorithme performant qui pourra nous être utile dans notre
+ cas.
+\end_layout
+
+\begin_layout Standard
+Le client de sa part il prendra toutes les solutions trouvées et il va les
+ étudier, l’évaluer et les tester pour voir le résultat pratique de notre
+ travail.
+ 
+\end_layout
+
+\begin_layout Section
+Objectif du PFE
+\end_layout
+
+\begin_layout Standard
+Dans l'entreprise ST Microélectronique la production se fait dans une ligne
+ non linéaire et elle ne suit pas le principe de FIFO(first in first out)
+ les produits passent par plusieurs ateliers et ne suivent pas le même trajet,
+ Donc mettre en place une procédure de contrôle ne sera pas facile, ainsi
+ que contrôler des plaques de silicium d'une part est très couteux et très
+ long et d'autre part contrôler les machine arrêtera la production, donc
+ la solution idéal sera de faire un minimum de contrôle tout en ayant une
+ trés bon qualité des produits.
+\end_layout
+
+\begin_layout Standard
+Pour résoudre ce fléau notre projet de fin d'étude consistera à rechercher
+ des solutions et des algorithmes permettant de calculer un indice nommé
+ W@R pour chaque lot de production, et à chaque machine de métrologie les
+ lots seront trier par ordre décroissant des W@R et la procédure sera comme
+ suit, les lots qui auront le W@R le plus élevé seront contrôler et ceux
+ qui auront un W@R inférieur a une valeur de confiance donnée passeront
+ sans être contrôlés.
+\end_layout
+
+\begin_layout Standard
+Cet objectif potentiel risquera de changer selon l'état d'avancement de
+ notre projet ainsi que les exigences de notre client .
+ 
+\end_layout
+
+\end_body
+\end_document
