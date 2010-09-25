@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -57,7 +57,7 @@ Présentation de l’entreprise
 
 \begin_layout Standard
 Crée en 1998, STMicroelectronics n’a cessé de fournir à ces clients des
- semi-conducteurs innovant s’appuyant sur ça technologie et son expertise.
+ semi-conducteurs innovant s’appuyant sur sa technologie et son expertise.
 \end_layout
 
 \begin_layout Standard
@@ -81,7 +81,7 @@ urs avec un chiffre d’affaire qui relève de 8,51 milliards de dollars selon
 
 \begin_layout Standard
 - Télécommunication mobile - Carte à puces, passeport, banque, carte vitale
- - Equipements industriels - Grand public TV, électroménager, Décodeur TV,
+ - Équipements industriels - Grand public TV, électroménager, Décodeur TV,
  console de jeux - Automobile - Ordinateur et périphérique
 \end_layout
 
@@ -90,13 +90,13 @@ Historique
 \end_layout
 
 \begin_layout Standard
-Nommée SGS-Thomson après la fusion de la société italienne SGS –Società
- Generale Semiconduttori- et la société française Thomson semi-conducteurs
+Nommée SGS-Thomson après la fusion de la société italienne SGS –Société
+ Générale Semiconduttori- et la société française Thomson semi-conducteurs
  en 1987, St n’a pas gardé pour longtemps ce nom la puisqu’en 1998 Thomson
  s’est retiré et elle fut nommé STMicroelectronics.
  Avant le retrait du capital Thomson, SGS-Thomson a racheté Inmos, Société
- britanique en 1989 qui commençait sa fabrication de microprocesseurs Transputer
- depuis 1978.
+ britannique en 1989 qui commençait sa fabrication de microprocesseurs Transpute
+r depuis 1978.
  Au début des 90’s un accord de partenariat technologique entre SGS-Thomson
  et Philips Semiconductors fut signé permettant a cette dernière de bénéficier
  en 1993 de la nouvelle salle blanche de l'unité de R&D de SGS-Thomson à
@@ -117,7 +117,14 @@ ise dans le domaine des technologies mobiles avec NXP Semiconductors et
  se lança quelques mois après dans le projet ST-NXP Wireless.
  En 2009, ST se lia à Ericsson sous le nom de ST-Ericsson tout en gardant
  les mêmes activités et tranchant les 20% que NXP détenait de l’union ST-NXP
- Wireless.
+ Wireless, cf fig:
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Historique-de-STMicroelectronics"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -127,19 +134,20 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename E:/team-war/PFE/Doc/Images/HistoriqueSiteRouset.PNG
+
+\emph on
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Historique-de-STMicroelectronics"
 
 \end_inset
 
 
+\emph default
+Historique du site de Rousset
 \end_layout
 
 \end_inset
@@ -148,7 +156,22 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/HistoriqueSiteRouset.PNG
+	width 100col%
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Le schéma montre toutes les phases des changement d’actionnariat.
+ Historique du site de Rousset.
 \end_layout
 
 \end_inset
@@ -157,18 +180,17 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Historique du site de Rousset"
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Pour les réference il y a les étiquettes et les références croisés qui sont
+ des étiquettes intelligente.
+\end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-La figure ci-dessous montre toutes les phases de changement d’actionnariat
- Figure 1.1.1: Historique du site de Rousset
 \end_layout
 
 \begin_layout Subsection
@@ -183,11 +205,27 @@ STMicroelectronics a une présence mondiale très large.
  centres de conception et d’application et quatre-vingt-huit bureaux de
  vente directe répartis dans trente et un pays.
  La carte suivante présente le positionnement des différents sites dans
- le monde.
+ le monde
+\begin_inset CommandInset citation
+LatexCommand cite
+key "web:ST"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Bibliographie : http://www.st.com/ http://fr.wikipedia.org/wiki/STMicroelectronics
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Pour la bibliographie il y a une bibliographie globale maintenant.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

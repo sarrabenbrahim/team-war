@@ -101,8 +101,96 @@ PS : N'oubliez jamais de faire des up avant de commencer à travailler sinon
 Démarche adoptée
 \end_layout
 
+\begin_layout Standard
+Dans le but de trouver des méthodes d'estimation de volume de production
+ à risque, nous commencerons par une étude détaillée du sujet.
+ Nous étudierons les derniers articles sur le sujet afin de mieux comprendre
+ le sujet et ses nouveaux termes tel que W@R(le wafer at risque).
+ Nous aurons ainsi une vision plus globale de la situation actuelle du système
+ de contrôle qualité de l'entreprise.
+ De plus nous couplerons notre étude avec un Benchmarking
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Action consistant à regarder les solutions à un problème donné dans différents
+ domaines.
+\end_layout
+
+\end_inset
+
+ des autres industries.
+\end_layout
+
+\begin_layout Standard
+Nous essayerons de faire une modélisation de toutes les méthodes et solutions
+ trouvées, les exécuter sur papier en premier lieu.
+ Puis nous proposerons un algorithme pouvant résoudre notre problème.
+ 
+\end_layout
+
+\begin_layout Standard
+Nous attacherons aussi une grande importance à conserver les méthodes ne
+ fonctionnant pas afin de constituer un REX
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Retour d'expérience
+\end_layout
+
+\end_inset
+
+ utile pour des développement ultérieur.
+\end_layout
+
+\begin_layout Standard
+Le client prendra les solutions trouvées, les évaluera et les testera grâce
+ à des données existantes.
+ 
+\end_layout
+
 \begin_layout Section
 Objectif du PFE
+\end_layout
+
+\begin_layout Standard
+Dans l'entreprise ST Microélectronique la production se fait dans une ligne
+ non linéaire et elle ne suit pas le principe de FIFO
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+First In First Out
+\end_layout
+
+\end_inset
+
+ les produits passent par plusieurs ateliers et ne suivent pas le même trajet.
+\end_layout
+
+\begin_layout Standard
+Donc mettre en place une procédure de contrôle ne sera pas facile, ainsi
+ que contrôler des plaques de silicium d'une part est très couteux et très
+ long et d'autre part contrôler les machine arrêtera la production, donc
+ la solution idéal sera de faire un minimum de contrôle tout en ayant une
+ trés bon qualité des produits.
+\end_layout
+
+\begin_layout Standard
+Pour résoudre ce problème notre projet de fin d'étude consistera à rechercher
+ des solutions et des algorithmes permettant de calculer un indice nommé
+ W@R pour chaque lot de production, et à chaque machine de métrologie les
+ lots seront trier par ordre décroissant des W@R et la procédure sera comme
+ suit, les lots qui auront le W@R le plus élevé seront contrôler et ceux
+ qui auront un W@R inférieur a une valeur de confiance donnée passeront
+ sans être contrôlés.
+\end_layout
+
+\begin_layout Standard
+Cet objectif potentiel risquera de changer selon l'état d'avancement de
+ notre projet ainsi que les exigences de notre client .
+ 
 \end_layout
 
 \end_body
