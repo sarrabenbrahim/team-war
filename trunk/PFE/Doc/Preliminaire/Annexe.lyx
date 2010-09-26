@@ -892,7 +892,7 @@ name "fig:BurnDown-Chart"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/garciaf/SVN/Polybenchmark/PRT/doc/Schema_et_Legende/BurndownChart.png
+	filename ../Images/BurndownChart.png
 	lyxscale 30
 	width 100col%
 
