@@ -220,7 +220,7 @@ Structure Globale de la méthode SCRUM
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/garciaf/SVN/Polybenchmark/PRT/doc/Schema_et_Legende/ScrumShemaGlobal.bmp
+	filename ../Images/ScrumShemaGlobal.png
 	lyxscale 50
 	width 100col%
 
