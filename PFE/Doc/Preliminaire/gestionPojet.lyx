@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -169,8 +169,8 @@ Explication détaillé de la méthode en annexe
 \end_inset
 
 .
- En effet il apparaît que le projet pourra subir de nombreuses modifications
- en fonction de l'avancement.
+ En effet le projet pourra subir de nombreuses modifications en fonction
+ de l'avancement.
  
 \end_layout
 
@@ -343,7 +343,7 @@ Bonnes pratiques
 \begin_inset Quotes frd
 \end_inset
 
- au sein de ST MicroElectronique
+ au sein de ST Microelectronics
 \end_layout
 
 \end_deeper
