@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -56,19 +56,19 @@ Présentation de l’entreprise
 \end_layout
 
 \begin_layout Standard
-Crée en 1998, STMicroelectronics n’a cessé de fournir à ces clients des
+Crée en 1998, STMicroelectronics n’a cessé de fournir à ses clients des
  semi-conducteurs innovant s’appuyant sur sa technologie et son expertise.
 \end_layout
 
 \begin_layout Standard
 STMicroelectronics connue aussi sous le nom de ST est parmi l’un des leaders
- mondiaux du développement et la réalisation de solutions sur silicium.
- La firme occupe la 5éme position mondiale dans la fabrication des semi-conducte
+ mondiaux du développement et de la réalisation de solutions sur silicium.
+ La firme occupe la 5ème position mondiale dans la fabrication des semi-conducte
 urs avec un chiffre d’affaire qui relève de 8,51 milliards de dollars selon
  des statistiques faites en 2009 et avec plus de 5100 collaborateurs répartis
  sur les 5 continents.
  ST dispose d’un portefeuille très varié de produits de l’industrie, elle
- fournit des semi-conducteurs innovant à ces clients qui correspondent à
+ fournit des semi-conducteurs innovant à ses clients qui correspondent à
  leurs attentes tous en s’appuyant sur son large éventail de technologies.
  Son expertise du silicium et des systèmes, sa puissance industrielle, son
  portefeuille de propriétés intellectuelles et ses alliances stratégiques
@@ -80,9 +80,27 @@ urs avec un chiffre d’affaire qui relève de 8,51 milliards de dollars selon
 \end_layout
 
 \begin_layout Standard
-- Télécommunication mobile - Carte à puces, passeport, banque, carte vitale
- - Équipements industriels - Grand public TV, électroménager, Décodeur TV,
- console de jeux - Automobile - Ordinateur et périphérique
+- Télécommunication mobile
+\end_layout
+
+\begin_layout Standard
+- Carte à puces, passeport, banque, carte vitale 
+\end_layout
+
+\begin_layout Standard
+- Équipements industriels
+\end_layout
+
+\begin_layout Standard
+- Grand public TV, électroménager, Décodeur TV, console de jeux
+\end_layout
+
+\begin_layout Standard
+- Automobile 
+\end_layout
+
+\begin_layout Standard
+- Ordinateur et périphérique
 \end_layout
 
 \begin_layout Subsection
