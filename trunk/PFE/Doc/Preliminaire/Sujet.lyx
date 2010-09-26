@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4.1 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -52,53 +52,125 @@ Sujet
 \end_layout
 
 \begin_layout Section
-Formulation du problème
+Problématique actuelle
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-2 solutions existantes: controle avec les plaques(trés long et trés cher)
- ; controle des machines(moins cher, plus court, immobilsation de la machine,
- arret de production).
-\end_layout
-
-\begin_layout Plain Layout
-la production n'est pas linèaire elle est bronienne , organisée sous forme
- d'atelier.
-\end_layout
-
+Dans le but de maîtriser les volumes de production à risque, ce qui optimiserait
+ la productivité et la gestion des coûts, une étude de faisabilité sur l'évaluat
+ion des 
+\begin_inset Quotes fld
 \end_inset
 
+Wafer@Risk
+\begin_inset Quotes frd
+\end_inset
 
-\end_layout
-
-\begin_layout Section
-Contraintes
+ (WAR) nous a été confiée.
+ Cette méthode est basée sur une notion importante en métrologie : l'échantillon
+nage.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Philippe Test! Tu as vu ça marche ! (Fabien)
-\end_layout
-
-\begin_layout Plain Layout
-PS : N'oubliez jamais de faire des up avant de commencer à travailler sinon
- vous n'allez pas aimer ce qui va se passer.
-\end_layout
-
+La pratique actuelle de l'entreprise consiste à compter le nombre de plaque
+ de silicium travaillée entre deux mesures.
+ Ce comptage peut être référencé selon une machine de production ou selon
+ une technologie mais qui ne tienne pas compte de plusieurs types de paramètre.
+ Le cycle de production moyen est de 3 mois, tracé par un système GPAO.
+ La production est du type 
+\begin_inset Quotes fld
 \end_inset
 
+jobshop
+\begin_inset Quotes frd
+\end_inset
 
+ par lots de 25 plaques de silicium.
+ Ce dernier ne suit pas le principe First In First Out (FIFO) ce qui constitue
+ la difficulté majeure de cette étude.
+\end_layout
+
+\begin_layout Standard
+Il existe deux types de contrôle pour assurer les volumes de production
+ à risque :
+\end_layout
+
+\begin_layout Itemize
+Contrôle de fiabilité des machines de production (contrôle en amont), c'est
+ une tâche de maintenance périodique qui consiste à vérifier son bon fonctionnem
+ent à l'aide d'une plaque de silicium vierge.
+ Dans le cas de non conformité, il va falloir effectuer un étalonnage voire
+ une opération de maintenance.
+ Ce type de contrôle n'est pas onéreux ni trop long mais qui engendre l'indispon
+ibilité temporaire de la machine dans la production.
+\end_layout
+
+\begin_layout Itemize
+Contrôle sur des plaques de silicium travaillées (contrôle en aval) à l'aide
+ des appareils de métrologie qui sont très onéreux.
+ De plus ce type de mesure est très long, un appareil de mesure a besoin
+ de quelques heures pour contrôler 3 plaques.
+ En cas de non conformité, il va falloir corriger ces défauts à l'aide des
+ procédés (machines) qui sont aussi onéreux et long.
+\end_layout
+
+\begin_layout Standard
+Les tâches de contrôle engendrent donc des coûts au niveau de la productivité
+ (indisponibilité) et aussi au niveau du personnel (temps alloué).
+ L'objectif de cette étude consiste donc à trouver un algorithme ou une
+ méthode pour optimiser la maîtrise des volumes de production à risque.
+ Cette optimisation tend à diminuer la fréquence des tâches de contrôle
+ tout en garantissant un taux de risque optimal (qualité).
+ Cette dernière permettrait également d'éviter des contrôles non nécessaires
+ sur certaines machines de production ou certaines technologies où le taux
+ de production à risque est négligeable.
 \end_layout
 
 \begin_layout Section
-Démarche adoptée
+Plan d'étude
+\end_layout
+
+\begin_layout Subsection
+Résumé
+\end_layout
+
+\begin_layout Standard
+Pour mener à bien cette mission, l'équipe Team-WAR adopte les démarches
+ suivantes :
+\end_layout
+
+\begin_layout Itemize
+Etude détaillée du sujet pour comprendre la problématique et les attentes
+ du client.
+\end_layout
+
+\begin_layout Itemize
+Etudier les articles scientifiques concernant les Wafer@Risk et les plans
+ d'expérience.
+\end_layout
+
+\begin_layout Itemize
+Mener une étude de Benchmarking afin de s'en inspirer et d'en retirer les
+ solutions applicables à notre problématique.
+\end_layout
+
+\begin_layout Itemize
+Répertorier toutes les méthodes et les solutions trouvées.
+ Conserver éventuellement les méthodes ne fonctionnant pas afin de constituer
+ un REX (retour d'expérience) utile pour les développements ultérieurs.
+\end_layout
+
+\begin_layout Itemize
+Proposer des algorithmes pouvant potentiellement résoudre le problème du
+ client.
+\end_layout
+
+\begin_layout Itemize
+Les tests et la validation des solutions sont à la charge du client.
+\end_layout
+
+\begin_layout Subsection
+Détail
 \end_layout
 
 \begin_layout Standard
@@ -141,7 +213,7 @@ Retour d'expérience
 
 \end_inset
 
- utile pour des développement ultérieur.
+ utile pour les développement ultérieur.
 \end_layout
 
 \begin_layout Standard
