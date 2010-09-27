@@ -100,38 +100,6 @@ status open
 
 
 \backslash
-doparttoc
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-dominitoc
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
 newcommand{
 \backslash
 boitecolor}[3]    {
@@ -230,7 +198,24 @@ status open
 
 
 \backslash
-boitecolor{yellow}{red}{Version Intermédiaire}
+boitecolor{white}{red}{Version Intermédiaire}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+boitecolor{white}{red}{R 40}
 \end_layout
 
 \end_inset
@@ -277,9 +262,33 @@ Philippe NGUYEN
 
 
 \begin_inset Graphics
+	filename ../../../Logo/STMicroelectronics.png
+	lyxscale 25
+	width 4cm
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../../../Logo/Logo_Polytech.png
+	lyxscale 25
+	width 4cm
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
 	filename ../../../Logo/team-WAR.png
 	lyxscale 10
-	width 6cm
+	width 4cm
 
 \end_inset
 
@@ -319,7 +328,7 @@ Claudia Frydmann
 \end_layout
 
 \begin_layout Author
-24 Septembre 2010
+27 Septembre 2010
 \begin_inset Newline newline
 \end_inset
 
@@ -342,24 +351,6 @@ boitecolor{white}{black}{Team-war@prunetwork.fr}
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-%
-\backslash
-setcounter{tocdepth}{2} 
-\backslash
-tableofcontents
-\end_layout
 
 \end_inset
 
@@ -426,7 +417,7 @@ filename "Annexe.lyx"
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "../../../Bibliographie/BiblioTeamWAR"
-options "bibtotoc,plainnat"
+options "plainnat"
 
 \end_inset
 
