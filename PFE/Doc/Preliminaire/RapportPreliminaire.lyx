@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -267,7 +267,7 @@ Rahma NAKARA
 \begin_inset Newline newline
 \end_inset
 
-Philippe NGUYEN
+Philipe NGUYEN
 \begin_inset Newline newline
 \end_inset
 
@@ -366,6 +366,10 @@ tableofcontents
 
 \end_layout
 
+\begin_layout Part
+Rapport Préliminaire
+\end_layout
+
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
@@ -402,6 +406,13 @@ filename "Conclusion.lyx"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Part*
+Annexe
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "Annexe.lyx"

@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -56,8 +56,15 @@ Présentation de l’entreprise
 \end_layout
 
 \begin_layout Standard
-Crée en 1998, STMicroelectronics n’a cessé de fournir à ses clients des
- semi-conducteurs innovant s’appuyant sur sa technologie et son expertise.
+Crée en 1998, STMicroelectronics
+\begin_inset CommandInset citation
+LatexCommand cite
+key "web:ST"
+
+\end_inset
+
+ n’a cessé de fournir à ses clients des semi-conducteurs innovant s’appuyant
+ sur sa technologie et son expertise.
 \end_layout
 
 \begin_layout Standard
@@ -108,10 +115,17 @@ Historique
 \end_layout
 
 \begin_layout Standard
-Nommée SGS-Thomson après la fusion de la société italienne SGS –Société
- Générale Semiconduttori- et la société française Thomson semi-conducteurs
- en 1987, St n’a pas gardé pour longtemps ce nom la puisqu’en 1998 Thomson
- s’est retiré et elle fut nommé STMicroelectronics.
+Nommée SGS-Thomson
+\begin_inset CommandInset citation
+LatexCommand cite
+key "web:WikipediaST"
+
+\end_inset
+
+ après la fusion de la société italienne SGS –Société Générale Semiconduttori-
+ et la société française Thomson semi-conducteurs en 1987, St n’a pas gardé
+ pour longtemps ce nom la puisqu’en 1998 Thomson s’est retiré et elle fut
+ nommé STMicroelectronics.
  Avant le retrait du capital Thomson, SGS-Thomson a racheté Inmos, Société
  britannique en 1989 qui commençait sa fabrication de microprocesseurs Transpute
 r depuis 1978.
@@ -223,27 +237,7 @@ STMicroelectronics a une présence mondiale très large.
  centres de conception et d’application et quatre-vingt-huit bureaux de
  vente directe répartis dans trente et un pays.
  La carte suivante présente le positionnement des différents sites dans
- le monde
-\begin_inset CommandInset citation
-LatexCommand cite
-key "web:ST"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Pour la bibliographie il y a une bibliographie globale maintenant.
-\end_layout
-
-\end_inset
-
-
+ le monde.
 \end_layout
 
 \end_body
