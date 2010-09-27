@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -153,12 +153,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename C:/Documents and Settings/Abdel/Mes documents/Mes images/diagramme.bmp
-
-\end_inset
-
-
+Diagramme de la démarche
 \end_layout
 
 \end_inset
@@ -167,6 +162,27 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/DiagrammeDémarche.PNG
+	lyxscale 40
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Ce diagramme résume brièvement la démarche qui sera employé pendant le PFE
+ par l'équipe team W@R
+\end_layout
+
+\begin_layout Plain Layout
+\align center
 
 \end_layout
 
