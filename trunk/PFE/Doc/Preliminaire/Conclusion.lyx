@@ -53,22 +53,30 @@ Conclusion
 
 \begin_layout Standard
 Afin de débuter correctement notre projet de fin d'étude qui concerne l'évaluati
-on des Wafer à Risque nous avons du faire une phase d'analyse du sujet afin
- de mieu définir l'environnement et les limites de la problématique, ensuite
- nous avons proposé une gestion de projet qui s'appuit sur la mèthode Agile
- pour définir les rôles et le travail de chaque membre du groupe.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-mon inspiration et mon cerveau ont beugué comme dans windows l'écran bleu
- et bam c'est ettein , je rallume demain et plz quelque idées seront les
- biens venues :)
+on des Wafer à Risque nous avons du faire une phase d'analyse.
+ cette dernière presentée dans ce rapport a été faite grâce à un entretient
+ avec l'industriel.
+ Lors de cet entrevue nous avons eu un cahier des charges simplifié.
+ De plus nous avons été orienté vers une recherche bibliographique pour
+ mieux comprendre les différents aspects du problème.
+ 
 \end_layout
+
+\begin_layout Standard
+A la vue du cahier du charge qui risque d'évoluer, le choix de la méthode
+ de gestion de projet Agile serait la plus adaptée.
+ Nous nous somme donc appuyés sur la méthode 
+\emph on
+SCRUM
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Book:PolyBenchmark"
 
 \end_inset
 
-
+, une méthode particulière et évolutive.
 \end_layout
 
 \end_body
