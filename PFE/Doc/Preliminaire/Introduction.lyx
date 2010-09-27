@@ -54,9 +54,17 @@ Introduction
 \begin_layout Standard
 Au terme de notre formation nous entamons un PFE (projet de fin d'étude)
  qui se déroulera sur 5 mois.
- Dans le cadre de ce projet nous sommes amené a effectuer un travail en
- groupe qui consiste en une étude de faisabilité.
- Notre client pour ce projet sera la société internationale 
+ Dans le cadre de ce projet nous sommes amenés à effectuer un travail de
+ groupe qui consiste en une étude de faisabilité sur l'évaluation des 
+\begin_inset Quotes fld
+\end_inset
+
+Wafer@Risk
+\begin_inset Quotes frd
+\end_inset
+
+ (WAR).
+ Notre client pour ce projet sera la multinationale 
 \emph on
 STMicroelectronics, 
 \emph default
@@ -69,26 +77,21 @@ le site qui se trouve à Rousset.
 \end_layout
 
 \begin_layout Standard
-Actuellement dans la société 
+
 \emph on
 STMicroelectronics
 \emph default
- spécialisée dans le développement, la fabrication et la commercialisation
- des puces électroniques (semi conducteurs); le nombre de plaque de silicium
- est simplement compté entre deux contrôles ( i.e mesures).
- En effet les mesures effectuées sur les plaques de production et sur les
- plaques de test liées aux qualifications périodiques sont prisent en compte
- de la même manière sans se préoccuper de la signification des mesures.
- D'autre part ce comptage peut être référencé par apport à une machine ou
- une technologie ( i.e produit) sans tenir compte de l'existence des différents
- paramètres ni de l'interaction potentielle entre ces derniers.
+ est spécialisée dans le développement, la fabrication et la commercialisation
+ des puces électroniques (semi-conducteurs).
+ Dans le cadre d'un marché concurrentiel, l'entreprise cherche à maîtriser
+ ses coûts de production.
+ La recherche de méthode d'estimation de volume de production à risque des
+ plaques de silicium nous a été assignée.
 \end_layout
 
 \begin_layout Standard
-Ce rapport préliminaire constitue la première étape de notre étude de faisabilit
-é.
- Dans ce présent rapport nous nous contentons d'introduire les bases de
- notre étude et la compréhension du projet.
+Dans ce présent rapport nous nous contentons d'introduire les bases de notre
+ étude et la compréhension du projet.
  
 \end_layout
 
