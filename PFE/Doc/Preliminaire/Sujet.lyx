@@ -56,7 +56,7 @@ Problématique actuelle
 \end_layout
 
 \begin_layout Standard
-Dans le but de maîtriser les volumes de production à risque, qui optimiserait
+Dans le but de maîtriser les volumes de production à risque, ce qui optimiserait
  la productivité et la gestion des coûts, une étude de faisabilité sur l'évaluat
 ion des 
 \begin_inset Quotes fld
@@ -75,7 +75,7 @@ nage.
 La pratique actuelle de l'entreprise consiste à compter le nombre de plaque
  de silicium travaillée entre deux mesures.
  Ce comptage peut être référencé selon une machine de production ou selon
- une technologie mais qui ne tient pas compte de plusieurs types de paramètre.
+ une technologie mais qui ne tienne pas compte de plusieurs types de paramètre.
  Le cycle de production moyen est de 3 mois, tracé par un système GPAO.
  La production est du type 
 \begin_inset Quotes fld
@@ -86,8 +86,8 @@ jobshop
 \end_inset
 
  par lots de 25 plaques de silicium.
- Cette dernière ne suit pas le principe First In First Out (FIFO) ce qui
- constitue la difficulté majeure de cette étude.
+ Ce dernier ne suit pas le principe First In First Out (FIFO) ce qui constitue
+ la difficulté majeure de cette étude.
 \end_layout
 
 \begin_layout Standard
@@ -97,12 +97,12 @@ Il existe deux types de contrôle pour assurer les volumes de production
 
 \begin_layout Itemize
 Contrôle de fiabilité des machines de production (contrôle en amont), c'est
- une tâche de maintenance périodique qui consiste à vérifier le bon fonctionneme
-nt des machines à l'aide d'une plaque de silicium vierge.
- Dans le cas de non conformité, il faudra effectuer un étalonnage voire
+ une tâche de maintenance périodique qui consiste à vérifier son bon fonctionnem
+ent à l'aide d'une plaque de silicium vierge.
+ Dans le cas de non conformité, il va falloir effectuer un étalonnage voire
  une opération de maintenance.
- Ce type de contrôle n'est pas onéreux ni trop long mais il engendre l'indisponi
-bilité temporaire de la machine durant la production.
+ Ce type de contrôle n'est pas onéreux ni trop long mais qui engendre l'indispon
+ibilité temporaire de la machine dans la production.
 \end_layout
 
 \begin_layout Itemize
@@ -110,8 +110,8 @@ Contrôle sur des plaques de silicium travaillées (contrôle en aval) à l'aide
  des appareils de métrologie qui sont très onéreux.
  De plus ce type de mesure est très long, un appareil de mesure a besoin
  de quelques heures pour contrôler 3 plaques.
- En cas de non conformité, il faudra corriger ces défauts à l'aide de long
- procédés (machines) et qui coûtent très cher.
+ En cas de non conformité, il va falloir corriger ces défauts à l'aide des
+ procédés (machines) qui sont aussi onéreux et long.
 \end_layout
 
 \begin_layout Standard
@@ -139,34 +139,40 @@ Pour mener à bien cette mission, l'équipe Team-WAR adopte les démarches
  suivantes :
 \end_layout
 
-\begin_layout Itemize
-Etude détaillée du sujet pour comprendre la problématique et les attentes
- du client.
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Itemize
-Etudier les articles scientifiques concernant les Wafer@Risk et les plans
- d'expérience.
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename C:/Documents and Settings/Abdel/Mes documents/Mes images/diagramme.bmp
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-Mener une étude de Benchmarking afin de s'en inspirer et d'en retirer les
- solutions applicables à notre problématique.
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-Répertorier toutes les méthodes et les solutions trouvées.
- Conserver éventuellement les méthodes qui ne fonctionnent pas afin de constitue
-r un REX (retour d'expérience) utile pour les développements ultérieurs.
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Itemize
-Proposer des algorithmes pouvant potentiellement résoudre le problème du
- client.
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-Les tests et la validation des solutions sont à la charge du client.
+
 \end_layout
 
 \begin_layout Subsection
@@ -177,7 +183,7 @@ Détail
 Dans le but de trouver des méthodes d'estimation de volume de production
  à risque, nous commencerons par une étude détaillée du sujet.
  Nous étudierons les derniers articles sur le sujet afin de mieux comprendre
- ce dernier et ses nouveaux termes tel que W@R(le wafer at risque).
+ le sujet et ses nouveaux termes tel que W@R(le wafer at risque).
  Nous aurons ainsi une vision plus globale de la situation actuelle du système
  de contrôle qualité de l'entreprise.
  De plus nous couplerons notre étude avec un Benchmarking
@@ -213,17 +219,7 @@ Retour d'expérience
 
 \end_inset
 
- utile pour les développement ultérieur.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-ça repete ce qui est dit dans le paragraphe du dessus sans plus
-\end_layout
-
-\end_inset
-
-
+ utile pour les développements ultérieurs.
 \end_layout
 
 \begin_layout Standard
@@ -237,8 +233,8 @@ Objectif du PFE
 \end_layout
 
 \begin_layout Standard
-Dans l'entreprise ST Microelectronics la production se fait dans une ligne
- non linéaire et elle ne suit pas le principe du FIFO
+Dans l'entreprise STMicroelectronics la production se fait dans une ligne
+ non linéaire et elle ne suit pas le principe de FIFO
 \begin_inset Foot
 status open
 
@@ -248,16 +244,15 @@ First In First Out
 
 \end_inset
 
-, en effet les produits passent par plusieurs ateliers et ne suivent pas
- le même trajet.
+ les produits passent par plusieurs ateliers et ne suivent pas le même trajet.
 \end_layout
 
 \begin_layout Standard
 Donc mettre en place une procédure de contrôle ne sera pas facile, ainsi
  que contrôler des plaques de silicium d'une part est très couteux et très
  long et d'autre part contrôler les machine arrêtera la production, donc
- la solution idéal sera de faire un minimum de contrôle tout en ayant des
- produits de bonne qualité.
+ la solution idéal sera de faire un minimum de contrôle tout en ayant une
+ trés bonne qualité des produits.
 \end_layout
 
 \begin_layout Standard
@@ -266,7 +261,7 @@ Pour résoudre ce problème notre projet de fin d'étude consistera à recherche
  W@R pour chaque lot de production, et à chaque machine de métrologie les
  lots seront trier par ordre décroissant des W@R et la procédure sera comme
  suit, les lots qui auront le W@R le plus élevé seront contrôler et ceux
- qui auront un W@R inférieur a une valeur de confiance donnée passeront
+ qui auront un W@R inférieur à une valeur de confiance donnée passeront
  sans être contrôlés.
 \end_layout
 
