@@ -177,11 +177,6 @@ Ce diagramme résume brièvement la démarche qui sera employé pendant le PFE
  par l'équipe team W@R
 \end_layout
 
-\begin_layout Plain Layout
-\align center
-
-\end_layout
-
 \end_inset
 
 
@@ -199,7 +194,7 @@ t de calculer un indice nommé W@R pour chaque lot de plaques.
 \begin_layout Standard
 A chaque machine de métrologie les lots seront triés par ordre décroissant
  des W@R et la procédure sera comme suit, les lots qui auront le W@R le
- plus élevé seront contrôler et ceux qui auront un W@R inférieur à une valeur
+ plus élevé seront contrôlés et ceux qui auront un W@R inférieur à une valeur
  de confiance donnée passeront sans être contrôlés.
 \end_layout
 
