@@ -66,7 +66,28 @@ Wafer@Risk
 \begin_inset Quotes frd
 \end_inset
 
- (WAR) nous a été confiée.
+ (
+\begin_inset Index
+status open
+
+\begin_layout Plain Layout
+W@R
+\end_layout
+
+\end_inset
+
+W@R) 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+C'est l'indice sur lequel on se base pour savoir les lots qui ont le plus
+ de chance d'être déféctueux
+\end_layout
+
+\end_inset
+
+nous a été confiée.
  Cette méthode est basée sur une notion importante en métrologie : l'échantillon
 nage.
 \end_layout
@@ -74,8 +95,8 @@ nage.
 \begin_layout Standard
 La pratique actuelle de l'entreprise consiste à compter le nombre de plaques
  de silicium travaillées entre deux mesures.
- Ce comptage peut être référencé selon une machine de production ou selon
- une technologie mais qui ne tienne pas compte de plusieurs types de paramètre
+ Ce comptage peut être référencé à une machine de production ou à une technologi
+e et il ne prend pas en compte les paramètres des plaques 
 \begin_inset Note Note
 status open
 
@@ -197,15 +218,6 @@ Mission
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Problème définition du Benchmarking
-\end_layout
-
-\end_inset
-
 Notre mission consistera à rechercher des solutions et des algorithmes permettan
 t de calculer un indice nommé W@R pour chaque lot de plaques.
 \end_layout
