@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -121,6 +121,27 @@ SCRUM
 \emph default
  faisant partis des méthodes AGILE et nous préciserons le rôle de chaque
  membre de l'équipe.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Trop scolaire 
+\end_layout
+
+\begin_layout Plain Layout
+Pas de présentation des objectifs
+\end_layout
+
+\begin_layout Plain Layout
+Pas de définitions de W@F Glossaires 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body

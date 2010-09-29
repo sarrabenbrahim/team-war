@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -72,10 +72,20 @@ nage.
 \end_layout
 
 \begin_layout Standard
-La pratique actuelle de l'entreprise consiste à compter le nombre de plaque
- de silicium travaillée entre deux mesures.
+La pratique actuelle de l'entreprise consiste à compter le nombre de plaques
+ de silicium travaillées entre deux mesures.
  Ce comptage peut être référencé selon une machine de production ou selon
- une technologie mais qui ne tienne pas compte de plusieurs types de paramètre.
+ une technologie mais qui ne tienne pas compte de plusieurs types de paramètre
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Pas claire, à reformuler, chercher sur les auteurs, risque sur le produit
+\end_layout
+
+\end_inset
+
+.
  Le cycle de production moyen est de 3 mois, tracé par un système GPAO.
  La production est du type 
 \begin_inset Quotes fld
@@ -187,6 +197,15 @@ Mission
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Problème définition du Benchmarking
+\end_layout
+
+\end_inset
+
 Notre mission consistera à rechercher des solutions et des algorithmes permettan
 t de calculer un indice nommé W@R pour chaque lot de plaques.
 \end_layout
