@@ -52,28 +52,16 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-Au terme de notre formation nous entamons un PFE (projet de fin d'étude)
- qui se déroulera sur 5 mois.
- Dans le cadre de ce projet nous sommes amenés à effectuer un travail de
- groupe qui consiste en une étude de faisabilité sur l'évaluation des 
-\begin_inset Quotes fld
-\end_inset
-
-Wafer@Risk
-\begin_inset Quotes frd
-\end_inset
-
- (WAR).
- Notre client pour ce projet sera la multinationale 
-\emph on
-STMicroelectronics, 
-\emph default
-plus précisément
-\emph on
+Au terme de notre formation d'ingénieur nous entamons un PFE (projet de
+ fin d'étude) qui se déroulera sur 5 mois.
+ Le projet est une étude de faisabilité.
  
-\emph default
-le site qui se trouve à Rousset.
- 
+\end_layout
+
+\begin_layout Standard
+L'objectif est d'optimiser le contrôle des produits et les machines, en
+ effet dans le domaine de la micro électronique les exigences qualités et
+ la concurrence rendent ce type d'étude déterminant.
 \end_layout
 
 \begin_layout Standard
@@ -81,18 +69,8 @@ le site qui se trouve à Rousset.
 \emph on
 STMicroelectronics
 \emph default
- est spécialisée dans le développement, la fabrication et la commercialisation
- des puces électroniques (semi-conducteurs).
- Dans le cadre d'un marché concurrentiel, l'entreprise cherche à maîtriser
- ses coûts de production.
- La recherche de méthode d'estimation de volume de production à risque des
- plaques de silicium nous a été assignée.
-\end_layout
-
-\begin_layout Standard
-Dans ce présent rapport nous nous contentons d'introduire les bases de notre
- étude et la compréhension du projet.
- 
+ est spécialisée dans le développement, et la fabrication des puces électronique
+s (semi-conducteurs).
 \end_layout
 
 \begin_layout Standard
@@ -121,27 +99,6 @@ SCRUM
 \emph default
  faisant partis des méthodes AGILE et nous préciserons le rôle de chaque
  membre de l'équipe.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Trop scolaire 
-\end_layout
-
-\begin_layout Plain Layout
-Pas de présentation des objectifs
-\end_layout
-
-\begin_layout Plain Layout
-Pas de définitions de W@F Glossaires 
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_body
