@@ -60,15 +60,6 @@ Après notre première réunion, nous avons décidé de nous répartir les respo
 ités en fonctions des centres d'intérêts de chacun.
  Nous avons répartis les responsabilités en fonction du sujet de PFE lui
  même.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Revoir la forme
-\end_layout
-
-\end_inset
-
  
 \end_layout
 
@@ -81,8 +72,7 @@ Nakara
 \begin_inset space ~
 \end_inset
 
-Rahma Chef d'équipe.
- Son rôle est proche de celui du 
+Rahma Chef d'équipe, son rôle se rapproche de celui du 
 \emph on
 coach
 \emph default
@@ -100,8 +90,8 @@ Garcia
 \begin_inset space ~
 \end_inset
 
-Fabien Responsable communication.
- Interface entre l'équipe et les intervenants extérieurs.
+Fabien Responsable de communication, il interface l'équipe et les intervenants
+ extérieurs.
 \end_layout
 
 \begin_layout Description
@@ -113,9 +103,8 @@ Amrani-Mesbahi
 
 
 \noun default
-Jaafar Gestion de Projet & Document.
- Son rôle est de mettre en place la méthode SCRUM et de gérer le système
- d'information propre à l'équipe.
+Jaafar Gestion de Projet & Document, il met en place la méthode SCRUM et
+ gère le système d'information propre à l'équipe.
  
 \end_layout
 
@@ -132,9 +121,8 @@ Belkacem
 
 
 \noun default
-Abdelali Responsable développement.
- Dans le cadre du PFE, une réflexion sur des développements informatique
- sera mené.
+Abdelali Responsable développement, dans le cadre du PFE, une réflexion
+ sur des développements informatique sera mené.
  Il aura pour mission de manager cette partie du projet.
 \end_layout
 
@@ -147,12 +135,10 @@ Nguyen
 
 
 \noun default
-Philipe Responsable Réunion.
- Dans une optique d'optimiser notre temps de travail et améliorer notre
- efficacité.
+Philipe Responsable Réunion, il est optimise notre temps de travail et améliorer
+ notre efficacité.
  Son rôle est de contrôler le bon déroulement de tous les meeting entre
- équipe, il anime aussi la réunion et s'assure que les discussions vont
- dans le bon sens.
+ équipe.
  
 \end_layout
 
@@ -167,13 +153,10 @@ Choix de la méthode agile
 \begin_layout Standard
 Après une explication détaillée du sujet par notre client.
  Il est apparue que la gestion de projet collant au mieux au sujet du PFE
- est la méthode agile
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Explication détaillé de la méthode en annexe
-\end_layout
+ est la méthode agile cf Chap
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:Gestion-de-Projet-Agile"
 
 \end_inset
 
