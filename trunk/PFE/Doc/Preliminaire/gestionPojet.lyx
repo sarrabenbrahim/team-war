@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -58,8 +58,17 @@ Organisation de l'équipe
 \begin_layout Standard
 Après notre première réunion, nous avons décidé de nous répartir les responsabil
 ités en fonctions des centres d'intérêts de chacun.
- Nous avons organisés les responsabilités en fonction du sujet de PFE lui
+ Nous avons répartis les responsabilités en fonction du sujet de PFE lui
  même.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Revoir la forme
+\end_layout
+
+\end_inset
+
  
 \end_layout
 
@@ -175,8 +184,8 @@ Explication détaillé de la méthode en annexe
 \end_layout
 
 \begin_layout Standard
-Plutôt que de subir ces modifications avec une gestion de projet traditionnelle.
- Nous préférons en prendre notre partie et l'intégrer dans notre gestion
+Plutôt que de subir ces modifications avec une gestion de projet traditionnelle,
+ nous préférons en prendre notre partie et l'intégrer dans notre gestion
  de projet.
 \end_layout
 
