@@ -62,7 +62,7 @@ ion des
 \begin_inset Quotes fld
 \end_inset
 
-Wafer@Risk
+Wafer at Risk
 \begin_inset Quotes frd
 \end_inset
 
@@ -82,7 +82,7 @@ status open
 
 \begin_layout Plain Layout
 C'est l'indice sur lequel on se base pour savoir les lots qui ont le plus
- de chance d'être déféctueux
+ de chance d'être défectueux
 \end_layout
 
 \end_inset
@@ -94,29 +94,39 @@ nous a été confiée.
 La pratique actuelle de l'entreprise consiste à compter le nombre de plaques
  de silicium travaillées entre deux mesures.
  Ce comptage peut être référencé à une machine de production ou à une technologi
-e et il ne prend pas en compte les paramètres des plaques 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Pas claire, à reformuler, chercher sur les auteurs, risque sur le produit
-\end_layout
-
-\end_inset
-
-.
- Le cycle de production moyen est de 3 mois, tracé par un système GPAO.
+e et il ne prend pas en compte les paramètres des plaques.
+ Le cycle de production moyen est de trois mois, tracé par un système GPAO.
  La production est du type 
 \begin_inset Quotes fld
 \end_inset
 
 jobshop
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Production en atelier, mouvement brownien des produits dans le cycle de
+ production.
+\end_layout
+
+\end_inset
+
+
 \begin_inset Quotes frd
 \end_inset
 
  par lots de 25 plaques de silicium.
- Ce dernier ne suit pas le principe First In First Out (FIFO) ce qui constitue
- la difficulté majeure de cette étude.
+ Ce dernier ne suit pas le principe FIFO 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+First In First Out
+\end_layout
+
+\end_inset
+
+ ce qui constitue une des difficultés majeure de cette étude.
 \end_layout
 
 \begin_layout Standard
@@ -131,12 +141,22 @@ ent à l'aide d'une plaque de silicium vierge.
  Dans le cas de non conformité, il va falloir effectuer un étalonnage voire
  une opération de maintenance.
  Ce type de contrôle n'est pas onéreux ni trop long mais qui engendre l'indispon
-ibilité temporaire de la machine dans la production.
+ibilité de la machine de production.
 \end_layout
 
 \begin_layout Itemize
-Contrôle sur des plaques de silicium travaillées (contrôle en aval) à l'aide
- des appareils de métrologie qui sont très onéreux.
+Contrôle sur des plaques de silicium
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Contrôle du produit par échantillonage
+\end_layout
+
+\end_inset
+
+ travaillées (contrôle en aval) à l'aide des appareils de métrologie qui
+ sont très onéreux.
  De plus ce type de mesure est très long, un appareil de mesure a besoin
  de quelques heures pour contrôler 3 plaques.
  En cas de non conformité, il va falloir corriger ces défauts à l'aide des
@@ -160,7 +180,7 @@ Plan d'étude
 \end_layout
 
 \begin_layout Standard
-Pour mener à bien cette mission, l'équipe Team-WAR adopte les démarches
+Pour mener à bien cette mission, l'équipe Team W@R adopte les démarches
  suivantes :
 \end_layout
 
@@ -169,10 +189,6 @@ Pour mener à bien cette mission, l'équipe Team-WAR adopte les démarches
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -223,8 +239,8 @@ t de calculer un indice nommé W@R pour chaque lot de plaques.
 \begin_layout Standard
 A chaque machine de métrologie les lots seront triés par ordre décroissant
  des W@R et la procédure sera comme suit, les lots qui auront le W@R le
- plus élevé seront contrôlés et ceux qui auront un W@R inférieur à une valeur
- de confiance donnée passeront sans être contrôlés.
+ plus élevé seront contrôlés en priorité et ceux qui auront un W@R inférieur
+ à une valeur de confiance donnée passeront sans être contrôlés.
 \end_layout
 
 \begin_layout Standard
