@@ -63,36 +63,22 @@ W@F
 
 \end_inset
 
-W@F nous avons du faire une phase d'analyse.
- Cette dernière presentée dans ce rapport a été faite grâce à un entretient
- avec l'industriel.
- Lors de cet entrevue nous avons eu le cahier des charges.
- De plus nous avons été orientés vers une recherche bibliographique pour
- commencer à réfléchir aux solutions possibles.
- 
+W@F nous avons dû faire une phase d'analyse du sujet.
+ Dans ce rapport préliminaire, nous présentons d'une part le résumé du cahier
+ des charges établi oralement lors de l'entretien avec notre client, et
+ d'autre part notre méthodologie de travail.
+ Afin de répondre à une évolution éventuelle des exigences du client, nous
+ avons adopté la méthode de gestion de projet Agile, c'est une méthode réactive
+ et évolutive.
 \end_layout
 
 \begin_layout Standard
-A la vue du cahier du charge qui risque d'évoluer, le choix de la méthode
- de gestion de projet Agile serait la plus adaptée.
- Nous nous somme donc appuyés sur la méthode 
-\emph on
-SCRUM
-\emph default
-
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Book:PolyBenchmark"
-
-\end_inset
-
-, une méthode particulière et évolutive.
-\end_layout
-
-\begin_layout Standard
-Finalement l'étude peut aboutir sur des solutions acceptables par l'industriel
- mais aussi des impasses....
- 
+Ce rapport préliminaire débouche donc sur une phase d'analyse et de recherche
+ bibliographique sur les solutions potentielles à notre problématique.
+ En vue de la complexité du système de production (problématique) et les
+ obstacles de la confidentialité au niveau des pratiques d'entreprises et
+ de la recherche scientifique, nous sommes donc conscients qu'il y a un
+ risque de ne pas pouvoir totalement satisfaire les attentes du client.
 \end_layout
 
 \end_body
