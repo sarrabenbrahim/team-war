@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -17,18 +17,15 @@ linkcolor=red,
 urlcolor=blue]
 {hyperref}
 
-\hypersetup{pdftitle={[PRT] - Rapport de Realisation},
+\hypersetup{pdftitle={[PFE] - Rapport Préliminaire},
 % backref=true,
 %pagebackref=true,
-pdfauthor={J-Pierre Prunaret & Equipe PolyBenchmark - Promo2011 -  Polytech'Marseille},
-pdfkeywords={Specification,
+pdfauthor={Equipe TeamW@R - Promo2011 -  Polytech'Marseille},
+pdfkeywords={PFE,
 Plateforme Polyvalente de Production,
-LSIS, Polytech'Marseille,
+ST, Polytech'Marseille,
 Génie Industriel,
-Gestion Production,
-MES,
-HMS,
-HAIMES}
+Gestion Production}
 }
 \usepackage{color}
 \usepackage[french]{minitoc}
@@ -372,6 +369,15 @@ LatexCommand nomenclature
 prefix "SCRUM"
 symbol "SCRUM"
 description "Méthode de gestion de projet Agile"
+
+\end_inset
+
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+prefix "FIFO"
+symbol "FIFO"
+description "First In First Out"
 
 \end_inset
 
