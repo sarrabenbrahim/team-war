@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -78,8 +78,8 @@ Un marcheur (produit) a plus de chance d'être blessé (défectueux) si il
 
 \begin_layout Itemize
 Le marcheur qui traverse des quartiers dangereux (Machine de production).
- Un quartier devient dangereux jusqu'à ce que le police arrive (contrôle
- de la machine).
+ Un quartier est dangereux jusqu'à ce que le police arrive (contrôle de
+ la machine).
 \end_layout
 
 \begin_deeper
@@ -92,7 +92,11 @@ On suppose que le taux de criminalité augmente linéairement et indépendament
 \begin_layout Itemize
 Le marcheur traverse des quartiers dangereux, mais la criminalité des quartiers
  n'augmente pas à la même vitesse.
- (En fonction des statistiques de la machine)
+ (En fonction des statistiques de la machine.
+\end_layout
+
+\begin_layout Itemize
+le type de marcheur (technologie) influence le taux d'agression.
 \end_layout
 
 \end_deeper
@@ -109,11 +113,23 @@ Utilisation de l'AMDEC ? Dans quel but ?
 \end_layout
 
 \begin_layout Itemize
+Definition des W@R.
+\end_layout
+
+\begin_layout Itemize
 Calcule la W@R, solution actuel ? Quel process ? Un exemple ? 
 \end_layout
 
 \begin_layout Itemize
 Pourrions nous avoir un premier jeu de données ?
+\end_layout
+
+\begin_layout Itemize
+Quels sont les paramètres pertinents?
+\end_layout
+
+\begin_layout Itemize
+que veut dire technologie? combien de technologies?
 \end_layout
 
 \begin_layout Standard
