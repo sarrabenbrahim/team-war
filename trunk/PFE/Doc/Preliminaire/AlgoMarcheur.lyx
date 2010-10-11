@@ -88,7 +88,7 @@ le type de marcheur (technologie) influence le taux d'agression.
 \begin_layout Itemize
 On formalise le problème : 
 \begin_inset Formula \[
-W@F=1-\prod_{1}^{N}F_{Produit}[i]\]
+W@F=1-\prod_{1}^{N}(F_{Machine}[i]\times F_{Produit})\]
 
 \end_inset
 
