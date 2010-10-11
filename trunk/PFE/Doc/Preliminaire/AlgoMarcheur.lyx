@@ -85,6 +85,16 @@ le type de marcheur (technologie) influence le taux d'agression.
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+On formalise le problème : 
+\begin_inset Formula \[
+W@F=1-\prod_{1}^{N}F_{Produit}[i]\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Algorithme simple
 \end_layout
@@ -207,11 +217,11 @@ Modèle des quartiers avec criminalité variable
 \begin_layout Standard
 On suppose maintenant que la fiabilité est différente sur chaque machine
  et décroient linéairement 
-\begin_inset Formula $F_{Machine[i]}=1-(\lambda_{Machine}\times T)$
+\begin_inset Formula $F_{Machine[i]}=1-(\lambda_{Machine}\times T_{Machine})$
 \end_inset
 
 , avec 
-\begin_inset Formula $T$
+\begin_inset Formula $T_{Machine}$
 \end_inset
 
  est le temps du dernière contrôle de la machine et 
