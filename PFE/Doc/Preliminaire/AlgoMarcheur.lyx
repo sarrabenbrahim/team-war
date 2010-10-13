@@ -76,12 +76,30 @@ On suppose que le taux de criminalité augmente linéairement et indépendament
 \end_deeper
 \begin_layout Itemize
 Le marcheur traverse des quartiers dangereux, mais la criminalité des quartiers
- n'augmente pas à la même vitesse.
- (En fonction des statistiques de la machine.
+ n'augmente pas à la même vitesse en fonction du temps.
+ (En fonction des statistiques de la machine)
 \end_layout
 
 \begin_layout Itemize
-le type de marcheur (technologie) influence le taux d'agression.
+La criminalité augmente en fonction du nombre de marcheurs qui traverse
+ le quartier.
+\end_layout
+
+\begin_layout Itemize
+La criminalité est remise à zéro quand la police passe.
+ (Tache qualité)
+\end_layout
+
+\begin_layout Itemize
+La criminalité est remise à zéro si la santé du marcheur est bonne dans
+ un quartier (Mesure metrologique) cela veut dire que la criminalité a été
+ sur-évalué.
+ 
+\end_layout
+
+\begin_layout Itemize
+Il y a trois type de marcheur, un petit, moyen et un grand (technologie
+ logique, mémoire et mixte) influence le taux d'agression.
 \end_layout
 
 \end_deeper
@@ -217,7 +235,7 @@ Modèle des quartiers avec criminalité variable
 \begin_layout Standard
 On suppose maintenant que la fiabilité est différente sur chaque machine
  et décroient linéairement 
-\begin_inset Formula $F_{Machine[i]}=1-(\lambda_{Machine}\times T_{Machine})$
+\begin_inset Formula $F_{MachineTemps[i]}=1-(\lambda_{Machine}\times T_{Machine})$
 \end_inset
 
 , avec 
@@ -229,6 +247,23 @@ On suppose maintenant que la fiabilité est différente sur chaque machine
 \end_inset
 
  est le coefficient de décroissance de la fiabilité.
+ 
+\end_layout
+
+\begin_layout Standard
+On a aussi 
+\begin_inset Formula $F_{MachineProduits[i]}=1-(\lambda_{Machine}\times N_{Produit})$
+\end_inset
+
+ avec 
+\begin_inset Formula $N_{Produit}$
+\end_inset
+
+ le nombre de produits passés sur la machine.
+\end_layout
+
+\begin_layout Standard
+Nous verrons à l'usage ce qui est le plus cohérent avec la machine.
  
 \end_layout
 
