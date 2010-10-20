@@ -1,0 +1,388 @@
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\begin_preamble
+\usepackage[unicode=true, 
+bookmarks=true,
+bookmarksnumbered=true,
+bookmarksopen=true,
+bookmarksopenlevel=1,
+breaklinks=true,
+pdfborder={0 0 1},
+backref=section,
+colorlinks=true,
+linkcolor=red,
+urlcolor=blue]
+{hyperref}
+
+\hypersetup{pdftitle={[PFE] - Rapport Préliminaire},
+% backref=true,
+%pagebackref=true,
+pdfauthor={Equipe TeamW@R - Promo2011 -  Polytech'Marseille},
+pdfkeywords={PFE,
+Plateforme Polyvalente de Production,
+ST, Polytech'Marseille,
+Génie Industriel,
+Gestion Production}
+}
+\usepackage{color}
+\usepackage[french]{minitoc}
+
+\setcounter{parttocdepth}{0}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+tabs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman palatino
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc true
+\font_osf true
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_title "[PRT] - Rapport Specification"
+\pdf_author "J-Pierre Prunaret & Equipe PolyBenchmark"
+\pdf_subject "Spécification"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref section
+\pdf_pdfusetitle true
+\papersize a4paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newcommand{
+\backslash
+boitecolor}[3]    {
+\backslash
+colorbox{#1}{
+\backslash
+textcolor{#2}{#3}}}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{violet}{rgb}{0.5,0,0.5}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{trustcolor1}{rgb}{0.776,0.698,0.898}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+definecolor{trustcolor2}{rgb}{0.945,0.945,0.992}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+usepackage{color}
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\backslash
+colorbox{trustcolor1}{
+\backslash
+textcolor{violet}{r391}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Projet de Fin d'Étude
+\begin_inset Newline newline
+\end_inset
+
+Rapport Intermédiaire
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace 5mm
+\end_inset
+
+
+\begin_inset Quotes fld
+\end_inset
+
+
+\emph on
+Détermination d'un Wafer à Risque dans une ligne de production 
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+Équipe 
+\begin_inset Formula $5^{ème}$
+\end_inset
+
+ Année : Team-War
+\begin_inset Newline newline
+\end_inset
+
+Jaafar AMRANI-MESBAHI
+\begin_inset Newline newline
+\end_inset
+
+Fabien GARCIA
+\begin_inset Newline newline
+\end_inset
+
+
+\noun on
+Abdelali 
+\noun default
+NAIT
+\begin_inset space ~
+\end_inset
+
+BELKACEM
+\noun on
+ 
+\noun default
+
+\begin_inset Newline newline
+\end_inset
+
+Rahma NAKARA
+\begin_inset Newline newline
+\end_inset
+
+Philippe NGUYEN
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace 5mm
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../../../Logo/STMicroelectronics.png
+	lyxscale 25
+	width 4cm
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../../../Logo/Logo_Polytech.png
+	lyxscale 25
+	width 4cm
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../../../Logo/team-WAR.png
+	lyxscale 10
+	width 4cm
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+G
+\emph default
+énie 
+\emph on
+I
+\emph default
+ndustriel et 
+\emph on
+I
+\emph default
+nformatique
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset VSpace 5mm
+\end_inset
+
+
+\emph on
+Tuteur :
+\emph default
+
+\begin_inset Newline newline
+\end_inset
+
+Claudia Frydmann
+\end_layout
+
+\begin_layout Author
+Mercredi 20 Octobre
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+boitecolor{white}{black}{Team-war@prunetwork.fr}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+prefix "W@F"
+symbol "W@F"
+description "Waffer at Risk  "
+
+\end_inset
+
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+prefix "SCRUM"
+symbol "SCRUM"
+description "Méthode de gestion de projet Agile"
+
+\end_inset
+
+
+\begin_inset CommandInset nomenclature
+LatexCommand nomenclature
+prefix "FIFO"
+symbol "FIFO"
+description "First In First Out"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset nomencl_print
+LatexCommand printnomenclature
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Etat de l'art
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "DCube.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "../../../Bibliographie/BiblioTeamWAR"
+options "plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
