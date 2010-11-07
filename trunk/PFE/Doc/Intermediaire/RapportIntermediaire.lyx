@@ -321,6 +321,16 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "DCube.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset nomenclature
 LatexCommand nomenclature
 prefix "W@F"
@@ -356,6 +366,10 @@ LatexCommand printnomenclature
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
