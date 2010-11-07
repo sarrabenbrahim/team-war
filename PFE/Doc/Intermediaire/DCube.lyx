@@ -69,9 +69,16 @@ Ce qui suit est tapé suite à l'explication de Mr Mercantini
 
 \end_inset
 
-Cette algorithme consiste à regarder à la sortie tous les produits (ayant
- des chemins de productions différentes) et déterminer quels sont les points
- dans la production qui sont le plus sensible.
+Cette algorithme
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:DCube"
+
+\end_inset
+
+ consiste à regarder à la sortie tous les produits (ayant des chemins de
+ productions différentes) et déterminer quels sont les points dans la production
+ qui sont le plus sensible.
  L'idée est d'observer à la fin les produits finis et de déterminer les
  opérations à risques par analyse statistique des défauts.
  
@@ -87,7 +94,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Schema de la situation traité par 
+Schéma de la situation traité par 
 \begin_inset Formula $D^{3}$
 \end_inset
 
@@ -122,9 +129,9 @@ name "fig:Schema-DCube"
 \align center
 
 \emph on
-Les produits issuent de la production proviennent de différents chemins
- l'analyse des produits finis permet de connaître les opérations sensible
- grâce à la méthode 
+Les produits issus de la production proviennent de différents chemins l'analyse
+ des produits finis permet de connaître les opérations sensible grâce à
+ la méthode 
 \begin_inset Formula $D^{3}$
 \end_inset
 
@@ -144,6 +151,214 @@ Objectifs de la méthode
 Objectif minimiser le nombre maximum de test pour identifier les objets
  défectueux.
  
+\end_layout
+
+\begin_layout Section
+Hypothèse de la méthode
+\end_layout
+
+\begin_layout Itemize
+Il n'y a que 
+\begin_inset Formula $2$
+\end_inset
+
+ état pour le produit 
+\emph on
+defective
+\emph default
+ ou 
+\emph on
+good
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+Chaque test se fait sur un sous ensemble 
+\emph on
+
+\begin_inset Formula $n$
+\end_inset
+
+
+\emph default
+ objets et n'ont que deux possibilités 
+\emph on
+positive
+\emph default
+ ou 
+\emph on
+negative
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+Un résultat 
+\emph on
+positive
+\emph default
+ indique que l'échantillon (ou sous ensemble) contient au moins un élément
+ 
+\emph on
+defective
+\end_layout
+
+\begin_layout Itemize
+Un résultat 
+\emph on
+negative
+\emph default
+ indique que l'échantillon est pur et qu'il ne contient que des éléments
+ 
+\emph on
+good
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+Deux type de méthodes : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Stochastique : les objets ont une probabilité d'être 
+\emph on
+defective
+\emph default
+ et le but est de diminuer le nombre de test attendu pour identifier tous
+ les éléments 
+\emph on
+defective
+\emph default
+.
+\end_layout
+
+\begin_layout Itemize
+Déterministe : le nombre d'éléments 
+\emph on
+defective
+\emph default
+ est connu à l'avance, l'objectif est de minimiser le nombre maximal de
+ test pour identifier tous les éléments 
+\emph on
+defective
+\emph default
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Formula $M(n,d)$
+\end_inset
+
+ nombre optimal de test optimal pour identifier les 
+\begin_inset Formula $d$
+\end_inset
+
+ éléments 
+\emph on
+defective 
+\emph default
+quand on connaît le nombre 
+\begin_inset Formula $d$
+\end_inset
+
+
+\emph on
+ 
+\emph default
+parmi 
+\begin_inset Formula $n$
+\end_inset
+
+ éléments.
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $T_{A}(n,d)$
+\end_inset
+
+ nombre de test requis par l'algorithme 
+\begin_inset Formula $A$
+\end_inset
+
+ pour identifier parmi 
+\begin_inset Formula $n$
+\end_inset
+
+ éléments tous les 
+\begin_inset Formula $d$
+\end_inset
+
+ 
+\emph on
+defective
+\emph default
+ élément quand on connaît 
+\begin_inset Formula $d$
+\end_inset
+
+ à l'avance.
+ 
+\end_layout
+
+\begin_layout Itemize
+Donc 
+\begin_inset Formula $A$
+\end_inset
+
+ est 
+\begin_inset Formula $\alpha$
+\end_inset
+
+-compétitif si pour 
+\begin_inset Formula $0\leq d\leq n$
+\end_inset
+
+, 
+\begin_inset Formula $T(n,d)\leq\alpha M(n,d)+\beta$
+\end_inset
+
+ avec 
+\begin_inset Formula $\alpha=2,75$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Rajouter référence
+\end_layout
+
+\end_inset
+
+ et 
+\begin_inset Formula $\beta$
+\end_inset
+
+ une constante et un algorithme de ce genre existe.
+ 
+\end_layout
+
+\begin_layout Section
+L'algorithme 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Présentation en détail de l'algo à venir so soon ...
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
