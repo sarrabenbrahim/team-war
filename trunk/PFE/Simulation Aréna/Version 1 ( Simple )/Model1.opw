@@ -1,0 +1,29 @@
+[RESOURCES]
+Operateur
+[VARIABLES]
+M3Indice
+Controle Parametre P3.NumberOut False
+M2.NumberIn
+Piece deffectueuses.NumberOut
+Technologie 1 ou 3.NumberOut False
+Controle Parametre P2.NumberOut True
+Reparation M1.NumberOut
+Reparation M2.NumberIn
+M2.NumberOut
+Controle Parametre P3.NumberOut True
+Entree Technologie.NumberOut
+Reparation M3.NumberOut
+Sortie.NumberOut
+Technologie 1 ou 3.NumberOut True
+M1Indice
+M1.NumberOut
+Controle Parametre P1.NumberOut False
+M1.NumberIn
+M3.NumberIn
+M2Indice
+Reparation M1.NumberIn
+Reparation M3.NumberIn
+Controle Parametre P2.NumberOut False
+Reparation M2.NumberOut
+M3.NumberOut
+Controle Parametre P1.NumberOut True
