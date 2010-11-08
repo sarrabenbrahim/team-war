@@ -342,6 +342,16 @@ Rajouter référence
 
  une constante et un algorithme de ce genre existe.
  
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Quelqu'un lit ce rapport ?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -349,8 +359,31 @@ L'algorithme
 \end_layout
 
 \begin_layout Standard
+L'algorithme utilise la stratégie suivante.
+ Il teste des collections disjointes d'item de taille 
+\begin_inset Formula $1,2,...,2^{i}$
+\end_inset
+
+ jusqu'à ce qu'il trouve un élément 
+\emph on
+defective
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+À cette étape l'algorithme a detecté 
+\begin_inset Formula $1+2+3+...+2^{i-1}=2^{i}-1$
+\end_inset
+
+ bon éléments et a trouvé une collection contaminée de taille 
+\begin_inset Formula $2^{i}$
+\end_inset
+
+ 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Présentation en détail de l'algo à venir so soon ...
