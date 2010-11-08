@@ -1,0 +1,62 @@
+SIMAN Run Controller.
+
+30.418971 Hours>
+                                      ARENA Simulation Results
+                                         - License: STUDENT   
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :11/ 8/2010
+Analyst:                                                             Model revision date:11/ 8/2010
+
+Replication ended at time      : 30.418971 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             .67920     (Insuf)    .22452     1.3325         21    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000         21    
+Entity 1.WaitTime                           5.4938     (Insuf)    .45111     11.139         21    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000         21    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000         21    
+Entity 1.TotalTime                          6.1730     (Insuf)    1.3326     12.055         21    
+M2.Queue.WaitingTime                        2.6298     (Insuf)    .00000     5.7780         16    
+Reparation M3.Queue.WaitingTime                 --         --         --         --          0
+M3.Queue.WaitingTime                        2.1629     (Insuf)    .00000     3.5459         15    
+Reparation M1.Queue.WaitingTime             .90241     (Insuf)    .24862     2.0000          3    
+M1.Queue.WaitingTime                        2.0382     (Insuf)    .00000     5.6905         14    
+Reparation M2.Queue.WaitingTime             .35748     (Insuf)    .25768     .48502          4    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                4.4910     (Insuf)    .00000     8.0000     1.0000    
+Operateur.NumberBusy                        .96713     (Insuf)    .00000     1.0000     1.0000    
+Operateur.NumberScheduled                   1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Operateur.Utilization                       .96713     (Insuf)    .00000     1.0000     1.0000    
+M2.Queue.NumberInQueue                      1.3832     (Insuf)    .00000     4.0000     .00000    
+Reparation M3.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+M3.Queue.NumberInQueue                      1.0665     (Insuf)    .00000     4.0000     .00000    
+Reparation M1.Queue.NumberInQueue           .08900     (Insuf)    .00000     1.0000     .00000    
+M1.Queue.NumberInQueue                      .93806     (Insuf)    .00000     4.0000     .00000    
+Reparation M2.Queue.NumberInQueue           .04701     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           22.000    
+Entity 1.NumberOut                          21.000    
+Operateur.NumberSeized                      52.000    
+Operateur.ScheduledUtilization              .96713    
+System.NumberOut                            21.000    
+
+
+Simulation run time: 0.37 minutes.
+Simulation run complete.
