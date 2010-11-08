@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -381,7 +381,65 @@ defective
 \begin_inset Formula $2^{i}$
 \end_inset
 
- 
+.
+ En utilisant une recherche binaire l'élément peut-être détecté par 
+\begin_inset Formula $i$
+\end_inset
+
+ tests additionnels.
+\end_layout
+
+\begin_layout Standard
+L'algorithme effectuera 
+\begin_inset Formula $i+1$
+\end_inset
+
+ tests, donc pour le prix de 
+\begin_inset Formula $2i+1$
+\end_inset
+
+ tests l'algorithme apprend l'état de 
+\begin_inset Formula $2^{i}$
+\end_inset
+
+ objets.
+\end_layout
+
+\begin_layout Standard
+En d'autre mot l'état de 
+\begin_inset Formula $a$
+\end_inset
+
+ nouveau éléments est connu en effectuant 
+\begin_inset Formula $2\log a+1$
+\end_inset
+
+ tests.
+\end_layout
+
+\begin_layout Section
+Algorithme détaillé
+\end_layout
+
+\begin_layout Subsection*
+Algorithm DOUBLE
+\end_layout
+
+\begin_layout Standard
+\begin_inset listings
+inline false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status collapsed
 
