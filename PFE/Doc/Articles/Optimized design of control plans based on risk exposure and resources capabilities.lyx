@@ -1,0 +1,181 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+\lang french
+Article : Optimized design of control plans based on risk exposure and resources
+ capabilities
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Dans les grandes lignes de fabrication, la plupart des débris importants
+ viennent de la croissance ce qui influence l’’incertitude de la santé des
+ produits.
+ Même si le processus est conçu de tell façon qu’il protège le système de
+ fabrication contre des événements pareils, le contrôle d'incertitude est
+ à peine efficace du point de vue opérationnel.
+ 
+\end_layout
+
+\begin_layout Standard
+De nombreuses sources de données et des techniques appliquées aujourd’hui
+ sont nécessaires pour maîtriser le processus à un niveau Angstrom (1 *
+ 10 -10 mètre).
+ Ainsi qu’une connexion entre la production et le contrôle de la qualité
+ tourne la gestion de matériels à risque dans des tâches compliquées, et
+ vu que le matériel est lié à la compétitivité des usines il va falloir
+ renfoncer l’approche de contrôle de processus.
+ 
+\end_layout
+
+\begin_layout Standard
+L’approche standard utilisée pour exprimer le risque dans la fabrication
+ des semi-conducteurs est l’AMDEC (L'Analyse des modes de défaillance, de
+ leurs effets et de leur criticité), dans la plupart des cas les statistiques
+ et les plans de contrôle sont gérés par la limite de capacité ou par la
+ productivité / temps du cycle on appelle ça la réduction des étapes de
+ la « non valeur ajoutée ».
+ 
+\end_layout
+
+\begin_layout Standard
+Le plan de contrôle est chargé dans l’MES (Manufacturing Execution System)
+ par l’échantillonnage des règles que ça soit défini dans l’AMDEC ou non.
+ Ces règles sont basées sur : 
+\end_layout
+
+\begin_layout Itemize
+La fréquence du processus 
+\end_layout
+
+\begin_layout Itemize
+Les événements 
+\end_layout
+
+\begin_layout Itemize
+Le produit ou un lot de caractéristiques 
+\end_layout
+
+\begin_layout Itemize
+Quelque exceptions 
+\end_layout
+
+\begin_layout Standard
+L’approche traditionnelle proposée dans la pluparts des MES existant est
+ très limitée, et un ensemble d’alternatives a été proposées (dans une conférenc
+e de la fabrication avancée des semi-conducteurs « Adaptive Metrology Sampling
+ techniques enabling higher precision in variability detection and control
+ »).
+\end_layout
+
+\begin_layout Standard
+Dans cet article, les limitations traditionnelle que l’approche a quand
+ on l’applique à une fabrication avancé avec un nombre de produits variés
+ sont passées en revue et discutées et leurs facteurs principaux en liaison
+ sont présentés.
+ 
+\end_layout
+
+\begin_layout Standard
+Dans le but de donner une méthode cohérente pour le planning du contrôle
+ de la qualité et qu’elle aborde ces limitations, l’approche proposée dans
+ la figure 1 consiste à deux étapes : 
+\end_layout
+
+\begin_layout Enumerate
+- : utilisez une répartition des risques pour définir un plan de contrôle
+ minimal qui assure un certain niveau de risque pendant l'horizon considéré.
+ 
+\end_layout
+
+\begin_layout Enumerate
+- : ajustez le plan de contrôle raffiné dans la phase 1 en divisant le reste
+ (ou le manque) de la capacité selon un critère lié au processus et aux
+ capacités de métrologie.
+ Dans cette phase nous prenons aussi en considération les disponibilités
+ et les contraintes de capacités des ressources de contrôle.
+\end_layout
+
+\begin_layout Standard
+En plus de casser les barrières entre le plan de contrôle et L’AMDEC, nous
+ démontrons que la nouvelle approche du risque permet d'obtenir un plan
+ de contrôle optimisé qui Garantit une utilisation justifiée d'inspection
+ disponible ou des capacités de contrôle en limitant l'exposition pour risquer.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\shape italic
+Remarque : 
+\end_layout
+
+\begin_layout Standard
+Cet article propose une nouvelle méthode pour élaborer un plan de contrôle
+ en se basant sur 2 étapes :
+\end_layout
+
+\begin_layout Standard
+La phase 1 : consiste à identifier les risques possibles et de faire une
+ première répartition de risque, dans le but de construire un plan de contrôle
+ après.
+\end_layout
+
+\begin_layout Standard
+La phase 2 : consiste à ajuster le plan construit dans la phase 1 en ajoutant
+ ou enlevant des contrôle quelqu’un selon la capacité de control possible.
+\end_layout
+
+\begin_layout Standard
+Pour utiliser cette méthode il faut identifier tous les risques possibles
+ ainsi que la capacité de contrôle.
+\end_layout
+
+\end_body
+\end_document
