@@ -305,7 +305,7 @@ defective
  
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Translator
 Donc 
 \begin_inset Formula $A$
 \end_inset
@@ -327,12 +327,9 @@ Donc
 \end_inset
 
 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Rajouter référence
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "book:groupeTesting"
 
 \end_inset
 
@@ -341,17 +338,6 @@ Rajouter référence
 \end_inset
 
  une constante et un algorithme de ce genre existe.
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Quelqu'un lit ce rapport ?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -426,9 +412,203 @@ Algorithm DOUBLE
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float algorithm
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset listings
+lstparams "tabsize=4"
 inline false
 status open
+
+\begin_layout Plain Layout
+
+Algorithm Double
+\end_layout
+
+\begin_layout Plain Layout
+
+	U:={1,...,n}
+\end_layout
+
+\begin_layout Plain Layout
+
+	D:=0;
+\end_layout
+
+\begin_layout Plain Layout
+
+	G:=0;
+\end_layout
+
+\begin_layout Plain Layout
+
+	While|U|>= 3 do
+\end_layout
+
+\begin_layout Plain Layout
+
+		{x,y,z}:= 3 objets arbitraire de U
+\end_layout
+
+\begin_layout Plain Layout
+
+		TEST({x,y,z});
+\end_layout
+
+\begin_layout Plain Layout
+
+		if positive 3-TEST({x,y,z});
+\end_layout
+
+\begin_layout Plain Layout
+
+		if negative
+\end_layout
+
+\begin_layout Plain Layout
+
+			U:=U-{x,y,z};
+\end_layout
+
+\begin_layout Plain Layout
+
+			TEST(U);
+\end_layout
+
+\begin_layout Plain Layout
+
+			if negative
+\end_layout
+
+\begin_layout Plain Layout
+
+				G:=G+U;
+\end_layout
+
+\begin_layout Plain Layout
+
+				U:=0;
+\end_layout
+
+\begin_layout Plain Layout
+
+			if positive
+\end_layout
+
+\begin_layout Plain Layout
+
+				k:=4;
+\end_layout
+
+\begin_layout Plain Layout
+
+				repeat
+\end_layout
+
+\begin_layout Plain Layout
+
+					C:=k arbitraire de U ou U si k>=|U|;
+\end_layout
+
+\begin_layout Plain Layout
+
+					TEST(C);
+\end_layout
+
+\begin_layout Plain Layout
+
+					if positive
+\end_layout
+
+\begin_layout Plain Layout
+
+						x:=BINARY-TEST(C);
+\end_layout
+
+\begin_layout Plain Layout
+
+						D:=D+{x};
+\end_layout
+
+\begin_layout Plain Layout
+
+						U:=U-{x};
+\end_layout
+
+\begin_layout Plain Layout
+
+						abort-repeat;
+\end_layout
+
+\begin_layout Plain Layout
+
+					if negative
+\end_layout
+
+\begin_layout Plain Layout
+
+						k:=2k;
+\end_layout
+
+\begin_layout Plain Layout
+
+						G:=G+C;
+\end_layout
+
+\begin_layout Plain Layout
+
+						U:=U-C
+\end_layout
+
+\begin_layout Plain Layout
+
+				end-repeat
+\end_layout
+
+\begin_layout Plain Layout
+
+	end-While
+\end_layout
+
+\begin_layout Plain Layout
+
+	FINAL-TEST;
+\end_layout
+
+\begin_layout Plain Layout
+
+end-algoritm
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Algorithme Double pour tester 
+\begin_inset Formula $n$
+\end_inset
+
+ objets
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \begin_layout Plain Layout
 
@@ -441,10 +621,10 @@ status open
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Présentation en détail de l'algo à venir so soon ...
+Me demande si c'est nécessaire de mettre tout le code ? 
 \end_layout
 
 \end_inset
