@@ -77,13 +77,13 @@ Dans les grandes lignes de fabrication, la plupart des débris importants
 De nombreuses sources de données et des techniques appliquées aujourd’hui
  sont nécessaires pour maîtriser le processus au niveau de l'Angstrom
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Formula $10^{-10}$
 \end_inset
 
- mètr)
+ mètre
 \end_layout
 
 \end_inset
@@ -182,21 +182,11 @@ Dans le but de donner une méthode cohérente pour le planning du contrôle
  la Fig
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Gestion-de-réduction"
+reference "fig:Approche-proposée"
 
 \end_inset
 
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Quel figure ?
-\end_layout
-
-\end_inset
-
-consiste à deux étapes : 
+ consiste à deux étapes : 
 \end_layout
 
 \begin_layout Enumerate
@@ -220,17 +210,8 @@ AMDEC
 \emph default
 , nous démontrons que la nouvelle approche du risque permet d'obtenir un
  plan de contrôle optimisé qui garantit une utilisation justifiée d'inspection
- disponible ou des capacités de contrôle en limitant l'exposition pour risquer
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-pour risquer quoi ?
-\end_layout
-
-\end_inset
-
-.
+ disponible ou des capacités de contrôle en limitant l'exposition aux différents
+ risques.
  
 \begin_inset Float figure
 wide false
@@ -238,31 +219,24 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Gestion-de-réduction"
+name "fig:Approche-proposée"
 
 \end_inset
 
-Gestion de réduction du risque 
+Approche proposée
 \end_layout
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../Images/GestionDuRisque.png
-	lyxscale 10
+	filename ../Images/ControlPlan.jpg
+	lyxscale 50
 	width 100col%
 
 \end_inset
