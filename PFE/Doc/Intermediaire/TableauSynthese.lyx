@@ -78,12 +78,12 @@ Tableau récapitulatif
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="7">
 <features>
+<column alignment="center" valignment="top" width="10col%">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="15col%">
 <column alignment="center" valignment="top" width="0">
 <row>
 <cell alignment="center" valignment="top" usebox="none">
@@ -223,7 +223,7 @@ Décisions
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+L'AMDEC
 \end_layout
 
 \end_inset
@@ -232,7 +232,7 @@ Décisions
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Qualitatif
 \end_layout
 
 \end_inset
@@ -241,7 +241,7 @@ Décisions
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Analyse des Modes de Défaillance de leurs Effets et de leur Criticité
 \end_layout
 
 \end_inset
