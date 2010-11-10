@@ -179,7 +179,14 @@ Dans cet article, les limitations traditionnelle que l’approche a quand
 \begin_layout Standard
 Dans le but de donner une méthode cohérente pour le planning du contrôle
  de la qualité et qu’elle aborde ces limitations, l’approche proposée dans
- la figure 1 
+ la Fig
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Gestion-de-réduction"
+
+\end_inset
+
+ 
 \begin_inset Note Note
 status open
 
@@ -225,6 +232,47 @@ pour risquer quoi ?
 
 .
  
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Gestion-de-réduction"
+
+\end_inset
+
+Gestion de réduction du risque 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../Images/GestionDuRisque.png
+	lyxscale 10
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection*
