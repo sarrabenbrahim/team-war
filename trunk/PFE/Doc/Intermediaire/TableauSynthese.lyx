@@ -52,10 +52,6 @@ Synthèse
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
@@ -77,12 +73,12 @@ Tableau récapitulatif
 
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="7">
-<features>
-<column alignment="center" valignment="top" width="10col%">
+<features rotate="true">
+<column alignment="center" valignment="top" width="15col%">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="20col%">
-<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="15col%">
 <column alignment="center" valignment="top" width="0">
 <row>
@@ -167,7 +163,7 @@ Décisions
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Quantitatif
 \end_layout
 
 \end_inset
@@ -176,7 +172,7 @@ Décisions
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Analyse systématiques d'ensemble de produits 
 \end_layout
 
 \end_inset
@@ -185,7 +181,8 @@ Décisions
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Cette méthode algorithmique permet de repérer les éléments deffectueux en
+ optimisant le nombre de test 
 \end_layout
 
 \end_inset
@@ -193,8 +190,12 @@ Décisions
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Plain Layout
+\begin_layout Itemize
+Programmable
+\end_layout
 
+\begin_layout Itemize
+Correspond au sujet
 \end_layout
 
 \end_inset
@@ -202,8 +203,16 @@ Décisions
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Plain Layout
+\begin_layout Itemize
+Beaucoup de test
+\end_layout
 
+\begin_layout Itemize
+Trop systématique 
+\end_layout
+
+\begin_layout Itemize
+Pas de probabilité
 \end_layout
 
 \end_inset
@@ -212,7 +221,7 @@ Décisions
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+À utiliser 
 \end_layout
 
 \end_inset
