@@ -228,7 +228,7 @@ Stochastique : les objets ont une probabilité d'être
 defective
 \emph default
  et le but est de diminuer le nombre de test attendu pour identifier tous
- les éléments 
+ les élémentsobjet 
 \emph on
 defective
 \emph default
@@ -590,7 +590,7 @@ Algorithm Double
 
 \begin_layout Plain Layout
 
-	FINAL-TEST;
+	FINAL-TESTS;
 \end_layout
 
 \begin_layout Plain Layout
@@ -634,11 +634,297 @@ Algorithme Double pour tester
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+\begin_inset Float algorithm
+placement h
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-Me demande si c'est nécessaire de mettre tout le code ? 
+\begin_inset listings
+lstparams "tabsize=4"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Procedure 3-TEST({x,y,z})
+\end_layout
+
+\begin_layout Plain Layout
+
+	TEST({x});
+\end_layout
+
+\begin_layout Plain Layout
+
+	if positive
+\end_layout
+
+\begin_layout Plain Layout
+
+		D:=D+{x};
+\end_layout
+
+\begin_layout Plain Layout
+
+		TEST({y};
+\end_layout
+
+\begin_layout Plain Layout
+
+		if positive D:=D+{y};
+\end_layout
+
+\begin_layout Plain Layout
+
+		if negative G:=G+{y};
+\end_layout
+
+\begin_layout Plain Layout
+
+		U:=U-{x,y};
+\end_layout
+
+\begin_layout Plain Layout
+
+	if negative
+\end_layout
+
+\begin_layout Plain Layout
+
+		G:=G+{x};
+\end_layout
+
+\begin_layout Plain Layout
+
+		TEST({y});
+\end_layout
+
+\begin_layout Plain Layout
+
+		if positive
+\end_layout
+
+\begin_layout Plain Layout
+
+			D:=D+{y};
+\end_layout
+
+\begin_layout Plain Layout
+
+			U:=U-{x,y};
+\end_layout
+
+\begin_layout Plain Layout
+
+		if negative
+\end_layout
+
+\begin_layout Plain Layout
+
+			D:=D+{z};
+\end_layout
+
+\begin_layout Plain Layout
+
+			U:=U-{x,z};		
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Procédure 3-TEST
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "tabsize=4"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Procedure BINARY-TEST(C);
+\end_layout
+
+\begin_layout Plain Layout
+
+	k:=|C|;
+\end_layout
+
+\begin_layout Plain Layout
+
+	repeat
+\end_layout
+
+\begin_layout Plain Layout
+
+		C':=|k/2| éléments arbitraire de C
+\end_layout
+
+\begin_layout Plain Layout
+
+		TEST(C');
+\end_layout
+
+\begin_layout Plain Layout
+
+		if positive C:=C';
+\end_layout
+
+\begin_layout Plain Layout
+
+		if negative C:=C-C';
+\end_layout
+
+\begin_layout Plain Layout
+
+		k:=|C|;
+\end_layout
+
+\begin_layout Plain Layout
+
+	until k=1;
+\end_layout
+
+\begin_layout Plain Layout
+
+	x:= le seul élément de C;
+\end_layout
+
+\begin_layout Plain Layout
+
+	return (x);
+\end_layout
+
+\begin_layout Plain Layout
+
+end-procedure;		
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Algorithme Double pour tester 
+\begin_inset Formula $n$
+\end_inset
+
+ objets
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "tabsize=4"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Procedure FINAL-TESTS
+\end_layout
+
+\begin_layout Plain Layout
+
+	while U!=0 do
+\end_layout
+
+\begin_layout Plain Layout
+
+		x:= un élément arbitraire de U;
+\end_layout
+
+\begin_layout Plain Layout
+
+		TEST({x});
+\end_layout
+
+\begin_layout Plain Layout
+
+		if positive D:=D+{x};
+\end_layout
+
+\begin_layout Plain Layout
+
+		if negative G:=G+{x};
+\end_layout
+
+\begin_layout Plain Layout
+
+		U:=U-{x};
+\end_layout
+
+\begin_layout Plain Layout
+
+	end-while;
+\end_layout
+
+\begin_layout Plain Layout
+
+end-procedure;		
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Procédure FINAL-TESTS
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset

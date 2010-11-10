@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -291,39 +291,16 @@ Claudia Frydmann
 \end_layout
 
 \begin_layout Author
-Mercredi 20 Octobre
+Mercredi 10 Novembre
 \begin_inset Newline newline
 \end_inset
 
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-boitecolor{white}{black}{Team-war@prunetwork.fr}
-\end_layout
-
-\end_inset
-
-
+Team-war@prunetwork.fr
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "DCube.lyx"
 
 \end_inset
 
@@ -369,10 +346,6 @@ LatexCommand printnomenclature
 
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Part
 Etat de l'art
 \end_layout
@@ -381,6 +354,26 @@ Etat de l'art
 \begin_inset CommandInset include
 LatexCommand include
 filename "DCube.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "OptimizedPlansRisk.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "TableauSynthese.lyx"
 
 \end_inset
 
