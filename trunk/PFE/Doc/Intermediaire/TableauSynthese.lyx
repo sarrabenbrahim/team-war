@@ -75,7 +75,7 @@ Tableau récapitulatif
 <lyxtabular version="3" rows="4" columns="7">
 <features rotate="true">
 <column alignment="center" valignment="top" width="15col%">
-<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="20col%">
@@ -241,7 +241,15 @@ L'AMDEC
 \begin_inset Text
 
 \begin_layout Plain Layout
-Qualitatif
+Une démarche Qualitative
+\end_layout
+
+\begin_layout Plain Layout
+et
+\end_layout
+
+\begin_layout Plain Layout
+Quantitative
 \end_layout
 
 \end_inset
@@ -258,8 +266,25 @@ Analyse des Modes de Défaillance de leurs Effets et de leur Criticité
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Plain Layout
+\begin_layout Itemize
+Décomposition fonctionnel
+\end_layout
 
+\begin_layout Itemize
+Identification des modes de défaillances
+\end_layout
+
+\begin_layout Itemize
+Classement de chaque mode de défaillance
+\end_layout
+
+\begin_layout Itemize
+Synthése des résultats sous forme de résultat
+\end_layout
+
+\begin_layout Itemize
+Identification des méthodes de détection des défaillances et des actions
+ préventives ou correctives
 \end_layout
 
 \end_inset
@@ -268,7 +293,28 @@ Analyse des Modes de Défaillance de leurs Effets et de leur Criticité
 \begin_inset Text
 
 \begin_layout Plain Layout
+Evaluer et garantir :
+\end_layout
 
+\begin_layout Itemize
+La fiabilité
+\end_layout
+
+\begin_layout Itemize
+La maintenabilité
+\end_layout
+
+\begin_layout Itemize
+La disponibilité
+\end_layout
+
+\begin_layout Itemize
+La sécurité
+\end_layout
+
+\begin_layout Paragraph
+Obtenir au meilleur coût le rendement globale Maximum les équipements de
+ production
 \end_layout
 
 \end_inset
@@ -276,8 +322,9 @@ Analyse des Modes de Défaillance de leurs Effets et de leur Criticité
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Plain Layout
-
+\begin_layout Paragraph
+Ne permet pas en générale de prendre en compte les combinaisons de plusieurs
+ défaillance
 \end_layout
 
 \end_inset
@@ -286,7 +333,7 @@ Analyse des Modes de Défaillance de leurs Effets et de leur Criticité
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Déconseiller
 \end_layout
 
 \end_inset
