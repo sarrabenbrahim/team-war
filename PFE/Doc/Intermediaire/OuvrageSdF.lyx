@@ -1,0 +1,61 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Abstract
+L’ouvrage que Mr.
+ Mercantini nous a fourni t intitulé « L’utilisation du jugement d’expert
+ en sûreté de fonctionnement » traite pas mal de sujet en rapport avec la
+ sûreté de fonctionnement tous ce qui concerne la défaillance, la maintenance
+ et autre sujet tel que nous avons vu en cours en prenant l’avis d’expert
+ vu son retour d’expérience .
+ Pour conclure ça n’a rien à voir avec notre sujet de PFE.
+ En lisant l’ouvrage, j’ai pu voir quelque méthode déjà évoquée par M.
+ Mercantini durant la dernière réunion, et particulièrement en ce qui concerne
+ la maintenance des matériels.
+ Notre supposition est totalement fausse lors d’une action de maintenance
+ que ça soit préventive ou corrective des matériels ne rend pas le matériel
+ à son état initial.
+ 
+\end_layout
+
+\end_body
+\end_document
