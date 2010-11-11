@@ -2,8 +2,13 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass article
+\textclass amsbook
 \use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
 \language english
 \inputencoding auto
 \font_roman default
@@ -17,6 +22,7 @@
 
 \graphics default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -36,25 +42,88 @@
 \tracking_changes false
 \output_changes false
 \author "" 
+\author "" 
 \end_header
 
 \begin_body
 
-\begin_layout Abstract
+\begin_layout Chapter
+L’utilisation du jugement d’expert en sûreté de fonctionnement
+\end_layout
+
+\begin_layout Standard
 L’ouvrage que Mr.
- Mercantini nous a fourni t intitulé « L’utilisation du jugement d’expert
- en sûreté de fonctionnement » traite pas mal de sujet en rapport avec la
- sûreté de fonctionnement tous ce qui concerne la défaillance, la maintenance
- et autre sujet tel que nous avons vu en cours en prenant l’avis d’expert
- vu son retour d’expérience .
- Pour conclure ça n’a rien à voir avec notre sujet de PFE.
- En lisant l’ouvrage, j’ai pu voir quelque méthode déjà évoquée par M.
+ Mercantini
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+L'industriel ne connait pas Mr Mercantini
+\end_layout
+
+\end_inset
+
+ nous a fourni l'intitulé « L’utilisation du jugement d’expert en sûreté
+ de fonctionnement »
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Rajouter cet ouvrage dans la bibliographie 
+\end_layout
+
+\end_inset
+
+ traite pas mal de sujet en rapport avec la sûreté de fonctionnement tous
+ ce qui concerne la défaillance, la maintenance et autre sujet tel que nous
+ avons vu en cours en prenant l’avis d’expert vu son retour d’expérience.
+ Pour conclure 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Conclure ? Un peu court
+\end_layout
+
+\end_inset
+
+ça n’a rien à voir avec notre sujet de PFE.
+ En lisant l’ouvrage, j’ai pu voir quelque méthode 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Quels méthodes ?
+\end_layout
+
+\end_inset
+
+déjà évoquée par M.
  Mercantini durant la dernière réunion, et particulièrement en ce qui concerne
  la maintenance des matériels.
- Notre supposition est totalement fausse lors d’une action de maintenance
- que ça soit préventive ou corrective des matériels ne rend pas le matériel
- à son état initial.
+ Notre supposition 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Quel supposition ?
+\end_layout
+
+\end_inset
+
+est totalement fausse lors d’une action de maintenance que ça soit préventive
+ ou corrective des matériels ne rend pas le matériel à son état initial.
  
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Un peu léger pour rejeter une méthode et pas assez claire
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
