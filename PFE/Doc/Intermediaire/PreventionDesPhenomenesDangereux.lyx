@@ -2,9 +2,14 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass article
+\textclass amsbook
 \use_default_options true
-\language english
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
 \inputencoding auto
 \font_roman default
 \font_sans default
@@ -17,6 +22,7 @@
 
 \graphics default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -29,23 +35,31 @@
 \tocdepth 3
 \paragraph_separation indent
 \defskip medskip
-\quotes_language english
+\quotes_language french
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
 \author "" 
+\author "" 
 \end_header
 
 \begin_body
 
-\begin_layout Part
+\begin_layout Chapter
 Appreciation du risque
 \end_layout
 
 \begin_layout Standard
-L’analyse du risque En trois étapes :
+L’analyse du risque En trois étapes (Cf Fig
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Analyse-du-risque"
+
+\end_inset
+
+):
 \end_layout
 
 \begin_layout Itemize
@@ -84,11 +98,47 @@ La probabilité d’occurrence d’un évènement dangereux (notée O)
 
 \begin_layout Enumerate
 La possibilité d’éviter ou de limiter le dommage (notée P).
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ajouter un commentaire à la figure
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Analyse-du-risque"
+
+\end_inset
+
+Analyse du risque
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Graphics
-	filename D:/team-war/PFE/Doc/Images/figure1GestionRisque.jpg
+	filename ../Images/figure1GestionRisque.jpg
+	lyxscale 40
+	width 100col%
 	rotateOrigin center
 
 \end_inset
@@ -96,7 +146,19 @@ La possibilité d’éviter ou de limiter le dommage (notée P).
 
 \end_layout
 
-\begin_layout Title
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Résumé de la méthode
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Gravité du dommage (G):
 \end_layout
 
@@ -121,7 +183,7 @@ G2 grave défaut (normalement irréversible, y compris la destruction de la
  
 \end_layout
 
-\begin_layout Title
+\begin_layout Section
 Fréquence ou durée d’exposition au phénomène dangereux (F)
 \end_layout
 
@@ -157,7 +219,7 @@ F1 De rare à assez fréquente ou courte durée d’exposition ;
 F2 De fréquente à continue ou longue durée d’exposition.
 \end_layout
 
-\begin_layout Title
+\begin_layout Section
 Probabilité d’occurrence de l’événement dangereux (O)
 \end_layout
 
@@ -200,7 +262,7 @@ O3 Élevée (de moyenne à élevée).
  Principes généraux de gestion du risque 
 \end_layout
 
-\begin_layout Title
+\begin_layout Section
 Possibilité d’évitement du dommage (P)
 \end_layout
 
@@ -240,13 +302,62 @@ Pour définir l’indice de risque nous utiliserons un logigramme de risque
  
 \end_layout
 
-\begin_layout Part
+\begin_layout Section
 réduction du risque
 \end_layout
 
 \begin_layout Standard
+Cf Fig
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Réduction-du-risque"
+
+\end_inset
+
+.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Rajouter un commentaire pour la figure.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Réduction-du-risque"
+
+\end_inset
+
+Réduction du risque
+\end_layout
+
+\end_inset
+
+
 \begin_inset Graphics
-	filename D:/team-war/PFE/Doc/Images/figure2GestionRisque.jpg
+	filename ../Images/figure2GestionRisque.jpg
+	lyxscale 40
+	width 100col%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 

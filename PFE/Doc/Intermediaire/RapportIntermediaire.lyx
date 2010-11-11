@@ -373,6 +373,26 @@ filename "OptimizedPlansRisk.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "OuvrageSdF.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "PreventionDesPhenomenesDangereux.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "TableauSynthese.lyx"
 
 \end_inset
