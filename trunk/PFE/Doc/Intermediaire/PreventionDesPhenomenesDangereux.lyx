@@ -102,16 +102,6 @@ La probabilité d’occurrence d’un évènement dangereux (notée O)
 
 \begin_layout Enumerate
 La possibilité d’éviter ou de limiter le dommage (notée P).
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Ajouter un commentaire à la figure
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -130,7 +120,7 @@ name "fig:Analyse-du-risque"
 
 \end_inset
 
-Analyse du risque
+Les éléments du risque
 \end_layout
 
 \end_inset
@@ -153,8 +143,6 @@ Analyse du risque
 \begin_layout Plain Layout
 \align center
 
-\emph on
-Résumé de la méthode
 \end_layout
 
 \end_inset
@@ -319,7 +307,8 @@ reference "fig:Réduction-du-risque"
 status open
 
 \begin_layout Plain Layout
-Rajouter un commentaire pour la figure.
+ici je nai pas encore fini jai plusieur page a lire et a faire correspondre
+ merci pour votre patience .
 \end_layout
 
 \end_inset
@@ -362,6 +351,48 @@ Réduction du risque
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+La figure présente la gestion du risque sous deux parties : l'appréciation
+ du risque précédemment développé et la réduction du risque que nous allons
+ expliqués.
+\end_layout
+
+\begin_layout Enumerate
+Elimination des phénomènes dangereux et réduction du risque:
+\end_layout
+
+\begin_layout Standard
+La prévention intrinsèque peut être définie comme l'élimination du phénomène
+ dangereux et le chemin qui mène vers des situations sécuritaires.
+ Par conséquent la qualité des plaques de silicium va dépendre de la machine
+ utilisée et donc tout se joue lors de la conception de cette machine.
+ Les caractéristiques de cette dernière doivent participer à la réduction
+ du risque.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Dispositifs de protection:
+\end_layout
+
+\begin_layout Standard
+Une fois la prévention intrinsèque mise en place , les dispositifs de protection
+ viennent prendre place dans le processus , par exemple la mise en place
+ de détecteurs de défaillance après chaque machine.
+\end_layout
+
+\begin_layout Enumerate
+Formation et information:
+\end_layout
+
+\begin_layout Standard
+Dans le cas où il y a des phénomènes dangereux persistant ou qui ne peuvent
+ pas êtres éliminés , une formation sera donnée aux employés sur les différents
+ mode de défaillance mais aussi sur le mode d'utilisation des machines de
+ telles sortes qu'ils puissent détecter quand cette dernière commence à
+ produire des pièces défectueuses.
 \end_layout
 
 \end_body
