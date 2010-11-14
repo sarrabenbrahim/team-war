@@ -51,6 +51,10 @@ figs-within-sections
 Appreciation du risque
 \end_layout
 
+\begin_layout Section
+Méthode générale.
+\end_layout
+
 \begin_layout Standard
 L’analyse du risque En trois étapes (Cf Fig
 \begin_inset CommandInset ref
@@ -80,7 +84,7 @@ Repérage (identification) des phénomènes dangereux Dans notre projet les
 
 \begin_layout Itemize
 Estimation du risque : L’estimation du risque consiste à comparer entre
- elles les différentes situations dangereuses Constatées.
+ elles les différentes situations dangereuses constatées.
  Le risque peut être définit comme une composition entre la gravité du dommage
  (notée G) subit par la plaque de silicium et la probabilité d’occurrence
  de ce dommage.
@@ -165,11 +169,7 @@ Gravité du dommage (G):
 \begin_layout Standard
 La gravité du dommage peut être estimée en prenant en compte le taux de
  rejet de la plaque de silicium.
- 
-\end_layout
-
-\begin_layout Description
-2 choix proposés:
+ On a deux possibilités :
 \end_layout
 
 \begin_layout Description
@@ -208,7 +208,7 @@ la fréquence d’accès.
 \end_layout
 
 \begin_layout Standard
-2 choix se présentent: 
+deux choix se présentent : 
 \end_layout
 
 \begin_layout Description
@@ -229,11 +229,11 @@ La probabilité d’occurrence d’un événement dangereux peut être estimée 
 \end_layout
 
 \begin_layout Itemize
-des données de fiabilité et d’autres données statistiques ;
+des données de fiabilité et d’autres données statistiques 
 \end_layout
 
 \begin_layout Itemize
-de l’historique des défaillances ; 
+de l’historique des défaillances 
 \end_layout
 
 \begin_layout Itemize
@@ -241,7 +241,7 @@ de l’historique des atteintes des plaques
 \end_layout
 
 \begin_layout Standard
-3 choix proposés : 
+trois choix proposés : 
 \end_layout
 
 \begin_layout Description
@@ -284,7 +284,7 @@ de la possibilité d’éviter ou de limiter le dommage
 \end_layout
 
 \begin_layout Standard
-2 choix proposés :
+deux choix proposés :
 \end_layout
 
 \begin_layout Description
