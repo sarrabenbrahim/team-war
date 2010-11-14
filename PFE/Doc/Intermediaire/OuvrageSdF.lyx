@@ -9,7 +9,7 @@ theorems-ams
 eqs-within-sections
 figs-within-sections
 \end_modules
-\language english
+\language french
 \inputencoding auto
 \font_roman default
 \font_sans default
@@ -35,7 +35,7 @@ figs-within-sections
 \tocdepth 3
 \paragraph_separation indent
 \defskip medskip
-\quotes_language english
+\quotes_language french
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -63,8 +63,8 @@ L'industriel ne connait pas Mr Mercantini
 
 \end_inset
 
- nous a fourni l'intitulé « L’utilisation du jugement d’expert en sûreté
- de fonctionnement »
+ nous a fourni l'intitulé «L’utilisation du jugement d’expert en sûreté
+ de fonctionnement»
 \begin_inset Note Note
 status open
 
@@ -76,13 +76,23 @@ Rajouter cet ouvrage dans la bibliographie
 
  traite pas mal de sujet en rapport avec la sûreté de fonctionnement tous
  ce qui concerne la défaillance, la maintenance et autre sujet tel que nous
- avons vu en cours en prenant l’avis d’expert vu son retour d’expérience.
+ avons vu en cours en prenant l’avis d’expert vu son retour d’expérience
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+La phrase n'est pas compréhensible
+\end_layout
+
+\end_inset
+
+.
  Pour conclure 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Conclure ? Un peu court
+Conclure ? Un peu court pour conclure
 \end_layout
 
 \end_inset
@@ -99,8 +109,18 @@ Quels méthodes ?
 \end_inset
 
 déjà évoquée par M.
- Mercantini durant la dernière réunion, et particulièrement en ce qui concerne
- la maintenance des matériels.
+ Mercantini
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Idem, Mercantini n'est pas connu.
+\end_layout
+
+\end_inset
+
+ durant la dernière réunion, et particulièrement en ce qui concerne la maintenan
+ce des matériels.
  Notre supposition 
 \begin_inset Note Note
 status open
