@@ -74,7 +74,7 @@ reference "tab:Tableau-récapitulatif2"
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -284,7 +284,7 @@ Déconseiller
 \begin_inset Text
 
 \begin_layout Plain Layout
-Plan de contrôle optimisé en se basant sur le risque
+Gestion du risque
 \end_layout
 
 \end_inset
@@ -293,7 +293,7 @@ Plan de contrôle optimisé en se basant sur le risque
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+une demarche 
 \end_layout
 
 \end_inset
@@ -302,7 +302,7 @@ Plan de contrôle optimisé en se basant sur le risque
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+prevention des phénomènes dangereux
 \end_layout
 
 \end_inset
@@ -310,8 +310,12 @@ Plan de contrôle optimisé en se basant sur le risque
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Plain Layout
+\begin_layout Itemize
+appreciation du risque
+\end_layout
 
+\begin_layout Itemize
+réduction du risque
 \end_layout
 
 \end_inset
@@ -319,8 +323,12 @@ Plan de contrôle optimisé en se basant sur le risque
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Plain Layout
+\begin_layout Itemize
+démarche compléte 
+\end_layout
 
+\begin_layout Itemize
+action en amont et l'aval pour gérer et corriger le risque
 \end_layout
 
 \end_inset
@@ -328,8 +336,12 @@ Plan de contrôle optimisé en se basant sur le risque
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Plain Layout
+\begin_layout Itemize
+longue
+\end_layout
 
+\begin_layout Itemize
+demande la connaissance des machines
 \end_layout
 
 \end_inset
@@ -338,7 +350,7 @@ Plan de contrôle optimisé en se basant sur le risque
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+peut être intéressante sur une longue période
 \end_layout
 
 \end_inset
