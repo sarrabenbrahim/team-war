@@ -1,0 +1,152 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Part*
+Introduction
+\end_layout
+
+\begin_layout Standard
+Avec l'augmentation de la complexité, la flexibilté et la réactivité des
+ processus, la méthode d'échantillonnage n'est plus plus adaptée.
+ Or on a remarqué que le contrôle de certains échantillons peut être éviter
+ sans perte d'information notable sur la série de produits.
+ An algorithme a été développé pour identifier et contrôler ce critère sur
+ les produits inspectés inutilement.
+\end_layout
+
+\begin_layout Part*
+Description de l'algorithme
+\end_layout
+
+\begin_layout Standard
+L'étude est porté sur un cas simple.
+ On considère qu'un contrôle de la contamination d'une machine de fabrication
+ T (outil de gravure).
+ Le risque de contamination, D, augmente avec le nombre de plaques produites.
+ Si le contrôle est marqué comme 
+\begin_inset Quotes eld
+\end_inset
+
+valide
+\begin_inset Quotes erd
+\end_inset
+
+, l'outil de traitement et tous les produits traités entre le dernier contrôle
+ 
+\begin_inset Quotes eld
+\end_inset
+
+valide
+\begin_inset Quotes erd
+\end_inset
+
+ et l'actuel sont validés.
+ Sinon, les actions sont déclenchées sur la machine T et la liste des lots
+ potentiellement 
+\begin_inset Quotes eld
+\end_inset
+
+non-valide
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Les différents retards entre l'outil et le dispositif de contrôle de processus
+ suivent une loi stochastique comme l'illustre la figure 1.
+ Dans l'étude de cas, l'analyse des données historiques révèle que ce temps
+ d'attente suit une loi gamma.
+\end_layout
+
+\begin_layout Standard
+La dynamique du processus est illustré sur la figure 2: lot P1 est traité
+ en premier et contrôlée en quatrième en raison du tampon.
+ Certains lots peuvent être contrôlés avant d'autres qui ont été traités
+ plus tôt.
+ Toutefois, le risque de contamination est un phénomène croissant et monotone,
+ on suppose que si le lot P4 a été libéré alors le lot P1 l'est également
+ et il n'est pas nécessaire de le contrôler.
+\end_layout
+
+\begin_layout Standard
+La décision de maintenir ou de ignorer l'inspection d'un lot de produits
+ est basée sur la valeur de sa réduction des risques.
+ Cet indicateur peut changer à chaque fois qu'un autre lot est inspecté.
+ La figure 2 illustre cette évolution.
+ Cet indicateur est ensuite utilisé pour trier le pile de lots à inspecter
+ à partir des lots qui induisent la plus forte réduction des risques, l'inspecti
+on de ces lots peut être ignorée.
+\end_layout
+
+\begin_layout Standard
+Un démonstrateur a été construit pour évaluer l'évolution du Wafer-At-Risk
+ basée sur des données historiques (figure 3).
+ Un cas 
+\begin_inset Quotes eld
+\end_inset
+
+ignoré
+\begin_inset Quotes erd
+\end_inset
+
+ est illustrée à la figure 4.
+ Un prototype en temps quasi-réel (en exécution toutes les 30 minutes) a
+ été mis en œuvre afin d'aider l'opérateur à sélectionner les lots qui seront
+ inspectés permettant de réduire l'évolution des risques.
+\end_layout
+
+\begin_layout Part*
+Resultats
+\end_layout
+
+\begin_layout Standard
+L'algorithme a été éxécuté sur plus de trois mois de production.
+ On a observé que plus de 35% des plaques inspectées peuvent être ignorées,
+ parce qu'elles n'apportaient aucune information utile de plus.
+\end_layout
+
+\begin_layout Part*
+Remarques
+\end_layout
+
+\end_body
+\end_document

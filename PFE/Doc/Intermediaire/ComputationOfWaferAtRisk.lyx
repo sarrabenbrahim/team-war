@@ -1,0 +1,124 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Part*
+Introduction
+\end_layout
+
+\begin_layout Standard
+La fabrication de sémiconducteur devienne de plus en plus complexe mais
+ le contrôle exhaustif des plaques n'est pas réalisable d'un point de vue
+ financier.
+ L'objectif de cette étude consiste à évaluer le risque et optimiser l'utilisati
+on des équipements de contrôle dans la méthode d'échantillonnage.
+ 
+\end_layout
+
+\begin_layout Standard
+L'évaluation des risques de chaque outi est caractérisé par le Wafer-At-Risk.
+ L'information apportée par chaque lot, qui peut être inspecté, est appelée
+ Wafer-At-Risk-Reduction.
+ Ces deux informations ne sont pas exploitables directement, d'où la nécessité
+ de développer un algorithme pour les calculer.
+\end_layout
+
+\begin_layout Part*
+Description de l'algorithme
+\end_layout
+
+\begin_layout Standard
+La première étape est d'identifier les lots qui ont été effectivement inspectés.
+ La première difficulté est d'identifier le DWR (Defectivity Work Requests
+ ~ Demandes de travail défectueux).
+ DWR sont des demandes spéciales issues de l'ingénierie qui met le lot en
+ attente pour une inspection en défectivité plus approfondie.
+ Les archives des mesures sont utilisées et combinées avec les données des
+ processus pour identifier et marquer tous les lots inspectés.
+\end_layout
+
+\begin_layout Standard
+Après cela, la valeur du Wafer-At-Risk est calculée pour chaque outil du
+ processus.
+ La valeur est augmentée par la quantité des lots de plaques à chaque événement
+ du processus.
+ Cette valeur est diminuée par Wafer-At-Risk-Reduction quand le lot est
+ inspecté.
+ En vue de la quantité de données et la complexité des relations à prendre
+ en compte, l'horizon de traitement a été réduit à une semaine.
+ Afin de faire correspondre les données entre les semaines successives,
+ les conditions aux limites ont été définies, qui se composaient de la liste
+ des lots ayant été traitées après le dernier lot inspecté.
+\end_layout
+
+\begin_layout Standard
+Une autre amélioration de l'algorithme a été la définition du Wafer-At-Risk
+ par la recette, du type de recette ou de la technologie et du module d'outils.
+ Le modèle de contrôle de défectivité devaient être affinées pour tenir
+ compte de ces paramètres et l'algorithme a ensuite été ajusté pour calculer
+ les différents types de Wafer-At-Risk : globale et recette ou dépendant
+ du contexte.
+\end_layout
+
+\begin_layout Part*
+Resultats
+\end_layout
+
+\begin_layout Standard
+Les résultats obtenus a été couplés avec un autre algorithme permettant
+ de réduire jusqu'à 35% des inspections.
+ Un contrôle peut être éviter si le Wafer-At-Risk-Reduction du lot marqué
+ est inférieur ou égal à zéro.
+\end_layout
+
+\begin_layout Standard
+De plus l'algorithme a été amélioré pour être plus réactif sur la ligne
+ de production, son implémentation peut être ramenée à une période de 30
+ minutes.
+\end_layout
+
+\begin_layout Part*
+Remarques
+\end_layout
+
+\end_body
+\end_document
