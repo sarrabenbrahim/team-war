@@ -1,0 +1,156 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Part*
+Description de la méthode
+\end_layout
+
+\begin_layout Standard
+Cet article présente une méthode pour évaluer provisoirement les risques
+ opérationnels qui peuvent aider la prise de décisions concernant la conception
+ des plans de contrôle.
+ La méthode consiste à évaluer l'évolution du risque 
+\begin_inset Formula $R^{o}$
+\end_inset
+
+(t) sur un horizon considéré (H) sans aucun contrôle.
+ Puis, une valeur ajoutée (en termes de risques) pourrait être évalués avec
+ un plan de contrôle X.
+\end_layout
+
+\begin_layout Standard
+Le risque est calculé comme la multiplication de la probabilité d'un événement
+ non-désiré (NDE : panne, défaillance, etc) par la Perte Potentielle (PL)
+ lorsque cet événement se produit.
+ La Perte Potentielle est ici exprimé par le nombre d'objets perdus (puce,
+ plaquette ou le lot).
+ Lorsqu'un événement non désiré se produit, il suppose d'influencer également
+ sur la qualité des exécutions ultérieures, jusqu'à ce que son prochain
+ contrôle (le contrôle signifie mesurer et corriger si ce n'est pas OK).
+ Dans ce cas, le PL sera linéaire augmente avec le nombre d'exécutions.
+\end_layout
+
+\begin_layout Standard
+Selon que le moment de l'évènement non-désiré se produise, l'évolution de
+ la Perte Potentielle en l'absence de contrôle peut être représenté comme
+ dans la Figure 2.
+ Lorsque les contrôles (les mesures et les actions correctives en cas de
+ détection) sont prévues, la perte potentielle est différente parce que
+ :
+\end_layout
+
+\begin_layout Itemize
+Si le résultat de la mesure envisagée est 
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+, il n'est pas nécessaire d'envisager la perte potentielle qui correspond
+ à un accident de NDE précédente à l'instant de mesure.
+\end_layout
+
+\begin_layout Itemize
+Si la mesure n'est pas 
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+, une action imminente qui va 
+\begin_inset Quotes eld
+\end_inset
+
+réinitialiser ou de modifier
+\begin_inset Quotes erd
+\end_inset
+
+ la probabilité de l'événement non-désiré puis la perte potentielle devient
+ 
+\begin_inset Quotes eld
+\end_inset
+
+une perte probable
+\begin_inset Quotes erd
+\end_inset
+
+ ou 
+\begin_inset Quotes eld
+\end_inset
+
+perte prouvée
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+En supposant que la distribution de la probabilité des évènements non-désirés
+ sur l'horizon considéré (H) est connu, la fonction de l'évolution du risque
+ avec un plan de contrôle X pourrait être calculé comme suit :
+\end_layout
+
+\begin_layout Standard
+[Maths Expression]
+\end_layout
+
+\begin_layout Part*
+Résultats
+\end_layout
+
+\begin_layout Standard
+L'évolution du risque dépend des plans de contrôle, en fonction de leurs
+ nombre de controls ainsi que de leurs répartitions sur l'horizon.
+\end_layout
+
+\begin_layout Part*
+Remarques
+\end_layout
+
+\end_body
+\end_document
