@@ -9,7 +9,7 @@ theorems-ams
 eqs-within-sections
 figs-within-sections
 \end_modules
-\language english
+\language french
 \inputencoding auto
 \font_roman default
 \font_sans default
@@ -35,12 +35,13 @@ figs-within-sections
 \tocdepth 3
 \paragraph_separation indent
 \defskip medskip
-\quotes_language english
+\quotes_language french
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
+\author "" 
 \author "" 
 \end_header
 
@@ -67,6 +68,279 @@ Critère de recherche d'offre d'emploi
 \end_layout
 
 \begin_layout Standard
+On peut définir différent critères pour l'offre d'emploie : 
+\end_layout
+
+\begin_layout Itemize
+Domaine 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+On précisera le type d'emploie attendu (ingénieure, secretaire, ...)
+\end_layout
+
+\begin_layout Itemize
+On précisera le secteur d'activité de l'entreprise (Agroalimentaire, BTP,
+ etc...)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Type de contrat
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Préciser Stage, CDD, CDI, VIE, Aprentissage
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Lieux
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Définir étendu géographique (ville, région, pays)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Rémunération
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Attente salariale
+\end_layout
+
+\begin_layout Itemize
+Seuil
+\end_layout
+
+\begin_layout Itemize
+Préciser les avantages en nature 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Durée						
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Durée minimal 
+\end_layout
+
+\begin_layout Itemize
+Durée maximal 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Définition règle Si Alors
+\end_layout
+
+\begin_layout Subsubsection*
+Domaine
+\end_layout
+
+\begin_layout Standard
+SI domaine est defini ALORS
+\end_layout
+
+\begin_layout Itemize
+Si Domaine 
+\begin_inset Formula $=$
+\end_inset
+
+Domaine-Offre
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Garder Offre
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+FinSI
+\end_layout
+
+\begin_layout Subsubsection*
+Type de Contrat
+\end_layout
+
+\begin_layout Standard
+SI Type = CDI ALORS
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=4$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Else
+\end_layout
+
+\begin_layout Standard
+SI Type = CDD ALORS
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=3$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Else
+\end_layout
+
+\begin_layout Standard
+Si Type = Stage ALORS
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Else
+\end_layout
+
+\begin_layout Standard
+Si Type = VIE ALORS
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Else
+\end_layout
+
+\begin_layout Standard
+Si Type = Alternance ALORS
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Lieux
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Trouver une fonction qui dit que plus on est près plus on est content
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+SI Distance
+\begin_inset Formula $\leq$
+\end_inset
+
+DistanceSeuil 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $Satisfaction=(DistanceSeuil-Distance)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Rémunération
+\end_layout
+
+\begin_layout Standard
+Le 
+\begin_inset Formula $CoefSalaire$
+\end_inset
+
+ est un coefficient qui permet d'interpreter le salair en euro dans le cadre
+ de notre problème
+\end_layout
+
+\begin_layout Standard
+Si Salaire
+\begin_inset Formula $\leq$
+\end_inset
+
+SeuilMin
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sinon
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=Salaire\times CoefSalaire$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Durée
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $5\leq Durée\leq6$
+\end_inset
+
+ Alors
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $satisfaction=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Else
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $satisfaction=0$
+\end_inset
+
 
 \end_layout
 
