@@ -1,0 +1,93 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Compréhension générale
+\end_layout
+
+\begin_layout Subsection
+Principes généraux
+\end_layout
+
+\begin_layout Itemize
+Les systèmes experts sont particulièrement adaptés au problème d'aide au
+ diagnostic :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+En médecine, c'est un logiciel qui permet de diagnostiquer les maladies
+ et de prescrire des médicaments à partir des symptômes (données en entrée)
+ et en fonction de la base de connaissance.
+ Mycin (1972-73) est le plus connu des systèmes experts dans ce domaine.
+\end_layout
+
+\begin_layout Itemize
+En chimie, Dendral (1965) fut le premier système expert pour identifier
+ les constituants chimiques d'un matériau à partir de spectrométrie de masse
+ et de résonance magnétique nucléaire.
+\end_layout
+
+\begin_layout Itemize
+En processus industriel, le système expert, Sachem chez Arcelor, permet
+ de superviser et de piloter les hauts-fourneaux en analysant les données
+ fournies en temps réel par un millier de capteurs.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Lorsqu'un problème qui peut-être résolu indifféremment avec ou sans l'aide
+ de l'IA, la solution IA est préférable seulement
+\end_layout
+
+\begin_layout Itemize
+En intelligence artificielle, dans un système expert à base de règles, le
+ chaînage avant est une méthode de déduction qui applique des règles en
+ partant des prémisses pour en déduire de nouvelles conclusions.
+ Ces conclusions enrichissent la mémoire de travail et peuvent devenir les
+ prémisses d'autres règles.
+ Par opposition, le chaînage arrière (en) part des conclusions pour essayer
+ de "remonter" aux axiomes.
+\end_layout
+
+\end_body
+\end_document
