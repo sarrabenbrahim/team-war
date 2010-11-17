@@ -2,9 +2,14 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass article
+\textclass amsbook
 \use_default_options true
-\language english
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
 \inputencoding auto
 \font_roman default
 \font_sans default
@@ -17,6 +22,7 @@
 
 \graphics default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -29,7 +35,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \defskip medskip
-\quotes_language english
+\quotes_language french
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -41,7 +47,11 @@
 
 \begin_body
 
-\begin_layout Part*
+\begin_layout Chapter
+Optimizing return on inspection
+\end_layout
+
+\begin_layout Section
 Introduction
 \end_layout
 
@@ -54,7 +64,7 @@ Avec l'augmentation de la complexité, la flexibilté et la réactivité des
  les produits inspectés inutilement.
 \end_layout
 
-\begin_layout Part*
+\begin_layout Section
 Description de l'algorithme
 \end_layout
 
@@ -134,7 +144,7 @@ ignoré
  inspectés permettant de réduire l'évolution des risques.
 \end_layout
 
-\begin_layout Part*
+\begin_layout Section
 Resultats
 \end_layout
 
@@ -144,7 +154,7 @@ L'algorithme a été éxécuté sur plus de trois mois de production.
  parce qu'elles n'apportaient aucune information utile de plus.
 \end_layout
 
-\begin_layout Part*
+\begin_layout Section
 Remarques
 \end_layout
 

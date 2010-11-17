@@ -2,9 +2,14 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass article
+\textclass amsbook
 \use_default_options true
-\language english
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
 \inputencoding auto
 \font_roman default
 \font_sans default
@@ -17,6 +22,7 @@
 
 \graphics default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -29,7 +35,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \defskip medskip
-\quotes_language english
+\quotes_language french
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -41,7 +47,11 @@
 
 \begin_body
 
-\begin_layout Part*
+\begin_layout Chapter
+Computation of wafer at risk
+\end_layout
+
+\begin_layout Section
 Introduction
 \end_layout
 
@@ -62,7 +72,7 @@ L'évaluation des risques de chaque outi est caractérisé par le Wafer-At-Risk.
  de développer un algorithme pour les calculer.
 \end_layout
 
-\begin_layout Part*
+\begin_layout Section
 Description de l'algorithme
 \end_layout
 
@@ -99,7 +109,7 @@ Une autre amélioration de l'algorithme a été la définition du Wafer-At-Risk
  du contexte.
 \end_layout
 
-\begin_layout Part*
+\begin_layout Section
 Resultats
 \end_layout
 
@@ -116,7 +126,7 @@ De plus l'algorithme a été amélioré pour être plus réactif sur la ligne
  minutes.
 \end_layout
 
-\begin_layout Part*
+\begin_layout Section
 Remarques
 \end_layout
 
