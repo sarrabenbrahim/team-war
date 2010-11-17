@@ -101,6 +101,47 @@ Architecture Logicielle
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+scenario de déroulement
+\end_layout
+
+\begin_layout Subsection*
+Diagramme de séquence
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../Image/DiagrammeSéquence.PNG
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramme de séquence de déroulement de l'analyse
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Plain Layout
 
 \end_layout
@@ -108,6 +149,24 @@ Architecture Logicielle
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection*
+Explication
+\end_layout
+
+\begin_layout Standard
+Pour visualiser le catalogue des offres d’emploi, CLIPS utilise une interface
+ intermédiaire pour se connecter à la base de données, en suite il envoi
+ une requête en demandant l’ensemble des offres disponibles qui seront affichés
+ à l’utilisateur par la suite.
+ L’utilisateur peut demander le traitement de la totalité des offres d’emploi
+ ou bien sélectionner un sous ensemble.
+ Ces offres vont être la base de faits sur laquelle le moteur d’inférence
+ CLIPS va se baser pour exécuter les règles existant dans l’agenda.
+ A la fin l’utilisateur reçoit la liste des offres d’emploi classée par
+ ordre de préférence.
+ 
 \end_layout
 
 \begin_layout Section
