@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -51,99 +51,210 @@ figs-within-sections
 L’utilisation du jugement d’expert en sûreté de fonctionnement
 \end_layout
 
-\begin_layout Standard
-L’ouvrage que Mr.
- Mercantini
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-L'industriel ne connait pas Mr Mercantini
+\begin_layout Paragraph
+L'ouvrage intitulé Utilisation du jugement d'expert en sûreté de fonctionnement
+ écrit par 
+\emph on
+André Lannoy et Henri Procaccia
+\emph default
+ en 2001 présente différents éléments qui peuvent être intéressants dans
+ le contexte de ce PFE, On dénotera une présentation de l'Analyse des Modes
+ de Défaillances de leurs Effets et de leurs Criticité, méthode communément
+ AMDEC.
+ On citera également des éléments sur l'utilisation des avis d'experts.
 \end_layout
 
-\end_inset
-
- nous a fourni l'intitulé «L’utilisation du jugement d’expert en sûreté
- de fonctionnement»
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Rajouter cet ouvrage dans la bibliographie 
+\begin_layout Section
+Utilisation de la vis d'experts
 \end_layout
 
-\end_inset
-
- traite pas mal de sujet en rapport avec la sûreté de fonctionnement tous
- ce qui concerne la défaillance, la maintenance et autre sujet tel que nous
- avons vu en cours en prenant l’avis d’expert vu son retour d’expérience
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-La phrase n'est pas compréhensible
+\begin_layout Paragraph
+En sûreté de fonctionnement, comme dans d'autres domaines, le jugement d'expert
+ peut être considéré comme une des réponses possibles à un problème technique
+ de retour d'expérience ou d'aide à la décision.
+ Il peut compléter ou suppléer les données objectives, lorsque ces données
+ sont peu nombreuses ou inadaptées.
+ Il est souvent la seule source d'information disponible dans un processus
+ décisionnel.
+ Cet ouvrage, focalisé sur les besoins en fiabilité, montre la démarche
+ à suivre pour prendre en compte l'expertise.
+ Cette démarche est illustrée par plusieurs applications réelles concernant
+ principalement l'estimation de durée de vie, l'optimisation de la maintenance,
+ l'aide à la conception et l'aide à la décision.
+ Les différentes étapes du recueil et du traitement de l'expertise y sont
+ décrites : la sélection des experts, l'élaboration du questionnaire à poser
+ aux experts, l'information préalable de l'expert, l'estimation et l'agrégation
+ des expertises, le traitement statistique de l'expertise.
 \end_layout
 
-\end_inset
-
-.
- Pour conclure 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Conclure ? Un peu court pour conclure
+\begin_layout Section
+AMDEC
 \end_layout
 
-\end_inset
-
-ça n’a rien à voir avec notre sujet de PFE.
- En lisant l’ouvrage, j’ai pu voir quelque méthode 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Quels méthodes ?
-\end_layout
-
-\end_inset
-
-déjà évoquée par M.
- Mercantini
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Idem, Mercantini n'est pas connu.
-\end_layout
-
-\end_inset
-
- durant la dernière réunion, et particulièrement en ce qui concerne la maintenan
-ce des matériels.
- Notre supposition 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Quel supposition ?
-\end_layout
-
-\end_inset
-
-est totalement fausse lors d’une action de maintenance que ça soit préventive
- ou corrective des matériels ne rend pas le matériel à son état initial.
+\begin_layout Paragraph
+AMDEC est l'acronyme d'Analyse des modes de défaillance, de leurs effets
+ et de leur criticité est une démarche déductive qui consiste à identifier
+ au niveau d'un système donné, les modes potentiels de défaillance de ses
+ éléments, leurs causes et leurs effets d'ou l'appelation d'AMDEC Une fois
+ l'état d'art du systéme est réalisé on essaye d'identifier de maniére systémati
+que les modes de défaillance potentiels juste aprés on identifie pour chaque
+ mode de défaillance la ou les causes qui l'ont provoqué on lui associe
+ un indice de fréquence qui permet de voir combien de fois on peut apercevoir
+ cette même défaillance autrement dit indice de fréquence, les effets, son
+ indice de gravité (classe de sévérité) ; les mesures mises en place pour
+ détecter la défaillance ; son indice de détection (classe de probabilité
+ de détection).
  
-\begin_inset Note Note
+\end_layout
+
+\begin_layout Subsection
+Démarche
+\end_layout
+
+\begin_layout Paragraph
+La démarche est simple elle est basé sur une analyse compléte du systéme
+ qui nous permettera d'identifier les fonctions offerte par le systéme ainsi
+ les contraintes d'utilisation et d'environnement, les paramètres critiques
+ à mettre sous contrôle et sur lesquels les analyses type AMDEC porteront.
+ Ainsi le périmètre sur lequel l'AMDEC doit être réalisée sera identifié.
+ Les étapes de la démarche sont :
+\end_layout
+
+\begin_layout Itemize
+Décomposition fonctionnel
+\end_layout
+
+\begin_layout Itemize
+Identification des modes de défaillance
+\end_layout
+
+\begin_layout Itemize
+Classement de chaque mode de défaillance
+\end_layout
+
+\begin_layout Itemize
+Synthése des résultats
+\end_layout
+
+\begin_layout Itemize
+Identification des méthodes de détection des défaillance et des actions
+ préventives ou correctives
+\end_layout
+
+\begin_layout Paragraph
+la figure
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Tableau-récapitulatif-AMDEC"
+
+\end_inset
+
+ présente un tableau récapitulatif de toute la démarche
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-Un peu léger pour rejeter une méthode et pas assez claire
+\begin_inset Graphics
+	filename ../Images/TableauRecapitulatifAMDEC.png
+	width 100col%
+	rotateAngle 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tableau-récapitulatif-AMDEC"
+
+\end_inset
+
+Tableau récapitulatif de la démarche AMDEC
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Objectif de démarche
+\end_layout
+
+\begin_layout Standard
+Maîtriser la démarche AMDEC pour pouvoir : 
+\end_layout
+
+\begin_layout Itemize
+Prévoir et réduire les défaillances potentielles et leurs effets 
+\end_layout
+
+\begin_layout Itemize
+Améliorer le fonctionnement des processus 
+\end_layout
+
+\begin_layout Itemize
+Optimiser la conception 
+\end_layout
+
+\begin_layout Subsection
+Avantages
+\end_layout
+
+\begin_layout Standard
+Evaluer et garantir les 4 propriété de la sûreté de fonctionnement qui sont
+ :
+\end_layout
+
+\begin_layout Itemize
+La fiabilité
+\end_layout
+
+\begin_layout Itemize
+La maintenabilité
+\end_layout
+
+\begin_layout Itemize
+La disponibilité
+\end_layout
+
+\begin_layout Itemize
+La sécurité
+\end_layout
+
+\begin_layout Paragraph
+Obtenir au meilleur le côut le rendement globale maximum des équipements
+ de production.
+ Elle permet aussi de réduire les coût de maintenance que ça soit préventive
+ ou corrective
+\end_layout
+
+\begin_layout Subsection
+Inconvénient
+\end_layout
+
+\begin_layout Standard
+Elle permet pas de prendre en compte la combinaison de plusieurs défaillances
+ en même temps.
 \end_layout
 
 \end_body
