@@ -393,6 +393,23 @@ filename "PreventionDesPhenomenesDangereux.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "ComputationOfWaferAtRisk.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "AnApproachForOperationalRisk.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "TableauSynthese.lyx"
 
 \end_inset
