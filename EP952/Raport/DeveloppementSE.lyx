@@ -344,8 +344,164 @@ Domaine: peut être traduit par le secteur d'activité ( BTP, Commerce), par
 Définir les classes et leurs hiérarchies
 \end_layout
 
+\begin_layout Standard
+
+\lang english
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\lang english
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramme-de-Classe"
+
+\end_inset
+
+Diagramme de Classe
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../Image/DiagrammeClasse.dia
+	lyxscale 60
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Le diagramme de classe suivant synthétise l'ontologie d'une offre d'emploi.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La classe offre d'emploi est le noyau de notre ontologie.
+ C'est ue classe abstraite caractérisé par les propriétés suivantes (cf
+ Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramme-de-Classe"
+
+\end_inset
+
+): 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+nomOffre 
+\emph default
+: Il s'agit d'un bref résumé de l'offre d'emploie
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+remuneration
+\emph default
+ : Donne la rémunération en tenant compte des avantages en nature
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Domaine
+\emph default
+ : Comprend le 
+\emph on
+secteur
+\emph default
+, 
+\emph on
+motsClefs
+\emph default
+, et permet de carateriser le travail
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+nomEntreprise
+\emph default
+ : Il donne le nom de l'entreprise.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Description
+\emph default
+ : Descriptif de l'emploi, il permet de caratériser le poste.
+ Et de savoir dans quel secteur industriel on se trouve.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Lieux
+\emph default
+ : Permet de caractériser le lieux de l'emploi
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+CDD, SVI, VIE
+\emph default
+ : sont des contrats à durée déterminé, dans le cas du SVI et VIE on ajoute
+ le nom de l'école.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+CDI :
+\emph default
+ est un contrat différent car il n'a pas de durée attaché.
+ 
+\end_layout
+
 \begin_layout Subsubsection*
 Définir les propriétés des classes et leurs contraintes
+\end_layout
+
+\begin_layout Standard
+On fait différentes hypothèses sur les classes : 
+\end_layout
+
+\begin_layout Itemize
+Toutes les offres sont abstraite et sont instancié en fonction du type de
+ contrat.
+ 
+\end_layout
+
+\begin_layout Itemize
+Les contrats à durée déterminé possède un attribut supplémentaire : La 
+\emph on
+duree.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -428,7 +584,11 @@ Durée maximal
 
 \end_deeper
 \begin_layout Subsection
-Définition règle Si Alors
+D
+\end_layout
+
+\begin_layout Subsection
+éfinition règle Si Alors
 \end_layout
 
 \begin_layout Subsubsection*
