@@ -230,7 +230,126 @@ Créer les instances
 \end_layout
 
 \begin_layout Subsubsection*
-Déterminer le domaine et les limites de l'Ontologie 
+Déterminer le domaine et les limites de l'ontologie 
+\end_layout
+
+\begin_layout Itemize
+Quel domaine sera couvert ?
+\end_layout
+
+\begin_layout Standard
+La recherche d'offre d'emploi.
+\end_layout
+
+\begin_layout Itemize
+Dans quel but sera utilisé l'ontologie?
+\end_layout
+
+\begin_layout Standard
+Pour cibler les recherches afin d'avoir des résultats précis et convenables
+ qui s'accordent avec les critères de recherche.
+\end_layout
+
+\begin_layout Itemize
+A quelles questions répondra l'ontologie?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+quelle offre d'emploi? stage , CDD, CDI,....
+\end_layout
+
+\begin_layout Itemize
+Quels sont les avantages de cette offre sur un critère (Exemple: le salaire
+ , la localisation) par apport à une autre offre
+\end_layout
+
+\begin_layout Itemize
+Etc...
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Qui va utilisé et maintenir l'ontologie?
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Les étudiants 
+\end_layout
+
+\begin_layout Itemize
+Les chômeurs
+\end_layout
+
+\begin_layout Itemize
+Les recruteurs
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+Réutiliser les ontologies existantes 
+\end_layout
+
+\begin_layout Standard
+Nous n'avons pas pu trouver une ontologie qui traite directement le sujet
+ des offres d'emploi mais nous avons trouvé un modèle d'une ontologie basée
+ compétence pour l’annotation des Cvs/Offres (http://liris.cnrs.fr/Documents/Liris
+-3447.pdf) et qui permet aux recruteurs et candidats de partager un référentiel
+ commun dans lequel les documents déposés seront décrits nettement , sémantique-
+ment et formellement.
+ La correspondance avec notre étude sera au niveau formel , en effet dans
+ cette ontologie la formalisation permet d'assurer un raisonnement automatique
+ qui associe l'offre à la demande d'emploi.
+ Par conséquent notre ontologie associera les offres aux critères de recherche
+ prédéfinit.
+\end_layout
+
+\begin_layout Subsubsection*
+Collecter les termes importants 
+\end_layout
+
+\begin_layout Standard
+Dans cette étape nous énumérons les termes et leurs propriétés.
+\end_layout
+
+\begin_layout Itemize
+CDD,SVI et VIE: un emploi à durée déterminé , rémunéré , conventionné
+\end_layout
+
+\begin_layout Itemize
+CDI: un emploi à durée indéterminée, rémunéré, sous contrat
+\end_layout
+
+\begin_layout Itemize
+Rémunération(contient le salaire et les avantages en nature s'ils existent:
+ par exemple les tickets restaurant, la location d'un logement, l'abonnement
+ au transport)
+\end_layout
+
+\begin_layout Itemize
+Lieux (caractérisé par pays, ville, adresse)
+\end_layout
+
+\begin_layout Itemize
+Durée ( il y aura une date de début et une date de fin)
+\end_layout
+
+\begin_layout Itemize
+Domaine: peut être traduit par le secteur d'activité ( BTP, Commerce), par
+ mots-clés(JEE, PHP, XML, KANBAN, LEAN)
+\end_layout
+
+\begin_layout Subsubsection*
+Définir les classes et leurs hiérarchies
+\end_layout
+
+\begin_layout Subsubsection*
+Définir les propriétés des classes et leurs contraintes
+\end_layout
+
+\begin_layout Subsubsection*
+Créer les instances ( voir la partie développement avec CLIPS)
 \end_layout
 
 \begin_layout Subsection
@@ -238,7 +357,7 @@ Critère de recherche d'offre d'emploi
 \end_layout
 
 \begin_layout Standard
-On peut définir différent critères pour l'offre d'emploie : 
+On peut définir différent critères pour l'offre d'emploi : 
 \end_layout
 
 \begin_layout Itemize
@@ -247,11 +366,11 @@ Domaine
 
 \begin_deeper
 \begin_layout Itemize
-On précisera le type d'emploie attendu (ingénieure, secretaire, ...)
+On précisera le type d'emploi attendu (ingénieur, secrétaire, ...)
 \end_layout
 
 \begin_layout Itemize
-On précisera le secteur d'activité de l'entreprise (Agroalimentaire, BTP,
+On précisera le secteur d'activité de l'entreprise (Agro-alimentaire, BTP,
  etc...)
 \end_layout
 
@@ -262,7 +381,7 @@ Type de contrat
 
 \begin_deeper
 \begin_layout Itemize
-Préciser Stage, CDD, CDI, VIE, Aprentissage
+Préciser Stage, CDD, CDI, VIE, Apprentissage
 \end_layout
 
 \end_deeper
@@ -317,7 +436,7 @@ Domaine
 \end_layout
 
 \begin_layout Standard
-SI domaine est defini ALORS
+SI domaine est défini ALORS
 \end_layout
 
 \begin_layout Itemize
@@ -558,8 +677,8 @@ Le
 \begin_inset Formula $CoefSalaire$
 \end_inset
 
- est un coefficient qui permet d'interpreter le salair en euro dans le cadre
- de notre problème
+ est un coefficient qui permet d'interpréter le salaire en euro dans le
+ cadre de notre problème
 \end_layout
 
 \begin_layout Standard
