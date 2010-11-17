@@ -118,6 +118,62 @@ Acquisition de l'expertise
 Création d'une ontologie
 \end_layout
 
+\begin_layout Standard
+Nous pouvons décrire une Ontologie de la manière suivante :
+\end_layout
+
+\begin_layout Itemize
+Description des concepts (classes) dans un domaine 
+\end_layout
+
+\begin_layout Itemize
+Propriétés de chaque concept (slots) 
+\end_layout
+
+\begin_layout Itemize
+Contraintes des propriétés (facts)
+\end_layout
+
+\begin_layout Itemize
+Instances des classes (base de connaissance)
+\end_layout
+
+\begin_layout Standard
+Nous allons suivre la démarche suivante:
+\end_layout
+
+\begin_layout Enumerate
+Déterminer le domaine et les limites de l'Ontologie 
+\end_layout
+
+\begin_layout Enumerate
+Réutiliser les Ontologies existantes 
+\end_layout
+
+\begin_layout Enumerate
+Collecter les termes importants 
+\end_layout
+
+\begin_layout Enumerate
+Définir les classes et leurs hiérarchies 
+\end_layout
+
+\begin_layout Enumerate
+Définir les propriétés des classes 
+\end_layout
+
+\begin_layout Enumerate
+Définir les contraintes 
+\end_layout
+
+\begin_layout Enumerate
+Créer les instances
+\end_layout
+
+\begin_layout Subsubsection*
+Déterminer le domaine et les limites de l'Ontologie 
+\end_layout
+
 \begin_layout Subsection
 Critère de recherche d'offre d'emploi
 \end_layout
