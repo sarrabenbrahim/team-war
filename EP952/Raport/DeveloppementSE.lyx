@@ -303,33 +303,137 @@ Lieux
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Trouver une fonction qui dit que plus on est près plus on est content
-\end_layout
-
+SI 
+\begin_inset Formula $0\leq$
 \end_inset
 
 
-\end_layout
+\begin_inset Formula $Distance$
+\end_inset
 
-\begin_layout Standard
-SI Distance
+
 \begin_inset Formula $\leq$
 \end_inset
 
-DistanceSeuil 
+
+\begin_inset Formula $\dfrac{DistanceSeuil}{5}$
+\end_inset
+
+ 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Formula $Satisfaction=(DistanceSeuil-Distance)$
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=5$
 \end_inset
 
 
 \end_layout
 
+\begin_layout Standard
+ELSE
+\end_layout
+
+\begin_layout Itemize
+SI 
+\begin_inset Formula $\dfrac{DistanceSeuil}{5}<Distance\leq\dfrac{2\times DistanceSeuil}{5}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=4$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+ELSE
+\end_layout
+
+\begin_layout Itemize
+SI 
+\begin_inset Formula $\dfrac{2\times DistanceSeuil}{5}<Distance\leq\dfrac{3\times DistanceSeuil}{5}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=3$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+ELSE
+\end_layout
+
+\begin_layout Itemize
+SI 
+\begin_inset Formula $\dfrac{3\times DistanceSeuil}{5}<Distance\leq\dfrac{4\times DistanceSeuil}{5}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=2$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+ELSE
+\end_layout
+
+\begin_layout Itemize
+SI 
+\begin_inset Formula $\dfrac{4\times DistanceSeuil}{5}<Distance\leq DistanceSeuil$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=1$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+ELSE
+\end_layout
+
+\begin_layout Itemize
+SI 
+\begin_inset Formula $Distance>DistanceSeuil$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $Satisfaction=0$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Subsubsection*
 Rémunération
 \end_layout
