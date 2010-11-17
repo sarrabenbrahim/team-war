@@ -2,7 +2,7 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass amsbook
+\textclass book
 \use_default_options true
 \begin_modules
 theorems-ams
@@ -63,7 +63,7 @@ reference "fig:Architecture-Logicielle"
 
 \end_inset
 
-.
+ pour l'architecture logicielle.
 \end_layout
 
 \begin_layout Standard
@@ -106,12 +106,19 @@ Architecture Logicielle
 
 \end_layout
 
-\begin_layout Section
-scenario de déroulement
+\begin_layout Subsection
+Scenario de déroulement
 \end_layout
 
-\begin_layout Subsection*
-Diagramme de séquence
+\begin_layout Standard
+On définit le scenario de déroulement dans la fig
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagramme-de-séquence"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -123,6 +130,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ../Image/DiagrammeSequence.PNG
+	lyxscale 50
 	width 100col%
 
 \end_inset
@@ -134,15 +142,17 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagramme-de-séquence"
+
+\end_inset
+
 Diagramme de séquence de déroulement de l'analyse
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -513,6 +523,34 @@ Critère de recherche d'offre d'emploi
 \end_layout
 
 \begin_layout Standard
+On définit cinq critères pour les offres : 
+\end_layout
+
+\begin_layout Itemize
+Domaine
+\end_layout
+
+\begin_layout Itemize
+Type de contrat 
+\end_layout
+
+\begin_layout Itemize
+Lieu
+\end_layout
+
+\begin_layout Itemize
+Rémunération
+\end_layout
+
+\begin_layout Itemize
+Durée
+\end_layout
+
+\begin_layout Subsection
+Détail des critère 
+\end_layout
+
+\begin_layout Standard
 On peut définir différent critères pour l'offre d'emploi : 
 \end_layout
 
@@ -584,14 +622,10 @@ Durée maximal
 
 \end_deeper
 \begin_layout Subsection
-D
+Définition des règles Si Alors
 \end_layout
 
-\begin_layout Subsection
-éfinition règle Si Alors
-\end_layout
-
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Domaine
 \end_layout
 
@@ -617,7 +651,7 @@ Garder Offre
 FinSI
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Type de Contrat
 \end_layout
 
@@ -692,7 +726,7 @@ Si Type = Alternance ALORS
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Lieux
 \end_layout
 
@@ -828,7 +862,7 @@ SI
 \end_layout
 
 \end_deeper
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Rémunération
 \end_layout
 
@@ -867,7 +901,7 @@ Sinon
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Durée
 \end_layout
 
@@ -892,6 +926,36 @@ Else
 
 \begin_layout Itemize
 \begin_inset Formula $satisfaction=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Représentation
+\end_layout
+
+\begin_layout Subsection
+Représentation des informations
+\end_layout
+
+\begin_layout Standard
+Le code 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "struc-connaissance"
+
+\end_inset
+
+ donne l'implémentation de la structure de fait dans CLIPS.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "../CodeCLIPS/structure.txt"
+lstparams "caption={Structure des connaissances},label={struc-connaissance}"
+
 \end_inset
 
 

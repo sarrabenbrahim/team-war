@@ -1,0 +1,11 @@
+(deftemplate OffreEmploie
+(slot reference 	(type STRING))
+(slot domaine 		(type STRING))
+(slot nomOffre 		(type STRING))
+(slot description	(type STRING))
+(slot remuneration	(type FLOAT))
+(slot typeContract	(type STRING))
+(slot duree		range 0 ?VARIABLE))
+(slot distance		(type INTEGER))
+)
+

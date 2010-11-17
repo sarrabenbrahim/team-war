@@ -2,7 +2,7 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass amsbook
+\textclass book
 \begin_preamble
 \usepackage[unicode=true, 
 bookmarks=true,
@@ -220,10 +220,6 @@ Erwan Tranvouez
 \end_layout
 
 \begin_layout Author
-Vendredi 19 Novembre
-\begin_inset Newline newline
-\end_inset
-
 Team-war@prunetwork.fr
 \end_layout
 
