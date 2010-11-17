@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -264,7 +264,7 @@ Obtenir au meilleur coût le rendement globale Maximum les équipements de
 
 \begin_layout Paragraph
 Ne permet pas en générale de prendre en compte les combinaisons de plusieurs
- défaillance
+ défaillances
 \end_layout
 
 \end_inset
@@ -273,7 +273,8 @@ Ne permet pas en générale de prendre en compte les combinaisons de plusieurs
 \begin_inset Text
 
 \begin_layout Plain Layout
-Déconseiller
+Peut être utilisé pour détecter les défaillances au niveau des machines
+ de production
 \end_layout
 
 \end_inset
