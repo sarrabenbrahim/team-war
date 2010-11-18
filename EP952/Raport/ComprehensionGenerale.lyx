@@ -9,7 +9,7 @@ theorems-ams
 eqs-within-sections
 figs-within-sections
 \end_modules
-\language english
+\language french
 \inputencoding auto
 \font_roman default
 \font_sans default
@@ -96,7 +96,7 @@ Il est présomptueux de vouloir automatiser le raisonnement humain via les
  l'aide de l'IA, il est préférable d'utiliser la solution IA.
  L'automatisation de la résolution permet à l'expert humain de se consacrer
  à des problèmes inédits et plus complexes.
- La performance d'un moteur d'intélligence artificielle reste constante
+ La performance d'un moteur d'intelligence artificielle reste constante
  voire évolutive.
  Tandis que celle de l'être humaine dépend de son état physique et mental
  tel que la fatigue et le stress.
@@ -123,10 +123,22 @@ En intelligence artificielle, le chaînage avant est une méthode de déduction
 Exemples d'application de chaînage avant :
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Liste des symptôme et regarde tout ce qui est possible à partir 
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 Exemples d'applications de chaînage arrière :
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+On commence par l'hypothèse et on vérifie que les symptômes correspondent
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 Séparation base de règles et base de faits
 \end_layout
@@ -145,7 +157,7 @@ Base des faits constitue un ensemble d'axiomes qui ne peuvent être remis
 
 \begin_layout Itemize
 Base de règles contient les règles, définies à partir des connaissances
- et les savoirs-faires des experts, qui vont permettre au système de raisonner
+ et les savoirs-faire des experts, qui vont permettre au système de raisonner
  à partir des faits.
  Elle n'évolue pas au cours d'une session de travail.
  
