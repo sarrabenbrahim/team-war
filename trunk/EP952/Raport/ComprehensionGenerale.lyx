@@ -105,6 +105,19 @@ Il est présomptueux de vouloir automatiser le raisonnement humain via les
  Autrement dit, la solution IA est recommandé pour les expertises simples
  et répétitives, il faut toutefois faire attention aux effets pervers de
  l'automatisation.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Pourquoi ne pas dire l'inverse ? Pour moi prendre l'IA quand ce n'est pas
+ nécessaire revient à prendre un marteau piqueur pour écraser une noix.
+ A choisir entre une méthode simple et une méthode compliqué, je préfère
+ une méthode simple moins coûteuse en temps, compétence et argent.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -125,7 +138,9 @@ Exemples d'application de chaînage avant :
 
 \begin_deeper
 \begin_layout Itemize
-Liste des symptôme et regarde tout ce qui est possible à partir 
+On liste les symptôme et on regarde tout ce qui est possible à partir de
+ cette base de faits.
+ 
 \end_layout
 
 \end_deeper
@@ -136,6 +151,7 @@ Exemples d'applications de chaînage arrière :
 \begin_deeper
 \begin_layout Itemize
 On commence par l'hypothèse et on vérifie que les symptômes correspondent
+ à l'hypothèse.
 \end_layout
 
 \end_deeper
