@@ -1,0 +1,51 @@
+(defrule filtre-domaine "Filtre qui verifie le secteur voulu"
+
+(offreEmploie 	(nomOffre ?nomOffreTemp)
+(offreEmploie 	(domaine ?domaineTemp)
+(Criteres		(domaine-souhaite ?domaine-souhaiteTemp)
+(test (member$ ?domaine-souhaiteTemp $?domaineTemp)
+=>
+(printout "l'offre "?nomOffre" correspond au domaine cherche")
+)
+
+(defrule filtre-domaine-neg "Filtre qui verifie le secteur voulu"
+
+?f<-(offreEmploie 	(nomOffre ?nomOffreTemp)
+(offreEmploie 		(domaine ?domaineTemp)
+(Criteres			(domaine-souhaite ?domaine-souhaiteTemp)
+(test (not(member$ ?domaine-souhaiteTemp $?domaineTemp))
+=>
+(printout "l'offre "?nomOffre" ne correspond pas au domaine cherche")
+(modify <?f> <etat REFUSED>*)
+)
+
+(defrule filtre-salaire "Filtre qui elimine les salaire trop bas"
+
+?f<-(offreEmploie 	(nomOffre 	?nomOffreTemp)
+(offreEmploie 		(salaire 	?salaireTemp)
+(Criteres			(salaire-min ?salaire-minTemp)
+(test (< ?salaireTemp ?salaire-minTemp)0)
+=>
+(printout "l'offre "?nomOffre" ne correspond pas au salaire souhaite")
+(modify <?f> <etat REFUSED>*)
+)
+
+(defrule evalue-salaire "Filtre qui evalue le salaire"
+
+?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
+(offreEmploie 		(salaire 		?salaireTemp)
+(Criteres			(salaire-min 	?salaire-minTemp)
+(Coefficent		(coef-salaire 	?coef-salaireTemp)
+(test (> ?salaireTemp ?salaire-minTemp)0)
+=>
+(printout "l'offre "?nomOffre" ne l'offre est interessante")
+(modify <?f> <satisfaction satisfaction=satisfaction + satisfaction*coef-salaireTemp>*);"BUG"
+)
+
+(defrule evalue-type-contrat	"Type Contrat"
+(offreEmploie		(typeContrat	?typeContratTemp)
+=>
+
+)
+
+
