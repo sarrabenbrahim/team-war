@@ -935,6 +935,22 @@ Else
 Représentation
 \end_layout
 
+\begin_layout Standard
+Pour notre développement on pose différentes hypothèses : 
+\end_layout
+
+\begin_layout Itemize
+On fait une recherche sur un seul et unique domaine
+\end_layout
+
+\begin_layout Itemize
+Les offres d'emploie ne porte que sur un seul domaine
+\end_layout
+
+\begin_layout Itemize
+La rémunération tient compte des avantages en nature
+\end_layout
+
 \begin_layout Subsection
 Représentation des informations
 \end_layout
@@ -955,6 +971,17 @@ reference "struc-connaissance"
 LatexCommand lstinputlisting
 filename "../CodeCLIPS/structure.txt"
 lstparams "caption={Structure des connaissances},label={struc-connaissance}"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "../CodeCLIPS/regles.txt"
+lstparams "caption={Regles},label={regles-clips}"
 
 \end_inset
 
