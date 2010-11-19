@@ -3,9 +3,18 @@
 (slot domaine 		(type STRING))
 (slot nomOffre 		(type STRING))
 (slot description	(type STRING))
-(slot remuneration	(type FLOAT))
+(slot salaire		(type FLOAT))
 (slot typeContract	(type STRING))
 (slot duree		range 0 ?VARIABLE))
 (slot distance		(type INTEGER))
+(slot etat		(type STRING))
+(slot satisfaction	(type FLOAT))
 )
 
+(deftemplate Critere
+(slot domaine-souhaite 	(type STRING))
+(slot salaire-min	(type FLOAT))
+)
+
+(deftemplate Coefficient
+(slot coef-salaire	(type FLOAT)) 
