@@ -1,11 +1,12 @@
 (deftemplate OffreEmploie
 (slot reference 	(type STRING))
 (slot domaine 		(type STRING))
+
 (slot nomOffre 		(type STRING))
 (slot description	(type STRING))
 (slot salaire		(type FLOAT))
 (slot typeContract	(type STRING))
-(slot duree		range 0 ?VARIABLE))
+(slot duree		(range 0 ?VARIABLE) )
 (slot distance		(type INTEGER))
 (slot etat		(type STRING))
 (slot satisfaction	(type FLOAT))
@@ -17,4 +18,5 @@
 )
 
 (deftemplate Coefficient
-(slot coef-salaire	(type FLOAT)) 
+(slot coef-salaire	(type FLOAT))
+)
