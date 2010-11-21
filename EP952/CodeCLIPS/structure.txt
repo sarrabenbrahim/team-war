@@ -15,8 +15,12 @@
 (deftemplate Critere
 (slot domaine-souhaite 	(type STRING))
 (slot salaire-min	(type FLOAT))
+(slot distance max	(type FLOAT))
+(slot 
 )
 
 (deftemplate Coefficient
 (slot coef-salaire	(type FLOAT))
+(slot coef-distance	(type FLOAT))
+(slot coef-duree	(Type FLOAT))
 )
