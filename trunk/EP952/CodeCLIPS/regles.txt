@@ -3,7 +3,7 @@
 (offreEmploie 	(nomOffre ?nomOffreTemp)
 (offreEmploie 	(domaine ?domaineTemp)
 (Criteres		(domaine-souhaite ?domaine-souhaiteTemp)
-(test (member$ ?domaine-souhaiteTemp $?domaineTemp)
+(test (member$ ?domaine-souhaiteTemp $?domaineTemp))
 =>
 (printout "l'offre "?nomOffre" correspond au domaine cherche")
 )
@@ -12,8 +12,8 @@
 
 ?f<-(offreEmploie 	(nomOffre ?nomOffreTemp)
 (offreEmploie 		(domaine ?domaineTemp)
-(Criteres			(domaine-souhaite ?domaine-souhaiteTemp)
-(test (not(member$ ?domaine-souhaiteTemp $?domaineTemp))
+(Criteres		(domaine-souhaite ?domaine-souhaiteTemp)
+(test (not(member$ ?domaine-souhaiteTemp $?domaineTemp)))
 =>
 (printout "l'offre "?nomOffre" ne correspond pas au domaine cherche")
 (modify <?f> <etat REFUSED>*)
@@ -34,7 +34,7 @@
 
 ?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
 (offreEmploie 		(salaire 		?salaireTemp)
-(Criteres			(salaire-min 	?salaire-minTemp)
+(Criteres		(salaire-min 	?salaire-minTemp)
 (Coefficent		(coef-salaire 	?coef-salaireTemp)
 (test (> ?salaireTemp ?salaire-minTemp)0)
 =>
@@ -42,10 +42,80 @@
 (modify <?f> <satisfaction satisfaction=satisfaction + satisfaction*coef-salaireTemp>*);"BUG"
 )
 
-(defrule evalue-type-contrat	"Type Contrat"
-(offreEmploie		(typeContrat	?typeContratTemp)
-=>
+(defrule evalue-CDI	"Type Contrat"
 
+?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
+(offreEmploie		(typeContrat	?typeContratTemp)
+
+(test (member$ ?typeContratTemp $?"CDI"))
+=>
+(printout "l'offre "?nomOffre" est interessante")
+(modify <?f> <satisfaction satisfaction=satisfaction + 5);"BUG"
+)
+
+(defrule evalue-CDD	"Type Contrat"
+
+?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
+(offreEmploie		(typeContrat	?typeContratTemp)
+
+(test (member$ ?typeContratTemp $?"CDD"))
+=>
+(printout "l'offre "?nomOffre" est interessante")
+(modify <?f> <satisfaction satisfaction=satisfaction + 4);"BUG"
+)
+
+(defrule evalue-Stage	"Type Contrat"
+
+?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
+(offreEmploie		(typeContrat	?typeContratTemp)
+
+(test (member$ ?typeContratTemp $?"Stage"))
+=>
+(printout "l'offre "?nomOffre" est interessante")
+(modify <?f> <satisfaction satisfaction=satisfaction + 3);"BUG"
+)
+
+(defrule evalue-VIE	"Type Contrat"
+
+?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
+(offreEmploie		(typeContrat	?typeContratTemp)
+
+(test (member$ ?typeContratTemp $?"VIE"))
+=>
+(printout "l'offre "?nomOffre" est interessante")
+(modify <?f> <satisfaction satisfaction=satisfaction + 2);"BUG"
+)
+(defrule evalue-Alternance	"Type Contrat"
+
+?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
+(offreEmploie		(typeContrat	?typeContratTemp)
+
+(test (member$ ?typeContratTemp $?"Alternance"))
+=>
+(printout "l'offre "?nomOffre" est interessante")
+(modify <?f> <satisfaction satisfaction=satisfaction + 1);"BUG"
 )
 
 
+(defrule evalue-distance "Filtre qui evalue la distance"
+
+?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
+(offreEmploie 		(distance 		?distanceTemp)
+(Criteres		(distance-max 		?distance-maxTemp)
+(Coefficent		(coef-distance 	?coef-distanceTemp)
+(test (< ?distanceTemp ?distance-maxTemp))
+=>
+(printout "l'offre "?nomOffre" est interessante")
+(modify <?f> <satisfaction satisfaction=satisfaction + (5*(distance-maxTemp-distanceTemp)/distance-maxTemp)*coef-distanceTemp);"BUG"
+)
+
+(defrule evalue-duree "Filtre qui evalue la duree"
+
+?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
+(offreEmploie 		(duree	 		?dureeTemp)
+(Coefficent		(coef-duree 	?coef-dureeTemp)
+(test (< ?duree ?6))
+=>
+(printout "l'offre "?nomOffre" n'est pas interessante")
+(modify <?f> <satisfaction satisfaction=satisfaction + coef-distanceTemp);"BUG"
+)
