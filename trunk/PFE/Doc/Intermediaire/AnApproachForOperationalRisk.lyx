@@ -56,34 +56,79 @@ Description de la méthode
 \end_layout
 
 \begin_layout Standard
-Cet article présente une méthode pour évaluer provisoirement les risques
- opérationnels qui peuvent aider la prise de décisions concernant la conception
- des plans de contrôle.
+Cet article présente une méthode d'évaluation des risques opérationnels
+ aidant à la prise de décisions sur les plans de contrôle.
  La méthode consiste à évaluer l'évolution du risque 
-\begin_inset Formula $R^{o}$
+\begin_inset Formula $R^{0}(t)$
 \end_inset
 
-(t) sur un horizon considéré (H) sans aucun contrôle.
+ sur un horizon (durée) considéré (H) sans aucun contrôle.
  Puis, une valeur ajoutée (en termes de risques) pourrait être évalués avec
  un plan de contrôle X.
 \end_layout
 
 \begin_layout Standard
-Le risque est calculé comme la multiplication de la probabilité d'un événement
- non-désiré (NDE : panne, défaillance, etc) par la Perte Potentielle (PL)
- lorsque cet événement se produit.
- La Perte Potentielle est ici exprimé par le nombre d'objets perdus (puce,
- plaquette ou le lot).
- Lorsqu'un événement non désiré se produit, il suppose d'influencer également
- sur la qualité des exécutions ultérieures, jusqu'à ce que son prochain
- contrôle (le contrôle signifie mesurer et corriger si ce n'est pas OK).
- Dans ce cas, le PL sera linéaire augmente avec le nombre d'exécutions.
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Added value of a control plan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Selon que le moment de l'évènement non-désiré se produise, l'évolution de
- la Perte Potentielle en l'absence de contrôle peut être représenté comme
- dans la Figure 2.
+Le risque est calculé comme le produit de la probabilité de l'évènement
+ non-désiré (NDE : panne, défaillance, etc) et de la Perte Potentielle (PL)
+ lorsque cet événement se produit.
+ La Perte Potentielle est ici exprimé par le nombre de produits perdus (puce,
+ plaquette ou le lot).
+ Lorsqu'un événement non-désiré se produit, la qualité de ses prochaines
+ exécutions (machine) sera alors diminuée jusqu'à son prochain contrôle
+ (le contrôle signifie mesurer et corriger si ce n'est pas OK).
+ Dans ce cas, la Perte Potentielle augmentera linéairement avec le nombre
+ d'exécutions.
+\end_layout
+
+\begin_layout Standard
+En l'absence du plan de contrôle, l'évolution de la Perte Potentielle dépend
+ du moment d'apparition de l'évènement non-désiré (cf.
+ ).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Potential Loss when no control plan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
  Lorsque les contrôles (les mesures et les actions correctives en cas de
  détection) sont prévues, la perte potentielle est différente parce que
  :
@@ -99,7 +144,31 @@ OK
 \end_inset
 
 , il n'est pas nécessaire d'envisager la perte potentielle qui correspond
- à un accident de NDE précédente à l'instant de mesure.
+ à l'occurence de l'évènement non-désiré précédant la mesure (cf.
+ ).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Potential Loss for a control with one control
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -115,7 +184,7 @@ OK
 \begin_inset Quotes eld
 \end_inset
 
-réinitialiser ou de modifier
+réinitialiser ou modifier
 \begin_inset Quotes erd
 \end_inset
 
@@ -140,13 +209,21 @@ perte prouvée
 \end_layout
 
 \begin_layout Standard
-En supposant que la distribution de la probabilité des évènements non-désirés
- sur l'horizon considéré (H) est connu, la fonction de l'évolution du risque
- avec un plan de contrôle X pourrait être calculé comme suit :
+En supposant que la loi de distribution de la probabilité des évènements
+ non-désirés sur l'horizon considéré (H) est connue, la fonction de l'évolution
+ du risque avec un plan de contrôle X pourrait être calculé comme suit :
 \end_layout
 
 \begin_layout Standard
-[Maths Expression]
+\align center
+\begin_inset Formula $R^{x}(i)=$
+\end_inset
+
+
+\begin_inset Formula $\sum_{j=1}^{i}(i-j+1).PL_{j}^{i}(i).Pr_{j}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -155,11 +232,47 @@ Résultats
 
 \begin_layout Standard
 L'évolution du risque dépend des plans de contrôle, en fonction de leurs
- nombre de controls ainsi que de leurs répartitions sur l'horizon.
+ nombre de controls ainsi que de leurs répartitions sur l'horizon :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Examples of risk evolution for different control plans
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'objectif futur de cette approche consiste à optimiser les plans de contrôle
+ en fonction des exigences de l'entreprise.
 \end_layout
 
 \begin_layout Section
 Remarques
+\end_layout
+
+\begin_layout Standard
+Cette approche est déjà mise en place chez STMicroelectonics mais cette
+ dernière ne permet pas de satisfaire les exigences de l'industriel.
+ Les plans de contrôle (tâche de qualité) exigent à chaque fois un temps
+ d'improductivité, or d'après cette approche plus il y aura de contrôle
+ plus le risque est réduit.
 \end_layout
 
 \end_body
