@@ -1,0 +1,145 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Bilan
+\end_layout
+
+\begin_layout Section
+Analyse critique du système expert développé
+\end_layout
+
+\begin_layout Subsection
+Avantage 
+\end_layout
+
+\begin_layout Standard
+L'intérêt de notre système est que les règles, sont modifiable et les critères
+ peuvent avoir différentes pondérations.
+ En ce sens ce système peut-être réutilisé.
+ 
+\end_layout
+
+\begin_layout Subsection
+Développement en programmation classique
+\end_layout
+
+\begin_layout Standard
+Vu la simplicité du modèle, un language en programmation classique serait
+ enviseageable.
+ Seulement cela serait possible uniquement car notre modèle est volontairement
+ simpliste à cause des contraintes temporels de l'EP.
+\end_layout
+
+\begin_layout Subsection
+Améliorations possibles
+\end_layout
+
+\begin_layout Standard
+Avec un délai plus important, des efforts sur la généricité aurait put être
+ fait de manière à rendre le code plus générique.
+ L'idée serait de rendre les évolutions du code plus facile ainsi que sa
+ maintenabilité.
+\end_layout
+
+\begin_layout Standard
+Une fonctionnalité pour interpréter des annonces sur les sites web directement
+ serait le bienvenu (Compatible avec un développement en deux semaine ?).
+ Toujours est-il que ce type de fonctionnalité rendra la recherche de stage
+ plus efficace.
+ Et l'intérêt de ce type de programme sera effectif.
+ 
+\end_layout
+
+\begin_layout Section
+Utilisation des systèmes experts
+\end_layout
+
+\begin_layout Subsection
+Retenir une approche par système expert
+\end_layout
+
+\begin_layout Standard
+Différentes raisons nous pousseraient à choisir une approche par système
+ expert : 
+\end_layout
+
+\begin_layout Itemize
+Complexité d'un problème 
+\end_layout
+
+\begin_layout Itemize
+Manque de connaissances dans un domaine d'étude
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+D'autres idées sont les bienvenues
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Rejeter cette approche 
+\end_layout
+
+\begin_layout Itemize
+Un projet dont la résolution du problème est simple pourrait être résolu
+ par une manière simple nous poussera à rejeter la methode de l'IA
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+D'autres idées sont les bienvenues
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
