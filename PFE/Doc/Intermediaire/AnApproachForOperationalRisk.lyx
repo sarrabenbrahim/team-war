@@ -49,6 +49,13 @@ figs-within-sections
 
 \begin_layout Chapter
 An approach for operational risk
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:risk"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -64,7 +71,15 @@ Cet article présente une méthode d'évaluation des risques opérationnels
 
  sur un horizon (durée) considéré (H) sans aucun contrôle.
  Puis, une valeur ajoutée (en termes de risques) pourrait être évalués avec
- un plan de contrôle X.
+ un plan de contrôle X (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Added-value-of-control-plan"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -77,8 +92,26 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Added-value-of-control-plan"
+
+\end_inset
+
 Added value of a control plan
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/AnApproachForOperationalRisk_Fig1.png
+	width 10cm
+	rotateOrigin center
 
 \end_inset
 
@@ -106,7 +139,14 @@ Le risque est calculé comme le produit de la probabilité de l'évènement
 \begin_layout Standard
 En l'absence du plan de contrôle, l'évolution de la Perte Potentielle dépend
  du moment d'apparition de l'évènement non-désiré (cf.
- ).
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Potential-Loss-when-no-control-plan"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -119,6 +159,12 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Potential-Loss-when-no-control-plan"
+
+\end_inset
+
 Potential Loss when no control plan
 \end_layout
 
@@ -127,9 +173,25 @@ Potential Loss when no control plan
 
 \end_layout
 
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/AnApproachForOperationalRisk_Fig2.png
+	width 10cm
+	rotateOrigin center
+
 \end_inset
 
- Lorsque les contrôles (les mesures et les actions correctives en cas de
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lorsque les contrôles (les mesures et les actions correctives en cas de
  détection) sont prévues, la perte potentielle est différente parce que
  :
 \end_layout
@@ -145,7 +207,14 @@ OK
 
 , il n'est pas nécessaire d'envisager la perte potentielle qui correspond
  à l'occurence de l'évènement non-désiré précédant la mesure (cf.
- ).
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Potential-Loss-for-control-with-one-control"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -158,8 +227,26 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Potential-Loss-for-control-with-one-control"
+
+\end_inset
+
 Potential Loss for a control with one control
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/AnApproachForOperationalRisk_Fig3.png
+	width 10cm
+	rotateOrigin center
 
 \end_inset
 
@@ -232,7 +319,15 @@ Résultats
 
 \begin_layout Standard
 L'évolution du risque dépend des plans de contrôle, en fonction de leurs
- nombre de controls ainsi que de leurs répartitions sur l'horizon :
+ nombre de controls ainsi que de leurs répartitions sur l'horizon (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Examples-of-risk-evolution-for-different-control-plans"
+
+\end_inset
+
+) :
 \end_layout
 
 \begin_layout Standard
@@ -245,8 +340,26 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Examples-of-risk-evolution-for-different-control-plans"
+
+\end_inset
+
 Examples of risk evolution for different control plans
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/AnApproachForOperationalRisk_Fig5.png
+	width 10cm
+	rotateOrigin center
 
 \end_inset
 
