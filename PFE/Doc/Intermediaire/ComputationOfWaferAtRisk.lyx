@@ -56,16 +56,17 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-La fabrication de sémiconducteur devienne de plus en plus complexe mais
- le contrôle exhaustif des plaques n'est pas réalisable d'un point de vue
- financier.
- L'objectif de cette étude consiste à évaluer le risque et optimiser l'utilisati
-on des équipements de contrôle dans la méthode d'échantillonnage.
+La fabrication de sémiconducteur devienne de plus en plus complexe et le
+ contrôle exhaustif des plaques n'est pas réalisable d'un point de vue financier.
+ La méthode d'échantillonnage se révélait limitée et insuffisante par rapport
+ aux exigences.
+ L'objectif de cette étude consiste donc à évaluer le risque et optimiser
+ l'utilisation des équipements de contrôle.
  
 \end_layout
 
 \begin_layout Standard
-L'évaluation des risques de chaque outi est caractérisé par le Wafer-At-Risk.
+L'évaluation des risques de chaque outil est caractérisé par le Wafer-At-Risk.
  L'information apportée par chaque lot, qui peut être inspecté, est appelée
  Wafer-At-Risk-Reduction.
  Ces deux informations ne sont pas exploitables directement, d'où la nécessité
@@ -78,8 +79,7 @@ Description de l'algorithme
 
 \begin_layout Standard
 La première étape est d'identifier les lots qui ont été effectivement inspectés.
- La première difficulté est d'identifier le DWR (Defectivity Work Requests
- ~ Demandes de travail défectueux).
+ La première difficulté est d'identifier le Defectivity Work Requests (DWR).
  DWR sont des demandes spéciales issues de l'ingénierie qui met le lot en
  attente pour une inspection en défectivité plus approfondie.
  Les archives des mesures sont utilisées et combinées avec les données des
@@ -87,12 +87,35 @@ La première étape est d'identifier les lots qui ont été effectivement inspec
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Flag algorithm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Après cela, la valeur du Wafer-At-Risk est calculée pour chaque outil du
  processus.
- La valeur est augmentée par la quantité des lots de plaques à chaque événement
- du processus.
- Cette valeur est diminuée par Wafer-At-Risk-Reduction quand le lot est
- inspecté.
+ Cette valeur est augmentée avec la quantité des lots de plaques à chaque
+ événement du processus.
+ Cette valeur est diminuée grâce au Wafer-At-Risk-Reduction quand le lot
+ est inspecté.
  En vue de la quantité de données et la complexité des relations à prendre
  en compte, l'horizon de traitement a été réduit à une semaine.
  Afin de faire correspondre les données entre les semaines successives,
@@ -101,12 +124,58 @@ Après cela, la valeur du Wafer-At-Risk est calculée pour chaque outil du
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Boundary conditions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Une autre amélioration de l'algorithme a été la définition du Wafer-At-Risk
- par la recette, du type de recette ou de la technologie et du module d'outils.
- Le modèle de contrôle de défectivité devaient être affinées pour tenir
- compte de ces paramètres et l'algorithme a ensuite été ajusté pour calculer
- les différents types de Wafer-At-Risk : globale et recette ou dépendant
- du contexte.
+ par la recette, du type de recette ou de la technologie ou du module d'outils.
+ Le modèle de contrôle de défectivité devait être affiné pour tenir compte
+ de ces paramètres et l'algorithme a ensuite été ajusté pour calculer les
+ différents types de Wafer-At-Risk : globale and recette ou dépendant du
+ contexte.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Global W@R and W@R by recipe
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -114,9 +183,9 @@ Resultats
 \end_layout
 
 \begin_layout Standard
-Les résultats obtenus a été couplés avec un autre algorithme permettant
- de réduire jusqu'à 35% des inspections.
- Un contrôle peut être éviter si le Wafer-At-Risk-Reduction du lot marqué
+Les résultats obtenus ont été couplés avec un autre algorithme permettant
+ de réduire jusqu'à 35% des inspections inutiles.
+ Un contrôle peut être évité si le Wafer-At-Risk-Reduction du lot marqué
  est inférieur ou égal à zéro.
 \end_layout
 
@@ -128,6 +197,13 @@ De plus l'algorithme a été amélioré pour être plus réactif sur la ligne
 
 \begin_layout Section
 Remarques
+\end_layout
+
+\begin_layout Standard
+Les détails de cette approche ne sont pas suffisants pour conclure sur sa
+ faisabilité pour notre cas d'étude.
+ Supposons que cet algorithme est applicable, cette méthode pourrait donc
+ être l'une des solutions de notre problème.
 \end_layout
 
 \end_body
