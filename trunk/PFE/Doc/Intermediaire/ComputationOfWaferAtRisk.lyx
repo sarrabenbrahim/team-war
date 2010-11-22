@@ -49,6 +49,13 @@ figs-within-sections
 
 \begin_layout Chapter
 Computation of wafer at risk
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:war"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -83,7 +90,15 @@ La première étape est d'identifier les lots qui ont été effectivement inspec
  DWR sont des demandes spéciales issues de l'ingénierie qui met le lot en
  attente pour une inspection en défectivité plus approfondie.
  Les archives des mesures sont utilisées et combinées avec les données des
- processus pour identifier et marquer tous les lots inspectés.
+ processus pour identifier et marquer tous les lots inspectés (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Flag-algorithm"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -96,8 +111,26 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Flag-algorithm"
+
+\end_inset
+
 Flag algorithm
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/ComputationOfWaferAtRisk_Fig1.png
+	width 10cm
+	rotateOrigin center
 
 \end_inset
 
@@ -120,7 +153,15 @@ Après cela, la valeur du Wafer-At-Risk est calculée pour chaque outil du
  en compte, l'horizon de traitement a été réduit à une semaine.
  Afin de faire correspondre les données entre les semaines successives,
  les conditions aux limites ont été définies, qui se composaient de la liste
- des lots ayant été traitées après le dernier lot inspecté.
+ des lots ayant été traitées après le dernier lot inspecté (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Boundary-conditions"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -133,8 +174,26 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Boundary-conditions"
+
+\end_inset
+
 Boundary conditions
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/ComputationOfWaferAtRisk_Fig2.png
+	width 10cm
+	rotateOrigin center
 
 \end_inset
 
@@ -152,7 +211,15 @@ Une autre amélioration de l'algorithme a été la définition du Wafer-At-Risk
  Le modèle de contrôle de défectivité devait être affiné pour tenir compte
  de ces paramètres et l'algorithme a ensuite été ajusté pour calculer les
  différents types de Wafer-At-Risk : globale and recette ou dépendant du
- contexte.
+ contexte (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Global-W@R-and W@R by recipe"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -165,8 +232,26 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Global-W@R-and W@R by recipe"
+
+\end_inset
+
 Global W@R and W@R by recipe
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/ComputationOfWaferAtRisk_Fig3.png
+	width 10cm
+	rotateOrigin center
 
 \end_inset
 

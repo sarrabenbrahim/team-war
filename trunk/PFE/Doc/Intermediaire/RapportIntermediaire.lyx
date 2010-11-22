@@ -393,13 +393,6 @@ filename "PreventionDesPhenomenesDangereux.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "ComputationOfWaferAtRisk.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset include
-LatexCommand include
 filename "AnApproachForOperationalRisk.lyx"
 
 \end_inset
@@ -408,6 +401,23 @@ filename "AnApproachForOperationalRisk.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "OptimizingReturnOnInspection.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "ComputationOfWaferAtRisk.lyx"
+
+\end_inset
+
+
 \begin_inset CommandInset include
 LatexCommand include
 filename "TableauSynthese.lyx"
@@ -421,7 +431,7 @@ filename "TableauSynthese.lyx"
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "../../../Bibliographie/BiblioTeamWAR"
-options "plainnat"
+options "plain"
 
 \end_inset
 
