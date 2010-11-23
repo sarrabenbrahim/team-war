@@ -152,8 +152,8 @@ The production system
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/OptimizingReturnOnInspection_Fig1.png
-	width 10cm
+	filename ../Images/OptimizingReturnOnInspection_Fig1.png
+	width 100col%
 	rotateOrigin center
 
 \end_inset
@@ -213,8 +213,8 @@ Risk reduction variation
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/OptimizingReturnOnInspection_Fig2.png
-	width 10cm
+	filename ../Images/OptimizingReturnOnInspection_Fig2.png
+	width 100col%
 	rotateOrigin center
 
 \end_inset
@@ -289,8 +289,8 @@ Wafer-At-Risk prototype
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/OptimizingReturnOnInspection_Fig3.png
-	width 10cm
+	filename ../Images/OptimizingReturnOnInspection_Fig3.png
+	width 100col%
 	rotateOrigin center
 
 \end_inset
@@ -356,8 +356,8 @@ Zoom on case of skip
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/OptimizingReturnOnInspection_Fig4.png
-	width 10cm
+	filename ../Images/OptimizingReturnOnInspection_Fig4.png
+	width 100col%
 	rotateOrigin center
 
 \end_inset

@@ -304,7 +304,7 @@ reference "fig:Réduction-du-risque"
 
 .
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 ici je nai pas encore fini jai plusieur page a lire et a faire correspondre
@@ -359,7 +359,7 @@ La figure présente la gestion du risque sous deux parties : l'appréciation
  expliqués.
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Subsection
 Elimination des phénomènes dangereux et réduction du risque:
 \end_layout
 
@@ -373,7 +373,7 @@ La prévention intrinsèque peut être définie comme l'élimination du phénom�
  
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Subsection
 Dispositifs de protection:
 \end_layout
 
@@ -383,7 +383,7 @@ Une fois la prévention intrinsèque mise en place , les dispositifs de protecti
  de détecteurs de défaillance après chaque machine.
 \end_layout
 
-\begin_layout Enumerate
+\begin_layout Subsection
 Formation et information:
 \end_layout
 
