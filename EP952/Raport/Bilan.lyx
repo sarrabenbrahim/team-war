@@ -37,6 +37,7 @@
 \tracking_changes false
 \output_changes false
 \author "" 
+\author "" 
 \end_header
 
 \begin_body
@@ -54,7 +55,7 @@ Avantage
 \end_layout
 
 \begin_layout Standard
-L'intérêt de notre système est que les règles, sont modifiable et les critères
+L'intérêt de notre système est que les règles, sont modifiables et les critères
  peuvent avoir différentes pondérations.
  En ce sens ce système peut-être réutilisé.
  
@@ -65,8 +66,8 @@ Développement en programmation classique
 \end_layout
 
 \begin_layout Standard
-Vu la simplicité du modèle, un language en programmation classique serait
- enviseageable.
+Vu la simplicité du modèle, un langage en programmation classique serait
+ envisageable.
  Seulement cela serait possible uniquement car notre modèle est volontairement
  simpliste à cause des contraintes temporels de l'EP.
 \end_layout
@@ -76,18 +77,18 @@ Améliorations possibles
 \end_layout
 
 \begin_layout Standard
-Avec un délai plus important, des efforts sur la généricité aurait put être
- fait de manière à rendre le code plus générique.
+Avec un délai plus important, des efforts sur la généricité auraient pu
+ être fait de manière à rendre le code plus générique.
  L'idée serait de rendre les évolutions du code plus facile ainsi que sa
  maintenabilité.
 \end_layout
 
 \begin_layout Standard
 Une fonctionnalité pour interpréter des annonces sur les sites web directement
- serait le bienvenu (Compatible avec un développement en deux semaine ?).
+ serait la bienvenu (Compatible avec un développement en deux semaine ?).
  Toujours est-il que ce type de fonctionnalité rendra la recherche de stage
  plus efficace.
- Et l'intérêt de ce type de programme sera effectif.
+ Et l'intérêt de ce type de programme serait effectif.
  
 \end_layout
 
@@ -105,11 +106,16 @@ Différentes raisons nous pousseraient à choisir une approche par système
 \end_layout
 
 \begin_layout Itemize
-Complexité d'un problème 
+Complexité d'un problème, en effet si un problème est trop complexe pour
+ être résolu de manière exacte par un algorithme.
 \end_layout
 
 \begin_layout Itemize
-Manque de connaissances dans un domaine d'étude
+Manque de connaissances dans un domaine d'étude.
+\end_layout
+
+\begin_layout Itemize
+Traiter un grand nombre de connaissances et aider à la prise de décision.
 \begin_inset Note Note
 status open
 
@@ -127,18 +133,17 @@ Rejeter cette approche
 \end_layout
 
 \begin_layout Itemize
-Un projet dont la résolution du problème est simple pourrait être résolu
- par une manière simple nous poussera à rejeter la methode de l'IA
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-D'autres idées sont les bienvenues
+Un projet dont la résolution du problème est simple, ne nécessite pas l'interven
+tion d'un système expert.
 \end_layout
 
-\end_inset
+\begin_layout Itemize
+Le problème est l'acquisition des connaissances.
+\end_layout
 
-
+\begin_layout Itemize
+Requiert des compétences spécifiques relevant de l'IA.
+ 
 \end_layout
 
 \end_body
