@@ -287,6 +287,8 @@ Remarques
 \begin_layout Standard
 Les détails de cette approche ne sont pas suffisants pour conclure sur sa
  faisabilité pour notre cas d'étude.
+ Comment peut-on s'en passer de l'historique afin de faire du quasi temps
+ réel ? Le résultat semble être pertinent que pour certaine recette spécifique.
  Supposons que cet algorithme est applicable, cette méthode pourrait donc
  être l'une des solutions de notre problème.
 \end_layout
