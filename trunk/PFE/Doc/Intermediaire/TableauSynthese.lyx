@@ -558,7 +558,7 @@ Plan de contrôle optimisé en se basant sur le risque
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Méthode pour le planning du contrôle de la qualité
 \end_layout
 
 \end_inset
@@ -567,7 +567,8 @@ Plan de contrôle optimisé en se basant sur le risque
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Conception optimisée de plans de contrôle en fonction des risques et des
+ capacités des ressources	
 \end_layout
 
 \end_inset
@@ -576,7 +577,12 @@ Plan de contrôle optimisé en se basant sur le risque
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Cet article propose une nouvelle méthode pour élaborer un plan de contrôle
+ en se basant sur 2 étapes : 1.
+ consiste à identifier les risques possibles et de faire une première répartitio
+n de risque, dans le but de construire un plan de contrôle après.2.
+ consiste à ajuster le plan construit dans la phase 1 en ajoutant ou enlevant
+ des contrôle quelqu’un selon la capacité de contrôle possible.	
 \end_layout
 
 \end_inset
@@ -585,7 +591,11 @@ Plan de contrôle optimisé en se basant sur le risque
 \begin_inset Text
 
 \begin_layout Plain Layout
+• Avoir un plan de controle de la qualité optimisé
+\end_layout
 
+\begin_layout Plain Layout
+• Prendre en compte les contrantes de capacités des ressources de contrôle.	
 \end_layout
 
 \end_inset
@@ -594,7 +604,11 @@ Plan de contrôle optimisé en se basant sur le risque
 \begin_inset Text
 
 \begin_layout Plain Layout
+• Définir au préalable tous les types de risque
+\end_layout
 
+\begin_layout Plain Layout
+• Définit la capacité des ressources de contrôle	
 \end_layout
 
 \end_inset
@@ -651,25 +665,15 @@ Tableau récapitulatif
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="7">
+<lyxtabular version="3" rows="4" columns="6">
 <features>
-<column alignment="center" valignment="top" width="15col%">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="15col%">
 <column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="15col%">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -726,6 +730,15 @@ Décision
 </cell>
 </row>
 <row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Article scientifique
+\end_layout
+
+\end_inset
+</cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
@@ -736,30 +749,11 @@ An Approach for Operational Risk Evaluation and its Link to Control Plan
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none" width="25col%">
 \begin_inset Text
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\noun off
-\color none
-\lang english
-M
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\noun default
-\color inherit
-éthode pour le planning du contrôle de la qualité 
 \end_layout
 
 \end_inset
@@ -768,42 +762,7 @@ M
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\noun off
-\color none
-\lang english
-Conception optimisée de plans de contrôle en fonction des risques et des
- capacités des ressources	
-\end_layout
-
-\end_inset
-</cell>
-<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\noun off
-\color none
-\lang english
-Cet article propose une nouvelle méthode pour élaborer un plan de contrôle
- en se basant sur 2 étapes : 1.
- consiste à identifier les risques possibles et de faire une première répartitio
-n de risque, dans le but de construire un plan de contrôle après.2.
- consiste à ajuster le plan construit dans la phase 1 en ajoutant ou enlevant
- des contrôle quelqu’un selon la capacité de contrôle possible.	
+Pouvant réduire fortement le risque du processus
 \end_layout
 
 \end_inset
@@ -812,51 +771,7 @@ n de risque, dans le but de construire un plan de contrôle après.2.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\noun off
-\color none
-\lang english
-• Avoir un plan de controle de la qualité optimisé
-\end_layout
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\noun off
-\color none
-\lang english
-• Prendre en compte les contrantes de capacités des ressources de contrôle.	
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\noun off
-\color none
-\lang english
-• Définir au préalable tous les types de risque• Définit la capacité des
- ressources de contrôle	
+La réduction du risque est proportionnelle au nombre du plan de contrôle
 \end_layout
 
 \end_inset
@@ -866,16 +781,6 @@ n de risque, dans le but de construire un plan de contrôle après.2.
 
 \begin_layout Plain Layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\noun off
-\color none
-\lang english
-A voir
 \end_layout
 
 \end_inset
@@ -886,26 +791,17 @@ A voir
 \begin_inset Text
 
 \begin_layout Plain Layout
+Article scientifique
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \align left
 Optimizing Return on Inspection Trough Defectivity Smart Sampling
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
@@ -953,6 +849,15 @@ Réduire jusqu'à 35% le nombre de contrôle (non nécessaire)
 \begin_inset Text
 
 \begin_layout Plain Layout
+Article scientifique
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
 \align left
 Computation of Wafer-At-Risk from Theory to Real Life Demonstration
 \end_layout
@@ -972,7 +877,13 @@ Computation of Wafer-At-Risk from Theory to Real Life Demonstration
 \begin_inset Text
 
 \begin_layout Plain Layout
+\align left
+- Réduir fortement le risque
+\end_layout
 
+\begin_layout Plain Layout
+\align left
+- Quasi temps réel
 \end_layout
 
 \end_inset
@@ -981,42 +892,18 @@ Computation of Wafer-At-Risk from Theory to Real Life Demonstration
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+\align left
+- Compléxité
 \end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Itemize
+\begin_layout Plain Layout
 \align left
-Réduire fortement le risque
+- Méthode mystérieuse
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
 \align left
-Quasi temps réel
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Itemize
-\align left
-Compléxité
-\end_layout
-
-\begin_layout Itemize
-\align left
-Méthode mystérieuse
-\end_layout
-
-\begin_layout Itemize
-\align left
-Faisabilité
+- Faisabilité
 \end_layout
 
 \end_inset
