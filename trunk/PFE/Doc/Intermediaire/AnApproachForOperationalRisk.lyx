@@ -381,11 +381,11 @@ Remarques
 \end_layout
 
 \begin_layout Standard
-Cette approche est déjà mise en place chez STMicroelectonics mais cette
- dernière ne permet pas de satisfaire les exigences de l'industriel.
+Cette approche nous semble déjà été mise en place chez STMicroelectonics
+ mais cette dernière ne permet pas de satisfaire les exigences de l'industriel.
  Les plans de contrôle (tâche de qualité) exigent à chaque fois un temps
- d'improductivité, or d'après cette approche plus il y aura de contrôle
- plus le risque est réduit.
+ d'improductivité, or d'après l'étude plus il y aura de contrôle plus le
+ risque est réduit, donc cette approche est industriellement non faisable.
 \end_layout
 
 \end_body
