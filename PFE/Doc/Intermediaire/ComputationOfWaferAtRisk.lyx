@@ -128,8 +128,8 @@ Flag algorithm
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/ComputationOfWaferAtRisk_Fig1.png
-	width 10cm
+	filename ../Images/ComputationOfWaferAtRisk_Fig1.png
+	width 100cm
 	rotateOrigin center
 
 \end_inset
@@ -191,8 +191,8 @@ Boundary conditions
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/ComputationOfWaferAtRisk_Fig2.png
-	width 10cm
+	filename ../Images/ComputationOfWaferAtRisk_Fig2.png
+	width 100col%
 	rotateOrigin center
 
 \end_inset
@@ -249,8 +249,8 @@ Global W@R and W@R by recipe
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/ComputationOfWaferAtRisk_Fig3.png
-	width 10cm
+	filename ../Images/ComputationOfWaferAtRisk_Fig3.png
+	width 100col%
 	rotateOrigin center
 
 \end_inset
