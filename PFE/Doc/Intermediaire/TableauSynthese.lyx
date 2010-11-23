@@ -741,6 +741,25 @@ An Approach for Operational Risk Evaluation and its Link to Control Plan
 
 \begin_layout Plain Layout
 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang english
+M
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+éthode pour le planning du contrôle de la qualité 
 \end_layout
 
 \end_inset
@@ -750,6 +769,41 @@ An Approach for Operational Risk Evaluation and its Link to Control Plan
 
 \begin_layout Plain Layout
 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang english
+Conception optimisée de plans de contrôle en fonction des risques et des
+ capacités des ressources	
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang english
+Cet article propose une nouvelle méthode pour élaborer un plan de contrôle
+ en se basant sur 2 étapes : 1.
+ consiste à identifier les risques possibles et de faire une première répartitio
+n de risque, dans le but de construire un plan de contrôle après.2.
+ consiste à ajuster le plan construit dans la phase 1 en ajoutant ou enlevant
+ des contrôle quelqu’un selon la capacité de contrôle possible.	
 \end_layout
 
 \end_inset
@@ -759,6 +813,30 @@ An Approach for Operational Risk Evaluation and its Link to Control Plan
 
 \begin_layout Plain Layout
 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang english
+• Avoir un plan de controle de la qualité optimisé
+\end_layout
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang english
+• Prendre en compte les contrantes de capacités des ressources de contrôle.	
 \end_layout
 
 \end_inset
@@ -767,18 +845,18 @@ An Approach for Operational Risk Evaluation and its Link to Control Plan
 \begin_inset Text
 
 \begin_layout Plain Layout
-\align left
-Peut réduire fortement le risque du processus
-\end_layout
 
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\align left
-Le facteur de réduction est proportionnel au nombre des plans de contrôle
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang english
+• Définir au préalable tous les types de risque• Définit la capacité des
+ ressources de contrôle	
 \end_layout
 
 \end_inset
@@ -788,6 +866,16 @@ Le facteur de réduction est proportionnel au nombre des plans de contrôle
 
 \begin_layout Plain Layout
 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang english
+A voir
 \end_layout
 
 \end_inset
