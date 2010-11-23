@@ -109,8 +109,8 @@ Added value of a control plan
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/AnApproachForOperationalRisk_Fig1.png
-	width 10cm
+	filename ../Images/AnApproachForOperationalRisk_Fig1.png
+	width 100col%
 	rotateOrigin center
 
 \end_inset
@@ -176,8 +176,8 @@ Potential Loss when no control plan
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/AnApproachForOperationalRisk_Fig2.png
-	width 10cm
+	filename ../Images/AnApproachForOperationalRisk_Fig2.png
+	width 100col%
 	rotateOrigin center
 
 \end_inset
@@ -244,8 +244,8 @@ Potential Loss for a control with one control
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/AnApproachForOperationalRisk_Fig3.png
-	width 10cm
+	filename ../Images/AnApproachForOperationalRisk_Fig3.png
+	width 100col%
 	rotateOrigin center
 
 \end_inset
@@ -357,8 +357,8 @@ Examples of risk evolution for different control plans
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/5A-Equipe_TeamW@R-S9/Projet_Fin_Etude/PFE/Doc/Images/AnApproachForOperationalRisk_Fig5.png
-	width 10cm
+	filename ../Images/AnApproachForOperationalRisk_Fig5.png
+	width 100col%
 	rotateOrigin center
 
 \end_inset
