@@ -2,13 +2,8 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass amsbook
+\textclass book
 \use_default_options true
-\begin_modules
-theorems-ams
-eqs-within-sections
-figs-within-sections
-\end_modules
 \language french
 \inputencoding auto
 \font_roman default
@@ -60,10 +55,26 @@ Avantage
 \end_layout
 
 \begin_layout Standard
-L'intérêt de notre système est que les règles, sont modifiables et les critères
- peuvent avoir différentes pondérations.
- En ce sens ce système peut-être réutilisé.
+Notre SE developpé par nos soins sous la tutelle de M.Tranvouez 
+\begin_inset Quotes eld
+\end_inset
+
+THE expert
+\begin_inset Quotes erd
+\end_inset
+
+ nous parait assez complet, en effet il traite la demande de l'utilisateur
+ en prenant en considération ses interêts pour chaque critères.
  
+\end_layout
+
+\begin_layout Standard
+D'autre part le SE est paramétrable, en effet l'utilisateur a la possiblité
+ de spécifier les poids des critères qu'il considère primordiaux.
+\end_layout
+
+\begin_layout Standard
+En ce sens ce système peut-être réutilisé.
 \end_layout
 
 \begin_layout Subsection
@@ -71,10 +82,11 @@ Développement en programmation classique
 \end_layout
 
 \begin_layout Standard
-Vu la simplicité du modèle, un langage en programmation classique serait
- envisageable.
- Seulement cela serait possible uniquement car notre modèle est volontairement
- simpliste à cause des contraintes temporels de l'EP.
+Le développement de notre SE dans un autre langage n'est pas envisageable
+ car la plupart des langages ne font pas la distinction entre la base de
+ régles et la base de faits.
+ d'autre part il ne dispose de moteur d'inférence ce qui oblige le programmeur
+ à gérer lui même les régles.
 \end_layout
 
 \begin_layout Subsection
@@ -82,19 +94,15 @@ Améliorations possibles
 \end_layout
 
 \begin_layout Standard
-Avec un délai plus important, des efforts sur la généricité auraient pu
- être fait de manière à rendre le code plus générique.
- L'idée serait de rendre les évolutions du code plus facile ainsi que sa
- maintenabilité.
+L'idée serait de trouver une application( ou API) qui assurera une connexion
+ avec le serveur de base de donnée de site d'emploi (ex: APEC).
+ d'autre part il serait interessant de trouver une application qui permettera
+ de donner une représentation graphique de l'arbre de décision.
 \end_layout
 
 \begin_layout Standard
-Une fonctionnalité pour interpréter des annonces sur les sites web directement
- serait la bienvenu (Compatible avec un développement en deux semaine ?).
- Toujours est-il que ce type de fonctionnalité rendra la recherche de stage
- plus efficace.
- Et l'intérêt de ce type de programme serait effectif.
- 
+Rajouter une fonctionnalité afin de pouvoir permettre à l'utilisateur de
+ choisir plusieurs domaine à la fois.
 \end_layout
 
 \begin_layout Section
@@ -112,7 +120,7 @@ Différentes raisons nous pousseraient à choisir une approche par système
 
 \begin_layout Itemize
 Complexité d'un problème, en effet si un problème est trop complexe pour
- être résolu de manière exacte par un algorithme.
+ être résolu de manière exacte par un algorithme simple.
 \end_layout
 
 \begin_layout Itemize
@@ -121,16 +129,6 @@ Manque de connaissances dans un domaine d'étude.
 
 \begin_layout Itemize
 Traiter un grand nombre de connaissances et aider à la prise de décision.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-D'autres idées sont les bienvenues
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection

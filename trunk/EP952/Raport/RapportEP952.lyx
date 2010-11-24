@@ -2,7 +2,7 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass amsbook
+\textclass book
 \begin_preamble
 \usepackage[unicode=true, 
 bookmarks=true,
@@ -102,10 +102,6 @@ Etude Pratique
 \emph on
 Intelligence Artificielle
 \begin_inset Quotes frd
-\end_inset
-
-
-\begin_inset Newline newline
 \end_inset
 
 
@@ -247,16 +243,6 @@ filename "ComprehensionGenerale.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "DeveloppementSE.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "Bilan.lyx"
 
 \end_inset
 

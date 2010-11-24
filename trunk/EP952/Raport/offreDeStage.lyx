@@ -49,7 +49,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="11" columns="9">
+<lyxtabular version="3" rows="10" columns="9">
 <features>
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
@@ -137,7 +137,7 @@ Durée
 \begin_inset Text
 
 \begin_layout Plain Layout
-Distance
+Perimetre Maximal
 \end_layout
 
 \end_inset
@@ -184,18 +184,9 @@ Stagiaire web (H/F)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Public Sénat donne la possibilité à un étudiant en cours de formation de
- faire son stage au pôle internet.Sous la conduite et en assistant la responsable
- du pôle internet, vous aurez en charge : 
-\end_layout
-
-\begin_layout Plain Layout
-• Publier les mises à jour : informations sur les prochains programmes de
+Publier les mises à jour : informations sur les prochains programmes de
  la chaîne (création de visuels), mise à jour des rubriques génériques du
- site, vérification du bon fonctionnement des VOD mises en ligne • Suivi
- du courrier des internautes • Modération de forums • Préparation de la
- newsletter hebdomadaire • Le suivi hebdomadaire de l’évolution du site
- : rapport et analyse des statistiques
+ site, vérification du bon fonctionnement des VOD mises en ligne
 \end_layout
 
 \end_inset
@@ -231,7 +222,7 @@ Stage
 \begin_inset Text
 
 \begin_layout Plain Layout
-île de France
+800
 \end_layout
 
 \end_inset
@@ -251,7 +242,7 @@ R0002
 \begin_inset Text
 
 \begin_layout Plain Layout
-Marketing
+Industriel
 \end_layout
 
 \end_inset
@@ -269,7 +260,7 @@ AlloCiné
 \begin_inset Text
 
 \begin_layout Plain Layout
-Stage Chargé d'études Marketing / Web analytics (H/F)
+Chaine logistique
 \end_layout
 
 \end_inset
@@ -278,13 +269,9 @@ Stage Chargé d'études Marketing / Web analytics (H/F)
 \begin_inset Text
 
 \begin_layout Plain Layout
-- participez à l'élaboration des outils d'aide à la vente et des outils
- de communication (newsletters), - examinez les résultats d'études de marché
- (Nielsen, TNS, ...) et participez aux réunions interprofessionnelles, - élaborez
- / améliorez les questionnaires existants, - analysez l'audience de l'ensemble
- des sites web et applications du groupe, - contribuez à l'amélioration
- des fonctionnalités des sites / applications en les testant via les outils
- de web analytics.
+-Publier les mises à jour : informations sur les prochains programmes de
+ la chaîne (création de visuels), mise à jour des rubriques génériques du
+ site, vérification du bon fonctionnement des VOD mises en ligne
 \end_layout
 
 \end_inset
@@ -293,7 +280,7 @@ Stage Chargé d'études Marketing / Web analytics (H/F)
 \begin_inset Text
 
 \begin_layout Plain Layout
-400 €
+1000 €
 \end_layout
 
 \end_inset
@@ -302,7 +289,7 @@ Stage Chargé d'études Marketing / Web analytics (H/F)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Stage
+CDD
 \end_layout
 
 \end_inset
@@ -311,7 +298,7 @@ Stage
 \begin_inset Text
 
 \begin_layout Plain Layout
-6 mois
+12 mois
 \end_layout
 
 \end_inset
@@ -320,7 +307,7 @@ Stage
 \begin_inset Text
 
 \begin_layout Plain Layout
-île de France
+100
 \end_layout
 
 \end_inset
@@ -358,7 +345,7 @@ Sopra Groupe
 \begin_inset Text
 
 \begin_layout Plain Layout
-Testeur / Ingénieur informatique débutant (H/F)
+Dev J2EE
 \end_layout
 
 \end_inset
@@ -367,14 +354,9 @@ Testeur / Ingénieur informatique débutant (H/F)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Profil recherché :
-\end_layout
-
-\begin_layout Plain Layout
-De formation BAC+5 (école d'ingénieur, universitaire).
- vous justifiez de 2 à 5 ans d'expérience dans la téchnologie Java/j2EE
- et une bonne maîtrise des frameworks tel que Hibernate, Spring, Maven,
- et autre.
+Publier les mises à jour : informations sur les prochains programmes de
+ la chaîne (création de visuels), mise à jour des rubriques génériques du
+ site, vérification du bon fonctionnement des VOD mises en ligne
 \end_layout
 
 \end_inset
@@ -383,7 +365,7 @@ De formation BAC+5 (école d'ingénieur, universitaire).
 \begin_inset Text
 
 \begin_layout Plain Layout
-4.500 €
+1200€
 \end_layout
 
 \end_inset
@@ -410,7 +392,7 @@ CDI
 \begin_inset Text
 
 \begin_layout Plain Layout
-Genève
+100
 \end_layout
 
 \end_inset
@@ -457,12 +439,8 @@ CONSULTANT Technico-Fonctionnel SAP (H/F)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Profil recherché :
-\end_layout
-
-\begin_layout Plain Layout
-De formation BAC+5 (école d'ingénieur, universitaire) vous justifiez de
- 3 à 10 ans d'expérience sur des projets SAP.
+Profil recherché : De formation BAC+5 (école d'ingénieur, universitaire)
+ vous justifiez de 3 à 10 ans d'expérience sur des projets SAP.
  Vous maîtrisez un ou plusieurs des modules/sous modules fonctionnels suivants
  (version ECC 5.0/6.0) : - PP, PM, QM, CS, WM, MM, SD, PS, EHS...
  - FI, CO, FI-FM, IM, FSCM, SEM...
@@ -476,7 +454,7 @@ De formation BAC+5 (école d'ingénieur, universitaire) vous justifiez de
 \begin_inset Text
 
 \begin_layout Plain Layout
-3.500 €
+1500 €
 \end_layout
 
 \end_inset
@@ -503,7 +481,7 @@ CDI
 \begin_inset Text
 
 \begin_layout Plain Layout
-Midi-Pyrénées
+100
 \end_layout
 
 \end_inset
@@ -568,7 +546,7 @@ Vous devez suivre et mettre à jour des données et documents industriels
 \begin_inset Text
 
 \begin_layout Plain Layout
-2000 € à 2200 €
+2200 €
 \end_layout
 
 \end_inset
@@ -595,7 +573,7 @@ CDI
 \begin_inset Text
 
 \begin_layout Plain Layout
-Saint-Barthélemy-d'Anjou
+100
 \end_layout
 
 \end_inset
@@ -686,7 +664,7 @@ Stage
 \begin_inset Text
 
 \begin_layout Plain Layout
-20 Kms de Montargis
+100
 \end_layout
 
 \end_inset
@@ -775,7 +753,7 @@ CDD
 \begin_inset Text
 
 \begin_layout Plain Layout
-Paris
+100
 \end_layout
 
 \end_inset
@@ -900,7 +878,7 @@ Industriel
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+LIXIR
 \end_layout
 
 \end_inset
@@ -975,126 +953,7 @@ CDI
 \begin_inset Text
 
 \begin_layout Plain Layout
-Strasbourg
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-R0010
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Industriel
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Le leader du conseil en recrutement spécialisé
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-RESPONSABLE ORDONNANCEMENT (H/F)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Rattaché(e) au Responsable Logistique, vous établissez, et optimisez les
- méthodes de production et la gestion de production, pour les activités
- d'injection et d'assemblage :
-\end_layout
-
-\begin_layout Itemize
-Vous réalisez la planification de la fabrication en fonction du Plan Directeur
- de la Production et des besoins client.
- 
-\end_layout
-
-\begin_layout Itemize
-Vous êtes le garant des ressources nécessaires, tant au niveau humain qu'au
- niveau matériel.
-\end_layout
-
-\begin_layout Itemize
-Vous équilibrez au mieux les stocks selon les approvisionnements de matière
- première et le niveau de production.
- 
-\end_layout
-
-\begin_layout Itemize
-En tenant compte des contraintes de production, vous visez un niveau de
- satisfaction client optimum, - En tant que Pilote Kanban, vous êtes le
- garant du respect de ses règles.
- 
-\end_layout
-
-\begin_layout Itemize
-Vous êtes en charge d'un reporting régulier auprès de vos responsables.
- En cas de dysfonctionnement, vous proposez des actions correctives, 
-\end_layout
-
-\begin_layout Itemize
-Dans les missions qui vous incombent et afin d'atteindre vos objectifs,
- vous encadrez trois ordonnanceurs.
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-2700
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-CDI
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
--
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Fonche comté
+100
 \end_layout
 
 \end_inset
