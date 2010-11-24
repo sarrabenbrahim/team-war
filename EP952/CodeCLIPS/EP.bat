@@ -25,6 +25,8 @@
 (slot etat		)
 (slot satisfactionTotal	(type FLOAT) (default 0.0))
 
+(slot satisfactionMotCle (type FLOAT) (default 0.0))
+
 (slot satisfactionDomaine	(type FLOAT) (default 0.0))
 
 (slot satisfactionSalaire	(type FLOAT) (default 0.0))
@@ -35,7 +37,7 @@
 
 (slot satisfactionDuree	(type FLOAT) (default 0.0))
 
-(slot satisfactionMotCle (type FLOAT) (default 0.0))
+
 
 )
 
@@ -202,7 +204,7 @@
 (not (exists (AnalyseOffre (reference ?ref))))
 =>
 
-(printout t "XXXXXXXXXXXXXX => L'offre " ?ref " de l'entreprise " ?entre " ne correspond pas au domaine recherche donc elle est annulee elle est dans le domaine " ?domaineO " <= XXXXXXXXXXXXXX !" crlf)
+(printout t "XXXXXXXXXXXXXX => L'offre " ?ref " de l'entreprise " ?entre " ne correspond pas au domaine recherche donc elle est annulee , elle est dans le domaine " ?domaineO " <= XXXXXXXXXXXXXX !" crlf)
 (modify ?f (etat "non valide , le domaine ne correspond pas "))
 (assert (AnalyseOffre (reference ?ref) (domaine noValide) ))
 )
@@ -274,7 +276,7 @@
 (typeContrat ?typeContratD)
 (not (test (= (str-compare ?typeContratD ?typeContratO) 0)))
 =>
-(printout t "(XXXXXXXXXXXX = > L'offre " ?ref " de l'entreprise " ?entre " est annulee vu que le son type de contrat ne correspond du tout pas aux criteres recherches il est de type :" ?typeContratO " <= XXXXXXXXXXXXX" crlf)
+(printout t "(XXXXXXXXXXXX = > L'offre " ?ref " de l'entreprise " ?entre " est annulee vu que le son type de contrat ne correspond pas aux criteres recherche, il est de type :" ?typeContratO " <= XXXXXXXXXXXXX" crlf)
 (modify ?f (typeContrat noValide) (domaine DejaValide))
 (modify ?g (etat "non valide , le Type de contract ne correspond pas du tout au critere recherche "))
 )
@@ -413,8 +415,33 @@
 (modify ?g (etat "non valide , la distance est très loin par rapport a la distance voulue recherche "))
 )
 
-(defrule CalculSatisfaction
+
+(defrule CalculSatisfactionMotCle
 ?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValide) (salaire DejaValide) (distance Valide)
+(satisfactionMotCle ?satfMC))
+(motCle ?motCle)
+?g <-(OffreEmploie (reference ?ref) (nomOffre ?nom) (description ?descr))
+(or (test (str-index ?motCle  ?nom)) (test (str-index ?motCle ?descr)))
+
+=>
+(modify ?f (satisfactionMotCle 1.0) (distance DejaValide))
+
+)
+
+(defrule NotCalculSatisfactionMotCle
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValide) (salaire DejaValide) (distance Valide)
+(satisfactionMotCle ?satfMC))
+(motCle ?motCle)
+?g <-(OffreEmploie (reference ?ref) (nomOffre ?nom) (description ?descr))
+(not (and (test (str-index ?motCle  ?nom)) (test (str-index ?motCle ?descr))))
+=>
+
+(modify ?f (distance DejaValide) (satisfactionMotCle 0.0) )
+
+)
+
+(defrule CalculSatisfaction
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValide) (salaire DejaValide) (distance DejaValide)
 (satisfactionDomaine ?satfD) 
 (satisfactionTypeContrat ?satfTC) 
 (satisfactionSalaire ?satfS)
@@ -439,18 +466,18 @@
 (+ (* ?satfD ?coefD)
 (+ (* (/ ?satfTC 5) ?coefTC)
 (+ (* (/ ?satfS 5) ?coefS)
-(+ (+ (* (/ ?satfDr 3) ?coefDr) (* (/ ?satfDs 5) ?coefDs)) (* ?satfMC 6))
+(+ (+ (* (/ ?satfDr 3) ?coefDr) (* (/ ?satfDs 5) ?coefDs)) (* ?satfMC 2))
 )
 )
-)  (+ ?coefD (+ ?coefTC (+ ?coefS (+ (+ ?coefDr 6) ?coefDs)))) )
+)  (+ ?coefD (+ ?coefTC (+ ?coefS (+ (+ ?coefDr 2) ?coefDs)))) )
 )
-(distance DejaValide))
+(distance ValidationFinal))
 )
 
 
 
 (defrule AfficherResultatOK
-(AnalyseOffre (reference ?ref)(domaine DejaValide) (typeContrat DejaValide) (salaire DejaValide) (distance DejaValide) (satisfactionTotal ?satifT)) 
+(AnalyseOffre (reference ?ref)(domaine DejaValide) (typeContrat DejaValide) (salaire DejaValide) (distance ValidationFinal) (satisfactionTotal ?satifT)) 
 (OffreEmploie (reference ?ref) (entreprise ?entre))
 =>
 (printout t "=============>L'offre : " ?ref " de l'entreprise : " ?entre " repond aux criteres cherches avec un Taux de <================ " (* ?satifT 100.0) "%" crlf)
@@ -472,6 +499,7 @@
 (coefDistance ?coefDs)
 (coefDuree	?coefDr)
 )
+
 =>
 (printout t "Donner un point entre 1-5 pour le criteres Domaine ? oui/non" crlf)
 (bind ?rep0 (read) )
