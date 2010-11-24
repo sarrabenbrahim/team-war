@@ -1,26 +1,50 @@
+(reset)
+;Structure
+
 (deftemplate OffreEmploie
 (slot reference 	(type STRING))
 (slot domaine 		(type STRING))
-
 (slot nomOffre 		(type STRING))
 (slot description	(type STRING))
 (slot salaire		(type FLOAT))
-(slot typeContract	(type STRING))
-(slot duree		(range 0 ?VARIABLE) )
+(slot typeContrat	(type STRING))
+(slot duree		(range 0 ?VARIABLE))
 (slot distance		(type INTEGER))
 (slot etat		(type STRING))
-(slot satisfaction	(type FLOAT))
+(slot entreprise (type STRING))
 )
 
-(deftemplate Critere
-(slot domaine-souhaite 	(type STRING))
-(slot salaire-min	(type FLOAT))
-(slot distance max	(type FLOAT))
-(slot 
+
+(deftemplate AnalyseOffre
+(slot reference 	)
+(slot domaine 		)
+(slot salaire		)
+(slot typeContrat	)
+(slot duree		)
+(slot distance		)
+(slot etat		)
+(slot satisfactionTotal	(type FLOAT) (default 0.0))
+
+(slot satisfactionDomaine	(type FLOAT) (default 0.0))
+
+(slot satisfactionSalaire	(type FLOAT) (default 0.0))
+
+(slot satisfactionTypeContrat	(type FLOAT) (default 0.0))
+
+(slot satisfactionDistance	(type FLOAT) (default 0.0))
+
+(slot satisfactionDuree	(type FLOAT) (default 0.0))
+
+(slot satisfactionMotCle (type FLOAT) (default 0.0))
+
 )
 
-(deftemplate Coefficient
-(slot coef-salaire	(type FLOAT))
-(slot coef-distance	(type FLOAT))
-(slot coef-duree	(Type FLOAT))
+(deftemplate CoefCriteres
+(slot coefTotal	(type FLOAT) (default 1.0))
+(slot coefDomaine	(type FLOAT) (default 1.0))
+(slot coefSalaire	(type FLOAT) (default 1.0))
+(slot coefTypeContrat	(type FLOAT) (default 1.0))
+(slot coefDistance	(type FLOAT) (default 1.0))
+(slot coefDuree	(type FLOAT) (default 1.0))
 )
+ 

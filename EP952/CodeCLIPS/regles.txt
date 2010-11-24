@@ -1,121 +1,391 @@
-(defrule filtre-domaine "Filtre qui verifie le secteur voulu"
-
-(offreEmploie 	(nomOffre ?nomOffreTemp)
-(offreEmploie 	(domaine ?domaineTemp)
-(Criteres		(domaine-souhaite ?domaine-souhaiteTemp)
-(test (member$ ?domaine-souhaiteTemp $?domaineTemp))
+(defrule VDomaine
+?f <- (OffreEmploie (domaine ?domaineO) (reference ?ref))
+(domaine ?domaineD)
+?g <-(go Vrai)
+(test (= (str-compare ?domaineD ?domaineO) 0))
+(not (exists (AnalyseOffre (reference ?ref))))
 =>
-(printout "l'offre "?nomOffre" correspond au domaine cherche")
-)
 
-(defrule filtre-domaine-neg "Filtre qui verifie le secteur voulu"
+(assert (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionDomaine 1.0)))
 
-?f<-(offreEmploie 	(nomOffre ?nomOffreTemp)
-(offreEmploie 		(domaine ?domaineTemp)
-(Criteres		(domaine-souhaite ?domaine-souhaiteTemp)
-(test (not(member$ ?domaine-souhaiteTemp $?domaineTemp)))
-=>
-(printout "l'offre "?nomOffre" ne correspond pas au domaine cherche")
-(modify <?f> <etat REFUSED>*)
-)
-
-(defrule filtre-salaire "Filtre qui elimine les salaire trop bas"
-
-?f<-(offreEmploie 	(nomOffre 	?nomOffreTemp)
-(offreEmploie 		(salaire 	?salaireTemp)
-(Criteres			(salaire-min ?salaire-minTemp)
-(test (< ?salaireTemp ?salaire-minTemp)0)
-=>
-(printout "l'offre "?nomOffre" ne correspond pas au salaire souhaite")
-(modify <?f> <etat REFUSED>*)
-)
-
-(defrule evalue-salaire "Filtre qui evalue le salaire"
-
-?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
-(offreEmploie 		(salaire 		?salaireTemp)
-(Criteres		(salaire-min 	?salaire-minTemp)
-(Coefficent		(coef-salaire 	?coef-salaireTemp)
-(test (> ?salaireTemp ?salaire-minTemp)0)
-=>
-(printout "l'offre "?nomOffre" ne l'offre est interessante")
-(modify <?f> <satisfaction satisfaction=satisfaction + satisfaction*coef-salaireTemp>*);"BUG"
-)
-
-(defrule evalue-CDI	"Type Contrat"
-
-?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
-(offreEmploie		(typeContrat	?typeContratTemp)
-
-(test (member$ ?typeContratTemp $?"CDI"))
-=>
-(printout "l'offre "?nomOffre" est interessante")
-(modify <?f> <satisfaction satisfaction=satisfaction + 5);"BUG"
-)
-
-(defrule evalue-CDD	"Type Contrat"
-
-?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
-(offreEmploie		(typeContrat	?typeContratTemp)
-
-(test (member$ ?typeContratTemp $?"CDD"))
-=>
-(printout "l'offre "?nomOffre" est interessante")
-(modify <?f> <satisfaction satisfaction=satisfaction + 4);"BUG"
-)
-
-(defrule evalue-Stage	"Type Contrat"
-
-?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
-(offreEmploie		(typeContrat	?typeContratTemp)
-
-(test (member$ ?typeContratTemp $?"Stage"))
-=>
-(printout "l'offre "?nomOffre" est interessante")
-(modify <?f> <satisfaction satisfaction=satisfaction + 3);"BUG"
-)
-
-(defrule evalue-VIE	"Type Contrat"
-
-?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
-(offreEmploie		(typeContrat	?typeContratTemp)
-
-(test (member$ ?typeContratTemp $?"VIE"))
-=>
-(printout "l'offre "?nomOffre" est interessante")
-(modify <?f> <satisfaction satisfaction=satisfaction + 2);"BUG"
-)
-(defrule evalue-Alternance	"Type Contrat"
-
-?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
-(offreEmploie		(typeContrat	?typeContratTemp)
-
-(test (member$ ?typeContratTemp $?"Alternance"))
-=>
-(printout "l'offre "?nomOffre" est interessante")
-(modify <?f> <satisfaction satisfaction=satisfaction + 1);"BUG"
 )
 
 
-(defrule evalue-distance "Filtre qui evalue la distance"
 
-?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
-(offreEmploie 		(distance 		?distanceTemp)
-(Criteres		(distance-max 		?distance-maxTemp)
-(Coefficent		(coef-distance 	?coef-distanceTemp)
-(test (< ?distanceTemp ?distance-maxTemp))
+(defrule NVdomaine
+?f <- (OffreEmploie (domaine ?domaineO) (reference ?ref) (entreprise ?entre))
+(domaine ?domaineD)
+?g<-(go Vrai)
+(not (test (= (str-compare ?domaineD ?domaineO) 0)))
+(not (exists (AnalyseOffre (reference ?ref))))
 =>
-(printout "l'offre "?nomOffre" est interessante")
-(modify <?f> <satisfaction satisfaction=satisfaction + (5*(distance-maxTemp-distanceTemp)/distance-maxTemp)*coef-distanceTemp);"BUG"
+
+(printout t "XXXXXXXXXXXXXX => L'offre " ?ref " de l'entreprise " ?entre " ne correspond pas au domaine recherche donc elle est annulee elle est dans le domaine " ?domaineO " <= XXXXXXXXXXXXXX !" crlf)
+(modify ?f (etat "non valide , le domaine ne correspond pas "))
+(assert (AnalyseOffre (reference ?ref) (domaine noValide) ))
 )
 
-(defrule evalue-duree "Filtre qui evalue la duree"
 
-?f<-(offreEmploie 	(nomOffre 		?nomOffreTemp)
-(offreEmploie 		(duree	 		?dureeTemp)
-(Coefficent		(coef-duree 	?coef-dureeTemp)
-(test (< ?duree ?6))
+
+(defrule TypeContrat
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat ?satf))
+(OffreEmploie (reference ?ref) (typeContrat ?typeContratO) )
+(typeContrat ?typeContratD)
+(test (= (str-compare ?typeContratD ?typeContratO) 0))
+
 =>
-(printout "l'offre "?nomOffre" n'est pas interessante")
-(modify <?f> <satisfaction satisfaction=satisfaction + coef-distanceTemp);"BUG"
+
+(modify ?f (typeContrat Valide) (domaine DejaValide) (satisfactionTypeContrat (+ ?satf 6.0)))
 )
+
+(defrule TypeContrat2
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat ?satf))
+(OffreEmploie (reference ?ref) (typeContrat ?typeContratO) )
+(test (= (str-compare "CDI" ?typeContratO) 0))
+=>
+(modify ?f (typeContrat Valide) (domaine DejaValide) (satisfactionTypeContrat (+ ?satf 5.0)))
+)
+
+(defrule TypeContrat3
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat ?satf))
+(OffreEmploie (reference ?ref) (typeContrat ?typeContratO) )
+(typeContrat ?typeContratD)
+(not (test (= (str-compare ?typeContratD ?typeContratO) 0)))
+(test (= (str-compare "CDD" ?typeContratO) 0))
+=>
+(modify ?f (typeContrat Valide) (domaine DejaValide) (satisfactionTypeContrat (+ ?satf 4.0)))
+)
+
+(defrule TypeContrat4
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat ?satf))
+?g<-(OffreEmploie (reference ?ref) (typeContrat ?typeContratO) )
+(typeContrat ?typeContratD)
+(not (test (= (str-compare ?typeContratD ?typeContratO) 0)))
+(test (= (str-compare "Stage" ?typeContratO) 0))
+=>
+(modify ?f (typeContrat Valide) (domaine DejaValide) (satisfactionTypeContrat (+ ?satf 3.0)))
+)
+
+(defrule TypeContrat5
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat ?satf))
+(OffreEmploie (reference ?ref) (typeContrat ?typeContratO) )
+(typeContrat ?typeContratD)
+(not (test (= (str-compare ?typeContratD ?typeContratO) 0)))
+(test (= (str-compare "VIE" ?typeContratO) 0))
+=>
+(modify ?f (typeContrat Valide) (domaine DejaValide) (satisfactionTypeContrat (+ ?satf 2.0)))
+)
+
+(defrule TypeContrat6
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat ?satf))
+(OffreEmploie (reference ?ref) (typeContrat ?typeContratO) )
+(typeContrat ?typeContratD)
+(not (test (= (str-compare ?typeContratD ?typeContratO) 0)))
+(test (= (str-compare "Alternance" ?typeContratO) 0))
+=>
+(modify ?f (typeContrat Valide) (domaine DejaValide)(satisfactionTypeContrat (+ ?satf 1.0)))
+)
+
+(defrule NotTypeContrat
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat ?satf)) 
+?g <- (OffreEmploie (reference ?ref) (typeContrat ?typeContratO) (entreprise ?entre))
+(typeContrat ?typeContratD)
+(not (test (= (str-compare ?typeContratD ?typeContratO) 0)))
+=>
+(printout t "(XXXXXXXXXXXX = > L'offre " ?ref " de l'entreprise " ?entre " est annulee vu que le son type de contrat ne correspond du tout pas aux criteres recherches il est de type :" ?typeContratO " <= XXXXXXXXXXXXX" crlf)
+(modify ?f (typeContrat noValide) (domaine DejaValide))
+(modify ?g (etat "non valide , le Type de contract ne correspond pas du tout au critere recherche "))
+)
+
+
+(defrule Salaire
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat Valide) (satisfactionSalaire ?satf))
+(OffreEmploie (reference ?ref) (salaire ?salaireO) )
+(salaire ?salaireDMin)
+(test (= ?salaireO ?salaireDMin ))
+=>
+
+(modify ?f (typeContrat DejaValide) (salaire Valide) (satisfactionSalaire (+ ?satf 1.0)))
+)
+
+(defrule Salaire5
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat Valide) (satisfactionSalaire ?satf))
+(OffreEmploie (reference ?ref) (salaire ?salaireO) )
+(salaire ?salaireDMin)
+(test (> ?salaireO (* ?salaireDMin 2) ))
+
+=>
+
+(modify ?f (typeContrat DejaValide) (salaire Valide) (satisfactionSalaire (+ ?satf 5.0)))
+
+) 
+(defrule Salaire4
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat Valide) (satisfactionSalaire ?satf))
+(OffreEmploie (reference ?ref) (salaire ?salaireO) )
+(salaire ?salaireDMin)
+(test (> ?salaireO (+ ?salaireDMin 800) ))
+
+=>
+
+(modify ?f (typeContrat DejaValide) (salaire Valide) (satisfactionSalaire (+ ?satf 4.0)))
+) 
+(defrule Salaire3
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat Valide) (satisfactionSalaire ?satf))
+(OffreEmploie (reference ?ref) (salaire ?salaireO) )
+(salaire ?salaireDMin)
+(test (> ?salaireO (+ ?salaireDMin 400) ))
+
+=>
+
+(modify ?f (typeContrat DejaValide) (salaire Valide) (satisfactionSalaire (+ ?satf 3.0)))
+) 
+
+(defrule Salaire2
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat Valide) (satisfactionSalaire ?satf))
+(OffreEmploie (reference ?ref) (salaire ?salaireO) )
+(salaire ?salaireDMin)
+(test (> ?salaireO ?salaireDMin ))
+
+=>
+
+(modify ?f (typeContrat DejaValide) (salaire Valide) (satisfactionSalaire (+ ?satf 2.0)))
+
+)
+
+(defrule NotSalaire
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat Valide) (satisfactionSalaire ?satf))
+(OffreEmploie (reference ?ref) (salaire ?salaireO) )
+(salaire ?salaireDMin)
+
+(test (< ?salaireO ?salaireDMin ))
+=>
+
+
+(modify ?f (typeContrat DejaValide) (salaire noValide))
+(printout t "XXXXXXXXXXXXXX => L'offre " ?ref " de l'entreprise " ?entre " est annulee vu que le salaire n'est pas sufisant il est de  :" ?salaireO " <= XXXXXXXXXXXX" crlf)
+(modify ?g (etat "non valide , le Type de contract ne correspond pas du tout au critere recherche "))
+
+)
+
+
+(defrule Distance
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValide) (salaire Valide) (satisfactionDistance ?satf))
+(OffreEmploie (reference ?ref) (distance ?distanceO) )
+(distance ?distanceS)
+(test (< ?distanceO (/ ?distanceS 5)))
+
+=>
+(printout t "L'offre " ?ref " correspond a la distance recherchee" crlf)
+(modify ?f (salaire DejaValide) (distance Valide) (satisfactionDistance (+ ?satf 5.0)))
+)
+
+(defrule Distance2
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValide) (salaire Valide) (satisfactionDistance ?satf) )
+(OffreEmploie (reference ?ref) (distance ?distanceO) )
+(distance ?distanceS)
+(test (< ?distanceO (/ (* 2 ?distanceS) 5)))
+
+=>
+(modify ?f (salaire DejaValide) (distance Valide) (satisfactionDistance (+ ?satf 4.0)))
+)
+
+(defrule Distance3
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValide) (salaire Valide) (satisfactionDistance ?satf))
+(OffreEmploie (reference ?ref) (distance ?distanceO) )
+(distance ?distanceS)
+(test (< ?distanceO (/ (* 3 ?distanceS) 5)))
+
+=>
+(modify ?f (salaire DejaValide) (distance Valide) (satisfactionDistance (+ ?satf 2.0)))
+)
+
+(defrule Distance4
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValide) (salaire Valide) (satisfactionDistance ?satf))
+(OffreEmploie (reference ?ref) (distance ?distanceO) )
+(distance ?distanceS)
+(test (< ?distanceO (/ (* 4 ?distanceS) 5)))
+
+=>
+(modify ?f (salaire DejaValide) (distance Valide) (satisfactionDistance (+ ?satf 1.0)))
+)
+
+(defrule Distance5
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValide) (salaire Valide) (satisfactionDistance ?satf))
+(OffreEmploie (reference ?ref) (distance ?distanceO) )
+(distance ?distanceS)
+(test (< ?distanceO (/ (* 5 ?distanceS) 5)))
+
+=>
+(modify ?f (salaire DejaValide) (distance Valide) (satisfactionDistance (+ ?satf 0.0)))
+)
+
+(defrule NotDistance
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValide) (salaire Valide) (satisfactionDistance ?satf))
+?g <-(OffreEmploie (reference ?ref) (distance ?distanceO) (entreprise ?entre))
+(distance ?distanceD)
+(not (test (= ?distanceD ?distanceO)))
+
+=>
+(printout t "XXXXXXXXXX => L'offre " ?ref " correspond a la distance recherchee il est a " ?distanceO "  <= XXXXXXXXXXXXX" crlf)
+(modify ?f (salaire DejaValide) (distance noValide))
+(modify ?g (etat "non valide , la distance est très loin par rapport a la distance voulue recherche "))
+)
+
+(defrule CalculSatisfaction
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValide) (salaire DejaValide) (distance Valide)
+(satisfactionDomaine ?satfD) 
+(satisfactionTypeContrat ?satfTC) 
+(satisfactionSalaire ?satfS)
+(satisfactionDuree ?satfDr)
+(satisfactionDistance ?satfDs)
+(satisfactionMotCle ?satfMC))
+?g <-(OffreEmploie (reference ?ref) (entreprise ?entre))
+(CoefCriteres
+(coefDomaine ?coefD)
+(coefSalaire ?coefS)
+(coefTypeContrat ?coefTC)
+(coefDistance ?coefDs)
+(coefDuree	?coefDr)
+)
+ 
+ 
+=>
+
+
+(modify ?f (satisfactionTotal 
+(/
+(+ (* ?satfD ?coefD)
+(+ (* (/ ?satfTC 5) ?coefTC)
+(+ (* (/ ?satfS 5) ?coefS)
+(+ (+ (* (/ ?satfDr 3) ?coefDr) (* (/ ?satfDs 5) ?coefDs)) (* ?satfMC 6))
+)
+)
+)  (+ ?coefD (+ ?coefTC (+ ?coefS (+ (+ ?coefDr 6) ?coefDs)))) )
+)
+(distance DejaValide))
+)
+
+
+
+(defrule AfficherResultatOK
+(AnalyseOffre (reference ?ref)(domaine DejaValide) (typeContrat DejaValide) (salaire DejaValide) (distance DejaValide) (satisfactionTotal ?satifT)) 
+(OffreEmploie (reference ?ref) (entreprise ?entre))
+=>
+(printout t "=============>L'offre : " ?ref " de l'entreprise : " ?entre " repond aux criteres cherches avec un Taux de <================ " (* ?satifT 100.0) "%" crlf)
+)
+(assert (initialiser true) )
+
+
+;Demander les informations
+
+(defrule DemanderCoefExecution
+
+?g <-(reponse oui)
+
+?f <- (CoefCriteres
+
+(coefDomaine ?coefD)
+(coefSalaire ?coefS)
+(coefTypeContrat ?coefTC)
+(coefDistance ?coefDs)
+(coefDuree	?coefDr)
+)
+=>
+(printout t "Donner un point entre 1-5 pour le criteres Domaine ? oui/non" crlf)
+(bind ?rep0 (read) )
+(printout t "Donner un point entre 0-5 pour le criteres Distance ? oui/non" crlf)
+(bind ?rep1 (read) )
+(printout t "Donner un point entre 0-5 pour le criteres Salaire ? oui/non" crlf)
+(bind ?rep2 (read) )
+(printout t "Donner un point entre 0-5 pour le criteres Type de Contrat ? oui/non" crlf)
+(bind ?rep3 (read) )
+(modify ?f (coefDomaine ?rep0) (coefSalaire ?rep2) (coefTypeContrat ?rep3) (coefDistance ?rep2))
+(retract ?g)
+(assert (go Vrai))
+)
+
+(defrule NotDemanderCoef
+?g <-(reponse ?x&~oui)
+=>
+(assert (go Vrai))
+(retract ?g)
+
+)
+
+(defrule DemanderCoef
+=>
+
+(printout t "Veuillez vous preciser le poind de chaque criteres ? oui/non" crlf)
+(bind ?repcr (read) )
+(assert (reponse ?repcr))
+)
+
+(defrule DemanderMotCleExecution
+?g <-(reponseMot oui)
+=>
+(printout t "Saisez le mot cle avec lequel vous voullez chercher" crlf)
+(bind ?rep100 (read) )
+(assert (motCle ?rep100))
+(retract ?g)
+)
+
+(defrule NotDemandeMotCle
+?g <-(reponseMot ?x&~oui)
+=>
+
+(retract ?g)
+)
+
+(defrule DemanderMotCle
+=>
+
+(printout t "Veuillez vous chercher avec un mot clé  ? oui/non" crlf)
+(bind ?repMot (read) )
+(assert (reponseMot ?repMot))
+
+)
+(defrule DemanderDomaine
+=>
+
+(printout t "Veuillez Preciser le domaine dans lequel vous voulez chercher ?" crlf)
+(bind ?domaine (read))
+
+(assert (domaine ?domaine ))
+
+)
+
+(defrule DemanderPreciser
+=>
+(printout t "Veuillez Preciser le type de contrat que vous voulez ?" crlf)
+(bind ?typeContrat (read) )
+(assert (typeContrat ?typeContrat  ))
+)
+
+(defrule DemanderPerimetre
+=>
+
+(printout t "Veuillez Preciser le perimetre maximal que vous voulez ne pas depasser ?" crlf)
+(bind ?distance (read) )
+(assert (distance ?distance ))
+)
+
+(defrule DemanderSalaire
+=>
+
+(printout t "Veuillez Preciser le salaire minumun que vous voulez chercher ?" crlf)
+(bind ?salaire (read) )
+(assert (salaire ?salaire))
+)
+
+(defrule duree
+(and ( or (typeContrat CDD) (typeContrat Stage) (typeContrat SVI) (typeContrat VIE) )
+ ?f<-(initialiser true) )
+=>
+(printout t "Veuillez Preciser la duree cherchee ?" crlf)
+(bind ?salaire (read) )
+(assert (salaire ?salaire ))
+(retract ?f)
+)
+
+
+
