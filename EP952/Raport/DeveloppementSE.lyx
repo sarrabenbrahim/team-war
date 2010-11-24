@@ -128,6 +128,17 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../Image/DiagrammeSequence.PNG
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -139,17 +150,6 @@ name "fig:Diagramme-de-séquence"
 
 Diagramme de séquence de déroulement de l'analyse
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename ../Image/DiagrammeSequence.PNG
-	lyxscale 50
-	width 100col%
 
 \end_inset
 
@@ -932,7 +932,7 @@ Else
 \end_layout
 
 \begin_layout Section
-Représentation
+Représentation des connaissances
 \end_layout
 
 \begin_layout Standard
@@ -955,55 +955,66 @@ La rémunération tient compte des avantages en nature
 Représentation des informations
 \end_layout
 
-\begin_layout Standard
-Le code 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "struc-connaissance"
+\begin_layout Subsection
+Exploitation du SE
+\end_layout
 
-\end_inset
+\begin_layout Subsubsection
+Selection de 10 offres d'emploi
+\end_layout
 
- donne l'implémentation de la structure de fait dans CLIPS.
- On sépare la structure (code 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "struc-connaissance"
-
-\end_inset
-
-), les faits (code 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "code:faits"
-
-\end_inset
-
-) et les règles (code 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "regles-clips"
-
-\end_inset
-
-).
+\begin_layout Paragraph
+Pour valider le fonctionnement de notre SE, on a sélectionné 10 offres d'emploi
+ comme suit :
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand lstinputlisting
-filename "../CodeCLIPS/structure.txt"
-lstparams "caption={Structure des connaissances},label={struc-connaissance}"
+LatexCommand input
+preview true
+filename "offreDeStage.lyx"
 
 \end_inset
 
 
 \end_layout
 
+\begin_layout Subsubsection
+Résultat du SE sur les 10 offres d'emploi
+\end_layout
+
 \begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand lstinputlisting
-filename "/home/garciaf/SVN/team-war/EP952/CodeCLIPS/faits.txt"
-lstparams "caption={Base de faits},label={code:faits}"
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Résultat du SER00
+\begin_inset Graphics
+	filename ../Image/Execustion.PNG
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
@@ -1011,10 +1022,358 @@ lstparams "caption={Base de faits},label={code:faits}"
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand lstinputlisting
-filename "../CodeCLIPS/regles.txt"
-lstparams "caption={Regles},label={regles-clips}"
+
+\emph on
+Explication :
+\end_layout
+
+\begin_layout Standard
+Le Programme commence par demander à l'utilisateur l'ensemble des données
+ dont il a besoin :
+\end_layout
+
+\begin_layout Itemize
+Le salaire minimal souhaité
+\end_layout
+
+\begin_layout Itemize
+Le périmètre maximal souhaité
+\end_layout
+
+\begin_layout Itemize
+le type de contrat voulue (CDI , CDD , Stage , VIE , Alternance)
+\end_layout
+
+\begin_layout Itemize
+le domaine dans lequel on veut effectuer nous recherches (Exemple : Informatique
+)
+\end_layout
+
+\begin_layout Itemize
+Si on veut chercher par un mot clé(Exemple J2EE)
+\end_layout
+
+\begin_layout Standard
+Après avoir saisi l'ensemble des données nécessaires pour le SE , le programme
+ exécute l'ensemble des règles exécutables en suite il affiche les offres
+ acceptées entre la chaîne de caractères 
+\begin_inset Quotes fld
+\end_inset
+
+===============> Offre <============
+\begin_inset Quotes fld
+\end_inset
+
+et le pourcentage de satisfaction par rapport aux critères saisis par l'utilisat
+eur.
+\end_layout
+
+\begin_layout Standard
+Enfin le programme affiche les résultats des offres qui ne correpondent
+ pas entre la chaîne de caractères 
+\begin_inset Quotes fld
+\end_inset
+
+XXXXXXX===> offre<====XXXXXXX
+\begin_inset Quotes frd
+\end_inset
+
+ ainsi que la raison pour laquelle elle a été refusée.
+\end_layout
+
+\begin_layout Subsubsection
+Justification de l'état des 3 annonces:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="left" valignment="top" width="70col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+offres
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+réponse du SE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Taux satisfaction
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Raisons 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R007
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+acceptée
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+51,42%
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none" width="60col%">
+\begin_inset Text
+
+\begin_layout Plain Layout
+- domaine valide car correspond au domaine recherché ( 
+\begin_inset Quotes fld
+\end_inset
+
+informatique
+\begin_inset Quotes frd
+\end_inset
+
+ dans notre cas)
+\end_layout
+
+\begin_layout Plain Layout
+- salaire valide car il est superieur à 1000 euros
+\end_layout
+
+\begin_layout Plain Layout
+- type de contrat est validé car c'est de type CDI
+\end_layout
+
+\begin_layout Plain Layout
+- la durée est nulle car le contrat est de type indeterminé
+\end_layout
+
+\begin_layout Plain Layout
+- la distance ne depasse pas 400 km donc elle repond au critère définit
+ par l'utilisateur
+\end_layout
+
+\begin_layout Plain Layout
+- la satisfaction correpond aux calculs des poids par défaut car l'utilisateur
+ n'a pas precisé les poids de chaque critère.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R003
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+acceptée
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+77,14%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+- domaine valide car correspond au domaine recherché
+\end_layout
+
+\begin_layout Plain Layout
+- salaire valide car il est superieur a 1000 euros
+\end_layout
+
+\begin_layout Plain Layout
+- type de contrat est validé car c'est de type CDI
+\end_layout
+
+\begin_layout Plain Layout
+- la durée est nulle car le contrat est de type indeterminé
+\end_layout
+
+\begin_layout Plain Layout
+- la distance ne depasse pas 400 km dons elle repond au critère
+\end_layout
+
+\begin_layout Plain Layout
+- la satisfaction correpond aux calculs des poids par défaut car l'utilisateur
+ n'a pas precisé les poids
+\end_layout
+
+\begin_layout Plain Layout
+- l'offre contient le mot clés J2EE prédéfinit par l'utilisateur lors de
+ la saisie du mot clés, ce qui augmente le taux de staisfaction de l'offre
+ par apport aux autres.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R009
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+rejetée
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+- domaine non validé car il est différent du domaine recherché donc tout
+ les critères suivants ne seront pas traités et l'offre est rejetée d'emblé.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Analyse des offres
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Bonus
+\end_layout
+
+\begin_layout Standard
+Le SE développé offre la possibilité de pondérer les critères de sélection
+ afin de répondre au mieux à l'attente de l'utilisateur.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Execution Exemple
+\begin_inset Graphics
+	filename E:/team-war/EP952/Image/Execustion2.PNG
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
