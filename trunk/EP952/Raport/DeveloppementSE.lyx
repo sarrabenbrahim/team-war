@@ -2,7 +2,7 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass book
+\textclass amsbook
 \use_default_options true
 \begin_modules
 theorems-ams
@@ -128,17 +128,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename ../Image/DiagrammeSequence.PNG
-	lyxscale 50
-	width 100col%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -150,6 +139,17 @@ name "fig:Diagramme-de-séquence"
 
 Diagramme de séquence de déroulement de l'analyse
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../Image/DiagrammeSequence.PNG
+	lyxscale 50
+	width 100col%
 
 \end_inset
 
@@ -964,6 +964,28 @@ reference "struc-connaissance"
 \end_inset
 
  donne l'implémentation de la structure de fait dans CLIPS.
+ On sépare la structure (code 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "struc-connaissance"
+
+\end_inset
+
+), les faits (code 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "code:faits"
+
+\end_inset
+
+) et les règles (code 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "regles-clips"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -971,6 +993,17 @@ reference "struc-connaissance"
 LatexCommand lstinputlisting
 filename "../CodeCLIPS/structure.txt"
 lstparams "caption={Structure des connaissances},label={struc-connaissance}"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "/home/garciaf/SVN/team-war/EP952/CodeCLIPS/faits.txt"
+lstparams "caption={Base de faits},label={code:faits}"
 
 \end_inset
 
