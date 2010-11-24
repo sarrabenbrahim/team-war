@@ -998,14 +998,17 @@ status open
 
 \begin_layout Plain Layout
 Résultat du SER00
-\begin_inset Graphics
-	filename ../Image/Execustion.PNG
-	width 100col%
+\end_layout
 
 \end_inset
 
 
 \end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../Image/Execustion.PNG
+	width 100col%
 
 \end_inset
 
@@ -1357,14 +1360,17 @@ status open
 
 \begin_layout Plain Layout
 Execution Exemple
-\begin_inset Graphics
-	filename E:/team-war/EP952/Image/Execustion2.PNG
-	width 100col%
+\end_layout
 
 \end_inset
 
 
 \end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../Image/Execustion2.PNG
+	width 100col%
 
 \end_inset
 

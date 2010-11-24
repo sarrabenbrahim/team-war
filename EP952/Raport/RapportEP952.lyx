@@ -2,7 +2,7 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass book
+\textclass amsbook
 \begin_preamble
 \usepackage[unicode=true, 
 bookmarks=true,
@@ -243,6 +243,16 @@ filename "ComprehensionGenerale.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "DeveloppementSE.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Bilan.lyx"
 
 \end_inset
 
