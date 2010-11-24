@@ -52,19 +52,19 @@
  
 ;base de faits
 (assert (CoefCriteres ))
-
+(assert (motCle "$$"))
 ;Offre N°1s
 (assert (OffreEmploie
 (reference "R0001")
 (domaine "Informatique")
 (nomOffre 	"Stagiaire web (H/F)")
-(description	"Publier les mises à jour ");: informations sur les prochains programmes de la chaîne (création de visuels), mise à jour des rubriques génériques du site, vérification du bon fonctionnement des VOD mises en ligne"
+(description	"Publier les mises à jour : informations sur les prochains programmes de la chaîne (création de visuels), mise à jour des rubriques génériques du site, vérification du bon fonctionnement des VOD mises en ligne")
 (salaire 740.0)
 (typeContrat "Stage")
 (duree 8)
 (distance 800)
 (etat "accepte")
-(entreprise "ENTR1")
+(entreprise "Public Sénat")
 )
 )
 
@@ -73,13 +73,13 @@
 (reference "R0002" )
 (domaine "Industriel" )
 (nomOffre 	"Chaine logistique" )
-(description	"Publier les mises à jour ");: informations sur les prochains programmes de la chaîne (création de visuels), mise à jour des rubriques génériques du site, vérification du bon fonctionnement des VOD mises en ligne" 
+(description	"Publier les mises à jour : informations sur les prochains programmes de la chaîne (création de visuels), mise à jour des rubriques génériques du site, vérification du bon fonctionnement des VOD mises en ligne") 
 (salaire 1000.0 )
 (typeContrat "CDD" )
 (duree 12 )
 (distance 100 )
 (etat "accepte" )
-(entreprise "ENTR2")
+(entreprise "AlloCiné")
 )
 )
 
@@ -88,12 +88,12 @@
 (reference "R0003")
 (domaine "Informatique")
 (nomOffre 	"Dev J2EE")
-(description	"Publier les mises à jour ");: informations sur les prochains programmes de la chaîne (création de visuels), mise à jour des rubriques génériques du site, vérification du bon fonctionnement des VOD mises en ligne"
+(description	"Publier les mises à jour : informations sur les prochains programmes de la chaîne (création de visuels), mise à jour des rubriques génériques du site, vérification du bon fonctionnement des VOD mises en ligne")
 (salaire 1200.0)
 (typeContrat "CDI")
 (distance 100)
 (etat "accepte")
-(entreprise "ENTR3")
+(entreprise "Sopra Groupe")
 )
 )
 
@@ -102,12 +102,12 @@
 (reference "R0004")
 (domaine "Informatique")
 (nomOffre 	"CONSULTANT Technico-Fonctionnel SAP (H/F)")
-(description	"Profil recherché : ");De formation BAC+5 (école d'ingénieur, universitaire) vous justifiez de 3 à 10 ans d'expérience sur des projets SAP. Vous maîtrisez un ou plusieurs des modules/sous modules fonctionnels suivants (version ECC 5.0/6.0) : - PP, PM, QM, CS, WM, MM, SD, PS, EHS... - FI, CO, FI-FM, IM, FSCM, SEM... - HR-PA, HR-PY, HR-TM... Vous maîtrisez un ou plusieurs des composants SAP Netweaver 7.0"
+(description	"Profil recherché : De formation BAC+5 (école d'ingénieur, universitaire) vous justifiez de 3 à 10 ans d'expérience sur des projets SAP. Vous maîtrisez un ou plusieurs des modules/sous modules fonctionnels suivants (version ECC 5.0/6.0) : - PP, PM, QM, CS, WM, MM, SD, PS, EHS... - FI, CO, FI-FM, IM, FSCM, SEM... - HR-PA, HR-PY, HR-TM... Vous maîtrisez un ou plusieurs des composants SAP Netweaver 7.0")
 (salaire 1500.0)
 (typeContrat "CDI")
 (distance 100)
 (etat "accepte")
-(entreprise "ENTR4")
+(entreprise "Sopra Groupe")
 )
 )
 
@@ -116,12 +116,12 @@
 (reference "R0005")
 (domaine "Qualite")
 (nomOffre 	"Technicien méthode(H/F)")
-(description	"Vous devez suivre et mettre à jour ");des données et documents industriels nécessaires à la fabrication ; Vous proposez des améliorations de process, outillages, flux ; Vous prenez en charge les projets process ; Vous particpez aux chantiers d'amélioration continue ; Vous réalisez les dossiers machine pour l'usinage. Vous encadrez une équipe de 2 à 3 personnes"
+(description	"Vous devez suivre et mettre à jour des données et documents industriels nécessaires à la fabrication ; Vous proposez des améliorations de process, outillages, flux ; Vous prenez en charge les projets process ; Vous particpez aux chantiers d'amélioration continue ; Vous réalisez les dossiers machine pour l'usinage. Vous encadrez une équipe de 2 à 3 personnes")
 (salaire 2200.0)
 (typeContrat "CDI")
 (distance 100)
 (etat "accepte")
-(entreprise "ENTR5")
+(entreprise "TEMPORIS")
 )
 )
 ;Offre N°6
@@ -129,12 +129,12 @@
 (reference "R0006")
 (domaine "Agroalimentaire")
 (nomOffre 	"Chargé d'étude production agroalimentaire Loiret (HF)")
-(description	"Optimisation des lignes de conditionnement"); de salades « traiteur » (6 lignes) Audit des lignes : analyse des dysfonctionnements des lignes de conditionnement (cadence, précision de dosage, pertes matières) Mise en place d'améliorations en collaboration avec les services Production et Maintenance Suivi des améliorations par la mise en place d'indicateurs pertinents et perfectionnement de la collecte des données de production (fabrication et problèmes techniques)"
+(description	"Optimisation des lignes de conditionnement de salades « traiteur » (6 lignes) Audit des lignes : analyse des dysfonctionnements des lignes de conditionnement (cadence, précision de dosage, pertes matières) Mise en place d'améliorations en collaboration avec les services Production et Maintenance Suivi des améliorations par la mise en place d'indicateurs pertinents et perfectionnement de la collecte des données de production (fabrication et problèmes techniques)")
 (salaire 550.0)
 (typeContrat "Stage")
 (distance 100)
 (etat "accepte")
-(entreprise "ENTR6")
+(entreprise "Louis lemoine sas")
 )
 )
 
@@ -148,7 +148,7 @@
 (typeContrat "CDD")
 (distance 100)
 (etat "accepte")
-(entreprise "ENTR7")
+(entreprise "Logica")
 )
 )
 
@@ -157,12 +157,12 @@
 (reference "R0008")
 (domaine "Production")
 (nomOffre 	"Un(e) Stagiaire Assistant le Chef de Produit Whisky Grant's")
-(description	"Intégré(e) à la Direction Marketing, ");vous serez rattaché(e) au Chef de Produit Grant’s Vous l’assisterez dans sa mission de développement de la marque Grant’s · Gestion quotidienne de la marque : o Analyse de la performance (AC Nielsen), recommandation d’optimisation du plan marketing. o Suivi budgétaire. o Pilotage du plan promotionnel. o Pilotage du plan de développement des ventes · Lancement des plateformes d’expérience de marque (Event, RP…) en relation étroite avec le chef de produit. Ce stage propose une expérience complète du marketing sur un marché mature premier contributeur à la croissance des spiritueux. Votre autonomie, votre rigueur, votre sens de l’analyse, votre créativité et votre dynamisme sont les atouts indispensables pour mener à bien cette mission."
+(description	"Intégré(e) à la Direction Marketing, vous serez rattaché(e) au Chef de Produit Grant’s Vous l’assisterez dans sa mission de développement de la marque Grant’s · Gestion quotidienne de la marque : o Analyse de la performance (AC Nielsen), recommandation d’optimisation du plan marketing. o Suivi budgétaire. o Pilotage du plan promotionnel. o Pilotage du plan de développement des ventes · Lancement des plateformes d’expérience de marque (Event, RP…) en relation étroite avec le chef de produit. Ce stage propose une expérience complète du marketing sur un marché mature premier contributeur à la croissance des spiritueux. Votre autonomie, votre rigueur, votre sens de l’analyse, votre créativité et votre dynamisme sont les atouts indispensables pour mener à bien cette mission.")
 (salaire 600.0)
 (typeContrat "Stage")
 (distance 100)
 (etat "accepte")
-(entreprise "ENTR8")
+(entreprise "LIXIR")
 )
 )
 
@@ -172,8 +172,8 @@
 (domaine "Industriel")
 (nomOffre 	"Technico-commercial(e)")
 (description	"Rattaché(e) au responsable d'agence,"); ce poste vous amène à : -Assurer le suivi d'un portefeuille de clients industriels (services techniques, production) sur votre secteur.- Prendre en charge le développement de l'activité commerciale sur ce même secteur"
-(salaire 600.0)
-(typeContrat "Stage")
+(salaire 2500.0)
+(typeContrat "CDI")
 (distance 100)
 (etat "accepte")
 (entreprise "ENTR9")
@@ -428,15 +428,15 @@
 
 )
 
-(defrule NotCalculSatisfactionMotCle
+(defrule CalculSatisfactionMotCle
 ?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValide) (salaire DejaValide) (distance Valide)
 (satisfactionMotCle ?satfMC))
 (motCle ?motCle)
 ?g <-(OffreEmploie (reference ?ref) (nomOffre ?nom) (description ?descr))
-(not (and (test (str-index ?motCle  ?nom)) (test (str-index ?motCle ?descr))))
-=>
+(not (or (test (str-index ?motCle  ?nom)) (test (str-index ?motCle ?descr))))
 
-(modify ?f (distance DejaValide) (satisfactionMotCle 0.0) )
+=>
+(modify ?f (satisfactionMotCle 0.0) (distance DejaValide))
 
 )
 
@@ -482,7 +482,8 @@
 =>
 (printout t "=============>L'offre : " ?ref " de l'entreprise : " ?entre " repond aux criteres cherches avec un Taux de <================ " (* ?satifT 100.0) "%" crlf)
 )
-(assert (initialiser true) )
+(assert (initialiser true))
+
 
 
 ;Demander les informations
