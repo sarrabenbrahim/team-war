@@ -1,0 +1,1344 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Descriptif du Systéme Expert
+\end_layout
+
+\begin_layout Subsection
+Structure d'offre
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features>
+<column alignment="left" valignment="top" width="50col%">
+<column alignment="left" valignment="top" width="50col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Structure du code
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(deftemplate OffreEmploie
+\end_layout
+
+\begin_layout Plain Layout
+(slot reference (type STRING))
+\end_layout
+
+\begin_layout Plain Layout
+(slot domaine (type STRING))
+\end_layout
+
+\begin_layout Plain Layout
+(slot nomOffre (type STRING)) 
+\end_layout
+
+\begin_layout Plain Layout
+(slot description (type STRING))
+\end_layout
+
+\begin_layout Plain Layout
+(slot salaire (type FLOAT))
+\end_layout
+
+\begin_layout Plain Layout
+(slot typeContrat (type STRING))
+\end_layout
+
+\begin_layout Plain Layout
+(slot duree (range 0 ?VARIABLE))
+\end_layout
+
+\begin_layout Plain Layout
+(slot distance (type INTEGER))
+\end_layout
+
+\begin_layout Plain Layout
+(slot entreprise (type STRING)) )
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Une offre d'emploi est caractérisée par:
+\end_layout
+
+\begin_layout Itemize
+la réference de publication (ex: R001)
+\end_layout
+
+\begin_layout Itemize
+le domaine visé: informatique, industriel,...
+\end_layout
+
+\begin_layout Itemize
+le nom i.e le poste concerné: chef de projet, commercial,...
+\end_layout
+
+\begin_layout Itemize
+la description du trvail, des outils à effectuer: developpeur C
+\end_layout
+
+\begin_layout Itemize
+le salaire: en euros (ex:1000€)
+\end_layout
+
+\begin_layout Itemize
+le type de contrat: CDI, CDD, Stage, VIE
+\end_layout
+
+\begin_layout Itemize
+la distance: le perimètre maximal accepté pour les deplacements en Km: ex
+ au delas de 400Km c'est refusé
+\end_layout
+
+\begin_layout Itemize
+l'entreprise: concerne le nom de l'entreprise qui propose l'offre
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(deftemplate AnalyseOffre
+\end_layout
+
+\begin_layout Plain Layout
+(slot reference )
+\end_layout
+
+\begin_layout Plain Layout
+(slot domaine )
+\end_layout
+
+\begin_layout Plain Layout
+(slot salaire )
+\end_layout
+
+\begin_layout Plain Layout
+(slot typeContrat )
+\end_layout
+
+\begin_layout Plain Layout
+(slot duree ) 
+\end_layout
+
+\begin_layout Plain Layout
+(slot distance )
+\end_layout
+
+\begin_layout Plain Layout
+(slot etat ) 
+\end_layout
+
+\begin_layout Plain Layout
+(slot satisfactionTotal (type FLOAT) (default 0.0))
+\end_layout
+
+\begin_layout Plain Layout
+(slot satisfactionDomaine (type FLOAT) (default 0.0))
+\end_layout
+
+\begin_layout Plain Layout
+(slot satisfactionSalaire (type FLOAT) (default 0.0))
+\end_layout
+
+\begin_layout Plain Layout
+(slot satisfactionTypeContrat (type FLOAT) (default 0.0))
+\end_layout
+
+\begin_layout Plain Layout
+(slot satisfactionDistance (type FLOAT) (default 0.0))
+\end_layout
+
+\begin_layout Plain Layout
+(slot satisfactionDuree (type FLOAT) (default 0.0))
+\end_layout
+
+\begin_layout Plain Layout
+(slot satisfactionMotCle (type FLOAT) (default 0.0)))
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cette structure permet d'analyser la structure OffreEmploi, en effet nous
+ retrouvons les champs défini précedement (qui valideront l'offre) ainsi
+ que des champs en rapport avec la satisfaction du client.
+\end_layout
+
+\begin_layout Plain Layout
+Lors de la recherche le client aura le choix de préciser les coefficients
+ de satisfaction ou non .
+\end_layout
+
+\begin_layout Plain Layout
+Dans le cas ou il ne choisit pas , le poid 1 sera attribué par defaut a
+ tout les critères de satisfaction.
+\end_layout
+
+\begin_layout Plain Layout
+Dans le cas contraire il sera invité à saisir les poids désirés , par conséquent
+ le calcul de la satisfaction prendra en compte ces poids.
+\end_layout
+
+\begin_layout Plain Layout
+Remarque: le champs etat permet de valider l'offre qui correspond le plus
+ aux attentes du clients
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(deftemplate CoefCriteres 
+\end_layout
+
+\begin_layout Plain Layout
+(slot coefTotal (type FLOAT) (default 1.0)) 
+\end_layout
+
+\begin_layout Plain Layout
+(slot coefDomaine (type FLOAT) (default 1.0))
+\end_layout
+
+\begin_layout Plain Layout
+(slot coefSalaire (type FLOAT) (default 1.0))
+\end_layout
+
+\begin_layout Plain Layout
+(slot coefTypeContrat (type FLOAT) (default 1.0)) 
+\end_layout
+
+\begin_layout Plain Layout
+(slot coefDistance (type FLOAT) (default 1.0))
+\end_layout
+
+\begin_layout Plain Layout
+(slot coefDuree (type FLOAT) (default 1.0)) )
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cette structure stocke les variables défini par le client lors du choix
+ du poid de chaque critère.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Description de la structure du systéme expert
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Les régles de production
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features>
+<column alignment="left" valignment="top" width="100col%">
+<column alignment="left" valignment="top" width="30col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Code 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color blue
+(defrule VDomaine
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (OffreEmploie (domaine ?domaineO) (reference ?ref)) 
+\end_layout
+
+\begin_layout Plain Layout
+(domaine ?domaineD) 
+\end_layout
+
+\begin_layout Plain Layout
+?g <-(go Vrai) 
+\end_layout
+
+\begin_layout Plain Layout
+(test (= (str-compare ?domaineD ?domaineO) 0))
+\end_layout
+
+\begin_layout Plain Layout
+(not (exists (AnalyseOffre (reference ?ref)))) 
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(assert (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionDomaine
+ 1.0)))
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+
+\color blue
+(defrule NVdomaine
+\color inherit
+ 
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (OffreEmploie (domaine ?domaineO) (reference ?ref) (entreprise ?entre))
+ (domaine ?domaineD) 
+\end_layout
+
+\begin_layout Plain Layout
+?g<-(go Vrai) (not (test (= (str-compare ?domaineD ?domaineO) 0)))
+\end_layout
+
+\begin_layout Plain Layout
+(not (exists (AnalyseOffre (reference ?ref)))) 
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(printout t "XXXXXXXXXXXXXX => L'offre " ?ref " de l'entreprise " ?entre
+ " ne correspond pas au domaine recherche donc elle est annulee elle est
+ dans le domaine " ?domaineO " <= XXXXXXXXXXXXXX !" crlf) 
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (etat "non valide , le domaine ne correspond pas ")) 
+\end_layout
+
+\begin_layout Plain Layout
+(assert (AnalyseOffre (reference ?ref) (domaine noValide) )) ) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+On récupère le domaine de l'offre courante ainsi que sa référence.
+ Ensuite on récupère le domaine demandé par le client.
+ Puis on teste si le domaine recherché correspond à l'offre sélectionnée
+ par le SE.
+ Ensuite on crée un objet de type AnalyseOffre qui va contenir le résultat
+ de l'analyse effectuée par le SE.
+ 
+\end_layout
+
+\begin_layout Itemize
+ idem sauf dans le cas ou le domaine ne coïncide pas l'offre est annulée
+ et le champ du domaine dans l'Object AnalyseOffre aura la valeur noValise
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule TypeContrat
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat
+ ?satf))
+\end_layout
+
+\begin_layout Plain Layout
+(OffreEmploie (reference ?ref) (typeContrat ?typeContratO) )
+\end_layout
+
+\begin_layout Plain Layout
+(typeContrat ?typeContratD) 
+\end_layout
+
+\begin_layout Plain Layout
+(test (= (str-compare ?typeContratD ?typeContratO) 0))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat Valide) (domaine DejaValide) (satisfactionTypeContrat
+ (+ ?satf 6.0))) 
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule TypeContrat2
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat
+ ?satf)) (OffreEmploie (reference ?ref) (typeContrat ?typeContratO) )
+\end_layout
+
+\begin_layout Plain Layout
+(test (= (str-compare "CDI" ?typeContratO) 0))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat Valide) (domaine DejaValide) (satisfactionTypeContrat
+ (+ ?satf 5.0))) 
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule TypeContrat3
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat
+ ?satf))
+\end_layout
+
+\begin_layout Plain Layout
+(OffreEmploie (reference ?ref) (typeContrat ?typeContratO) ) (typeContrat
+ ?typeContratD)
+\end_layout
+
+\begin_layout Plain Layout
+(not (test (= (str-compare ?typeContratD ?typeContratO) 0)))
+\end_layout
+
+\begin_layout Plain Layout
+(test (= (str-compare "CDD" ?typeContratO) 0))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat Valide) (domaine DejaValide) (satisfactionTypeContrat
+ (+ ?satf 4.0)))
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule TypeContrat4 ?f <- (AnalyseOffre (reference ?ref) (domaine Valide)
+ (satisfactionTypeContrat ?satf)) ?g<-(OffreEmploie (reference ?ref) (typeContra
+t ?typeContratO) )
+\end_layout
+
+\begin_layout Plain Layout
+(typeContrat ?typeContratD)
+\end_layout
+
+\begin_layout Plain Layout
+(not (test (= (str-compare ?typeContratD ?typeContratO) 0)))
+\end_layout
+
+\begin_layout Plain Layout
+(test (= (str-compare "Stage" ?typeContratO) 0))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat Valide) (domaine DejaValide) (satisfactionTypeContrat
+ (+ ?satf 3.0)))
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule TypeContrat5 
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat
+ ?satf))
+\end_layout
+
+\begin_layout Plain Layout
+(OffreEmploie (reference ?ref) (typeContrat ?typeContratO) ) 
+\end_layout
+
+\begin_layout Plain Layout
+(typeContrat ?typeContratD)
+\end_layout
+
+\begin_layout Plain Layout
+(not (test (= (str-compare ?typeContratD ?typeContratO) 0)))
+\end_layout
+
+\begin_layout Plain Layout
+(test (= (str-compare "VIE" ?typeContratO) 0))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat Valide) (domaine DejaValide) (satisfactionTypeContrat
+ (+ ?satf 2.0))) 
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule TypeContrat6
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat
+ ?satf))
+\end_layout
+
+\begin_layout Plain Layout
+(OffreEmploie (reference ?ref) (typeContrat ?typeContratO) )
+\end_layout
+
+\begin_layout Plain Layout
+(typeContrat ?typeContratD)
+\end_layout
+
+\begin_layout Plain Layout
+(not (test (= (str-compare ?typeContratD ?typeContratO) 0)))
+\end_layout
+
+\begin_layout Plain Layout
+(test (= (str-compare "Alternance" ?typeContratO) 0))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat Valide) (domaine DejaValide)(satisfactionTypeContrat
+ (+ ?satf 1.0)))
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule NotTypeContrat
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (AnalyseOffre (reference ?ref) (domaine Valide) (satisfactionTypeContrat
+ ?satf))
+\end_layout
+
+\begin_layout Plain Layout
+?g <- (OffreEmploie (reference ?ref) (typeContrat ?typeContratO) (entreprise
+ ?entre))
+\end_layout
+
+\begin_layout Plain Layout
+(typeContrat ?typeContratD) 
+\end_layout
+
+\begin_layout Plain Layout
+(not (test (= (str-compare ?typeContratD ?typeContratO) 0)))
+\end_layout
+
+\begin_layout Plain Layout
+=> 
+\end_layout
+
+\begin_layout Plain Layout
+(printout t "(XXXXXXXXXXXX = > L'offre " ?ref " de l'entreprise " ?entre
+ " est annulee vu que le son type de contrat ne correspond du tout pas aux
+ criteres recherches il est de type :" ?typeContratO " <= XXXXXXXXXXXXX"
+ crlf)
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat noValide) (domaine DejaValide)) (modify ?g (etat
+ "non valide , le Type de contract ne correspond pas du tout au critere
+ recherche ")) 
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+On récupère les références des offres dont le domaine est validé.
+ Ensuite on vérifie si ce type de contrat correspond au type de contrat
+ demandé par le client, sinon on attribut une valeur selon l'échelle suivante
+ :
+\end_layout
+
+\begin_layout Itemize
+CDI = 5
+\end_layout
+
+\begin_layout Itemize
+CDD = 4
+\end_layout
+
+\begin_layout Itemize
+Stage = 3
+\end_layout
+
+\begin_layout Itemize
+VIE = 2
+\end_layout
+
+\begin_layout Itemize
+Alternance = 1
+\end_layout
+
+\begin_layout Itemize
+Si le type de contrat de l'offre ne correspond pas à une valeur parmi ces
+ valeurs là, l'offre est rejetée tout en attribuant la valeur noValide à
+ l'attribut TypeStage.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule Salaire ?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide)
+ (typeContrat Valide) (satisfactionSalaire ?satf))
+\end_layout
+
+\begin_layout Plain Layout
+(OffreEmploie (reference ?ref) (salaire ?salaireO) ) (salaire ?salaireDMin)
+\end_layout
+
+\begin_layout Plain Layout
+(test (= ?salaireO ?salaireDMin )) =>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat DejaValide) (salaire Valide) (satisfactionSalaire
+ (+ ?satf 1.0)))
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule Salaire5 ?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide)
+ (typeContrat Valide) (satisfactionSalaire ?satf))
+\end_layout
+
+\begin_layout Plain Layout
+(OffreEmploie (reference ?ref) (salaire ?salaireO) ) (salaire ?salaireDMin)
+\end_layout
+
+\begin_layout Plain Layout
+(test (> ?salaireO (* ?salaireDMin 2) ))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat DejaValide) (salaire Valide) (satisfactionSalaire
+ (+ ?satf 5.0)))
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule Salaire4
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat Valide)
+ (satisfactionSalaire ?satf)) (OffreEmploie (reference ?ref) (salaire ?salaireO)
+ ) (salaire ?salaireDMin) 
+\end_layout
+
+\begin_layout Plain Layout
+(test (> ?salaireO (+ ?salaireDMin 800) ))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat DejaValide) (salaire Valide) (satisfactionSalaire
+ (+ ?satf 4.0))) 
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule Salaire3
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat Valide)
+ (satisfactionSalaire ?satf)) (OffreEmploie (reference ?ref) (salaire ?salaireO)
+ ) (salaire ?salaireDMin)
+\end_layout
+
+\begin_layout Plain Layout
+(test (> ?salaireO (+ ?salaireDMin 400) ))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat DejaValide) (salaire Valide) (satisfactionSalaire
+ (+ ?satf 3.0)))
+\end_layout
+
+\begin_layout Plain Layout
+) 
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule Salaire2 ?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide)
+ (typeContrat Valide) (satisfactionSalaire ?satf))
+\end_layout
+
+\begin_layout Plain Layout
+(OffreEmploie (reference ?ref) (salaire ?salaireO) ) (salaire ?salaireDMin)
+\end_layout
+
+\begin_layout Plain Layout
+(test (> ?salaireO ?salaireDMin ))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat DejaValide) (salaire Valide) (satisfactionSalaire
+ (+ ?satf 2.0)))
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule NotSalaire ?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide)
+ (typeContrat Valide) (satisfactionSalaire ?satf)) (OffreEmploie (reference
+ ?ref) (salaire ?salaireO) ) (salaire ?salaireDMin)
+\end_layout
+
+\begin_layout Plain Layout
+(test (< ?salaireO ?salaireDMin ))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (typeContrat DejaValide) (salaire noValide)) (printout t "XXXXXXXXXXX
+XXX => L'offre " ?ref " de l'entreprise " ?entre " est annulee vu que le
+ salaire n'est pas sufisant il est de :" ?salaireO " <= XXXXXXXXXXXX" crlf)
+ 
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?g (etat "non valide , le Type de contract ne correspond pas du
+ tout au critere recherche "))
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+On récupère les références des offres dont le domaine est validé et le type
+ de contrat est validé.
+ Ensuite on vérifier si le salaire est supérieur au salaire minimal précisé
+ par le client :
+\end_layout
+
+\begin_layout Enumerate
+Si Salaire de l'offre > (salaireMinimal *2) donc satisfaction= 5
+\end_layout
+
+\begin_layout Enumerate
+Si Salaire de l'offre > (salaireMinimal+800) donc satisfaction= 4
+\end_layout
+
+\begin_layout Enumerate
+Si Salaire de l'offre > (salaireMinimal + 400) donc satisfaction= 3
+\end_layout
+
+\begin_layout Enumerate
+Si Salaire de l'offre > salaireMinimal donc Satisfaction= 2
+\end_layout
+
+\begin_layout Enumerate
+Si Salaire de l'offre = salaireMinimal donc Satisfaction= 1
+\end_layout
+
+\begin_layout Itemize
+Sinon si le salaire de l'offre est inférieur au salaire demandé, l'offre
+ est annulée tout en attribuant la valeur no Valide au champ Salaire.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule Distance
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValid
+e) (salaire Valide) (satisfactionDistance ?satf))
+\end_layout
+
+\begin_layout Plain Layout
+(OffreEmploie (reference ?ref) (distance ?distanceO) ) (distance ?distanceS)
+\end_layout
+
+\begin_layout Plain Layout
+(test (< ?distanceO (/ ?distanceS 5)))
+\end_layout
+
+\begin_layout Plain Layout
+=> 
+\end_layout
+
+\begin_layout Plain Layout
+(printout t "L'offre " ?ref " correspond a la distance recherchee" crlf)
+ (modify ?f (salaire DejaValide) (distance Valide) (satisfactionDistance
+ (+ ?satf 5.0)))
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule Distance2
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValid
+e) (salaire Valide) (satisfactionDistance ?satf) )
+\end_layout
+
+\begin_layout Plain Layout
+(OffreEmploie (reference ?ref) (distance ?distanceO) ) (distance ?distanceS)
+\end_layout
+
+\begin_layout Plain Layout
+(test (< ?distanceO (/ (* 2 ?distanceS) 5)))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (salaire DejaValide) (distance Valide) (satisfactionDistance
+ (+ ?satf 4.0))) )
+\end_layout
+
+\begin_layout Plain Layout
+(defrule Distance3 ?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide)
+ (typeContrat DejaValide) (salaire Valide) (satisfactionDistance ?satf))
+ (OffreEmploie (reference ?ref) (distance ?distanceO) ) (distance ?distanceS)
+\end_layout
+
+\begin_layout Plain Layout
+(test (< ?distanceO (/ (* 3 ?distanceS) 5)))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (salaire DejaValide) (distance Valide) (satisfactionDistance
+ (+ ?satf 2.0)))
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule Distance4 ?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide)
+ (typeContrat DejaValide) (salaire Valide) (satisfactionDistance ?satf))
+ (OffreEmploie (reference ?ref) (distance ?distanceO) ) (distance ?distanceS)
+ 
+\end_layout
+
+\begin_layout Plain Layout
+(test (< ?distanceO (/ (* 4 ?distanceS) 5)))
+\end_layout
+
+\begin_layout Plain Layout
+=> 
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (salaire DejaValide) (distance Valide) (satisfactionDistance
+ (+ ?satf 1.0)))
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule Distance5 
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValid
+e) (salaire Valide) (satisfactionDistance ?satf)) 
+\end_layout
+
+\begin_layout Plain Layout
+(OffreEmploie (reference ?ref) (distance ?distanceO) ) (distance ?distanceS)
+\end_layout
+
+\begin_layout Plain Layout
+(test (< ?distanceO (/ (* 5 ?distanceS) 5)))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (salaire DejaValide) (distance Valide) (satisfactionDistance
+ (+ ?satf 0.0))) 
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule NotDistance
+\end_layout
+
+\begin_layout Plain Layout
+?f <- (AnalyseOffre (reference ?ref) (domaine DejaValide) (typeContrat DejaValid
+e) (salaire Valide) (satisfactionDistance ?satf)) ?g <-(OffreEmploie (reference
+ ?ref) (distance ?distanceO) (entreprise ?entre)) (distance ?distanceD)
+ (not (test (= ?distanceD ?distanceO)))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(printout t "XXXXXXXXXX => L'offre " ?ref " correspond a la distance recherchee
+ il est a " ?distanceO " <= XXXXXXXXXXXXX" crlf) 
+\end_layout
+
+\begin_layout Plain Layout
+(modify ?f (salaire DejaValide) (distance noValide)) (modify ?g (etat "non
+ valide , la distance est très loin par rapport a la distance voulue recherche
+ "))
+\end_layout
+
+\begin_layout Plain Layout
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+On récupère les références des offres dont le domaine est validé et le type
+ de contrat est validé et le salaire est validé.
+ Ensuite on vérifier le périmètre où se trouve l'offre :
+\end_layout
+
+\begin_layout Plain Layout
+1.
+ si périmètre de l'offre < ((périmètre Maximal)/5) donc satisfaction = 5
+\end_layout
+
+\begin_layout Plain Layout
+2.
+ si périmètre de l'offre < ((2*périmètre Maximal)/5) donc satisfaction =
+ 4
+\end_layout
+
+\begin_layout Plain Layout
+3.
+ si périmètre de l'offre < ((3*périmètre Maximal)/5) donc satisfaction =
+ 3
+\end_layout
+
+\begin_layout Plain Layout
+4.
+ si périmètre de l'offre < ((4*périmètre Maximal)/5) donc satisfaction =
+ 2
+\end_layout
+
+\begin_layout Plain Layout
+5.
+ si périmètre de l'offre < ((5*périmètre Maximal)/5) donc satisfaction =
+ 1
+\end_layout
+
+\begin_layout Itemize
+Sinon si le périmètre de l'offre est supérieure au périmètre Maximal, l'offre
+ est annulée tout en attribuant la valeur no Valide au champ Distance.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+(
+\end_layout
+
+\begin_layout Plain Layout
+defrule AfficherResultatOK
+\end_layout
+
+\begin_layout Plain Layout
+(AnalyseOffre (reference ?ref)(domaine DejaValide) (typeContrat DejaValide)
+ (salaire DejaValide) (distance DejaValide) (satisfactionTotal ?satifT))
+\end_layout
+
+\begin_layout Plain Layout
+(OffreEmploie (reference ?ref) (entreprise ?entre))
+\end_layout
+
+\begin_layout Plain Layout
+=>
+\end_layout
+
+\begin_layout Plain Layout
+(printout t "=============>L'offre : " ?ref " de l'entreprise : " ?entre
+ " repond aux criteres cherches avec un Taux de <================ " (* ?satifT
+ 100.0) "%" crlf) )
+\end_layout
+
+\begin_layout Plain Layout
+(assert (initialiser true) )
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ces réglés permettent de calculer la satisfaction de chaque critères ainsi
+ que la satisfaction totale de l'offre après.
+\end_layout
+
+\begin_layout Plain Layout
+Le résultat est affiché tout en précisant le pourcentage pour quel l'offre
+ elle répond aux critères demandés pour les offres validées ainsi que la
+ raison d'élimination pour les offres rejetées 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ensemble des régles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
