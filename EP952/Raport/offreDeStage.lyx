@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -36,6 +36,7 @@
 \tracking_changes false
 \output_changes false
 \author "" 
+\author "" 
 \end_header
 
 \begin_body
@@ -48,7 +49,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="10" columns="9">
+<lyxtabular version="3" rows="11" columns="9">
 <features>
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
@@ -843,7 +844,7 @@ Intégré(e) à la Direction Marketing, vous serez rattaché(e) au Chef de Produ
 \begin_inset Text
 
 \begin_layout Plain Layout
-600€
+600 €
 \end_layout
 
 \end_inset
@@ -877,7 +878,7 @@ Ile-de-France Seine-Saint-Denis - Saint Ouen
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -886,7 +887,16 @@ R0009
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Industriel
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -895,11 +905,88 @@ R0009
 
 \end_inset
 </cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Technico-commercial(e) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rattaché(e) au responsable d'agence, ce poste vous amène à :
+\end_layout
+
+\begin_layout Itemize
+Assurer le suivi d'un portefeuille de clients industriels (services techniques,
+ production) sur votre secteur.- Prendre en charge le développement de l'activité
+ commerciale sur ce même secteur.
+\end_layout
+
+\begin_layout Itemize
+Retranscrire les besoins des clients auprès des services techniques internes
+ (agence locale + siège) et s'assurer du respect des délais d'intervention
+ prévus.
+\end_layout
+
+\begin_layout Itemize
+Réaliser les objectifs de ventes définis par la Direction.
+\end_layout
+
+\begin_layout Itemize
+Réaliser les propositions et les négociations commerciales en respectant
+ les procédures de ventes.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2500 €
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CDI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Strasbourg
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+R0010
 \end_layout
 
 \end_inset
@@ -908,7 +995,7 @@ R0009
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Industriel
 \end_layout
 
 \end_inset
@@ -917,7 +1004,7 @@ R0009
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Le leader du conseil en recrutement spécialisé
 \end_layout
 
 \end_inset
@@ -926,7 +1013,7 @@ R0009
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+RESPONSABLE ORDONNANCEMENT (H/F)
 \end_layout
 
 \end_inset
@@ -935,7 +1022,43 @@ R0009
 \begin_inset Text
 
 \begin_layout Plain Layout
+Rattaché(e) au Responsable Logistique, vous établissez, et optimisez les
+ méthodes de production et la gestion de production, pour les activités
+ d'injection et d'assemblage :
+\end_layout
 
+\begin_layout Itemize
+Vous réalisez la planification de la fabrication en fonction du Plan Directeur
+ de la Production et des besoins client.
+ 
+\end_layout
+
+\begin_layout Itemize
+Vous êtes le garant des ressources nécessaires, tant au niveau humain qu'au
+ niveau matériel.
+\end_layout
+
+\begin_layout Itemize
+Vous équilibrez au mieux les stocks selon les approvisionnements de matière
+ première et le niveau de production.
+ 
+\end_layout
+
+\begin_layout Itemize
+En tenant compte des contraintes de production, vous visez un niveau de
+ satisfaction client optimum, - En tant que Pilote Kanban, vous êtes le
+ garant du respect de ses règles.
+ 
+\end_layout
+
+\begin_layout Itemize
+Vous êtes en charge d'un reporting régulier auprès de vos responsables.
+ En cas de dysfonctionnement, vous proposez des actions correctives, 
+\end_layout
+
+\begin_layout Itemize
+Dans les missions qui vous incombent et afin d'atteindre vos objectifs,
+ vous encadrez trois ordonnanceurs.
 \end_layout
 
 \end_inset
@@ -944,7 +1067,25 @@ R0009
 \begin_inset Text
 
 \begin_layout Plain Layout
+2700
+\end_layout
 
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+CDI
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-
 \end_layout
 
 \end_inset
@@ -953,7 +1094,7 @@ R0009
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Fonche comté
 \end_layout
 
 \end_inset
@@ -975,10 +1116,6 @@ Offre de stage d'emploie
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
