@@ -129,7 +129,8 @@ Flag algorithm
 \align center
 \begin_inset Graphics
 	filename ../Images/ComputationOfWaferAtRisk_Fig1.png
-	width 100cm
+	lyxscale 50
+	width 100col%
 	rotateOrigin center
 
 \end_inset

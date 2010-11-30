@@ -1,0 +1,119 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter*
+Introduction
+\end_layout
+
+\begin_layout Standard
+Dans le cadre de notre étude de faisabilité, avec l'entreprise 
+\emph on
+STElectronics
+\emph default
+, nous avons besoin de faire un état de l'art et un benchmarking de l'état
+ actuel des connaissances.
+\end_layout
+
+\begin_layout Standard
+En effet notre recherche étant dans un domaine de haute technologie et dans
+ un domaine très jeune à l'echelle industrielle, le retour d'expérience
+ est relativement faible est beaucoup de challenge sont à relever.
+ En effet les objectifs de l'industrie des composants electroniques sont
+ très ambitieux
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+le zero défaut en est le meilleur exemple
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ce rapport présente donc nos recherches sur le sujet et l'état de l'art
+ sur tous les domaines ayant un rapport plus ou moins avec le sujet.
+\end_layout
+
+\begin_layout Standard
+Tout d'abbord nous traitons de la méthode 
+\begin_inset Formula $D^{3}$
+\end_inset
+
+ qui nous permet d'avoir un algorithme permettant d'optimiser les test et
+ maximiser les chances de trouver des éléments deffectueux.
+\end_layout
+
+\begin_layout Standard
+Ensuite nous traitons une série d'articles de recherhes, sur la fabrication
+ des micro-composants.
+ 
+\end_layout
+
+\begin_layout Standard
+Puis nous traitons le jugement d'expert, fortement lié à la méthode 
+\emph on
+AMDEC
+\emph default
+.
+ Nous détaillons l'apreciation du risque.
+ Pour terminer notre étude nous effectuons une synthèse des différentes
+ méthode et nous les comparons dans un tableau.
+ 
+\end_layout
+
+\begin_layout Standard
+Ce travail servira de socle à notre recherche ultérieur que l'on adaptera
+ à notre problème spécificique et ses contraintes.
+\end_layout
+
+\end_body
+\end_document

@@ -346,6 +346,16 @@ LatexCommand printnomenclature
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Introduction.lyx"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part
 Etat de l'art
 \end_layout
