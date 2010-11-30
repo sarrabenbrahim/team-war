@@ -65,11 +65,11 @@ L'article serait peut-etre plus lisible avec des sous titres pour structurer
 \end_inset
 
 Dans les grandes lignes de fabrication, la plupart des débris importants
- viennent de la croissance ce qui influence l’’incertitude de la santé des
+ viennent de la croissance ce qui influence l’incertitude de la santé des
  produits.
- Même si le processus est conçu de tell façon qu’il protège le système de
- fabrication contre des événements pareils, le contrôle d'incertitude est
- à peine efficace du point de vue opérationnel.
+ Même si le processus est conçu de telle façon qu’il protège le système
+ de fabrication contre des événements pareils, le contrôle d'incertitude
+ est à peine efficace du point de vue opérationnel.
  
 \end_layout
 
@@ -90,9 +90,9 @@ status open
 
 .
  Ainsi qu’une connexion entre la production et le contrôle de la qualité
- tourne la gestion de matériels à risque dans des tâches compliquées, et
- vu que le matériel est lié à la compétitivité des usines il va falloir
- renfoncer l’approche de contrôle de processus.
+ tourne la gestion de matériels à risque dans des tâches compliquées, sachant
+ que le matériel est lié à la compétitivité des usines il va falloir renforcer
+ l’approche de contrôle de processus.
  
 \end_layout
 
@@ -113,8 +113,8 @@ L'analyse des modes de défaillance, de leurs effets et de leur criticité
 
 \emph default
 , dans la plupart des cas les statistiques et les plans de contrôle sont
- gérés par la limite de capacité ou par la productivité / temps du cycle
- on appelle ça la réduction des étapes de la « non valeur ajoutée ».
+ gérés par la limite de capacité ou par la productivité / temps du cycle,
+ nous l'appellerons la réduction des étapes de la « non valeur ajoutée ».
  
 \end_layout
 
@@ -133,11 +133,11 @@ Manufacturing Execution System
 
 \end_inset
 
- par l’échantillonnage des règles que ce soit défini dans l’
+ par l’échantillonnage des règles qu'il soit défini ou pas dans l’
 \emph on
 AMDEC
 \emph default
- ou non.
+ .
  Ces règles sont basées sur : 
 \end_layout
 
@@ -162,31 +162,30 @@ L’approche traditionnelle proposée dans la plupart des
 \emph on
 MES
 \emph default
- existant est très limitée, et un ensemble d’alternatives a été proposées
- (dans une conférence de la fabrication avancée des semi-conducteurs « Adaptive
- Metrology Sampling techniques enabling higher precision in variability
- detection and control »).
+ existants est très limitée, par ailleurs un ensemble d’alternatives a été
+ proposé (dans une conférence de la fabrication avancée des semi-conducteurs
+ « Adaptive Metrology Sampling techniques enabling higher precision in variabili
+ty detection and control »).
 \end_layout
 
 \begin_layout Standard
-Dans cet article, les limitations traditionnelle que l’approche a quand
- on l’applique à une fabrication avancé avec un nombre de produits variés
- sont passées en revue et discutées et leurs facteurs principaux en liaison
- sont présentés.
+Dans cet article, les limitations traditionnelle que l’approche possède
+ quand nous l’appliquons à une fabrication avancée avec un nombre de produits
+ variés sont passées en revue et discutées et leurs facteurs principaux
+ en liaison sont présentés.
  
 \end_layout
 
 \begin_layout Standard
 Dans le but de donner une méthode cohérente pour le planning du contrôle
- de la qualité et qu’elle aborde ces limitations, l’approche proposée dans
- la Fig
+ de la qualité atteignant ses limitations, l’approche proposée dans la Fig
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Approche-proposée"
 
 \end_inset
 
- consiste à deux étapes : 
+ consiste en deux étapes : 
 \end_layout
 
 \begin_layout Enumerate
@@ -200,7 +199,7 @@ ajuster le plan de contrôle raffiné dans la phase 1 en divisant le reste
  (ou le manque) de la capacité selon un critère lié au processus et aux
  capacités de métrologie.
  Dans cette phase nous prenons aussi en considération les disponibilités
- et les contraintes de capacités des ressources de contrôle.
+ et les contraintes des capacités des ressources de contrôle.
 \end_layout
 
 \begin_layout Standard
@@ -268,7 +267,7 @@ phase
 \end_inset
 
 1 consiste à identifier les risques possibles et de faire une première répartiti
-on de risque, dans le but de construire un plan de contrôle après.
+on de risque, dans le but de construire un plan de contrôle par la suite.
 \end_layout
 
 \begin_layout Description
@@ -281,7 +280,7 @@ phase
 \end_inset
 
 2 consiste à ajuster le plan construit dans la phase 1 en ajoutant ou enlevant
- des contrôle quelqu’un selon la capacité de contrôle possible.
+ des contrôles selon la capacité de contrôle possible.
 \end_layout
 
 \begin_layout Standard

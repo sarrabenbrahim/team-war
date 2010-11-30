@@ -65,7 +65,7 @@ Introduction
 \begin_layout Standard
 Avec la croissance de la complexité et du besoin de la réactivité des processus,
  la méthode d'échantillonnage est devenue limitée face aux exigences.
- Pour combler le défaut de cette méthode, on a remarqué que le contrôle
+ Pour combler le défaut de cette méthode, nous avons remarqué que le contrôle
  de certains échantillons peut être éviter sans perte d'information notable
  sur la série de produits.
  Un algorithme a été développé pour identifier et contrôler ce critère sur
@@ -77,7 +77,7 @@ Description de l'algorithme
 \end_layout
 
 \begin_layout Standard
-Sur un cas simple, on considère qu'un contrôle de la contamination d'une
+Sur un cas simple, nous considèrons qu'un contrôle de la contamination d'une
  machine de fabrication T (outil de gravure).
  Le risque de contamination, D, augmente avec le nombre de plaques produites.
  Si le contrôle est marqué comme 
@@ -174,11 +174,11 @@ reference "fig:Risk-reduction-variation"
 
 \end_inset
 
-: lot P1 est traité en premier et contrôlée en quatrième en raison du tampon.
+: lot P1 est traité en premier et contrôlé en quatrième en raison du tampon.
  Certains lots peuvent être contrôlés avant d'autres qui ont été traités
  plus tôt.
  Toutefois, le risque de contamination est un phénomène croissant et monotone,
- on suppose que si le lot P4 a été validé alors le lot P1 l'est également
+ nous supposons que si le lot P4 a été validé alors le lot P1 l'est également
  et il n'est pas nécessaire de le contrôler.
 \end_layout
 
@@ -240,7 +240,7 @@ reference "fig:Risk-reduction-variation"
 \end_inset
 
  illustre cette évolution.
- Cet indicateur est ensuite utilisé pour trier le pile de lots à inspecter,
+ Cet indicateur est ensuite utilisé pour trier la pile de lots à inspecter,
  à partir des lots qui induisent les plus fortes réductions de risque, l'inspect
 ion de ces lots peut être alors ignorée.
 \end_layout
@@ -312,7 +312,7 @@ ignoré
 \begin_inset Quotes erd
 \end_inset
 
- est illustrée à la figure 
+ est illustré à la figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Zoom-on-case-of-skip"
@@ -387,7 +387,7 @@ Remarques
 \begin_layout Standard
 Cet algorithme est intéressant mais il n'est pas suffisant pour notre problème.
  Ceci dit, il pourra être implémenté en complément avec une autre solution
- plus approprié à notre cas d'étude.
+ plus appropriée à notre cas d'étude.
 \end_layout
 
 \end_body

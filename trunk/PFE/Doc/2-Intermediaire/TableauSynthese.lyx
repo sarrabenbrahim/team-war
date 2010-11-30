@@ -294,7 +294,7 @@ Gestion du risque
 \begin_inset Text
 
 \begin_layout Plain Layout
-une demarche 
+Une étude pour la détection et la réduction du risque.
 \end_layout
 
 \end_inset
@@ -303,7 +303,7 @@ une demarche
 \begin_inset Text
 
 \begin_layout Plain Layout
-prevention des phénomènes dangereux
+Prévention des phénomènes dangereux
 \end_layout
 
 \end_inset
@@ -312,24 +312,11 @@ prevention des phénomènes dangereux
 \begin_inset Text
 
 \begin_layout Itemize
-appreciation du risque
+Appréciation du risque
 \end_layout
 
 \begin_layout Itemize
-réduction du risque
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Itemize
-démarche compléte 
-\end_layout
-
-\begin_layout Itemize
-action en amont et l'aval pour gérer et corriger le risque
+Réduction du risque
 \end_layout
 
 \end_inset
@@ -338,11 +325,24 @@ action en amont et l'aval pour gérer et corriger le risque
 \begin_inset Text
 
 \begin_layout Itemize
-longue
+Démarche entière
 \end_layout
 
 \begin_layout Itemize
-demande la connaissance des machines
+Action en amont et l'aval pour gérer et corriger le risque
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+Longue
+\end_layout
+
+\begin_layout Itemize
+demande une connaissance parfaite des machines
 \end_layout
 
 \end_inset
@@ -350,8 +350,12 @@ demande la connaissance des machines
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Plain Layout
-peut être intéressante sur une longue période
+\begin_layout Itemize
+Peut être intéressante sur une longue période.
+\end_layout
+
+\begin_layout Itemize
+Rejetée 
 \end_layout
 
 \end_inset
@@ -498,7 +502,7 @@ Analyse systématiques d'ensemble de produits
 \begin_inset Text
 
 \begin_layout Plain Layout
-Cette méthode algorithmique permet de repérer les éléments deffectueux en
+Cette méthode algorithmique permet de repérer les éléments défectueux en
  optimisant le nombre de test 
 \end_layout
 
@@ -582,7 +586,7 @@ Cet article propose une nouvelle méthode pour élaborer un plan de contrôle
  consiste à identifier les risques possibles et de faire une première répartitio
 n de risque, dans le but de construire un plan de contrôle après.2.
  consiste à ajuster le plan construit dans la phase 1 en ajoutant ou enlevant
- des contrôle quelqu’un selon la capacité de contrôle possible.	
+ des contrôles selon la capacité de contrôle possible.	
 \end_layout
 
 \end_inset
@@ -591,7 +595,7 @@ n de risque, dans le but de construire un plan de contrôle après.2.
 \begin_inset Text
 
 \begin_layout Plain Layout
-• Avoir un plan de controle de la qualité optimisé
+• Avoir un plan de contrôle de la qualité optimisé
 \end_layout
 
 \begin_layout Plain Layout
@@ -892,7 +896,7 @@ C'est une méthode d'évaluation des risques et d'optimisation de l'utilisation
 
 \begin_layout Plain Layout
 \align left
-- Réduir fortement le risque
+- Réduire fortement le risque
 \end_layout
 
 \begin_layout Plain Layout
@@ -907,7 +911,7 @@ C'est une méthode d'évaluation des risques et d'optimisation de l'utilisation
 
 \begin_layout Plain Layout
 \align left
-- Compléxité
+- Complexité
 \end_layout
 
 \begin_layout Plain Layout

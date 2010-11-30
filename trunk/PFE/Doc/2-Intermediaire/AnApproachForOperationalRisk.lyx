@@ -127,11 +127,19 @@ Added value of a control plan
 Le risque est calculé comme le produit de la probabilité de l'évènement
  non-désiré (NDE : panne, défaillance, etc) et de la Perte Potentielle (PL)
  lorsque cet événement se produit.
- La Perte Potentielle est ici exprimé par le nombre de produits perdus (puce,
- plaquette ou le lot).
+ La Perte Potentielle est ici exprimée par le nombre de produits perdus
+ (puce, plaquette ou le lot).
  Lorsqu'un événement non-désiré se produit, la qualité de ses prochaines
  exécutions (machine) sera alors diminuée jusqu'à son prochain contrôle
- (le contrôle signifie mesurer et corriger si ce n'est pas OK).
+ (le contrôle signifie mesurer et corriger si ce n'est pas 
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+).
  Dans ce cas, la Perte Potentielle augmentera linéairement avec le nombre
  d'exécutions.
 \end_layout
@@ -206,7 +214,7 @@ OK
 \end_inset
 
 , il n'est pas nécessaire d'envisager la perte potentielle qui correspond
- à l'occurence de l'évènement non-désiré précédant la mesure (cf.
+ à l'occurrence de l'évènement non-désiré précédant la mesure (cf.
  Fig 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -319,7 +327,7 @@ Résultats
 
 \begin_layout Standard
 L'évolution du risque dépend des plans de contrôle, en fonction de leurs
- nombre de controls ainsi que de leurs répartitions sur l'horizon (cf.
+ nombre de contrôles ainsi que de leurs répartitions sur l'horizon (cf.
  Fig 
 \begin_inset CommandInset ref
 LatexCommand ref
