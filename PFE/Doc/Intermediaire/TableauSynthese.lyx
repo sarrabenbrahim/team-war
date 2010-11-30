@@ -252,7 +252,7 @@ La disponibilité
 La sécurité
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Itemize
 Obtenir au meilleur coût le rendement globale Maximum les équipements de
  production
 \end_layout
@@ -262,7 +262,7 @@ Obtenir au meilleur coût le rendement globale Maximum les équipements de
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Paragraph
+\begin_layout Plain Layout
 Ne permet pas en générale de prendre en compte les combinaisons de plusieurs
  défaillances
 \end_layout
