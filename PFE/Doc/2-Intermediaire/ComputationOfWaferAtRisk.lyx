@@ -63,7 +63,7 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-La fabrication de sémiconducteur devienne de plus en plus complexe et le
+La fabrication de semi-conducteurs devient de plus en plus complexe et le
  contrôle exhaustif des plaques n'est pas réalisable d'un point de vue financier.
  La méthode d'échantillonnage se révélait limitée et insuffisante par rapport
  aux exigences.
@@ -73,7 +73,7 @@ La fabrication de sémiconducteur devienne de plus en plus complexe et le
 \end_layout
 
 \begin_layout Standard
-L'évaluation des risques de chaque outil est caractérisé par le Wafer-At-Risk.
+L'évaluation des risques de chaque outil est caractérisée par le Wafer-At-Risk.
  L'information apportée par chaque lot, qui peut être inspecté, est appelée
  Wafer-At-Risk-Reduction.
  Ces deux informations ne sont pas exploitables directement, d'où la nécessité
@@ -85,7 +85,8 @@ Description de l'algorithme
 \end_layout
 
 \begin_layout Standard
-La première étape est d'identifier les lots qui ont été effectivement inspectés.
+La première étape consiste à identifier les lots qui ont été effectivement
+ inspectés.
  La première difficulté est d'identifier le Defectivity Work Requests (DWR).
  DWR sont des demandes spéciales issues de l'ingénierie qui met le lot en
  attente pour une inspection en défectivité plus approfondie.
@@ -265,7 +266,7 @@ Global W@R and W@R by recipe
 \end_layout
 
 \begin_layout Section
-Resultats
+Résultats
 \end_layout
 
 \begin_layout Standard
