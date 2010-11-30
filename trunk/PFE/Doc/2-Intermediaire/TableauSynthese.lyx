@@ -98,7 +98,7 @@ Tableau récapitulatif
 <column alignment="center" valignment="top" width="15col%">
 <column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="20col%">
-<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="30col%">
 <column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="15col%">
 <column alignment="center" valignment="top" width="15col%">
@@ -394,7 +394,7 @@ Tableau récapitulatif
 <column alignment="center" valignment="top" width="15col%">
 <column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="20col%">
-<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="top" width="30col%">
 <column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="15col%">
 <column alignment="center" valignment="top" width="0">
