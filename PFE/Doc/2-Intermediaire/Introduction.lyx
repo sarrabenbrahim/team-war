@@ -54,20 +54,21 @@ Introduction
 \begin_layout Standard
 Dans le cadre de notre étude de faisabilité, avec l'entreprise 
 \emph on
-STElectronics
+STMicroelectronics
 \emph default
 , nous avons besoin de faire un état de l'art et un benchmarking de l'état
  actuel des connaissances.
 \end_layout
 
 \begin_layout Standard
-En effet notre recherche étant dans un domaine de haute technologie et dans
- un domaine très jeune à l'echelle industrielle, le retour d'expérience
- est relativement faible est beaucoup de challenge sont à relever.
- En effet les objectifs de l'industrie des composants electroniques sont
- très ambitieux
+Etant donné que notre recherche porte sur un domaine de haute technologie
+ et qui est encore très jeune su l'echelle industrielle, le retour d'expérience
+ est donc relativement faible.
+ Il y a encore beaucoup de challenge sont à relever.
+ De plus les objectifs de l'industrie des composants electroniques sont
+ très ambitieux 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 le zero défaut en est le meilleur exemple
@@ -79,8 +80,8 @@ le zero défaut en est le meilleur exemple
 \end_layout
 
 \begin_layout Standard
-Ce rapport présente donc nos recherches sur le sujet et l'état de l'art
- sur tous les domaines ayant un rapport plus ou moins avec le sujet.
+Ce rapport présente donc nos recherches sur l'état de l'art dans tous les
+ domaines ayant un rapport plus ou moins avec le sujet.
 \end_layout
 
 \begin_layout Standard
@@ -93,7 +94,7 @@ Tout d'abbord nous traitons de la méthode
 \end_layout
 
 \begin_layout Standard
-Ensuite nous traitons une série d'articles de recherhes, sur la fabrication
+Ensuite nous traitons une série d'articles de recherhe, sur la fabrication
  des micro-composants.
  
 \end_layout
@@ -104,15 +105,15 @@ Puis nous traitons le jugement d'expert, fortement lié à la méthode
 AMDEC
 \emph default
 .
- Nous détaillons l'apreciation du risque.
- Pour terminer notre étude nous effectuons une synthèse des différentes
- méthode et nous les comparons dans un tableau.
+ Nous détaillons l'appréciation du risque.
+ Pour terminer cette étude nous effectuons une tableau synthétique sur des
+ différentes méthodes abordées.
  
 \end_layout
 
 \begin_layout Standard
-Ce travail servira de socle à notre recherche ultérieur que l'on adaptera
- à notre problème spécificique et ses contraintes.
+Ce travail servira de socle à notre recherche ultérieure que nous l'adapterons
+ à notre problème spécificique avec ses contraintes.
 \end_layout
 
 \end_body
