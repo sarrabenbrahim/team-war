@@ -105,7 +105,58 @@ Wafer@Risk-Reduction
 \end_layout
 
 \begin_layout Standard
+Lors de notre dernier réunion avec l'industriel, face à nos réticences pour
+ l'état de l'art, nous avons suggéré notre propre approche du problème :
+ 
+\begin_inset Quotes eld
+\end_inset
 
+algorithme du marcheur dans la ville
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Cette approche constitue d'abord une analogie du processus de fabrication
+ à un marcheur dans la ville.
+ Ensuite un algorithme permettant d'évaluer et de réduire les dangers du
+ marcheur qui est l'analogie des risques de production des plaques.
+ Notre solution a été retenue comme une piste envisageable et mérite d'être
+ approfondie en vue de l'état de l'art.
+\end_layout
+
+\begin_layout Standard
+Les perspectives de notre étude consistent dans un premier temps à re-évaluer
+ l'applicabilité de la méthode 
+\begin_inset Quotes eld
+\end_inset
+
+Wafer@Risk
+\begin_inset Quotes erd
+\end_inset
+
+ avec la nouvelle documentation fournie par l'industriel.
+ Ensuite, avec un jeu de donnée, nous allons tenter d'appliquer et de tester
+ la méthode algoritmique du 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $D^{3}$
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ et du 
+\begin_inset Quotes eld
+\end_inset
+
+marcheur dans la ville
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \end_body
