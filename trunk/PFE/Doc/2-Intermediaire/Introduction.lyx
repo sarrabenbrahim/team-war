@@ -56,22 +56,22 @@ Dans le cadre de notre étude de faisabilité, avec l'entreprise
 \emph on
 STMicroelectronics
 \emph default
-, nous avons besoin de faire un état de l'art et un benchmarking de l'état
- actuel des connaissances.
+, nous allons faire un état de l'art et un benchmarking de l'état actuel
+ des méthodes et des études existantes.
 \end_layout
 
 \begin_layout Standard
-Etant donné que notre recherche porte sur un domaine de haute technologie
- et qui est encore très jeune su l'echelle industrielle, le retour d'expérience
- est donc relativement faible.
- Il y a encore beaucoup de challenge sont à relever.
- De plus les objectifs de l'industrie des composants electroniques sont
+Étant donné que notre recherche porte sur un domaine de haute technologie,
+ encore très jeune sur l'échelle industrielle, le retour d'expérience est
+ donc relativement faible.
+ D'autre part il reste beaucoup de challenges à relever.
+ D'ailleurs les objectifs de l'industrie des composants électroniques sont
  très ambitieux 
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
-le zero défaut en est le meilleur exemple
+le zéro défaut en est le meilleur exemple
 \end_layout
 
 \end_inset
@@ -81,39 +81,43 @@ le zero défaut en est le meilleur exemple
 
 \begin_layout Standard
 Ce rapport présente donc nos recherches sur l'état de l'art dans tous les
- domaines ayant un rapport plus ou moins avec le sujet.
+ domaines ayant plus ou moins un rapport avec le sujet.
 \end_layout
 
 \begin_layout Standard
-Tout d'abbord nous traitons de la méthode 
+Tout d'abord nous traiterons de la méthode 
 \begin_inset Formula $D^{3}$
 \end_inset
 
- qui nous permet d'avoir un algorithme permettant d'optimiser les test et
- maximiser les chances de trouver des éléments deffectueux.
+ qui nous permettra d'avoir un algorithme permettant d'optimiser les tests
+ et maximiser les chances de trouver des éléments défectueux.
 \end_layout
 
 \begin_layout Standard
-Ensuite nous traitons une série d'articles de recherhe, sur la fabrication
+Ensuite nous étudierons une série d'articles de recherche, sur la fabrication
  des micro-composants.
  
 \end_layout
 
 \begin_layout Standard
-Puis nous traitons le jugement d'expert, fortement lié à la méthode 
+Puis nous définirons le jugement d'expert, fortement lié à la méthode 
 \emph on
 AMDEC
 \emph default
 .
- Nous détaillons l'appréciation du risque.
- Pour terminer cette étude nous effectuons une tableau synthétique sur des
- différentes méthodes abordées.
+ Aprés nous détaillerons la prévention des phénomènes dangereux .
  
 \end_layout
 
 \begin_layout Standard
-Ce travail servira de socle à notre recherche ultérieure que nous l'adapterons
- à notre problème spécificique avec ses contraintes.
+Enfin nous élaborerons une tableau comparatif sur des différentes méthodes
+ abordées afin d'identifier les plus pertinentes.
+ 
+\end_layout
+
+\begin_layout Standard
+Ce travail servira de socle à notre recherche ultérieure, en effet nous
+ l'adapterons à notre problème en prenant en compte les contraintes.
 \end_layout
 
 \end_body
