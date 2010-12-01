@@ -475,29 +475,21 @@ Nakara
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-A compléter 
-\end_layout
-
-\end_inset
-
-
+Recherche des méthodes existantes susceptibles d'être utilisées dans notre
+ projet de fin d'étude.
 \end_layout
 
 \begin_layout Itemize
 
 \noun on
-Ait Belkacem
+NAit Belkacem
 \noun default
  Abdelali 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-
+Analyse et étude de faisabilité des méthodes abordées dans les articles
+ fournis par ST.
 \end_layout
 
 \begin_layout Itemize
@@ -509,7 +501,8 @@ Nguyen
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-
+Analyse et étude de faisabilité des méthodes abordées dans les articles
+ fournis par ST.
 \end_layout
 
 \begin_layout Itemize
@@ -521,7 +514,26 @@ Amrani-Mesbahi
 \begin_inset Formula $\rightarrow$
 \end_inset
 
+Etude du livre 
+\begin_inset Quotes fld
+\end_inset
 
+L'utilisation du jugement d'expert en sûreté de fonctionnement
+\begin_inset Quotes frd
+\end_inset
+
+, d'André Lannoy et Henri Procaccia.
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Remarque:
+\end_layout
+
+\begin_layout Standard
+Nous avons essayé de faire un modèle de simultation afin d'avoir une représentat
+ion visuelle de l'enchaînement des produits dans l'atelier.
 \end_layout
 
 \end_body
