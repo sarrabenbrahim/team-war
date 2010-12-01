@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -439,6 +439,89 @@ Au terme de cette itération un premier rapport préliminaire sera livré à
  notre tuteur et notre client.
  De plus les outils de gestion agile seront mis en place au sein de l'équipe.
  
+\end_layout
+
+\begin_layout Subsection
+Deuxième itération 
+\end_layout
+
+\begin_layout Standard
+La deuxième itération est une partie plus orienté recherche bibliographique
+ et Benchmarking
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Garcia
+\noun default
+ Fabien
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Recherche et travail sur la méthode 
+\begin_inset Formula $D^{3}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Nakara
+\noun default
+ Rahma
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+A compléter 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Ait Belkacem
+\noun default
+ Abdelali 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Nguyen
+\noun default
+ Philipe 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Amrani-Mesbahi
+\noun default
+ Jaafar 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
 \end_layout
 
 \end_body
