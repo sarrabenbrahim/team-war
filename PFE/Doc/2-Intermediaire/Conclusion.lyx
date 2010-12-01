@@ -2,9 +2,14 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass book
+\textclass amsbook
 \use_default_options true
-\language english
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
 \inputencoding auto
 \font_roman default
 \font_sans default
@@ -30,7 +35,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \defskip medskip
-\quotes_language english
+\quotes_language french
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -53,7 +58,7 @@ A l'issue de cette recherche sur l'état de l'art, dont les sources d'informatio
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Quotes eld
+\begin_inset Quotes fld
 \end_inset
 
 
@@ -61,40 +66,40 @@ A l'issue de cette recherche sur l'état de l'art, dont les sources d'informatio
 \end_inset
 
 
-\begin_inset Quotes erd
+\begin_inset Quotes frd
 \end_inset
 
-, c'est une méthode algorithmique programmable permettant de repérer les
- éléments défectueux tout en optimisant le nombre de test.
- D'un point de vue théorique cette méthode répond parfaitement aux éxigences
+, est une méthode algorithmique programmable permettant de repérer les éléments
+ défectueux tout en optimisant le nombre de test.
+ D'un point de vue théorique cette méthode répond parfaitement aux exigences
  industrielles mais nous restons réticents sur la façon dont nous allons
  l'adapter à notre problème mais aussi sur sa fiabilité de prendre de plus
  en plus de risque (augmentation de la taille des échantillons).
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Quotes eld
+\begin_inset Quotes fld
 \end_inset
 
 Wafer@Risk
-\begin_inset Quotes erd
+\begin_inset Quotes frd
 \end_inset
 
 , c'est une approche très prometteuse permettant d'évaluer et de réduire
  les risques en introduisant les indicateurs de risque suivants : 
-\begin_inset Quotes eld
+\begin_inset Quotes fld
 \end_inset
 
 Wafer@Risk
-\begin_inset Quotes erd
+\begin_inset Quotes frd
 \end_inset
 
  et 
-\begin_inset Quotes eld
+\begin_inset Quotes fld
 \end_inset
 
 Wafer@Risk-Reduction
-\begin_inset Quotes erd
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -108,11 +113,11 @@ Wafer@Risk-Reduction
 Lors de notre dernière réunion avec l'industriel, face à nos réticences
  pour l'état de l'art, nous avons suggéré notre propre approche du problème
  : 
-\begin_inset Quotes eld
+\begin_inset Quotes fld
 \end_inset
 
 algorithme du marcheur dans la ville
-\begin_inset Quotes erd
+\begin_inset Quotes frd
 \end_inset
 
 .
@@ -127,17 +132,17 @@ algorithme du marcheur dans la ville
 \begin_layout Standard
 Les perspectives de notre étude consistent dans un premier temps à réévaluer
  l'applicabilité de la méthode 
-\begin_inset Quotes eld
+\begin_inset Quotes fld
 \end_inset
 
 Wafer@Risk
-\begin_inset Quotes erd
+\begin_inset Quotes frd
 \end_inset
 
  avec la nouvelle documentation fournie par l'industriel.
  Ensuite, avec un jeu de donnée, nous allons tenter d'appliquer et de tester
- la méthode algoritmique du 
-\begin_inset Quotes eld
+ la méthode algorithmique du 
+\begin_inset Quotes fld
 \end_inset
 
 
@@ -145,15 +150,15 @@ Wafer@Risk
 \end_inset
 
 
-\begin_inset Quotes erd
+\begin_inset Quotes frd
 \end_inset
 
  et du 
-\begin_inset Quotes eld
+\begin_inset Quotes fld
 \end_inset
 
 marcheur dans la ville
-\begin_inset Quotes erd
+\begin_inset Quotes frd
 \end_inset
 
 .

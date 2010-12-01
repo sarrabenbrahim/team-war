@@ -13,7 +13,7 @@ breaklinks=true,
 pdfborder={0 0 1},
 backref=section,
 colorlinks=true,
-linkcolor=red,
+linkcolor=blue,
 urlcolor=blue]
 {hyperref}
 

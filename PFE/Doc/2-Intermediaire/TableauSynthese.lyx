@@ -59,10 +59,17 @@ reference "tab:Tableau-récapitulatif"
 
 \end_inset
 
- et Tab
+, Tab
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Tableau-récapitulatif2"
+
+\end_inset
+
+ Tab 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Tableau-récapitulatif-3"
 
 \end_inset
 
@@ -143,7 +150,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-Avantage
+Avantages
 \end_layout
 
 \end_inset
@@ -152,7 +159,7 @@ Avantage
 \begin_inset Text
 
 \begin_layout Plain Layout
-Inconvénient
+Inconvénients
 \end_layout
 
 \end_inset
@@ -207,7 +214,7 @@ Analyse des Modes de Défaillance de leurs Effets et de leur Criticité
 \begin_inset Text
 
 \begin_layout Itemize
-Décomposition fonctionnel
+Decomposition fonctionnelle
 \end_layout
 
 \begin_layout Itemize
@@ -219,7 +226,7 @@ Classement de chaque mode de défaillance
 \end_layout
 
 \begin_layout Itemize
-Synthése des résultats sous forme de résultat
+Synthèse des résultats sous forme de résultat
 \end_layout
 
 \begin_layout Itemize
@@ -443,7 +450,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-Avantage
+Avantages
 \end_layout
 
 \end_inset
@@ -452,7 +459,7 @@ Avantage
 \begin_inset Text
 
 \begin_layout Plain Layout
-Inconvénient
+Inconvénients
 \end_layout
 
 \end_inset
@@ -621,7 +628,7 @@ n de risque, dans le but de construire un plan de contrôle après.2.
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Sans décisions
 \end_layout
 
 \end_inset
@@ -671,18 +678,18 @@ Tableau récapitulatif
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="6">
 <features rotate="true">
-<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="30col%">
 <column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="20col%">
 <column alignment="center" valignment="top" width="20col%">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Type
+
 \end_layout
 
 \end_inset
@@ -691,7 +698,7 @@ Type
 \begin_inset Text
 
 \begin_layout Plain Layout
-Sujet
+Type
 \end_layout
 
 \end_inset
@@ -709,7 +716,7 @@ Description
 \begin_inset Text
 
 \begin_layout Plain Layout
-Avantage
+Avantages
 \end_layout
 
 \end_inset
@@ -718,7 +725,7 @@ Avantage
 \begin_inset Text
 
 \begin_layout Plain Layout
-Inconvénient
+Inconvénients
 \end_layout
 
 \end_inset
@@ -734,11 +741,12 @@ Décision
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Article scientifique
+\align left
+An Approach for Operational Risk Evaluation and its Link to Control Plan
 \end_layout
 
 \end_inset
@@ -747,8 +755,7 @@ Article scientifique
 \begin_inset Text
 
 \begin_layout Plain Layout
-\align left
-An Approach for Operational Risk Evaluation and its Link to Control Plan
+Article scientifique
 \end_layout
 
 \end_inset
@@ -798,7 +805,8 @@ Industriellement non faisable à cause de l'improductivité lors des plans
 \begin_inset Text
 
 \begin_layout Plain Layout
-Article scientifique
+\align left
+Optimizing Return on Inspection Trough Defectivity Smart Sampling
 \end_layout
 
 \end_inset
@@ -807,8 +815,7 @@ Article scientifique
 \begin_inset Text
 
 \begin_layout Plain Layout
-\align left
-Optimizing Return on Inspection Trough Defectivity Smart Sampling
+Article scientifique
 \end_layout
 
 \end_inset
@@ -821,7 +828,7 @@ C'est une méthode d'échantillonnage
 \begin_inset Quotes fld
 \end_inset
 
-intélligente
+intelligente
 \begin_inset Quotes frd
 \end_inset
 
@@ -836,7 +843,11 @@ intélligente
 
 \begin_layout Plain Layout
 \align left
-Réduire jusqu'à 35% le nombre de contrôle (non nécessaire)
+Réduire jusqu'à 
+\begin_inset Formula $35\%$
+\end_inset
+
+ le nombre de contrôle (non nécessaire)
 \end_layout
 
 \end_inset
@@ -854,7 +865,7 @@ Réduire jusqu'à 35% le nombre de contrôle (non nécessaire)
 \begin_inset Text
 
 \begin_layout Plain Layout
-Résultat insuffisant par rapport aux exigences industrielles
+Résultats insuffisants par rapport aux exigences industrielles
 \end_layout
 
 \end_inset
@@ -865,7 +876,8 @@ Résultat insuffisant par rapport aux exigences industrielles
 \begin_inset Text
 
 \begin_layout Plain Layout
-Article scientifique
+\align left
+Computation of Wafer-At-Risk from Theory to Real Life Demonstration
 \end_layout
 
 \end_inset
@@ -874,8 +886,7 @@ Article scientifique
 \begin_inset Text
 
 \begin_layout Plain Layout
-\align left
-Computation of Wafer-At-Risk from Theory to Real Life Demonstration
+Article scientifique
 \end_layout
 
 \end_inset
@@ -930,8 +941,8 @@ C'est une méthode d'évaluation des risques et d'optimisation de l'utilisation
 \begin_inset Text
 
 \begin_layout Plain Layout
-Malgré le fait que les résultats semblent prometteurs, on ne peut pas valider
- sur sa faisabilité et son applicabilité
+Malgrès le fait que les résultats semblent prometteurs, on ne peut pas valider
+ sur sa faisabilité et son utilisation
 \end_layout
 
 \end_inset
