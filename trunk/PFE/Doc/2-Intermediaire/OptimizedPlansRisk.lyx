@@ -2,8 +2,13 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass book
+\textclass amsbook
 \use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
 \language french
 \inputencoding auto
 \font_roman default

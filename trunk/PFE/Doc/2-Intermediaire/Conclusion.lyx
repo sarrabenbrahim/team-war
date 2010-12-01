@@ -48,7 +48,7 @@ Conclusion
 
 \begin_layout Standard
 A l'issue de cette recherche sur l'état de l'art, dont les sources d'information
- sont très limitées, nous avons seulement retenu les deux approches suivantes
+ ont été très limitées, nous avons retenu que les deux approches suivantes
  :
 \end_layout
 
@@ -65,7 +65,7 @@ A l'issue de cette recherche sur l'état de l'art, dont les sources d'informatio
 \end_inset
 
 , c'est une méthode algorithmique programmable permettant de repérer les
- éléments déffectueux tout en optimisant le nombre de test.
+ éléments défectueux tout en optimisant le nombre de test.
  D'un point de vue théorique cette méthode répond parfaitement aux éxigences
  industrielles mais nous restons réticents sur la façon dont nous allons
  l'adapter à notre problème mais aussi sur sa fiabilité de prendre de plus
@@ -81,7 +81,7 @@ Wafer@Risk
 \end_inset
 
 , c'est une approche très prometteuse permettant d'évaluer et de réduire
- les risques en introduissant des indicateurs de risque suivants : 
+ les risques en introduisant les indicateurs de risque suivants : 
 \begin_inset Quotes eld
 \end_inset
 
@@ -105,9 +105,9 @@ Wafer@Risk-Reduction
 \end_layout
 
 \begin_layout Standard
-Lors de notre dernier réunion avec l'industriel, face à nos réticences pour
- l'état de l'art, nous avons suggéré notre propre approche du problème :
- 
+Lors de notre dernière réunion avec l'industriel, face à nos réticences
+ pour l'état de l'art, nous avons suggéré notre propre approche du problème
+ : 
 \begin_inset Quotes eld
 \end_inset
 
@@ -125,7 +125,7 @@ algorithme du marcheur dans la ville
 \end_layout
 
 \begin_layout Standard
-Les perspectives de notre étude consistent dans un premier temps à re-évaluer
+Les perspectives de notre étude consistent dans un premier temps à réévaluer
  l'applicabilité de la méthode 
 \begin_inset Quotes eld
 \end_inset
