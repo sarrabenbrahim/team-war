@@ -1,0 +1,168 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter*
+Conclusion
+\end_layout
+
+\begin_layout Standard
+A l'issue de cette recherche sur l'état de l'art, dont les sources d'information
+ ont été très limitées, nous avons retenu que les deux approches suivantes
+ :
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes fld
+\end_inset
+
+
+\begin_inset Formula $D^{3}$
+\end_inset
+
+
+\begin_inset Quotes frd
+\end_inset
+
+, est une méthode algorithmique programmable permettant de repérer les éléments
+ défectueux tout en optimisant le nombre de test.
+ D'un point de vue théorique cette méthode répond parfaitement aux exigences
+ industrielles mais nous restons réticents sur la façon dont nous allons
+ l'adapter à notre problème mais aussi sur sa fiabilité de prendre de plus
+ en plus de risque (augmentation de la taille des échantillons).
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes fld
+\end_inset
+
+Wafer@Risk
+\begin_inset Quotes frd
+\end_inset
+
+, c'est une approche très prometteuse permettant d'évaluer et de réduire
+ les risques en introduisant les indicateurs de risque suivants : 
+\begin_inset Quotes fld
+\end_inset
+
+Wafer@Risk
+\begin_inset Quotes frd
+\end_inset
+
+ et 
+\begin_inset Quotes fld
+\end_inset
+
+Wafer@Risk-Reduction
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Cependant cette approche nous semble trop ambitieuse pour être appliquée
+ à notre problème industriel.
+ Les résultats présentés, très optimistes, sont issus de la combinaison
+ de diverses méthodes et de recettes dont nous n'avons pas connaissance.
+\end_layout
+
+\begin_layout Standard
+Lors de notre dernière réunion avec l'industriel, face à nos réticences
+ pour l'état de l'art, nous avons suggéré notre propre approche du problème
+ : 
+\begin_inset Quotes fld
+\end_inset
+
+algorithme du marcheur dans la ville
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Cette approche constitue d'abord une analogie du processus de fabrication
+ à un marcheur dans la ville.
+ Ensuite un algorithme permettant d'évaluer et de réduire les dangers du
+ marcheur qui est l'analogie des risques de production des plaques.
+ Notre solution a été retenue comme une piste envisageable et mérite d'être
+ approfondie en vue de l'état de l'art.
+\end_layout
+
+\begin_layout Standard
+Les perspectives de notre étude consistent dans un premier temps à réévaluer
+ l'applicabilité de la méthode 
+\begin_inset Quotes fld
+\end_inset
+
+Wafer@Risk
+\begin_inset Quotes frd
+\end_inset
+
+ avec la nouvelle documentation fournie par l'industriel.
+ Ensuite, avec un jeu de donnée, nous allons tenter d'appliquer et de tester
+ la méthode algorithmique du 
+\begin_inset Quotes fld
+\end_inset
+
+
+\begin_inset Formula $D^{3}$
+\end_inset
+
+
+\begin_inset Quotes frd
+\end_inset
+
+ et du 
+\begin_inset Quotes fld
+\end_inset
+
+marcheur dans la ville
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
