@@ -492,5 +492,141 @@ Le calcul s'effectue de la même manière ensuite, on introduira simplement
 
 \end_layout
 
+\begin_layout Section
+Code de l'algorithme
+\end_layout
+
+\begin_layout Standard
+Dans un soucis de performance (vu la quantité d'information à traiter) nous
+ allons développer notre code en C
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Je sais c'est pas ce qu'on a dit la dernière fois (JAVA) mais pour faire
+ du procédurale avec un nombre important de données le C est plus adapté.
+ 
+\end_layout
+
+\end_inset
+
+en effet le nombre de données à traiter est important, et la structure de
+ l'algorithme nous incite à utiliser ce type de language.
+ En effet le C est un language simple, et proche de la machine, ce qui se
+ traduit par de haute performances 
+\end_layout
+
+\begin_layout Section
+Traitement des données
+\end_layout
+
+\begin_layout Standard
+Afin de tester notre algorithme nous avons récupéré un fichier de données
+ de 
+\emph on
+STElectronics
+\emph default
+, afin de bien comprendre ces données nous allons les analyser.
+ 
+\end_layout
+
+\begin_layout Standard
+On distingue différents champs de données : 
+\end_layout
+
+\begin_layout Description
+\begin_inset Quotes fld
+\end_inset
+
+
+\begin_inset Quotes frd
+\end_inset
+
+ Le premier champs vide est le numéro de la tâche, chaque tâche est numéroté
+ de manière unique.
+ 
+\end_layout
+
+\begin_layout Description
+Date Il s'agit de la date à laquelle l'évenement étudié a eu lieux.
+ Il est à noter que notre fichier de données repose sur 15 jours de productions,
+ le temps est donné en secondes.
+ 
+\end_layout
+
+\begin_layout Description
+Lot Il s'agit du numéro du lot, impacté par la tâche.
+ Dans le cas où ce champ est vide, cela veut dire que la machine ne traite
+ pas de produit mais qu'on effectue une tâche qualité sur la machine.
+ 
+\end_layout
+
+\begin_layout Description
+Oper Ce champs qualifie le type d'opération effectués sur le lot 
+\end_layout
+
+\begin_layout Description
+Nbr 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Grande enigme
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Event Permet de qualifier le type d'évenement, dans notre exemple nous avons
+ trois types d'évenements différents :
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+PRP représente une étape de fabrication du produit
+\end_layout
+
+\begin_layout Description
+MSL indique une mesure effectuée sur un lot
+\end_layout
+
+\begin_layout Description
+MSE indique une mesure réalisée sur un équipement (tâche de qualité, ou
+ 
+\begin_inset Quotes fld
+\end_inset
+
+TQ
+\begin_inset Quotes frd
+\end_inset
+
+)
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Tech Représente la technologie, nous disposons de cinq technologies différentes.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Quel technologie est la plus compliqué ?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Eqpt Représente le numéro de l'équipement, chaque équipement est représenté
+ par un identifiant unique.
+ 
+\end_layout
+
 \end_body
 \end_document
