@@ -2,6 +2,7 @@
 #define N 100
 
 float F[N];
+float Produit[N][N]
 /* ModeleSimple du marcheur 
 Ce code rend compte du premier modele ou unqiement la distance importe
 */
