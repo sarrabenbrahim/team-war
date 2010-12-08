@@ -51,5 +51,62 @@ figs-within-sections
 Introduction
 \end_layout
 
+\begin_layout Standard
+Dans le cadre de notre formation, nous effectuons une étude de faisabilité,
+ pour l'entreprise 
+\emph on
+STElectronics
+\emph default
+.
+ Cette entreprise est spécialisée dans la fabrication de composants electronique
+s.
+ Ce secteur très particulier et très concurentiel necessite d'avoir un niveau
+ de qualité très élevé pour se maintenir vis à vis des concurents.
+ 
+\end_layout
+
+\begin_layout Standard
+Le but avoué de cette industrie est le 
+\begin_inset Quotes fld
+\end_inset
+
+zéro défauts
+\begin_inset Quotes frd
+\end_inset
+
+, malheureusement la complexité des processus ne permet pas d'atteindre
+ cet objectif.
+ Afin de palier ce manque, nous étudions comment réagir rapidement en cas
+ de non qualité.
+ Notre étude consiste à anticiper sur les défaut de qualité et de tester
+ les composants les plus sensible.
+ Dans le but de faire disparaitre la non qualité.
+\end_layout
+
+\begin_layout Standard
+Cette étude est sensible, car les lots qui sont traité coûte excessivement
+ cher.
+ Les machines qui contrôlent les produits aussi.
+ Le but du jeux est d'arriver à trouver l'équilibre entre le contrôle des
+ produits, le contrôle des machines.
+\end_layout
+
+\begin_layout Standard
+Dans une première partie, nous nous intéresserons à l'aspect financier du
+ problème afin de bien expliquer les enjeux économiques de ce type d'étude.
+ 
+\end_layout
+
+\begin_layout Standard
+Dans un deuxième temps nous allons chiffrer la solution que nous proposons,
+ et le gain envisagé par ce type de solution.
+ 
+\end_layout
+
+\begin_layout Standard
+Pour terminer nous concluerons sur la viabilité économique de notre solution.
+ 
+\end_layout
+
 \end_body
 \end_document

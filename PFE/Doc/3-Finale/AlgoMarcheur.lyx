@@ -513,7 +513,31 @@ Je sais c'est pas ce qu'on a dit la dernière fois (JAVA) mais pour faire
 en effet le nombre de données à traiter est important, et la structure de
  l'algorithme nous incite à utiliser ce type de language.
  En effet le C est un language simple, et proche de la machine, ce qui se
- traduit par de haute performances 
+ traduit par de haute performances.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand lstinputlisting
+filename "../../Code/Marcheur.c"
+lstparams "caption={Modele simple : niveau 0},label={Algo-niveau-0}"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+L'inclusion du code en C est mise à titre de test
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
