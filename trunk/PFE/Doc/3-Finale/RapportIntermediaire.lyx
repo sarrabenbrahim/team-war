@@ -4,33 +4,52 @@
 \begin_header
 \textclass amsbook
 \begin_preamble
+\usepackage{color}
+\usepackage[french]{minitoc}
+\usepackage{wallpaper}
+\usepackage{fancyhdr}
 \usepackage[unicode=true, 
 bookmarks=true,
 bookmarksnumbered=true,
 bookmarksopen=true,
 bookmarksopenlevel=1,
 breaklinks=true,
-pdfborder={0 0 1},
 backref=section,
 colorlinks=true,
 linkcolor=blue,
 urlcolor=blue]
 {hyperref}
 
-\hypersetup{pdftitle={[PFE] - Rapport Préliminaire},
+\hypersetup{pdftitle={[PFE] - Rapport d'Étude},
 % backref=true,
 %pagebackref=true,
 pdfauthor={Equipe TeamW@R - Promo2011 -  Polytech'Marseille},
-pdfkeywords={PFE,
-Plateforme Polyvalente de Production,
+pdfkeywords={PFE, Waffer@Risk,
 ST, Polytech'Marseille,
 Génie Industriel,
 Gestion Production}
 }
-\usepackage{color}
-\usepackage[french]{minitoc}
+
+%%------------------------- Parametrage des entetes et pieds de page
+
+%http://www.nanotechnologies.qc.ca/propos/linux/documentation/Redaction_documents_Latex/s1-entete_pied_page.html
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.5px}
+%\renewcommand{\footrulewidth}{1px}
+%%---- entete
+\lhead{RAPPORT D'ÉTUDE}
+\rhead{\leftmark}
+%%----pied de page
+\cfoot{\today}
+
+\lfoot{\includegraphics[height=1.0cm]{../../../Logo/team-WAR.png}}
+%\cfoot{\boitecolor{white}{blue}{Promo 2011 - Team-w@r}}
+%\rfoot{page {\thepage} sur \pageref{LastPage}}
+\rfoot{page {\thepage}}
 
 \setcounter{parttocdepth}{0}
+
+\ThisULCornerWallPaper{1}{../Images/fond.png}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -73,6 +92,10 @@ tabs-within-sections
 \cite_engine natbib_authoryear
 \use_bibtopic false
 \paperorientation portrait
+\leftmargin 2.5cm
+\topmargin 3cm
+\rightmargin 2.5cm
+\bottommargin 3.5cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -157,7 +180,7 @@ Projet de Fin d'Étude
 \begin_inset Newline newline
 \end_inset
 
-Rapport Final
+Rapport d'Étude
 \begin_inset Newline newline
 \end_inset
 
