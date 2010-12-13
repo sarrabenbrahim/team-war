@@ -49,7 +49,8 @@ Gestion Production}
 
 \setcounter{parttocdepth}{0}
 
-\ThisULCornerWallPaper{1}{../Images/fond.png}
+\ThisULCornerWallPaper{1}{../Images/fond.png}% pour la page courante
+%\ULCornerWallPaper{1}{../Images/fond.png}
 \end_preamble
 \use_default_options true
 \begin_modules
