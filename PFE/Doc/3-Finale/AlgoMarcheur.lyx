@@ -544,6 +544,10 @@ L'inclusion du code en C est mise à titre de test
 Traitement des données
 \end_layout
 
+\begin_layout Subsection
+Analyse des données
+\end_layout
+
 \begin_layout Standard
 Afin de tester notre algorithme nous avons récupéré un fichier de données
  de 
@@ -575,9 +579,66 @@ On distingue différents champs de données :
 Date Il s'agit de la date à laquelle l'évenement étudié a eu lieux.
  Il est à noter que notre fichier de données repose sur 15 jours de productions,
  le temps est donné en secondes.
- 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Le champs de la date est composé de 
+\begin_inset Formula $14$
+\end_inset
+
+ chiffres, exemple : 
+\begin_inset Formula $20101010162720$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Les 4 premier chiffres représentent l'année ici 
+\begin_inset Formula $2010$
+\end_inset
+
+ est l'année 
+\end_layout
+
+\begin_layout Itemize
+Les 2 chiffres suivants représentent le mois, ici 
+\begin_inset Formula $10$
+\end_inset
+
+ donc octobre
+\end_layout
+
+\begin_layout Itemize
+Les 2 chiffres suvants représentent le jour, ici 
+\begin_inset Formula $10$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Les 6 chiffres suivants représentent l'heure, ici 
+\begin_inset Formula $162720$
+\end_inset
+
+ qui donne 
+\begin_inset Formula $16$
+\end_inset
+
+ heure 
+\begin_inset Formula $27$
+\end_inset
+
+ min et 
+\begin_inset Formula $20$
+\end_inset
+
+ secondes 
+\end_layout
+
+\end_deeper
 \begin_layout Description
 Lot Il s'agit du numéro du lot, impacté par la tâche.
  Dans le cas où ce champ est vide, cela veut dire que la machine ne traite
@@ -590,17 +651,8 @@ Oper Ce champs qualifie le type d'opération effectués sur le lot
 \end_layout
 
 \begin_layout Description
-Nbr 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Grande enigme
-\end_layout
-
-\end_inset
-
-
+Nbr Représente le nombre de wafers concernés par un evenement de process,
+ c'est-à-dire le nombre de plaques passées dans la machine.
 \end_layout
 
 \begin_layout Description
@@ -649,6 +701,83 @@ Quel technologie est la plus compliqué ?
 \begin_layout Description
 Eqpt Représente le numéro de l'équipement, chaque équipement est représenté
  par un identifiant unique.
+ 
+\end_layout
+
+\begin_layout Subsection
+Structure des données
+\end_layout
+
+\begin_layout Standard
+Afin d'utiliser les données au mieux, nous allons organiser les données
+ sous forme de la structure suivante.
+ 
+\end_layout
+
+\begin_layout Standard
+Dans un premier temps nous allons organiser les données par produits, machines
+ et ordres.
+ Dans le détail 
+\end_layout
+
+\begin_layout Description
+Machine Qualifie la ressource qui usine le procédé
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Nom Le nom de la machine 
+\end_layout
+
+\begin_layout Description
+traçabilité 
+\begin_inset Quotes fld
+\end_inset
+
+mémoire
+\begin_inset Quotes frd
+\end_inset
+
+ de la ressource, c'est elle qui stocke les tâches se produisant sur la
+ machine (La structure de taçabilité sera détaillé un peu plus loin)
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Produit
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Nom 
+\end_layout
+
+\begin_layout Description
+Traçabilité
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Traçabilité structure de la mémoire des événements 
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Tâche[] Contient un tableau de buméro de tâche
+\end_layout
+
+\begin_layout Description
+Date[] Donne la date de chaque tâche.
+\end_layout
+
+\begin_layout Description
+Type[] Précise le type de tâche 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Cette structure nous permet d'organiser les données de manière organisée,
+ et permet de piocher facilement dans les données.
  
 \end_layout
 
