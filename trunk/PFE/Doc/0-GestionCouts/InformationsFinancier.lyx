@@ -51,6 +51,78 @@ figs-within-sections
 Informations financières
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Standard
+Remarques de la prof des coûts le 13 décembre
+\end_layout
+
+\begin_layout Plain Layout
+Quel angle choisir ?
+\begin_inset Newline newline
+\end_inset
+
+Valeur ajouté programmation.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Quantifier l'amélioration du temps de réaction.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Composant electronique produit
+\begin_inset Newline newline
+\end_inset
+
+Coût du retour d'un composant, temps, demander ce qu'il se passe quand un
+ client renvoie un lot.
+ Facteur travail.
+\begin_inset Newline newline
+\end_inset
+
+Hypothèse sur le gain de notre PFE.
+\begin_inset Newline newline
+\end_inset
+
+On suppose que l'on ajoute 30% de détection en mieux avec notre méthode.
+ 
+\begin_inset Newline newline
+\end_inset
+
+Cas pessimiste et optimiste
+\begin_inset Newline newline
+\end_inset
+
+Calculer par rapport à l'objectif.
+\begin_inset Newline newline
+\end_inset
+
+Hypothèse haute et réaliste 
+\begin_inset Newline newline
+\end_inset
+
+Déterminer touts les coûts dont on doit tenir compte.
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+On se projette dans un monde idéal où l'on a une méthode qui marche et diminue
+ le 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Données à receuillir 
 \end_layout
