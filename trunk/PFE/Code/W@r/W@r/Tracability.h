@@ -19,25 +19,26 @@
  * @author Jean-Pierre Prunaret (jpierre03+twar@prunetwork.fr)
  * @author mesbahi.jaafar
  */
-// W@r.cpp : définit le point d'entrée pour l'application console.
-//
-
+#pragma once
 #include "stdafx.h"
 #include "Date.h"
 
-int _tmain(int argc, char* argv[]) {
-
-    printf("Salut tout le monde\n");
-
-    Date date("20100925063019");
-
-    date.print();
-
-    return 0;
-}
-
-int main(int argc, char** argv) {
-
-    return _tmain(argc, argv);
-}
-
+class Tracability {
+private:
+    //	{ Propriété qui indique le numéro de la tâche }
+    int numTask;
+    //	{ Propriété indique la date de la tâche }
+    Date date;
+    //	{ Propriété qui permet de préciser le type de la tâche }
+    char typeTask;
+public:
+    Tracability(void);
+    ~Tracability(void);
+    Tracability(int numTask, Date date, char typeTask);
+    void setNumTask(int numTask);
+    int getNumTask();
+    void setDate(Date date);
+    Date getDate();
+    void setTypeTask(char typeTask);
+    char getTypeTask();
+};

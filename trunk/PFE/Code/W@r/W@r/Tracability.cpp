@@ -19,25 +19,68 @@
  * @author Jean-Pierre Prunaret (jpierre03+twar@prunetwork.fr)
  * @author mesbahi.jaafar
  */
-// W@r.cpp : définit le point d'entrée pour l'application console.
-//
-
 #include "stdafx.h"
-#include "Date.h"
+#include "Tracability.h"
 
-int _tmain(int argc, char* argv[]) {
+/*
 
-    printf("Salut tout le monde\n");
+ */
+Tracability::Tracability(void) {
 
-    Date date("20100925063019");
-
-    date.print();
-
-    return 0;
 }
 
-int main(int argc, char** argv) {
+/*
 
-    return _tmain(argc, argv);
+ */
+Tracability::~Tracability(void) {
+
 }
 
+/*
+
+ */
+Tracability::Tracability(int numTask, Date date, char typeTask) {
+
+}
+
+/*
+
+ */
+void Tracability::setNumTask(int numTask) {
+
+}
+
+/*
+
+ */
+int Tracability::getNumTask() {
+    return 1;
+}
+
+/*
+
+ */
+void Tracability::setDate(Date date) {
+
+}
+
+/*
+
+ */
+Date Tracability::getDate() {
+    return this->date;
+}
+
+/*
+
+ */
+void Tracability::setTypeTask(char typeTask) {
+
+}
+
+/*
+
+ */
+char Tracability::getTypeTask() {
+    return this->typeTask;
+}
