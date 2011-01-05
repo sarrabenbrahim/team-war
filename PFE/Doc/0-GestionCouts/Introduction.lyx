@@ -55,13 +55,14 @@ Introduction
 Dans le cadre de notre formation, nous effectuons une étude de faisabilité,
  pour l'entreprise 
 \emph on
-STElectronics
+STMicroelectronics
 \emph default
 .
- Cette entreprise est spécialisée dans la fabrication de composants electronique
+ Cette entreprise est spécialisée dans la fabrication de composants électronique
 s.
- Ce secteur très particulier et très concurentiel necessite d'avoir un niveau
- de qualité très élevé pour se maintenir vis à vis des concurents.
+ Le secteur dans lequel s'inscrit l'activité de cette entreprise est très
+ particulier et très concurentiel, en effet il necessite un niveau de qualité
+ très élevé pour se maintenir vis à vis des concurents.
  
 \end_layout
 
@@ -78,8 +79,8 @@ zéro défauts
  d'atteindre cet objectif.
  Afin de palier ce manque, nous étudions comment réagir rapidement en cas
  de non qualité.
- Notre étude consiste à anticiper sur les défaut de qualité sur les plaques
- de silicium et de tester les composants les plus sensibles.
+ D'autre part notre étude consiste à anticiper les défauts de qualité sur
+ les plaques de silicium et de tester les composants les plus sensibles.
  Dans le but de faire disparaitre la non qualité.
 \end_layout
 
@@ -98,8 +99,8 @@ Dans une première partie, nous nous intéresserons à l'aspect financier du
 \end_layout
 
 \begin_layout Standard
-Dans un deuxième temps nous allons chiffrer la solution que nous proposons,
- et le gain envisagé par ce type de solution.
+Dans un deuxième temps nous allons chiffrer la solution que nous allons
+ proposer, et le gain envisagé par ce type de solution.
  
 \end_layout
 
