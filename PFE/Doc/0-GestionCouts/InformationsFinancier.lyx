@@ -55,7 +55,7 @@ Informations financières
 \begin_inset Note Note
 status open
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Remarques de la prof des coûts le 13 décembre
 \end_layout
 
@@ -125,6 +125,22 @@ On se projette dans un monde idéal où l'on a une méthode qui marche et diminu
 
 \begin_layout Section
 Données à receuillir 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Il faut éclater cette parie en 2 voire 3 parties pour obtenir la symétrie
+ du rapport.
+ Parce que le chapitre 3 comporte 5 sous parties tandis que cette chapitre
+ (2e) possède seulement que 3 parties.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
