@@ -55,16 +55,192 @@ Calculs des indicateurs de gestion des coûts
 La valeur Actualisée Nette (VAN)
 \end_layout
 
+\begin_layout Standard
+La VAN d'un investissement est la différence entre les flux actualisés à
+ la date 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ générés par un investissement et le montant de cet investissement :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+VAN=\sum_{i=1}^{n}\dfrac{C_{i}}{(1+t)^{i}}-I\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $I$
+\end_inset
+
+ = Investissement de départ
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $i$
+\end_inset
+
+ = années
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $t$
+\end_inset
+
+ = taux d'actualisation
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $C_{k}$
+\end_inset
+
+ = flux générés par l'investissement à la date 
+\begin_inset Formula $k$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+la 
+\begin_inset Formula $VAN$
+\end_inset
+
+ mesure la création de valeur engendrée par l'investissement.
+\end_layout
+
 \begin_layout Section
 L'indice de Profitabilité (IP)
+\end_layout
+
+\begin_layout Standard
+L'Indice de Profitabilité est le quotient de la somme des flux positifs
+ actualisé par le montant du capital investi :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+IP=\dfrac{1}{I}\sum_{i}C_{i}(1+t)^{-i}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Qui s'écrit également sous la forme
+\begin_inset Formula \[
+IP=\dfrac{VAN}{I}\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $i$
+\end_inset
+
+ = année;
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $C_{i}$
+\end_inset
+
+ = 
+\emph on
+cash-flow
+\emph default
+ (flux 
+\begin_inset Formula $\oplus$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $t$
+\end_inset
+
+ = le taux d'intérêt (taux d'actualisation)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $I$
+\end_inset
+
+ = investissement initial
 \end_layout
 
 \begin_layout Section
 Le Taux de Rentabilité Interne (TRI)
 \end_layout
 
+\begin_layout Standard
+Le Taux de Rentabilité Interne est le taux pour lequel la 
+\begin_inset Formula $VAN$
+\end_inset
+
+ est nulle (
+\begin_inset Formula $VAN=0$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+C'est-à-dire qu'il y a équivalence entre le capital investi et l'ensemble
+ des 
+\emph on
+cash-flow
+\emph default
+ (flux 
+\begin_inset Formula $\oplus$
+\end_inset
+
+) actualisés.
+\end_layout
+
+\begin_layout Standard
+Il faut donc chercher la valeur de 
+\begin_inset Formula $t$
+\end_inset
+
+ dans l'équation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula \[
+VAN(t)=-I+C_{1}(1+t)^{-1}+C_{2}(1+t)^{-2}+\cdots=0\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Delai de récupération du capital investi
+\end_layout
+
+\begin_layout Standard
+Le délais de récupération d'un capital investi est le temps au bout duquel
+ le montant cumulé des flux financier positifs (
+\begin_inset Formula $\oplus$
+\end_inset
+
+) actualisés est égal au capital investi.
+\end_layout
+
+\begin_layout Standard
+C'est donc le temps nécessaire pour que les flux nets de trésorerie générés
+ par l'investissement remboursent la mise de fond initiale en tenant compte
+ du temps.
 \end_layout
 
 \begin_layout Standard
