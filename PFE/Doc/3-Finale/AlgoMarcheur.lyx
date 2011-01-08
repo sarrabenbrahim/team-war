@@ -56,17 +56,46 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-Au terme de notre étude sur l'existant et l'état de l'art, il nous est apparue
- que le développement d'un outils adapté au problème spécifique nous semblerait
+Au terme de notre étude sur l'existant et l'état de l'art, il nous est apparu
+ que le développement d'un outils adapté au problème spécifique nous semblait
  nécessaire.
- En effet le développement d'un modèle entier parait plus réalisable, à
- l'heure d'aujourd'hui, que l'adaptation d'un outils.
+ En effet le développement d'un modèle entier
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+complet ?
+\end_layout
+
+\end_inset
+
+ parait plus réalisable, à l'heure d'aujourd'hui
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+actuelle ?
+\end_layout
+
+\end_inset
+
+, que l'adaptation d'un outils.
  
 \end_layout
 
 \begin_layout Standard
-Pour résumer nous allons détailler le modèle que nous nous proposons de
- développer par la suite.
+Pour résumer
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+cela ?
+\end_layout
+
+\end_inset
+
+ nous allons détailler le modèle que nous nous proposons de développer par
+ la suite.
  Le modèle du marcheur
 \begin_inset Foot
 status collapsed
@@ -96,7 +125,7 @@ marche de l'ivrogne
 
 , ce modèle permet dans un premier temps de déterminer un indice de risque
  pour les pièces (
-\begin_inset Formula $W@F$
+\begin_inset Formula $W@R$
 \end_inset
 
 
@@ -110,14 +139,22 @@ Wafer at Risk
 \end_inset
 
 ).
- Dans un deuxième temps de se servir de ça pour remonter aux pièces impactées.
- 
+ Dans un deuxième temps de se servir de ça
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+du résultat ?
+\end_layout
+
+\end_inset
+
+ pour remonter aux pièces impactées.
 \end_layout
 
 \begin_layout Standard
 L'idée de départ est assez simple, on se propose de regarder la probabilité
  d'un marcheur dans une ville d'être agressé dans une ville.
- 
 \end_layout
 
 \begin_layout Section
@@ -125,7 +162,7 @@ Hypothèses
 \end_layout
 
 \begin_layout Standard
-Afin de rendre le propos le plus claire possible nous allons poser toutes
+Afin de rendre le propos le plus clair possible nous allons poser toutes
  les hypothèses nécessaires au développement de l'algorithme.
 \end_layout
 
@@ -139,7 +176,17 @@ chance
 \end_inset
 
  d'être blessé (défectueux) au fur et à mesure qu'il se ballade dans la
- ville (Traverse beaucoup d'atelier).
+ ville (Traverse beaucoup d'ateliers 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+des postes de travail ?
+\end_layout
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Itemize
@@ -148,7 +195,7 @@ Le marcheur qui traverse des quartiers dangereux (Machine de production)
 \end_layout
 
 \begin_layout Itemize
-Propriété du quartier (Machine de production) 
+Propriété du quartier (Machine de production)
 \end_layout
 
 \begin_deeper
@@ -167,15 +214,31 @@ La criminalité est remise à un niveau seuil quand la police passe.
 \end_layout
 
 \begin_layout Itemize
-La criminalité est remise à un seuil si la santé du marcheur est bonne en
- sortant du quartier.
- On s'assure de la santé d'un marcheur en faisant passer un médecin (Mesure
- métrologique).
- Si la santé du marcheur est bonne, cela veut dire que la criminalité a
- été sur-évalué et il convient de la diminuer.
- 
+La criminalité est remise à un 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+niveau ? (pour l'homogénéïté du discours)
 \end_layout
 
+\end_inset
+
+seuil si la santé du marcheur est bonne en sortant du quartier.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+On s'assure de la santé d'un marcheur en faisant passer un médecin (Mesure
+ métrologique).
+\end_layout
+
+\begin_layout Itemize
+Si la santé du marcheur est bonne, cela veut dire que la criminalité a été
+ sur-évaluée et il convient de la diminuer.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 Le contrôle de la santé d'un marcheur donne de l'information uniquement
@@ -190,14 +253,42 @@ Il y a trois type de marcheur, un petit, moyen et un grand (technologie
 \begin_deeper
 \begin_layout Itemize
 Plus un marcheur est petit plus il aura de chance d'être agressé.
- 
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 On formalise le problème : 
 \begin_inset Formula \[
-W@F=1-\prod_{1}^{N}\left(F_{Machine}[i]\times F_{Produit}\right)\]
+W@R=1-\prod_{i=1}^{N}\left(F_{Machine[i]}\times F_{Produit}\right)\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+manque l'explication des variables.
+\end_layout
+
+\begin_layout Plain Layout
+avec :
+\end_layout
+
+\begin_layout Plain Layout
+- F....
+\end_layout
+
+\begin_layout Plain Layout
+- F ...
+\end_layout
+
+\begin_layout Plain Layout
+- WAR ...
+\end_layout
 
 \end_inset
 
@@ -212,11 +303,21 @@ L'algorithme
 On définit différents niveaux de complexité à notre algorithme, pour chaque
  niveau de complexité nous détaillerons les différences.
  Il est à noter que tous ces calculs sont donné pour le calcul du 
-\begin_inset Formula $W@F$
+\begin_inset Formula $W@R$
 \end_inset
 
  d'un seul marcheur (produit).
- On fera tourner cette algorithme dans une boucle pour comparer les 
+ On fera tourner cet algorithme dans une boucle pour comparer les
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+la suite ?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -233,7 +334,7 @@ On suppose que les machines ont une fiabilité
 \end_inset
 
  étapes de fabrication, et 
-\begin_inset Formula $W@F_{produit}$
+\begin_inset Formula $W@R_{produit}$
 \end_inset
 
  est la probabilité du produit d'être défectueux
@@ -279,7 +380,7 @@ Fin Pour
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $W@F=1-F_{Produit}$
+\begin_inset Formula $W@R=1-F_{Produit}$
 \end_inset
 
 
@@ -328,10 +429,19 @@ Fin Pour
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $W@F=1-F_{Produit}$
+\begin_inset Formula $W@R=1-F_{Produit}$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Exemple de loi de distribution de 
+\begin_inset Formula $F_{Machine[i]}$
+\end_inset
+
+: Répartition Uniforme, Loi Normale, Loi de Poisson, Loi définie par morceaux
+ (retour d'expérience).
 \end_layout
 
 \begin_layout Subsection
@@ -413,14 +523,14 @@ Fin Pour
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $W@F=1-F_{Produit}$
+\begin_inset Formula $W@R=1-F_{Produit}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Subsection
-Niveau 3 : Modèle du marcheur in homogène 
+Niveau 3 : Modèle du marcheur in-homogène
 \end_layout
 
 \begin_layout Standard
@@ -429,7 +539,9 @@ On suppose maintenant que le type de marcheur (la technologie), est plus
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $F_{Produit}=\beta_{type}\times F_{Produit}$
+\begin_inset Formula \[
+F_{Produit}=\beta_{type}\times F_{Produit}\]
+
 \end_inset
 
 
@@ -437,35 +549,47 @@ On suppose maintenant que le type de marcheur (la technologie), est plus
 
 \begin_layout Standard
 avec 
-\begin_inset Formula $\beta_{type}=\beta_{petit},\beta_{moyen},\beta_{grand}$
+\begin_inset Formula $\beta_{type}\in\left\{ \beta_{petit};\beta_{moyen};\beta_{grand}\right\} $
 \end_inset
 
-comme dans la vie réelle un grand aura moins de chance d'être agressé qu'un
+.
+\end_layout
+
+\begin_layout Standard
+Comme dans la vie réelle un grand aura moins de chance d'être agressé qu'un
  petit.
- 
 \end_layout
 
 \begin_layout Standard
 Afin de faire le parallèle avec les technologie :
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 \begin_inset Formula $\beta_{grand}$
 \end_inset
 
  correspond aux technologies de logique, qui sont les plus faciles à mettre
- en œuvre
+ en oeuvre
 \end_layout
 
-\begin_layout Description
+\begin_layout Itemize
 \begin_inset Formula $\beta_{moyen}$
 \end_inset
 
  correspond aux technologies de mémoires, qui sont légèrement plus compliqués
- 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+complexes?
 \end_layout
 
-\begin_layout Description
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
 \begin_inset Formula $\beta_{petit}$
 \end_inset
 
@@ -479,14 +603,34 @@ mémoire et logique
 
 \end_inset
 
- qui sont les technologies les plus compliqués à mettre en place.
- 
+ qui sont les technologies les plus compliqués
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+comlexes? délicates?
+\end_layout
+
+\end_inset
+
+ à mettre en place.
 \end_layout
 
 \begin_layout Standard
 Le calcul s'effectue de la même manière ensuite, on introduira simplement
  le nouveau 
 \begin_inset Formula $F_{Produit}$
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+c'est mieux si on donne le nom de la variable, puis cele-ci entre parenthèses.
+ C'est plus facile à lire.
+\end_layout
+
 \end_inset
 
 
@@ -498,17 +642,48 @@ Code de l'algorithme
 
 \begin_layout Standard
 Dans un soucis de performance (vu la quantité d'information à traiter) nous
- allons développer notre code en JAVA, la structure des données et l'algorithme
- nous incite à utiliser ce type de langage.
+ allons développer notre code en JAVA
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ça s'écrit Java (selon Sun/Oracle)
+\end_layout
+
+\end_inset
+
+, la structure des données et l'algorithme nous incite à utiliser ce type
+ de langage.
  De plus comme il s'agit simplement de la validation d'algorithme, ce code
  n'a pas pour vocation d'être développé ultérieurement.
- De plus  
+ De plus 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+la suite ?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 En effet le JAVA est le langage enseigné dans notre formation et permettra
- une implication de tous les simple, et proche de la machine, ce qui se
- traduit par de haute performances.
+ une implication de tous
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+les simples, et proche de la machine, ce qui se traduit par de haute performance
+s.
+ Heu, comprends pas le lien avec le début de la phrase.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -525,12 +700,22 @@ Afin de tester notre algorithme nous avons récupéré un fichier de données
 \emph on
 STElectronics
 \emph default
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Y a pas Micro dans le nom ?
+\end_layout
+
+\end_inset
+
 , afin de bien comprendre ces données nous allons les analyser.
  
 \end_layout
 
 \begin_layout Standard
-On distingue différents champs de données : 
+On distingue différents champs de données :
 \end_layout
 
 \begin_layout Description
@@ -544,11 +729,10 @@ taskID
 
 Vide) Le premier champs vide est le numéro de la tâche, chaque tâche est
  numéroté de manière unique.
- 
 \end_layout
 
 \begin_layout Description
-Date Il s'agit de la date à laquelle l'événement étudié a eu lieux.
+Date Il s'agit de la date à laquelle l'évènement étudié a eu lieux.
  Il est à noter que notre fichier de données repose sur 15 jours de productions,
  le temps est donné en secondes.
 \end_layout
@@ -567,11 +751,11 @@ Le champs de la date est composé de
 \end_layout
 
 \begin_layout Itemize
-Les 4 premier chiffres représentent l'année ici 
+Les 4 premier chiffres représentent l'année, ici 
 \begin_inset Formula $2010$
 \end_inset
 
- est l'année 
+
 \end_layout
 
 \begin_layout Itemize
@@ -607,7 +791,7 @@ Les 6 chiffres suivants représentent l'heure, ici
 \begin_inset Formula $20$
 \end_inset
 
- secondes 
+ secondes
 \end_layout
 
 \end_deeper
@@ -619,7 +803,6 @@ Lot
 (batch) Il s'agit du numéro du lot, impacté par la tâche.
  Dans le cas où ce champ est vide, cela veut dire que la machine ne traite
  pas de produit mais qu'on effectue une tâche qualité sur la machine.
- 
 \end_layout
 
 \begin_layout Description
@@ -628,7 +811,6 @@ Oper
 \end_inset
 
 (operation) Ce champs qualifie le type d'opération effectués sur le lot
- 
 \end_layout
 
 \begin_layout Description
@@ -636,13 +818,13 @@ Nbr
 \begin_inset space ~
 \end_inset
 
-(quantity) Représente le nombre de Wafer concernés par un événement de process,
- c'est-à-dire le nombre de plaques passées dans la machine.
+(quantity) Représente le nombre de Wafers concernés par un événement de
+ process, c'est-à-dire le nombre de plaques passées dans la machine.
 \end_layout
 
 \begin_layout Description
-Event Permet de qualifier le type d'événement, dans notre exemple nous avons
- trois types d'événements différents :
+Event Permet de qualifier le type d'évènement.
+ Dans notre exemple nous avons trois types d'évènements différents :
 \end_layout
 
 \begin_deeper
@@ -686,6 +868,16 @@ Quel technologie est la plus compliqué ?
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+lesquelles ?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -695,7 +887,6 @@ Eqpt
 
 (workstationID) Représente le numéro de l'équipement, chaque équipement
  est représenté par un identifiant unique.
- 
 \end_layout
 
 \begin_layout Subsection
@@ -704,19 +895,38 @@ Classe des entités
 
 \begin_layout Standard
 Afin d'utiliser les données au mieux, nous allons organiser les données
- sous forme de la structure suivante.
- 
+ sous forme de la structure suivante
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+présentée ci-après ?
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
 Dans un premier temps nous allons organiser les données par produits, machines
  et ordres.
- Dans le détail 
+ Dans le détail :
 \end_layout
 
 \begin_layout Description
 Date classe qui organise une date, il est à noter que cette structure particuliè
-re repose sur une classe native du JAVA Date
+re repose sur la classe native Java qui s'appelle Date
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+éponyme ?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -725,7 +935,7 @@ Entier
 \begin_inset space ~
 \end_inset
 
-year 
+year
 \end_layout
 
 \begin_layout Description
@@ -770,7 +980,11 @@ secondes
 
 \end_deeper
 \begin_layout Description
-Traçabilité structure de la mémoire des événements 
+Traçabilité
+\begin_inset space ~
+\end_inset
+
+(Tracability) structure de la mémoire des événements
 \end_layout
 
 \begin_deeper
@@ -872,9 +1086,19 @@ Entier
 \begin_inset space ~
 \end_inset
 
-NbrElement nombre d'élément de la traçabilité (en effet le C ne donnant
+NbrElement nombre d'éléments de la traçabilité (en effet le C ne donnant
  pas les tailles de tableaux facilement, il s'agit là d'une astuce pour
  contourner le problème)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+c'est pas du Java ?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Description
@@ -890,7 +1114,17 @@ Entier
 \begin_inset space ~
 \end_inset
 
-Technologie Permet de définir 
+Technologie Permet de définir
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+quoi ?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -923,10 +1157,13 @@ Diagramme de classe des objets entités
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename ../Images/ClasseEntity.dia
 	lyxscale 50
 	width 100col%
+	height 90theight%
+	keepAspectRatio
 
 \end_inset
 
@@ -962,7 +1199,7 @@ Contient l'algorithme a partir, il effectue le calcule
 status open
 
 \begin_layout Plain Layout
-L'algorithme a proprement parler de calcule de fiabilité est une méthode
+L'algorithme a proprement parler de calcul de fiabilité est une méthode
  de la classe batch
 \end_layout
 
@@ -990,8 +1227,20 @@ Extracteur
 \end_layout
 
 \begin_layout Standard
-Ces classes interprète les traçabilité extraites par le load et crée les
+Ces classes interprètent les traçabilité extraites par le load et crée les
  objets batch, workstation et insère les traçabilités associées.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ces classes construisent/instancient les différents objets (lesquels) à
+ partir du fichier de données.
+ Pour cela elles ....?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
