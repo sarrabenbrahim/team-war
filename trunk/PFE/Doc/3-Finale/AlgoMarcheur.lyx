@@ -205,7 +205,7 @@ W@F=1-\prod_{1}^{N}\left(F_{Machine}[i]\times F_{Produit}\right)\]
 \end_layout
 
 \begin_layout Section
-L'agorithme
+L'algorithme
 \end_layout
 
 \begin_layout Standard
@@ -220,7 +220,7 @@ On définit différents niveaux de complexité à notre algorithme, pour chaque
 \end_layout
 
 \begin_layout Subsection
-Niveau 0 : Modele simple
+Niveau 0 : Modèle simple
 \end_layout
 
 \begin_layout Standard
@@ -420,12 +420,12 @@ Fin Pour
 \end_layout
 
 \begin_layout Subsection
-Niveau 3 : Modèle du marcheur inhomogène 
+Niveau 3 : Modèle du marcheur in homogène 
 \end_layout
 
 \begin_layout Standard
 On suppose maintenant que le type de marcheur (la technologie), est plus
- suceptible d'être bléssé suivant son type intrinsèque
+ susceptible d'être blessé suivant son type intrinsèque
 \end_layout
 
 \begin_layout Standard
@@ -454,7 +454,7 @@ Afin de faire le parallèle avec les technologie :
 \end_inset
 
  correspond aux technologies de logique, qui sont les plus faciles à mettre
- en oeuvre
+ en œuvre
 \end_layout
 
 \begin_layout Description
@@ -498,46 +498,17 @@ Code de l'algorithme
 
 \begin_layout Standard
 Dans un soucis de performance (vu la quantité d'information à traiter) nous
- allons développer notre code en C
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Je sais c'est pas ce qu'on a dit la dernière fois (JAVA) mais pour faire
- du procédurale avec un nombre important de données le C est plus adapté.
- 
+ allons développer notre code en JAVA, la structure des données et l'algorithme
+ nous incite à utiliser ce type de langage.
+ De plus comme il s'agit simplement de la validation d'algorithme, ce code
+ n'a pas pour vocation d'être développé ultérieurement.
+ De plus  
 \end_layout
 
-\end_inset
-
-en effet le nombre de données à traiter est important, et la structure de
- l'algorithme nous incite à utiliser ce type de language.
- En effet le C est un language simple, et proche de la machine, ce qui se
+\begin_layout Standard
+En effet le JAVA est le langage enseigné dans notre formation et permettra
+ une implication de tous les simple, et proche de la machine, ce qui se
  traduit par de haute performances.
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand lstinputlisting
-filename "../../Code/Marcheur.c"
-lstparams "caption={Modele simple : niveau 0},label={Algo-niveau-0}"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-L'inclusion du code en C est mise à titre de test
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -577,7 +548,7 @@ Vide) Le premier champs vide est le numéro de la tâche, chaque tâche est
 \end_layout
 
 \begin_layout Description
-Date Il s'agit de la date à laquelle l'évenement étudié a eu lieux.
+Date Il s'agit de la date à laquelle l'événement étudié a eu lieux.
  Il est à noter que notre fichier de données repose sur 15 jours de productions,
  le temps est donné en secondes.
 \end_layout
@@ -612,7 +583,7 @@ Les 2 chiffres suivants représentent le mois, ici
 \end_layout
 
 \begin_layout Itemize
-Les 2 chiffres suvants représentent le jour, ici 
+Les 2 chiffres suivants représentent le jour, ici 
 \begin_inset Formula $10$
 \end_inset
 
@@ -665,13 +636,13 @@ Nbr
 \begin_inset space ~
 \end_inset
 
-(quantity) Représente le nombre de wafers concernés par un evenement de
- process, c'est-à-dire le nombre de plaques passées dans la machine.
+(quantity) Représente le nombre de Wafer concernés par un événement de process,
+ c'est-à-dire le nombre de plaques passées dans la machine.
 \end_layout
 
 \begin_layout Description
-Event Permet de qualifier le type d'évenement, dans notre exemple nous avons
- trois types d'évenements différents :
+Event Permet de qualifier le type d'événement, dans notre exemple nous avons
+ trois types d'événements différents :
 \end_layout
 
 \begin_deeper
@@ -728,7 +699,7 @@ Eqpt
 \end_layout
 
 \begin_layout Subsection
-Structure des données
+Classe des entités
 \end_layout
 
 \begin_layout Standard
@@ -744,7 +715,8 @@ Dans un premier temps nous allons organiser les données par produits, machines
 \end_layout
 
 \begin_layout Description
-Date structure qui organise une date
+Date classe qui organise une date, il est à noter que cette structure particuliè
+re repose sur une classe native du JAVA Date
 \end_layout
 
 \begin_deeper
@@ -803,7 +775,7 @@ Traçabilité structure de la mémoire des événements
 
 \begin_deeper
 \begin_layout Description
-Entier
+Charactere
 \begin_inset space ~
 \end_inset
 
@@ -828,12 +800,16 @@ Type Précise le type de tâche
 
 \end_deeper
 \begin_layout Description
-Machine Qualifie la ressource qui usine le procédé
+Machine
+\begin_inset space ~
+\end_inset
+
+(WorkStation) Qualifie la ressource qui usine le procédé
 \end_layout
 
 \begin_deeper
 \begin_layout Description
-Tableau
+Collection
 \begin_inset space ~
 \end_inset
 
@@ -850,17 +826,7 @@ mémoire
 \end_inset
 
  de la ressource, c'est elle qui stocke les tâches se produisant sur la
- machine (La structure de taçabilité sera détaillé un peu plus loin)
-\end_layout
-
-\begin_layout Description
-Entier
-\begin_inset space ~
-\end_inset
-
-NbrElement nombre d'élement de la traçabilité (en effet le C ne donnant
- pas les tailles de tableaux facilement, il s'agit là d'une astuce pour
- contourner le problème)
+ machine (La structure de traçabilité sera détaillé un peu plus loin)
 \end_layout
 
 \begin_layout Description
@@ -873,12 +839,16 @@ Nom Le nom de la machine
 
 \end_deeper
 \begin_layout Description
-Produit
+Lot
+\begin_inset space ~
+\end_inset
+
+(Batch) Classe qui qualifie un lot
 \end_layout
 
 \begin_deeper
 \begin_layout Description
-Tableau
+Collection
 \begin_inset space ~
 \end_inset
 
@@ -902,7 +872,7 @@ Entier
 \begin_inset space ~
 \end_inset
 
-NbrElement nombre d'élement de la traçabilité (en effet le C ne donnant
+NbrElement nombre d'élément de la traçabilité (en effet le C ne donnant
  pas les tailles de tableaux facilement, il s'agit là d'une astuce pour
  contourner le problème)
 \end_layout
@@ -930,6 +900,54 @@ Cette structure nous permet d'organiser les données de manière logique,
  
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramme de classe des objets entités
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../Images/ClasseEntity.dia
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Ce diagramme de classe représente les objets sur lesquels nous travaillerons
+ et utiliseront notre algorithme
+\emph default
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Spécification du code
 \end_layout
@@ -940,10 +958,21 @@ Marcheur
 
 \begin_layout Standard
 Contient l'algorithme a partir, il effectue le calcule 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+L'algorithme a proprement parler de calcule de fiabilité est une méthode
+ de la classe batch
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
-Lecture de fichier (LoadFile)
+Lecture de fichier (Storage)
 \end_layout
 
 \begin_layout Standard
@@ -952,7 +981,17 @@ Nous organisons notre lecture de fichier de façon à ranger les informations
 \end_layout
 
 \begin_layout Standard
-On définit une classe qui lit les fichiers et instancie les objets en conséquent.
+On définit une classe qui lit les fichiers et instancie les traçabilités
+ associées à chaque ligne.
+\end_layout
+
+\begin_layout Subsection
+Extracteur
+\end_layout
+
+\begin_layout Standard
+Ces classes interprète les traçabilité extraites par le load et crée les
+ objets batch, workstation et insère les traçabilités associées.
 \end_layout
 
 \end_body
