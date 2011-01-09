@@ -576,17 +576,7 @@ Afin de faire le parallèle avec les technologie :
 \begin_inset Formula $\beta_{moyen}$
 \end_inset
 
- correspond aux technologies de mémoires, qui sont légèrement plus compliqués
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-complexes?
-\end_layout
-
-\end_inset
-
-
+ correspond aux technologies de mémoires, qui sont légèrement plus complexe.
 \end_layout
 
 \begin_layout Itemize
@@ -603,7 +593,7 @@ mémoire et logique
 
 \end_inset
 
- qui sont les technologies les plus compliqués
+ qui sont les technologies les plus délicates 
 \begin_inset Note Note
 status open
 
@@ -613,27 +603,16 @@ comlexes? délicates?
 
 \end_inset
 
- à mettre en place.
+ et ayant de fortes chances de générer de la non qualité.
 \end_layout
 
 \begin_layout Standard
 Le calcul s'effectue de la même manière ensuite, on introduira simplement
- le nouveau 
+ la nouvelle fiabilité du produit (
 \begin_inset Formula $F_{Produit}$
 \end_inset
 
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-c'est mieux si on donne le nom de la variable, puis cele-ci entre parenthèses.
- C'est plus facile à lire.
-\end_layout
-
-\end_inset
-
-
+)
 \end_layout
 
 \begin_layout Section
@@ -642,7 +621,7 @@ Code de l'algorithme
 
 \begin_layout Standard
 Dans un soucis de performance (vu la quantité d'information à traiter) nous
- allons développer notre code en JAVA
+ allons développer notre code en Java
 \begin_inset Note Note
 status open
 
@@ -670,7 +649,7 @@ la suite ?
 \end_layout
 
 \begin_layout Standard
-En effet le JAVA est le langage enseigné dans notre formation et permettra
+En effet le Java est le langage enseigné dans notre formation et permettra
  une implication de tous
 \begin_inset Note Note
 status open
@@ -1082,26 +1061,6 @@ mémoire
 \end_layout
 
 \begin_layout Description
-Entier
-\begin_inset space ~
-\end_inset
-
-NbrElement nombre d'éléments de la traçabilité (en effet le C ne donnant
- pas les tailles de tableaux facilement, il s'agit là d'une astuce pour
- contourner le problème)
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-c'est pas du Java ?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
 Charactere
 \begin_inset space ~
 \end_inset
@@ -1114,17 +1073,7 @@ Entier
 \begin_inset space ~
 \end_inset
 
-Technologie Permet de définir
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-quoi ?
-\end_layout
-
-\end_inset
-
-
+Technologie Permet de définir le type de technologie du lot
 \end_layout
 
 \end_deeper
