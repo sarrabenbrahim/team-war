@@ -1,0 +1,229 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+Operational risk evaluation and control plan design
+\end_layout
+
+\begin_layout Standard
+Ce document est un support de présentation de Belgacem Bettayeb, qui présente
+ sa thèse 
+\begin_inset Quotes fld
+\end_inset
+
+An approach for operational risk evaluation and its link to control plan
+\begin_inset Quotes frd
+\end_inset
+
+ en collaboration avec P.
+ Vialletelle, S.
+ Bassetto et M.
+ Tollenaere.
+\end_layout
+
+\begin_layout Standard
+Cette approche d'évaluation des risques est basée sur l'évolution du 
+\begin_inset Quotes fld
+\end_inset
+
+Potential Loss
+\begin_inset Quotes frd
+\end_inset
+
+ (défectivité potentielle).
+ Cette évolution est supposée linéairement croissante avec le nombre d'exécution
+ (traitement par la machine), sans contrôle, sur un horizon donné.
+ Ce risque potentiel est réinitialisé, à une valeur seuil, après chaque
+ tâche de contrôle ou de maintenance.
+ L'évolution du 
+\begin_inset Quotes fld
+\end_inset
+
+Potential Loss
+\begin_inset Quotes frd
+\end_inset
+
+ dépend de la gestion (planification) des tâches de qualité et de maintenance.
+ De plus s'ajouter à cela une fonction d'évaluation de la valeur ajoutée
+ des tâches de contrôles mises en place afin de déterminer la bonne planificatio
+n de ces tâches pour un résultat optimal du risque.
+\end_layout
+
+\begin_layout Standard
+Cependant ce support de présentation n'apporte pas plus d'information pertinente
+ que l'extrait de la thèse pour être retenu comme solution de notre problème.
+\end_layout
+
+\begin_layout Section*
+A novel approach to minimize the number of controls in the defectivity area
+\end_layout
+
+\begin_layout Standard
+Cette présentation expose une nouvelle approche de gestion des tâches de
+ contrôle, issue des travaux de J.
+ Nduhura Munga, S.
+ Dauzère-Pérès, C.
+ Yugma et P.
+ Vialletelle.
+\end_layout
+
+\begin_layout Standard
+Les objectifs de cette nouvelle approche sont :
+\end_layout
+
+\begin_layout Itemize
+d'évaluer les contrôles en défectivité.
+\end_layout
+
+\begin_layout Itemize
+de déterminer les processus de fabrication qui sont sur-contrôlés ou sous-contrô
+lés
+\end_layout
+
+\begin_layout Itemize
+de pouvoir maîtriser dynamiquement les risques
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+nombre de produits traités sur un équipement entre deux contrôles en défectivité.
+\end_layout
+
+\end_inset
+
+ sur les divers équipements de production par des contrôles en défectivité.
+\end_layout
+
+\begin_layout Itemize
+de pouvoir réduire les contrôles inutils en évitant 
+\begin_inset Quotes fld
+\end_inset
+
+intelligemment
+\begin_inset Quotes frd
+\end_inset
+
+ les produits qui n'apportent pas d'information pertinente.
+\end_layout
+
+\begin_layout Standard
+Cette étude repose sur l'indicateur 
+\begin_inset Quotes fld
+\end_inset
+
+Wafers At Risk
+\begin_inset Quotes frd
+\end_inset
+
+ (W@R), qui represente le nombre de plaques traitées sur un équipement depuis
+ la dernière tâche de contrôle.
+ Cet indicateur sera exploité par un algorithme de calcul des 
+\begin_inset Quotes fld
+\end_inset
+
+Permanent Index per Context (PIC)
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Un PIC est une sorte de compteur qui s'incrémente à chaque fois que le
+ 
+\begin_inset Quotes fld
+\end_inset
+
+context
+\begin_inset Quotes frd
+\end_inset
+
+ est vérifié et se réinitialise lors d'un évènement spécial (maintenance
+ préventive ou tâche de contrôle).
+ Le 
+\begin_inset Quotes fld
+\end_inset
+
+context
+\begin_inset Quotes frd
+\end_inset
+
+ peut être un équipement, une cellule ou une recette.
+\end_layout
+
+\begin_layout Standard
+L'implémentation de cet algorithme sur une ligne de production, nécessite
+ de définir au préalable certains produits qui vont être contrôlés lors
+ de la permière exécution, permet d'atteindre les objectifs définis précédemment.
+\end_layout
+
+\begin_layout Standard
+Les résultats de l'implémentation de l'algorithme sur une ligne de production
+ montrent, au bout de deux semaines, qu'une réduction de 35% des produits
+ qui peuvent être exemptés de contrôle sans incident sur le taux de défectivité
+ de la production.
+\end_layout
+
+\begin_layout Standard
+Malheureusement, nous aboutissons à la même conclusion pour la thèse de
+ 
+\begin_inset Quotes fld
+\end_inset
+
+Optimizing return on inspection through defectivity smart sampling
+\begin_inset Quotes frd
+\end_inset
+
+ qui traite plus ou moins la même approche.
+ Résultats intéressants mais manquent de consistance.
+ De plus cette approche ne permet pas réduire les risques en défectivité
+ mais seulement l'échantillonnage pour la mesure.
+ Cette la réduction de la population des échantillons réduit par conséquence
+ des coûts des tâches de qualité.
+\end_layout
+
+\end_body
+\end_document
