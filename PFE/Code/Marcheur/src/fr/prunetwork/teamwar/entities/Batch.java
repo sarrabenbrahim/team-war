@@ -84,12 +84,12 @@ public class Batch {
     }
 
     public double fiabilityWithQTAndMSL(MyDate CurrentDate) {
-        double fiability = 1;
+        double fiability = Constants.FIABILITY_DEFAULT_BATCH;
         for (Iterator<Tracability> it = tracabilitys.iterator(); it.hasNext();) {
             Tracability tracability = it.next();
             if (tracability.getDate().before(CurrentDate)) {
                 if (tracability.getEvent().equalsIgnoreCase(Constants.BATCH_CONTROL)) {
-                    fiability = 1;
+                    fiability = Constants.FIABILITY_DEFAULT_BATCH;
                 } else {
                     fiability *= StoreEntities.getWorkstation(tracability.getWorkstationID()).getFiabilityQualityTask(tracability.getDate());
                 }
@@ -99,7 +99,7 @@ public class Batch {
     }
 
     public double fiabilityWithQualityTask(MyDate CurrentDate) {
-        double fiability = 1;
+        double fiability = Constants.FIABILITY_DEFAULT_BATCH;
         for (Iterator<Tracability> it = tracabilitys.iterator(); it.hasNext();) {
             Tracability tracability = it.next();
             if (tracability.getDate().before(CurrentDate)) {
