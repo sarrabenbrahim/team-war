@@ -69,8 +69,11 @@ public class Tracability {
     /**
      * @return the date
      */
-    public String getDate() {
+    public String printDate() {
         return date.toString();
+    }
+    public MyDate getDate(){
+        return date;
     }
 
     /**

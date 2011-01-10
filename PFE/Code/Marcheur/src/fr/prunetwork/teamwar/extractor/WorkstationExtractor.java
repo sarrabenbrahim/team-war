@@ -17,6 +17,7 @@
 package fr.prunetwork.teamwar.extractor;
 
 import fr.prunetwork.teamwar.Constants;
+import fr.prunetwork.teamwar.entities.StoreEntities;
 import fr.prunetwork.teamwar.entities.Workstation;
 import fr.prunetwork.teamwar.entities.Tracability;
 import java.util.ArrayList;
@@ -97,6 +98,7 @@ public class WorkstationExtractor {
 
         createUniqueWorkstationesFromTracability(WorkstationTracabilityMap, workstations, WorkstationMap);
         populateEachWorkstationesWithItsTracability(tracabilitys, WorkstationMap);
+        StoreEntities.addAllWorkstation(workstations);
 
         return workstations;
     }

@@ -16,9 +16,13 @@
  */
 package fr.prunetwork.teamwar.entities;
 
+import fr.prunetwork.teamwar.Constants;
+import fr.prunetwork.teamwar.utilities.MyDate;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Date;
+import java.util.Iterator;
 
 /**
  *
@@ -28,15 +32,31 @@ import java.util.Collections;
 public class Workstation {
 
     private double fiabilityRandomLaw = Math.random();
+    private double disturbanceOfWorkStation = Constants.DISTURBANCE_WORSTATION_PER_EVENT;
     private String name;
     private Collection<Tracability> tracabilitys = new ArrayList<Tracability>();
+    private double fiabilityQualityTask;
 
     public Workstation(String name) {
         this.name = name;
     }
 
+    /**
+     * @return the disturbanceOfWorkStation
+     */
+    public double getDisturbanceOfWorkStation() {
+        return disturbanceOfWorkStation;
+    }
+
+    /**
+     * @param disturbanceOfWorkStation the disturbanceOfWorkStation to set
+     */
+    public void setDisturbanceOfWorkStation(double disturbanceOfWorkStation) {
+        this.disturbanceOfWorkStation = disturbanceOfWorkStation;
+    }
+
     public void addTracability(Tracability tracability) {
-        tracabilitys.add(tracability);
+        getTracabilitys().add(tracability);
     }
 
     /**
@@ -76,5 +96,36 @@ public class Workstation {
             fiabilityRandomLaw = Math.random();
         }
         return fiabilityRandomLaw;
+
+    }
+
+    /**
+     * Fonction which calculate the fiability thanks to the number of events 
+     * since the last quality task
+     * @param currentDate
+     * @return
+     */
+    public double getFiabilityQualityTask(MyDate currentDate) {
+
+        Date lastQualityTask = new Date(0);
+        fiabilityQualityTask = getNumberOfEventSinceLastQT(currentDate) *
+                Constants.DISTURBANCE_WORSTATION_PER_EVENT;
+        return fiabilityQualityTask;
+    }
+
+    private Double getNumberOfEventSinceLastQT(MyDate currentDate) {
+        Date lastQualityTask;
+        Double numberOfEvents = new Double(0);
+        for (Iterator<Tracability> it = getTracabilitys().iterator(); it.hasNext();) {
+            Tracability tracability = it.next();
+            if (tracability.getDate().before(currentDate)) {
+                if (tracability.getEvent().equals(Constants.QUALITYTASK)) {
+                    lastQualityTask = tracability.getDate();
+                    numberOfEvents = new Double(0);
+                }
+                numberOfEvents++;
+            }
+        }
+        return numberOfEvents;
     }
 }
