@@ -28,6 +28,7 @@ import java.util.Iterator;
  *
  * @author jpierre03+teamwar@prunetwork.fr
  * @author garciaf
+ * @author NAIT BELKACEM Abdelali
  */
 public class Workstation {
 
@@ -35,7 +36,7 @@ public class Workstation {
     private double disturbanceOfWorkStation = Constants.DISTURBANCE_WORSTATION_PER_EVENT;
     private String name;
     private Collection<Tracability> tracabilitys = new ArrayList<Tracability>();
-    private double fiabilityQualityTask;
+    private double fiabilityQualityTask=1;
 
     public Workstation(String name) {
         this.name = name;
@@ -56,7 +57,7 @@ public class Workstation {
     }
 
     public void addTracability(Tracability tracability) {
-        getTracabilitys().add(tracability);
+        tracabilitys.add(tracability);
     }
 
     /**
@@ -108,21 +109,23 @@ public class Workstation {
     public double getFiabilityQualityTask(MyDate currentDate) {
 
         Date lastQualityTask = new Date(0);
-        fiabilityQualityTask = getNumberOfEventSinceLastQT(currentDate) *
-                Constants.DISTURBANCE_WORSTATION_PER_EVENT;
+        fiabilityQualityTask -= getNumberOfEventSinceLastQT(currentDate)
+                * Constants.DISTURBANCE_WORSTATION_PER_EVENT;
         return fiabilityQualityTask;
     }
 
-    private Double getNumberOfEventSinceLastQT(MyDate currentDate) {
+    public Double getNumberOfEventSinceLastQT(MyDate currentDate) {
+       
         Date lastQualityTask;
         Double numberOfEvents = new Double(0);
-        for (Iterator<Tracability> it = getTracabilitys().iterator(); it.hasNext();) {
+ 
+       for (Iterator<Tracability> it = getTracabilitys().iterator(); it.hasNext();) {
             Tracability tracability = it.next();
             if (tracability.getDate().before(currentDate)) {
-                if (tracability.getEvent().equals(Constants.QUALITYTASK)) {
+                if (tracability.getEvent().equalsIgnoreCase(Constants.QUALITYTASK)) {
                     lastQualityTask = tracability.getDate();
                     numberOfEvents = new Double(0);
-                }
+                }else
                 numberOfEvents++;
             }
         }

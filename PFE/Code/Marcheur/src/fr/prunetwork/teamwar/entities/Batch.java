@@ -16,7 +16,7 @@
  */
 package fr.prunetwork.teamwar.entities;
 
-import fr.prunetwork.teamwar.extractor.WorkstationExtractor;
+import fr.prunetwork.teamwar.Constants;
 import fr.prunetwork.teamwar.utilities.MyDate;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -27,6 +27,7 @@ import java.util.Iterator;
  *
  * @author jpierre03+teamwar@prunetwork.fr
  * @author garciaf
+ * @author NAIT BELKACEM Abdelali
  */
 public class Batch {
 
@@ -81,14 +82,28 @@ public class Batch {
         fiability = fiability * Math.pow(ARBITRATY_WORKSTATION_FIABILITY_VALUE, (double) getTracabilitys().size());
         return fiability;
     }
-    public double FiabilityWithQualityTask(MyDate CurrentDate){
-        double fiability=1;
-         WorkstationExtractor we = new WorkstationExtractor(tracabilitys);
-                Collection<Workstation> workstations = we.extract();
+
+    public double fiabilityWithQTAndMSL(MyDate CurrentDate) {
+        double fiability = 1;
         for (Iterator<Tracability> it = tracabilitys.iterator(); it.hasNext();) {
             Tracability tracability = it.next();
-            if(tracability.getDate().before(CurrentDate)){
-                fiability=fiability;
+            if (tracability.getDate().before(CurrentDate)) {
+                if (tracability.getEvent().equalsIgnoreCase(Constants.BATCH_CONTROL)) {
+                    fiability = 1;
+                } else {
+                    fiability *= StoreEntities.getWorkstation(tracability.getWorkstationID()).getFiabilityQualityTask(tracability.getDate());
+                }
+            }
+        }
+        return fiability;
+    }
+
+    public double fiabilityWithQualityTask(MyDate CurrentDate) {
+        double fiability = 1;
+        for (Iterator<Tracability> it = tracabilitys.iterator(); it.hasNext();) {
+            Tracability tracability = it.next();
+            if (tracability.getDate().before(CurrentDate)) {
+                fiability *= StoreEntities.getWorkstation(tracability.getWorkstationID()).getFiabilityQualityTask(tracability.getDate());
             }
         }
         return fiability;

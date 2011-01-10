@@ -17,12 +17,14 @@
 package fr.prunetwork.teamwar;
 
 import fr.prunetwork.teamwar.entities.Batch;
+import fr.prunetwork.teamwar.entities.StoreEntities;
 import fr.prunetwork.teamwar.entities.Tracability;
 import fr.prunetwork.teamwar.entities.Workstation;
 import fr.prunetwork.teamwar.extractor.BatchExtractor;
 import fr.prunetwork.teamwar.extractor.WorkstationExtractor;
 import fr.prunetwork.teamwar.storage.reader.ExtractDataFromFile;
 import fr.prunetwork.teamwar.storage.writer.StoreDataToFile;
+import fr.prunetwork.teamwar.utilities.MyDate;
 import java.io.IOException;
 import java.util.Collection;
 import java.util.Iterator;
@@ -33,31 +35,61 @@ import java.util.logging.Logger;
  *
  * @author jpierre03+teamwar@prunetwork.fr
  * @author garciaf
+ * @author NAIT BELKACEM Abdelali
  */
 public class Marcheur {
 
-    public static void main(String[] args) {
-        String fichier = Constants.SHORT_FILE;
+    private String fichier;
+    private StoreDataToFile sdtf;
+    private Collection<Tracability> tracabilitys;
+    private WorkstationExtractor we;
+    private BatchExtractor be;
+    private Collection<Workstation> workstations;
+    private Collection<Batch> batchs;
+
+    public Marcheur() {
+        fichier = Constants.SHORT_FILE;
 //        String fichier = Constants.LONG_FILE;
-        StoreDataToFile sdtf = new StoreDataToFile("/home/garciaf/Bureau/FileCCCC");
+        sdtf = new StoreDataToFile("./FileCCCC");
 
-        Collection<Tracability> tracabilitys = ExtractDataFromFile.createTracabilityCollection(fichier);
+        tracabilitys = ExtractDataFromFile.createTracabilityCollection(fichier);
 
-        WorkstationExtractor we = new WorkstationExtractor(tracabilitys);
-        Collection<Workstation> workstations = we.extract();
+        we = new WorkstationExtractor(tracabilitys);
+        workstations = we.extract();
 
-        BatchExtractor be = new BatchExtractor(tracabilitys);
-        Collection<Batch> batchs = be.extract();
+        be = new BatchExtractor(tracabilitys);
+        batchs = be.extract();
+        /*MyDate date = new MyDate();
+        try {
+            date.setMyDate("20100925063414");
+        } catch (Exception ex) {
+            Logger.getLogger(Marcheur.class.getName()).log(Level.SEVERE, null, ex);
+        }*/
+        MyDate date=StoreEntities.getLastDate();
 
         for (Iterator<Batch> it = batchs.iterator(); it.hasNext();) {
             Batch batch = it.next();
 
-            sdtf.add(batch.simpleFiability() + " " + batch.description()+"\n");
+            sdtf.add(batch.fiabilityWithQTAndMSL(date) + " " + batch.description() + "\n");
         }
         try {
             sdtf.commit();
         } catch (IOException ex) {
             Logger.getLogger(Marcheur.class.getName()).log(Level.SEVERE, null, ex);
         }
+
+    }
+
+    public static void main(String[] args) {
+        new Marcheur();
+
+        /*try {
+        Workstation st=StoreEntities.getWorkstation("LPP032");
+        System.out.println(st.getFiabilityQualityTask(new MyDate("20100925063331")));
+        //System.out.println(st.description());
+        //st.getNumberOfEventSinceLastQT(d);
+        } catch (Exception ex) {
+        Logger.getLogger(Marcheur.class.getName()).log(Level.SEVERE, null, ex);
+        }*/
     }
 }
