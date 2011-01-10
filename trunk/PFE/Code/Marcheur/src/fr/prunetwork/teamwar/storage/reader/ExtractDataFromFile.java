@@ -17,6 +17,7 @@
 package fr.prunetwork.teamwar.storage.reader;
 
 import fr.prunetwork.teamwar.Constants;
+import fr.prunetwork.teamwar.entities.StoreEntities;
 import fr.prunetwork.teamwar.entities.Tracability;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -30,6 +31,7 @@ import java.util.StringTokenizer;
  *
  * @author jpierre03+teamwar@prunetwork.fr
  * @author garciaf
+ * @author NAIT BELKACEM Abdelali
  */
 public class ExtractDataFromFile {
 
@@ -61,6 +63,7 @@ public class ExtractDataFromFile {
             br.close();
         } catch (Exception e) {
         }
+       StoreEntities.addAllTracability(tracabilitys);
         return tracabilitys;
     }
 

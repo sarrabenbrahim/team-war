@@ -16,21 +16,20 @@
  */
 package fr.prunetwork.teamwar.utilities;
 
-import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Locale;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
  * @author jpierre03+teamwar@prunetwork.fr
  * @author garciaf
+ * @author NAIT BELKACEM Abdelali
+
+ *
  */
 public class MyDate extends Date {
 
     @SuppressWarnings({"deprecation"})
-    public MyDate(String date) throws Exception {
+    public void setMyDate(String date) throws Exception {
         if (date.length() != 14) {
             throw new Exception();
 
@@ -47,17 +46,40 @@ public class MyDate extends Date {
         }
     }
 
+    public MyDate() {
+        new Date();
+    }
+       public MyDate(String date) throws Exception {
+        if (date.length() != 14) {
+            throw new Exception();
+
+        } else {
+            this.setYear(Integer.parseInt(date.substring(0, 4)));
+            this.setMonth(Integer.parseInt(date.substring(4, 6)));
+            this.setDate(Integer.parseInt(date.substring(6, 8)));
+            this.setHours(Integer.parseInt(date.substring(8, 10)));
+            this.setMinutes(Integer.parseInt(date.substring(10, 12)));
+            this.setSeconds(Integer.parseInt(date.substring(12, 14)));
+            this.setYear(Integer.parseInt(date.substring(0, 4)));
+
+
+        }
+    }
+
+
     @Override
     public String toString() {
         /**
          * Formatteur pour que les dates s'affichent au format ISO 8601
          */
-        SimpleDateFormat dateTime = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS",
+        /*SimpleDateFormat dateTime = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS",
                 Locale.getDefault());
         return dateTime.format(this);
+         */
+        return getYear() + " - " + getMonth() + " - " + getDay() +" - " + getHours() + " : " + getMinutes() + " : " + getSeconds();
     }
 
-    public static void main(String args[]) {
+    /*public static void main(String args[]) {
         try {
             String date = "20100925063400";
             MyDate dateExtractor = new MyDate(date);
@@ -65,5 +87,5 @@ public class MyDate extends Date {
         } catch (Exception ex) {
             Logger.getLogger(MyDate.class.getName()).log(Level.SEVERE, null, ex);
         }
-    }
+    }*/
 }
