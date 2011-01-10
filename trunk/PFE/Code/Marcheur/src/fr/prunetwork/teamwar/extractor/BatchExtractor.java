@@ -17,8 +17,8 @@
 package fr.prunetwork.teamwar.extractor;
 
 import fr.prunetwork.teamwar.Constants;
-import fr.prunetwork.teamwar.storage.reader.ExtractDataFromFile;
 import fr.prunetwork.teamwar.entities.Batch;
+import fr.prunetwork.teamwar.entities.StoreEntities;
 import fr.prunetwork.teamwar.entities.Tracability;
 import java.util.ArrayList;
 import java.util.Collection;
@@ -99,7 +99,7 @@ public class BatchExtractor {
 
         createUniqueBatchesFromTracability(batchTracabilityMap, batchs, batchMap);
         populateEachBatchesWithItsTracability(tracabilitys, batchMap);
-
+        StoreEntities.addAllBatch(batchs);
         return batchs;
     }
 }

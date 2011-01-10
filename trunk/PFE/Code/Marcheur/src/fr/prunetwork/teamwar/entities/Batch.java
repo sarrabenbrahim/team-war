@@ -16,9 +16,12 @@
  */
 package fr.prunetwork.teamwar.entities;
 
+import fr.prunetwork.teamwar.extractor.WorkstationExtractor;
+import fr.prunetwork.teamwar.utilities.MyDate;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Iterator;
 
 /**
  *
@@ -76,6 +79,18 @@ public class Batch {
     public double simpleFiability() {
         double fiability = 1;
         fiability = fiability * Math.pow(ARBITRATY_WORKSTATION_FIABILITY_VALUE, (double) getTracabilitys().size());
+        return fiability;
+    }
+    public double FiabilityWithQualityTask(MyDate CurrentDate){
+        double fiability=1;
+         WorkstationExtractor we = new WorkstationExtractor(tracabilitys);
+                Collection<Workstation> workstations = we.extract();
+        for (Iterator<Tracability> it = tracabilitys.iterator(); it.hasNext();) {
+            Tracability tracability = it.next();
+            if(tracability.getDate().before(CurrentDate)){
+                fiability=fiability;
+            }
+        }
         return fiability;
     }
 }
