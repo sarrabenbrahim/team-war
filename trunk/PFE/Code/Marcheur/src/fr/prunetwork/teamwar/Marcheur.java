@@ -50,7 +50,7 @@ public class Marcheur {
     public Marcheur() {
         fichier = Constants.SHORT_FILE;
 //        String fichier = Constants.LONG_FILE;
-        sdtf = new StoreDataToFile("./FileCCCC");
+        sdtf = new StoreDataToFile("./Resultat.txt");
 
         tracabilitys = ExtractDataFromFile.createTracabilityCollection(fichier);
 
@@ -59,13 +59,7 @@ public class Marcheur {
 
         be = new BatchExtractor(tracabilitys);
         batchs = be.extract();
-        /*MyDate date = new MyDate();
-        try {
-            date.setMyDate("20100925063414");
-        } catch (Exception ex) {
-            Logger.getLogger(Marcheur.class.getName()).log(Level.SEVERE, null, ex);
-        }*/
-        MyDate date=StoreEntities.getLastDate();
+        MyDate date = StoreEntities.getLastDate();
 
         for (Iterator<Batch> it = batchs.iterator(); it.hasNext();) {
             Batch batch = it.next();
@@ -77,19 +71,9 @@ public class Marcheur {
         } catch (IOException ex) {
             Logger.getLogger(Marcheur.class.getName()).log(Level.SEVERE, null, ex);
         }
-
     }
 
     public static void main(String[] args) {
         new Marcheur();
-
-        /*try {
-        Workstation st=StoreEntities.getWorkstation("LPP032");
-        System.out.println(st.getFiabilityQualityTask(new MyDate("20100925063331")));
-        //System.out.println(st.description());
-        //st.getNumberOfEventSinceLastQT(d);
-        } catch (Exception ex) {
-        Logger.getLogger(Marcheur.class.getName()).log(Level.SEVERE, null, ex);
-        }*/
     }
 }
