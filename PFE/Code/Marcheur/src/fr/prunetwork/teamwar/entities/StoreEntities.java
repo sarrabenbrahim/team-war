@@ -10,7 +10,6 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Vector;
-import org.omg.CORBA.TRANSACTION_MODE;
 
 /**
  *
@@ -52,6 +51,9 @@ public class StoreEntities {
     public static MyDate  getLastDate(){
           Vector<Tracability> vector=new Vector<Tracability>(tracabilitys);
           return vector.get(vector.size()-1).getDate();
-
+    }
+    public static MyDate getFirstDate(){
+          Vector<Tracability> vector=new Vector<Tracability>(tracabilitys);
+          return vector.get(0).getDate();
     }
 }

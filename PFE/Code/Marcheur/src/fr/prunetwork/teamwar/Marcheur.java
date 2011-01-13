@@ -59,12 +59,16 @@ public class Marcheur {
 
         be = new BatchExtractor(tracabilitys);
         batchs = be.extract();
-        MyDate date = StoreEntities.getLastDate();
+        MyDate lastDate = StoreEntities.getLastDate();
+        MyDate firstDate =StoreEntities.getFirstDate();
+        System.out.println(firstDate.toString());
+        System.out.println(lastDate.toString());
 
         for (Iterator<Batch> it = batchs.iterator(); it.hasNext();) {
             Batch batch = it.next();
+            System.out.println(batch.fiabilityWithQTAndMSLandWorkstation(lastDate) +" "+ batch.description());
 
-            sdtf.add(batch.fiabilityWithQTAndMSL(date) + " " + batch.description() + "\n");
+            sdtf.add(batch.fiabilityWithQTAndMSL(lastDate) + " " + batch.description() + "\n");
         }
         try {
             sdtf.commit();

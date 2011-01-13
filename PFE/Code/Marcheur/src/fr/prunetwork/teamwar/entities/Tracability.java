@@ -52,6 +52,18 @@ public class Tracability {
         this.workstationID = workstationID;
     }
 
+    public Tracability(MyDate date) {
+        this.taskID = "NULL";
+        this.date = date;
+        this.batch = "NULL";
+        this.operation = "NULL";
+        this.quantity = "0";
+        this.event = "NULL";
+        this.technology = "NULL";
+        this.workstationID = "NULL";
+
+    }
+
     /**
      * @return the taskID
      */
@@ -72,7 +84,8 @@ public class Tracability {
     public String printDate() {
         return date.toString();
     }
-    public MyDate getDate(){
+
+    public MyDate getDate() {
         return date;
     }
 

@@ -60,7 +60,6 @@ public class MyDate extends Date {
             this.setHours(Integer.parseInt(date.substring(8, 10)));
             this.setMinutes(Integer.parseInt(date.substring(10, 12)));
             this.setSeconds(Integer.parseInt(date.substring(12, 14)));
-            this.setYear(Integer.parseInt(date.substring(0, 4)));
 
 
         }
@@ -70,13 +69,10 @@ public class MyDate extends Date {
     @Override
     public String toString() {
         /**
-         * Formatteur pour que les dates s'affichent au format ISO 8601
+         * Formatteur pour que les dates s'affichent au format français
          */
-        /*SimpleDateFormat dateTime = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS",
-                Locale.getDefault());
-        return dateTime.format(this);
-         */
-        return getYear() + " - " + getMonth() + " - " + getDay() +" - " + getHours() + " : " + getMinutes() + " : " + getSeconds();
+
+        return getDay()+"/"+ getMonth() + "/"+getYear() +"  " + getHours() + "h" + getMinutes() + ":" + getSeconds()+" s";
     }
 
     /*public static void main(String args[]) {

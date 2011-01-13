@@ -36,7 +36,8 @@ public class Workstation {
     private double disturbanceOfWorkStation = Constants.DISTURBANCE_WORSTATION_PER_EVENT;
     private String name;
     private Collection<Tracability> tracabilitys = new ArrayList<Tracability>();
-    private double fiabilityQualityTask=1;
+    private double fiabilityQualityTask = Constants.FIABILITY_DEFAULT_WORKSTATION;
+    private MyDate lastControleMSE=new MyDate();
 
     public Workstation(String name) {
         this.name = name;
@@ -114,21 +115,67 @@ public class Workstation {
         return fiabilityQualityTask;
     }
 
-    public Double getNumberOfEventSinceLastQT(MyDate currentDate) {
-       
+    public double getFiabilityQualityTaskAndMSL(MyDate currentDate) {
+        double fiabilityTQAndMSL=Constants.FIABILITY_DEFAULT_WORKSTATION;
+
+        fiabilityTQAndMSL = fiabilityTQAndMSL-getNumberOfEventSinceLastMSL(currentDate)*Constants.DISTURBANCE_WORSTATION_PER_EVENT;
+
+        return Math.max(getFiabilityQualityTask(currentDate), fiabilityTQAndMSL);
+
+
+
+    }
+
+    private Double getNumberOfEventSinceLastQT(MyDate currentDate) {
+
         Date lastQualityTask;
         Double numberOfEvents = new Double(0);
- 
-       for (Iterator<Tracability> it = getTracabilitys().iterator(); it.hasNext();) {
+
+        for (Iterator<Tracability> it = getTracabilitys().iterator(); it.hasNext();) {
             Tracability tracability = it.next();
             if (tracability.getDate().before(currentDate)) {
                 if (tracability.getEvent().equalsIgnoreCase(Constants.QUALITYTASK)) {
                     lastQualityTask = tracability.getDate();
                     numberOfEvents = new Double(0);
-                }else
-                numberOfEvents++;
+                } else {
+                    numberOfEvents++;
+                }
             }
         }
         return numberOfEvents;
+    }
+
+    private Double getNumberOfEventSinceLastMSL(MyDate currentDate) {
+        Date lastQualityTask;
+        Double numberOfEvents = new Double(0);
+
+        for (Iterator<Tracability> it = getTracabilitys().iterator(); it.hasNext();) {
+            Tracability tracability = it.next();
+            if ((tracability.getDate().before(currentDate)) && tracability.getDate().after(lastControleMSE)) {
+                if (tracability.getEvent().equalsIgnoreCase(Constants.QUALITYTASK)) {
+                    lastQualityTask = tracability.getDate();
+                    numberOfEvents = new Double(0);
+                } else {
+                    numberOfEvents++;
+                }
+            }
+        }
+        return numberOfEvents;
+
+
+    }
+
+    /**
+     * @param lastControleMSE the lastControleMSE to set
+     */
+    public void setLastControleMSE(MyDate lastControleMSE) {
+        this.lastControleMSE = lastControleMSE;
+    }
+
+    /**
+     * @return the lastControleMSE
+     */
+    public MyDate getLastControleMSE() {
+        return lastControleMSE;
     }
 }
