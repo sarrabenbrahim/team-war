@@ -59,43 +59,15 @@ Introduction
 Au terme de notre étude sur l'existant et l'état de l'art, il nous est apparu
  que le développement d'un outils adapté au problème spécifique nous semblait
  nécessaire.
- En effet le développement d'un modèle entier
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-complet ?
-\end_layout
-
-\end_inset
-
- parait plus réalisable, à l'heure d'aujourd'hui
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-actuelle ?
-\end_layout
-
-\end_inset
-
-, que l'adaptation d'un outils.
+ En effet le développement d'un modèle complet parait plus réalisable, à
+ l'heure actuelle, que l'adaptation d'un outils inadapté à ce type de problémati
+que.
  
 \end_layout
 
 \begin_layout Standard
-Pour résumer
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-cela ?
-\end_layout
-
-\end_inset
-
- nous allons détailler le modèle que nous nous proposons de développer par
- la suite.
+Pour résumer notre problème nous allons détailler le modèle que nous nous
+ proposons de développer par la suite.
  Le modèle du marcheur
 \begin_inset Foot
 status collapsed
@@ -140,7 +112,8 @@ Wafer at Risk
 
 ).
  Dans un deuxième temps de se servir de cette indice de confiance pour détermine
-r les pièces les plus risqués pour remonter aux pièces impactées.
+r les pièces les plus risqués, priorisé leur contrôle, et remonter plus
+ rapidement aux lots impactées.
 \end_layout
 
 \begin_layout Standard
@@ -158,7 +131,11 @@ Afin de rendre le propos le plus clair possible nous allons poser toutes
 \end_layout
 
 \begin_layout Itemize
-Un marcheur (produit) augmente sa 
+Un marcheur (un lot ou 
+\emph on
+Batch
+\emph default
+) augmente sa 
 \begin_inset Quotes fld
 \end_inset
 
@@ -167,7 +144,11 @@ chance
 \end_inset
 
  d'être blessé (défectueux) au fur et à mesure qu'il se ballade dans la
- ville (Traverse beaucoup d'ateliers 
+ ville (Traverse beaucoup de machine ou 
+\emph on
+Workstation
+\emph default
+ 
 \begin_inset Note Note
 status open
 
@@ -181,12 +162,16 @@ des postes de travail ?
 \end_layout
 
 \begin_layout Itemize
-Le marcheur qui traverse des quartiers dangereux (Machine de production)
- à plus de chance d'être blessé dans un quartier dangereux.
+Le marcheur qui traverse des quartiers dangereux (Machine de production,
+ 
+\emph on
+Workstation
+\emph default
+) a plus de chance d'être blessé dans un quartier dangereux.
 \end_layout
 
 \begin_layout Itemize
-Propriété du quartier (Machine de production)
+Propriété du quartier dynamique (Machine de production)
 \end_layout
 
 \begin_deeper
@@ -248,35 +233,35 @@ W@R=1-\prod_{i=1}^{N}\left(F_{Machine[i]}\times F_{Produit}\right)\]
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $F_{Machine[i]}$
+\end_inset
 
-\begin_layout Plain Layout
-manque l'explication des variables.
-\end_layout
-
-\begin_layout Plain Layout
-avec :
-\end_layout
-
-\begin_layout Plain Layout
-- F....
-\end_layout
-
-\begin_layout Plain Layout
-- F ...
-\end_layout
-
-\begin_layout Plain Layout
-- WAR ...
-\end_layout
-
+ est la fiabilité de la machine 
+\begin_inset Formula $i$
 \end_inset
 
 
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Formula $F_{Produit}$
+\end_inset
+
+ est la fiabilité du produit.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $W@R$
+\end_inset
+
+ est le waffer at risk, c'est un indice de confiance plus cette valeur est
+ haute plus le produit a de chance d'être deffectueux et un contrôle s'impose
+ au plus vite.
+\end_layout
+
+\end_deeper
 \begin_layout Section
 L'algorithme
 \end_layout
@@ -291,16 +276,10 @@ On définit différents niveaux de complexité à notre algorithme, pour chaque
  d'un seul marcheur (produit).
  On fera tourner cet algorithme dans une boucle pour comparer les différents
  produits entre eux.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-la suite ?
-\end_layout
-
-\end_inset
-
-
+ Ensuite on déterminera un classement des produits les plus risqué et cela
+ permettra de savoir rapidement quel produit contrôler en priorité et suivant
+ le resultat du contrôle impacter les autres pièces qui sont passés sur
+ les machines similaires
 \end_layout
 
 \begin_layout Subsection
@@ -594,29 +573,15 @@ Code de l'algorithme
 \end_layout
 
 \begin_layout Standard
-Dans un soucis de performance (vu la quantité d'information à traiter) nous
- allons développer notre code en Java, la structure des données et l'algorithme
- nous incite à utiliser ce type de langage.
+Vu la complexité du projet nous avons décidé de développer notre code en
+ Java, la structure des données et l'algorithme nous incite à utiliser ce
+ type de langage.
  De plus comme il s'agit simplement de la validation d'algorithme, ce code
  n'a pas pour vocation d'être développé ultérieurement.
- De plus 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-la suite ?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-En effet le Java est le langage enseigné dans notre formation et permettra
+ En effet le Java est le langage enseigné dans notre formation et permettra
  une implication de tous
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 les simples, et proche de la machine, ce qui se traduit par de haute performance
@@ -800,7 +765,7 @@ Tech
 
 (technology) Représente la technologie, nous disposons de cinq technologies
  différentes.
- 
+ Sur nos données il y a visiblement 5 types de technologie 
 \begin_inset Note Note
 status open
 
@@ -838,38 +803,23 @@ Classe des entités
 
 \begin_layout Standard
 Afin d'utiliser les données au mieux, nous allons organiser les données
- sous forme de la structure suivante
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-présentée ci-après ?
-\end_layout
-
-\end_inset
-
+ sous forme de la structure suivante détaillé dans la suite.
+ Ces classes font partie du package 
+\emph on
+entities
+\emph default
 .
-\end_layout
-
-\begin_layout Standard
-Dans un premier temps nous allons organiser les données par produits, machines
- et ordres.
+ Nous allons organiser les données par produit, machine et ordre.
  Dans le détail :
 \end_layout
 
 \begin_layout Description
-Date classe qui organise une date, il est à noter que cette structure particuliè
-re repose sur la classe native Java qui s'appelle Date
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-éponyme ?
-\end_layout
-
-\end_inset
-
-
+MyDate classe qui organise une date, il est à noter que cette structure
+ particulière repose sur la classe native Java qui s'appelle 
+\emph on
+Date
+\emph default
+ avec quelques petites adaptations.
 \end_layout
 
 \begin_deeper
@@ -927,7 +877,8 @@ Traçabilité
 \begin_inset space ~
 \end_inset
 
-(Tracability) structure de la mémoire des événements
+(Tracability) structure de la mémoire des événements, un objet de cette
+ classe représente un événement élémentaire de l'usine de production.
 \end_layout
 
 \begin_deeper
@@ -983,7 +934,7 @@ mémoire
 \end_inset
 
  de la ressource, c'est elle qui stocke les tâches se produisant sur la
- machine (La structure de traçabilité sera détaillé un peu plus loin)
+ machine 
 \end_layout
 
 \begin_layout Description
@@ -1103,7 +1054,8 @@ Marcheur
 \end_layout
 
 \begin_layout Standard
-Contient l'algorithme a partir, il effectue le calcule 
+Contient l'algorithme a partir, il lance les méthodes de calculs qui se
+ trouvent sur les batch et workstations
 \begin_inset Note Note
 status open
 
@@ -1138,6 +1090,8 @@ Extracteur
 \begin_layout Standard
 Ces classes interprètent les traçabilité extraites par le load et crée les
  objets batch, workstation et insère les traçabilités associées.
+ Il fait en quelque sorte le trie des données et permet d'associer chaque
+ traçabilité à la machine et au lot qui lui correspond.
 \begin_inset Note Note
 status open
 
