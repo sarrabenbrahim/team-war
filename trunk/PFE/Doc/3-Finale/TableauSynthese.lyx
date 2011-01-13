@@ -214,7 +214,7 @@ Analyse des Modes de Défaillance de leurs Effets et de leur Criticité
 \begin_inset Text
 
 \begin_layout Itemize
-Decomposition fonctionnelle
+Décomposition fonctionnelle
 \end_layout
 
 \begin_layout Itemize
@@ -227,6 +227,16 @@ Classement de chaque mode de défaillance
 
 \begin_layout Itemize
 Synthèse des résultats sous forme de résultat
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Quel est le sens de cette phrase ?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -543,13 +553,17 @@ Trop systématique
 Pas de probabilité
 \end_layout
 
+\begin_layout Itemize
+Difficile à adapter à ce cas pratique.
+\end_layout
+
 \end_inset
 </cell>
 <cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-À utiliser 
+Non adapté au problème
 \end_layout
 
 \end_inset

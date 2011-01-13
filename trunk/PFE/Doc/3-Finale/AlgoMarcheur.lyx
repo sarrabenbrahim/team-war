@@ -205,17 +205,8 @@ La criminalité est remise à un niveau seuil quand la police passe.
 \end_layout
 
 \begin_layout Itemize
-La criminalité est remise à un 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-niveau ? (pour l'homogénéïté du discours)
-\end_layout
-
-\end_inset
-
-seuil si la santé du marcheur est bonne en sortant du quartier.
+La criminalité est remise à un seuil de confiace si la santé du marcheur
+ est bonne en sortant du quartier.
 \end_layout
 
 \begin_deeper
@@ -298,7 +289,8 @@ On définit différents niveaux de complexité à notre algorithme, pour chaque
 \end_inset
 
  d'un seul marcheur (produit).
- On fera tourner cet algorithme dans une boucle pour comparer les
+ On fera tourner cet algorithme dans une boucle pour comparer les différents
+ produits entre eux.
 \begin_inset Note Note
 status open
 
@@ -584,17 +576,8 @@ mémoire et logique
 
 \end_inset
 
- qui sont les technologies les plus délicates 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-comlexes? délicates?
-\end_layout
-
-\end_inset
-
- et ayant de fortes chances de générer de la non qualité.
+ qui sont les technologies les plus délicates à mettre en oeuvre et ayant
+ de fortes chances de générer de la non qualité.
 \end_layout
 
 \begin_layout Standard
@@ -612,18 +595,8 @@ Code de l'algorithme
 
 \begin_layout Standard
 Dans un soucis de performance (vu la quantité d'information à traiter) nous
- allons développer notre code en Java
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-ça s'écrit Java (selon Sun/Oracle)
-\end_layout
-
-\end_inset
-
-, la structure des données et l'algorithme nous incite à utiliser ce type
- de langage.
+ allons développer notre code en Java, la structure des données et l'algorithme
+ nous incite à utiliser ce type de langage.
  De plus comme il s'agit simplement de la validation d'algorithme, ce code
  n'a pas pour vocation d'être développé ultérieurement.
  De plus 
@@ -1079,10 +1052,6 @@ Cette structure nous permet d'organiser les données de manière logique,
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
