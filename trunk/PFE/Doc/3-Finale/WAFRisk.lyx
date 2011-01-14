@@ -1,0 +1,299 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Computation of wafer at risk
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:war"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+La fabrication de semi-conducteurs devient de plus en plus complexe et le
+ contrôle exhaustif des plaques n'est pas réalisable d'un point de vue financier.
+ La méthode d'échantillonnage se révélait limitée et insuffisante par rapport
+ aux exigences.
+ L'objectif de cette étude consiste donc à évaluer le risque et optimiser
+ l'utilisation des équipements de contrôle.
+ 
+\end_layout
+
+\begin_layout Standard
+L'évaluation des risques de chaque outil est caractérisée par le Wafer-At-Risk.
+ L'information apportée par chaque lot, qui peut être inspecté, est appelée
+ Wafer-At-Risk-Reduction.
+ Ces deux informations ne sont pas exploitables directement, d'où la nécessité
+ de développer un algorithme pour les calculer.
+\end_layout
+
+\begin_layout Section
+Description de l'algorithme
+\end_layout
+
+\begin_layout Standard
+La première étape consiste à identifier les lots qui ont été effectivement
+ inspectés.
+ La première difficulté est d'identifier le Defectivity Work Requests (DWR).
+ DWR sont des demandes spéciales issues de l'ingénierie qui met le lot en
+ attente pour une inspection en défectivité plus approfondie.
+ Les archives des mesures sont utilisées et combinées avec les données des
+ processus pour identifier et marquer tous les lots inspectés (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Flag-algorithm"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Flag-algorithm"
+
+\end_inset
+
+Flag algorithm
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ComputationOfWaferAtRisk_Fig1.png
+	lyxscale 50
+	width 100col%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Après cela, la valeur du Wafer-At-Risk est calculée pour chaque outil du
+ processus.
+ Cette valeur est augmentée avec la quantité des lots de plaques à chaque
+ événement du processus.
+ Cette valeur est diminuée grâce au Wafer-At-Risk-Reduction quand le lot
+ est inspecté.
+ En vue de la quantité de données et la complexité des relations à prendre
+ en compte, l'horizon de traitement a été réduit à une semaine.
+ Afin de faire correspondre les données entre les semaines successives,
+ les conditions aux limites ont été définies, qui se composaient de la liste
+ des lots ayant été traitées après le dernier lot inspecté (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Boundary-conditions"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Boundary-conditions"
+
+\end_inset
+
+Boundary conditions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ComputationOfWaferAtRisk_Fig2.png
+	width 100col%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Une autre amélioration de l'algorithme a été la définition du Wafer-At-Risk
+ par la recette, du type de recette ou de la technologie ou du module d'outils.
+ Le modèle de contrôle de défectivité devait être affiné pour tenir compte
+ de ces paramètres et l'algorithme a ensuite été ajusté pour calculer les
+ différents types de Wafer-At-Risk : globale and recette ou dépendant du
+ contexte (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Global-W@R-and W@R by recipe"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Global-W@R-and W@R by recipe"
+
+\end_inset
+
+Global W@R and W@R by recipe
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ComputationOfWaferAtRisk_Fig3.png
+	width 100col%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Résultats
+\end_layout
+
+\begin_layout Standard
+Les résultats obtenus ont été couplés avec un autre algorithme permettant
+ de réduire jusqu'à 35% des inspections inutiles.
+ Un contrôle peut être évité si le Wafer-At-Risk-Reduction du lot marqué
+ est inférieur ou égal à zéro.
+\end_layout
+
+\begin_layout Standard
+De plus l'algorithme a été amélioré pour être plus réactif sur la ligne
+ de production, son implémentation peut être ramenée à une période de 30
+ minutes.
+\end_layout
+
+\begin_layout Section
+Remarques
+\end_layout
+
+\begin_layout Standard
+Les détails de cette approche ne sont pas suffisants pour conclure sur sa
+ faisabilité pour notre cas d'étude.
+ Comment peut-on s'en passer de l'historique afin de faire du quasi temps
+ réel ? Le résultat semble être pertinent que pour certaine recette spécifique.
+ Supposons que cet algorithme est applicable, cette méthode pourrait donc
+ être l'une des solutions de notre problème.
+\end_layout
+
+\end_body
+\end_document

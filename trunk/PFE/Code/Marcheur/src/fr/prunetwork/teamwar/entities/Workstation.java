@@ -37,7 +37,7 @@ public class Workstation {
     private String name;
     private Collection<Tracability> tracabilitys = new ArrayList<Tracability>();
     private double fiabilityQualityTask = Constants.FIABILITY_DEFAULT_WORKSTATION;
-    private MyDate lastControleMSE=new MyDate();
+    private MyDate lastControleMSE = new MyDate();
 
     public Workstation(String name) {
         this.name = name;
@@ -109,16 +109,15 @@ public class Workstation {
      */
     public double getFiabilityQualityTask(MyDate currentDate) {
 
-        Date lastQualityTask = new Date(0);
-        fiabilityQualityTask -= getNumberOfEventSinceLastQT(currentDate)
+        fiabilityQualityTask = Constants.FIABILITY_DEFAULT_WORKSTATION - getNumberOfEventSinceLastQT(currentDate)
                 * Constants.DISTURBANCE_WORSTATION_PER_EVENT;
         return fiabilityQualityTask;
     }
 
     public double getFiabilityQualityTaskAndMSL(MyDate currentDate) {
-        double fiabilityTQAndMSL=Constants.FIABILITY_DEFAULT_WORKSTATION;
+        double fiabilityTQAndMSL = Constants.FIABILITY_DEFAULT_WORKSTATION;
 
-        fiabilityTQAndMSL = fiabilityTQAndMSL-getNumberOfEventSinceLastMSL(currentDate)*Constants.DISTURBANCE_WORSTATION_PER_EVENT;
+        fiabilityTQAndMSL = fiabilityTQAndMSL - getNumberOfEventSinceLastMSL(currentDate) * Constants.DISTURBANCE_WORSTATION_PER_EVENT;
 
         return Math.max(getFiabilityQualityTask(currentDate), fiabilityTQAndMSL);
 
@@ -152,12 +151,7 @@ public class Workstation {
         for (Iterator<Tracability> it = getTracabilitys().iterator(); it.hasNext();) {
             Tracability tracability = it.next();
             if ((tracability.getDate().before(currentDate)) && tracability.getDate().after(lastControleMSE)) {
-                if (tracability.getEvent().equalsIgnoreCase(Constants.QUALITYTASK)) {
-                    lastQualityTask = tracability.getDate();
-                    numberOfEvents = new Double(0);
-                } else {
-                    numberOfEvents++;
-                }
+                numberOfEvents++;
             }
         }
         return numberOfEvents;
