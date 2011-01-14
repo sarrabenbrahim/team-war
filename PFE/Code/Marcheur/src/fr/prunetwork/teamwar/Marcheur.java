@@ -48,8 +48,8 @@ public class Marcheur {
     private Collection<Batch> batchs;
 
     public Marcheur() {
-        fichier = Constants.SHORT_FILE;
-//        String fichier = Constants.LONG_FILE;
+//        fichier = Constants.SHORT_FILE;
+        fichier = Constants.LONG_FILE;
         sdtf = new StoreDataToFile("./Resultat.txt");
 
         tracabilitys = ExtractDataFromFile.createTracabilityCollection(fichier);
@@ -60,15 +60,16 @@ public class Marcheur {
         be = new BatchExtractor(tracabilitys);
         batchs = be.extract();
         MyDate lastDate = StoreEntities.getLastDate();
-        MyDate firstDate =StoreEntities.getFirstDate();
+        MyDate firstDate = StoreEntities.getFirstDate();
         System.out.println(firstDate.toString());
         System.out.println(lastDate.toString());
-
+        int nunmberOfProcessDone = 0;
         for (Iterator<Batch> it = batchs.iterator(); it.hasNext();) {
             Batch batch = it.next();
-            System.out.println(batch.fiabilityWithQTAndMSLandWorkstation(lastDate) +" "+ batch.description());
+
 
             sdtf.add(batch.fiabilityWithQTAndMSL(lastDate) + " " + batch.description() + "\n");
+            System.out.println("Nombre de batch traité :" + nunmberOfProcessDone++ + " / " + batchs.size());
         }
         try {
             sdtf.commit();

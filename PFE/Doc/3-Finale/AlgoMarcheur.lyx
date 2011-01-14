@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -606,7 +606,7 @@ Analyse des données
 Afin de tester notre algorithme nous avons récupéré un fichier de données
  de 
 \emph on
-STElectronics
+STMicroelectronics
 \emph default
 
 \begin_inset Note Note
@@ -1104,6 +1104,30 @@ Ces classes construisent/instancient les différents objets (lesquels) à
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Inconvénient de cette méthode
+\end_layout
+
+\begin_layout Subsection
+Complexité 
+\end_layout
+
+\begin_layout Standard
+L'un des plus gros problèmes de ce type de solution est la complexité du
+ code.
+ En effet des boucles imbriquées entre elles fait que pour 
+\begin_inset Formula $n$
+\end_inset
+
+ données nous avons 
+\begin_inset Formula $n\text{³}$
+\end_inset
+
+ calculs.
+ Ce qui est génant dans ce type de problème car le nombre de donnée est
+ assez considérable et le temps de calcul qui en découle est important.
 \end_layout
 
 \end_body
