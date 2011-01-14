@@ -16,6 +16,7 @@
  */
 package fr.prunetwork.teamwar.entities;
 
+import com.sun.corba.se.impl.orbutil.closure.Constant;
 import fr.prunetwork.teamwar.Constants;
 import fr.prunetwork.teamwar.utilities.MyDate;
 import java.util.ArrayList;
@@ -37,6 +38,7 @@ public class Workstation {
     private String name;
     private Collection<Tracability> tracabilitys = new ArrayList<Tracability>();
     private double fiabilityQualityTask = Constants.FIABILITY_DEFAULT_WORKSTATION;
+    double fiabilityTQAndMSL = Constants.FIABILITY_DEFAULT_WORKSTATION;
     private MyDate lastControleMSE = new MyDate();
 
     public Workstation(String name) {
@@ -84,15 +86,6 @@ public class Workstation {
         return sb.toString();
     }
 
-//    public double getFiabilityRandomLaw(int computeWithCountTracability) {
-//        double fiability = 1;
-//
-//        if (computeWithCountTracability > tracabilitys.size()) {
-//            computeWithCountTracability = tracabilitys.size();
-//        }
-//
-//        return fiability;
-//    }
     public double getFiabilityRandomLaw() {
         while (Double.compare(fiabilityRandomLaw, 0.0) == 0) {
             fiabilityRandomLaw = Math.random();
@@ -104,6 +97,8 @@ public class Workstation {
     /**
      * Fonction which calculate the fiability thanks to the number of events 
      * since the last quality task
+     * The operation done is this one :
+     *  fiabilityQualityTask = Math.max(fiabilityQualityTask, Constants.FIABILITY_MIN_WORSKATION);
      * @param currentDate
      * @return
      */
@@ -111,18 +106,21 @@ public class Workstation {
 
         fiabilityQualityTask = Constants.FIABILITY_DEFAULT_WORKSTATION - getNumberOfEventSinceLastQT(currentDate)
                 * Constants.DISTURBANCE_WORSTATION_PER_EVENT;
+        fiabilityQualityTask = fiabilityQualityTask < Constants.FIABILITY_MIN_WORSKATION ? Constants.FIABILITY_MIN_WORSKATION : fiabilityQualityTask;
         return fiabilityQualityTask;
     }
 
+    /**
+     *
+     * @param currentDate
+     * @return
+     */
     public double getFiabilityQualityTaskAndMSL(MyDate currentDate) {
-        double fiabilityTQAndMSL = Constants.FIABILITY_DEFAULT_WORKSTATION;
 
         fiabilityTQAndMSL = fiabilityTQAndMSL - getNumberOfEventSinceLastMSL(currentDate) * Constants.DISTURBANCE_WORSTATION_PER_EVENT;
+        fiabilityTQAndMSL = fiabilityTQAndMSL < Constants.FIABILITY_MIN_WORSKATION ? Constants.FIABILITY_MIN_WORSKATION : fiabilityTQAndMSL;
 
-        return Math.max(getFiabilityQualityTask(currentDate), fiabilityTQAndMSL);
-
-
-
+        return fiabilityTQAndMSL;
     }
 
     private Double getNumberOfEventSinceLastQT(MyDate currentDate) {
@@ -145,7 +143,6 @@ public class Workstation {
     }
 
     private Double getNumberOfEventSinceLastMSL(MyDate currentDate) {
-        Date lastQualityTask;
         Double numberOfEvents = new Double(0);
 
         for (Iterator<Tracability> it = getTracabilitys().iterator(); it.hasNext();) {
@@ -155,8 +152,6 @@ public class Workstation {
             }
         }
         return numberOfEvents;
-
-
     }
 
     /**
