@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -150,7 +150,7 @@ Workstation
 \emph default
  
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 des postes de travail ?
@@ -579,19 +579,7 @@ Vu la complexité du projet nous avons décidé de développer notre code en
  De plus comme il s'agit simplement de la validation d'algorithme, ce code
  n'a pas pour vocation d'être développé ultérieurement.
  En effet le Java est le langage enseigné dans notre formation et permettra
- une implication de tous
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-les simples, et proche de la machine, ce qui se traduit par de haute performance
-s.
- Heu, comprends pas le lien avec le début de la phrase.
-\end_layout
-
-\end_inset
-
-
+ une implication de tous.
 \end_layout
 
 \begin_layout Section
@@ -608,16 +596,6 @@ Afin de tester notre algorithme nous avons récupéré un fichier de données
 \emph on
 STMicroelectronics
 \emph default
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Y a pas Micro dans le nom ?
-\end_layout
-
-\end_inset
-
 , afin de bien comprendre ces données nous allons les analyser.
  
 \end_layout
@@ -1128,6 +1106,45 @@ L'un des plus gros problèmes de ce type de solution est la complexité du
  calculs.
  Ce qui est génant dans ce type de problème car le nombre de donnée est
  assez considérable et le temps de calcul qui en découle est important.
+\end_layout
+
+\begin_layout Subsection
+Manque de réalisme avec la réalité
+\end_layout
+
+\begin_layout Standard
+Le code actuel ne fait pas état de la réalité complète.
+ Pour les besoins de l'études quelques hypothèses simplificatrices ont été
+ faites : 
+\end_layout
+
+\begin_layout Itemize
+Les technologies ne sont pas détaillées dans les données traitées.
+\end_layout
+
+\begin_layout Itemize
+Les contrôles MSE et MSL sont sur une technologie particulière et non pas
+ sur la 
+\begin_inset Formula $F_{Produit}$
+\end_inset
+
+ globale de la 
+\emph on
+Workstation
+\emph default
+ et le 
+\emph on
+Batch
+\emph default
+.
+ Une adaptation du modèle serait le bienvenue pour adapter de manière plus
+ fine l'analyse avec le problème
+\end_layout
+
+\begin_layout Standard
+Ces propositions constituent des modifications à faire pour un développement
+ ultérieur.
+ 
 \end_layout
 
 \end_body
