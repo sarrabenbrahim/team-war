@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -344,12 +344,12 @@ Veuillez prêter beaucoup d'importance pour ce rapport car il risque d'être
 \end_layout
 
 \begin_layout Part
-Etude prélimiaire
+Contexte de l'étude
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "EntrepriseST.lyx"
 
 \end_inset
@@ -359,7 +359,7 @@ filename "EntrepriseST.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "CahierCharges.lyx"
 
 \end_inset
@@ -368,12 +368,18 @@ filename "CahierCharges.lyx"
 \end_layout
 
 \begin_layout Part
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Etat-de-l'art"
+
+\end_inset
+
 Etat de l'art
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "EtatArt.lyx"
 
 \end_inset
@@ -383,7 +389,7 @@ filename "EtatArt.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "Bilan_EtatArt.lyx"
 
 \end_inset
@@ -392,12 +398,18 @@ filename "Bilan_EtatArt.lyx"
 \end_layout
 
 \begin_layout Part
-Etude avancée
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Développement-de-notre"
+
+\end_inset
+
+Développement de notre solution
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "AlgoMarcheur.lyx"
 
 \end_inset
@@ -407,7 +419,7 @@ filename "AlgoMarcheur.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "Bilan_Etude.lyx"
 
 \end_inset
@@ -421,7 +433,7 @@ Gestion de projet
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "GestionPojet.lyx"
 
 \end_inset
@@ -435,7 +447,7 @@ Gestion des coûts
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "GestionCouts.lyx"
 
 \end_inset
@@ -445,7 +457,7 @@ filename "GestionCouts.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "Conclusion.lyx"
 
 \end_inset
@@ -466,7 +478,7 @@ options "plain"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
+LatexCommand input
 filename "Annexe.lyx"
 
 \end_inset

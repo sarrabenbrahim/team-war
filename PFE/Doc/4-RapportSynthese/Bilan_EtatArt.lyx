@@ -114,7 +114,7 @@ L’avantage de cette démarche est d’évaluer et de garantir : la fiabilité,
 status open
 
 \begin_layout Plain Layout
-(ça veut dire quoi
+(ça veut dire quoi ?
 \end_layout
 
 \end_inset
@@ -124,18 +124,9 @@ status open
 
 \begin_layout Standard
 En conclusion nous n’allons pas utiliser cette démarche pour la suite de
- notre étude car (
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-elle demande un niveau de détails très important que nous ne pouvons pas
- …
-\end_layout
-
-\end_inset
-
-) 
+ notre étude car ce type d'étude requiert un vieau de détail beaucoup trop
+ important pour une production de ce type (non liénaire, multi produits,
+ grand nombre d'étape de fabrication) 
 \end_layout
 
 \end_deeper
@@ -237,6 +228,16 @@ Son avantage est de réduire le nombre de contrôle non nécessaire par contre
 
 \begin_layout Standard
 Cette méthode ne sera pas retenue 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Un peu de détail peut-etre ?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -247,9 +248,9 @@ L’article « Computation of Wafer-At-Risk from Theory To Real Life Demonstarti
 
 \begin_deeper
 \begin_layout Itemize
-Introduit une méthode d’évaluation des risqué et d’optimisation de l’utilisation
- des équipements de contrôle en introduisant les indicateurs W@R et W@R-Réductio
-n 
+Introduit une méthode d’évaluation des risques et d’optimisation de l’utilisatio
+n des équipements de contrôle en introduisant les indicateurs W@R et W@R-Réducti
+on 
 \end_layout
 
 \begin_layout Itemize
@@ -284,6 +285,7 @@ Cette méthode est programmable et a priori correspond au sujet.
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 Nous avons décidé de garder cette méthode au début, mais une fois que nous
  avons commencé à faire la correspondance avec notre étude, nous nous sommes
@@ -293,9 +295,44 @@ Nous avons décidé de garder cette méthode au début, mais une fois que nous
  sur plusieurs lots et finalement cette méthode imposera l'arrêt plusieurs
  fois la production afin de prélever l'échantillons à tester, la taille
  de ce dernier peut devenir trés grande.
+ Cette méthode s'applique dans un cadres ou la taille de l'échantillon n'est
+ pas fixe et que le contrôle n'en est pas pertubé
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Dans le cadre d'une analyse épidémologique par exemple, tester un échantillon
+ de sang d'une personne ou cent personnes ne fait pas de différence dans
+ le cas de la recherche d'un virus dans une population
+\end_layout
+
+\end_inset
+
+.
+ Malheuresement les contraintes fortes liés au contrôle des lots nous empêchent
+ d'avoir des contrôles des tailles de lot de plus en plus importante.
  
+\end_layout
+
+\begin_layout Standard
+Cette abscence de solution concrète dans cette industrie, nous a poussé
+ à développer notre propre méthode de détection.
+ 
+\end_layout
+
+\begin_layout Standard
+L'idée étant d'utiliser nos contraintes pour développer notre propre algorithme
+ de calcul, nous détaillerons cet algorithme ainsi que ces résultats dans
+ la partie 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "par:Développement-de-notre"
+
+\end_inset
+
+.
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 si j'ai oublié des choses ou d'autre arguments rajoutez les SVP
@@ -306,6 +343,5 @@ si j'ai oublié des choses ou d'autre arguments rajoutez les SVP
 
 \end_layout
 
-\end_deeper
 \end_body
 \end_document

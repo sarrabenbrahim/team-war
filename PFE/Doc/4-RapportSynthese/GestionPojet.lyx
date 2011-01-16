@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -166,15 +166,8 @@ Choix de la méthode agile
 \begin_layout Standard
 Après une explication détaillée du sujet par notre client.
  Il est apparue que la gestion de projet collant au mieux au sujet du PFE
- est la méthode agile cf Chap
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "cha:Gestion-de-Projet-Agile"
-
-\end_inset
-
-.
- En effet le projet pourra subir de nombreuses modifications en fonction
+ est la méthode agile.
+  En effet le projet pourra subir de nombreuses modifications en fonction
  de l'avancement.
  
 \end_layout
