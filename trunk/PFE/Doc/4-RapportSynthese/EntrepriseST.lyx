@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -124,11 +124,15 @@ urs avec un chiffre d’affaire qui relève de 8,51 milliards de dollars selon
 - Ordinateur et périphérique
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
 \begin_layout Section
 Historique
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Nommée SGS-Thomson
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -173,7 +177,7 @@ reference "fig:Historique-de-STMicroelectronics"
 .
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Float figure
 wide false
 sideways false
@@ -225,13 +229,28 @@ Le schéma montre toutes les phases des changement d’actionnariat.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
 Pour les réference il y a les étiquettes et les références croisés qui sont
  des étiquettes intelligente.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+L'historique ne me semble pas pertinent dans ce rapport
 \end_layout
 
 \end_inset

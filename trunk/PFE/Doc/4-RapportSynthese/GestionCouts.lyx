@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -57,6 +57,18 @@ status open
 
 \begin_layout Plain Layout
 Juste un bilan sur la gestion des coûts, pas besoin de beaucoup de détails.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Il faut mettre la gestion des coûts dans le rapport de synthèse ? Je ne
+ crois pas da,s la mesure ou seul une pro regarde cette étude dans un rapport
+ à part, je dis des bêtises ?
 \end_layout
 
 \end_inset

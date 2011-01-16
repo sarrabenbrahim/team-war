@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -62,6 +62,71 @@ Présentation de l'algorithme du marcheur : idée + algo.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Présentation générale
+\end_layout
+
+\begin_layout Standard
+La recherche de solution déjà faite pour répondre à notre problèmatique
+ étant infructeuse, nous avons du imaginer une méthode tenant compte des
+ contraintes et permettant d'effectuer une analyse des données pour déterminer
+ les lots à contrôler.
+ L'idée pour expliquer cet algorithme est assez simple.
+ On cherche à déterminer la chance qu'a un marcheur de se faire attaquer
+ en marchant dans une grande ville.
+ 
+\end_layout
+
+\begin_layout Standard
+Dans notre cas un marcheur est un lot, les quartiers des villes sont des
+ machines, les déscentes de police dans un quartier sont les tâches qualités
+ (MSE
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Mesure Sur Équipement
+\end_layout
+
+\end_inset
+
+), et les médecins qui contrôlent l'état de santé d'un marcheur sont des
+ controles de lots (MSL
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Mesure Sur Lot
+\end_layout
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Ensuite on définit un indice de santé pour le marcheur, ou fiabilité pour
+ le produit.
+ Plus cette indice est proche de 
+\begin_inset Formula $0$
+\end_inset
+
+ plus le marcheur a de chance d'être blessé.
+ Ensuite nous faisons quelques hypothèses pour le comportement de la ville
+ et des machines :
+\end_layout
+
+\begin_layout Itemize
+La criminalité augmente de manière linéaire en fonction du nombre de marcheurs
+ qui sont passés.
+ 
+\end_layout
+
+\begin_layout Itemize
+Si un marcheur est sortie en bonne santé, alors le quartier n'est pas si
+ dangereux et la criminalité redescend à niveau seuil.
 \end_layout
 
 \end_body

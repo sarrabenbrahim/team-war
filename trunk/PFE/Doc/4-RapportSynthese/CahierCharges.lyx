@@ -121,8 +121,30 @@ Démarche
 \end_layout
 
 \begin_layout Standard
+Afin de faire cette étude, un travail de 
+\emph on
+Benchmarking
+\emph default
+ a été effectué.
+ En effet il est important de savoir les solutions apporté par les autres
+ industries pour diminuer la non qualité.
+ Toutefois nous ne devions pas perdre de vue les spécificités de l'industrie
+ des micro composants.
+ Tout naturellement nous nous sommes dirigés vers un état de l'art des différent
+es méthodes et technique utilisés dans cette industrie.
+ Nous avons aussi fouillé du coté des optimisations de test et les outis
+ de maintenance.
+ Nous détaillons le résultat de ces recherches dans la partie 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "par:Etat-de-l'art"
+
+\end_inset
+
+.
+ 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Notre plan de travail : ce qui nous permet de bondir sur la partie 
