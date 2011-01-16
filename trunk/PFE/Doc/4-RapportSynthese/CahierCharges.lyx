@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -83,6 +83,37 @@ Présentation claire de notre mission.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Le cahier de charge qui nous a été fournis est le suivant :
+\end_layout
+
+\begin_layout Standard
+« Le travail consistera en une étude de faisabilité sur l'évaluation des
+ « wafer @ risk ».
+\end_layout
+
+\begin_layout Standard
+Actuellement nous comptons le nombre de plaque de silicium travaillées entre
+ deux contrôles (mesures).
+ Ce comptage peut être référencé par rapport à une machine de production
+ ou par rapport a une technologie.
+\end_layout
+
+\begin_layout Standard
+Ce comptage ne tient pas compte de l'existant de plusieurs types de paramètres
+ ni de l'interaction potentielle entre paramètres.
+ 
+\end_layout
+
+\begin_layout Standard
+Pour l'instant les mesures effectuées sur les plaques de production et les
+ mesures sur les plaques de test liées aux qualifications périodiques sont
+ prises en compte de la même manière sans tenir compte de la signification
+ de la mesure.
+ Cette méthode ne nous permet pas de régler nos outils d'échantillonnage
+ par rapport à un risque maximal garanti ».
 \end_layout
 
 \begin_layout Section
