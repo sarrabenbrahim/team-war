@@ -488,7 +488,7 @@ Source : Wikipedia.
 \end_layout
 
 \begin_layout Subsection
-itérations
+Itérations
 \end_layout
 
 \begin_layout Standard
@@ -499,7 +499,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename E:/Polytech'Marseille 5A/WarTeam/PFE/Doc/Images/Gantt.PNG
+	filename ../Images/Gantt.PNG
 
 \end_inset
 
@@ -524,6 +524,10 @@ Gantt
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
