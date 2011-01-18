@@ -126,42 +126,62 @@ Contrôle de fiabilité des machines de production, c'est une tâche de maintena
 ibilité de la machine de production.
 \end_layout
 
+\begin_layout Standard
+Les règles de contrôle sont basées sur l'expérience des contremaîtres, par
+ pifométrie.
+\end_layout
+
 \begin_layout Section
 Mission du PFE
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
+Le coût de la non-qualité est souvent l'ancre qui peut faire couler une
+ entreprise.
+ D'une part, par son coût important qui ne rentre pas dans la valeur ajoutée,
+ et puis aussi par son impacte sur le marché concurrentiel.
+\end_layout
+
+\begin_layout Standard
+Notre travail consiste à rechercher une ou des solutions susceptibles d'améliore
+r la gestion des contrôles et de pouvoir maîtriser la production à risque.
+\end_layout
+
+\begin_layout Standard
+La mission telle qu'elle est mentionnée dans le cahier des charges du client
+ est la suivante : « Le travail consistera en une étude de faisabilité sur
+ l'évaluation des 'wafer@risk'
+\begin_inset Foot
+status collapsed
 
 \begin_layout Plain Layout
-Présentation claire de notre mission.
+\begin_inset Quotes fld
+\end_inset
+
+Wafers At Risk
+\begin_inset Quotes frd
+\end_inset
+
+ (W@R) est un indicateur qui represente le nombre de plaques traitées sur
+ un équipement depuis la dernière tâche de contrôle.
 \end_layout
 
 \end_inset
 
 
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Le cahier de charge qui nous a été fournis est le suivant :
-\end_layout
-
-\begin_layout Standard
-« Le travail consistera en une étude de faisabilité sur l'évaluation des
- « wafer @ risk ».
-\end_layout
-
-\begin_layout Standard
-Les tâches de contrôle engendrent donc des coûts au niveau de la productivité
- (indisponibilité) et aussi au niveau du personnel (temps alloué).
- L'objectif de cette étude consiste donc à trouver un algorithme ou une
- méthode pour optimiser la maîtrise des volumes de production à risque.
- Cette optimisation tend à diminuer la fréquence des tâches de contrôle
- tout en garantissant un taux de risque optimal (qualité).
- Cette dernière permettrait également d'éviter des contrôles non nécessaires
- sur certaines machines de production ou certaines technologies où le taux
- de production à risque est négligeable.
+En principe, notre mission se limite à la recherche des solutions et l'étude
+ de leur faisabilité.
+ Etant donné le domaine d'étude risque d'être limité en source d'information
+ due à la confidentialité et à la spécificité du domaine d'activité (micro-élect
+ronique).
+ Nous serons peut-être amener à imaginer notre propre solution.
 \end_layout
 
 \begin_layout Section
@@ -169,46 +189,21 @@ Plan de l'étude
 \end_layout
 
 \begin_layout Standard
-Afin de faire cette étude, un travail de 
+Une étude préliminaire pour balayer le sujet et les pistes de recherche
+ d'information possibles.
+ Ce qui nous amène à l'étude de l'art, une sorte de travail de 
 \emph on
 Benchmarking
 \emph default
- a été effectué.
- En effet il est important de savoir les solutions apporté par les autres
- industries pour diminuer la non qualité.
- Toutefois nous ne devions pas perdre de vue les spécificités de l'industrie
- des micro composants.
- Tout naturellement nous nous sommes dirigés vers un état de l'art des différent
-es méthodes et technique utilisés dans cette industrie.
- Nous avons aussi fouillé du coté des optimisations de test et les outis
- de maintenance.
- Nous détaillons le résultat de ces recherches dans la partie 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "par:Etat-de-l'art"
-
-\end_inset
-
 .
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-Notre plan de travail : ce qui nous permet de bondir sur la partie 
-\begin_inset Quotes fld
-\end_inset
-
-Etat de l'art
-\begin_inset Quotes frd
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
-
+ A partir du bilan de cette étude, de fouille d'information, nous essaierons
+ de trier et de garder les solutions pertinentes pour une étude plus appronfondi
+e.
+ Dans le cas où l'état de l'art ne permet pas de répondre pertinemment à
+ nos attentes.
+ Une tentative solution sera développer par notre équipe pour répondre à
+ notre problème d'optimisation, suivi de la phase de simulation et de validation
+ de la solution.
 \end_layout
 
 \end_body
