@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -128,7 +128,7 @@ ibilité de la machine de production.
 
 \begin_layout Standard
 Les règles de contrôle sont basées sur l'expérience des contremaîtres, par
- pifométrie.
+ pifométre.
 \end_layout
 
 \begin_layout Section
@@ -139,7 +139,7 @@ Mission du PFE
 Le coût de la non-qualité est souvent l'ancre qui peut faire couler une
  entreprise.
  D'une part, par son coût important qui ne rentre pas dans la valeur ajoutée,
- et puis aussi par son impacte sur le marché concurrentiel.
+ et d'autre part par son impacte sur le marché concurrentiel.
 \end_layout
 
 \begin_layout Standard
@@ -178,10 +178,9 @@ Wafers At Risk
 \begin_layout Standard
 En principe, notre mission se limite à la recherche des solutions et l'étude
  de leur faisabilité.
- Etant donné le domaine d'étude risque d'être limité en source d'information
+ Etant donné le domaine d'étude qui risque d'être limité en source d'information
  due à la confidentialité et à la spécificité du domaine d'activité (micro-élect
-ronique).
- Nous serons peut-être amener à imaginer notre propre solution.
+ronique), nous serons peut-être amener à imaginer notre propre solution.
 \end_layout
 
 \begin_layout Section
@@ -197,11 +196,10 @@ Benchmarking
 \emph default
 .
  A partir du bilan de cette étude, de fouille d'information, nous essaierons
- de trier et de garder les solutions pertinentes pour une étude plus appronfondi
-e.
+ de trier et de garder les solutions pertinentes pour une étude plus approfondie.
  Dans le cas où l'état de l'art ne permet pas de répondre pertinemment à
  nos attentes.
- Une tentative solution sera développer par notre équipe pour répondre à
+ Une tentative solution sera développée par notre équipe pour répondre à
  notre problème d'optimisation, suivi de la phase de simulation et de validation
  de la solution.
 \end_layout
