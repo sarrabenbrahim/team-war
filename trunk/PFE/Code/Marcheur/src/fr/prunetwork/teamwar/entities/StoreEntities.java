@@ -19,13 +19,13 @@ import java.util.Vector;
 public class StoreEntities {
 
     private static Collection<Workstation> workstations = new ArrayList<Workstation>();
-    private static Collection<Batch> batches = new ArrayList<Batch>();
+    private static Collection<Batch> batchs = new ArrayList<Batch>();
     private static Map<String, Workstation> workstationMap = new HashMap<String, Workstation>();
     private static Map<String, Batch> batchMap = new HashMap<String, Batch>();
     private static Collection<Tracability> tracabilitys = new ArrayList<Tracability>();
 
     public static void addAllBatch(Collection<Batch> batches) {
-        StoreEntities.batches.addAll(batches);
+        StoreEntities.batchs.addAll(batches);
         for (Batch batch : batches) {
             batchMap.put(batch.getName(), batch);
         }
@@ -38,6 +38,9 @@ public class StoreEntities {
         }
     }
 
+    public static Collection<Batch> getBatchs() {
+        return batchs;
+    }
     public static Batch getBatch(String name) {
         return batchMap.get(name);
     }

@@ -110,22 +110,36 @@ public class Batch {
     }
 
     public double fiabilityWithQTAndMSLandWorkstation(MyDate currentDate) {
-    Tracability previousTracibility = null;
+        Tracability previousTracibility = null;
         double fiability = Constants.FIABILITY_DEFAULT_BATCH;
 
         for (Iterator<Tracability> it = tracabilitys.iterator(); it.hasNext();) {
             Tracability tracability = it.next();
             if (tracability.getDate().before(currentDate)) {
-                if ((tracability.getEvent().equalsIgnoreCase(Constants.BATCH_CONTROL))&&(!(previousTracibility==null))) {
+                if ((tracability.getEvent().equalsIgnoreCase(Constants.BATCH_CONTROL)) && (!(previousTracibility == null))) {
                     fiability = Constants.FIABILITY_DEFAULT_BATCH;
-                    StoreEntities.getWorkstation(previousTracibility.getWorkstationID()).setLastControleMSE(previousTracibility.getDate());
+                    StoreEntities.getWorkstation(previousTracibility.getWorkstationID()).setDateLastControle(previousTracibility.getDate());
                 } else {
                     fiability *= StoreEntities.getWorkstation(tracability.getWorkstationID()).getFiabilityQualityTaskAndMSL(tracability.getDate());
                 }
             } else {
-                
             }
             previousTracibility = tracability;
+        }
+        return fiability;
+    }
+
+    public double fiabilityMSLAndMSESafe(MyDate currentDate) {
+        double fiability = Constants.FIABILITY_DEFAULT_BATCH;
+        for (Iterator<Tracability> it = tracabilitys.iterator(); it.hasNext();) {
+            Tracability tracability = it.next();
+            if (tracability.getDate().before(currentDate)) {
+                if (tracability.getEvent().equalsIgnoreCase(Constants.BATCH_CONTROL)) {
+                    fiability = Constants.FIABILITY_DEFAULT_BATCH;
+                } else {
+                    fiability *= StoreEntities.getWorkstation(tracability.getWorkstationID()).getFiabilityMSEAndMSLSafe(tracability.getDate());
+                }
+            }
         }
         return fiability;
     }
