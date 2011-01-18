@@ -74,9 +74,19 @@ Durant notre étude de l’art nous avons pu traiter différents documents qui
  Dans ce qui suit nous allons vous présenter les résultats de l’étude de
  l’art ainsi les motivations pour retenir ou non une méthode et par la suite
  l’approfondir et l’appliquer a notre étude : 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
+
+\bar under
 La démarche AMDEC : 
 \end_layout
 
@@ -107,11 +117,20 @@ En conclusion nous n’allons pas utiliser cette démarche pour la suite de
  notre étude car ce type d'étude requiert un niveau de détail beaucoup trop
  important pour une production de ce type (non liénaire, multi produits,
  grand nombre d'étape de fabrication).
- D'autre part 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
+
+\bar under
 L’étude de la gestion du risque : 
 \end_layout
 
@@ -133,10 +152,28 @@ Cette étude peut être intéressante car elle a pour finalité de réduire le
 e parfaite des machines, donc vu les contrainte de temps que nous avons-nous
  ne retiendrons pas cette études pour la suite de notre projet.
  
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
+
+\bar under
 L'article 
 \begin_inset Quotes fld
 \end_inset
@@ -160,10 +197,20 @@ on de risque et puis à ajuster le plan construit en ajoutant ou en supprimant
 \begin_layout Itemize
 Cette méthode a pour inconvénient de devoir définir au préalable tous les
  types de risque et la capacité des ressources de contrôle .
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
+
+\bar under
 L’article « An Approach for Operational Risk Evaluation and its Link to
  Control Plan » 
 \end_layout
@@ -187,10 +234,20 @@ Cette méthode très gourmande en arrêt de la chaine de production lors des
  plans de contrôle ne sera pas développée par la suite car elle est industrielle
 ment infaisable.
  
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
+
+\bar under
 L’article « Optimizing Return On Inspection Trough Defectivity Smart Sampling
  » : 
 \end_layout
@@ -212,10 +269,20 @@ Cette méthode ne sera pas retenue même les résultats sont intéressants.
  En effet cette approche ne permet pas réduire les risques en défectivité
  mais seulement l'échantillonnage pour la mesure.
  
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
+
+\bar under
 L’article « Computation of Wafer-At-Risk from Theory To Real Life Demonstartion»
 : 
 \end_layout
@@ -237,10 +304,20 @@ Son avantage est de réduire fortement le risque presque en temps réel par
 Malgré des promesses de grandes réduction de risque, nous ne pouvons pas
  nous engager sur sa fiabilité ni sur son utilisation dans notre étude,
  donc nous ne l’utiliserons pas.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
+
+\bar under
 La présentation 
 \begin_inset Quotes fld
 \end_inset
@@ -292,10 +369,20 @@ n de ces tâches pour un résultat optimal du risque.
 \begin_layout Standard
 Cependant ce support de présentation n'apporte pas plus information pour
  être retenu comme solution de notre problème.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
+
+\bar under
 La méthode D3 : 
 \end_layout
 
@@ -340,6 +427,14 @@ Dans le cadre d'une analyse épidémologique par exemple, tester un échantillon
  Malheuresement les contraintes fortes liés au contrôle des lots nous empêchent
  d'avoir des contrôles des tailles de lot de plus en plus importante.
  
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -353,7 +448,7 @@ L'idée étant d'utiliser nos contraintes pour développer notre propre algorith
  de calcul, nous détaillerons cet algorithme ainsi que ces résultats dans
  la partie suivante.
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 si j'ai oublié des choses ou d'autre arguments rajoutez les SVP
