@@ -500,6 +500,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename ../Images/Gantt.PNG
+	width 100col%
 
 \end_inset
 
@@ -524,10 +525,6 @@ Gantt
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
