@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -48,7 +48,7 @@ figs-within-sections
 \begin_body
 
 \begin_layout Chapter
-Validation de notre méthode
+Bilan de la solution
 \end_layout
 
 \begin_layout Standard
@@ -56,8 +56,7 @@ Validation de notre méthode
 status open
 
 \begin_layout Plain Layout
-Bon on a fait un programme, mais est ce que c'était une bonne idée ? Si
- oui pourquoi ? 
+Résulrats & perspectives d'optimisation sur l'algo du marcheur.
 \end_layout
 
 \end_inset

@@ -1,56 +1,36 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
 \textclass amsbook
 \begin_preamble
-\usepackage{color}
-\usepackage[french]{minitoc}
-\usepackage{wallpaper}
-\usepackage{fancyhdr}
 \usepackage[unicode=true, 
 bookmarks=true,
 bookmarksnumbered=true,
 bookmarksopen=true,
 bookmarksopenlevel=1,
 breaklinks=true,
+pdfborder={0 0 1},
 backref=section,
 colorlinks=true,
 linkcolor=blue,
 urlcolor=blue]
 {hyperref}
 
-\hypersetup{pdftitle={[PFE] - Rapport d'Étude},
+\hypersetup{pdftitle={[PFE] - Rapport Préliminaire},
 % backref=true,
 %pagebackref=true,
 pdfauthor={Equipe TeamW@R - Promo2011 -  Polytech'Marseille},
-pdfkeywords={PFE, Waffer@Risk,
+pdfkeywords={PFE,
+Plateforme Polyvalente de Production,
 ST, Polytech'Marseille,
 Génie Industriel,
 Gestion Production}
 }
-
-%%------------------------- Parametrage des entetes et pieds de page
-
-%http://www.nanotechnologies.qc.ca/propos/linux/documentation/Redaction_documents_Latex/s1-entete_pied_page.html
-\pagestyle{fancy}
-\renewcommand{\headrulewidth}{0.5px}
-%\renewcommand{\footrulewidth}{1px}
-%%---- entete
-\lhead{RAPPORT D'ÉTUDE}
-\rhead{\leftmark}
-%%----pied de page
-\cfoot{\today}
-
-\lfoot{\includegraphics[height=1.0cm]{../../../Logo/team-WAR.png}}
-%\cfoot{\boitecolor{white}{blue}{Promo 2011 - Team-w@r}}
-%\rfoot{page {\thepage} sur \pageref{LastPage}}
-\rfoot{page {\thepage}}
+\usepackage{color}
+\usepackage[french]{minitoc}
 
 \setcounter{parttocdepth}{0}
-
-\ThisULCornerWallPaper{1}{../Images/fond.png}% pour la page courante
-%\ULCornerWallPaper{1}{../Images/fond.png}
 \end_preamble
 \use_default_options true
 \begin_modules
@@ -93,10 +73,6 @@ tabs-within-sections
 \cite_engine natbib_authoryear
 \use_bibtopic false
 \paperorientation portrait
-\leftmargin 2.5cm
-\topmargin 3cm
-\rightmargin 2.5cm
-\bottommargin 3.5cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -181,7 +157,7 @@ Projet de Fin d'Étude
 \begin_inset Newline newline
 \end_inset
 
-Rapport d'Étude
+Rapport Final
 \begin_inset Newline newline
 \end_inset
 
@@ -195,7 +171,7 @@ Rapport d'Étude
 
 
 \emph on
-Détermination d'un Wafer à Risque dans une ligne de production 
+Recherche de méthode d'estimation de volume de production à risque
 \begin_inset Quotes frd
 \end_inset
 
@@ -315,19 +291,7 @@ Claudia Frydmann
 \end_layout
 
 \begin_layout Author
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-today
-\end_layout
-
-\end_inset
-
-
+Mercredi 19 Janvier 2011
 \begin_inset Newline newline
 \end_inset
 
@@ -344,38 +308,23 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-prefix "W@F"
-symbol "W@F"
-description "Waffer at Risk  "
-
-\end_inset
-
-
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-prefix "SCRUM"
-symbol "SCRUM"
-description "Méthode de gestion de projet Agile"
-
-\end_inset
-
-
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-prefix "FIFO"
-symbol "FIFO"
-description "First In First Out"
+\begin_inset CommandInset include
+LatexCommand include
+filename "Introduction.lyx"
 
 \end_inset
 
 
 \end_layout
 
+\begin_layout Part
+Contexte de l'étude
+\end_layout
+
 \begin_layout Standard
-\begin_inset CommandInset nomencl_print
-LatexCommand printnomenclature
+\begin_inset CommandInset include
+LatexCommand input
+filename "EntrepriseST.lyx"
 
 \end_inset
 
@@ -384,8 +333,48 @@ LatexCommand printnomenclature
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
-filename "introduction.lyx"
+LatexCommand input
+filename "CahierCharges.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Etat-de-l'art"
+
+\end_inset
+
+Etat de l'art
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Bilan_EtatArt.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\begin_inset CommandInset label
+LatexCommand label
+name "par:Développement-de-notre"
+
+\end_inset
+
+Développement de la solution
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Marcheur_Algo.lyx"
 
 \end_inset
 
@@ -394,8 +383,8 @@ filename "introduction.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
-filename "cahierCharges.lyx"
+LatexCommand input
+filename "Marcheur_Code.lyx"
 
 \end_inset
 
@@ -404,8 +393,36 @@ filename "cahierCharges.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
-filename "etudeExistant.lyx"
+LatexCommand input
+filename "Marcheur_Bilan.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Gestion de projet
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "GestionProjet.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Gestion des coûts
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "GestionCouts.lyx"
 
 \end_inset
 
@@ -414,28 +431,8 @@ filename "etudeExistant.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand include
-filename "develloppementSolution.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "validation.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "conclusion.lyx"
+LatexCommand input
+filename "Conclusion.lyx"
 
 \end_inset
 
@@ -447,6 +444,16 @@ filename "conclusion.lyx"
 LatexCommand bibtex
 bibfiles "../../../Bibliographie/BiblioTeamWAR"
 options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Annexe.lyx"
 
 \end_inset
 

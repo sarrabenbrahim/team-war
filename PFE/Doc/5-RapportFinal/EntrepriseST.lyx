@@ -1,0 +1,244 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Présentation de STMicroelectronics
+\end_layout
+
+\begin_layout Standard
+STMicroelectronics (plus connu sous ST) est une société internationale de
+ semi-conducteurs, qui développe, fabrique et commercialise des puces électroniq
+ues.
+ Elle a été initialement créée en 1987, de la fusion de SGS Microelettronica
+ et de Thomson Semiconducteurs, sous le nom de SGS-THOMSON.
+ Puis renommée en STMicroelectronics, suite au retrait de Thomson du capital
+ en 1998.
+\end_layout
+
+\begin_layout Standard
+La société mère STMicroelectronics est de droit hollandais (enregistrée
+ à Amsterdam), la direction administrative est regroupée en grande partie
+ sur le site de Genève en Suisse, mais la direction opérationnelle du groupe
+ est toujours italienne, implantée sur le principal site du groupe à Agrate
+ (à côté de Milan).
+ C'est une société en expansion économique depuis sa création, son chiffre
+ d'affaire a même doublé en dix ans depuis son renommage (CA : $9,84 milliards
+ en 2008 contre $4,25 milliards en 1988).
+\end_layout
+
+\begin_layout Standard
+S'appuyant sur sa technologie et son expertise, ST se positionne au 
+\begin_inset Formula $5^{e}$
+\end_inset
+
+ rang mondial dans la fabrication des semi-conducteurs depuis 2005.
+ Elle comprend approximativement 51000 employés répartis dans plus de 15
+ sites de production (cf Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Principaux-sites-Production"
+
+\end_inset
+
+), plus de 39 centres de R&D et plus de 78 bureaux de vente dans le monde.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Principaux sites de production
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Principaux-sites-Production"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ST_Monde_Production.jpg
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ST propose divers groupes de produit, chaque groupe étant lui-même composé
+ de plusieurs divisions qui gèrent de façon autonome la conception, la fabricati
+on et la commercialisation de leurs produits (cf Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Divers-Groupes-Produit"
+
+\end_inset
+
+) :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Divers groupes de produit
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Divers-Groupes-Produit"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ST_ProductsGroup.jpg
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Voici quelques exemples d'application des produits semi-conducteurs et de
+ la technologie de ST dans la vie quotidinne (cf Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Exemple-Produits"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Exemple des produits
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Exemple-Produits"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ST_Products.jpg
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

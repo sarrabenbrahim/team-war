@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -47,8 +47,8 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Chapter
-Cahier des charges
+\begin_layout Part*
+Conclusion
 \end_layout
 
 \begin_layout Standard
@@ -56,9 +56,7 @@ Cahier des charges
 status open
 
 \begin_layout Plain Layout
-Que veut ST ? C'est quoi leur problème, pourquoi font-ils appelle à nous
- ? Mis à part que nous sommes beau et intelligent, quels sont les autres
- raisons ?
+Conclusion générale du rapport et du PFE.
 \end_layout
 
 \end_inset

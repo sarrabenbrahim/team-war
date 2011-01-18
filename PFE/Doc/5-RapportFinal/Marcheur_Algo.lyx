@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -48,7 +48,7 @@ figs-within-sections
 \begin_body
 
 \begin_layout Chapter
-Conclusion
+Algorithme du marcheur
 \end_layout
 
 \begin_layout Standard
@@ -56,14 +56,15 @@ Conclusion
 status open
 
 \begin_layout Plain Layout
-On a bien travaillé, mais que pouvons nous en conclure ? Sommes nous dans
- le vrai avec notre méthode, y a t il d'autres pistes à explorer ? Si oui
- lesquels ? (IA par exemple, Devellopement d'un programme qui réagirait
- en temps réel etc ...)
+Présentation en langage naturel de l'algorithme.
 \end_layout
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
