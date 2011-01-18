@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="566" height="285" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="551" y="93" width="2" height="90" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="411" y="181" width="142" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="408" y="90" width="143" height="91" />
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="480" y="97">BatchExtractor</text>
+	<line stroke="black" stroke-opacity="1" x1="408" y1="103" x2="551" y2="103" />
+	<line stroke="black" stroke-opacity="1" x1="408" y1="108" x2="551" y2="108" />
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="410" y="115">BatchExtractor()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" text-decoration="underline" x="410" y="127">createBatchTracabilityRelation()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" text-decoration="underline" x="410" y="139">createUniqueBatchesFromTracability()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" text-decoration="underline" x="410" y="151">populateEachBatchesWithItsTracability()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="410" y="163">getTracabilitys()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="410" y="175">extract()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="215" y="182" width="2" height="90" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="53" y="270" width="164" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="50" y="179" width="165" height="91" />
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="133" y="186">WorkstationExtractor</text>
+	<line stroke="black" stroke-opacity="1" x1="50" y1="192" x2="215" y2="192" />
+	<line stroke="black" stroke-opacity="1" x1="50" y1="197" x2="215" y2="197" />
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="52" y="204">WorkstationExtractor()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" text-decoration="underline" x="52" y="216">createWorkstationTracabilityRelation()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" text-decoration="underline" x="52" y="228">createUniqueWorkstationesFromTracability()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" text-decoration="underline" x="52" y="240">populateEachWorkstationesWithItsTracability()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="52" y="252">getTracabilitys()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="52" y="264">extract()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="192" y="11" width="2" height="90" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="52" y="99" width="142" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="49" y="8" width="143" height="91" />
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="121" y="15">BatchExtractor</text>
+	<line stroke="black" stroke-opacity="1" x1="49" y1="21" x2="192" y2="21" />
+	<line stroke="black" stroke-opacity="1" x1="49" y1="26" x2="192" y2="26" />
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="51" y="33">BatchExtractor()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" text-decoration="underline" x="51" y="45">createBatchTracabilityRelation()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" text-decoration="underline" x="51" y="57">createUniqueBatchesFromTracability()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" text-decoration="underline" x="51" y="69">populateEachBatchesWithItsTracability()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="51" y="81">getTracabilitys()</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="51" y="93">extract()</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="215" y="135">tracabilitys</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="327" y="128">tracabilitys</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="215" y="117">tracabilitys</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="314" y="86" width="2" height="102" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="266" y="186" width="50" height="2" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="263" y="83" width="51" height="103" />
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="289" y="90">Tracability</text>
+	<line stroke="black" stroke-opacity="1" x1="263" y1="96" x2="314" y2="96" />
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="265" y="103">taskID</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="265" y="115">batch</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="265" y="127">operation</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="265" y="139">quantity</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="265" y="151">event</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="265" y="163">technology</text>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="265" y="175">workstationID</text>
+	<line stroke="black" stroke-opacity="1" x1="263" y1="181" x2="314" y2="181" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="262" y1="121" x2="259" y2="113" />
+	<line stroke="black" stroke-opacity="1" x1="262" y1="121" x2="254" y2="123" />
+	<line stroke="black" stroke-opacity="1" x1="195" y1="90" x2="262" y2="121" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="317" y1="136" x2="323" y2="142" />
+	<line stroke="black" stroke-opacity="1" x1="317" y1="136" x2="323" y2="130" />
+	<line stroke="black" stroke-opacity="1" x1="407" y1="136" x2="317" y2="136" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="216" y="218">&lt;&lt;Collection&gt;&gt;</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="200" y="110">&lt;&lt;Collection&gt;&gt;</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="262" y1="149" x2="253" y2="146" />
+	<line stroke="black" stroke-opacity="1" x1="262" y1="149" x2="259" y2="157" />
+	<line stroke="black" stroke-opacity="1" x1="214" y1="178" x2="262" y2="149" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="6" fill="#000000" xml:space="preserve" x="337" y="141">&lt;&lt;Collection&gt;&gt;</text>
+</g>
+</svg>

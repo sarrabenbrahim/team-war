@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Bouml (http://bouml.free.fr/) -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="873" height="560" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="338" y="344" width="3" height="157" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="38" y="498" width="303" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="34" y="340" width="304" height="158" />
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="186" y="352">Batch</text>
+	<line stroke="black" stroke-opacity="1" x1="34" y1="361" x2="338" y2="361" />
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" text-decoration="underline" x="38" y="373">ARBITRATY_WORKSTATION_FIABILITY_VALUE</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="38" y="392">name</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="38" y="411">technology</text>
+	<line stroke="black" stroke-opacity="1" x1="34" y1="420" x2="338" y2="420" />
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="38" y="432">simpleFiability()</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="38" y="451">fiabilityWithQTAndMSL()</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="38" y="470">fiabilityWithQualityTask()</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="38" y="489">fiabilityMSLAndMSESafe()</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="857" y="352" width="3" height="195" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="663" y="544" width="197" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="659" y="348" width="198" height="196" />
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="758" y="360">Workstation</text>
+	<line stroke="black" stroke-opacity="1" x1="659" y1="369" x2="857" y2="369" />
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="663" y="381">fiabilityRandomLaw</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="663" y="400">disturbanceOfWorkStation</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="663" y="419">name</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="663" y="438">fiabilityQualityTask</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="663" y="457">fiabilityTQAndMSL</text>
+	<line stroke="black" stroke-opacity="1" x1="659" y1="466" x2="857" y2="466" />
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="663" y="478">getFiabilityRandomLaw()</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="663" y="497">getFiabilityQualityTask()</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="663" y="516">getFiabilityQualityTaskAndMSL()</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="663" y="535">getFiabilityMSEAndMSLSafe()</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="321" y="274">tracabilitys</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="495" y="285">tracabilitys</text>
+</g>
+<g>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="521" y="308">ListOfControls</text>
+</g>
+<g>
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="481" y="187" width="3" height="163" />
+	<rect fill="#808080" stroke="none" stroke-opacity="1" x="399" y="347" width="85" height="3" />
+	<rect fill="#ffffc0" stroke="black" stroke-width="1" stroke-opacity="1" x="395" y="183" width="86" height="164" />
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" font-weight="bold" text-anchor="middle" x="438" y="195">Tracability</text>
+	<line stroke="black" stroke-opacity="1" x1="395" y1="204" x2="481" y2="204" />
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="399" y="216">taskID</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="399" y="235">batch</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="399" y="254">operation</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="399" y="273">quantity</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="399" y="292">event</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="399" y="311">technology</text>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="399" y="330">workstationID</text>
+	<line stroke="black" stroke-opacity="1" x1="395" y1="339" x2="481" y2="339" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="389" y="359">&lt;&lt;Collection&gt;&gt;</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="394" y1="292" x2="385" y2="290" />
+	<line stroke="black" stroke-opacity="1" x1="394" y1="292" x2="392" y2="300" />
+	<line stroke="black" stroke-opacity="1" x1="319" y1="339" x2="394" y2="292" />
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="485" y1="292" x2="487" y2="300" />
+	<line stroke="black" stroke-opacity="1" x1="485" y1="292" x2="493" y2="289" />
+	<line stroke="black" stroke-opacity="1" x1="658" y1="389" x2="485" y2="292" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="519" y="352">&lt;&lt;Collection&gt;&gt;</text>
+</g>
+<g>
+	<line stroke="black" stroke-opacity="1" x1="485" y1="292" x2="487" y2="300" />
+	<line stroke="black" stroke-opacity="1" x1="485" y1="292" x2="493" y2="289" />
+	<line stroke="black" stroke-opacity="1" x1="658" y1="389" x2="485" y2="292" />
+</g>
+<g>
+	<text font-family="Helvetica" font-size="10" fill="#000000" xml:space="preserve" x="519" y="352">&lt;&lt;Collection&gt;&gt;</text>
+</g>
+</svg>
