@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -68,8 +68,15 @@ La société mère STMicroelectronics est de droit hollandais (enregistrée
  est toujours italienne, implantée sur le principal site du groupe à Agrate
  (à côté de Milan).
  C'est une société en expansion économique depuis sa création, son chiffre
- d'affaire a même doublé en dix ans depuis son renommage (CA : $9,84 milliards
- en 2008 contre $4,25 milliards en 1988).
+ d'affaire a même doublé en dix ans depuis son nouveau nom 
+\begin_inset Quotes fld
+\end_inset
+
+STMicroelectronics
+\begin_inset Quotes frd
+\end_inset
+
+ (CA : $9,84 milliards en 2008 contre $4,25 milliards en 1988).
 \end_layout
 
 \begin_layout Standard
@@ -188,7 +195,7 @@ name "fig:Divers-Groupes-Produit"
 
 \begin_layout Standard
 Voici quelques exemples d'application des produits semi-conducteurs et de
- la technologie de ST dans la vie quotidinne (cf Fig 
+ la technologie de ST dans la vie quotidienne (cf Fig 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Exemple-Produits"
