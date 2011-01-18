@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -226,7 +226,7 @@ Plus un marcheur est petit plus il aura de chance d'être agressé.
 \begin_layout Itemize
 On formalise le problème : 
 \begin_inset Formula \[
-W@R=1-\prod_{i=1}^{N}\left(F_{Machine[i]}\times F_{Produit}\right)\]
+Indice_{Santé}=1-\prod_{i=1}^{N}\left(F_{Machine[i]}\times F_{Produit}\right)\]
 
 \end_inset
 
@@ -235,7 +235,7 @@ W@R=1-\prod_{i=1}^{N}\left(F_{Machine[i]}\times F_{Produit}\right)\]
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $F_{Machine[i]}$
+\begin_inset Formula $I_{Machine[i]}$
 \end_inset
 
  est la fiabilité de la machine 
@@ -246,7 +246,7 @@ W@R=1-\prod_{i=1}^{N}\left(F_{Machine[i]}\times F_{Produit}\right)\]
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $F_{Produit}$
+\begin_inset Formula $I_{Produit}$
 \end_inset
 
  est la fiabilité du produit.
@@ -257,8 +257,18 @@ W@R=1-\prod_{i=1}^{N}\left(F_{Machine[i]}\times F_{Produit}\right)\]
 \end_inset
 
  est le waffer at risk, c'est un indice de confiance plus cette valeur est
- haute plus le produit a de chance d'être deffectueux et un contrôle s'impose
+ haute plus le lot a de chance d'être deffectueux et un contrôle s'impose
  au plus vite.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Remplacer W@R par indice de santé et F_machine est un indice de santé 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_deeper
@@ -288,7 +298,7 @@ Niveau 0 : Modèle simple
 
 \begin_layout Standard
 On suppose que les machines ont une fiabilité 
-\begin_inset Formula $F=0,5=50\%$
+\begin_inset Formula $F_{Machine}=0,5=50\%$
 \end_inset
 
 , il y a 
@@ -296,7 +306,7 @@ On suppose que les machines ont une fiabilité
 \end_inset
 
  étapes de fabrication, et 
-\begin_inset Formula $W@R_{produit}$
+\begin_inset Formula $Indice_{santé}$
 \end_inset
 
  est la probabilité du produit d'être défectueux
@@ -408,6 +418,16 @@ Exemple de loi de distribution de
 
 \begin_layout Subsection
 Niveau 2 : Modèle des quartiers avec criminalité croissante
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Ne prend pas en compte le medecin ou MSL, plus de modèle temporel
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -493,6 +513,16 @@ Fin Pour
 
 \begin_layout Subsection
 Niveau 3 : Modèle du marcheur in-homogène
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+N'est pas implemanté dans le code
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1084,6 +1114,140 @@ Ces classes construisent/instancient les différents objets (lesquels) à
 
 \end_layout
 
+\begin_layout Subsection
+Package entities
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramme de classe des différentes entitées
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home2/promo2011/garciaf/SVN/team-war/PFE/Doc/Images/DiagrammeClassEntities.svg
+	lyxscale 40
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Ce diagramme de classe représente l'ensemble des classes entities, les Batch
+ et Workstation contiennent des collections de tracability, qui constituent
+ la mémoire de chacun des éléments.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Classe Constants
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramme de classe des constantes
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home2/promo2011/garciaf/SVN/team-war/PFE/Doc/Images/DiagrammeClassConstants.svg
+	lyxscale 40
+	width 50col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Cette classe permet de paramétrer l'ensemble du projet en definissant les
+ constantes utilisées dans le projet.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Package Extractors
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagramme de classe des extractors
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home2/promo2011/garciaf/SVN/team-war/PFE/Doc/Images/DiagrameClassExtractors.svg
+	lyxscale 40
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Cet ensemble de classe permet d'affecter les traçabilités au seins des bons
+ lots et des bonnes machines
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Inconvénient de cette méthode
 \end_layout
@@ -1100,10 +1264,20 @@ L'un des plus gros problèmes de ce type de solution est la complexité du
 \end_inset
 
  données nous avons 
-\begin_inset Formula $n\text{³}$
+\begin_inset Formula $\log(3\times n)$
 \end_inset
 
- calculs.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+A calculer !!!!
+\end_layout
+
+\end_inset
+
+calculs.
  Ce qui est génant dans ce type de problème car le nombre de donnée est
  assez considérable et le temps de calcul qui en découle est important.
 \end_layout
@@ -1138,7 +1312,23 @@ Batch
 \emph default
 .
  Une adaptation du modèle serait le bienvenue pour adapter de manière plus
- fine l'analyse avec le problème
+ fine l'analyse avec le problème.
+ Les 
+\emph on
+MSL
+\emph default
+ et 
+\emph on
+MSE
+\emph default
+ sont découpées en des sous catégories qui dépendent des technologies analysées.
+\end_layout
+
+\begin_layout Itemize
+Dans notre projet toutes les machines ont le même poid pour le calcul de
+ la fiabilité.
+ Ce qui diffère avec la réalité, c'est que certaines machines ont un poid
+ plus important que d'autres.
 \end_layout
 
 \begin_layout Standard
