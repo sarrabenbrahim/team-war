@@ -24,6 +24,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Date;
 import java.util.Iterator;
+import java.util.Vector;
 
 /**
  *
@@ -37,9 +38,19 @@ public class Workstation {
     private double disturbanceOfWorkStation = Constants.DISTURBANCE_WORSTATION_PER_EVENT;
     private String name;
     private Collection<Tracability> tracabilitys = new ArrayList<Tracability>();
+    private Collection<Tracability> ListOfControls= new ArrayList<Tracability>();
+
     private double fiabilityQualityTask = Constants.FIABILITY_DEFAULT_WORKSTATION;
     double fiabilityTQAndMSL = Constants.FIABILITY_DEFAULT_WORKSTATION;
-    private MyDate lastControleMSE = new MyDate();
+
+    public Collection<Tracability> getListOfControls() {
+        return ListOfControls;
+    }
+
+    public void setListOfMSL(Collection<Tracability> setOfMSL) {
+        this.ListOfControls = setOfMSL;
+    }
+    private MyDate dateLastControle = new MyDate();
 
     public Workstation(String name) {
         this.name = name;
@@ -117,7 +128,7 @@ public class Workstation {
      */
     public double getFiabilityQualityTaskAndMSL(MyDate currentDate) {
 
-        fiabilityTQAndMSL = fiabilityTQAndMSL - getNumberOfEventSinceLastMSL(currentDate) * Constants.DISTURBANCE_WORSTATION_PER_EVENT;
+        fiabilityTQAndMSL = fiabilityTQAndMSL - getNumberOfEventSinceLastControl(currentDate) * Constants.DISTURBANCE_WORSTATION_PER_EVENT;
         fiabilityTQAndMSL = fiabilityTQAndMSL < Constants.FIABILITY_MIN_WORSKATION ? Constants.FIABILITY_MIN_WORSKATION : fiabilityTQAndMSL;
 
         return fiabilityTQAndMSL;
@@ -141,30 +152,62 @@ public class Workstation {
         }
         return numberOfEvents;
     }
+    public Double getFiabilityMSEAndMSLSafe(MyDate currentDate){
+        getDateLastControle(currentDate);
+        Double nbEvents=getNumberOfEventSinceLastControl(currentDate);
+         fiabilityTQAndMSL = Math.max(Constants.FIABILITY_MIN_WORSKATION,Constants.FIABILITY_DEFAULT_WORKSTATION - nbEvents * Constants.DISTURBANCE_WORSTATION_PER_EVENT);
+        return fiabilityTQAndMSL;
+    }
+        private void getDateLastControle(MyDate currentDate) {
 
-    private Double getNumberOfEventSinceLastMSL(MyDate currentDate) {
+        MyDate lastQualityTask=null;
         Double numberOfEvents = new Double(0);
+        Iterator<Tracability> it=getListOfControls().iterator();
 
+            while ((it.hasNext()) && (lastQualityTask==null)) {
+                Tracability tracabilityBefor=it.next();
+                if(it.hasNext()){
+                    Tracability tracabilityAfter=it.next();
+                    if(tracabilityBefor.getDate().before(currentDate) && tracabilityAfter.getDate().after(currentDate)){
+                        lastQualityTask=tracabilityBefor.getDate();
+
+                    }
+                }else{
+                    if(tracabilityBefor.getDate().before(currentDate))
+                          lastQualityTask=tracabilityBefor.getDate();
+                }
+
+            }
+        if(lastQualityTask!=null) dateLastControle=lastQualityTask;
+    }
+
+        /**
+         * @param currentDate
+         * @return
+         */
+    private Double getNumberOfEventSinceLastControl(MyDate currentDate) {
+        Double numberOfEvents = new Double(0);
         for (Iterator<Tracability> it = getTracabilitys().iterator(); it.hasNext();) {
             Tracability tracability = it.next();
-            if ((tracability.getDate().before(currentDate)) && tracability.getDate().after(lastControleMSE)) {
+            if ((tracability.getDate().before(currentDate)) && tracability.getDate().after(dateLastControle)) {
                 numberOfEvents++;
             }
         }
+
         return numberOfEvents;
     }
 
     /**
      * @param lastControleMSE the lastControleMSE to set
      */
-    public void setLastControleMSE(MyDate lastControleMSE) {
-        this.lastControleMSE = lastControleMSE;
+    public void setDateLastControle(MyDate lastControleMSE) {
+        this.dateLastControle = lastControleMSE;
     }
 
     /**
      * @return the lastControleMSE
      */
-    public MyDate getLastControleMSE() {
-        return lastControleMSE;
+    public MyDate getDateLastControle() {
+        return dateLastControle;
     }
 }

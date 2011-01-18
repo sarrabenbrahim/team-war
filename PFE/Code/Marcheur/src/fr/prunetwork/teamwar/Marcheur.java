@@ -20,12 +20,14 @@ import fr.prunetwork.teamwar.entities.Batch;
 import fr.prunetwork.teamwar.entities.StoreEntities;
 import fr.prunetwork.teamwar.entities.Tracability;
 import fr.prunetwork.teamwar.entities.Workstation;
+import fr.prunetwork.teamwar.extractor.BatchAndWorkstationLinkExtractor;
 import fr.prunetwork.teamwar.extractor.BatchExtractor;
 import fr.prunetwork.teamwar.extractor.WorkstationExtractor;
 import fr.prunetwork.teamwar.storage.reader.ExtractDataFromFile;
 import fr.prunetwork.teamwar.storage.writer.StoreDataToFile;
 import fr.prunetwork.teamwar.utilities.MyDate;
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.logging.Level;
@@ -59,6 +61,10 @@ public class Marcheur {
 
         be = new BatchExtractor(tracabilitys);
         batchs = be.extract();
+
+        BatchAndWorkstationLinkExtractor batchAndWorkstationLinkExtractor= new BatchAndWorkstationLinkExtractor();
+        batchAndWorkstationLinkExtractor.link();
+
         MyDate lastDate = StoreEntities.getLastDate();
         MyDate firstDate = StoreEntities.getFirstDate();
         System.out.println(firstDate.toString());
@@ -67,10 +73,13 @@ public class Marcheur {
         for (Iterator<Batch> it = batchs.iterator(); it.hasNext();) {
             Batch batch = it.next();
 
-
-            sdtf.add(batch.fiabilityWithQTAndMSL(lastDate) + " " + batch.description() + "\n");
+            DecimalFormat decimalFormat=new DecimalFormat();
+            decimalFormat.setMaximumFractionDigits ( 4 ) ; //arrondi à 2 chiffres apres la virgules
+            decimalFormat.setMinimumFractionDigits ( 4 ) ;
+            sdtf.add(decimalFormat.format(batch.fiabilityMSLAndMSESafe(lastDate)) + " " + batch.description() + "\n");
             System.out.println("Nombre de batch traité :" + nunmberOfProcessDone++ + " / " + batchs.size());
         }
+
         try {
             sdtf.commit();
         } catch (IOException ex) {

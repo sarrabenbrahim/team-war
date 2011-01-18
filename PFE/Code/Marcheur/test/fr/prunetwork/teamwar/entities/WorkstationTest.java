@@ -166,27 +166,27 @@ public class WorkstationTest {
     }
 
     /**
-     * Test of setLastControleMSE method, of class Workstation.
+     * Test of setDateLastControle method, of class Workstation.
      */
     @Test
     public void testSetLastControleMSE() {
         System.out.println("setLastControleMSE");
         MyDate lastControleMSE = null;
         Workstation instance = null;
-        instance.setLastControleMSE(lastControleMSE);
+        instance.setDateLastControle(lastControleMSE);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
 
     /**
-     * Test of getLastControleMSE method, of class Workstation.
+     * Test of getDateLastControle method, of class Workstation.
      */
     @Test
     public void testGetLastControleMSE() {
         System.out.println("getLastControleMSE");
         Workstation instance = null;
         MyDate expResult = null;
-        MyDate result = instance.getLastControleMSE();
+        MyDate result = instance.getDateLastControle();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
