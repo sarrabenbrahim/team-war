@@ -88,19 +88,9 @@ une démarche qualitative et quantitative qui se traduit par l’analyse des
 \end_layout
 
 \begin_layout Itemize
-Elle repose sur une décomposition fonctionnelle (
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-de quoi ?
-\end_layout
-
-\end_inset
-
-), une identification des modes de défaillances afin de les classés ainsi
- que des méthodes de détection des de défaillances et des actions préventives
- ou correctives.
+Elle repose sur une décomposition fonctionnelle de la machine, une identificatio
+n des modes de défaillances afin de les classés ainsi que des méthodes de
+ détection des de défaillances et des actions préventives ou correctives.
  
 \end_layout
 
@@ -108,25 +98,16 @@ de quoi ?
 L’avantage de cette démarche est d’évaluer et de garantir : la fiabilité,
  la maintenabilité, la disponibilité, la sécurité, le rendement maximum
  au moindre cout.
- Par contre cette démarche ne permet pas de combiner plusieurs défaillances
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-(ça veut dire quoi ?
-\end_layout
-
-\end_inset
-
-) 
+ Par contre cette démarche ne permet pas de combiner plusieurs défaillances,
+ en effet elle ne peut detecter qu'une défaillance à la fois.
 \end_layout
 
 \begin_layout Standard
 En conclusion nous n’allons pas utiliser cette démarche pour la suite de
- notre étude car ce type d'étude requiert un vieau de détail beaucoup trop
+ notre étude car ce type d'étude requiert un niveau de détail beaucoup trop
  important pour une production de ce type (non liénaire, multi produits,
- grand nombre d'étape de fabrication) 
+ grand nombre d'étape de fabrication).
+ D'autre part 
 \end_layout
 
 \end_deeper
@@ -142,7 +123,7 @@ n des phénomènes dangereux, elle a pour objectif d’apprécier le risque et
 \end_layout
 
 \begin_layout Itemize
-Une démarche complète et entière, consiste en une action en amont et gère
+Une démarche complète et entière, consiste en une action en amont qui gère
  et corrige le risque en aval.
 \end_layout
 
@@ -227,17 +208,10 @@ Son avantage est de réduire le nombre de contrôle non nécessaire par contre
 \end_layout
 
 \begin_layout Standard
-Cette méthode ne sera pas retenue 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Un peu de détail peut-etre ?
-\end_layout
-
-\end_inset
-
-
+Cette méthode ne sera pas retenue même les résultats sont intéressants.
+ En effet cette approche ne permet pas réduire les risques en défectivité
+ mais seulement l'échantillonnage pour la mesure.
+ 
 \end_layout
 
 \end_deeper
@@ -263,7 +237,61 @@ Son avantage est de réduire fortement le risque presque en temps réel par
 Malgré des promesses de grandes réduction de risque, nous ne pouvons pas
  nous engager sur sa fiabilité ni sur son utilisation dans notre étude,
  donc nous ne l’utiliserons pas.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+La présentation 
+\begin_inset Quotes fld
+\end_inset
+
+Operational risk evaluation and control plan design
+\begin_inset Quotes frd
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cette approche d'évaluation des risques est basée sur l'évolution du 
+\begin_inset Quotes fld
+\end_inset
+
+Potential Loss
+\begin_inset Quotes frd
+\end_inset
+
+ (défectivité potentielle).
  
+\end_layout
+
+\begin_layout Itemize
+Cette évolution est supposée linéairement croissante avec le nombre d'exécution
+ (traitement par la machine), sans contrôle, sur un horizon donné.
+ Ce risque potentiel est réinitialisé, à une valeur seuil, après chaque
+ tâche de contrôle ou de maintenance.
+ 
+\end_layout
+
+\begin_layout Itemize
+L'évolution du 
+\begin_inset Quotes fld
+\end_inset
+
+Potential Loss
+\begin_inset Quotes frd
+\end_inset
+
+ dépend de la gestion (planification) des tâches de qualité et de maintenance.
+ De plus s'ajoute à cela une fonction d'évaluation de la valeur ajoutée
+ des tâches de contrôles mises en place afin de déterminer la bonne planificatio
+n de ces tâches pour un résultat optimal du risque.
+\end_layout
+
+\begin_layout Standard
+Cependant ce support de présentation n'apporte pas plus information pour
+ être retenu comme solution de notre problème.
 \end_layout
 
 \end_deeper
@@ -292,9 +320,9 @@ Nous avons décidé de garder cette méthode au début, mais une fois que nous
  rendu compte que cette dernière demande beaucoup de tests dans le cas ou
  dans le premier échantillon il n’y a aucun éléments défectueux, de plus
  nous avons une taille de lot fixe et nous ne pouvons faire des tests simultanés
- sur plusieurs lots et finalement cette méthode imposera l'arrêt plusieurs
- fois la production afin de prélever l'échantillons à tester, la taille
- de ce dernier peut devenir trés grande.
+ sur plusieurs lots et finalement cette méthode imposera l'arrêt de la productio
+n plusieurs fois afin de prélever l'échantillons à tester, la taille de
+ ce dernier peut devenir trés grande.
  Cette méthode s'applique dans un cadres ou la taille de l'échantillon n'est
  pas fixe et que le contrôle n'en est pas pertubé
 \begin_inset Foot
@@ -323,14 +351,7 @@ Cette abscence de solution concrète dans cette industrie, nous a poussé
 \begin_layout Standard
 L'idée étant d'utiliser nos contraintes pour développer notre propre algorithme
  de calcul, nous détaillerons cet algorithme ainsi que ces résultats dans
- la partie 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "par:Développement-de-notre"
-
-\end_inset
-
-.
+ la partie suivante.
 \begin_inset Note Note
 status collapsed
 
