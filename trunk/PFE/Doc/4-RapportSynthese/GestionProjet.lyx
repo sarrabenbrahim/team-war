@@ -1,0 +1,531 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Organisation du projet
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+A relire pour voir si on peut l'améliorer sinon supprimer les erreurs.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Organisation de l'équipe
+\end_layout
+
+\begin_layout Standard
+Après notre première réunion, nous avons décidé de nous répartir les responsabil
+ités en fonctions des centres d'intérêts de chacun.
+ Nous avons répartis les responsabilités en fonction du sujet de PFE lui-même.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features>
+<column alignment="center" valignment="top" width="27col%">
+<column alignment="center" valignment="top" width="20col%">
+<column alignment="center" valignment="middle" width="23col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+NOM
+\begin_inset space ~
+\end_inset
+
+Prénom
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rôle
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Description du rôle
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Description
+
+\noun on
+Nakara
+\noun default
+
+\begin_inset space ~
+\end_inset
+
+Rahma
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Chef d'équipe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+son rôle est similaire à celui du 
+\series bold
+\emph on
+coach
+\series default
+\emph default
+ dans une équipe, il fait en sorte de tirer le meilleur de chacun.
+ Il est aussi celui qui tranche les problèmes épineux.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Description
+
+\noun on
+Garcia
+\noun default
+
+\begin_inset space ~
+\end_inset
+
+Fabien
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsable 
+\end_layout
+
+\begin_layout Plain Layout
+de communication
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+il interface l'équipe et les intervenants extérieurs.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Description
+
+\noun on
+Amrani-Mesbahi
+\begin_inset space ~
+\end_inset
+
+
+\noun default
+Jaafar
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsable Gestion de Projet & Document
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+il met en place la méthode 
+\series bold
+SCRUM
+\series default
+ et gère le système d'information propre à l'équipe.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Description
+
+\noun on
+Ait
+\begin_inset space ~
+\end_inset
+
+Belkacem
+\begin_inset space ~
+\end_inset
+
+
+\noun default
+Abdelali
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsable 
+\end_layout
+
+\begin_layout Plain Layout
+Développement
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Il a pour mission de manager la partie développement du 
+\series bold
+PFE
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Description
+
+\noun on
+Nguyen
+\begin_inset space ~
+\end_inset
+
+
+\noun default
+Philipe
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Responsable Réunion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Son rôle est de contrôler le bon déroulement de tous les meetings entre
+ équipe.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tableau récapitulatif des rôles
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Gestion de projet
+\end_layout
+
+\begin_layout Subsection
+Choix de la méthode agile
+\end_layout
+
+\begin_layout Standard
+Après une explication détaillée du sujet par notre client.
+ Il est apparue que la gestion de projet collant au mieux au sujet du PFE
+ est la méthode agile.
+  En effet le projet pourra subir de nombreuses modifications en fonction
+ de l'avancement.
+ 
+\end_layout
+
+\begin_layout Standard
+Plutôt que de subir ces modifications avec une gestion de projet traditionnelle,
+ nous préférons en prendre notre partie et l'intégrer dans notre gestion
+ de projet.
+\end_layout
+
+\begin_layout Standard
+En effet la méthode agile est une méthode de suivie de projet héritée des
+ développements informatiques.
+ 
+\end_layout
+
+\begin_layout Subsection
+Caractéristiques de la méthode agile
+\end_layout
+
+\begin_layout Standard
+Notre équipe fonctionne sur le modèle de la gestion de projet "Agile".
+ La méthode agile retenue est la méthode 
+\emph on
+SCRUM
+\emph default
+.
+ Ces caractéristiques principales sont :
+\end_layout
+
+\begin_layout Description
+Simplicité La gestion de projet a été simplifiée au maximum pour n'en garder
+ que la quintessence.
+\end_layout
+
+\begin_layout Description
+Flexibilité Cette flexibilité est obtenu par une forte implication du client.
+ Le client peut faire des modifications sur ses besoins mais pas à n'importe
+ quel moment.
+ Uniquement entre deux itération.
+ Cela permet de mieux répondre aux besoins du client.
+\end_layout
+
+\begin_layout Description
+Auto-gestion Basée sur la confiance mutuelle entre les membres de l'équipe
+ ainsi qu'avec le client.
+ Motivation de l'équipe.
+ 
+\end_layout
+
+\begin_layout Description
+Application Satisfaction du client en lui livrant quelque chose de fonctionnel.
+\end_layout
+
+\begin_layout Standard
+Nous pouvons visualiser l'ensemble de cette méthode par le schéma (Réf:
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Structure-Methode-Scrum"
+
+\end_inset
+
+ )
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Structure-Methode-Scrum"
+
+\end_inset
+
+
+\emph on
+Structure Globale de la méthode SCRUM
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ScrumShemaGlobal.png
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Source : Wikipedia.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+itérations
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename E:/Polytech'Marseille 5A/WarTeam/PFE/Doc/Images/Gantt.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Gantt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
