@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -135,8 +135,8 @@ Nguyen
 
 
 \noun default
-Philipe Responsable Réunion, il est optimise notre temps de travail et améliorer
- notre efficacité.
+Philippe Responsable Réunion, il est optimise notre temps de travail et
+ améliorer notre efficacité.
  Son rôle est de contrôler le bon déroulement de tous les meeting entre
  équipe.
  
@@ -401,7 +401,7 @@ Ait Belkacem
 \noun on
 Nguyen
 \noun default
- Philipe 
+ Philippe 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
