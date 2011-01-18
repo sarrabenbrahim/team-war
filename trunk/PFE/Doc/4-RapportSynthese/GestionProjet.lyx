@@ -51,19 +51,6 @@ figs-within-sections
 Organisation du projet
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-A relire pour voir si on peut l'améliorer sinon supprimer les erreurs.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Organisation de l'équipe
 \end_layout
@@ -77,17 +64,19 @@ ités en fonctions des centres d'intérêts de chacun.
 
 \begin_layout Standard
 \begin_inset Float table
+placement h
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="3">
 <features>
-<column alignment="center" valignment="top" width="27col%">
-<column alignment="center" valignment="top" width="20col%">
-<column alignment="center" valignment="middle" width="23col%">
+<column alignment="center" valignment="middle" width="25col%">
+<column alignment="center" valignment="top" width="25col%">
+<column alignment="center" valignment="middle" width="40col%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -125,8 +114,9 @@ Description du rôle
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Description
+\begin_layout Plain Layout
 
+\series bold
 \noun on
 Nakara
 \noun default
@@ -154,10 +144,10 @@ Chef d'équipe
 \begin_layout Plain Layout
 son rôle est similaire à celui du 
 \series bold
-\emph on
+\noun on
 coach
 \series default
-\emph default
+\noun default
  dans une équipe, il fait en sorte de tirer le meilleur de chacun.
  Il est aussi celui qui tranche les problèmes épineux.
  
@@ -170,8 +160,9 @@ coach
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Description
+\begin_layout Plain Layout
 
+\series bold
 \noun on
 Garcia
 \noun default
@@ -211,8 +202,9 @@ il interface l'équipe et les intervenants extérieurs.
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Description
+\begin_layout Plain Layout
 
+\series bold
 \noun on
 Amrani-Mesbahi
 \begin_inset space ~
@@ -240,8 +232,10 @@ Responsable Gestion de Projet & Document
 \begin_layout Plain Layout
 il met en place la méthode 
 \series bold
+\noun on
 SCRUM
 \series default
+\noun default
  et gère le système d'information propre à l'équipe.
  
 \end_layout
@@ -253,8 +247,9 @@ SCRUM
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Description
+\begin_layout Plain Layout
 
+\series bold
 \noun on
 Ait
 \begin_inset space ~
@@ -290,6 +285,7 @@ Développement
 \begin_layout Plain Layout
 Il a pour mission de manager la partie développement du 
 \series bold
+\noun on
 PFE
 \end_layout
 
@@ -300,8 +296,9 @@ PFE
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
-\begin_layout Description
+\begin_layout Plain Layout
 
+\series bold
 \noun on
 Nguyen
 \begin_inset space ~
@@ -403,28 +400,44 @@ SCRUM
  Ces caractéristiques principales sont :
 \end_layout
 
-\begin_layout Description
-Simplicité La gestion de projet a été simplifiée au maximum pour n'en garder
- que la quintessence.
+\begin_layout Standard
+
+\series bold
+Simplicité
+\series default
+ : la gestion de projet a été simplifiée au maximum pour n'en garder que
+ la quintessence.
 \end_layout
 
-\begin_layout Description
-Flexibilité Cette flexibilité est obtenu par une forte implication du client.
+\begin_layout Standard
+
+\series bold
+Flexibilité
+\series default
+ : cette flexibilité est obtenu par une forte implication du client.
  Le client peut faire des modifications sur ses besoins mais pas à n'importe
  quel moment.
  Uniquement entre deux itération.
  Cela permet de mieux répondre aux besoins du client.
 \end_layout
 
-\begin_layout Description
-Auto-gestion Basée sur la confiance mutuelle entre les membres de l'équipe
- ainsi qu'avec le client.
+\begin_layout Standard
+
+\series bold
+Auto-gestion
+\series default
+ : basée sur la confiance mutuelle entre les membres de l'équipe ainsi qu'avec
+ le client.
  Motivation de l'équipe.
  
 \end_layout
 
-\begin_layout Description
-Application Satisfaction du client en lui livrant quelque chose de fonctionnel.
+\begin_layout Standard
+
+\series bold
+Application
+\series default
+ : satisfaction du client en lui livrant quelque chose de fonctionnel.
 \end_layout
 
 \begin_layout Standard
@@ -436,12 +449,12 @@ reference "fig:Structure-Methode-Scrum"
 
 \end_inset
 
- )
+).
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
-placement H
+placement h
 wide false
 sideways false
 status open
@@ -471,7 +484,7 @@ Structure Globale de la méthode SCRUM
 \begin_inset Graphics
 	filename ../Images/ScrumShemaGlobal.png
 	lyxscale 50
-	width 100col%
+	width 70col%
 
 \end_inset
 
@@ -484,23 +497,28 @@ Source : Wikipedia.
 
 \end_inset
 
+Voici les itérations de notre projet (Réf: 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Planning-du-projet"
 
-\end_layout
+\end_inset
 
-\begin_layout Subsection
-Itérations
+).
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename ../Images/Gantt.PNG
-	width 100col%
+	width 70col%
 
 \end_inset
 
@@ -511,7 +529,14 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Gantt
+Planning du projet
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Planning-du-projet"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
