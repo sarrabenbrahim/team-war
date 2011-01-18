@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -48,137 +48,50 @@ figs-within-sections
 \begin_body
 
 \begin_layout Chapter
-Présentation de STMicroelectronique
+Présentation de STMicroelectronics
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Il faut peut-être voir si on ne peut pas résumer cette partie pour en garder
- que l'essentiel.
+STMicroelectronics (plus connu sous ST) est une société internationale de
+ semi-conducteurs, qui développe, fabrique et commercialise des puces électroniq
+ues.
+ Elle a été initialement créée en 1987, de la fusion de SGS Microelettronica
+ et de Thomson Semiconducteurs, sous le nom de SGS-THOMSON.
+ Puis renommée en STMicroelectronics, suite au retrait de Thomson du capital
+ en 1998.
 \end_layout
 
+\begin_layout Standard
+La société mère STMicroelectronics est de droit hollandais (enregistrée
+ à Amsterdam), la direction administrative est regroupée en grande partie
+ sur le site de Genève en Suisse, mais la direction opérationnelle du groupe
+ est toujours italienne, implantée sur le principal site du groupe à Agrate
+ (à côté de Milan).
+ C'est une société en expansion économique depuis sa création, son chiffre
+ d'affaire a même doublé en dix ans depuis son renommage (CA : $9,84 milliards
+ en 2008 contre $4,25 milliards en 1988).
+\end_layout
+
+\begin_layout Standard
+S'appuyant sur sa technologie et son expertise, ST se positionne au 
+\begin_inset Formula $5^{e}$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Section
-Présentation de l’entreprise
-\end_layout
-
-\begin_layout Standard
-Crée en 1998, STMicroelectronics
-\begin_inset CommandInset citation
-LatexCommand cite
-key "web:ST"
-
-\end_inset
-
- n’a cessé de fournir à ses clients des semi-conducteurs innovant s’appuyant
- sur sa technologie et son expertise.
-\end_layout
-
-\begin_layout Standard
-STMicroelectronics connue aussi sous le nom de ST est parmi l’un des leaders
- mondiaux du développement et de la réalisation de solutions sur silicium.
- La firme occupe la 5ème position mondiale dans la fabrication des semi-conducte
-urs avec un chiffre d’affaire qui relève de 8,51 milliards de dollars selon
- des statistiques faites en 2009 et avec plus de 5100 collaborateurs répartis
- sur les 5 continents.
- ST dispose d’un portefeuille très varié de produits de l’industrie, elle
- fournit des semi-conducteurs innovant à ses clients qui correspondent à
- leurs attentes tous en s’appuyant sur son large éventail de technologies.
- Son expertise du silicium et des systèmes, sa puissance industrielle, son
- portefeuille de propriétés intellectuelles et ses alliances stratégiques
- permettent de placer ST en tête des technologies de systèmes sur puce,
- et ses produits contribuent pleinement à la convergence des applications
- et des marchés.
- ST collabore avec différents secteurs d’activité.
- Parmi ces secteurs on trouve :
-\end_layout
-
-\begin_layout Standard
-- Télécommunication mobile
-\end_layout
-
-\begin_layout Standard
-- Carte à puces, passeport, banque, carte vitale 
-\end_layout
-
-\begin_layout Standard
-- Équipements industriels
-\end_layout
-
-\begin_layout Standard
-- Grand public TV, électroménager, Décodeur TV, console de jeux
-\end_layout
-
-\begin_layout Standard
-- Automobile 
-\end_layout
-
-\begin_layout Standard
-- Ordinateur et périphérique
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Section
-Historique
-\end_layout
-
-\begin_layout Plain Layout
-Nommée SGS-Thomson
-\begin_inset CommandInset citation
-LatexCommand cite
-key "web:WikipediaST"
-
-\end_inset
-
- après la fusion de la société italienne SGS –Société Générale Semiconduttori-
- et la société française Thomson semi-conducteurs en 1987, St n’a pas gardé
- pour longtemps ce nom la puisqu’en 1998 Thomson s’est retiré et elle fut
- nommé STMicroelectronics.
- Avant le retrait du capital Thomson, SGS-Thomson a racheté Inmos, Société
- britannique en 1989 qui commençait sa fabrication de microprocesseurs Transpute
-r depuis 1978.
- Au début des 90’s un accord de partenariat technologique entre SGS-Thomson
- et Philips Semiconductors fut signé permettant a cette dernière de bénéficier
- en 1993 de la nouvelle salle blanche de l'unité de R&D de SGS-Thomson à
- Crolles sur un projet baptisé Grenoble 92.
- L’année qui suit SGS-Thomson rachète quelques activités de semi-conducteurs
- de la société canadienne Nortel Networks et l'usine de Rancho Bernardo,
- pour racheter toute l’activité en 2000.
- En 2002, Motorola Semiconductors et TSMC s'associent au partenariat technologiq
-ue ST-Philips.
- C'est la création de l'Alliance Crolles2 avec la construction d'une nouvelle
- unité de fabrication 300 mm, dans une salle blanche de 10.000 m², mais cette
- alliance n’a pas durer pour longtemps puisqu’en 2007 NXP (ex Philips Semiconduc
-tors) et Freescale (ex Motorola Semi-conducteur) quittent Crolles2.
- En cette même année ST et Intel créent une société commune nommée Numonyx
- regroupant ainsi leurs activités de mémoires flash.
- En avril 2008, ST détiendra 80% de la nouvelle société en créant une co-entrepr
-ise dans le domaine des technologies mobiles avec NXP Semiconductors et
- se lança quelques mois après dans le projet ST-NXP Wireless.
- En 2009, ST se lia à Ericsson sous le nom de ST-Ericsson tout en gardant
- les mêmes activités et tranchant les 20% que NXP détenait de l’union ST-NXP
- Wireless, cf fig:
+ rang mondial dans la fabrication des semi-conducteurs depuis 2005.
+ Elle comprend approximativement 51000 employés répartis dans plus de 15
+ sites de production (cf Fig 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Historique-de-STMicroelectronics"
+reference "fig:Principaux-sites-Production"
 
 \end_inset
 
-.
+), plus de 39 centres de R&D et plus de 78 bureaux de vente dans le monde.
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -187,17 +100,14 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-
-\emph on
+Principaux sites de production
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Historique-de-STMicroelectronics"
+name "fig:Principaux-sites-Production"
 
 \end_inset
 
 
-\emph default
-Historique du site de Rousset
 \end_layout
 
 \end_inset
@@ -208,8 +118,52 @@ Historique du site de Rousset
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Images/HistoriqueSiteRouset.PNG
-	width 100col%
+	filename /home/philippe/SVN/TeamWAR/PFE/Doc/Images/ST_Monde_Production.jpg
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ST propose divers groupes de produit, chaque groupe étant lui-même composé
+ de plusieurs divisions qui gèrent de façon autonome la conception, la fabricati
+on et la commercialisation de leurs produits (cf Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Divers-Groupes-Produit"
+
+\end_inset
+
+) :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Divers groupes de produit
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Divers-Groupes-Produit"
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -218,25 +172,9 @@ Historique du site de Rousset
 
 \begin_layout Plain Layout
 \align center
-
-\emph on
-Le schéma montre toutes les phases des changement d’actionnariat.
- Historique du site de Rousset.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Pour les réference il y a les étiquettes et les références croisés qui sont
- des étiquettes intelligente.
-\end_layout
+\begin_inset Graphics
+	filename ../Images/ST_ProductsGroup.jpg
+	width 70col%
 
 \end_inset
 
@@ -246,31 +184,60 @@ Pour les réference il y a les étiquettes et les références croisés qui sont
 \end_inset
 
 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-L'historique ne me semble pas pertinent dans ce rapport
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-STMicroelectronics dans le monde
 \end_layout
 
 \begin_layout Standard
-STMicroelectronics a une présence mondiale très large.
- La société emploie près de cinquante mille personnes qui sont réparties
- sur dix-sept sites de production principaux.
- Elle dénombre seize centres de Recherche et Développement avancé, trente-neuf
- centres de conception et d’application et quatre-vingt-huit bureaux de
- vente directe répartis dans trente et un pays.
- La carte suivante présente le positionnement des différents sites dans
- le monde.
+Voici quelques exemples d'application des produits semi-conducteurs et de
+ la technologie de ST dans la vie quotidinne (cf Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Exemple-Produits"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Exemple des produits
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Exemple-Produits"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ST_Products.jpg
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
