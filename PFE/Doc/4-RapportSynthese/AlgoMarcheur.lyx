@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -82,7 +82,11 @@ La recherche de solution déjà faite pour répondre à notre problèmatique
 \begin_layout Standard
 Dans notre cas un marcheur est un lot, les quartiers des villes sont des
  machines, les déscentes de police dans un quartier sont les tâches qualités
- (MSE
+ (
+\emph on
+MSE
+\emph default
+
 \begin_inset Foot
 status open
 
@@ -93,7 +97,11 @@ Mesure Sur Équipement
 \end_inset
 
 ), et les médecins qui contrôlent l'état de santé d'un marcheur sont des
- controles de lots (MSL
+ controles de lots (
+\emph on
+MSL
+\emph default
+
 \begin_inset Foot
 status open
 
@@ -127,6 +135,243 @@ La criminalité augmente de manière linéaire en fonction du nombre de marcheur
 \begin_layout Itemize
 Si un marcheur est sortie en bonne santé, alors le quartier n'est pas si
  dangereux et la criminalité redescend à niveau seuil.
+\end_layout
+
+\begin_layout Section
+Détail de l'algorithme
+\end_layout
+
+\begin_layout Standard
+L'algorithme se décompose en deux parties, tout d'abord on calcule la fiabilité
+ d'une machine, et ensuite on s'interesse à la fiabilité du lot.
+ Le calcule de la fiabilité de la machine permet de calculer la fiabilité
+ du lot (Cf Algorithme 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Algorithme-du-marcheur"
+
+\end_inset
+
+).
+ Cet algorithme tient compte des contrôles 
+\emph on
+MSE
+\emph default
+ et des 
+\emph on
+MSL
+\emph default
+, qui sont les deux leviers possibles pour améliorer la qualité des produits.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+placement h
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "tabsize=4"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Algorithm Marcheur	
+\end_layout
+
+\begin_layout Plain Layout
+
+	for each batch in ListOfBatchs 
+\end_layout
+
+\begin_layout Plain Layout
+
+	Do
+\end_layout
+
+\begin_layout Plain Layout
+
+		for each tracability in batch.tracabilities 
+\end_layout
+
+\begin_layout Plain Layout
+
+		Do
+\end_layout
+
+\begin_layout Plain Layout
+
+			if tracability is a MSL operation then
+\end_layout
+
+\begin_layout Plain Layout
+
+				batch.fiability = DEFAULT_FIABILITY_BATCH
+\end_layout
+
+\begin_layout Plain Layout
+
+				setFiability(tracability.previousWorkstation) = DEFAULT_FIABILITY_WORKSTATION
+\end_layout
+
+\begin_layout Plain Layout
+
+			end if
+\end_layout
+
+\begin_layout Plain Layout
+
+			batch.fiability= batch.fiability * calculateWorkstationFiability(tracability.Wor
+kstation)
+\end_layout
+
+\begin_layout Plain Layout
+
+		End for
+\end_layout
+
+\begin_layout Plain Layout
+
+	End for
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:Algorithme-du-marcheur"
+
+\end_inset
+
+Algorithme du marcheur en séquentiel
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float algorithm
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset listings
+lstparams "tabsize=4"
+inline false
+status open
+
+\begin_layout Plain Layout
+
+Algorithm du calcule de la fiabilité de la machine	
+\end_layout
+
+\begin_layout Plain Layout
+
+	set(FIABILITY_MIN_WORSKATION)
+\end_layout
+
+\begin_layout Plain Layout
+
+	for each tracability in Workstation.tracabilities
+\end_layout
+
+\begin_layout Plain Layout
+
+	Do
+\end_layout
+
+\begin_layout Plain Layout
+
+		if tracability.event is a control operation (MSE or MSL) then
+\end_layout
+
+\begin_layout Plain Layout
+
+			Workstation.fiability=DEFAULT_FIABILITY_WORKSTATION
+\end_layout
+
+\begin_layout Plain Layout
+
+		else
+\end_layout
+
+\begin_layout Plain Layout
+
+			Workstation.fiability=DEFAULT_FIABILITY_WORKSTATION
+\end_layout
+
+\begin_layout Plain Layout
+
+									- countNBEventsSinceLastControl(Workstation) * DISTURBANCE_WORSTATION_P
+ER_EVENT
+\end_layout
+
+\begin_layout Plain Layout
+
+		End if
+\end_layout
+
+\begin_layout Plain Layout
+
+		return max(Workstation.fiability,FIABILITY_MIN_WORSKATION)
+\end_layout
+
+\begin_layout Plain Layout
+
+	End for
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:Algorithme-Wokstation"
+
+\end_inset
+
+Algorithme du calcul de fiabilité de la machine
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Implémentation de l'algorithme
+\end_layout
+
+\begin_layout Standard
+Afin d'implémenter 
 \end_layout
 
 \end_body
