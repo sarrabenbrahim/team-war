@@ -1,0 +1,463 @@
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Bilan sur l'état de l'art
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+En gros, ça ressemblera beaucoup à notre conclusion du rapport intermédiaire.
+ Mais cette fois il faut plus argumenter sur le rejet de toute les autres
+ solutions afin d'introduire la 3e partie sur le développement de l'algo
+ du marcheur.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Durant notre étude de l’art nous avons pu traiter différents documents qui
+ se rapproche plus ou moins de notre sujet mais qui avaient toutes un rapport
+ avec ce dernier.
+ Dans ce qui suit nous allons vous présenter les résultats de l’étude de
+ l’art ainsi les motivations pour retenir ou non une méthode et par la suite
+ l’approfondir et l’appliquer a notre étude : 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+La démarche AMDEC : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+une démarche qualitative et quantitative qui se traduit par l’analyse des
+ modes de défaillance de leurs effets et de leurs criticités.
+ 
+\end_layout
+
+\begin_layout Itemize
+Elle repose sur une décomposition fonctionnelle de la machine, une identificatio
+n des modes de défaillances afin de les classés ainsi que des méthodes de
+ détection des de défaillances et des actions préventives ou correctives.
+ 
+\end_layout
+
+\begin_layout Itemize
+L’avantage de cette démarche est d’évaluer et de garantir : la fiabilité,
+ la maintenabilité, la disponibilité, la sécurité, le rendement maximum
+ au moindre cout.
+ Par contre cette démarche ne permet pas de combiner plusieurs défaillances,
+ en effet elle ne peut detecter qu'une défaillance à la fois.
+\end_layout
+
+\begin_layout Standard
+En conclusion nous n’allons pas utiliser cette démarche pour la suite de
+ notre étude car ce type d'étude requiert un niveau de détail beaucoup trop
+ important pour une production de ce type (non liénaire, multi produits,
+ grand nombre d'étape de fabrication).
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\bar under
+L’étude de la gestion du risque : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cette étude pour la détection et la réduction du risque rentre dans la préventio
+n des phénomènes dangereux, elle a pour objectif d’apprécier le risque et
+ de le réduire 
+\end_layout
+
+\begin_layout Itemize
+Une démarche complète et entière, consiste en une action en amont qui gère
+ et corrige le risque en aval.
+\end_layout
+
+\begin_layout Standard
+Cette étude peut être intéressante car elle a pour finalité de réduire le
+ risque, malgré ceci c’est une démarche très longue et qui exige une connaissanc
+e parfaite des machines, donc vu les contrainte de temps que nous avons-nous
+ ne retiendrons pas cette études pour la suite de notre projet.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\bar under
+L'article 
+\begin_inset Quotes fld
+\end_inset
+
+le plan de controle optimisé en se basant sur le risque
+\begin_inset Quotes frd
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cet article propose une méthode pour élaborer un plan de contrôle en 2 étapes
+ : d’abord consiste à identifier les risques possibles et de faire une répartiti
+on de risque et puis à ajuster le plan construit en ajoutant ou en supprimant
+ des contrôles selon la capacité.
+ 
+\end_layout
+
+\begin_layout Itemize
+Cette méthode a pour inconvénient de devoir définir au préalable tous les
+ types de risque et la capacité des ressources de contrôle .
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\bar under
+L’article « An Approach for Operational Risk Evaluation and its Link to
+ Control Plan » 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Un article qui a pour idée d’évaluer les risques des machines, en effet
+ a chaque traitement la fiabilité du processus diminue (c’est l’usure de
+ la machine) jusqu’à la tache de qualité (maintenance) 
+\end_layout
+
+\begin_layout Itemize
+Son avantage est de réduire fortement le risque du processus.
+ D’autre part cette méthode a pour inconvénient la proportionnalité de la
+ réduction du risque par rapport au nombre de plan de contrôle.
+ 
+\end_layout
+
+\begin_layout Standard
+Cette méthode très gourmande en arrêt de la chaine de production lors des
+ plans de contrôle ne sera pas développée par la suite car elle est industrielle
+ment infaisable.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\bar under
+L’article « Optimizing Return On Inspection Trough Defectivity Smart Sampling
+ » : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Évoque une méthode d’échantillonnage “intelligente” permettant d’identifier
+ les produits qui ont besoins de contrôle sans la perte d’information 
+\end_layout
+
+\begin_layout Itemize
+Son avantage est de réduire le nombre de contrôle non nécessaire par contre
+ les résultats ne sont pas suffisant par rapport aux exigences industrielles
+ 
+\end_layout
+
+\begin_layout Standard
+Cette méthode ne sera pas retenue même les résultats sont intéressants.
+ En effet cette approche ne permet pas réduire les risques en défectivité
+ mais seulement l'échantillonnage pour la mesure.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\bar under
+L’article « Computation of Wafer-At-Risk from Theory To Real Life Demonstartion»
+: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Introduit une méthode d’évaluation des risques et d’optimisation de l’utilisatio
+n des équipements de contrôle en introduisant les indicateurs W@R et W@R-Réducti
+on 
+\end_layout
+
+\begin_layout Itemize
+Son avantage est de réduire fortement le risque presque en temps réel par
+ contre elle est complexe et sa faisabilité reste à prouver.
+ 
+\end_layout
+
+\begin_layout Standard
+Malgré des promesses de grandes réduction de risque, nous ne pouvons pas
+ nous engager sur sa fiabilité ni sur son utilisation dans notre étude,
+ donc nous ne l’utiliserons pas.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\bar under
+La présentation 
+\begin_inset Quotes fld
+\end_inset
+
+Operational risk evaluation and control plan design
+\begin_inset Quotes frd
+\end_inset
+
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cette approche d'évaluation des risques est basée sur l'évolution du 
+\begin_inset Quotes fld
+\end_inset
+
+Potential Loss
+\begin_inset Quotes frd
+\end_inset
+
+ (défectivité potentielle).
+ 
+\end_layout
+
+\begin_layout Itemize
+Cette évolution est supposée linéairement croissante avec le nombre d'exécution
+ (traitement par la machine), sans contrôle, sur un horizon donné.
+ Ce risque potentiel est réinitialisé, à une valeur seuil, après chaque
+ tâche de contrôle ou de maintenance.
+ 
+\end_layout
+
+\begin_layout Itemize
+L'évolution du 
+\begin_inset Quotes fld
+\end_inset
+
+Potential Loss
+\begin_inset Quotes frd
+\end_inset
+
+ dépend de la gestion (planification) des tâches de qualité et de maintenance.
+ De plus s'ajoute à cela une fonction d'évaluation de la valeur ajoutée
+ des tâches de contrôles mises en place afin de déterminer la bonne planificatio
+n de ces tâches pour un résultat optimal du risque.
+\end_layout
+
+\begin_layout Standard
+Cependant ce support de présentation n'apporte pas plus information pour
+ être retenu comme solution de notre problème.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\bar under
+La méthode D3 : 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cette méthode est quantitative basée sur l’analyse systématique d’ensemble
+ de produit, en effet elle est décrite sous la forme d’un algorithme qui
+ cherche les produits défectueux en optimisant le nombre de test.
+ 
+\end_layout
+
+\begin_layout Itemize
+Cette méthode est programmable et a priori correspond au sujet.
+ Son inconvénient et qu’elle demande beaucoup de tests et donc systématique.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Nous avons décidé de garder cette méthode au début, mais une fois que nous
+ avons commencé à faire la correspondance avec notre étude, nous nous sommes
+ rendu compte que cette dernière demande beaucoup de tests dans le cas ou
+ dans le premier échantillon il n’y a aucun éléments défectueux, de plus
+ nous avons une taille de lot fixe et nous ne pouvons faire des tests simultanés
+ sur plusieurs lots et finalement cette méthode imposera l'arrêt de la productio
+n plusieurs fois afin de prélever l'échantillons à tester, la taille de
+ ce dernier peut devenir trés grande.
+ Cette méthode s'applique dans un cadres ou la taille de l'échantillon n'est
+ pas fixe et que le contrôle n'en est pas pertubé
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Dans le cadre d'une analyse épidémologique par exemple, tester un échantillon
+ de sang d'une personne ou cent personnes ne fait pas de différence dans
+ le cas de la recherche d'un virus dans une population
+\end_layout
+
+\end_inset
+
+.
+ Malheuresement les contraintes fortes liés au contrôle des lots nous empêchent
+ d'avoir des contrôles des tailles de lot de plus en plus importante.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cette abscence de solution concrète dans cette industrie, nous a poussé
+ à développer notre propre méthode de détection.
+ 
+\end_layout
+
+\begin_layout Standard
+L'idée étant d'utiliser nos contraintes pour développer notre propre algorithme
+ de calcul, nous détaillerons cet algorithme ainsi que ces résultats dans
+ la partie suivante.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+si j'ai oublié des choses ou d'autre arguments rajoutez les SVP
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

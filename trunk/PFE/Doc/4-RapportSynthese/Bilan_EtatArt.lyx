@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -78,10 +78,6 @@ Durant notre étude de l’art nous avons pu traiter différents documents qui
 \end_inset
 
 
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \end_layout
 
 \begin_layout Itemize
@@ -121,10 +117,6 @@ En conclusion nous n’allons pas utiliser cette démarche pour la suite de
 \end_inset
 
 
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -152,18 +144,6 @@ Cette étude peut être intéressante car elle a pour finalité de réduire le
 e parfaite des machines, donc vu les contrainte de temps que nous avons-nous
  ne retiendrons pas cette études pour la suite de notre projet.
  
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -201,10 +181,6 @@ Cette méthode a pour inconvénient de devoir définir au préalable tous les
 \end_inset
 
 
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -234,10 +210,6 @@ Cette méthode très gourmande en arrêt de la chaine de production lors des
  plans de contrôle ne sera pas développée par la suite car elle est industrielle
 ment infaisable.
  
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -273,10 +245,6 @@ Cette méthode ne sera pas retenue même les résultats sont intéressants.
 \end_inset
 
 
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -304,10 +272,6 @@ Son avantage est de réduire fortement le risque presque en temps réel par
 Malgré des promesses de grandes réduction de risque, nous ne pouvons pas
  nous engager sur sa fiabilité ni sur son utilisation dans notre étude,
  donc nous ne l’utiliserons pas.
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \begin_inset VSpace bigskip
 \end_inset
 
@@ -373,10 +337,6 @@ Cependant ce support de présentation n'apporte pas plus information pour
 \end_inset
 
 
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \end_layout
 
 \end_deeper
@@ -427,10 +387,6 @@ Dans le cadre d'une analyse épidémologique par exemple, tester un échantillon
  Malheuresement les contraintes fortes liés au contrôle des lots nous empêchent
  d'avoir des contrôles des tailles de lot de plus en plus importante.
  
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \begin_inset VSpace bigskip
 \end_inset
 

@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -195,7 +195,7 @@ Rapport d'Étude
 
 
 \emph on
-Détermination d'un Wafer à Risque dans une ligne de production 
+Recherche de méthode d'estimation de volume de production à risque
 \begin_inset Quotes frd
 \end_inset
 
@@ -332,41 +332,6 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-prefix "W@F"
-symbol "W@F"
-description "Waffer at Risk  "
-
-\end_inset
-
-
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-prefix "SCRUM"
-symbol "SCRUM"
-description "Méthode de gestion de projet Agile"
-
-\end_inset
-
-
-\begin_inset CommandInset nomenclature
-LatexCommand nomenclature
-prefix "FIFO"
-symbol "FIFO"
-description "First In First Out"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset nomencl_print
-LatexCommand printnomenclature
-
-\end_inset
-
 
 \end_layout
 

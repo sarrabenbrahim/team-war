@@ -1,0 +1,210 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Cahier des charges
+\end_layout
+
+\begin_layout Section
+Fonctionnement actuel de l'entreprise
+\end_layout
+
+\begin_layout Standard
+La pratique actuelle de STMicroelectronics consiste à compter le nombre
+ de plaques de silicium travaillées entre deux mesures.
+ Ce comptage peut être référencé à une machine de production ou à une technologi
+e et il ne prend pas en compte les paramètres des plaques.
+\end_layout
+
+\begin_layout Standard
+Le cycle de production moyen est de trois mois, tracé par un système GPAO.
+ La production est du type 
+\begin_inset Quotes fld
+\end_inset
+
+jobshop
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Production en atelier, mouvement brownien des produits dans le cycle de
+ production.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes frd
+\end_inset
+
+ par lots de 25 plaques de silicium.
+ Ce dernier ne suit pas le principe FIFO 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+First In First Out
+\end_layout
+
+\end_inset
+
+ ce qui constitue une des difficultés majeure de cette étude.
+\end_layout
+
+\begin_layout Standard
+Il existe deux types de contrôle pour assurer les volumes de production
+ à risque :
+\end_layout
+
+\begin_layout Itemize
+Contrôle de qualité sur des plaques de silicium
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Contrôle du produit par échantillonage
+\end_layout
+
+\end_inset
+
+ travaillées à l'aide des appareils de métrologie.
+ Ce type de contrôle est très onéreux et nécessite de quelques heures pour
+ contrôler seulement 3 plaques.
+\end_layout
+
+\begin_layout Itemize
+Contrôle de fiabilité des machines de production, c'est une tâche de maintenance
+ périodique qui consiste à vérifier son bon fonctionnement à l'aide d'une
+ plaque de silicium vierge.
+ Ce type de contrôle n'est pas onéreux ni trop long mais qui engendre l'indispon
+ibilité de la machine de production.
+\end_layout
+
+\begin_layout Standard
+Les règles de contrôle sont basées sur l'expérience des contremaîtres, par
+ pifométrie.
+\end_layout
+
+\begin_layout Section
+Mission du PFE
+\end_layout
+
+\begin_layout Standard
+Le coût de la non-qualité est souvent l'ancre qui peut faire couler une
+ entreprise.
+ D'une part, par son coût important qui ne rentre pas dans la valeur ajoutée,
+ et puis aussi par son impacte sur le marché concurrentiel.
+\end_layout
+
+\begin_layout Standard
+Notre travail consiste à rechercher une ou des solutions susceptibles d'améliore
+r la gestion des contrôles et de pouvoir maîtriser la production à risque.
+\end_layout
+
+\begin_layout Standard
+La mission telle qu'elle est mentionnée dans le cahier des charges du client
+ est la suivante : « Le travail consistera en une étude de faisabilité sur
+ l'évaluation des 'wafer@risk'
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Quotes fld
+\end_inset
+
+Wafers At Risk
+\begin_inset Quotes frd
+\end_inset
+
+ (W@R) est un indicateur qui represente le nombre de plaques traitées sur
+ un équipement depuis la dernière tâche de contrôle.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+En principe, notre mission se limite à la recherche des solutions et l'étude
+ de leur faisabilité.
+ Etant donné le domaine d'étude risque d'être limité en source d'information
+ due à la confidentialité et à la spécificité du domaine d'activité (micro-élect
+ronique).
+ Nous serons peut-être amener à imaginer notre propre solution.
+\end_layout
+
+\begin_layout Section
+Plan de l'étude
+\end_layout
+
+\begin_layout Standard
+Une étude préliminaire pour balayer le sujet et les pistes de recherche
+ d'information possibles.
+ Ce qui nous amène à l'étude de l'art, une sorte de travail de 
+\emph on
+Benchmarking
+\emph default
+.
+ A partir du bilan de cette étude, de fouille d'information, nous essaierons
+ de trier et de garder les solutions pertinentes pour une étude plus appronfondi
+e.
+ Dans le cas où l'état de l'art ne permet pas de répondre pertinemment à
+ nos attentes.
+ Une tentative solution sera développer par notre équipe pour répondre à
+ notre problème d'optimisation, suivi de la phase de simulation et de validation
+ de la solution.
+\end_layout
+
+\end_body
+\end_document

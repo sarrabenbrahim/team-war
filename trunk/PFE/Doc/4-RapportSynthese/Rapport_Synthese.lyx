@@ -171,7 +171,7 @@ Rapport de Synthèse
 
 
 \emph on
-Détermination d'un Wafer à Risque dans une ligne de production 
+Recherche de méthode d'estimation de volume de production à risque
 \begin_inset Quotes frd
 \end_inset
 
@@ -291,7 +291,7 @@ Claudia Frydmann
 \end_layout
 
 \begin_layout Author
-Mercredi 12 Janvier 2011
+Mercredi 19 Janvier 2011
 \begin_inset Newline newline
 \end_inset
 
@@ -389,7 +389,7 @@ name "par:Développement-de-notre"
 
 \end_inset
 
-Développement de notre solution
+Développement de la solution
 \end_layout
 
 \begin_layout Standard
@@ -405,7 +405,7 @@ filename "AlgoMarcheur.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "Bilan_Etude.lyx"
+filename "AlgoMarcheur_Bilan.lyx"
 
 \end_inset
 
