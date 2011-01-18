@@ -118,7 +118,7 @@ name "fig:Principaux-sites-Production"
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/SVN/TeamWAR/PFE/Doc/Images/ST_Monde_Production.jpg
+	filename ../Images/ST_Monde_Production.jpg
 	width 70col%
 
 \end_inset

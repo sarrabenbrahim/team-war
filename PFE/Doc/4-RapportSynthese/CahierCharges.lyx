@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -52,24 +52,79 @@ Cahier des charges
 \end_layout
 
 \begin_layout Section
-Etude de l'existant
+Fonctionnement actuel de l'entreprise
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
+La pratique actuelle de STMicroelectronics consiste à compter le nombre
+ de plaques de silicium travaillées entre deux mesures.
+ Ce comptage peut être référencé à une machine de production ou à une technologi
+e et il ne prend pas en compte les paramètres des plaques.
+ Le cycle de production moyen est de trois mois, tracé par un système GPAO.
+ La production est du type 
+\begin_inset Quotes fld
+\end_inset
+
+jobshop
+\begin_inset Foot
+status collapsed
 
 \begin_layout Plain Layout
-Résumé du fonctionnement actuelle chez STMicroelectronics.
+Production en atelier, mouvement brownien des produits dans le cycle de
+ production.
 \end_layout
 
 \end_inset
 
 
+\begin_inset Quotes frd
+\end_inset
+
+ par lots de 25 plaques de silicium.
+ Ce dernier ne suit pas le principe FIFO 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+First In First Out
+\end_layout
+
+\end_inset
+
+ ce qui constitue une des difficultés majeure de cette étude.
+\end_layout
+
+\begin_layout Standard
+Il existe deux types de contrôle pour assurer les volumes de production
+ à risque :
+\end_layout
+
+\begin_layout Itemize
+Contrôle de qualité sur des plaques de silicium
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Contrôle du produit par échantillonage
+\end_layout
+
+\end_inset
+
+ travaillées (contrôle en aval) à l'aide des appareils de métrologie.
+ Ce type de contrôle est très onéreux et nécessite de quelques heures pour
+ contrôler seulement 3 plaques.
+\end_layout
+
+\begin_layout Itemize
+Contrôle de fiabilité des machines de production (contrôle en amont), c'est
+ une tâche de maintenance périodique qui consiste à vérifier son bon fonctionnem
+ent à l'aide d'une plaque de silicium vierge.
+ Ce type de contrôle n'est pas onéreux ni trop long mais qui engendre l'indispon
+ibilité de la machine de production.
 \end_layout
 
 \begin_layout Section
-Mission
+Mission du PFE
 \end_layout
 
 \begin_layout Standard
@@ -95,29 +150,19 @@ Le cahier de charge qui nous a été fournis est le suivant :
 \end_layout
 
 \begin_layout Standard
-Actuellement nous comptons le nombre de plaque de silicium travaillées entre
- deux contrôles (mesures).
- Ce comptage peut être référencé par rapport à une machine de production
- ou par rapport a une technologie.
-\end_layout
-
-\begin_layout Standard
-Ce comptage ne tient pas compte de l'existant de plusieurs types de paramètres
- ni de l'interaction potentielle entre paramètres.
- 
-\end_layout
-
-\begin_layout Standard
-Pour l'instant les mesures effectuées sur les plaques de production et les
- mesures sur les plaques de test liées aux qualifications périodiques sont
- prises en compte de la même manière sans tenir compte de la signification
- de la mesure.
- Cette méthode ne nous permet pas de régler nos outils d'échantillonnage
- par rapport à un risque maximal garanti ».
+Les tâches de contrôle engendrent donc des coûts au niveau de la productivité
+ (indisponibilité) et aussi au niveau du personnel (temps alloué).
+ L'objectif de cette étude consiste donc à trouver un algorithme ou une
+ méthode pour optimiser la maîtrise des volumes de production à risque.
+ Cette optimisation tend à diminuer la fréquence des tâches de contrôle
+ tout en garantissant un taux de risque optimal (qualité).
+ Cette dernière permettrait également d'éviter des contrôles non nécessaires
+ sur certaines machines de production ou certaines technologies où le taux
+ de production à risque est négligeable.
 \end_layout
 
 \begin_layout Section
-Démarche
+Plan de l'étude
 \end_layout
 
 \begin_layout Standard
