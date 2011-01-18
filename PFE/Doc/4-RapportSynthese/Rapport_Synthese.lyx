@@ -378,12 +378,6 @@ Etat de l'art
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "EtatArt.lyx"
-
-\end_inset
-
 
 \end_layout
 
