@@ -1,4 +1,5 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -74,7 +75,7 @@ La recherche de solution déjà faite pour répondre à notre problématique
  contraintes et permettant d'effectuer une analyse des données pour déterminer
  les lots à contrôler.
  L'idée pour expliquer cet algorithme est assez simple.
- On cherche à déterminer la chance qu'a un marcheur de se faire attaquer
+ Nous cherchons à déterminer la chance qu'a un marcheur de se faire attaquer
  en marchant dans une grande ville.
  
 \end_layout
@@ -115,8 +116,8 @@ Mesure Sur Lot
 \end_layout
 
 \begin_layout Standard
-Ensuite on définit un indice de santé pour le marcheur, ou fiabilité pour
- le produit.
+Ensuite nous définissons un indice de santé pour le marcheur, ou fiabilité
+ pour le produit.
  Plus cet indice est proche de 
 \begin_inset Formula $0$
 \end_inset
@@ -146,9 +147,10 @@ Présentation générale
 \end_layout
 
 \begin_layout Standard
-L'algorithme se décompose de deux parties, tout d'abord on calcule la fiabilité
- d'une machine, et ensuite on s'intéresse à la fiabilité du lot.
- Le calcule de la fiabilité du lot prend en compte la fiabilité de la machine
+L'algorithme se décompose de deux parties, tout d'abord nous calculons la
+ fiabilité d'une machine, et ensuite nous nous intéressons à la fiabilité
+ du lot.
+ Le calcul de la fiabilité du lot prend en compte la fiabilité de la machine
  (Cf Algorithme 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -400,9 +402,9 @@ Choix du langage
 \end_layout
 
 \begin_layout Standard
-Afin de pouvoir valider notre algorithme nous avons décider de faire un
- prototype pour vérifier son fonctionnement.
- Le choix du language de la maquette s'est porté sur Java pour différentes
+Afin de pouvoir valider notre algorithme nous avons décidé de faire un prototype
+ pour vérifier son fonctionnement.
+ Le choix du langage de la maquette s'est porté sur Java pour différentes
  raisons :
 \end_layout
 
@@ -445,7 +447,7 @@ Package entities
 \end_layout
 
 \begin_layout Standard
-Ce paquetage contient les entitées virtuelles contenue dans l'usine.
+Ce paquetage contient les entités virtuelles contenues dans l'usine.
  Il y a la classe 
 \emph on
 Batch
@@ -454,7 +456,7 @@ Batch
 \emph on
 Workstation
 \emph default
- qui représent les différentes machines présente dans l'usine.
+ qui représente les différentes machines présentes dans l'usine.
  Chacune de ces classes contient sa mémoire propre et est capable de calculer
  sa fiabilité et/ou indice de santé (Cf Fig 
 \begin_inset CommandInset ref
@@ -483,7 +485,7 @@ name "fig:classe-Entities"
 
 \end_inset
 
-Diagramme de classe des différentes entitées
+Diagramme de classe des différentes entités
 \end_layout
 
 \end_inset
@@ -522,7 +524,7 @@ Classe Constants
 Cette classe contient toutes les constantes nécessaire au réglage de notre
  application.
  Ces connaissances faisant d'avantage référence au savoir faire métier,
- les valeurs que nous avons utilisé sont parfaitement arbitraire (Cf Fig
+ les valeurs que nous avons utilisé sont parfaitement arbitraires (Cf Fig
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -585,7 +587,7 @@ Package Extractors
 \end_layout
 
 \begin_layout Standard
-Dans cette classe se trouve absolument toutes les classes permettant l'interpret
+Dans cette classe se trouve absolument toutes les classes permettant l'interprét
 ation des données de l'usine et d'associer les bonnes instances d'objet
  en conséquent (Cf Fig 
 \begin_inset CommandInset ref
@@ -647,11 +649,11 @@ Résultats
 \end_layout
 
 \begin_layout Standard
-Le programme s'execute et analyse les 
+Le programme s'exécute et analyse les 
 \begin_inset Formula $400000$
 \end_inset
 
- évenements de l'usine, ce qui représente un mois de production.
+ évènements de l'usine, ce qui représente un mois de production.
  En sortie nous avons un fichier qui indique pour chaque produit son avancement
  dans la production et son indice de santé.
  
@@ -715,7 +717,7 @@ Optimisation du temps de calcul (Choisir un langage plus proche de la machine
 status open
 
 \begin_layout Plain Layout
-Le language C est un language particulièrement adapté dans ce type de problème
+Le langage C est un langage particulièrement adapté dans ce type de problème
 \end_layout
 
 \end_inset
@@ -724,7 +726,7 @@ Le language C est un language particulièrement adapté dans ce type de problèm
 \end_layout
 
 \begin_layout Itemize
-Rajout de paramètre, en effet le problème dans la réalité est plus complexe
+Rajout de paramètres, en effet le problème dans la réalité est plus complexe
  que notre modélisation.
  La fiabilité que nous prenons est dans la réalité dépendante de la technologie
  observée.
@@ -753,7 +755,7 @@ Dans notre projet toutes les machines ont le même poids pour le calcul de
 Interprétation des résultats, en effet il convient de définir au mieux l'interpr
 étation que nous pourrons faire des résultats.
  Le tout n'est pas d'obtenir des chiffres mais il convient de les comprendre.
- Dans cette idée on peut associer la fiabilité calculée avec un pourcentage
+ Dans cette idée nous pouvons associer la fiabilité calculée avec un pourcentage
  d'avancement de la fabrication du lot.
  
 \end_layout
