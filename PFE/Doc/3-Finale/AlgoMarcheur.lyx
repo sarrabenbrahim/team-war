@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -1093,7 +1093,6 @@ Diagramme de classe des objets entités
 	filename ../Images/ClasseEntity.dia
 	lyxscale 50
 	width 100col%
-	height 90theight%
 
 \end_inset
 
@@ -1425,12 +1424,20 @@ Cet ensemble de classe permet d'affecter les traçabilités au seins des bons
 \end_layout
 
 \begin_layout Section
-Resultats
+Résultats
 \end_layout
 
 \begin_layout Standard
 Pour représenter les résultats de l'algorithme.
- Nous représentons dans un graphique en deux dimensions 
+ Nous représentons dans un graphique en deux dimensions dans lequel on affiche
+ l'indice de santé en fonction de l'avancement du produit (cf Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Représentation-des-résultats"
+
+\end_inset
+
+) 
 \end_layout
 
 \begin_layout Standard
@@ -1440,9 +1447,16 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Représentation-des-résultats"
+
+\end_inset
+
 Représentation des résultats après calculs
 \end_layout
 
@@ -1456,6 +1470,15 @@ Représentation des résultats après calculs
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Sur l'axe des abscisses nous avons l'avancement du produit et l'axe des
+ ordonées représente l'indice de santé.
+ Chaque croix représente un produit à l'instant t.
 \end_layout
 
 \begin_layout Plain Layout
