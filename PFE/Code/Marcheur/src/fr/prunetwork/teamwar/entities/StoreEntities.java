@@ -8,6 +8,7 @@ import fr.prunetwork.teamwar.utilities.MyDate;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Vector;
 
@@ -58,5 +59,17 @@ public class StoreEntities {
     public static MyDate getFirstDate(){
           Vector<Tracability> vector=new Vector<Tracability>(tracabilitys);
           return vector.get(0).getDate();
+    }
+    public static Double getNumberMaxOfSteps(){
+        Double max = new Double(0);
+        for (Iterator<Batch> it = batchs.iterator(); it.hasNext();) {
+            Batch batch = it.next();
+            Double numberOfBachSteps =new Double(batch.getTracabilitys().size());
+            if (numberOfBachSteps>max){
+                max=numberOfBachSteps;
+            }
+
+        }
+        return max;
     }
 }
