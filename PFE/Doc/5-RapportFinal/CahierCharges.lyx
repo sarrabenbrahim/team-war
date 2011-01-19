@@ -108,7 +108,7 @@ Contrôle de qualité sur des plaques de silicium
 status collapsed
 
 \begin_layout Plain Layout
-Contrôle du produit par échantillonage
+Contrôle du produit par échantillonnage
 \end_layout
 
 \end_inset
@@ -162,7 +162,7 @@ Wafers At Risk
 \begin_inset Quotes frd
 \end_inset
 
- (W@R) est un indicateur qui represente le nombre de plaques traitées sur
+ (W@R) est un indicateur qui représente le nombre de plaques traitées sur
  un équipement depuis la dernière tâche de contrôle.
 \end_layout
 
@@ -178,7 +178,7 @@ Wafers At Risk
 \begin_layout Standard
 En principe, notre mission se limite à la recherche des solutions et l'étude
  de leur faisabilité.
- Etant donné le domaine d'étude risque d'être limité en source d'information
+ Étant donné le domaine d'étude risque d'être limité en source d'information
  due à la confidentialité et à la spécificité du domaine d'activité (micro-élect
 ronique).
  Nous serons peut-être amener à imaginer notre propre solution.
@@ -197,8 +197,7 @@ Benchmarking
 \emph default
 .
  A partir du bilan de cette étude, de fouille d'information, nous essaierons
- de trier et de garder les solutions pertinentes pour une étude plus appronfondi
-e.
+ de trier et de garder les solutions pertinentes pour une étude plus approfondie.
  Dans le cas où l'état de l'art ne permet pas de répondre pertinemment à
  nos attentes.
  Une tentative solution sera développer par notre équipe pour répondre à

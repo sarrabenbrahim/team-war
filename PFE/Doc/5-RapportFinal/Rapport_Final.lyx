@@ -390,6 +390,26 @@ Etat de l'art
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
+filename "Etude_Presentation_ST.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Dcube.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
 filename "Bilan_EtatArt.lyx"
 
 \end_inset
