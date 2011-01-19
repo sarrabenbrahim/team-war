@@ -676,9 +676,9 @@ Représentation des résultats après calculs
 
 \end_inset
 
-
+/home/garciaf/SVN/team-war/PFE/Doc
 \begin_inset Graphics
-	filename /home/garciaf/SVN/team-war/PFE/Doc/Images/GrapheDonnee.eps
+	filename ../Images/GrapheDonnee.eps
 	width 100col%
 
 \end_inset
