@@ -231,12 +231,10 @@ Responsable Gestion de Projet & Document
 
 \begin_layout Plain Layout
 Il met en place la méthode 
-\series bold
-\noun on
+\emph on
 SCRUM.
 
-\series default
-\noun default
+\emph default
  
 \end_layout
 
@@ -284,8 +282,7 @@ Développement
 
 \begin_layout Plain Layout
 Il a pour mission de manager la partie développement du 
-\series bold
-\noun on
+\emph on
 PFE
 \end_layout
 
@@ -345,10 +342,6 @@ Tableau récapitulatif des rôles
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
