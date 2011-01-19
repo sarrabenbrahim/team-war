@@ -400,7 +400,10 @@ Choix du langage
 \end_layout
 
 \begin_layout Standard
-Le choix de la maquette s'est porté sur Java pour différentes raisons :
+Afin de pouvoir valider notre algorithme nous avons décider de faire un
+ prototype pour vérifier son fonctionnement.
+ Le choix du language de la maquette s'est porté sur Java pour différentes
+ raisons :
 \end_layout
 
 \begin_layout Itemize
@@ -410,6 +413,7 @@ Clarté du langage.
 \begin_layout Itemize
 Projet n'étant qu'une maquette et ne servant qu'à la validation de notre
  algorithme.
+ La performance n'était donc pas une contrainte
 \end_layout
 
 \begin_layout Itemize
@@ -441,6 +445,28 @@ Package entities
 \end_layout
 
 \begin_layout Standard
+Ce paquetage contient les entitées virtuelles contenue dans l'usine.
+ Il y a la classe 
+\emph on
+Batch
+\emph default
+ qui représente un lot en production, il y a de plus la classe 
+\emph on
+Workstation
+\emph default
+ qui représent les différentes machines présente dans l'usine.
+ Chacune de ces classes contient sa mémoire propre et est capable de calculer
+ sa fiabilité et/ou indice de santé (Cf Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:classe-Entities"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -451,6 +477,12 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:classe-Entities"
+
+\end_inset
+
 Diagramme de classe des différentes entitées
 \end_layout
 
@@ -487,6 +519,21 @@ Classe Constants
 \end_layout
 
 \begin_layout Standard
+Cette classe contient toutes les constantes nécessaire au réglage de notre
+ application.
+ Ces connaissances faisant d'avantage référence au savoir faire métier,
+ les valeurs que nous avons utilisé sont parfaitement arbitraire (Cf Fig
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:classe-Constants"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -497,6 +544,12 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:classe-Constants"
+
+\end_inset
+
 Diagramme de classe des constantes
 \end_layout
 
@@ -532,6 +585,19 @@ Package Extractors
 \end_layout
 
 \begin_layout Standard
+Dans cette classe se trouve absolument toutes les classes permettant l'interpret
+ation des données de l'usine et d'associer les bonnes instances d'objet
+ en conséquent (Cf Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:classe-Extractor"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -541,6 +607,12 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:classe-Extractor"
+
+\end_inset
+
 Diagramme de classe des extractors
 \end_layout
 
@@ -571,6 +643,64 @@ Cet ensemble de classe permet d'affecter les traçabilités au seins des bons
 \end_layout
 
 \begin_layout Section
+Résultats 
+\end_layout
+
+\begin_layout Standard
+Le programme s'execute et analyse les 
+\begin_inset Formula $400000$
+\end_inset
+
+ évenements de l'usine, ce qui représente un mois de production.
+ En sortie nous avons un fichier qui indique pour chaque produit son avancement
+ dans la production et son indice de santé.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Représentation-des-résultats"
+
+\end_inset
+
+Représentation des résultats après calculs
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/garciaf/SVN/team-war/PFE/Doc/Images/GrapheDonnee.eps
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Sur l'axe des abscisses nous avons l'avancement du produit et l'axe des
+ ordonées représente l'indice de santé.
+ Chaque croix représente un produit à l'instant t.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Pistes d'amélioration
 \end_layout
 
@@ -580,8 +710,17 @@ Différentes pistes potentielles sont à considérer pour l'implémentation
 \end_layout
 
 \begin_layout Itemize
-Optimisation du temps de calcul (Choisir un langage plus proche de la machine,
- optimisation des boucles, diminution du niveau de complexité de l'algorithme)
+Optimisation du temps de calcul (Choisir un langage plus proche de la machine
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Le language C est un language particulièrement adapté dans ce type de problème
+\end_layout
+
+\end_inset
+
+, optimisation des boucles, diminution du niveau de complexité de l'algorithme)
 \end_layout
 
 \begin_layout Itemize
@@ -620,8 +759,8 @@ Interprétation des résultats, en effet il convient de définir au mieux l'inte
 \end_layout
 
 \begin_layout Itemize
-Le paramétrage des machines pourrait se faire de manière plus personnalisé
- en fonction de l'historique de la machine.
+Le paramétrage des machines pourrait se faire de manière plus fine en fonction
+ de l'historique de la machine.
  Le Seuil minimal, le coefficient de dérèglement et la fiabilité par défaut
  de la machine.
  (Rentrer ces données à la main est impossible à cause du nombre d'entrée

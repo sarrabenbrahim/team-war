@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -53,7 +53,7 @@ Bilan sur l'état de l'art
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 En gros, ça ressemblera beaucoup à notre conclusion du rapport intermédiaire.
@@ -74,29 +74,19 @@ Durant notre étude de l’art nous avons pu traiter différents documents qui
  Dans ce qui suit nous allons vous présenter les résultats de l’étude de
  l’art ainsi les motivations pour retenir ou non une méthode et par la suite
  l’approfondir et l’appliquer a notre étude : 
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \end_layout
 
-\begin_layout Itemize
-
-\bar under
+\begin_layout Section
 La démarche AMDEC : 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 une démarche qualitative et quantitative qui se traduit par l’analyse des
  modes de défaillance de leurs effets et de leurs criticités.
  
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 Elle repose sur une décomposition fonctionnelle de la machine, une identificatio
 n des modes de défaillances afin de les classés ainsi que des méthodes de
@@ -112,81 +102,44 @@ L’avantage de cette démarche est d’évaluer et de garantir : la fiabilité,
  en effet elle ne peut detecter qu'une défaillance à la fois.
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 En conclusion nous n’allons pas utiliser cette démarche pour la suite de
  notre étude car ce type d'étude requiert un niveau de détail beaucoup trop
  important pour une production de ce type (non liénaire, multi produits,
  grand nombre d'étape de fabrication).
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-
-\bar under
-L’étude de la gestion du risque : 
+\begin_layout Section
+L’étude de la gestion du risque 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Cette étude pour la détection et la réduction du risque rentre dans la préventio
 n des phénomènes dangereux, elle a pour objectif d’apprécier le risque et
  de le réduire 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 Une démarche complète et entière, consiste en une action en amont qui gère
  et corrige le risque en aval.
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 Cette étude peut être intéressante car elle a pour finalité de réduire le
  risque, malgré ceci c’est une démarche très longue et qui exige une connaissanc
 e parfaite des machines, donc vu les contrainte de temps que nous avons-nous
  ne retiendrons pas cette études pour la suite de notre projet.
  
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-
-\bar under
-L'article 
-\begin_inset Quotes fld
-\end_inset
-
-le plan de controle optimisé en se basant sur le risque
-\begin_inset Quotes frd
-\end_inset
-
-:
+\begin_layout Section
+Plan de controle optimisé en se basant sur le risque
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 Cet article propose une méthode pour élaborer un plan de contrôle en 2 étapes
  : d’abord consiste à identifier les risques possibles et de faire une répartiti
 on de risque et puis à ajuster le plan construit en ajoutant ou en supprimant
@@ -194,34 +147,33 @@ on de risque et puis à ajuster le plan construit en ajoutant ou en supprimant
  
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 Cette méthode a pour inconvénient de devoir définir au préalable tous les
- types de risque et la capacité des ressources de contrôle .
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
+ types de risque et la capacité des ressources de contrôle 
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Section
+An Approach for Operational Risk Evaluation and its Link to Control Plan
+ 
+\begin_inset OptArg
+status open
 
-\bar under
-L’article « An Approach for Operational Risk Evaluation and its Link to
- Control Plan » 
+\begin_layout Plain Layout
+Risk evaluation and control plan
 \end_layout
 
-\begin_deeper
+\end_inset
+
+ 
+\end_layout
+
 \begin_layout Itemize
 Un article qui a pour idée d’évaluer les risques des machines, en effet
  a chaque traitement la fiabilité du processus diminue (c’est l’usure de
  la machine) jusqu’à la tache de qualité (maintenance) 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 Son avantage est de réduire fortement le risque du processus.
  D’autre part cette méthode a pour inconvénient la proportionnalité de la
@@ -229,107 +181,89 @@ Son avantage est de réduire fortement le risque du processus.
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 Cette méthode très gourmande en arrêt de la chaine de production lors des
  plans de contrôle ne sera pas développée par la suite car elle est industrielle
 ment infaisable.
  
-\begin_inset VSpace bigskip
-\end_inset
+\end_layout
 
+\begin_layout Section
+Optimizing Return On Inspection Trough Defectivity Smart Sampling
+\begin_inset OptArg
+status open
 
-\begin_inset VSpace bigskip
+\begin_layout Plain Layout
+Defectivity Smart Sampling
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-
-\bar under
-L’article « Optimizing Return On Inspection Trough Defectivity Smart Sampling
- » : 
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
 Évoque une méthode d’échantillonnage “intelligente” permettant d’identifier
  les produits qui ont besoins de contrôle sans la perte d’information 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 Son avantage est de réduire le nombre de contrôle non nécessaire par contre
  les résultats ne sont pas suffisant par rapport aux exigences industrielles
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 Cette méthode ne sera pas retenue même les résultats sont intéressants.
  En effet cette approche ne permet pas réduire les risques en défectivité
  mais seulement l'échantillonnage pour la mesure.
- 
-\begin_inset VSpace bigskip
-\end_inset
+\end_layout
 
+\begin_layout Section
+Computation of Wafer-At-Risk from Theory To Real Life Demonstration
+\begin_inset OptArg
+status open
 
-\begin_inset VSpace bigskip
+\begin_layout Plain Layout
+Wafer at Risk
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-
-\bar under
-L’article « Computation of Wafer-At-Risk from Theory To Real Life Demonstartion»
-: 
-\end_layout
-
-\begin_deeper
 \begin_layout Itemize
 Introduit une méthode d’évaluation des risques et d’optimisation de l’utilisatio
 n des équipements de contrôle en introduisant les indicateurs W@R et W@R-Réducti
 on 
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 Son avantage est de réduire fortement le risque presque en temps réel par
  contre elle est complexe et sa faisabilité reste à prouver.
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 Malgré des promesses de grandes réduction de risque, nous ne pouvons pas
  nous engager sur sa fiabilité ni sur son utilisation dans notre étude,
  donc nous ne l’utiliserons pas.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-
-\bar under
-La présentation 
-\begin_inset Quotes fld
-\end_inset
-
+\begin_layout Section
 Operational risk evaluation and control plan design
-\begin_inset Quotes frd
-\end_inset
-
-:
 \end_layout
 
-\begin_deeper
+\begin_layout Subsection
+Support de Présentation 
+\end_layout
+
 \begin_layout Itemize
 Cette approche d'évaluation des risques est basée sur l'évolution du 
 \begin_inset Quotes fld
@@ -343,6 +277,7 @@ Potential Loss
  
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 Cette évolution est supposée linéairement croissante avec le nombre d'exécution
  (traitement par la machine), sans contrôle, sur un horizon donné.
@@ -366,27 +301,20 @@ Potential Loss
 n de ces tâches pour un résultat optimal du risque.
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 Cependant ce support de présentation n'apporte pas plus information pour
  être retenu comme solution de notre problème.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Section
+La méthode 
+\begin_inset Formula $D\text{³}$
+\end_inset
 
-\bar under
-La méthode D3 : 
+ 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Cette méthode est quantitative basée sur l’analyse systématique d’ensemble
  de produit, en effet elle est décrite sous la forme d’un algorithme qui
@@ -394,6 +322,7 @@ Cette méthode est quantitative basée sur l’analyse systématique d’ensembl
  
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 Cette méthode est programmable et a priori correspond au sujet.
  Son inconvénient et qu’elle demande beaucoup de tests et donc systématique.
@@ -426,15 +355,10 @@ Dans le cadre d'une analyse épidémologique par exemple, tester un échantillon
 .
  Malheuresement les contraintes fortes liés au contrôle des lots nous empêchent
  d'avoir des contrôles des tailles de lot de plus en plus importante.
- 
-\begin_inset VSpace bigskip
-\end_inset
+\end_layout
 
-
-\begin_inset VSpace bigskip
-\end_inset
-
-
+\begin_layout Section
+Conclusion de l'état de l'art
 \end_layout
 
 \begin_layout Standard

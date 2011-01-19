@@ -34,7 +34,8 @@ public class Batch {
     private static final double ARBITRATY_WORKSTATION_FIABILITY_VALUE = 0.5;
     private String name;
     private String technology;
-    private Collection<Tracability> tracabilitys = new ArrayList<Tracability>();
+    private Collection<Tracability> tracabilitys =
+            new ArrayList<Tracability>();
 
     public Batch(String name, String technology) {
         this.name = name;
@@ -79,7 +80,8 @@ public class Batch {
 
     public double simpleFiability() {
         double fiability = Constants.FIABILITY_DEFAULT_BATCH;
-        fiability = fiability * Math.pow(ARBITRATY_WORKSTATION_FIABILITY_VALUE, (double) getTracabilitys().size());
+        fiability *= Math.pow(ARBITRATY_WORKSTATION_FIABILITY_VALUE,
+                (double) getTracabilitys().size());
         return fiability;
     }
 
@@ -91,7 +93,9 @@ public class Batch {
                 if (tracability.getEvent().equalsIgnoreCase(Constants.BATCH_CONTROL)) {
                     fiability = Constants.FIABILITY_DEFAULT_BATCH;
                 } else {
-                    fiability *= StoreEntities.getWorkstation(tracability.getWorkstationID()).getFiabilityQualityTask(tracability.getDate());
+                    fiability *= StoreEntities.getWorkstation(
+                            tracability.getWorkstationID()).
+                            getFiabilityQualityTask(tracability.getDate());
                 }
             }
         }
@@ -103,7 +107,9 @@ public class Batch {
         for (Iterator<Tracability> it = tracabilitys.iterator(); it.hasNext();) {
             Tracability tracability = it.next();
             if (tracability.getDate().before(currentDate)) {
-                fiability *= StoreEntities.getWorkstation(tracability.getWorkstationID()).getFiabilityQualityTask(tracability.getDate());
+                fiability *= StoreEntities.getWorkstation(
+                        tracability.getWorkstationID()).
+                        getFiabilityQualityTask(tracability.getDate());
             }
         }
         return fiability;
@@ -116,11 +122,15 @@ public class Batch {
         for (Iterator<Tracability> it = tracabilitys.iterator(); it.hasNext();) {
             Tracability tracability = it.next();
             if (tracability.getDate().before(currentDate)) {
-                if ((tracability.getEvent().equalsIgnoreCase(Constants.BATCH_CONTROL)) && (!(previousTracibility == null))) {
+                if ((tracability.getEvent().equalsIgnoreCase(Constants.BATCH_CONTROL))
+                        && (!(previousTracibility == null))) {
                     fiability = Constants.FIABILITY_DEFAULT_BATCH;
-                    StoreEntities.getWorkstation(previousTracibility.getWorkstationID()).setDateLastControle(previousTracibility.getDate());
+                    StoreEntities.getWorkstation(
+                            previousTracibility.getWorkstationID()).setDateLastControle(previousTracibility.getDate());
                 } else {
-                    fiability *= StoreEntities.getWorkstation(tracability.getWorkstationID()).getFiabilityQualityTaskAndMSL(tracability.getDate());
+                    fiability *= StoreEntities.getWorkstation(
+                            tracability.getWorkstationID()).
+                            getFiabilityQualityTaskAndMSL(tracability.getDate());
                 }
             } else {
             }
@@ -134,10 +144,13 @@ public class Batch {
         for (Iterator<Tracability> it = tracabilitys.iterator(); it.hasNext();) {
             Tracability tracability = it.next();
             if (tracability.getDate().before(currentDate)) {
-                if (tracability.getEvent().equalsIgnoreCase(Constants.BATCH_CONTROL)) {
+                if (tracability.getEvent().equalsIgnoreCase(
+                        Constants.BATCH_CONTROL)) {
                     fiability = Constants.FIABILITY_DEFAULT_BATCH;
                 } else {
-                    fiability *= StoreEntities.getWorkstation(tracability.getWorkstationID()).getFiabilityMSEAndMSLSafe(tracability.getDate());
+                    fiability *= StoreEntities.getWorkstation(
+                            tracability.getWorkstationID()).
+                            getFiabilityMSEAndMSLSafe(tracability.getDate());
                 }
             }
         }

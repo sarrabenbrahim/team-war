@@ -35,12 +35,15 @@ import java.util.Vector;
 public class Workstation {
 
     private double fiabilityRandomLaw = Math.random();
-    private double disturbanceOfWorkStation = Constants.DISTURBANCE_WORSTATION_PER_EVENT;
+    private double disturbanceOfWorkStation =
+            Constants.DISTURBANCE_WORSTATION_PER_EVENT;
     private String name;
-    private Collection<Tracability> tracabilitys = new ArrayList<Tracability>();
-    private Collection<Tracability> ListOfControls= new ArrayList<Tracability>();
-
-    private double fiabilityQualityTask = Constants.FIABILITY_DEFAULT_WORKSTATION;
+    private Collection<Tracability> tracabilitys =
+            new ArrayList<Tracability>();
+    private Collection<Tracability> ListOfControls =
+            new ArrayList<Tracability>();
+    private double fiabilityQualityTask =
+            Constants.FIABILITY_DEFAULT_WORKSTATION;
     double fiabilityTQAndMSL = Constants.FIABILITY_DEFAULT_WORKSTATION;
 
     public Collection<Tracability> getListOfControls() {
@@ -109,15 +112,20 @@ public class Workstation {
      * Fonction which calculate the fiability thanks to the number of events 
      * since the last quality task
      * The operation done is this one :
-     *  fiabilityQualityTask = Math.max(fiabilityQualityTask, Constants.FIABILITY_MIN_WORSKATION);
+     *  fiabilityQualityTask = Math.max(fiabilityQualityTask,
+     *  Constants.FIABILITY_MIN_WORSKATION);
      * @param currentDate
      * @return
      */
     public double getFiabilityQualityTask(MyDate currentDate) {
 
-        fiabilityQualityTask = Constants.FIABILITY_DEFAULT_WORKSTATION - getNumberOfEventSinceLastQT(currentDate)
+        fiabilityQualityTask = Constants.FIABILITY_DEFAULT_WORKSTATION
+                - getNumberOfEventSinceLastQT(currentDate)
                 * Constants.DISTURBANCE_WORSTATION_PER_EVENT;
-        fiabilityQualityTask = fiabilityQualityTask < Constants.FIABILITY_MIN_WORSKATION ? Constants.FIABILITY_MIN_WORSKATION : fiabilityQualityTask;
+        fiabilityQualityTask = fiabilityQualityTask
+                < Constants.FIABILITY_MIN_WORSKATION
+                ? Constants.FIABILITY_MIN_WORSKATION
+                : fiabilityQualityTask;
         return fiabilityQualityTask;
     }
 
@@ -128,8 +136,13 @@ public class Workstation {
      */
     public double getFiabilityQualityTaskAndMSL(MyDate currentDate) {
 
-        fiabilityTQAndMSL = fiabilityTQAndMSL - getNumberOfEventSinceLastControl(currentDate) * Constants.DISTURBANCE_WORSTATION_PER_EVENT;
-        fiabilityTQAndMSL = fiabilityTQAndMSL < Constants.FIABILITY_MIN_WORSKATION ? Constants.FIABILITY_MIN_WORSKATION : fiabilityTQAndMSL;
+        fiabilityTQAndMSL = fiabilityTQAndMSL
+                - getNumberOfEventSinceLastControl(currentDate)
+                * Constants.DISTURBANCE_WORSTATION_PER_EVENT;
+        fiabilityTQAndMSL = fiabilityTQAndMSL
+                < Constants.FIABILITY_MIN_WORSKATION
+                ? Constants.FIABILITY_MIN_WORSKATION
+                : fiabilityTQAndMSL;
 
         return fiabilityTQAndMSL;
     }
@@ -139,10 +152,12 @@ public class Workstation {
         Date lastQualityTask;
         Double numberOfEvents = new Double(0);
 
-        for (Iterator<Tracability> it = getTracabilitys().iterator(); it.hasNext();) {
+        for (Iterator<Tracability> it = getTracabilitys().iterator();
+                it.hasNext();) {
             Tracability tracability = it.next();
             if (tracability.getDate().before(currentDate)) {
-                if (tracability.getEvent().equalsIgnoreCase(Constants.QUALITYTASK)) {
+                if (tracability.getEvent().equalsIgnoreCase(
+                        Constants.QUALITYTASK)) {
                     lastQualityTask = tracability.getDate();
                     numberOfEvents = new Double(0);
                 } else {
@@ -152,44 +167,54 @@ public class Workstation {
         }
         return numberOfEvents;
     }
-    public Double getFiabilityMSEAndMSLSafe(MyDate currentDate){
+
+    public Double getFiabilityMSEAndMSLSafe(MyDate currentDate) {
         getDateLastControle(currentDate);
-        Double nbEvents=getNumberOfEventSinceLastControl(currentDate);
-         fiabilityTQAndMSL = Math.max(Constants.FIABILITY_MIN_WORSKATION,Constants.FIABILITY_DEFAULT_WORKSTATION - nbEvents * Constants.DISTURBANCE_WORSTATION_PER_EVENT);
+        Double nbEvents = getNumberOfEventSinceLastControl(currentDate);
+        fiabilityTQAndMSL = Math.max(Constants.FIABILITY_MIN_WORSKATION,
+                Constants.FIABILITY_DEFAULT_WORKSTATION - nbEvents
+                * Constants.DISTURBANCE_WORSTATION_PER_EVENT);
         return fiabilityTQAndMSL;
     }
-        private void getDateLastControle(MyDate currentDate) {
 
-        MyDate lastQualityTask=null;
+    private void getDateLastControle(MyDate currentDate) {
+
+        MyDate lastQualityTask = null;
         Double numberOfEvents = new Double(0);
-        Iterator<Tracability> it=getListOfControls().iterator();
+        Iterator<Tracability> it = getListOfControls().iterator();
 
-            while ((it.hasNext()) && (lastQualityTask==null)) {
-                Tracability tracabilityBefor=it.next();
-                if(it.hasNext()){
-                    Tracability tracabilityAfter=it.next();
-                    if(tracabilityBefor.getDate().before(currentDate) && tracabilityAfter.getDate().after(currentDate)){
-                        lastQualityTask=tracabilityBefor.getDate();
+        while ((it.hasNext()) && (lastQualityTask == null)) {
+            Tracability tracabilityBefor = it.next();
+            if (it.hasNext()) {
+                Tracability tracabilityAfter = it.next();
+                if (tracabilityBefor.getDate().before(currentDate)
+                        && tracabilityAfter.getDate().after(currentDate)) {
+                    lastQualityTask = tracabilityBefor.getDate();
 
-                    }
-                }else{
-                    if(tracabilityBefor.getDate().before(currentDate))
-                          lastQualityTask=tracabilityBefor.getDate();
                 }
-
+            } else {
+                if (tracabilityBefor.getDate().before(currentDate)) {
+                    lastQualityTask = tracabilityBefor.getDate();
+                }
             }
-        if(lastQualityTask!=null) dateLastControle=lastQualityTask;
+
+        }
+        if (lastQualityTask != null) {
+            dateLastControle = lastQualityTask;
+        }
     }
 
-        /**
-         * @param currentDate
-         * @return
-         */
+    /**
+     * @param currentDate
+     * @return
+     */
     private Double getNumberOfEventSinceLastControl(MyDate currentDate) {
         Double numberOfEvents = new Double(0);
-        for (Iterator<Tracability> it = getTracabilitys().iterator(); it.hasNext();) {
+        for (Iterator<Tracability> it = getTracabilitys().iterator();
+                it.hasNext();) {
             Tracability tracability = it.next();
-            if ((tracability.getDate().before(currentDate)) && tracability.getDate().after(dateLastControle)) {
+            if ((tracability.getDate().before(currentDate))
+                    && tracability.getDate().after(dateLastControle)) {
                 numberOfEvents++;
             }
         }
