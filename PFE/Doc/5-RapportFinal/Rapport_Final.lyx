@@ -493,6 +493,30 @@ filename "GestionCouts.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
+LatexCommand include
+filename "../0-GestionCouts/InformationsFinancier.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "/home/garciaf/SVN/team-war/PFE/Doc/0-GestionCouts/Indicateurs.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Conclusion de l'étude
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
 LatexCommand input
 filename "Conclusion.lyx"
 
