@@ -1193,7 +1193,22 @@ Workstation
 \emph on
 tracabilies
 \emph default
- ce qui rend le calcul d'indice de santé plus facile à effectuer.
+ ce qui rend le calcul d'indice de santé plus facile à effectuer (détail
+ du code source en section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Classe-Workstation"
+
+\end_inset
+
+ et 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Classe-Batch"
+
+\end_inset
+
+).
  
 \end_layout
 

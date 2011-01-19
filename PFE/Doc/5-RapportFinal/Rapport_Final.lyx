@@ -445,11 +445,29 @@ filename "Conclusion.lyx"
 
 \end_layout
 
+\begin_layout Part
+Annexes
+\end_layout
+
 \begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "../../../Bibliographie/BiblioTeamWAR"
-options "plain"
+\begin_inset CommandInset include
+LatexCommand input
+filename "Annexe.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Code Source
+\end_layout
+
+\begin_layout Section
+Classe Batch
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Classe-Batch"
 
 \end_inset
 
@@ -458,8 +476,64 @@ options "plain"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand input
-filename "Annexe.lyx"
+LatexCommand verbatiminput
+filename "../../Code/Marcheur/src/fr/prunetwork/teamwar/entities/Batch.java"
+lstparams "caption={Classe Batch, contient à la fois les méthodes de calcul des fiabilités et la mémoire du lot},label={source:Batch}"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Classe Workstation
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Classe-Workstation"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand verbatiminput
+filename "../../Code/Marcheur/src/fr/prunetwork/teamwar/entities/Workstation.java"
+lstparams "caption={Classe Workstation, contient à la fois les méthodes de calcul des fiabilités et la mémoire de la machine},label={source:Workstation}"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Classe Marcheur
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Classe-Marcheur"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand verbatiminput
+filename "../../Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java"
+lstparams "caption={C'est à partir de cette classe que tout est excuté il appelle l'ensemble des méthodes et classes du programme.},label={source:Marcheur}"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "../../../Bibliographie/BiblioTeamWAR"
+options "plain"
 
 \end_inset
 

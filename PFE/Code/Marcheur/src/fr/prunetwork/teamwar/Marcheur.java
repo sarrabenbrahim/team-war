@@ -51,7 +51,7 @@ public class Marcheur {
 
     public Marcheur() {
         fichier = Constants.SHORT_FILE;
- //       fichier = Constants.LONG_FILE;
+        //       fichier = Constants.LONG_FILE;
         sdtf = new StoreDataToFile("./ResultForExcel.txt");
 
         tracabilitys = ExtractDataFromFile.createTracabilityCollection(fichier);
@@ -62,7 +62,8 @@ public class Marcheur {
         be = new BatchExtractor(tracabilitys);
         batchs = be.extract();
 
-        BatchAndWorkstationLinkExtractor batchAndWorkstationLinkExtractor= new BatchAndWorkstationLinkExtractor();
+        BatchAndWorkstationLinkExtractor batchAndWorkstationLinkExtractor =
+                new BatchAndWorkstationLinkExtractor();
         batchAndWorkstationLinkExtractor.link();
         Double maxNumberOfSteps = StoreEntities.getNumberMaxOfSteps();
         MyDate lastDate = StoreEntities.getLastDate();
@@ -73,12 +74,15 @@ public class Marcheur {
         for (Iterator<Batch> it = batchs.iterator(); it.hasNext();) {
             Batch batch = it.next();
 
-            DecimalFormat decimalFormat=new DecimalFormat();
-            decimalFormat.setMaximumFractionDigits ( 4 ) ; //arrondi à 2 chiffres apres la virgules
-            decimalFormat.setMinimumFractionDigits ( 4 ) ;
-            Double percentOfavencement = new Double(batch.getTracabilitys().size()/maxNumberOfSteps);
-            sdtf.add(decimalFormat.format(batch.fiabilityMSLAndMSESafe(lastDate)) + ";" + decimalFormat.format(percentOfavencement) + "\n");
-            System.out.println("Nombre de batch traité :" + nunmberOfProcessDone++ + " / " + batchs.size());
+            DecimalFormat decimalFormat = new DecimalFormat();
+            decimalFormat.setMaximumFractionDigits(4); //arrondi à 2 chiffres apres la virgules
+            decimalFormat.setMinimumFractionDigits(4);
+            Double percentOfavencement =
+                    new Double(batch.getTracabilitys().size() / maxNumberOfSteps);
+            sdtf.add(decimalFormat.format(batch.fiabilityMSLAndMSESafe(lastDate))
+                    + ";" + decimalFormat.format(percentOfavencement) + "\n");
+            System.out.println("Nombre de batch traité :"
+                    + nunmberOfProcessDone++ + " / " + batchs.size());
         }
 
         try {
