@@ -36,7 +36,7 @@ import java.util.logging.Logger;
 /**
  *
  * @author jpierre03+teamwar@prunetwork.fr
- * @author garciaf
+ * @author GARCIA Fabien
  * @author NAIT BELKACEM Abdelali
  */
 public class Marcheur {
