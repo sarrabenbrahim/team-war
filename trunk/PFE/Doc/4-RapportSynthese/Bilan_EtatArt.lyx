@@ -52,249 +52,117 @@ Bilan sur l'état de l'art
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-En gros, ça ressemblera beaucoup à notre conclusion du rapport intermédiaire.
- Mais cette fois il faut plus argumenter sur le rejet de toute les autres
- solutions afin d'introduire la 3e partie sur le développement de l'algo
- du marcheur.
+Durant notre étude de l’art nous avons pu traiter différents documents qui
+ se rapproche plus ou moins de notre sujet.
+ Dans ce qui suit nous allons vous présenter les résultats de l’étude de
+ l’art ainsi que les motivations pour retenir ou non une méthode.
 \end_layout
 
+\begin_layout Section*
+Ouvrage 
+\begin_inset Quotes fld
+\end_inset
+
+Utilisation du jugement d'expert en sûreté de fonctionnement
+\begin_inset Quotes frd
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Durant notre étude de l’art nous avons pu traiter différents documents qui
- se rapproche plus ou moins de notre sujet mais qui avaient toutes un rapport
- avec ce dernier.
- Dans ce qui suit nous allons vous présenter les résultats de l’étude de
- l’art ainsi les motivations pour retenir ou non une méthode et par la suite
- l’approfondir et l’appliquer a notre étude : 
-\begin_inset VSpace bigskip
-\end_inset
-
-
+Une démarche qualitative et quantitative qui se traduit par l’analyse des
+ modes de défaillance de leurs effets et de leurs criticités (AMDEC).
 \end_layout
 
 \begin_layout Itemize
-
-\bar under
-La démarche AMDEC : 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-une démarche qualitative et quantitative qui se traduit par l’analyse des
- modes de défaillance de leurs effets et de leurs criticités.
- 
-\end_layout
-
-\begin_layout Itemize
-Elle repose sur une décomposition fonctionnelle de la machine, une identificatio
-n des modes de défaillances afin de les classés ainsi que des méthodes de
- détection des de défaillances et des actions préventives ou correctives.
- 
+Elle repose sur une décomposition fonctionnelle de la machine.
+ Elle permet d'identifier et de classer les modes de défaillances.
+ Afin de définir des actions préventives ou correctives adaptées.
 \end_layout
 
 \begin_layout Itemize
 L’avantage de cette démarche est d’évaluer et de garantir : la fiabilité,
- la maintenabilité, la disponibilité, la sécurité, le rendement maximum
+ la maintenabilité, la disponibilité, la sécurité et le rendement maximum
  au moindre cout.
  Par contre cette démarche ne permet pas de combiner plusieurs défaillances,
  en effet elle ne peut detecter qu'une défaillance à la fois.
 \end_layout
 
 \begin_layout Standard
-En conclusion nous n’allons pas utiliser cette démarche pour la suite de
- notre étude car ce type d'étude requiert un niveau de détail beaucoup trop
- important pour une production de ce type (non liénaire, multi produits,
- grand nombre d'étape de fabrication).
-\begin_inset VSpace bigskip
+Conclusion, cette démarche n'est pas faisable pour notre cas d'étude car
+ elle requiert un niveau de détail beaucoup trop important pour une production
+ de ce type (non liénaire, multi produits, intéraction de nombreux paramètres
+ et grand nombre d'étape de fabrication).
+\end_layout
+
+\begin_layout Section*
+Dossier 
+\begin_inset Quotes fld
+\end_inset
+
+Principes généraux de gestion du risque
+\begin_inset Quotes frd
 \end_inset
 
 
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-
-\bar under
-L’étude de la gestion du risque : 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
 Cette étude pour la détection et la réduction du risque rentre dans la préventio
 n des phénomènes dangereux, elle a pour objectif d’apprécier le risque et
- de le réduire 
-\end_layout
-
-\begin_layout Itemize
-Une démarche complète et entière, consiste en une action en amont qui gère
- et corrige le risque en aval.
+ de le réduire.
+ C'est une démarche complète et entière, qui consiste à gérer et à corriger
+ le risque grâce à des actions en amont et en aval.
 \end_layout
 
 \begin_layout Standard
-Cette étude peut être intéressante car elle a pour finalité de réduire le
- risque, malgré ceci c’est une démarche très longue et qui exige une connaissanc
-e parfaite des machines, donc vu les contrainte de temps que nous avons-nous
- ne retiendrons pas cette études pour la suite de notre projet.
- 
-\begin_inset VSpace bigskip
-\end_inset
-
-
+Conclusion, cette étude n'a pas été retenue pour les raisons similaires
+ à l'AMDEC.
+ Une démarche très longue et qui exige une connaissance parfaite des machines.
+ De plus elle ne traite que les phénomènes dangereux liés à la machine.
+ Cependant, si les ressources de l'entreprise le permettent, elle peut constitue
+r une étude annexe intéressante pour identifier, classer et pondérer le
+ niveau des risques des machines afin de mieux gérer la maintenance des
+ machines etc.
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-
-\bar under
-L'article 
+\begin_layout Section*
+Article 
 \begin_inset Quotes fld
 \end_inset
 
-le plan de controle optimisé en se basant sur le risque
+Optimized Design of Control Plans Based on Risk Exposure and Resources Capabilit
+ies
 \begin_inset Quotes frd
 \end_inset
 
-:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Cet article propose une méthode pour élaborer un plan de contrôle en 2 étapes
- : d’abord consiste à identifier les risques possibles et de faire une répartiti
-on de risque et puis à ajuster le plan construit en ajoutant ou en supprimant
- des contrôles selon la capacité.
- 
-\end_layout
-
-\begin_layout Itemize
-Cette méthode a pour inconvénient de devoir définir au préalable tous les
- types de risque et la capacité des ressources de contrôle .
-\begin_inset VSpace bigskip
-\end_inset
-
 
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-
-\bar under
-L’article « An Approach for Operational Risk Evaluation and its Link to
- Control Plan » 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Un article qui a pour idée d’évaluer les risques des machines, en effet
- a chaque traitement la fiabilité du processus diminue (c’est l’usure de
- la machine) jusqu’à la tache de qualité (maintenance) 
-\end_layout
-
-\begin_layout Itemize
-Son avantage est de réduire fortement le risque du processus.
- D’autre part cette méthode a pour inconvénient la proportionnalité de la
- réduction du risque par rapport au nombre de plan de contrôle.
+\begin_layout Standard
+C'est une méthode pour optimiser la conception des plans de contrôle de
+ qualité.
+ Cette nouvelle approche propose une méthode d'élaboration d'un plan de
+ contrôle en deux étapes : la première étape consiste à identifier les risques
+ possibles et de faire une répartition de risque.
+ Ensuite ajuster le plan construit en ajoutant ou en supprimant des contrôles
+ selon la capacité.
  
 \end_layout
 
 \begin_layout Standard
-Cette méthode très gourmande en arrêt de la chaine de production lors des
- plans de contrôle ne sera pas développée par la suite car elle est industrielle
-ment infaisable.
- 
-\begin_inset VSpace bigskip
-\end_inset
-
-
+Conclusion, cette méthode ne peut être retenu pour notre cas d'étude car
+ il faut identifier tous les risques possibles ainsi que la capacité de
+ contrôle.
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
-
-\bar under
-L’article « Optimizing Return On Inspection Trough Defectivity Smart Sampling
- » : 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Évoque une méthode d’échantillonnage “intelligente” permettant d’identifier
- les produits qui ont besoins de contrôle sans la perte d’information 
-\end_layout
-
-\begin_layout Itemize
-Son avantage est de réduire le nombre de contrôle non nécessaire par contre
- les résultats ne sont pas suffisant par rapport aux exigences industrielles
- 
+\begin_layout Section*
+Article « An Approach for Operational Risk Evaluation and its Link to Control
+ Plan » 
 \end_layout
 
 \begin_layout Standard
-Cette méthode ne sera pas retenue même les résultats sont intéressants.
- En effet cette approche ne permet pas réduire les risques en défectivité
- mais seulement l'échantillonnage pour la mesure.
- 
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-
-\bar under
-L’article « Computation of Wafer-At-Risk from Theory To Real Life Demonstartion»
-: 
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Introduit une méthode d’évaluation des risques et d’optimisation de l’utilisatio
-n des équipements de contrôle en introduisant les indicateurs W@R et W@R-Réducti
-on 
-\end_layout
-
-\begin_layout Itemize
-Son avantage est de réduire fortement le risque presque en temps réel par
- contre elle est complexe et sa faisabilité reste à prouver.
- 
-\end_layout
-
-\begin_layout Standard
-Malgré des promesses de grandes réduction de risque, nous ne pouvons pas
- nous engager sur sa fiabilité ni sur son utilisation dans notre étude,
- donc nous ne l’utiliserons pas.
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-
-\bar under
-La présentation 
-\begin_inset Quotes fld
-\end_inset
-
-Operational risk evaluation and control plan design
-\begin_inset Quotes frd
-\end_inset
-
-:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
 Cette approche d'évaluation des risques est basée sur l'évolution du 
 \begin_inset Quotes fld
 \end_inset
@@ -304,19 +172,11 @@ Potential Loss
 \end_inset
 
  (défectivité potentielle).
- 
-\end_layout
-
-\begin_layout Itemize
-Cette évolution est supposée linéairement croissante avec le nombre d'exécution
+ Cette évolution est supposée linéairement croissante avec le nombre d'exécution
  (traitement par la machine), sans contrôle, sur un horizon donné.
  Ce risque potentiel est réinitialisé, à une valeur seuil, après chaque
  tâche de contrôle ou de maintenance.
- 
-\end_layout
-
-\begin_layout Itemize
-L'évolution du 
+ L'évolution du 
 \begin_inset Quotes fld
 \end_inset
 
@@ -325,42 +185,231 @@ Potential Loss
 \end_inset
 
  dépend de la gestion (planification) des tâches de qualité et de maintenance.
- De plus s'ajoute à cela une fonction d'évaluation de la valeur ajoutée
+ De plus s'ajouter à cela une fonction d'évaluation de la valeur ajoutée
  des tâches de contrôles mises en place afin de déterminer la bonne planificatio
 n de ces tâches pour un résultat optimal du risque.
 \end_layout
 
 \begin_layout Standard
-Cependant ce support de présentation n'apporte pas plus information pour
- être retenu comme solution de notre problème.
-\begin_inset VSpace bigskip
+Cette approche peut réduire fortement le risque du processus mais elle a
+ pour inconvénient la proportionnalité de la réduction du risque par rapport
+ au nombre de plan de contrôle.
+\end_layout
+
+\begin_layout Standard
+Conclusion, cette méthode n'est pas industriellement applicable dès lors
+ qu'on exige un niveau de fiabilité élevé pour les processus car cela engendrait
+ d'important temps d'indisponiblité des machines.
+ 
+\end_layout
+
+\begin_layout Section*
+Article « Optimizing Return On Inspection Trough Defectivity Smart Sampling
+ »
+\end_layout
+
+\begin_layout Standard
+Une méthode d'échantillonnage 
+\begin_inset Quotes fld
+\end_inset
+
+intelligente
+\begin_inset Quotes frd
+\end_inset
+
+ qui permet d'identifier seulement les produits (échantillons pertinents)
+ à contrôler sans perte d'information.
+ Pour cela un algorithme a été développé pour identifier et contrôler ce
+ critère sur les produits inspectés inutilement.
+\end_layout
+
+\begin_layout Standard
+Les résultats de l'implémentation de cet algorithme sur trois mois de production
+ montrent que 35% des plaques inspectées peuvent être ignorées, parce qu'elles
+ n'apportaient aucune information supplémentaire.
+\end_layout
+
+\begin_layout Standard
+Conclusion, cette méthode peut être retenue pour être exploitée en complément
+ avec une solution qui traite plus le coeur de notre problème en défectivité.
+ En effet cette approche ne permet pas réduire les risques en défectivité
+ mais seulement l'échantillonnage pour la mesure.
+\end_layout
+
+\begin_layout Section*
+Article « Computation of Wafer-At-Risk from Theory To Real Life Demonstartion»
+\end_layout
+
+\begin_layout Standard
+Une méthode d’évaluation des risques et d’optimisation de l’utilisation
+ des équipements de contrôle en introduisant les indicateurs W@R et W@R-Réductio
+n.
+ Cette méthode complexe exploite de nombreuses bases de donées et couplée
+ un autre algorithme qui permet d'aboutir à une réduction importante des
+ risques et évitant ainsi jusqu'à 35% des produits inspectés inutilement.
+ Cependant, les résultats obtenus varient fortement en fonction du type
+ de recette.
+ L'algorithme a été amélioré pour être plus réactif sur la ligne de production,
+ son implémentation peut donc être ramenée d'une période de quelques semaines
+ à 30 minutes.
+\end_layout
+
+\begin_layout Standard
+Conclusion, c'est une méthode très prometteuse au niveau des résultats voire
+ 
+\begin_inset Quotes fld
+\end_inset
+
+utopique
+\begin_inset Quotes frd
+\end_inset
+
+ en vue de la complexité de la fabrication des semi-conducteurs de nos jours.
+ Par manque de consistance des informations, cette méthode n'a pas été retenue
+ comme solution sous réserve qu'il y aurait des informations plus détailées
+ permettant de prononcer sur sa faisabilité.
+\end_layout
+
+\begin_layout Section*
+Présentation 
+\begin_inset Quotes fld
+\end_inset
+
+Operational Risk Evaluation and Control Plan Design
+\begin_inset Quotes frd
 \end_inset
 
 
 \end_layout
 
-\end_deeper
-\begin_layout Itemize
+\begin_layout Standard
+Ce document est un support de présentation de Belgacem Bettayeb, qui présente
+ sa thèse 
+\begin_inset Quotes fld
+\end_inset
 
-\bar under
-La méthode D3 : 
+An approach for operational risk evaluation and its link to control plan
+\begin_inset Quotes frd
+\end_inset
+
+ en collaboration avec P.
+ Vialletelle, S.
+ Bassetto et M.
+ Tollenaere.
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
+\begin_layout Standard
+Une méthode d'évaluation des risques opérationnels aidant à la prise de
+ décisions pour les plans de contrôle.
+ L'idée consiste à évaluer les risques du processus (machines).
+ A chaque traitement, la fiabilité du processus diminue (usure de la machine)
+ jusqu'à la tâche de qualité (maintenance) soit effectuée pour redresser
+ son niveau de fiabilité.
+\end_layout
+
+\begin_layout Standard
+Conclusion, ce support de présentation n'apporte pas plus d'information
+ pertinente que l'article de la thèse, elle n'a pas été retenue comme solution
+ pour les mêmes raisons que l'article.
+\end_layout
+
+\begin_layout Section*
+Présentation 
+\begin_inset Quotes fld
+\end_inset
+
+A Novel Approach to Minimize the Number of Controls in the Defectivity Area
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cette présentation expose une nouvelle approche de gestion des tâches de
+ contrôle, issue des travaux de J.
+ Nduhura Munga, S.
+ Dauzère-Pérès, C.
+ Yugma et P.
+ Vialletelle.
+\end_layout
+
+\begin_layout Standard
+Cette étude repose sur l'indicateur 
+\begin_inset Quotes fld
+\end_inset
+
+Wafers At Risk
+\begin_inset Quotes frd
+\end_inset
+
+ (W@R), qui represente le nombre de plaques traitées sur un équipement depuis
+ la dernière tâche de contrôle.
+ Cet indicateur sera exploité par un algorithme de calcul des 
+\begin_inset Quotes fld
+\end_inset
+
+Permanent Index per Context (PIC)
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Les résultats de l'implémentation de l'algorithme sur une ligne de production
+ montrent, au bout de deux semaines, qu'une réduction de 35% des produits
+ qui peuvent être exemptés de contrôle sans incident sur le taux de défectivité
+ de la production.
+\end_layout
+
+\begin_layout Standard
+Conclusion, nous aboutissons à la même conclusion pour la thèse de 
+\begin_inset Quotes fld
+\end_inset
+
+Optimizing return on inspection through defectivity smart sampling
+\begin_inset Quotes frd
+\end_inset
+
+ qui traite plus ou moins la même approche.
+ Cette approche n'a pas donc été retenue comme solution pour notre étude.
+\end_layout
+
+\begin_layout Section*
+Article 
+\begin_inset Quotes fld
+\end_inset
+
+A New Competitive Algorithm for Group Testing
+\begin_inset Quotes frd
+\end_inset
+
+ ou 
+\begin_inset Quotes fld
+\end_inset
+
+Méthode 
+\begin_inset Formula $D^{3}$
+\end_inset
+
+
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Cette méthode est quantitative basée sur l’analyse systématique d’ensemble
  de produit, en effet elle est décrite sous la forme d’un algorithme qui
  cherche les produits défectueux en optimisant le nombre de test.
  
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 Cette méthode est programmable et a priori correspond au sujet.
  Son inconvénient et qu’elle demande beaucoup de tests et donc systématique.
  
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 Nous avons décidé de garder cette méthode au début, mais une fois que nous
  avons commencé à faire la correspondance avec notre étude, nous nous sommes
@@ -387,10 +436,10 @@ Dans le cadre d'une analyse épidémologique par exemple, tester un échantillon
  Malheuresement les contraintes fortes liés au contrôle des lots nous empêchent
  d'avoir des contrôles des tailles de lot de plus en plus importante.
  
-\begin_inset VSpace bigskip
-\end_inset
+\end_layout
 
-
+\begin_layout Section*
+Verdict de l'état de l'art
 \end_layout
 
 \begin_layout Standard
@@ -404,7 +453,7 @@ L'idée étant d'utiliser nos contraintes pour développer notre propre algorith
  de calcul, nous détaillerons cet algorithme ainsi que ces résultats dans
  la partie suivante.
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 si j'ai oublié des choses ou d'autre arguments rajoutez les SVP
