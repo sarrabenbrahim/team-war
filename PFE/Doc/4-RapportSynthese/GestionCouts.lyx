@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -63,7 +63,7 @@ Juste un bilan sur la gestion des coûts, pas besoin de beaucoup de détails.
 
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Il faut mettre la gestion des coûts dans le rapport de synthèse ? Je ne
@@ -76,63 +76,85 @@ Il faut mettre la gestion des coûts dans le rapport de synthèse ? Je ne
 
 \end_layout
 
+\begin_layout Section
+Contexte
+\end_layout
+
+\begin_layout Paragraph
+L’entreprise STMicroelectronics souhaiterait implanter une nouvelle solution
+ dans le cadre de réduire le temps de contrôle et de maintenance sur les
+ machines qui vaut très chère afin d’augmenter la qualité de ces produits
+ ainsi de réduire les coûts de la non qualité chez ST.
+ Dans un premier temps nous allons essayer de proposer une solution au problème
+ et ensuite on va essayer de l’implémenter afin de voir qu’est ce que notre
+ solution va rapporter en terme de coût ainsi de qualité sur les produits
+ pour l’entreprise.
+ 
+\end_layout
+
+\begin_layout Section
+Contrainte de l’entreprise 
+\end_layout
+
+\begin_layout Itemize
+Le coût des plaques qui est élevé dans les environs de 1000 $ la plaque
+ de silicium.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le contrôle des machines qui bloque la production donc une perte 
+\end_layout
+
+\begin_layout Itemize
+La maintenance des machines qui est trop chère et qui bloque aussi la production
+ 
+\end_layout
+
+\begin_layout Section
+Objectif
+\end_layout
+
+\begin_layout Paragraph
+Besoin d’un mécanisme ou d’une solution qui permet de réduire les coûts
+ et le temps de contrôle ainsi de maintenance et d’augmenter la qualité
+ de la production des produit selon les technologies.
+\end_layout
+
+\begin_layout Section
+Solution
+\end_layout
+
 \begin_layout Standard
-Notre étude de la gestion des côuts repose sur deux hypothèses:
+Algorithme du marcheur
 \end_layout
 
-\begin_layout Itemize
-La première est plutôt pessimiste: notre solution apporte -5% de non qualité.
+\begin_layout Section
+Calcul des coûts
 \end_layout
 
-\begin_layout Itemize
-La deuxième plus optimiste : notre soltuion apporte jusqu'à -30% de non
- qualité.
+\begin_layout Standard
+Combien ça leur coûte actuellement ?
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float table
 wide false
 sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-synthése 
-\end_layout
-
-\end_inset
-
-
-\end_layout
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="3">
+<lyxtabular version="3" rows="5" columns="2">
 <features>
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-1ère solution
+Désignation
 \end_layout
 
 \end_inset
@@ -141,27 +163,18 @@ synthése
 \begin_inset Text
 
 \begin_layout Plain Layout
-2ème solution 
+Coûts
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-VAN
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Une plaque de silicium 
 \end_layout
 
 \end_inset
@@ -170,27 +183,18 @@ VAN
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1000$
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-IP
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Une semaine de production
 \end_layout
 
 \end_inset
@@ -199,27 +203,18 @@ IP
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10000*1000 = 10000000$
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Coût
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Une année de production
 \end_layout
 
 \end_inset
@@ -228,27 +223,18 @@ Coût
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+10000000*52 = 520000000$
 \end_layout
 
 \end_inset
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-Bénéfices
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
+Le pourcentage de rejet par an
 \end_layout
 
 \end_inset
@@ -257,7 +243,7 @@ Bénéfices
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+1% * 520000000 = 5200000$
 \end_layout
 
 \end_inset
@@ -270,10 +256,55 @@ Bénéfices
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Les coûts
+\end_layout
+
 \end_inset
 
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Combien ça va leur coûter aprés l'implantation de la solution.
+\end_layout
+
+\begin_layout Standard
+Notre étude de la gestion des coûts repose sur deux hypothèses :
+\end_layout
+
+\begin_layout Itemize
+La première est plutôt pessimiste: notre solution apporte -5% de non qualité
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+5200000 * 5% = 26000 $ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+La deuxième plus optimiste : notre solution apporte jusqu'à -30% de non
+ qualité
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+5200000 * 30% = 1560000 $ 
+\end_layout
+
+\end_deeper
 \end_body
 \end_document
