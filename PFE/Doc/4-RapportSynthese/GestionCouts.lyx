@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -82,13 +82,33 @@ Contexte
 
 \begin_layout Paragraph
 L’entreprise STMicroelectronics souhaiterait implanter une nouvelle solution
- dans le cadre de réduire le temps de contrôle et de maintenance sur les
- machines qui vaut très chère afin d’augmenter la qualité de ces produits
- ainsi de réduire les coûts de la non qualité chez ST.
- Dans un premier temps nous allons essayer de proposer une solution au problème
- et ensuite on va essayer de l’implémenter afin de voir qu’est ce que notre
- solution va rapporter en terme de coût ainsi de qualité sur les produits
- pour l’entreprise.
+ dans le but :
+\end_layout
+
+\begin_layout Itemize
+de réduire le temps de contrôle et de maintenance sur les machines,
+\end_layout
+
+\begin_layout Itemize
+d’augmenter la qualité de ses produits, 
+\end_layout
+
+\begin_layout Itemize
+réduire les coûts de la non qualité.
+\end_layout
+
+\begin_layout Standard
+Lors de notre étude nous avons proposer une solution 
+\begin_inset Quotes fld
+\end_inset
+
+l'algorithme du marcheur
+\begin_inset Quotes frd
+\end_inset
+
+ , par conséquent nous avons réaliser une maquette afin de pouvoir quantifier
+ la réduction de la non qualité et de ce fait calculer le bénéfice dont
+ l'entreprise pourra en bénéficier plus tard.
  
 \end_layout
 
@@ -97,17 +117,19 @@ Contrainte de l’entreprise
 \end_layout
 
 \begin_layout Itemize
-Le coût des plaques qui est élevé dans les environs de 1000 $ la plaque
- de silicium.
+Le coût des plaques est d'environs 1000 $ la plaque de silicium.
  
 \end_layout
 
 \begin_layout Itemize
-Le contrôle des machines qui bloque la production donc une perte 
+Le contrôle des machines (appelé tâches qualités) qui suspend la chaine
+ de production et donc implique des pertes pour l'entreprise.
+ 
 \end_layout
 
 \begin_layout Itemize
-La maintenance des machines qui est trop chère et qui bloque aussi la production
+Les mesures sur lots effectuées sur les lots coûtent cher en terme de temps
+ et d'argent pour l'entreprise.
  
 \end_layout
 
@@ -118,7 +140,7 @@ Objectif
 \begin_layout Paragraph
 Besoin d’un mécanisme ou d’une solution qui permet de réduire les coûts
  et le temps de contrôle ainsi de maintenance et d’augmenter la qualité
- de la production des produit selon les technologies.
+ des produit selon les technologies.
 \end_layout
 
 \begin_layout Section
@@ -141,7 +163,7 @@ Combien ça leur coûte actuellement ?
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Tabular
@@ -278,11 +300,11 @@ Les coûts
 \end_layout
 
 \begin_layout Standard
-Combien ça va leur coûter aprés l'implantation de la solution.
+
 \end_layout
 
 \begin_layout Standard
-Notre étude de la gestion des coûts repose sur deux hypothèses :
+Notre étude de gestion des coûts repose sur deux hypothèses :
 \end_layout
 
 \begin_layout Itemize
