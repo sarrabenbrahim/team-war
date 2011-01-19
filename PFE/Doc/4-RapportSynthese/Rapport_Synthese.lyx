@@ -435,9 +435,31 @@ filename "AlgoMarcheur.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
 \begin_inset CommandInset include
 LatexCommand input
 filename "AlgoMarcheur_Bilan.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Je ne pense pas que la conclusion sur l'algo du marcheur soit en dehors
+ du chapitre Algo Marcheur ce n'est pas logique sinon C'est le titre du
+ Chapitre Algo Marcheur qui est mal choisi.
+ 
+\end_layout
 
 \end_inset
 

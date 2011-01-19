@@ -76,7 +76,7 @@ status open
 <features>
 <column alignment="center" valignment="middle" width="25col%">
 <column alignment="center" valignment="top" width="25col%">
-<column alignment="center" valignment="middle" width="40col%">
+<column alignment="center" valignment="middle" width="50col%">
 <row>
 <cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
@@ -142,14 +142,13 @@ Chef d'équipe
 \begin_inset Text
 
 \begin_layout Plain Layout
-Son rôle est similaire à celui du 
-\series bold
-\noun on
+Son rôle est similaire à celui d'un 
+\emph on
 coach
-\series default
-\noun default
- dans une équipe, il fait en sorte de tirer le meilleur de chacun.
- Il est aussi celui qui tranche les problèmes épineux.
+\emph default
+.
+ Il fait en sorte de tirer le meilleur de chacun.
+ Il tranche les problèmes épineux.
  
 \end_layout
 
@@ -192,7 +191,8 @@ de communication
 \begin_inset Text
 
 \begin_layout Plain Layout
-Il interface l'équipe et les intervenants extérieurs.
+Il interface l'équipe et les intervenants extérieurs et gère le système
+ d'information propre à l'équipe.
 \end_layout
 
 \end_inset
@@ -233,10 +233,10 @@ Responsable Gestion de Projet & Document
 Il met en place la méthode 
 \series bold
 \noun on
-SCRUM
+SCRUM.
+
 \series default
 \noun default
- et gère le système d'information propre à l'équipe.
  
 \end_layout
 
@@ -518,7 +518,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ../Images/Planning.PNG
-	width 70col%
+	width 100col%
 
 \end_inset
 
