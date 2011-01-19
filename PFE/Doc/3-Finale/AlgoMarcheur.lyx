@@ -1,4 +1,4 @@
-#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -70,7 +70,7 @@ Pour résumer notre problème nous allons détailler le modèle que nous nous
  proposons de développer par la suite.
  Le modèle du marcheur
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Le nom 
@@ -90,7 +90,6 @@ marche de l'ivrogne
 \end_inset
 
  qui est un modèle utilisé dans la thermodynamique et le mouvement brownien.
- 
 \end_layout
 
 \end_inset
@@ -114,11 +113,13 @@ Wafer at Risk
  Dans un deuxième temps de se servir de cette indice de confiance pour détermine
 r les pièces les plus risqués, priorisé leur contrôle, et remonter plus
  rapidement aux lots impactées.
+ Afin de représenter ces données nous coupleront ces données avec l'avancement
+ du lot dans l'usine.
 \end_layout
 
 \begin_layout Standard
 L'idée de départ est assez simple, on se propose de regarder la probabilité
- d'un marcheur dans une ville d'être agressé dans une ville.
+ d'un marcheur dans une ville d'être agressé en se baladant.
 \end_layout
 
 \begin_layout Section
@@ -144,20 +145,10 @@ chance
 \end_inset
 
  d'être blessé (défectueux) au fur et à mesure qu'il se ballade dans la
- ville (Traverse beaucoup de machine ou 
+ ville (Traverse beaucoup de postes de travail ou 
 \emph on
 Workstation
 \emph default
- 
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-des postes de travail ?
-\end_layout
-
-\end_inset
-
 ).
 \end_layout
 
@@ -177,13 +168,67 @@ Propriété du quartier dynamique (Machine de production)
 \begin_deeper
 \begin_layout Itemize
 Le taux de criminalité augmente linéairement.
+ Dans notre cas la sureté d'un quartier correspond à la fiabilité de la
+ machine, de fait la fiabilité de la machine vaut donc 
+\begin_inset Formula $Fiabilité=Sureté_{Défaut}-Taux_{Criminalité}$
+\end_inset
+
+ ou dans notre problème 
+\begin_inset Formula $F_{Machine}=F_{MachineDefaut}-D_{Machine}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Avec 
+\begin_inset Formula $D_{Machine}$
+\end_inset
+
+ est le déreglement de la machine
 \end_layout
 
 \begin_layout Itemize
-La criminalité augmente en fonction du nombre de marcheurs qui traverse
- le quartier.
+\begin_inset Formula $F_{Machine}$
+\end_inset
+
+ est la fiabilité de la machine ou sûreté du quartier
 \end_layout
 
+\begin_layout Itemize
+\begin_inset Formula $F_{MachineDefaut}$
+\end_inset
+
+ est le niveau de fiabilité après un contrôle de qualité, ou le niveau de
+ sureté après le passage de la police.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+La criminalité augmente en fonction du nombre de marcheurs qui traverse
+ le quartier.
+ 
+\begin_inset Formula $ $
+\end_inset
+
+ Ce qui nous donne 
+\begin_inset Formula $D_{Machine}=N_{Produit}\times\lambda_{Dereglement}$
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Où 
+\begin_inset Formula $\lambda_{Dereglement}$
+\end_inset
+
+ est le coefficient de déregelment 
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 La criminalité est remise à un niveau seuil quand la police passe.
  (Tache qualité)
@@ -225,8 +270,8 @@ Plus un marcheur est petit plus il aura de chance d'être agressé.
 \end_deeper
 \begin_layout Itemize
 On formalise le problème : 
-\begin_inset Formula \[
-Indice_{Santé}=1-\prod_{i=1}^{N}\left(F_{Machine[i]}\times F_{Produit}\right)\]
+\begin_inset Formula \begin{equation}
+Indice_{Santé}=\prod_{i=1}^{N}\left(F_{Machine[i]}\times F_{Produit}\right)\end{equation}
 
 \end_inset
 
@@ -253,12 +298,11 @@ Indice_{Santé}=1-\prod_{i=1}^{N}\left(F_{Machine[i]}\times F_{Produit}\right)\]
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $W@R$
+\begin_inset Formula $Indice_{Santé}$
 \end_inset
 
- est le waffer at risk, c'est un indice de confiance plus cette valeur est
- haute plus le lot a de chance d'être deffectueux et un contrôle s'impose
- au plus vite.
+ est un indice de confiance plus cette valeur est basse plus le lot a de
+ chance d'être deffectueux et un contrôle s'impose au plus vite.
 \begin_inset Note Note
 status open
 
@@ -351,13 +395,6 @@ pour
 Fin Pour
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Formula $W@R=1-F_{Produit}$
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Niveau 1 : Modèle des quartiers
 \end_layout
@@ -432,47 +469,39 @@ Ne prend pas en compte le medecin ou MSL, plus de modèle temporel
 
 \begin_layout Standard
 On suppose maintenant que la fiabilité est différente sur chaque machine
- et décroit linéairement.
+ et décroit linéairement : 
+\begin_inset Formula \begin{equation}
+F_{MachineProduits[i]}=F_{MachineDefaut}-\left(\lambda_{Machine}\times N_{Produit}\right)\end{equation}
+
+\end_inset
+
+ 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Formula $F_{MachineTemps[i]}=1-\left(\lambda_{Machine}\times T_{Machine}\right)$
+\begin_layout Itemize
+\begin_inset Formula $N_{Produit}$
 \end_inset
 
-, avec 
-\begin_inset Formula $T_{Machine}$
+ le nombre de produits passés sur la machine depuis le dernier contrôle.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $F_{MachineDefaut}$
 \end_inset
 
- est le temps du dernière contrôle de la machine et 
-\begin_inset Formula $\lambda_{Machine}$
-\end_inset
-
- est le coefficient de décroissance de la fiabilité.
+ est la fiabilité maximal par défaut, suite à un contrôle de la machine.
  
 \end_layout
 
 \begin_layout Standard
-On a aussi 
-\begin_inset Formula $F_{MachineProduits[i]}=1-\left(\lambda_{Machine}\times N_{Produit}\right)$
-\end_inset
+Afin de définir un seuil minmal de Fiabilité de la machine on définira la
+ Fiabilité de la manière suivante 
+\begin_inset Formula \begin{equation}
+F_{Machine}=\max\left(F_{MachineMin},F_{MachineProduits[i]}\right)\end{equation}
 
- avec 
-\begin_inset Formula $N_{Produit}$
-\end_inset
-
- le nombre de produits passés sur la machine.
-\end_layout
-
-\begin_layout Standard
-Nous prendrons pour 
-\begin_inset Formula $F_{Machine}=\min\left(F_{MachineTemps[i]},F_{MachineProduits[i]}\right)$
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-Nous verrons à l'usage ce qui est le plus cohérent à l'usage.
 \end_layout
 
 \begin_layout Itemize
@@ -506,6 +535,56 @@ Fin Pour
 
 \begin_layout Itemize
 \begin_inset Formula $W@R=1-F_{Produit}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Modèles d'évolution fiabilité (ou la criminalité) d'une machine (ou quartier)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ModeleFiabilityWorkstation.png
+	lyxscale 10
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Le graphique suivant représente l'évolution de la fiabilité d'une machine
+ en fonction du nombre de produits qui passent sur la machine.
+ Certains évenement font remonter le niveau de fiabilité de la machine à
+ un seuil par défaut (trait rouge).
+ De plus la fiabilité est minoré par un seuil minimal de fiabilité (trait
+ bleu).
+ Tant qu'aucun évenement de contrôle (MSL ou MSE) se produit sur la machine
+ la fiabilité reste au même niveau.
+ 
+\end_layout
+
 \end_inset
 
 
@@ -595,11 +674,13 @@ Le calcul s'effectue de la même manière ensuite, on introduira simplement
 \begin_inset Formula $F_{Produit}$
 \end_inset
 
-)
+).
+ Il est à noter que les informations de complexité ne nous ayant pas été
+ communiqué, cette partie de l'algorithme n'a pas été implémenté.
 \end_layout
 
 \begin_layout Section
-Code de l'algorithme
+Specification du Code
 \end_layout
 
 \begin_layout Standard
@@ -612,11 +693,11 @@ Vu la complexité du projet nous avons décidé de développer notre code en
  une implication de tous.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Traitement des données
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Analyse des données
 \end_layout
 
@@ -773,27 +854,9 @@ Tech
 
 (technology) Représente la technologie, nous disposons de cinq technologies
  différentes.
- Sur nos données il y a visiblement 5 types de technologie 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Quel technologie est la plus compliqué ?
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-lesquelles ?
-\end_layout
-
-\end_inset
-
-
+ Sur nos données il y a visiblement 5 types de technologie, cependant dans
+ l'idée de rendre réalisable cette étude de faisabilité.
+ Aucun détail n'est donné sur les technologies.
 \end_layout
 
 \begin_layout Description
@@ -805,7 +868,7 @@ Eqpt
  est représenté par un identifiant unique.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Classe des entités
 \end_layout
 
@@ -1031,7 +1094,6 @@ Diagramme de classe des objets entités
 	lyxscale 50
 	width 100col%
 	height 90theight%
-	keepAspectRatio
 
 \end_inset
 
@@ -1054,7 +1116,7 @@ Ce diagramme de classe représente les objets sur lesquels nous travaillerons
 \end_layout
 
 \begin_layout Section
-Spécification du code
+Implémentation du marcheur
 \end_layout
 
 \begin_layout Subsection
@@ -1062,19 +1124,13 @@ Marcheur
 \end_layout
 
 \begin_layout Standard
-Contient l'algorithme a partir, il lance les méthodes de calculs qui se
- trouvent sur les batch et workstations
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-L'algorithme a proprement parler de calcul de fiabilité est une méthode
- de la classe batch
-\end_layout
-
-\end_inset
-
-
+Contient l'algorithme qui lance les méthodes de calculs qui se trouvent
+ sur les batch et workstations.
+ En effet les méthodes de calcul de fiabilité se font sur l'objet batch
+ et Workstation.
+ En effet à la vue de notre architecture, les données nécessaires au calcul
+ sont présentes sur ces objets il est naturel d'associer les méthodes à
+ ces objets.
 \end_layout
 
 \begin_layout Subsection
@@ -1089,6 +1145,18 @@ Nous organisons notre lecture de fichier de façon à ranger les informations
 \begin_layout Standard
 On définit une classe qui lit les fichiers et instancie les traçabilités
  associées à chaque ligne.
+ De plus ce chargeur de fichier est spécificié pour comprendre le fichier
+ donné par 
+\emph on
+STMICROELECTRONICS.
+ 
+\emph default
+Le fichier donné est une extraction de la base de donnée 
+\emph on
+ST, 
+\emph default
+qui pour des raisons de confidentialité a été anonymisé.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -1100,22 +1168,34 @@ Ces classes interprètent les traçabilité extraites par le load et crée les
  objets batch, workstation et insère les traçabilités associées.
  Il fait en quelque sorte le trie des données et permet d'associer chaque
  traçabilité à la machine et au lot qui lui correspond.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Ces classes construisent/instancient les différents objets (lesquels) à
- partir du fichier de données.
- Pour cela elles ....?
-\end_layout
-
-\end_inset
-
-
+ De plus ces classes créent les objets et instance d'objet nécessaire à
+ l'excution de l'algorithme.
+ 
 \end_layout
 
 \begin_layout Subsection
 Package entities
+\end_layout
+
+\begin_layout Standard
+C'est dans ce package que se situe le coeur de l'algorithme.
+ En effet les calculs de fiabilités sont des méthodes associées au objets
+ 
+\emph on
+Batch
+\emph default
+ et 
+\emph on
+Workstation
+\emph default
+.
+ Ces objets possèdent comme atributs leur nom, leur technoloie et leur mémoire
+ qui est représenté par une collection de 
+\emph on
+tracabilies
+\emph default
+ ce qui rend le calcul d'indice de santé plus facile à effectuer.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1136,7 +1216,7 @@ Diagramme de classe des différentes entitées
 
 
 \begin_inset Graphics
-	filename /home2/promo2011/garciaf/SVN/team-war/PFE/Doc/Images/DiagrammeClassEntities.svg
+	filename ../Images/DiagrammeClassEntities.svg
 	lyxscale 40
 	width 100col%
 
@@ -1152,7 +1232,7 @@ Diagramme de classe des différentes entitées
 Ce diagramme de classe représente l'ensemble des classes entities, les Batch
  et Workstation contiennent des collections de tracability, qui constituent
  la mémoire de chacun des éléments.
- 
+ De plus 
 \end_layout
 
 \end_inset
@@ -1162,6 +1242,76 @@ Ce diagramme de classe représente l'ensemble des classes entities, les Batch
 
 \begin_layout Subsection
 Classe Constants
+\end_layout
+
+\begin_layout Standard
+Les connaissances métiers pouvant être à même d'évoluer nous avons effectué
+ une classe constante qui regroupe toutes les données utilisés pour les
+ calculs d'algorithme et peuvent être regler très facilement.
+ On retrouve dans cette classe les attributs suivants :
+\end_layout
+
+\begin_layout Description
+FIELD_QUANTITY_IN_FILE_ROW il s'agit là d'un paramètre pour lire et interpréter
+ le fichier de départ
+\end_layout
+
+\begin_layout Description
+DEFAULT_VALUE_WHEN_EMPTY_ROW Permet de donner le texte à écrire lors de
+ la lecture d'un caractère vide
+\end_layout
+
+\begin_layout Description
+DISTURBANCE_WORSTATION_PER_EVENT Il s'agit là du déreglement d'une machine
+ après le passage d'un lot il s'agit de 
+\begin_inset Formula $\lambda_{Dereglement}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+FIABILITY_DEFAULT_BATCH Il s'agit de l'indice de santé par défaut d'un lot
+ 
+\begin_inset Formula $Indice_{Santé}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+FIABILITY_DEFAULT_WORKSTATION Il s'agit là de la fiabilité d'une machine
+ par défaut 
+\begin_inset Formula $F_{MachineDefaut}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+FIABILITY_MIN_WORSKATION Il s'agit du seuil minimal de fiabilité d'une machine
+ 
+\begin_inset Formula $F_{MachineMin}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+SHORT_FILE Il s'agit là du chemin des données courtes (pour les tests rapides)
+\end_layout
+
+\begin_layout Description
+LONG_FILE le chemin pour les données complètes
+\end_layout
+
+\begin_layout Description
+QUALITYTASK La chaine de charactère qui indique une tâche de qualité sur
+ une machine
+\end_layout
+
+\begin_layout Description
+BATCH_CONTROL Chaine de caractère qui indique un contrôle de lot 
 \end_layout
 
 \begin_layout Standard
@@ -1182,7 +1332,7 @@ Diagramme de classe des constantes
 
 
 \begin_inset Graphics
-	filename /home2/promo2011/garciaf/SVN/team-war/PFE/Doc/Images/DiagrammeClassConstants.svg
+	filename ../Images/DiagrammeClassConstants.svg
 	lyxscale 40
 	width 50col%
 
@@ -1210,6 +1360,32 @@ Package Extractors
 \end_layout
 
 \begin_layout Standard
+C'est le package qui contient toutes les classes permettant de créer les
+ 
+\emph on
+Batch
+\emph default
+ et les 
+\emph on
+Workstation
+\emph default
+ à partir de l'ensemble des traçabilités générees par les classes StoreData
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Ces classes ne sont pas détaillés, car elles ne font que lire et écrire
+ dans des fichiers.
+ Comme il n'y a rien de nouveau sous le soleil nous passons cette partie
+ sous silence
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1226,7 +1402,7 @@ Diagramme de classe des extractors
 
 
 \begin_inset Graphics
-	filename /home2/promo2011/garciaf/SVN/team-war/PFE/Doc/Images/DiagrameClassExtractors.svg
+	filename ../Images/DiagrameClassExtractors.svg
 	lyxscale 40
 	width 100col%
 
@@ -1241,6 +1417,49 @@ Diagramme de classe des extractors
 \emph on
 Cet ensemble de classe permet d'affecter les traçabilités au seins des bons
  lots et des bonnes machines
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resultats
+\end_layout
+
+\begin_layout Standard
+Pour représenter les résultats de l'algorithme.
+ Nous représentons dans un graphique en deux dimensions 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Représentation des résultats après calculs
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../Images/GrapheDonnee.eps
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
