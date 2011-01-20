@@ -58,16 +58,8 @@ Durant notre étude de l’art nous avons pu traiter différents documents qui
  l’art ainsi que les motivations pour retenir ou non une méthode.
 \end_layout
 
-\begin_layout Section*
-Ouvrage 
-\begin_inset Quotes fld
-\end_inset
-
+\begin_layout Section
 Utilisation du jugement d'expert en sûreté de fonctionnement
-\begin_inset Quotes frd
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -96,16 +88,8 @@ Conclusion, cette démarche n'est pas faisable pour notre cas d'étude car
  et grand nombre d'étape de fabrication).
 \end_layout
 
-\begin_layout Section*
-Dossier 
-\begin_inset Quotes fld
-\end_inset
-
+\begin_layout Section
 Principes généraux de gestion du risque
-\begin_inset Quotes frd
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -127,17 +111,9 @@ r une étude annexe intéressante pour identifier, classer et pondérer le
  machines etc.
 \end_layout
 
-\begin_layout Section*
-Article 
-\begin_inset Quotes fld
-\end_inset
-
+\begin_layout Section
 Optimized Design of Control Plans Based on Risk Exposure and Resources Capabilit
 ies
-\begin_inset Quotes frd
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -157,9 +133,9 @@ Conclusion, cette méthode ne peut être retenu pour notre cas d'étude car
  contrôle.
 \end_layout
 
-\begin_layout Section*
-Article « An Approach for Operational Risk Evaluation and its Link to Control
- Plan » 
+\begin_layout Section
+An Approach for Operational Risk Evaluation and its Link to Control Plan
+ 
 \end_layout
 
 \begin_layout Standard
@@ -203,9 +179,8 @@ Conclusion, cette méthode n'est pas industriellement applicable dès lors
  
 \end_layout
 
-\begin_layout Section*
-Article « Optimizing Return On Inspection Trough Defectivity Smart Sampling
- »
+\begin_layout Section
+Optimizing Return On Inspection Trough Defectivity Smart Sampling
 \end_layout
 
 \begin_layout Standard
@@ -236,8 +211,8 @@ Conclusion, cette méthode peut être retenue pour être exploitée en compléme
  mais seulement l'échantillonnage pour la mesure.
 \end_layout
 
-\begin_layout Section*
-Article « Computation of Wafer-At-Risk from Theory To Real Life Demonstartion»
+\begin_layout Section
+Computation of Wafer-At-Risk from Theory To Real Life Demonstartion
 \end_layout
 
 \begin_layout Standard
@@ -270,16 +245,8 @@ utopique
  permettant de prononcer sur sa faisabilité.
 \end_layout
 
-\begin_layout Section*
-Présentation 
-\begin_inset Quotes fld
-\end_inset
-
+\begin_layout Section
 Operational Risk Evaluation and Control Plan Design
-\begin_inset Quotes frd
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -313,16 +280,8 @@ Conclusion, ce support de présentation n'apporte pas plus d'information
  pour les mêmes raisons que l'article.
 \end_layout
 
-\begin_layout Section*
-Présentation 
-\begin_inset Quotes fld
-\end_inset
-
+\begin_layout Section
 A Novel Approach to Minimize the Number of Controls in the Defectivity Area
-\begin_inset Quotes frd
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -373,25 +332,26 @@ Optimizing return on inspection through defectivity smart sampling
  Cette approche n'a pas donc été retenue comme solution pour notre étude.
 \end_layout
 
-\begin_layout Section*
-Article 
-\begin_inset Quotes fld
-\end_inset
+\begin_layout Section
+A New Competitive Algorithm for Group Testing 
+\begin_inset OptArg
+status open
 
-A New Competitive Algorithm for Group Testing
-\begin_inset Quotes frd
-\end_inset
-
- ou 
-\begin_inset Quotes fld
-\end_inset
-
+\begin_layout Plain Layout
 Méthode 
 \begin_inset Formula $D^{3}$
 \end_inset
 
 
-\begin_inset Quotes frd
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:DCube"
+
 \end_inset
 
 
@@ -438,7 +398,7 @@ Dans le cadre d'une analyse épidémologique par exemple, tester un échantillon
  
 \end_layout
 
-\begin_layout Section*
+\begin_layout Section
 Verdict de l'état de l'art
 \end_layout
 
