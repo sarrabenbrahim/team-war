@@ -47,8 +47,61 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Part*
+\begin_layout Chapter
 Introduction
+\end_layout
+
+\begin_layout Standard
+Le domaine de la micro electronique est extremement compétitif.
+ Un des points clefs pour être compétitif est la réduction de la non qualité
+ dans la production des lots de 
+\emph on
+chips
+\emph default
+ electroniques.
+ 
+\end_layout
+
+\begin_layout Standard
+Toute la difficulté du problème tient du fait que le contrôle des produits
+ est extrêmement cher et très long.
+ Il faut donc trouver un moyen d'optimiser les contrôles de 
+\emph on
+chips
+\emph default
+ et des machines pour contrôler les produits les plus risqués.
+ 
+\end_layout
+
+\begin_layout Standard
+Cette étude consiste à déterminer la faisabilité pour la mise en place d'une
+ méthode pour optimiser le contrôle de la qualité.
+\end_layout
+
+\begin_layout Standard
+Le présent rapport sera organisé de la façon suivante
+\end_layout
+
+\begin_layout Itemize
+Tout d'abbord nous préciserons un peu plus finement les contraintes et le
+ contexte de la micro électronqiue
+\end_layout
+
+\begin_layout Itemize
+Ensuite nous nous intéresserons à l'état de la connaissance dans ce domaine
+ ainsi qu'à un Benchmarking, afin de trouver un moyen utilisé dans les autres
+ industries pour résoudre ce problème.
+\end_layout
+
+\begin_layout Itemize
+l'abscence de solution concrête nous a poussé à développer notre propre
+ solution et nous detaillerons cette solution et discuterons de sa pertinence.
+\end_layout
+
+\begin_layout Itemize
+Nous terminerons par une présentation breve de notre gestion de projet et
+ une étude de coûts (Enfin plus exactement des bénefices possibles de cette
+ méthode...)
 \end_layout
 
 \begin_layout Standard

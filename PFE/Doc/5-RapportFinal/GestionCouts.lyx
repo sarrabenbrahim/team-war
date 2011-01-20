@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -81,12 +81,19 @@ Notre étude de la gestion des côuts repose sur deux hypothèses:
 \end_layout
 
 \begin_layout Itemize
-La première est plutôt pessimiste: notre solution apporte -5% de non qualité.
+La première est plutôt pessimiste: notre solution apporte 
+\begin_inset Formula $-5\%$
+\end_inset
+
+ de non qualité.
 \end_layout
 
 \begin_layout Itemize
-La deuxième plus optimiste : notre soltuion apporte jusqu'à -30% de non
- qualité.
+La deuxième plus optimiste : notre soltuion apporte jusqu'à 
+\begin_inset Formula $-30\%$
+\end_inset
+
+ de non qualité.
 \end_layout
 
 \begin_layout Standard
@@ -94,10 +101,6 @@ La deuxième plus optimiste : notre soltuion apporte jusqu'à -30% de non
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -132,7 +135,7 @@ synthése
 \begin_inset Text
 
 \begin_layout Plain Layout
-1ère solution
+Hypothèse optimiste
 \end_layout
 
 \end_inset
@@ -141,7 +144,7 @@ synthése
 \begin_inset Text
 
 \begin_layout Plain Layout
-2ème solution 
+Hypothèse pessimiste
 \end_layout
 
 \end_inset

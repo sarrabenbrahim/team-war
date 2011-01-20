@@ -124,6 +124,33 @@ On se projette dans un monde idéal où l'on a une méthode qui marche et diminu
 \end_layout
 
 \begin_layout Section
+Note sur les données receuillis
+\end_layout
+
+\begin_layout Standard
+Le domaine de la micro electronique est un domaine ultra compétitif.
+ La moindre information filtrant sur le coût peut être critique pour l'entrepris
+e.
+ En effet la concurence pourrait se servir de ces informations afin d'asphixier
+ l'entreprise en vendant les produits concurents à un coût moindre.
+ 
+\end_layout
+
+\begin_layout Standard
+De fait STMicroElectronics ne peut se permettre de donner les chiffres réels
+ de la production et de la non qualité.
+ Les valeurs de la non qualité que nous prendrons sont donc des chiffres
+ hypothétiques sans aucun lien avec la réalité.
+ 
+\end_layout
+
+\begin_layout Standard
+La présente étude permettra d'avoir une estimation d'un gain potentiel de
+ notre programme.
+ 
+\end_layout
+
+\begin_layout Section
 Données à receuillir 
 \end_layout
 
