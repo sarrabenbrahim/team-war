@@ -114,6 +114,13 @@ r une étude annexe intéressante pour identifier, classer et pondérer le
 \begin_layout Section
 Optimized Design of Control Plans Based on Risk Exposure and Resources Capabilit
 ies
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:controlplan"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -135,7 +142,13 @@ Conclusion, cette méthode ne peut être retenu pour notre cas d'étude car
 
 \begin_layout Section
 An Approach for Operational Risk Evaluation and its Link to Control Plan
- 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:risk"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -181,6 +194,13 @@ Conclusion, cette méthode n'est pas industriellement applicable dès lors
 
 \begin_layout Section
 Optimizing Return On Inspection Trough Defectivity Smart Sampling
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:sampling"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -213,6 +233,13 @@ Conclusion, cette méthode peut être retenue pour être exploitée en compléme
 
 \begin_layout Section
 Computation of Wafer-At-Risk from Theory To Real Life Demonstartion
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:war"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -247,6 +274,13 @@ utopique
 
 \begin_layout Section
 Operational Risk Evaluation and Control Plan Design
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:controlplan"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard

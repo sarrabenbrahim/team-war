@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -52,9 +52,15 @@ Présentation de STMicroelectronics
 \end_layout
 
 \begin_layout Standard
-STMicroelectronics (plus connu sous ST) est une société internationale de
- semi-conducteurs, qui développe, fabrique et commercialise des puces électroniq
-ues.
+STMicroelectronics
+\begin_inset CommandInset citation
+LatexCommand cite
+key "web:WikipediaST"
+
+\end_inset
+
+ (plus connu sous ST) est une société internationale de semi-conducteurs,
+ qui développe, fabrique et commercialise des puces électroniques.
  Elle a été initialement créée en 1987, de la fusion de SGS Microelettronica
  et de Thomson Semiconducteurs, sous le nom de SGS-THOMSON.
  Puis renommée en STMicroelectronics, suite au retrait de Thomson du capital
