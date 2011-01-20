@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -63,7 +63,7 @@ Juste un bilan sur la gestion des coûts, pas besoin de beaucoup de détails.
 
 
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Il faut mettre la gestion des coûts dans le rapport de synthèse ? Je ne
@@ -156,7 +156,27 @@ Calcul des coûts
 \end_layout
 
 \begin_layout Standard
-Combien ça leur coûte actuellement ?
+Quel est le coût actuel
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Il est à noter que vu le caractère ultra confidentiel de ces informations.
+ Cette étude repose sur des données virtuel et en aucun cas des données
+ réels.
+  
+\end_layout
+
+\end_inset
+
+ de la non qualité (Cf tab 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Les-coûts"
+
+\end_inset
+
+) ? 
 \end_layout
 
 \begin_layout Standard
@@ -205,7 +225,10 @@ Une plaque de silicium
 \begin_inset Text
 
 \begin_layout Plain Layout
-1000$
+\begin_inset Formula $1000\$$
+\end_inset
+
+ 
 \end_layout
 
 \end_inset
@@ -225,7 +248,10 @@ Une semaine de production
 \begin_inset Text
 
 \begin_layout Plain Layout
-10000*1000 = 10000000$
+\begin_inset Formula $10000\times1000=10000000\$$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -245,7 +271,10 @@ Une année de production
 \begin_inset Text
 
 \begin_layout Plain Layout
-10000000*52 = 520000000$
+\begin_inset Formula $10000000\times52=520000000\$$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -265,7 +294,10 @@ Le pourcentage de rejet par an
 \begin_inset Text
 
 \begin_layout Plain Layout
-1% * 520000000 = 5200000$
+\begin_inset Formula $1\%\times520000000=5200000\%$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -282,6 +314,12 @@ Le pourcentage de rejet par an
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Les-coûts"
+
+\end_inset
+
 Les coûts
 \end_layout
 
@@ -290,16 +328,8 @@ Les coûts
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 
 \end_layout
 
@@ -308,23 +338,36 @@ Notre étude de gestion des coûts repose sur deux hypothèses :
 \end_layout
 
 \begin_layout Itemize
-La première est plutôt pessimiste: notre solution apporte -5% de non qualité
+La première est plutôt pessimiste: notre solution apporte -
+\begin_inset Formula $5\%$
+\end_inset
+
+ de non qualité
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-5200000 * 5% = 26000 $ 
+\begin_inset Formula $5200000\$\times5=26000\$$
+\end_inset
+
+ 
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-La deuxième plus optimiste : notre solution apporte jusqu'à -30% de non
- qualité
+La deuxième plus optimiste : notre solution apporte jusqu'à -
+\begin_inset Formula $30\%$
+\end_inset
+
+ de non qualité
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-5200000 * 30% = 1560000 $ 
+\begin_inset Formula $5200000\$\times30\%=1560000\$$
+\end_inset
+
+ 
 \end_layout
 
 \end_deeper
