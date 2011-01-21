@@ -50,9 +50,9 @@ public class Marcheur {
     private Collection<Batch> batchs;
 
     public Marcheur() {
-        fichier = Constants.SHORT_FILE;
-        //       fichier = Constants.LONG_FILE;
-        sdtf = new StoreDataToFile("./ResultForExcel.txt");
+        //fichier = Constants.SHORT_FILE;
+        fichier = Constants.LONG_FILE;
+        sdtf = new StoreDataToFile("./ResultForExcelV2.txt");
 
         tracabilitys = ExtractDataFromFile.createTracabilityCollection(fichier);
 
@@ -79,8 +79,8 @@ public class Marcheur {
             decimalFormat.setMinimumFractionDigits(4);
             Double percentOfavencement =
                     new Double(batch.getTracabilitys().size() / maxNumberOfSteps);
-            sdtf.add(decimalFormat.format(batch.fiabilityMSLAndMSESafe(lastDate))
-                    + ";" + decimalFormat.format(percentOfavencement) + "\n");
+            sdtf.add(decimalFormat.format(percentOfavencement) 
+                    + " " + decimalFormat.format(batch.fiabilityMSLAndMSESafe(lastDate)) + "\n");
             System.out.println("Nombre de batch traité :"
                     + nunmberOfProcessDone++ + " / " + batchs.size());
         }
