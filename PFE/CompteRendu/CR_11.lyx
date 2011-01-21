@@ -1,0 +1,186 @@
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Section*
+Compte Rendu N°11
+\end_layout
+
+\begin_layout Standard
+Les remarques faites par Madame Frydman
+\end_layout
+
+\begin_layout Itemize
+Introduction du rapport de façon synthétique cette introduction comporte
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+L'objet du PFE
+\end_layout
+
+\begin_layout Itemize
+Une bref présentation comment le rapport sera présenter 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Présentation du ST : pour cette partie il faut essayé de mentionné que si
+ ST est une entreprise multinationnale ? si c'est la cas il faut la mentionner
+\end_layout
+
+\begin_layout Itemize
+Enlever la figure des différentes type de produits ainsi la partie ou on
+ donne des exemples de produits pour le tuteur ça n'a pas d'intêret de le
+ mettre.
+\end_layout
+
+\begin_layout Itemize
+Etablir une petite introduction pour chaque partie ou chapitre avant d'enchainer.
+\end_layout
+
+\begin_layout Itemize
+Probléme au niveau d'affichage d'organisation du rapport
+\end_layout
+
+\begin_layout Itemize
+Fonctionnement de l'entreprise au niveau du rapport le remplacer par intro.
+ Ensuite enchainer par la mission de l'entreprise
+\end_layout
+
+\begin_layout Itemize
+Mettre le document qui nous ont été filer en partie Annexe et mettre une
+ réference dans la partie mission PFE
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Une etude préliminaire pour balailler le sujet et les pistes possibles...
+\begin_inset Quotes erd
+\end_inset
+
+ y'a pas pas de verbe d'aprés le tuteur et elle propose que ça serait mieux
+ de la remplacer par 
+\begin_inset Quotes eld
+\end_inset
+
+La premiére phase consiste à étudier differentes approche existantes, la
+ recherche d'information nous a essayé de faire un trie
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Mettre un tableau synthétique pour ce qui concerne les méthodes et mettre
+ une référence si le rapporteur veut avoir plus de détaille concernant cette
+ partie
+\end_layout
+
+\begin_layout Itemize
+Cette abscence de solution adaptable à la société ST nous a poussé à développer
+ notre propre approche basé sur l'algorithme du marcheur qui sera détaillé
+ dans le chapitre ou la partie suivante
+\end_layout
+
+\begin_layout Itemize
+Essayer d'expliquer l'anologie de l'état du marcheur avec les plaques On
+ a trouvé l'anologie à quoi elle consiste Explique la probabilité d'être
+ attaqué dans la ville expliquer la proche du marcheur sans lier avec les
+ lots.
+ (Quartier plus dangereux que d'autre quelqu'un qui marché bcp risque d'être
+ plus attaqué ensuite les tache de sûreté du marcheur L'association avec
+ le médecin et la police) Ensuite faire l'analogie du médecin c'est qui
+ le marcheur avec le pb industriel
+\end_layout
+
+\begin_layout Itemize
+Chapitre 2 Page 09
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+On avance l'état de l'art puis on met une conclusion de l'état de l'art
+ genre que on a pas trouvé de solution et on a développé notre propre solution
+\end_layout
+
+\begin_layout Standard
+Il faut dire que c'était l'objectif pour valider l'approche on était mené
+ de faire une maquette développer l'algorithme pour voir la faisabilité
+ l'implémentation c'était pas imposé le seul objectif c'était la validation
+ de l'approche on était pas intéressé pour l'optimisation ainsi la performance
+ de l'algorithme
+\end_layout
+
+\begin_layout Standard
+Détaillé de l'algorithme c'est pas les détailles pour les paquage ...
+ Dans un rapport de synthése ce qui leur intéresse c'est l'algo comment
+ on a fait pour le calcul du risque Le détaille de l'algorithme on le met
+ dans un rapport technique quand peut le joindre avec le dossier de synthése
+ mais jamais les détailles dans le rapport de synthése On peut mettre le
+ diagramme de classe à la rigeur dans le rapport de synthése on peut détaillé
+ quelque classe qui nous semble intéressante.
+\end_layout
+
+\begin_layout Standard
+On dit que on a executé le programme sur un echantille de ....
+ nettoyer pour un mois de production.
+ Cette algo produit en sorti un fichier indiquant sans avancement dans la
+ production il faut dire en terme de pourcentage qu'est ce que il représente.
+ en mentionne que l'algo reçoit en entre un fichier d'évenement et en sorti
+ il produit un fichier 
+\end_layout
+
+\begin_layout Standard
+Donner des raison pk on a trouvé d'autre solution 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Si on a pas eu un retour de la part de M.
+ Pinathon le lundi apréme essayer de le relancer.
+\end_layout
+
+\end_body
+\end_document
