@@ -51,6 +51,10 @@ figs-within-sections
 Présentation de STMicroelectronics
 \end_layout
 
+\begin_layout Section
+STMicroelectronics
+\end_layout
+
 \begin_layout Standard
 STMicroelectronics (plus connu sous ST) est une société internationale de
  semi-conducteurs, qui développe, fabrique et commercialise des puces électroniq
@@ -203,7 +207,7 @@ reference "fig:Exemple-Produits"
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -233,6 +237,120 @@ name "fig:Exemple-Produits"
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Historique
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Jaafar, c'est la partie que tu devrais modifier et corriger.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nommée SGS-Thomson
+\begin_inset CommandInset citation
+LatexCommand cite
+key "web:WikipediaST"
+
+\end_inset
+
+ après la fusion de la société italienne SGS –Société Générale Semiconduttori-
+ et la société française Thomson semi-conducteurs en 1987, St n’a pas gardé
+ pour longtemps ce nom la puisqu’en 1998 Thomson s’est retiré et elle fut
+ nommé STMicroelectronics.
+ Avant le retrait du capital Thomson, SGS-Thomson a racheté Inmos, Société
+ britannique en 1989 qui commençait sa fabrication de microprocesseurs Transpute
+r depuis 1978.
+ Au début des 90’s un accord de partenariat technologique entre SGS-Thomson
+ et Philips Semiconductors fut signé permettant a cette dernière de bénéficier
+ en 1993 de la nouvelle salle blanche de l'unité de R&D de SGS-Thomson à
+ Crolles sur un projet baptisé Grenoble 92.
+ L’année qui suit SGS-Thomson rachète quelques activités de semi-conducteurs
+ de la société canadienne Nortel Networks et l'usine de Rancho Bernardo,
+ pour racheter toute l’activité en 2000.
+ En 2002, Motorola Semiconductors et TSMC s'associent au partenariat technologiq
+ue ST-Philips.
+ C'est la création de l'Alliance Crolles2 avec la construction d'une nouvelle
+ unité de fabrication 300 mm, dans une salle blanche de 10.000 m², mais cette
+ alliance n’a pas durer pour longtemps puisqu’en 2007 NXP (ex Philips Semiconduc
+tors) et Freescale (ex Motorola Semi-conducteur) quittent Crolles2.
+ En cette même année ST et Intel créent une société commune nommée Numonyx
+ regroupant ainsi leurs activités de mémoires flash.
+ En avril 2008, ST détiendra 80% de la nouvelle société en créant une co-entrepr
+ise dans le domaine des technologies mobiles avec NXP Semiconductors et
+ se lança quelques mois après dans le projet ST-NXP Wireless.
+ En 2009, ST se lia à Ericsson sous le nom de ST-Ericsson tout en gardant
+ les mêmes activités et tranchant les 20% que NXP détenait de l’union ST-NXP
+ Wireless, cf fig:
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Historique-de-STMicroelectronics"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\emph on
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Historique-de-STMicroelectronics"
+
+\end_inset
+
+
+\emph default
+Historique du site de Rousset
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/philippe/SVN/TeamWAR/PFE/Doc/Images/HistoriqueSiteRouset.PNG
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Le schéma montre toutes les phases des changement d’actionnariat.
+ Historique du site de Rousset.
 \end_layout
 
 \end_inset

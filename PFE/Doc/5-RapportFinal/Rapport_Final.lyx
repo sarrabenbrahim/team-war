@@ -37,7 +37,7 @@ Gestion Production}
 \renewcommand{\headrulewidth}{0.5px}
 %\renewcommand{\footrulewidth}{1px}
 %%---- entete
-\lhead{RAPPORT D'ÉTUDE}
+\lhead{Rapport Final}
 \rhead{\leftmark}
 %%----pied de page
 \cfoot{\today}
@@ -431,32 +431,6 @@ Développement de la solution
 \begin_inset CommandInset include
 LatexCommand input
 filename "../3-Finale/AlgoMarcheur.lyx"
-
-\end_inset
-
-
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "Marcheur_Code.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "Marcheur_Bilan.lyx"
-
-\end_inset
-
-
-\end_layout
 
 \end_inset
 

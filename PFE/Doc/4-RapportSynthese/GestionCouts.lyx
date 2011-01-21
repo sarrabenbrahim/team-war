@@ -51,33 +51,8 @@ figs-within-sections
 Gestion des coûts
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Juste un bilan sur la gestion des coûts, pas besoin de beaucoup de détails.
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Il faut mettre la gestion des coûts dans le rapport de synthèse ? Je ne
- crois pas da,s la mesure ou seul une pro regarde cette étude dans un rapport
- à part, je dis des bêtises ?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
-Contexte
+Objectif
 \end_layout
 
 \begin_layout Paragraph
@@ -90,11 +65,15 @@ de réduire le temps de contrôle et de maintenance sur les machines,
 \end_layout
 
 \begin_layout Itemize
-d’augmenter la qualité de ses produits, 
+de maîtriser la qualité de ses produits,
 \end_layout
 
 \begin_layout Itemize
 réduire les coûts de la non qualité.
+\end_layout
+
+\begin_layout Section
+Solution
 \end_layout
 
 \begin_layout Standard
@@ -106,59 +85,61 @@ l'algorithme du marcheur
 \begin_inset Quotes frd
 \end_inset
 
- , par conséquent nous avons réaliser une maquette afin de pouvoir quantifier
- la réduction de la non qualité et de ce fait calculer le bénéfice dont
- l'entreprise pourra en bénéficier plus tard.
- 
-\end_layout
-
-\begin_layout Section
-Contrainte de l’entreprise 
-\end_layout
-
-\begin_layout Itemize
-Le coût des plaques est d'environs 1000 $ la plaque de silicium.
- 
-\end_layout
-
-\begin_layout Itemize
-Le contrôle des machines (appelé tâches qualités) qui suspend la chaine
- de production et donc implique des pertes pour l'entreprise.
- 
-\end_layout
-
-\begin_layout Itemize
-Les mesures sur lots effectuées sur les lots coûtent cher en terme de temps
- et d'argent pour l'entreprise.
- 
-\end_layout
-
-\begin_layout Section
-Objectif
-\end_layout
-
-\begin_layout Paragraph
-Besoin d’un mécanisme ou d’une solution qui permet de réduire les coûts
- et le temps de contrôle ainsi de maintenance et d’augmenter la qualité
- des produit selon les technologies.
-\end_layout
-
-\begin_layout Section
-Solution
+, ainsi qu'une maquette afin de pouvoir quantifier la réduction de la non
+ qualité et de ce fait calculer le bénéfice dont l'entreprise pourra en
+ bénéficier plus tard.
+ Cependant, faute de temps notre maquette ne permet pas encore de quantifier
+ l'amélioration apporté par notre algorithme du marcheur.
+ Il est à noter que notre mission principale consiste surtout à l'étude
+ de la faisabilité des solutions et non à leurs développements.
 \end_layout
 
 \begin_layout Standard
-Algorithme du marcheur
+Pour la gestion des coûts, nous avons émis deux hypothèses sur le gain approrté
+ par notre solution en terme de réduction en défectivité :
+\end_layout
+
+\begin_layout Itemize
+cas pessimiste : notre solution permettrait une réduction de 
+\begin_inset Formula $5\%$
+\end_inset
+
+ des produits défectueux.
+\end_layout
+
+\begin_layout Itemize
+cas optimiste : notre solution permettrait une réduction de 
+\begin_inset Formula $30\%$
+\end_inset
+
+ des produits défectueux.
 \end_layout
 
 \begin_layout Section
-Calcul des coûts
+Estimation des coûts
+\end_layout
+
+\begin_layout Standard
+En vue d'un marché très concurrentiel qui évolue rapidement, les prix des
+ produits varient aussi en conséquen
+\end_layout
+
+\begin_layout Subsection
+Hypothèse
+\end_layout
+
+\begin_layout Subsection
+Calcul
+\end_layout
+
+\begin_layout Subsection
+Bilan
 \end_layout
 
 \begin_layout Standard
 Quel est le coût actuel
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Il est à noter que vu le caractère ultra confidentiel de ces informations.
@@ -294,7 +275,7 @@ Le pourcentage de rejet par an
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset Formula $1\%\times520000000=5200000\%$
+\begin_inset Formula $1\%\times520000000=5200000\$$
 \end_inset
 
 
