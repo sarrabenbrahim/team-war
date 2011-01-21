@@ -1,4 +1,3 @@
-
 #LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
@@ -67,6 +66,10 @@ Présentation de l'algorithme du marcheur : idée + algo.
 
 \begin_layout Section
 Présentation générale
+\end_layout
+
+\begin_layout Standard
+L'algotithme du marcheur repose sur l'idée assez simple 
 \end_layout
 
 \begin_layout Standard
@@ -146,10 +149,125 @@ Détail de l'algorithme
 Présentation générale
 \end_layout
 
+\begin_layout Subsection
+Idée de l'algorithme
+\end_layout
+
+\begin_layout Standard
+L'idée de l'algorithme est assez simple, on se propose de regarder avec
+ quel chance un marcheur dans une grande ville a d'être attaqué.
+ Pour cela nous allons faire quelques hypothèses pour construire notre modèle.
+ 
+\end_layout
+
+\begin_layout Itemize
+Le marcheur se promène dans des quartiers plus ou moins dangereux
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Par exemple les quartiers nord sont plus dangereux que le quartier du vieux
+ port à Marseille
+\end_layout
+
+\end_inset
+
+, donc plus un promeneur reste dans des quartiers réputé dangereux plus
+ il aura de chance d'être agressé.
+\end_layout
+
+\begin_layout Itemize
+Un quartier devient de plus en plus dangreux quand il est laissé à l'abandon.
+ En effet plus des voyageurs passent dans un quartier plus cela attire la
+ convoitise des bandits et plus le quartier devient dangereux.
+ Jusqu'au jour ou la police arrive et envoie tous les bandits en prison.
+ Le quartier sera alors de nouveau sûr et recommencera à devenir de plus
+ en plus dangereux au fur et à mesure des nouvelles visites.
+\end_layout
+
+\begin_layout Itemize
+Si un marcheur qui sort d'un quartier est contrôlé par un medecin et que
+ ce dernier constate que l'état de santé du marcheur est bon alors on se
+ ravise sur la dangerosité du dernier quartier et on le remet à un nouveau
+ seuil de confiance.
+ 
+\end_layout
+
+\begin_layout Itemize
+Si un marcheur est petit et mince il a plus de chance de se faire agresser
+ que si il est grand et fort.
+ 
+\end_layout
+
+\begin_layout Standard
+Ensuite nous calculerons le l'indice de santé du marcheur en fonction des
+ quartiers qu'il a traversé et de son physique.
+ Dans l'absolu un marcheur petit et maigre qui reste dans des quartiers
+ déserté par la police aura de plus forte chance d'être blessé qu'un grand
+ qui se balade dans des quartiers avec une forte présence policière
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Même si cette règle ne s'applique pas au cas de la tunisie actuellement
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Adaptation de l'algorithme
+\end_layout
+
+\begin_layout Standard
+Pour adapter notre algorithme à notre problème industriel nous faisons les
+ associations suivantes : 
+\end_layout
+
+\begin_layout Itemize
+Un marcheur est un lot (
+\emph on
+Batch
+\emph default
+)
+\end_layout
+
+\begin_layout Itemize
+Un quartier est une machine de production (
+\emph on
+Workstation
+\emph default
+) et la dangerosité du quartier sera la fiabilité de la machine
+\end_layout
+
+\begin_layout Itemize
+Une descente de police est une tâche qualité sur une machine (
+\emph on
+MSE
+\emph default
+)
+\end_layout
+
+\begin_layout Itemize
+Un contrôle du docteur est une mesure sur lot (
+\emph on
+MSL
+\emph default
+)
+\end_layout
+
+\begin_layout Itemize
+L'état de santé du marcheur sera l'indice de santé du lot (ou fiabilité
+ du lot)
+\end_layout
+
 \begin_layout Standard
 L'algorithme se décompose de deux parties, tout d'abord nous calculons la
- fiabilité d'une machine, et ensuite nous nous intéressons à la fiabilité
- du lot.
+ fiabilité d'une machine, et ensuite nous nous intéressons à l'indice de
+ santé du lot.
  Le calcul de la fiabilité du lot prend en compte la fiabilité de la machine
  (Cf Algorithme 
 \begin_inset CommandInset ref
@@ -539,7 +657,7 @@ reference "fig:classe-Constants"
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -658,6 +776,7 @@ Le programme s'exécute et analyse les
  dans la production et son indice de santé.
  
 \begin_inset Float figure
+placement h
 wide false
 sideways false
 status open
