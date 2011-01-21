@@ -37,7 +37,7 @@ Gestion Production}
 \renewcommand{\headrulewidth}{0.5px}
 %\renewcommand{\footrulewidth}{1px}
 %%---- entete
-\lhead{RAPPORT D'ÉTUDE}
+\lhead{Rapport Synthèse}
 \rhead{\leftmark}
 %%----pied de page
 \cfoot{\today}
@@ -353,23 +353,6 @@ filename "Introduction.lyx"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Veuillez prêter beaucoup d'importance pour ce rapport car il risque d'être
- le seul rapport que les gens liront et noteront.
- On doit donc faire attention à la cohérence des parties et dans l'ensemble.
- Il faut donc éviter des copier-coller de ce qui a été rédigé dans les rapports
- précédents.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Part
 Contexte de l'étude
 \end_layout
@@ -428,38 +411,6 @@ Développement de la solution
 \begin_inset CommandInset include
 LatexCommand input
 filename "AlgoMarcheur.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Comment
-status open
-
-\begin_layout Plain Layout
-\begin_inset CommandInset include
-LatexCommand input
-filename "AlgoMarcheur_Bilan.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Je ne pense pas que la conclusion sur l'algo du marcheur soit en dehors
- du chapitre Algo Marcheur ce n'est pas logique sinon C'est le titre du
- Chapitre Algo Marcheur qui est mal choisi.
- 
-\end_layout
 
 \end_inset
 
