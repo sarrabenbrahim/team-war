@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -357,6 +357,12 @@ Tableau récapitulatif des rôles
 
 \end_layout
 
+\begin_layout Standard
+Pour le travail nous nous sommes génarelement organisé en fonction du nombre
+ de tâches et des compétences de chaque membre de l'équipe, en effet il
+ ya des fois ou nous avons travaillé en binômes , en équipe de 3 personnes.
+\end_layout
+
 \begin_layout Section
 Gestion de projet
 \end_layout
@@ -366,7 +372,7 @@ Choix de la méthode agile
 \end_layout
 
 \begin_layout Standard
-Après une explication détaillée du sujet par notre client.
+Après une explication du sujet par notre client.
  Il est apparue que la gestion de projet collant au mieux au sujet du PFE
  est la méthode agile.
   En effet le projet pourra subir de nombreuses modifications en fonction
@@ -497,6 +503,23 @@ Source : Wikipedia.
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Subsection
+Choix des outils de travail
+\end_layout
+
+\begin_layout Standard
+lyx, svn, neatbeans,....
+ pourquoi , les avantages................
+\end_layout
+
+\begin_layout Section
+Suivi du projet
+\end_layout
+
+\begin_layout Standard
 Voici les itérations de notre projet (Réf: 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -551,6 +574,157 @@ name "fig:Planning-du-projet"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Cette figure represente le suivi de notre projet sur toute la durée du PFE
+ , par conséquent nous allons détaillé les itérations de travail du mois
+ de decembre et de janvier.
+\end_layout
+
+\begin_layout Subsection
+La première itération de notre équipe 
+\end_layout
+
+\begin_layout Standard
+Nous avons ensuite découpé le travail de la manière suivante : 
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Garcia
+\noun default
+ Fabien
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Nakara
+\noun default
+ Rahma 
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Ait Belkacem
+\noun default
+ Abdelali 
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Nguyen
+\noun default
+ Philipe 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Amrani-Mesbahi
+\noun default
+ Jaafar 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Au terme de cette itération 
+\end_layout
+
+\begin_layout Subsection
+La deuxième itération de notre équipe
+\end_layout
+
+\begin_layout Standard
+Nous avons ensuite découpé le travail de la manière suivante : 
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Garcia
+\noun default
+ Fabien
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Nakara
+\noun default
+ Rahma 
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Ait Belkacem
+\noun default
+ Abdelali 
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Nguyen
+\noun default
+ Philipe 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Amrani-Mesbahi
+\noun default
+ Jaafar 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Problèmes rencontrés et solutions apportées
+\end_layout
+
+\begin_layout Standard
+les problemes de gestion rencontrées sont:
+\end_layout
+
+\begin_layout Standard
+le cahier de charges n'a pas cessé d'évoluer ce qui nous obliger à redistribuer
+ les roles à chaque fois et de reaffecter les taches.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+les choix du langage de programmation de la maquettes
 \end_layout
 
 \end_body
