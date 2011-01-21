@@ -52,6 +52,21 @@ Présentation de STMicroelectronics
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Madame Frydman nous a demandé de virer les figures concernant les deux figures
+ qui se trouvait en bas pour les types de produits elle ne voit pas d'ou
+ l'intêrt de les mettre !!!!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 STMicroelectronics
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -59,8 +74,18 @@ key "web:WikipediaST"
 
 \end_inset
 
- (plus connu sous ST) est une société internationale de semi-conducteurs,
- qui développe, fabrique et commercialise des puces électroniques.
+ (plus connu sous ST) est une société internationale 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Elle est aussi une multinationale de la microélectronique
+\end_layout
+
+\end_inset
+
+ de semi-conducteurs, qui développe, fabrique et commercialise des puces
+ électroniques.
  Elle a été initialement créée en 1987, de la fusion de SGS Microelettronica
  et de Thomson Semiconducteurs, sous le nom de SGS-THOMSON.
  Puis renommée en STMicroelectronics, suite au retrait de Thomson du capital
@@ -155,102 +180,6 @@ reference "fig:Divers-Groupes-Produit"
 \end_inset
 
 ) :
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Divers groupes de produit
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Divers-Groupes-Produit"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../Images/ST_ProductsGroup.jpg
-	width 70col%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Voici quelques exemples d'application des produits semi-conducteurs et de
- la technologie de ST dans la vie quotidienne (cf Fig 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Exemple-Produits"
-
-\end_inset
-
-):
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Exemple des produits
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Exemple-Produits"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../Images/ST_Products.jpg
-	width 70col%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_body
