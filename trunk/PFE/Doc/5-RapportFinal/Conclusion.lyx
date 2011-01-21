@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -52,16 +52,89 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
+Au terme de notre étude nous pouvons revenir sur la mission de notre projet
+ de faisabilité.
+ 
+\end_layout
+
+\begin_layout Standard
+Tout d'abbord il apparaît qu'aucune méthode simple n'est utilisablle facilement
+ pour la détection de la non qualité dans les 
+\emph on
+chips
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Au cours de nos recherches bibliographiques deux méthodes on attirés notre
+ attention le 
+\begin_inset Formula $D^{3}$
+\end_inset
+
+ et le Waffer at risk.
+ Nous avons cherché à adapter ces deux méthodes dans le cadre de notre étude
+ mais sans succès.
+ En effet les contraintes de production et de tests sur les composés nous
+ ont contraint d'abandonner ces deux méthodes.
+ Refusant de rester dans une impasse nous avons décidé de développer notre
+ propre méthode afin de trouver une piste de solution.
+ Pour ce faire nous avons conçu un algorithme que nous avons appellé 
+\begin_inset Quotes fld
+\end_inset
+
+l'algorithme du marcheur
+\begin_inset Quotes frd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Pour développer cette solution nous partons du principe que fabriquer un
+ produit de non qualité revient au même que de se faire agresser dans une
+ grande ville comme Marseille en se balladant.
+ Tout le but du programme est d'anticiper grâce aux probabilités et à des
+ méthodes de calculs récursive, avec quel chance un produit est de non qualité.
+ 
+\end_layout
+
+\begin_layout Standard
+Afin de valider notre algorithme nous avons décider de le programmer.
+ Nous avons donc programmé une maquette en Java qui a permis de sortir des
+ resultats partagés avec STMicroElectronics ainsi qu'une architecture de
+ logiciel.
+ De plus ce développement nous a permis d'envisager les évolutions ultérieurs.
+ En effet il apparait que notre modèle n'est pas encore assez complexe pour
+ être compatible avec la réalité.
+ Une optimisation du code serait nécessaire pour résoudre le problème des
+ technologies différentes à considérer.
+ Ceci dit nous avons bon espoir que notre méthode fera l'objet d'un redéveloppem
+ent ultérieur et peut-être d'une utilisation dans un cadre industriel.
+ En effet ce type d'application représente un enjeux pour ce type d'industrie.
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Conclusion générale du rapport et du PFE.
+Je me suis un peu laché sur cette partie
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Sinon d'un point de vue plus général sur le projet, cette expérience nous
+ a permis d'être en contact avec un industriel et nous permettre de nous
+ confronter à la réalité du travail d'ingénieur.
+ Gérer, anticiper et comprendre les besoins du client ce qui dans les prochaines
+ semaines seront des compétences que nous déploiront dans un context moins
+ protégé que l'école et plus en phase avec la réalité.
+ Ce projet fut donc un bon moyen de tourner une page avant de sauter dans
+ le grand bain du métier d'ingénieur.
+ 
 \end_layout
 
 \end_body
