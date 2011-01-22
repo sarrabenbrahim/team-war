@@ -56,21 +56,19 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-Au terme de notre étude sur l'existant et l'état de l'art, il nous est apparu
- que le développement d'un outils adapté au problème spécifique nous semblait
- nécessaire.
- En effet le développement d'un modèle complet parait plus réalisable, à
- l'heure actuelle, que l'adaptation d'un outils inadapté à ce type de problémati
-que.
+Au terme de notre étude sur l'existant et l'état de l'art, il nous est paru
+ nécessaire de développer un outils plus adapté au problème.
+ En effet développer un modèle complet est plus réaliste, à l'heure actuelle,
+ car nous n'avons trouvé aucun outils approprié.
  
 \end_layout
 
 \begin_layout Standard
-Pour résumer notre problème nous allons détailler le modèle que nous nous
- proposons de développer par la suite.
- Le modèle du marcheur
+En résumer nous allons détailler le modèle que nous avons développé par
+ la suite.
+ Le modèle du marcheur :
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Le nom 
@@ -94,41 +92,46 @@ marche de l'ivrogne
 
 \end_inset
 
-, ce modèle permet dans un premier temps de déterminer un indice de risque
- pour les pièces (
-\begin_inset Formula $W@R$
-\end_inset
 
-
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Wafer at Risk
 \end_layout
 
-\end_inset
-
-).
- Dans un deuxième temps de se servir de cette indice de confiance pour détermine
-r les pièces les plus risqués, priorisé leur contrôle, et remonter plus
- rapidement aux lots impactées.
- Afin de représenter ces données nous coupleront ces données avec l'avancement
- du lot dans l'usine.
+\begin_layout Standard
+Il permet dans un premier temps de déterminer un indice de risque pour les
+ pièces (Indice de santé).
+ Et dans un deuxième temps se servir de cette indice de confiance pour détermine
+r les pièces les plus risqués, prioriser leur contrôle, et remonter plus
+ rapidement aux lots impactés.
+ Afin de représenter ces données nous les coupleront avec l'avancement du
+ lot dans l'usine.
 \end_layout
 
 \begin_layout Standard
 L'idée de départ est assez simple, on se propose de regarder la probabilité
- d'un marcheur dans une ville d'être agressé en se baladant.
+ d'un marcheur d'être agressé en se baladant dans une ville
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Notre vie à Marseille dans les quartiers nord nous a fortement inspiré pour
+ l'élaboration de cet algorithme
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
-Hypothèses
+Description de l'algorithme
+\end_layout
+
+\begin_layout Subsection
+Idée de l'algorithme
 \end_layout
 
 \begin_layout Standard
-Afin de rendre le propos le plus clair possible nous allons poser toutes
- les hypothèses nécessaires au développement de l'algorithme.
+Afin de rendre le propos le plus clair possible nous allons détailler les
+ hypothèses utilisées par l'algorithme du marcheur.
 \end_layout
 
 \begin_layout Itemize
@@ -158,7 +161,7 @@ Le marcheur qui traverse des quartiers dangereux (Machine de production,
 \emph on
 Workstation
 \emph default
-) a plus de chance d'être blessé dans un quartier dangereux.
+) a plus de chance d'être blessé que dans un quartier tranquille.
 \end_layout
 
 \begin_layout Itemize
@@ -167,96 +170,48 @@ Propriété du quartier dynamique (Machine de production)
 
 \begin_deeper
 \begin_layout Itemize
-Le taux de criminalité augmente linéairement.
- Dans notre cas la sureté d'un quartier correspond à la fiabilité de la
- machine, de fait la fiabilité de la machine vaut donc 
-\begin_inset Formula $Fiabilité=Sureté_{Défaut}-Taux_{Criminalité}$
+Le taux de criminalité d'un quartier augmente linéairement.
+ De manière parrallèle la sureté d'un quartier diminue linéairement en fonction
+ du nombre de marcheur se promenant dans le quartier.
+ En effet plus de gens passent dans un quartier plus cela attire les bandits.
+ Ce qui entraine une augmentation direct du 
+\begin_inset Formula $Taux_{Criminalité}$
 \end_inset
 
- ou dans notre problème 
-\begin_inset Formula $F_{Machine}=F_{MachineDefaut}-D_{Machine}$
+ 
+\begin_inset Formula \[
+Sureté_{Quartier}=Sureté_{Défaut}-\left(Taux_{Criminalité}\times Nombre_{Marcheur}\right)\]
+
 \end_inset
 
-
+ 
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Avec 
-\begin_inset Formula $D_{Machine}$
-\end_inset
-
- est le déreglement de la machine
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $F_{Machine}$
-\end_inset
-
- est la fiabilité de la machine ou sûreté du quartier
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $F_{MachineDefaut}$
-\end_inset
-
- est le niveau de fiabilité après un contrôle de qualité, ou le niveau de
- sureté après le passage de la police.
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 La criminalité augmente en fonction du nombre de marcheurs qui traverse
  le quartier.
  
-\begin_inset Formula $ $
-\end_inset
-
- Ce qui nous donne 
-\begin_inset Formula $D_{Machine}=N_{Produit}\times\lambda_{Dereglement}$
-\end_inset
-
-
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Où 
-\begin_inset Formula $\lambda_{Dereglement}$
-\end_inset
-
- est le coefficient de déregelment 
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 La criminalité est remise à un niveau seuil quand la police passe.
- (Tache qualité)
 \end_layout
 
 \begin_layout Itemize
-La criminalité est remise à un seuil de confiace si la santé du marcheur
+La criminalité est remise à un seuil de confiance si la santé du marcheur
  est bonne en sortant du quartier.
+ Un medecin contrôle le marcheur, si il est en bonne santé on en déduit
+ que la criminalité du quartier a été surévaluer, on réaugmente cette sureté
+ à un niveau seuil.
+ 
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-On s'assure de la santé d'un marcheur en faisant passer un médecin (Mesure
- métrologique).
-\end_layout
-
-\begin_layout Itemize
-Si la santé du marcheur est bonne, cela veut dire que la criminalité a été
- sur-évaluée et il convient de la diminuer.
-\end_layout
-
-\end_deeper
-\end_deeper
 \begin_layout Itemize
 Le contrôle de la santé d'un marcheur donne de l'information uniquement
  sur le dernier quartier vu par le marcheur.
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
 Il y a trois type de marcheur, un petit, moyen et un grand (technologie
  logique, mémoire et mixte)
@@ -264,14 +219,15 @@ Il y a trois type de marcheur, un petit, moyen et un grand (technologie
 
 \begin_deeper
 \begin_layout Itemize
-Plus un marcheur est petit plus il aura de chance d'être agressé.
+Plus un marcheur est petit plus il aura de chance d'être agressé, en effet
+ les bandits préfèrent prendre le moins de risque possible.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 On formalise le problème : 
 \begin_inset Formula \begin{equation}
-Indice_{Santé}=\prod_{i=1}^{N}\left(F_{Machine[i]}\times F_{Produit}\right)\end{equation}
+Indice_{Santé}=Indice_{SantéDéfaut}\times\prod_{i=1}^{N}\left(Sureté_{Quartier[i]}\right)\end{equation}
 
 \end_inset
 
@@ -301,8 +257,8 @@ Indice_{Santé}=\prod_{i=1}^{N}\left(F_{Machine[i]}\times F_{Produit}\right)\end
 \begin_inset Formula $Indice_{Santé}$
 \end_inset
 
- est un indice de confiance plus cette valeur est basse plus le lot a de
- chance d'être deffectueux et un contrôle s'impose au plus vite.
+ est un indice de confiance plus cette valeur est basse plus un marcheur
+ a de chance d'être bléssé et un contrôle du médecin s'impose au plus vite.
 \begin_inset Note Note
 status open
 
@@ -316,6 +272,79 @@ Remplacer W@R par indice de santé et F_machine est un indice de santé
 \end_layout
 
 \end_deeper
+\begin_layout Subsection
+Adapation de l'algorithme au problème industriel 
+\end_layout
+
+\begin_layout Standard
+Pour adapter notre algorithme à notre problème industriel nous faisons les
+ associations suivantes : 
+\end_layout
+
+\begin_layout Itemize
+Un marcheur est un lot (
+\emph on
+Batch
+\emph default
+) 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $Marcheur\rightarrow Lot$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Un quartier est une machine de production (
+\emph on
+Workstation
+\emph default
+) et la sureté du quartier sera la fiabilité de la machine
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $Sureté_{Quartier}\rightarrow F_{Machine}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Une descente de police est une tâche qualité sur une machine (
+\emph on
+MSE
+\emph default
+)
+\end_layout
+
+\begin_layout Itemize
+Un contrôle du docteur est une mesure sur lot (
+\emph on
+MSL
+\emph default
+)
+\end_layout
+
+\begin_layout Itemize
+L'état de santé du marcheur sera l'indice de santé du lot (ou fiabilité
+ du lot)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $Indice_{SantéMarcheur}\rightarrow Indice_{SantéLot}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Section
 L'algorithme
 \end_layout
@@ -323,17 +352,16 @@ L'algorithme
 \begin_layout Standard
 On définit différents niveaux de complexité à notre algorithme, pour chaque
  niveau de complexité nous détaillerons les différences.
- Il est à noter que tous ces calculs sont donné pour le calcul du 
-\begin_inset Formula $W@R$
+ Il est à noter que tous ces calculs sont donné pour l'
+\begin_inset Formula $Indice_{Santé}$
 \end_inset
 
- d'un seul marcheur (produit).
+ d'un seul lot.
  On fera tourner cet algorithme dans une boucle pour comparer les différents
- produits entre eux.
- Ensuite on déterminera un classement des produits les plus risqué et cela
- permettra de savoir rapidement quel produit contrôler en priorité et suivant
- le resultat du contrôle impacter les autres pièces qui sont passés sur
- les machines similaires
+ lots entre eux.
+ Ensuite on déterminera un classement des lots les plus risqué en fonction
+ de leur avancement.
+ Cela permettra de savoir rapidement quel produit contrôler en priorité.
 \end_layout
 
 \begin_layout Subsection
@@ -353,17 +381,7 @@ On suppose que les machines ont une fiabilité
 \begin_inset Formula $Indice_{santé}$
 \end_inset
 
- est la probabilité du produit d'être défectueux
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Probabilité au marcheur d'être blessé.
-\end_layout
-
-\end_inset
-
-.
+ est la probabilité du produit d'être défectueux.
 \end_layout
 
 \begin_layout Itemize
@@ -384,7 +402,7 @@ pour
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $F_{Produit}=F_{Produit}\times F$
+\begin_inset Formula $Indice_{SantéLot}=Indice_{SantéLot}\times F_{Machine}$
 \end_inset
 
 
@@ -409,7 +427,7 @@ On suppose maintenant que la fiabilité est différente sur chaque machine
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $F_{Produit}=F_{ProduitDefaut}$
+\begin_inset Formula $Indice_{SantéLot}=Indice_{SantéLotDefaut}$
 \end_inset
 
 
@@ -433,7 +451,7 @@ pour
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $F_{Produit}=F_{Produit}\times F_{Machine[i]}$
+\begin_inset Formula $Indice_{SantéLot}=Indice_{SantéLot}\times F_{Machine[i]}$
 \end_inset
 
 
@@ -442,13 +460,6 @@ pour
 \end_deeper
 \begin_layout Itemize
 Fin Pour
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $W@R=1-F_{Produit}$
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -478,7 +489,7 @@ Ne prend pas en compte le medecin ou MSL, plus de modèle temporel
 On suppose maintenant que la fiabilité est différente sur chaque machine
  et décroit linéairement : 
 \begin_inset Formula \begin{equation}
-F_{MachineProduits[i]}=F_{MachineDefaut}-\left(\lambda_{Machine}\times N_{Produit}\right)\end{equation}
+F_{Machine[i]}=F_{MachineDefaut}-\left(\lambda_{Machine}\times N_{Produit}\right)\end{equation}
 
 \end_inset
 
@@ -529,7 +540,7 @@ pour
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $F_{Produit}=F_{Produit}\times F_{Machine[i]}$
+\begin_inset Formula $Indice_{SantéLot}=Indice_{SantéLot}\times F_{Machine[i]}$
 \end_inset
 
 
@@ -538,13 +549,6 @@ pour
 \end_deeper
 \begin_layout Itemize
 Fin Pour
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $W@R=1-F_{Produit}$
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -677,12 +681,28 @@ mémoire et logique
 
 \begin_layout Standard
 Le calcul s'effectue de la même manière ensuite, on introduira simplement
- la nouvelle fiabilité du produit (
-\begin_inset Formula $F_{Produit}$
+ le nouveau coefficient de risque du lot (
+\begin_inset Formula $\beta$
 \end_inset
 
 ).
- Il est à noter que les informations de complexité ne nous ayant pas été
+ 
+\end_layout
+
+\begin_layout Standard
+On déduira la valeur de l'indice de santé après calcul précédent de la manière
+ suivante.
+ 
+\begin_inset Formula \[
+Indice_{SantéLot}=Indice_{SantéLot}\times\beta\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Il est à noter que les informations de complexité ne nous ayant pas été
  communiqué, cette partie de l'algorithme n'a pas été implémenté.
 \end_layout
 
@@ -702,6 +722,13 @@ Vu la complexité du projet nous avons décidé de développer notre code en
 
 \begin_layout Subsection
 Traitement des données
+\end_layout
+
+\begin_layout Standard
+Concernant les données utilisés il faut préciser que pour des raisons de
+ temps et de moyens nous avons travaillé sur un ensemble de données tronqué.
+ En effet les informations liées aux technologies ont été supprimés.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -1132,11 +1159,10 @@ Marcheur
 \begin_layout Standard
 Contient l'algorithme qui lance les méthodes de calculs qui se trouvent
  sur les batch et workstations.
- En effet les méthodes de calcul de fiabilité se font sur l'objet batch
- et Workstation.
+ Les méthodes de calcul de fiabilité se font sur l'objet batch et Workstation.
  En effet à la vue de notre architecture, les données nécessaires au calcul
- sont présentes sur ces objets il est naturel d'associer les méthodes à
- ces objets.
+ sont présentes sur ces objets et il est naturel d'associer les méthodes
+ à ces objets.
 \end_layout
 
 \begin_layout Subsection
@@ -1397,7 +1423,7 @@ status open
 \begin_layout Plain Layout
 Ces classes ne sont pas détaillés, car elles ne font que lire et écrire
  dans des fichiers.
- Comme il n'y a rien de nouveau sous le soleil nous passons cette partie
+ Comme il n'y a rien de nouveau sous le soleil nous passerons cette partie
  sous silence
 \end_layout
 
