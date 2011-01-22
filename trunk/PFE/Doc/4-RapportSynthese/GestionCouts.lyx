@@ -120,237 +120,116 @@ Estimation des coûts
 \end_layout
 
 \begin_layout Standard
-En vue d'un marché très concurrentiel qui évolue rapidement, les prix des
- produits varient aussi en conséquen
+Le marché des sémi-conducteurs est très concurrentiel et qui évolue rapidement,
+ le prix de vente des produits varie aussi en conséquent.
+ Il est donc difficile de chiffrer le coût de la non-qualité.
+ De plus pour des raisons de confidentialité, notre accès aux données de
+ comptabilité est donc aussi limité.
+ Les données dans cette partie sont des estimations.
 \end_layout
 
 \begin_layout Subsection
 Hypothèse
 \end_layout
 
+\begin_layout Itemize
+Le coût d'une plaque de silicium est estimée à $1000 en production, on suppose
+ que le coût d'une plaque défectueux coûte aussi $1000 à l'entreprise.
+\end_layout
+
+\begin_layout Itemize
+La production hebdomadaire est estimée à 10000 plaques de silicium.
+\end_layout
+
+\begin_layout Itemize
+Le pourcentage de la non-qualité d'une bonne entreprise est estimé à 1%.
+\end_layout
+
+\begin_layout Itemize
+Notre solution ne nécessite à priori pas d'investissement initial si ce
+ n'est qu'un thésard pour le développement de l'algorithme ($30000 par an)
+ et éventuellement un nouveau puissant ordinateur ($3000) pour l'exécuter
+ plus rapidement.
+\end_layout
+
 \begin_layout Subsection
 Calcul
 \end_layout
 
+\begin_layout Itemize
+Production annuelle des plaques de silicium : 
+\begin_inset Formula $10000\times52=520000$
+\end_inset
+
+ plaques
+\end_layout
+
+\begin_layout Itemize
+Coût de production annuelle : 
+\begin_inset Formula $520000\times1000=520$
+\end_inset
+
+ millions dollars
+\end_layout
+
+\begin_layout Itemize
+Avec 
+\begin_inset Formula $1\%$
+\end_inset
+
+ de rejet, le coût annuel de la non-qualité est de 
+\series bold
+5,2 millions dollars
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cas pessimiste (
+\begin_inset Formula $5\%$
+\end_inset
+
+) : 
+\begin_inset Formula $0,05\times5,2\times10^{6}=\$260000$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Cas pessimiste (
+\begin_inset Formula $30\%$
+\end_inset
+
+) : 
+\begin_inset Formula $0,3\times5,2\times10^{6}=\$1560000$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
 \begin_layout Subsection
 Bilan
 \end_layout
 
 \begin_layout Standard
-Quel est le coût actuel
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Il est à noter que vu le caractère ultra confidentiel de ces informations.
- Cette étude repose sur des données virtuel et en aucun cas des données
- réels.
-  
-\end_layout
-
-\end_inset
-
- de la non qualité (Cf tab 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "tab:Les-coûts"
-
-\end_inset
-
-) ? 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="5" columns="2">
-<features>
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Désignation
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Coûts
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Une plaque de silicium 
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $1000\$$
-\end_inset
-
- 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Une semaine de production
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $10000\times1000=10000000\$$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Une année de production
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $10000000\times52=520000000\$$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Le pourcentage de rejet par an
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $1\%\times520000000=5200000\$$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "tab:Les-coûts"
-
-\end_inset
-
-Les coûts
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
+\begin_inset Formula $^{\,}$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Notre étude de gestion des coûts repose sur deux hypothèses :
+Notre solution permet de 
+\series bold
+réduire le coût de la non-qualité entre 0,26 et 5,2 millions dollars par
+ an
+\series default
+.
+ Comme nous avons mentionné plus haut qu'il n'y a pas besoin d'autres d'investis
+sements que le développement de l'algorithme car la solution utilise les
+ ressources déjà existantes.
 \end_layout
 
-\begin_layout Itemize
-La première est plutôt pessimiste: notre solution apporte -
-\begin_inset Formula $5\%$
-\end_inset
-
- de non qualité
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $5200000\$\times5=26000\$$
-\end_inset
-
- 
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-La deuxième plus optimiste : notre solution apporte jusqu'à -
-\begin_inset Formula $30\%$
-\end_inset
-
- de non qualité
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-\begin_inset Formula $5200000\$\times30\%=1560000\$$
-\end_inset
-
- 
-\end_layout
-
-\end_deeper
 \end_body
 \end_document
