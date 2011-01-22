@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -69,7 +69,7 @@ Présentation générale
 \end_layout
 
 \begin_layout Standard
-L'algotithme du marcheur repose sur l'idée assez simple 
+L'algorithme du marcheur repose sur l'idée assez simple 
 \end_layout
 
 \begin_layout Standard
@@ -177,7 +177,7 @@ Par exemple les quartiers nord sont plus dangereux que le quartier du vieux
 \end_layout
 
 \begin_layout Itemize
-Un quartier devient de plus en plus dangreux quand il est laissé à l'abandon.
+Un quartier devient de plus en plus dangereux quand il est laissé à l'abandon.
  En effet plus des voyageurs passent dans un quartier plus cela attire la
  convoitise des bandits et plus le quartier devient dangereux.
  Jusqu'au jour ou la police arrive et envoie tous les bandits en prison.
@@ -186,7 +186,7 @@ Un quartier devient de plus en plus dangreux quand il est laissé à l'abandon.
 \end_layout
 
 \begin_layout Itemize
-Si un marcheur qui sort d'un quartier est contrôlé par un medecin et que
+Si un marcheur qui sort d'un quartier est contrôlé par un médecin et que
  ce dernier constate que l'état de santé du marcheur est bon alors on se
  ravise sur la dangerosité du dernier quartier et on le remet à un nouveau
  seuil de confiance.
@@ -209,7 +209,7 @@ Ensuite nous calculerons le l'indice de santé du marcheur en fonction des
 status open
 
 \begin_layout Plain Layout
-Même si cette règle ne s'applique pas au cas de la tunisie actuellement
+Même si cette règle ne s'applique pas au cas de la Tunisie actuellement
 \end_layout
 
 \end_inset
@@ -657,7 +657,7 @@ reference "fig:classe-Constants"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -773,13 +773,213 @@ Le programme s'exécute et analyse les
 
  évènements de l'usine, ce qui représente un mois de production.
  En sortie nous avons un fichier qui indique pour chaque produit son avancement
- dans la production et son indice de santé.
- 
-\begin_inset Float figure
-placement h
+ dans la production et son indice de santé (Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Représentation-des-résultats"
+
+\end_inset
+
+ et 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Représentation-des-résultats-2"
+
+\end_inset
+
+).
+ Nous faisons tourner le même algorithme avec deux réglages différentes
+ (Tableau 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Données-de-règlage"
+
+\end_inset
+
+ et 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Données-de-règlage-2"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
 wide false
 sideways false
 status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Données-de-règlage"
+
+\end_inset
+
+Données de réglage de l'algorithme
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Constante
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valeur
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\lambda_{Dereglement}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.0001
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{MachineDefaut}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{MachineDefaut}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.99
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{MachineMin}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\emph on
+Valeurs de réglage utilisés pour générer les résultats représenté en fig
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Représentation-des-résultats"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
 \align center
@@ -799,7 +999,7 @@ Représentation des résultats après calculs
 
 
 \begin_inset Graphics
-	filename ../Images/GrapheDonnee.eps
+	filename /home/garciaf/SVN/team-war/PFE/Doc/Images/GrapheDonnee.eps
 	width 100col%
 
 \end_inset
@@ -812,8 +1012,256 @@ Représentation des résultats après calculs
 
 \emph on
 Sur l'axe des abscisses nous avons l'avancement du produit et l'axe des
- ordonées représente l'indice de santé.
+ ordonnées représente l'indice de santé.
  Chaque croix représente un produit à l'instant t.
+ Les réglages de cette simulation sont donnés dans le tab
+\emph default
+leau
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Données-de-règlage"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Données-de-règlage-2"
+
+\end_inset
+
+Données de réglage de l'algorithme
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Constante
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valeur
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\lambda_{Dereglement}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.00001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{ProduitDefaut}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{MachineDefaut}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.999$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{MachineMin}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\emph on
+Valeurs de réglage utilisés pour générer les résultats représenté en figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Représentation-des-résultats-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Représentation-des-résultats-2"
+
+\end_inset
+
+Représentation des résultats après calculs
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename /home/garciaf/SVN/team-war/PFE/Doc/Images/grapheV2.eps
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Sur l'axe des abscisses nous avons l'avancement du produit et l'axe des
+ ordonnées représente l'indice de santé.
+ Chaque croix représente un produit à l'instant t.
+ Les réglages de cette simulation sont donnés dans le tab
+\emph default
+leau
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Données-de-règlage-2"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset

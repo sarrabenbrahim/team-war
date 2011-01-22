@@ -52,7 +52,7 @@ Bilan sur l'état de l'art
 \end_layout
 
 \begin_layout Standard
-Durant notre étude de l’art nous avons pu analyser et evaluer plusieurs
+Durant notre étude de l’art nous avons pu analyser et évaluer plusieurs
  approches distinctes.
  Dans ce qui suit nous allons vous présenter les résultats de l’étude de
  l’art ainsi que les motivations pour retenir ou non une méthode.
@@ -99,13 +99,13 @@ L’avantage de cette démarche est d’évaluer et de garantir : la fiabilité,
  la maintenabilité, la disponibilité, la sécurité et le rendement maximum
  au moindre cout.
  Par contre cette démarche ne permet pas de combiner plusieurs défaillances,
- en effet elle ne peut detecter qu'une défaillance à la fois.
+ en effet elle ne peut détecter qu'une défaillance à la fois.
 \end_layout
 
 \begin_layout Standard
 Conclusion, cette démarche n'est pas faisable pour notre cas d'étude car
  elle requiert un niveau de détail beaucoup trop important pour une production
- de ce type (non liénaire, multi produits, intéraction de nombreux paramètres
+ de ce type (non linéaire, multi produits, interaction de nombreux paramètres
  et grand nombre d'étape de fabrication).
 \end_layout
 
@@ -233,7 +233,7 @@ Cette approche peut réduire fortement le risque du processus mais elle a
 \begin_layout Standard
 Conclusion, cette méthode n'est pas industriellement applicable dès lors
  qu'on exige un niveau de fiabilité élevé pour les processus car cela engendrait
- d'important temps d'indisponiblité des machines.
+ d'important temps d'indisponibilité des machines.
  
 \end_layout
 
@@ -279,17 +279,17 @@ Les résultats de l'implémentation de cet algorithme sur trois mois de producti
 
 \begin_layout Standard
 Conclusion, cette méthode peut être retenue pour être exploitée en complément
- avec une solution qui traite plus le coeur de notre problème en défectivité.
+ avec une solution qui traite plus le cœur de notre problème en défectivité.
  En effet cette approche ne permet pas réduire les risques en défectivité
  mais seulement l'échantillonnage pour la mesure.
 \end_layout
 
 \begin_layout Section
-Arcticle 
+Article 
 \begin_inset Quotes fld
 \end_inset
 
-Computation of Wafer-At-Risk from Theory To Real Life Demonstartion
+Computation of Wafer-At-Risk from Theory To Real Life Demonstration
 \begin_inset Quotes frd
 \end_inset
 
@@ -307,7 +307,7 @@ key "art:war"
 Une méthode d’évaluation des risques et d’optimisation de l’utilisation
  des équipements de contrôle en introduisant les indicateurs W@R et W@R-Réductio
 n.
- Cette méthode complexe exploite de nombreuses bases de donées et couplée
+ Cette méthode complexe exploite de nombreuses bases de données et couplée
  un autre algorithme qui permet d'aboutir à une réduction importante des
  risques et évitant ainsi jusqu'à 35% des produits inspectés inutilement.
  Cependant, les résultats obtenus varient fortement en fonction du type
@@ -329,7 +329,7 @@ utopique
 
  en vue de la complexité de la fabrication des semi-conducteurs de nos jours.
  Par manque de consistance des informations, cette méthode n'a pas été retenue
- comme solution sous réserve qu'il y aurait des informations plus détailées
+ comme solution sous réserve qu'il y aurait des informations plus détaillées
  permettant de prononcer sur sa faisabilité.
 \end_layout
 
@@ -412,7 +412,7 @@ Wafers At Risk
 \begin_inset Quotes frd
 \end_inset
 
- (W@R), qui represente le nombre de plaques traitées sur un équipement depuis
+ (W@R), qui représente le nombre de plaques traitées sur un équipement depuis
  la dernière tâche de contrôle.
  Cet indicateur sera exploité par un algorithme de calcul des 
 \begin_inset Quotes fld
@@ -495,15 +495,15 @@ Nous avons décidé de garder cette méthode au début, mais une fois que nous
  dans le premier échantillon il n’y a aucun éléments défectueux, de plus
  nous avons une taille de lot fixe et nous ne pouvons faire des tests simultanés
  sur plusieurs lots et finalement cette méthode imposera l'arrêt de la productio
-n plusieurs fois afin de prélever l'échantillons à tester, la taille de
- ce dernier peut devenir trés grande.
+n plusieurs fois afin de prélever l'échantillon à tester, la taille de ce
+ dernier peut devenir très grande.
  Cette méthode s'applique dans un cadres ou la taille de l'échantillon n'est
- pas fixe et que le contrôle n'en est pas pertubé
+ pas fixe et que le contrôle n'en est pas perturbé
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-Dans le cadre d'une analyse épidémologique par exemple, tester un échantillon
+Dans le cadre d'une analyse épidémiologique par exemple, tester un échantillon
  de sang d'une personne ou cent personnes ne fait pas de différence dans
  le cas de la recherche d'un virus dans une population
 \end_layout
@@ -511,7 +511,7 @@ Dans le cadre d'une analyse épidémologique par exemple, tester un échantillon
 \end_inset
 
 .
- Malheuresement les contraintes fortes liés au contrôle des lots nous empêchent
+ Malheureusement les contraintes fortes liés au contrôle des lots nous empêchent
  d'avoir des contrôles des tailles de lot de plus en plus importante.
  
 \end_layout
@@ -521,8 +521,8 @@ Conclusion de l'état de l'art
 \end_layout
 
 \begin_layout Standard
-Cette abscence de solution concrète dans cette industrie, nous a poussé
- à développer notre propre méthode de détection.
+Cette absence de solution concrète dans cette industrie, nous a poussé à
+ développer notre propre méthode de détection.
  
 \end_layout
 
@@ -583,7 +583,7 @@ Ouvrage « Utilisation du jugement d'expert en sûreté de fonctionnement »
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
 <features>
-<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="17col%">
 <column alignment="center" valignment="top" width="60col%">
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -623,7 +623,7 @@ Avantages
 \begin_inset Text
 
 \begin_layout Plain Layout
-Evaluer et garantir : la fiabilité, la maintenabilité, la disponibilité,
+Évaluer et garantir : la fiabilité, la maintenabilité, la disponibilité,
  la sécurité et le rendement maximum au moindre cout
 \end_layout
 
@@ -700,7 +700,7 @@ Dossier « Principes généraux de gestion du risque »
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
 <features>
-<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="17col%">
 <column alignment="center" valignment="top" width="60col%">
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -750,7 +750,7 @@ une démarche complète et entière, qui gère et corrige le risque grâce à
 \begin_inset Text
 
 \begin_layout Plain Layout
-Inconvenients
+Inconvénients
 \end_layout
 
 \end_inset
@@ -816,7 +816,7 @@ Article « Optimized Design of Control Plans Based on Risk Exposure and Resource
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="2">
 <features>
-<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="17col%">
 <column alignment="center" valignment="top" width="60col%">
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -892,7 +892,7 @@ Article « An Approach for Operational Risk Evaluation and its Link to Control
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
 <features>
-<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="17col%">
 <column alignment="center" valignment="top" width="60col%">
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -948,7 +948,7 @@ Réduit fortement le risque du processus
 \begin_inset Text
 
 \begin_layout Plain Layout
-Inconvenients
+Inconvénients
 \end_layout
 
 \end_inset
@@ -1014,7 +1014,7 @@ Article « Optimizing Return On Inspection Trough Defectivity Smart Sampling
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
 <features>
-<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="17col%">
 <column alignment="center" valignment="top" width="60col%">
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -1065,7 +1065,7 @@ Un algorithme a été développé pour identifier et contrôler un critère sur
 \begin_inset Text
 
 \begin_layout Plain Layout
-Inconvenients
+Inconvénients
 \end_layout
 
 \end_inset
@@ -1118,7 +1118,7 @@ cette méthode peut être retenue pour être exploitée en complément avec une
 \begin_inset Text
 
 \begin_layout Plain Layout
-Arcticle « Computation of Wafer-At-Risk from Theory To Real Life Demonstartion
+Article « Computation of Wafer-At-Risk from Theory To Real Life Demonstration
  »
 \end_layout
 
@@ -1131,7 +1131,7 @@ Arcticle « Computation of Wafer-At-Risk from Theory To Real Life Demonstartion
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
 <features>
-<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="17col%">
 <column alignment="center" valignment="top" width="60col%">
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -1184,7 +1184,7 @@ c'est une méthode très prometteuse au niveau des résultats
 \begin_inset Text
 
 \begin_layout Plain Layout
-Inconvenients
+Inconvénients
 \end_layout
 
 \end_inset
@@ -1248,7 +1248,7 @@ Présentation « Operational Risk Evaluation and Control Plan Design
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
 <features>
-<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="17col%">
 <column alignment="center" valignment="top" width="60col%">
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -1302,7 +1302,7 @@ Traite la fiabilité de la machine.
 \begin_inset Text
 
 \begin_layout Plain Layout
-Inconvenients
+Inconvénients
 \end_layout
 
 \end_inset
@@ -1377,7 +1377,7 @@ Présentation « A Novel Approach to Minimize the Number of Controls in the
 \begin_inset Tabular
 <lyxtabular version="3" rows="2" columns="2">
 <features>
-<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="17col%">
 <column alignment="center" valignment="top" width="60col%">
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -1457,7 +1457,7 @@ Article « A New Competitive Algorithm for Group Testing»
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
 <features>
-<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="17col%">
 <column alignment="center" valignment="top" width="60col%">
 <row>
 <cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
@@ -1506,7 +1506,7 @@ Cette méthode est programmable et a priori correspond au sujet
 \begin_inset Text
 
 \begin_layout Plain Layout
-Inconvenients
+Inconvénients
 \end_layout
 
 \end_inset
