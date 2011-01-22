@@ -172,14 +172,7 @@ name "fig:Principaux-sites-Production"
 \begin_layout Standard
 ST propose divers groupes de produit, chaque groupe étant lui-même composé
  de plusieurs divisions qui gèrent de façon autonome la conception, la fabricati
-on et la commercialisation de leurs produits (cf Fig 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Divers-Groupes-Produit"
-
-\end_inset
-
-) :
+on et la commercialisation de leurs produits.
 \end_layout
 
 \end_body
