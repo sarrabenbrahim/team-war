@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -1459,10 +1459,25 @@ reference "fig:Représentation-des-résultats"
 
 \end_inset
 
-) ces données on été obtenues avec les réglages présent en tableau 
+, Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Représentation-des-résultats-2"
+
+\end_inset
+
+) ces données on été obtenues avec les réglages présent réciproquement en
+ tableau 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Données-de-règlage"
+
+\end_inset
+
+ et 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Données-de-règlage-2"
 
 \end_inset
 
@@ -1621,6 +1636,19 @@ Valeur
 
 \end_layout
 
+\begin_layout Plain Layout
+
+\emph on
+Valeurs de réglage utilisés pour générer les résultats représenté en fign
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Représentation-des-résultats"
+
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 
@@ -1671,6 +1699,244 @@ leau
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Données-de-règlage"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Données-de-règlage-2"
+
+\end_inset
+
+Données de règlage de l'algorithme
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Constante
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Valeur
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\lambda_{Dereglement}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.00001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{ProduitDefaut}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{MachineDefaut}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.999$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $F_{MachineMin}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\emph on
+Valeurs de réglage utilisés pour générer les résultats représenté en figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Représentation-des-résultats-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Représentation-des-résultats-2"
+
+\end_inset
+
+Représentation des résultats après calculs
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../Images/grapheV2.eps
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\emph on
+Sur l'axe des abscisses nous avons l'avancement du produit et l'axe des
+ ordonées représente l'indice de santé.
+ Chaque croix représente un produit à l'instant t.
+ Les réglages de cette simulation sont donnés dans le tab
+\emph default
+leau
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Données-de-règlage-2"
 
 \end_inset
 
