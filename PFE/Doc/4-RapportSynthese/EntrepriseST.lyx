@@ -157,11 +157,18 @@ name "fig:Principaux-sites-Production"
 \align center
 \begin_inset Graphics
 	filename ../Images/ST_Monde_Production.jpg
-	width 70col%
+	width 100col%
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+
+\emph on
+Cette carte indique la répartitions des usines de production de ST à travers
+ le monde
 \end_layout
 
 \end_inset
