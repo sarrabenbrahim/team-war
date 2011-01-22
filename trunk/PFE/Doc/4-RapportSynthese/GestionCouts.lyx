@@ -222,13 +222,24 @@ Bilan
 \begin_layout Standard
 Notre solution permet de 
 \series bold
-réduire le coût de la non-qualité entre 0,26 et 5,2 millions dollars par
+réduire le coût de la non-qualité entre 0,26 et 1,56 millions dollars par
  an
 \series default
 .
  Comme nous avons mentionné plus haut qu'il n'y a pas besoin d'autres d'investis
 sements que le développement de l'algorithme car la solution utilise les
  ressources déjà existantes.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Il faut peut être inclure le salaire d'un thésard pendant 3 ans pour affiner
+ et développer l'outils...
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
