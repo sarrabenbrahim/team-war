@@ -430,7 +430,7 @@ Développement de la solution
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "../3-Finale/AlgoMarcheur.lyx"
+filename "AlgoMarcheur.lyx"
 
 \end_inset
 

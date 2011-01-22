@@ -52,16 +52,54 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Conclusion générale du rapport et du PFE.
+Au terme de cette étude nous avons découvert qu'il n'y a pas de méthode
+ existante et facile à mettre en place.
+ L'industrie de la micro electronique est un secteur extrement particulier,
+ avec des contraintes très spécifique.
+ Pendant un temps nous avons penser pouvoir utiliser quelques méthodes trouvées
+ au grès de nos recherches.
+ Mais l'adaptation s'avérait impossible.
 \end_layout
 
-\end_inset
+\begin_layout Standard
+Nous avons alors décidé de prendre le problème à l'envers, plutôt que de
+ chercher à adapter une méthode à nos contraintes, nous sommes partis des
+ contraintes pour développer un algorithme.
+ L'algorithme s'intéressait à la probabilité qu'a un marcheur de se faire
+ agresser en se baladant dans une ville.
+ Nous avons élaboré et développer à partir de cette idée saugrenue.
+ 
+\end_layout
 
+\begin_layout Standard
+Nous avons donc put fournir une première maquette de développement pour
+ l'entreprise 
+\emph on
+ST
+\emph default
+.
+ Cette maquette nous a permis de réflechir à différents problème auquels
+ nous n'avions pas pensé (représentation des données, gestion des évolutions
+ etc ...).
+ De plus cette maquette laisse à penser qu'un développement dans ce sens
+ pourrait avoir des applications très concrêtes.
+ D'un point de vue financier l'opération pourrait être très intéressante
+ pour ST car le manque à gagner par la non qualité est de l'ordre du million
+ de dollars.
+ 
+\end_layout
 
+\begin_layout Standard
+D'un point de vue plus général ce projet fut l'occasion de nous frotter
+ au monde industriel avec les contraintes et les avantages que cela représente
+ (Interraction avec un client, mise en situation réel, découverte de nouveaux
+ secteurs industriel, etc ...).
+ 
+\end_layout
+
+\begin_layout Standard
+Avant le départ en stage cela constitue une bonne mise en jambe en nous
+ donnons un aperçu de ce que nous attends nos prochaines années...
 \end_layout
 
 \end_body
