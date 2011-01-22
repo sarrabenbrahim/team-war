@@ -79,8 +79,8 @@ public class Marcheur {
             decimalFormat.setMinimumFractionDigits(4);
             Double percentOfavencement =
                     new Double(batch.getTracabilitys().size() / maxNumberOfSteps);
-            sdtf.add(decimalFormat.format(percentOfavencement) 
-                    + " " + decimalFormat.format(batch.fiabilityMSLAndMSESafe(lastDate)) + "\n");
+            sdtf.add(decimalFormat.format(percentOfavencement).replace(",", ".")
+                    + " " + decimalFormat.format(batch.fiabilityMSLAndMSESafe(lastDate)).replace(",", ".") + "\n");
             System.out.println("Nombre de batch traité :"
                     + nunmberOfProcessDone++ + " / " + batchs.size());
         }

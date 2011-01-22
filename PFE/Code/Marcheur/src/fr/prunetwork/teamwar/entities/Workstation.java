@@ -16,7 +16,6 @@
  */
 package fr.prunetwork.teamwar.entities;
 
-import com.sun.corba.se.impl.orbutil.closure.Constant;
 import fr.prunetwork.teamwar.Constants;
 import fr.prunetwork.teamwar.utilities.MyDate;
 import java.util.ArrayList;
@@ -24,7 +23,6 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Date;
 import java.util.Iterator;
-import java.util.Vector;
 
 /**
  *
