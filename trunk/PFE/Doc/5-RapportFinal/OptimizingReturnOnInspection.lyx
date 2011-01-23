@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -47,18 +47,7 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Chapter
-Optimizing return on inspection
-\begin_inset CommandInset citation
-LatexCommand cite
-key "art:sampling"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
+\begin_layout Subsection
 Introduction
 \end_layout
 
@@ -72,7 +61,7 @@ Avec la croissance de la complexité et du besoin de la réactivité des process
  les produits inspectés inutilement.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Description de l'algorithme
 \end_layout
 
@@ -370,7 +359,7 @@ Zoom on case of skip
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Resultats
 \end_layout
 
@@ -380,7 +369,7 @@ L'algorithme a été éxécuté sur plus de trois mois de production.
  parce qu'elles n'apportaient aucune information supplémentaire.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Remarques
 \end_layout
 

@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -47,18 +47,7 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Chapter
-An approach for operational risk
-\begin_inset CommandInset citation
-LatexCommand cite
-key "art:risk"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
+\begin_layout Subsection
 Description de la méthode
 \end_layout
 
@@ -321,7 +310,7 @@ En supposant que la loi de distribution de la probabilité des évènements
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Résultats
 \end_layout
 
@@ -384,7 +373,7 @@ L'objectif futur de cette approche consiste à optimiser les plans de contrôle
  en fonction des exigences de l'entreprise.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Remarques
 \end_layout
 

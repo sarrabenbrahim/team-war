@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -46,17 +46,6 @@ figs-within-sections
 \end_header
 
 \begin_body
-
-\begin_layout Chapter
-
-\series bold
-Optimized design of control plans based on risk exposure and resources capabilit
-ies
-\end_layout
-
-\begin_layout Standard
-
-\end_layout
 
 \begin_layout Standard
 \begin_inset Note Note
@@ -130,7 +119,7 @@ MES
 \emph default
  
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Manufacturing Execution System

@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -47,11 +47,11 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Chapter
-Appréciation du risque
+\begin_layout Standard
+
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Méthode générale
 \end_layout
 
@@ -150,8 +150,8 @@ Les éléments du risque
 
 \end_layout
 
-\begin_layout Section
-Gravité du dommage (G):
+\begin_layout Subsection
+Gravité du dommage (G)
 \end_layout
 
 \begin_layout Standard
@@ -171,7 +171,7 @@ G2 grave défaut (normalement irréversible, y compris la destruction de la
  
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Fréquence ou durée d’exposition au phénomène dangereux (F)
 \end_layout
 
@@ -207,7 +207,7 @@ F1 De rare à assez fréquente ou courte durée d’exposition ;
 F2 De fréquente à continue ou longue durée d’exposition.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Probabilité d’occurrence de l’événement dangereux (O)
 \end_layout
 
@@ -250,7 +250,7 @@ O3 Élevée (de moyenne à élevée).
  Principes généraux de gestion du risque 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Possibilité d’évitement du dommage (P)
 \end_layout
 
@@ -290,7 +290,7 @@ Pour définir l’indice de risque nous utiliserons un logigramme de risque
  
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 réduction du risque
 \end_layout
 

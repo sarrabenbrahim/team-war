@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -47,15 +47,7 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Chapter
-Méthode 
-\begin_inset Formula $D^{3}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
+\begin_layout Subsection
 Généralités
 \end_layout
 
@@ -143,7 +135,7 @@ Les produits issus de la production proviennent de différents chemins l'analyse
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Objectifs de la méthode
 \end_layout
 
@@ -153,7 +145,7 @@ Objectif minimiser le nombre maximum de test pour identifier tous les objets
  
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Hypothèses de la méthode
 \end_layout
 
@@ -354,7 +346,7 @@ key "book:groupeTesting"
  une constante et un algorithme de ce genre existe.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 L'algorithme 
 \end_layout
 
@@ -417,7 +409,7 @@ En d'autre mots l'état de
  tests.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Algorithme détaillé
 \end_layout
 

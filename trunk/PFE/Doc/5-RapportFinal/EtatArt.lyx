@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -49,6 +49,139 @@ figs-within-sections
 
 \begin_layout Chapter
 Etat de l'art
+\end_layout
+
+\begin_layout Section
+Ouvrage « Utilisation du jugement d'expert en sûreté de fonctionnement »
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "OuvrageSdF.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Dossier « Principes généraux de gestion du risque »
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "PreventionDesPhenomenesDangereux.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Article « Optimized Design of Control Plans Based on Risk Exposure and Resources
+ Capabilities
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "OptimizedPlansRisk.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Article « An Approach for Operational Risk Evaluation and its Link to Control
+ Plan
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "AnApproachForOperationalRisk.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Article « Optimizing Return On Inspection Trough Defectivity Smart Sampling
+ »
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "OptimizingReturnOnInspection.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Section
+Article « Computation of Wafer-At-Risk from Theory To Real Life Demonstration
+ »
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "ComputationOfWaferAtRisk.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Présentations « Operational Risk Evaluation and Control Plan Design
+\begin_inset Quotes frd
+\end_inset
+
+ et « A Novel Approach to Minimize the Number of Controls in the Defectivity
+ Area »
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Etude_Presentation_ST.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Article « A New Competitive Algorithm for Group Testing»
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Dcube.lyx"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
