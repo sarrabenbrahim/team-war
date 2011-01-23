@@ -251,7 +251,7 @@ SCRUM
 
 \series bold
 \noun on
-Ait
+Nait
 \begin_inset space ~
 \end_inset
 
@@ -637,14 +637,22 @@ Garcia
 Nakara
 \noun default
  Rahma 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 
 \noun on
-Ait Belkacem
+Nait Belkacem
 \noun default
  Abdelali 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -701,14 +709,22 @@ Garcia
 Nakara
 \noun default
  Rahma 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 
 \noun on
-Ait Belkacem
+Nait Belkacem
 \noun default
- Abdelali 
+ Abdelali
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -740,7 +756,9 @@ Problèmes rencontrés et solutions apportées
 \end_layout
 
 \begin_layout Standard
-les problemes de gestion rencontrées sont:
+Malheureusement (ou heureusement) un projet n'est pas un long fleuve tranquille.
+ Et comme souvent es problèmes apparaissent là où on ne les attends pas
+ :
 \end_layout
 
 \begin_layout Standard
@@ -749,11 +767,89 @@ le cahier de charges n'a pas cessé d'évoluer ce qui nous obliger à redistribu
 \end_layout
 
 \begin_layout Standard
-
+les choix du langage de programmation de la maquettes
 \end_layout
 
 \begin_layout Standard
-les choix du langage de programmation de la maquettes
+Forte individualités et difficultés relationnelles : en effet notre groupe
+ a dû se construire autour de trois fortes personnalités, ce qui a entrainer
+ un nombre important de conflits, lié à le plus souvent à la prise du leadership.
+ Nous n'avons pas été un exemple de camaraderie, ceci dit nous n'avons jamais
+ cessé le dialogue.
+ De plus durant nos échanges nous n'hésitions pas à appuyer 
+\begin_inset Quotes fld
+\end_inset
+
+là ou ça fait mal
+\begin_inset Quotes frd
+\end_inset
+
+ de façon à ne jamais laisser le non dit dans notre équipe.
+ Ce qui nous a poussé à dévelloper notre capacité à s'exprimer et à se parler
+ de manière proffessionnelle et avancer dans le projet malgré tout.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Je suis conscient que cela peut paraître un peu honteux, mais malgrès des
+ tensions évidentes dans le groupes nous sommes toujours arrivé à travailler
+ et nos bagauarre n'était jamais de la langue de bois, nous n'avons jamais
+ hésité à nous dire les choses.
+ De plus la situation s'est amélioré en fin de projet ce qui laisse à penser
+ que nous avons sut rester proffessionel malgrès tout ...
+\end_layout
+
+\begin_layout Plain Layout
+Je pense que c'est inéteressant de le noter dans les difficultés, écrivez
+ votre prénom si vous êtes d'accord, si vous n'êtes pas d'accord je le retire
+ mais je trouve ça dommage car ce sont les expériences difficiles qui sont
+ le plus formateur :
+\end_layout
+
+\begin_layout Plain Layout
+Fabien
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Par exemple Philippe tu arrives à dire ce que tu penses directement à qui
+ tu le penses, et j'ai le sentiment que tu es moins lisse qu'avant et plus
+ affirmé.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+De même pour Jaafar tu n'as pas hésité à dire ce qui t'embétait, peut être
+ un plus de travail régulier te serait benefique.
+ Je dois reconnaitre que je t'ai relativement malmené cette année...
+\end_layout
+
+\begin_layout Plain Layout
+Abdou tu as sût garder ton sang froid mais tu (nous) as (avons) appris à
+ nous faire confiance.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Rahma tu as appris à mettre de la diplomatie dans ton discours car je ne
+ pense pas avoir été spécialement tolérant ni t'avoir fait de cadeau.
+ Mais tu as tenu bon malgré tout
+\end_layout
+
+\begin_layout Plain Layout
+Quand à Moi je pense que je n'ai pas été un cadeau, et je n'ai aucune circonstan
+ces atténuante...
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
