@@ -607,64 +607,107 @@ name "fig:Planning-du-projet"
 
 \begin_layout Standard
 Cette figure represente le suivi de notre projet sur toute la durée du PFE
- , par conséquent nous allons détaillé les itérations de travail du mois
- de decembre et de janvier.
+ , par conséquent nous allons détaillé les itérations de notre PFE.
 \end_layout
 
 \begin_layout Subsection
-La première itération de notre équipe 
+Product back log
 \end_layout
 
 \begin_layout Standard
-Nous avons ensuite découpé le travail de la manière suivante : 
-\end_layout
-
-\begin_layout Itemize
-
-\noun on
-Garcia
-\noun default
- Fabien
-\begin_inset Formula $\rightarrow$
-\end_inset
-
+Après une première interprétation du sujet nous avons retenue différentes
+ grandes tâches.
+ Ces tâches seront détaillés d'avantage en fonction de la compréhension
+ du sujet et de l'avancement du projet.
+ Cette liste de tâche sera notre matière première pour constituer nos 
+\emph on
+Sprint
+\emph default
+.
  
 \end_layout
 
 \begin_layout Itemize
+Analyse du sujet
+\end_layout
 
-\noun on
-Nakara
-\noun default
- Rahma 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
-
+\begin_deeper
+\begin_layout Itemize
+Mise en place de la méthode AGILE au sein de l'équipe
 \end_layout
 
 \begin_layout Itemize
+Installation des différents outils (TortoiseSVN, LyX , Dia, etc...)
+\end_layout
 
-\noun on
-Nait Belkacem
-\noun default
- Abdelali 
-\begin_inset Formula $\rightarrow$
-\end_inset
+\end_deeper
+\begin_layout Itemize
+Etat d'art
+\end_layout
 
-
+\begin_deeper
+\begin_layout Itemize
+Travail bibliographique 
 \end_layout
 
 \begin_layout Itemize
+Consultation des différentes publications sur le sujet
+\end_layout
 
-\noun on
-Nguyen
-\noun default
- Philipe 
-\begin_inset Formula $\rightarrow$
+\begin_layout Itemize
+Benchmarking
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Visions des pratiques des autres industries 
+\end_layout
+
+\begin_layout Itemize
+Transposition des 
+\begin_inset Quotes fld
 \end_inset
 
+Bonnes pratiques
+\begin_inset Quotes frd
+\end_inset
 
+ au sein de STMicroelectronics
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Proposition d'algorithme du marcheur comme solution
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Proposition du modéle du marcheur
+\end_layout
+
+\begin_layout Itemize
+Implémentation
+\end_layout
+
+\begin_layout Itemize
+Validation
+\end_layout
+
+\begin_layout Itemize
+Tests 
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+La première itération 
+\end_layout
+
+\begin_layout Standard
+Cette itération consiste à bien analyser le sujet du PFE afin de bien assimuler
+ les objectifs de notre étude ainsi pour définir les frontières du PFE.
+ Notre travail a été réparti de façon équitable entre les membres de l'équipe
+ Team W@R de la maniére suivante :
 \end_layout
 
 \begin_layout Itemize
@@ -672,23 +715,16 @@ Nguyen
 \noun on
 Amrani-Mesbahi
 \noun default
- Jaafar 
+ Jaafar & 
+\noun on
+Nakara
+\noun default
+ Rahma
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-Au terme de cette itération 
-\end_layout
-
-\begin_layout Subsection
-La deuxième itération de notre équipe
-\end_layout
-
-\begin_layout Standard
-Nous avons ensuite découpé le travail de la manière suivante : 
+Rédaction de la présentation de l'entreprise STMicroeletronics ainsi que
+ l'introduction et la conclusion du rapport préliminaire
 \end_layout
 
 \begin_layout Itemize
@@ -700,19 +736,7 @@ Garcia
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-
-\end_layout
-
-\begin_layout Itemize
-
-\noun on
-Nakara
-\noun default
- Rahma 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
-
+ Rédaction de la partie méthode Agile
 \end_layout
 
 \begin_layout Itemize
@@ -721,10 +745,110 @@ Nakara
 Nait Belkacem
 \noun default
  Abdelali
+\noun on
+ & Nguyen
+\noun default
+ Philipe 
 \begin_inset Formula $\rightarrow$
 \end_inset
 
+Rédaction de la partie analyse et développement du sujet
+\end_layout
+
+\begin_layout Standard
+Au terme de cette itération, un rapport préliminaire était livré.
+ De plus, la mise en place des outils suivants au sein de l'équipe Team
+ W@R :
+\end_layout
+
+\begin_layout Itemize
+Serveur SVN comme dépôt de donnée
+\end_layout
+
+\begin_layout Itemize
+LyX pour la rédaction des rapports
+\end_layout
+
+\begin_layout Standard
+Mise en place de la de la méthode de gestion de projet agile (SCRUM) pour
+ notre PFE 
+\end_layout
+
+\begin_layout Subsection
+La deuxième itération 
+\end_layout
+
+\begin_layout Standard
+Cette seconde itération consiste à faire l'état d'art de notre PFE grâce
+ à l'analyse des documents, d'articles ainsi d'ouvrages (Travail bibliographique
+).
+ C'est une sorte de benchmarking qui consiste à analyser les techniques
+ de gestion, les modes d'organisation des autres entreprises, les visions
+ pratiques des autres industries afin de voir si on peut les adapter avec
+ celle de STMicroelectronics.
+ Le travail a été partagé comme suit : 
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Amrani-Mesbahi
+\noun default
+ Jaafar
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Etude du livre 
+\begin_inset Quotes fld
+\end_inset
+
+L'utilisation du jugement d'expert en sûreté de fonctionnement
+\begin_inset Quotes frd
+\end_inset
+
+, d'André Lannoy et Henri Procaccia.
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Garcia
+\noun default
+ Fabien
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+ Recherche et travail sur la méthode 
+\begin_inset Formula $D^{3}$
+\end_inset
+
  
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Nakara
+\noun default
+ Rahma
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Recherche des méthodes existantes susceptibles d'être utilisées dans notre
+ projet de fin d'étude.
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+NAit Belkacem
+\noun default
+ Abdelali 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Analyse et étude de faisabilité des méthodes abordées dans les articles
+ fournis par ST.
 \end_layout
 
 \begin_layout Itemize
@@ -736,11 +860,39 @@ Nguyen
 \begin_inset Formula $\rightarrow$
 \end_inset
 
+Analyse et étude de faisabilité des méthodes abordées dans les articles
+ fournis par ST.
+\end_layout
 
+\begin_layout Standard
+Au terme de cette itération un rapport intérmédiaire était livré qui d'écrit
+ l'état d'art de notre étude qui comporte des résumés d'articles, de documents
+ ainsi des ouvrages étudiés et une proposition de l'algorithme du marcheur.
+\end_layout
+
+\begin_layout Subsection
+La troisiéme itération 
+\end_layout
+
+\begin_layout Standard
+Cette dérniére itération est une étape de validation qui consiste à écarter
+ le plus possible les méthodes que nous avons trouvé et retenir celle qui
+ s'adapte le mieux à notre étude.
+ L'implémentation de l'algorithme du marcheur afin de le tester sur un jeux
+ de donnée.
+ Le travail est partagé comme suit : 
 \end_layout
 
 \begin_layout Itemize
 
+\noun on
+Garcia
+\noun default
+ Fabien & 
+\noun on
+NAit Belkacem
+\noun default
+ Abdelali & 
 \noun on
 Amrani-Mesbahi
 \noun default
@@ -748,7 +900,37 @@ Amrani-Mesbahi
 \begin_inset Formula $\rightarrow$
 \end_inset
 
+ Développement du modéle et du code pour l'implémentation de l'algorithme
+ du marcheur 
+\end_layout
 
+\begin_layout Itemize
+
+\noun on
+Nakara
+\noun default
+ Rahma
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Gestion de projet
+\end_layout
+
+\begin_layout Itemize
+
+\noun on
+Nguyen
+\noun default
+ Philipe 
+\begin_inset Formula $\rightarrow$
+\end_inset
+
+Travail bibliographique + Gestion des coûts
+\end_layout
+
+\begin_layout Standard
+Au terme de cette itération deux rapport ont été livré un rapport de synthése
+ qui est synthétique de notre étude en plus d'un rapport finale raffiné.
 \end_layout
 
 \begin_layout Section
