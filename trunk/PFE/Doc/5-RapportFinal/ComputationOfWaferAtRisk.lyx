@@ -47,10 +47,6 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Subsection
-Introduction
-\end_layout
-
 \begin_layout Standard
 La fabrication de semi-conducteurs devient de plus en plus complexe et le
  contrôle exhaustif des plaques n'est pas réalisable d'un point de vue financier.
@@ -198,11 +194,10 @@ Boundary conditions
 
 \begin_layout Standard
 Une autre amélioration de l'algorithme a été la définition du Wafer-At-Risk
- par la recette, du type de recette ou de la technologie ou du module d'outils.
+ par la recette, du type de recette, de la technologie ou du module d'outils.
  Le modèle de contrôle de défectivité devait être affiné pour tenir compte
  de ces paramètres et l'algorithme a ensuite été ajusté pour calculer les
- différents types de Wafer-At-Risk : globale and recette ou dépendant du
- contexte (cf.
+ différents types de Wafer-At-Risk (cf.
  Fig 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -279,7 +274,8 @@ Remarques
 Les détails de cette approche ne sont pas suffisants pour conclure sur sa
  faisabilité pour notre cas d'étude.
  Comment peut-on s'en passer de l'historique afin de faire du quasi temps
- réel ? Le résultat semble être pertinent que pour certaine recette spécifique.
+ réel ? Le résultat semble être pertinent que pour une certaine recette
+ spécifique.
  Supposons que cet algorithme est applicable, cette méthode pourrait donc
  être l'une des solutions de notre problème.
 \end_layout

@@ -63,7 +63,7 @@ André Lannoy et Henri Procaccia
  en 2001 présente différents éléments qui peuvent être intéressants dans
  le contexte de ce PFE, nous dénoterons une présentation de l'Analyse des
  Modes de Défaillances de leurs Effets et de leurs Criticité, méthode communémen
-t AMDEC.
+t appelée AMDEC.
  Nous citerons également des éléments sur l'utilisation des avis d'experts.
 \end_layout
 
@@ -119,7 +119,7 @@ Démarche
 \end_layout
 
 \begin_layout Paragraph
-La démarche est simple elle est basée sur une analyse compléte du systéme
+La démarche est simple, elle est basée sur une analyse compléte du systéme
  qui nous permettera d'identifier les fonctions offertes par le systéme
  ainsi que les contraintes d'utilisation et d'environnement, les paramètres
  critiques à mettre sous contrôle et sur lesquels les analyses type AMDEC

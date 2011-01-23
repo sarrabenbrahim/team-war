@@ -47,10 +47,6 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Subsection
-Introduction
-\end_layout
-
 \begin_layout Standard
 Avec la croissance de la complexité et du besoin de la réactivité des processus,
  la méthode d'échantillonnage est devenue limitée face aux exigences.
@@ -66,8 +62,8 @@ Description de l'algorithme
 \end_layout
 
 \begin_layout Standard
-Sur un cas simple, nous considèrons qu'un contrôle de la contamination d'une
- machine de fabrication T (outil de gravure).
+Sur un cas simple, nous allons prendre en compte le contrôle de la contamination
+ d'une machine de fabrication T (outil de gravure).
  Le risque de contamination, D, augmente avec le nombre de plaques produites.
  Si le contrôle est marqué comme 
 \begin_inset Quotes eld
@@ -87,8 +83,8 @@ valide
 \end_inset
 
  et l'actuel sont validés.
- Sinon, les actions sont déclenchées sur la machine T et la liste des lots
- potentiellement 
+ Sinon, les actions sont déclenchées sur la machine T et sur la liste des
+ lots potentiellement 
 \begin_inset Quotes eld
 \end_inset
 
@@ -360,13 +356,13 @@ Zoom on case of skip
 \end_layout
 
 \begin_layout Subsection
-Resultats
+Résultats
 \end_layout
 
 \begin_layout Standard
 L'algorithme a été éxécuté sur plus de trois mois de production.
- On a observé que plus de 35% des plaques inspectées peuvent être ignorées,
- parce qu'elles n'apportaient aucune information supplémentaire.
+ Nous avons observé que plus de 35% des plaques inspectées peuvent être
+ ignorées, parce qu'elles n'apportaient aucune information supplémentaire.
 \end_layout
 
 \begin_layout Subsection

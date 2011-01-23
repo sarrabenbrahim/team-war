@@ -51,6 +51,36 @@ figs-within-sections
 Etat de l'art
 \end_layout
 
+\begin_layout Standard
+Ce partie présente nos recherches sur l'état de l'art et un benchmarking
+ de l'état actuel des méthodes et des études existantes dans tous les domaines
+ ayant plus ou moins un rapport avec le sujet.
+\end_layout
+
+\begin_layout Standard
+Tout d'abord nous définirons le jugement d'expert, reposant essentiellement
+ sur la méthode 
+\emph on
+AMDEC
+\emph default
+, ensuite nous étudierons une série d'articles de recherches et de présentations
+ lors de séminaires, sur la fabrication des micro-composants.
+ 
+\end_layout
+
+\begin_layout Standard
+Enfin nous traiterons de la méthode 
+\begin_inset Formula $D^{3}$
+\end_inset
+
+ qui permet d'avoir un algorithme permettant d'optimiser les tests et maximiser
+ les chances de trouver des éléments défectueux.
+\end_layout
+
+\begin_layout Standard
+.
+\end_layout
+
 \begin_layout Section
 Ouvrage « Utilisation du jugement d'expert en sûreté de fonctionnement »
 \end_layout
@@ -182,6 +212,12 @@ filename "Dcube.lyx"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Par la suite nous proposerons un tableau récapitulatif de cette étude de
+ l'art avec les avanatges et les invonvénients de chaque méthode ou algorithme
+ afin de mettre au clair la démarche à suivre pour la suite de notre étude.
 \end_layout
 
 \end_body

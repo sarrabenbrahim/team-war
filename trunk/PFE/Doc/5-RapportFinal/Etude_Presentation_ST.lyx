@@ -50,7 +50,7 @@ figs-within-sections
 \begin_layout Standard
 Dans le cadre de notre recherche, une série de document de recherche nous
  a été confié, ces articles et supports ont été présenté lors de différentes
- conférences en rapport avec la micro electronique.
+ conférences en rapport avec la micro-électronique.
  
 \end_layout
 
@@ -97,7 +97,7 @@ Potential Loss
 \end_inset
 
  dépend de la gestion (planification) des tâches de qualité et de maintenance.
- De plus s'ajouter à cela une fonction d'évaluation de la valeur ajoutée
+ De plus s'ajoute à cela une fonction d'évaluation de la valeur ajoutée
  des tâches de contrôles mises en place afin de déterminer la bonne planificatio
 n de ces tâches pour un résultat optimal du risque.
 \end_layout
@@ -131,7 +131,7 @@ Cette présentation expose une nouvelle approche de gestion des tâches de
 \end_layout
 
 \begin_layout Standard
-Les objectifs de cette nouvelle approche sont :
+Cette nouvelle approche a pour objectif:
 \end_layout
 
 \begin_layout Itemize
@@ -214,19 +214,19 @@ context
 \begin_layout Standard
 L'implémentation de cet algorithme sur une ligne de production, nécessite
  de définir au préalable certains produits qui vont être contrôlés lors
- de la permière exécution, permet d'atteindre les objectifs définis précédemment.
+ de la permière exécution et qui permet d'atteindre les objectifs définis
+ précédemment.
 \end_layout
 
 \begin_layout Standard
 Les résultats de l'implémentation de l'algorithme sur une ligne de production
- montrent, au bout de deux semaines, qu'une réduction de 35% des produits
- qui peuvent être exemptés de contrôle sans incident sur le taux de défectivité
- de la production.
+ montrent, au bout de deux semaines, une réduction de 35% des produits à
+ contrôler sans incident sur le taux de défectivité de la production.
 \end_layout
 
 \begin_layout Standard
-Malheureusement, nous aboutissons à la même conclusion pour la thèse de
- 
+Malheureusement, nous aboutissons à la même conclusion que pour la thèse
+ de 
 \begin_inset Quotes fld
 \end_inset
 
@@ -234,12 +234,12 @@ Optimizing return on inspection through defectivity smart sampling
 \begin_inset Quotes frd
 \end_inset
 
- qui traite plus ou moins la même approche.
- Résultats intéressants mais manquent de consistance.
+ qui traite plus ou moins la même approche.Les résultats sont intéressants
+ mais incomplets.
  De plus cette approche ne permet pas réduire les risques en défectivité
  mais seulement l'échantillonnage pour la mesure.
  Cette la réduction de la population des échantillons réduit par conséquence
- des coûts des tâches de qualité.
+ les coûts des tâches de qualité.
 \end_layout
 
 \end_body

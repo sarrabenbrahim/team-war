@@ -48,7 +48,7 @@ figs-within-sections
 \begin_body
 
 \begin_layout Subsection
-Description de la méthode
+Déscription de la méthode
 \end_layout
 
 \begin_layout Standard
@@ -59,7 +59,7 @@ Cet article présente une méthode d'évaluation des risques opérationnels
 \end_inset
 
  sur un horizon (durée) considéré (H) sans aucun contrôle.
- Puis, une valeur ajoutée (en termes de risques) pourrait être évalués avec
+ Puis, une valeur ajoutée (en termes de risques) pourrait être évaluée avec
  un plan de contrôle X (cf.
  Fig 
 \begin_inset CommandInset ref
@@ -272,8 +272,8 @@ réinitialiser ou modifier
 \begin_inset Quotes erd
 \end_inset
 
- la probabilité de l'événement non-désiré puis la perte potentielle devient
- 
+ la probabilité de l'événement non-désiré, par conséquent la perte potentielle
+ devient 
 \begin_inset Quotes eld
 \end_inset
 
@@ -295,7 +295,8 @@ perte prouvée
 \begin_layout Standard
 En supposant que la loi de distribution de la probabilité des évènements
  non-désirés sur l'horizon considéré (H) est connue, la fonction de l'évolution
- du risque avec un plan de contrôle X pourrait être calculé comme suit :
+ du risque avec un plan de contrôle X pourrait être calculée comme suit
+ :
 \end_layout
 
 \begin_layout Standard

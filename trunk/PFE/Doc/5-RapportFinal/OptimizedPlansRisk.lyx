@@ -68,7 +68,7 @@ Dans les grandes lignes de fabrication, la plupart des débris importants
 \end_layout
 
 \begin_layout Standard
-De nombreuses sources de données et des techniques appliquées aujourd’hui
+De nombreuses sources de données et de techniques appliquées aujourd’hui
  sont nécessaires pour maîtriser le processus au niveau de l'Angstrom
 \begin_inset Foot
 status open
@@ -163,10 +163,10 @@ ty detection and control »).
 \end_layout
 
 \begin_layout Standard
-Dans cet article, les limitations traditionnelle que l’approche possède
+Dans cet article, les limitations traditionnelles que l’approche possède
  quand nous l’appliquons à une fabrication avancée avec un nombre de produits
- variés sont passées en revue et discutées et leurs facteurs principaux
- en liaison sont présentés.
+ variés sont passées en revue, discutées et leurs facteurs principaux en
+ liaison sont présentés.
  
 \end_layout
 
@@ -197,7 +197,7 @@ ajuster le plan de contrôle raffiné dans la phase 1 en divisant le reste
 \end_layout
 
 \begin_layout Standard
-En plus de casser les barrières entre le plan de contrôle et L’
+En plus d'oter les barrières entre le plan de contrôle et L’
 \emph on
 AMDEC
 \emph default
@@ -260,8 +260,8 @@ phase
 \begin_inset space ~
 \end_inset
 
-1 consiste à identifier les risques possibles et de faire une première répartiti
-on de risque, dans le but de construire un plan de contrôle par la suite.
+1 consiste à identifier les risques possibles et  faire une première répartition
+ de risque, dans le but de construire un plan de contrôle par la suite.
 \end_layout
 
 \begin_layout Description
