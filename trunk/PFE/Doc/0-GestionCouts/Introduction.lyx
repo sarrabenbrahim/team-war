@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -61,7 +61,7 @@ STMicroelectronics
  Cette entreprise est spécialisée dans la fabrication de composants électronique
 s.
  Le secteur dans lequel s'inscrit l'activité de cette entreprise est très
- particulier et très concurentiel, en effet il necessite un niveau de qualité
+ particulier et très concurentiel, en effet, il necessite un niveau de qualité
  très élevé pour se maintenir au meilleur niveau.
 \end_layout
 
@@ -74,20 +74,20 @@ zéro défaut
 \begin_inset Quotes frd
 \end_inset
 
-, malheureusement la complexité des processus de fabrication ne permet pas
- d'atteindre cet objectif.
+, malheureusement, la complexité des processus de fabrication ne permet
+ pas d'atteindre cet objectif.
  Afin de palier ce manque, nous étudions comment détecter rapidement la
  non qualité.
- D'autre part notre étude consiste à anticiper les défauts de qualité sur
- les plaques de silicium et de tester les composants les plus sensibles.
- Dans le but de réduire la non qualité.
+ D'autre part, notre étude consiste à anticiper les défauts de qualité sur
+ les plaques de silicium et de tester les composants les plus sensibles,
+ dans le but de réduire la non qualité.
 \end_layout
 
 \begin_layout Standard
-Cette étude est sensible, car les lots traités coûtent excessivement cher,
- les machines contrôlant les produits aussi.
- Le but de cette étude est d'arriver à trouver l'équilibre entre le contrôle
- des produits et le contrôle des machines.
+La sensibilité de cette étude est liée au fait que les lots traités coûtent
+ excessivement cher, les machines contrôlant les produits aussi, et le but
+ est d'arriver à trouver l'équilibre entre le contrôle des produits et le
+ contrôle des machines.
 \end_layout
 
 \begin_layout Standard
@@ -97,8 +97,8 @@ Dans une première partie, nous nous intéresserons à l'aspect financier du
 \end_layout
 
 \begin_layout Standard
-Dans un deuxième temps nous allons chiffrer la solution proposée, et le
- gain envisagé par ce type de solution.
+Dans un deuxième temps nous chiffrerons la solution proposée, ainsi que
+ le  gain envisagé par ce type de solution.
  La solution n'étant pas encore implémenter nous discuterons sur deux résultats,
  un optimiste et un pessimiste.
  
