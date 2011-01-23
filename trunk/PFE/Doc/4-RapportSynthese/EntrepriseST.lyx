@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -74,18 +74,8 @@ key "web:WikipediaST"
 
 \end_inset
 
- (plus connu sous ST) est une société internationale 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Elle est aussi une multinationale de la microélectronique
-\end_layout
-
-\end_inset
-
- de semi-conducteurs, qui développe, fabrique et commercialise des puces
- électroniques.
+ (plus connu sous ST) est une multinationale du semi-conducteurs, qui développe,
+ fabrique et commercialise des puces électroniques.
  Elle a été initialement créée en 1987, de la fusion de SGS Microelettronica
  et de Thomson Semiconducteurs, sous le nom de SGS-THOMSON.
  Puis renommée en STMicroelectronics, suite au retrait de Thomson du capital
