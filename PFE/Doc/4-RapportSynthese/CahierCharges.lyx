@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -61,6 +61,20 @@ ou est le cahier de charge tel qu'il à été donné dans la feuille par st?
  pour montrer que de rien nous avons pu accomplir quelque chose
 \end_layout
 
+\begin_layout Plain Layout
+=> cf.
+ la section 
+\begin_inset Quotes fld
+\end_inset
+
+Mission du PFE
+\begin_inset Quotes frd
+\end_inset
+
+ et pour vérifier cf.
+ PFE/Sujet/PFE-Team-War-2010.pdf
+\end_layout
+
 \end_inset
 
 
@@ -74,17 +88,9 @@ Formalisation du cahier des charge à partir du besoin du client
 La pratique actuelle de STMicroelectronics consiste à compter le nombre
  de plaques de silicium travaillées entre deux mesures.
  Ce comptage peut être référencé à une machine de production ou à une technologi
-e et il ne prend pas en compte les paramètres des plaques.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-pas clair !!!
-\end_layout
-
-\end_inset
-
-
+e.
+ Par contre, il ne prend pas en compte de l'existence de plusieurs type
+ de paramètres ni de l'intéraction potentielle entre paramètres.
 \end_layout
 
 \begin_layout Itemize
@@ -158,6 +164,8 @@ Contrôle de fiabilité des machines de production, c'est une tâche de maintena
 \begin_layout Standard
 Les règles de contrôle sont basées sur l'expérience des contremaîtres, sans
  procédure définie.
+ Cette méthode ne permet donc pas de pouvoir régler les outils d'échantillonnage
+ par rapport à un risque maximal garanti.
 \end_layout
 
 \begin_layout Section
@@ -177,8 +185,11 @@ Notre travail consiste donc à rechercher une ou des solutions susceptibles
 \end_layout
 
 \begin_layout Standard
-La mission énnoncée dans le cahier des charges est la suivante : « Le travail
- consistera en une étude de faisabilité sur l'évaluation des 'wafer@risk'
+La mission telle qu'elle a été mentionnée dans le sujet de notre PFE est
+ la suivante : 
+\series bold
+« Le travail consistera en une étude de faisabilité sur l'évaluation des
+ 'wafer@risk'
 \begin_inset Foot
 status collapsed
 
@@ -200,6 +211,8 @@ Wafers At Risk
 \begin_inset Quotes frd
 \end_inset
 
+
+\series default
 .
 \end_layout
 
