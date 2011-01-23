@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -79,7 +79,7 @@ La recherche de solution déjà faite pour répondre à notre problématique
  
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -1005,7 +1005,7 @@ reference "fig:Représentation-des-résultats"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1025,7 +1025,7 @@ Représentation des résultats après calculs
 
 
 \begin_inset Graphics
-	filename /home/garciaf/SVN/team-war/PFE/Doc/Images/GrapheDonnee.eps
+	filename ../Images/GrapheDonnee.eps
 	width 100col%
 
 \end_inset
@@ -1263,7 +1263,7 @@ Représentation des résultats après calculs
 
 
 \begin_inset Graphics
-	filename /home/garciaf/SVN/team-war/PFE/Doc/Images/grapheV2.eps
+	filename ../Images/grapheV2.eps
 	width 100col%
 
 \end_inset
