@@ -510,9 +510,38 @@ Source : Wikipedia.
 Choix des outils de travail
 \end_layout
 
-\begin_layout Standard
-lyx, svn, neatbeans,....
- pourquoi , les avantages................
+\begin_layout Itemize
+Serveur SVN : Nous avons choisi le serveur SVN qui est un logiciel de gestion
+ de version afin de palier au probléme relatif à la perte des données ainsi
+ qu'au probléme lié à la gestion des conflits.
+ En résumé cela consiste à travailler sur des versions précedente de sauvegarde
+ afin de pouvoir résoudre le conflit.
+ TortoiseSVN est un client gratuit multiplateforme du serveur ; il permet
+ d'interfacer avec celui-ci afin d'effectuer des opération d'ajout, d'envoi,
+ de mise à jour, etc...
+\end_layout
+
+\begin_layout Itemize
+LyX est un outil open source multiplateforme pour l’édition et le traitement
+ de texte.
+ C’est une surcouche graphique de l'éditeur de texte LaTeX.
+ Notre choix a été porté sur cet outil, car il permet de rédiger séparément
+ les parties du rapport puis de les réintégrer d’une façon simple.
+ Cet outil est performant, il permet de faire la mise en forme de la totalité
+ du rapport automatiquement.
+\end_layout
+
+\begin_layout Itemize
+DIA est un outil libre de création de différents diagramme du même type
+ que Visio (Visio étant payant)
+\end_layout
+
+\begin_layout Itemize
+NetBeans est un environnement de développement intégré (IDE).
+ Il permet de faciliter le développement du code Java.
+ Nous l'avons choisi car il permet d'intégrer le Serveur SVN afin de pouvoir
+ travailler sur le code en groupe.
+ De plus cet outil est gratuit
 \end_layout
 
 \begin_layout Section
