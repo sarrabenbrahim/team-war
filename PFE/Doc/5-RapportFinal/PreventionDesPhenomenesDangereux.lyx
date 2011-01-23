@@ -69,21 +69,21 @@ reference "fig:Analyse-du-risque"
 \begin_layout Itemize
 Détermination des limites de la machine : il faut fixer les signaux de l’appréci
 ation du risque, ensuite il faudra décrire et prendre en compte l’environnement
- dans lequel est utilisée la machine et les facteurs qui peuvent avoir une
+ dans lequel est utilisé la machine et les facteurs qui peuvent avoir une
  influence sur cette dernière.
  
 \end_layout
 
 \begin_layout Itemize
-Repérage (identification) des phénomènes dangereux Dans notre projet les
- plaques de silicium une fois exposées à un phénomène dangereux peuvent
- être affectées et subir des dommages.
+Repérage (identification) des phénomènes dangereux.
+ Dans notre projet les plaques de silicium une fois exposées à un phénomène
+ dangereux peuvent être affectées et subir des dommages.
  Le repérage des phénomènes dangereux est une étape longue et demande beaucoup
  de précision.
 \end_layout
 
 \begin_layout Itemize
-Estimation du risque : L’estimation du risque consiste à comparer entre
+Estimation du risque : l’estimation du risque consiste à comparer entre
  elles les différentes situations dangereuses constatées.
  Le risque peut être définit comme une composition entre la gravité du dommage
  (notée G) subit par la plaque de silicium et la probabilité d’occurrence
@@ -240,14 +240,14 @@ O1 Très faible (de très faible à faible).
 
 \begin_layout Description
 O2 Faible (de faible à moyenne).
- Événement dangereux lié à une défaillance technique.
- 
+ Événement dangereux lié à une défaillance technique;
 \end_layout
 
 \begin_layout Description
 O3 Élevée (de moyenne à élevée).
  Événement dangereux entraîné par une action.
- Principes généraux de gestion du risque 
+ Principes généraux de gestion du risque.
+ 
 \end_layout
 
 \begin_layout Subsection
@@ -256,7 +256,7 @@ Possibilité d’évitement du dommage (P)
 
 \begin_layout Standard
 La possibilité d’évitement permet d’empêcher que le dommage se produise
- ou de le Limiter, en fonction :
+ ou de le limiter, en fonction :
 \end_layout
 
 \begin_layout Itemize
@@ -291,7 +291,7 @@ Pour définir l’indice de risque nous utiliserons un logigramme de risque
 \end_layout
 
 \begin_layout Subsection
-réduction du risque
+Réduction du risque
 \end_layout
 
 \begin_layout Standard
@@ -355,7 +355,7 @@ Réduction du risque
 
 \begin_layout Standard
 La figure présente la gestion du risque sous deux parties : l'appréciation
- du risque précédemment développé et la réduction du risque que nous allons
+ du risque précédemment développée et la réduction du risque que nous allons
  expliqués.
 \end_layout
 
