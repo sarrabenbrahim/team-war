@@ -1,0 +1,1307 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Bilan sur l'état de l'art
+\end_layout
+
+\begin_layout Standard
+Durant notre étude de l’art nous avons pu analyser et évaluer plusieurs
+ approches distinctes.
+ Dans ce qui suit nous allons vous présenter les résultats de l’étude de
+ l’art ainsi que les motivations pour retenir ou non une méthode.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Methode D 3 ( A mettre dans les bonnes cases)
+\end_layout
+
+\begin_layout Plain Layout
+Cette méthode est quantitative basée sur l’analyse systématique d’ensemble
+ de produit, en effet elle est décrite sous la forme d’un algorithme qui
+ cherche les produits défectueux en optimisant le nombre de test.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Cette méthode est programmable et a priori correspond au sujet.
+ Son inconvénient et qu’elle demande beaucoup de tests et donc systématique.
+ 
+\end_layout
+
+\begin_layout Plain Layout
+Nous avons décidé de garder cette méthode au début, mais une fois que nous
+ avons commencé à faire la correspondance avec notre étude, nous nous sommes
+ rendu compte que cette dernière demande beaucoup de tests dans le cas ou
+ dans le premier échantillon il n’y a aucun éléments défectueux, de plus
+ nous avons une taille de lot fixe et nous ne pouvons faire des tests simultanés
+ sur plusieurs lots et finalement cette méthode imposera l'arrêt de la productio
+n plusieurs fois afin de prélever l'échantillon à tester, la taille de ce
+ dernier peut devenir très grande.
+ Cette méthode s'applique dans un cadres ou la taille de l'échantillon n'est
+ pas fixe et que le contrôle n'en est pas perturbé
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Dans le cadre d'une analyse épidémiologique par exemple, tester un échantillon
+ de sang d'une personne ou cent personnes ne fait pas de différence dans
+ le cas de la recherche d'un virus dans une population
+\end_layout
+
+\end_inset
+
+.
+ Malheureusement les contraintes fortes liés au contrôle des lots nous empêchent
+ d'avoir des contrôles des tailles de lot de plus en plus importante.
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+si j'ai oublié des choses ou d'autre arguments rajoutez les SVP
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Il faut laisser la nature des documents dans les titres.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="2">
+<features islongtable="true" headBottomDL="true">
+<column alignment="center" valignment="middle" width="25col%">
+<column alignment="center" valignment="top" width="80col%">
+<row endhead="true">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Document
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Résumé
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ouvrage « Utilisation du jugement d'expert en sûreté de fonctionnement »
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features>
+<column alignment="center" valignment="top" width="17col%">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objectif 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Repose sur une démarche qualitative et quantitative qui se traduit par l’analyse
+ des modes de défaillance de leurs effets et de leurs criticités (AMDEC).
+ AMDEC repose sur une décomposition fonctionnelle de la machine.
+ Elle permet d'identifier et de classer les modes de défaillances.
+ Afin de définir des actions préventives ou correctives adaptées.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avantages 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Évaluer et garantir : la fiabilité, la maintenabilité, la disponibilité,
+ la sécurité et le rendement maximum au moindre cout
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inconvénients 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ne permet pas de combiner plusieurs défaillances, en effet elle ne peut
+ détecter qu'une défaillance à la fois
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conclusion 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+cette démarche n'est pas faisable, elle requiert un niveau de détails trop
+ important pour une production de ce type (non linéaire, multi produits,
+ interaction de nombreux paramètres et grand nombre d'étape de fabrication).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dossier « Principes généraux de gestion du risque »
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features>
+<column alignment="center" valignment="top" width="17col%">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objectif
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Une étude pour la détection et la réduction du risque, elle rentre dans
+ la prévention des phénomènes dangereux et a pour objectif d’apprécier le
+ risque et de le réduire.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avantages
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+une démarche complète et entière, qui gère et corrige le risque grâce à
+ des actions en amont et en aval.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inconvénients
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Une démarche très longue et qui exige une connaissance parfaite des machines.
+ Elle ne traite que les phénomènes dangereux liés à la machine.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si les ressources de l'entreprise le permettent, elle peut constituer une
+ étude annexe intéressante pour identifier, classer et pondérer le niveau
+ des risques des machines afin de mieux gérer la maintenance des machines.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Article « Optimized Design of Control Plans Based on Risk Exposure and Resources
+ Capabilities
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features>
+<column alignment="center" valignment="top" width="17col%">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objectif
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+une méthode d'élaboration d'un plan de contrôle en deux étapes : la première
+ étape consiste à identifier les risques possibles et de faire une répartition
+ de risque.
+ Ensuite ajuster le plan construit en ajoutant ou en supprimant des contrôles
+ selon la capacité.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+cette méthode ne peut être retenue pour notre cas d'étude car il faut identifier
+ tous les risques possibles ainsi que la capacité de contrôle.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Article « An Approach for Operational Risk Evaluation and its Link to Control
+ Plan
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features>
+<column alignment="center" valignment="top" width="17col%">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objectif
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Basé sur l'évolution de la défectivité potentielle.
+ Cette évolution est supposée linéairement croissante avec le nombre d'exécution
+ (traitement par la machine), sans contrôle, sur un horizon donné.
+ Ce risque potentiel est réinitialisé, à une valeur seuil, après chaque
+ tâche de contrôle ou de maintenance.
+ L'évolution la défectivité potentielle dépend de la gestion des tâches
+ de qualité et de maintenance.
+ De plus s'ajouter à cela une fonction d'évaluation de la valeur ajoutée
+ des tâches de contrôles mises en place afin de déterminer la bonne planificatio
+n de ces tâches pour un résultat optimal du risque.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avantages
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Réduit fortement le risque du processus
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inconvénients
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+la proportionnalité de la réduction du risque dépend du nombre de plan de
+ contrôle
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+cette méthode n'est pas industriellement viable dès lors qu'on exige un
+ niveau de fiabilité élevé pour les processus car cela engendrait d'important
+ temps d'indisponibilité des machines
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Article « Optimizing Return On Inspection Trough Defectivity Smart Sampling
+ »
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features>
+<column alignment="center" valignment="top" width="17col%">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objectif
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Repose sur une méthode d'échantillonnage « intelligente » qui permet d'identifie
+r seulement les produits (échantillons pertinents) à contrôler sans perte
+ d'information.
+ Pour 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avantages
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Un algorithme a été développé pour identifier et contrôler un critère sur
+ les produits inspectés 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inconvénients
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+cette approche ne permet pas de réduire les risques en défectivité mais
+ seulement l'échantillonnage pour la mesure.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+cette méthode peut être retenue pour être exploitée en complément avec une
+ solution qui traite plus le cœur de notre problème en terme de défectivité.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Article « Computation of Wafer-At-Risk from Theory To Real Life Demonstration
+ »
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features>
+<column alignment="center" valignment="top" width="17col%">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objectif
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Porte sur l’évaluation des risques et l’optimisation de l’utilisation des
+ équipements de contrôle en introduisant les indicateurs W@R et W@R-Réduction.
+ Cette méthode permet d'aboutir à une réduction importante des risques,
+ évitant ainsi jusqu'à 35% de produits inspectés inutilement.
+ Cependant, les résultats obtenus varient fortement en fonction du type
+ de recette.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avantages
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+c'est une méthode très prometteuse au niveau des résultats
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inconvénients
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Complexe, exige beaucoup d’information.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Par manque de consistance des informations, cette méthode n'a pas été retenue
+ comme solution sous réserve qu'il y aurait des informations plus détaillées
+ permettant de prononcer sur sa faisabilité.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Présentation « Operational Risk Evaluation and Control Plan Design
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features>
+<column alignment="center" valignment="top" width="17col%">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objectif
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Une méthode d'évaluation des risques opérationnels aidant à la prise de
+ décisions pour les plans de contrôle.
+ L'idée consiste à évaluer les risques du processus (machines).
+ A chaque traitement, la fiabilité du processus diminue (usure de la machine)
+ jusqu'à la tâche de qualité (maintenance) soit effectuée pour redresser
+ son niveau de fiabilité.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avantages
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Traite la fiabilité de la machine.
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inconvénients
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Demande beaucoup de traitement.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ce support de présentation n'apporte pas plus d'information pertinente que
+ le 2ème article, cette présentation n'a pas été retenue comme solution
+ pour les mêmes raisons que l'article.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+A repréciser les raisons
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Présentation « A Novel Approach to Minimize the Number of Controls in the
+ Defectivity Area »
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features>
+<column alignment="center" valignment="top" width="17col%">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objectif
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cette étude repose sur l'indicateur « Wafers At Risk » (W@R), qui représente
+ le nombre de plaques traitées sur un équipement depuis la dernière tâche
+ de contrôle.
+ Cet indicateur sera exploité par un algorithme de calcul des « Permanent
+ Index per Context (PIC) ».
+ Les résultats de l'implémentation de l'algorithme sur une ligne de production
+ montrent, au bout de deux semaines, qu'une réduction de 35% des produits
+ qui peuvent être exemptés de contrôle sans incident sur le taux de défectivité
+ de la production.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nous aboutissons à la même conclusion que l’article « Optimizing return
+ on inspection through defectivity smart sampling » qui traite plus ou moins
+ la même approche.
+ Cette approche n'a pas donc été retenue comme solution pour notre étude.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Article « A New Competitive Algorithm for Group Testing»
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features>
+<column alignment="center" valignment="top" width="17col%">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objectif
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Évoque une méthode quantitative basée sur l’analyse systématique d’ensemble
+ de produit, en effet elle est décrite sous la forme d’un algorithme qui
+ cherche les produits défectueux en optimisant le nombre de test.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avantages
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cette méthode est programmable et a priori correspond au sujet
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inconvénients
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+demande beaucoup de tests et donc systématique.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nous l’avons adoptée dans un premier temps puis nous l’avons rejetée.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+On peut préciser pourquoi ?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A New Competitive Algorithm for Group Testing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features>
+<column alignment="center" valignment="top" width="17col%">
+<column alignment="center" valignment="top" width="60col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Objectif
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Évoque une méthode quantitative basée sur l’analyse systématique d’ensemble
+ de produit, en effet elle est décrite sous la forme d’un algorithme qui
+ cherche les produits défectueux en optimisant le nombre de test.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Avantages
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cette méthode est programmable et a priori correspond au sujet
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inconvénients
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+demande beaucoup de tests et donc systématique.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Conclusion
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Nous l’avons adoptée dans un premier temps puis nous l’avons rejetée.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+On peut préciser pourquoi ?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Conclusion de l'état de l'art
+\end_layout
+
+\begin_layout Standard
+Cette absence de solution concrète dans cette industrie, nous a poussé à
+ développer notre propre méthode de détection.
+ 
+\end_layout
+
+\begin_layout Standard
+L'idée étant d'utiliser nos contraintes pour développer notre propre algorithme
+ de calcul, nous détaillerons cet algorithme ainsi que ces résultats dans
+ la partie suivante.
+\end_layout
+
+\end_body
+\end_document
