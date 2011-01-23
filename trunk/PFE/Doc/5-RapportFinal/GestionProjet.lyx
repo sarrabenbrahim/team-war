@@ -818,7 +818,7 @@ Garcia
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- Recherche et travail sur la méthode 
+ Recherche et adaptation de la méthode 
 \begin_inset Formula $D^{3}$
 \end_inset
 
@@ -834,8 +834,8 @@ Nakara
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-Recherche des méthodes existantes susceptibles d'être utilisées dans notre
- projet de fin d'étude.
+Recherche et analyse des méthodes existantes susceptibles d'être utilisées
+ dans notre projet de fin d'étude.
 \end_layout
 
 \begin_layout Itemize
@@ -900,7 +900,7 @@ Amrani-Mesbahi
 \begin_inset Formula $\rightarrow$
 \end_inset
 
- Développement du modéle et du code pour l'implémentation de l'algorithme
+ Développement du modèle et du code pour l'implémentation de l'algorithme
  du marcheur 
 \end_layout
 
@@ -913,7 +913,7 @@ Nakara
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-Gestion de projet
+Gestion de projet + état de l'art
 \end_layout
 
 \begin_layout Itemize
@@ -930,7 +930,8 @@ Travail bibliographique + Gestion des coûts
 
 \begin_layout Standard
 Au terme de cette itération deux rapport ont été livré un rapport de synthése
- qui est synthétique de notre étude en plus d'un rapport finale raffiné.
+ et un dossier final contenant un rapport final , yn rapport de gestion
+ des coûts et un rapport de gestion de projet.
 \end_layout
 
 \begin_layout Section
@@ -996,6 +997,9 @@ Fabien
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -1032,6 +1036,42 @@ ces atténuante...
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Tout d’abord, notre projet de fin d’étude est une expérience très enrichissante,
+ elle nous a permis de mener à bien un projet sur 5 mois qui commence par
+ la phase de la spécification jusqu'à la phase de test et validation de
+ la solution en passant par la phase de réalisation.
+ De plus nous avons eu la chance d’être dans de vraies conditions de travail,
+ en contact avec notre client final (StMicroelectronics), ce long projet
+ fut très enrichissant.
+ Cet avantage n’étant pas de tout repos, en effet nous avons été confrontés
+ à la difficulté du monde de travail avec les réunions de dernière minute
+ dans lesquelles le client final n’est pas toujours en accord avec nos propositi
+ons et provoquant ainsi une évolution permanente du cahier de charge, même
+ lors de l’ultime réunion.
+\end_layout
+
+\begin_layout Standard
+Ensuite nous avons eu des difficultés au sein même de notre équipe de travail,
+ les caractères, les points de vues divergentes et les différentes manière
+ de travailler ne nous ont pas facilités la tâche, mais chacun a pu s’imposer
+ et participer à toutes les phases.
+ Malgré ces difficultés, nous avons eu le plaisir de mener ce travail jusqu’à
+ son terme.
+ 
+\end_layout
+
+\begin_layout Standard
+Finalement, nous ne retenons que le bon coté de cette expérience grâce à
+ laquelle nous avons pu voir qu’il faut être prêt à travailler dans n’importe
+ quel domaine et quelle situation, mais aussi nous avons pu mettre en œuvre
+ tous ce dont nous avons appris en cours de génie industriel pour pouvoir
+ manager ce projet et le mener à bien.
+ Nos connaissances en informatiques restent un atout pour réaliser notre
+ maquette en réponse à un cahier des charges réduit afin de mieux vendre
+ notre solution.
 \end_layout
 
 \end_body
