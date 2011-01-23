@@ -51,8 +51,23 @@ figs-within-sections
 Cahier des charges
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ou est le cahier de charge tel qu'il à été donné dans la feuille par st?
+ nous avons l'obligation de le copier coller meme si c'est du charabbia
+ pour montrer que de rien nous avons pu accomplir quelque chose
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-Fonctionnement actuel de l'entreprise
+Formalisation des besoins clients à partir du cahier des charges
 \end_layout
 
 \begin_layout Standard
@@ -188,19 +203,18 @@ Plan de l'étude
 \end_layout
 
 \begin_layout Standard
-Une étude préliminaire pour balayer le sujet et les pistes de recherche
- d'information possibles.
- Ce qui nous amène à l'étude de l'art, une sorte de travail de 
+Nous avons effectué une étude préliminaire pour analyser le sujet et les
+ pistes de recherche d'information possibles, qui nous a amèné à l'étude
+ de l'art, une sorte de travail de 
 \emph on
 Benchmarking
 \emph default
 .
- A partir du bilan de cette étude, de fouille d'information, nous essaierons
- de trier et de garder les solutions pertinentes pour une étude plus approfondie.
+ une fois le cet état de l'art etablis, nous avons essayé de trier et de
+ garder les solutions pertinentes pour une étude plus approfondie.
  Dans le cas où l'état de l'art ne permet pas de répondre pertinemment à
- nos attentes.
- Une tentative solution sera développée par notre équipe pour répondre à
- notre problème d'optimisation, suivi de la phase de simulation et de validation
+ nos attentes, une solution sera développée par notre équipe pour répondre
+ aux besoins de notre client, suivi de la phase de simulation et de validation
  de la solution.
 \end_layout
 
