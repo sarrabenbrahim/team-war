@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -49,6 +49,66 @@ figs-within-sections
 
 \begin_layout Part*
 Introduction
+\end_layout
+
+\begin_layout Standard
+Pour survivre dans le domaine de la micro électronique et être compétitif,
+ les entreprises ont comme moyens d'action la réduction de la non qualité,
+ l'objectif étant de tendre vers zéro défaut.
+\end_layout
+
+\begin_layout Standard
+Consciente de ces enjeux, l'entreprise STMicroelectronics investit dans
+ la recherche et c'est dans cette optique qu'ils nous ont contacté afin
+ de commencer à élaborer un projet pour détecter la non qualité de leurs
+ produits.
+\end_layout
+
+\begin_layout Standard
+Ce type d'entreprise possède un certain nombre de contraintes propres, (salle
+ blanche, contrôles des produits longs et coûteux, production non linéaire....etc).
+ Devant cet état de fait, il est impossible d'appliquer des méthodes simples
+ et classiques pour résoudre ce problème.
+\end_layout
+
+\begin_layout Standard
+Notre travail consiste à étudier la faisabilité de l'implémentation d'une
+ nouvelle méthode.
+\end_layout
+
+\begin_layout Standard
+Cette dernière permettra d'optimiser le contrôle des produits et des machines
+ de façon à détecter de manière rapide, automatique et fiable les rebuts
+ possibles.
+\end_layout
+
+\begin_layout Standard
+Le présent rapport se décompose de la manière suivante :
+\end_layout
+
+\begin_layout Itemize
+présentation de l'entreprise et son contexte 
+\end_layout
+
+\begin_layout Itemize
+etat de l'art des différentes méthodes employées dans l'industrie pour cette
+ problèmatique 
+\end_layout
+
+\begin_layout Itemize
+développement de notre propre solution à partir des contraintes énoncées
+\end_layout
+
+\begin_layout Itemize
+point sur notre gestion de projet 
+\end_layout
+
+\begin_layout Itemize
+point et analyse financière du projet 
+\end_layout
+
+\begin_layout Itemize
+conclusions et perspectives sur la faisabilité de ce projet
 \end_layout
 
 \begin_layout Standard
