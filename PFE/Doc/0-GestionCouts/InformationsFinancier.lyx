@@ -130,15 +130,11 @@ Note sur les données receuillis
 \begin_layout Standard
 Le marché de la microélectronique est très concurrentiel et qui évolue rapidemen
 t, le prix de vente des produits varie aussi en conséquent.
- Toute fuite d'informations sur le coût peut être critique pour l'entreprise.
+ Toute fuite d'information sur le coût peut être critique pour l'entreprise.
  En effet la concurence pourrait se servir de ces informations afin d'asphyxier
  l'entreprise en vendant des produits concurents à un coût moindre.
- 
-\emph on
-STMicroelectronics
-\emph default
- ne peut donc se permettre de donner les chiffres réels de la production
- et de la non qualité.
+ STMicroelectronics ne peut donc se permettre de donner les chiffres réels
+ de la production et de la non qualité.
 \end_layout
 
 \begin_layout Standard
@@ -152,8 +148,8 @@ Données à receuillir
 \end_layout
 
 \begin_layout Itemize
-En production, le coût d'une plaque de silicium est estimé à $1000, on suppose
- que le coût d'une plaque défectueux coûte aussi $1000 à l'entreprise.
+En production, le coût d'une plaque de silicium est estimée à $1000, on
+ suppose que le coût d'une plaque défectueux coûte aussi $1000 à l'entreprise.
  Car les produits défectueux sont directement broyés pour éviter le 
 \begin_inset Quotes fld
 \end_inset
@@ -175,21 +171,47 @@ Le pourcentage de la non-qualité d'une bonne entreprise est estimé à 1%.
 \end_layout
 
 \begin_layout Itemize
-Notre solution ne nécessite à priori pas d'investissement initial si ce
- n'est qu'un thésard pour le développement de l'algorithme ($35000 par an)
- et éventuellement du matériel informatique plus puissant ($5000) pour l'exécute
-r plus rapidement.
+Notre solution ne nécessite à priori pas d'investissement initial car elle
+ exploite les ressources déjà existantes :
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Equipements de métrologie.
+\end_layout
+
+\begin_layout Itemize
+Personnel pour la maintenance.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Pour améliorer notre maquette, STMicroelectronics pourra éventuellement
+ faire appel à un thésard.
+ Ainsi qu'un investissement dans de nouveau matériel informatique plus performan
+t pour l'implantation et l'exécution de l'algorithme :
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Salaire d'un thésard, en CIFRE, est estimé à environ $35000 par an.
+ Cette donnée ne représente pas la charge réelle pour l'entreprise car elle
+ ne tienne pas compte de la subvention de l'état mais ce que perçoit un
+ thésard.
+ Pour notre étude, nous allons considérer que le salaire d'un thésard sera
+ équivalent de la charge de l'entreprise.
+ La charge d'un thésard sur ses trois années de recherche est donc égale
+ à $105000.
+\end_layout
+
+\begin_layout Itemize
+Nous estimons qu'un investissement de $15000 pour des matériels informatiques
+ plus performants y compris sa maintenance sur trois ans.
+\end_layout
+
+\end_deeper
 \begin_layout Section
-Taux d'intérêt
-\begin_inset CommandInset citation
-LatexCommand cite
-key "web:tauxDirectionDuTresor"
-
-\end_inset
-
-
+Taux de l'intérêt légal
 \end_layout
 
 \begin_layout Standard
@@ -210,7 +232,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Récapitulatif des taux légaux d'intérêt
+Récapitulatif des taux de l'intérêt légaux
 \end_layout
 
 \end_inset
@@ -221,12 +243,20 @@ Récapitulatif des taux légaux d'intérêt
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../Images/TauxActualisation2010.png
+	filename /home/philippe/SVN/TeamWAR/PFE/Doc/Images/TauxActualisation2010.png
 	width 90col%
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\shape italic
+\size small
+Source : http://www.minefe.gouv.fr/directions_services/dgtpe/taux/taux_legal.php
 \end_layout
 
 \end_inset
@@ -259,22 +289,63 @@ Le taux légal d’une année étant égal à la moyenne arithmétique des TMB d
 Ce que nous recherchons ce n'est pas un taux exact mais sa tendance pour
  les années suivantes afin d'estimer notre taux d'actualisation.
  Nous avons validé le taux d'actualisation à 0,65% pour nos calculs.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Vu le caractère exceptionnel de la crise est-ce bien raisonnable de prendre
- la dernière valeure ? De plus les deux sources ne disent pas les même choses...
- 
 \end_layout
 
+\begin_layout Section
+Bilan des flux financiers
+\end_layout
+
+\begin_layout Itemize
+Coût de production annuelle : 
+\begin_inset Formula $520000\times1000=520$
+\end_inset
+
+ millions dollars
+\end_layout
+
+\begin_layout Itemize
+Avec 
+\begin_inset Formula $1\%$
+\end_inset
+
+ de rejet, le coût annuel de la non-qualité est de 
+\series bold
+5,2 millions dollars
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Cas pessimiste (
+\begin_inset Formula $5\%$
+\end_inset
+
+) : 
+\begin_inset Formula $0,05\times5,2\times10^{6}=\$260000$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Section
-Bilan des flux financiers
+\begin_layout Itemize
+Cas pessimiste (
+\begin_inset Formula $30\%$
+\end_inset
+
+) : 
+\begin_inset Formula $0,3\times5,2\times10^{6}=\$1560000$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Notre solution permet de 
+\series bold
+réduire le coût de la non-qualité entre 0,26 et 1,56 millions dollars par
+ an
+\series default
+.
 \end_layout
 
 \end_body
