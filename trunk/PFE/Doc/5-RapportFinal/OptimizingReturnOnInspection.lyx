@@ -1,0 +1,394 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Optimizing return on inspection
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:sampling"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Avec la croissance de la complexité et du besoin de la réactivité des processus,
+ la méthode d'échantillonnage est devenue limitée face aux exigences.
+ Pour combler le défaut de cette méthode, nous avons remarqué que le contrôle
+ de certains échantillons peut être éviter sans perte d'information notable
+ sur la série de produits.
+ Un algorithme a été développé pour identifier et contrôler ce critère sur
+ les produits inspectés inutilement.
+\end_layout
+
+\begin_layout Section
+Description de l'algorithme
+\end_layout
+
+\begin_layout Standard
+Sur un cas simple, nous considèrons qu'un contrôle de la contamination d'une
+ machine de fabrication T (outil de gravure).
+ Le risque de contamination, D, augmente avec le nombre de plaques produites.
+ Si le contrôle est marqué comme 
+\begin_inset Quotes eld
+\end_inset
+
+valide
+\begin_inset Quotes erd
+\end_inset
+
+, l'outil de traitement et tous les produits traités entre le dernier contrôle
+ 
+\begin_inset Quotes eld
+\end_inset
+
+valide
+\begin_inset Quotes erd
+\end_inset
+
+ et l'actuel sont validés.
+ Sinon, les actions sont déclenchées sur la machine T et la liste des lots
+ potentiellement 
+\begin_inset Quotes eld
+\end_inset
+
+non-valide
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Les différents retards entre l'outil et le dispositif de contrôle de processus
+ suivent une loi stochastique comme l'illustre la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:The-production-system"
+
+\end_inset
+
+.
+ Dans l'étude de cas, l'analyse des données historiques révèle que ce temps
+ d'attente suit une loi gamma.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:The-production-system"
+
+\end_inset
+
+The production system
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/OptimizingReturnOnInspection_Fig1.png
+	width 100col%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le dynamisme du processus est illustré sur la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Risk-reduction-variation"
+
+\end_inset
+
+: lot P1 est traité en premier et contrôlé en quatrième en raison du tampon.
+ Certains lots peuvent être contrôlés avant d'autres qui ont été traités
+ plus tôt.
+ Toutefois, le risque de contamination est un phénomène croissant et monotone,
+ nous supposons que si le lot P4 a été validé alors le lot P1 l'est également
+ et il n'est pas nécessaire de le contrôler.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Risk-reduction-variation"
+
+\end_inset
+
+Risk reduction variation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/OptimizingReturnOnInspection_Fig2.png
+	width 100col%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La décision de maintenir ou de ignorer l'inspection d'un lot de produits
+ est basée sur la valeur de sa réduction des risques.
+ Cet indicateur est susceptible de changer à chaque fois qu'un autre lot
+ est inspecté.
+ La figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Risk-reduction-variation"
+
+\end_inset
+
+ illustre cette évolution.
+ Cet indicateur est ensuite utilisé pour trier la pile de lots à inspecter,
+ à partir des lots qui induisent les plus fortes réductions de risque, l'inspect
+ion de ces lots peut être alors ignorée.
+\end_layout
+
+\begin_layout Standard
+Un démonstrateur a été construit pour évaluer l'évolution du Wafer-At-Risk
+ basée sur des données historiques (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Wafer-At-Risk-prototype"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Wafer-At-Risk-prototype"
+
+\end_inset
+
+Wafer-At-Risk prototype
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/OptimizingReturnOnInspection_Fig3.png
+	width 100col%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Un cas 
+\begin_inset Quotes eld
+\end_inset
+
+ignoré
+\begin_inset Quotes erd
+\end_inset
+
+ est illustré à la figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Zoom-on-case-of-skip"
+
+\end_inset
+
+.
+ Un prototype en temps quasi-réel (en exécution toutes les 30 minutes) a
+ été mis en œuvre afin d'aider l'opérateur à sélectionner les lots qui seront
+ inspectés permettant de réduire l'évolution des risques.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Zoom-on-case-of-skip"
+
+\end_inset
+
+Zoom on case of skip
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/OptimizingReturnOnInspection_Fig4.png
+	width 100col%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resultats
+\end_layout
+
+\begin_layout Standard
+L'algorithme a été éxécuté sur plus de trois mois de production.
+ On a observé que plus de 35% des plaques inspectées peuvent être ignorées,
+ parce qu'elles n'apportaient aucune information supplémentaire.
+\end_layout
+
+\begin_layout Section
+Remarques
+\end_layout
+
+\begin_layout Standard
+Cet algorithme est intéressant mais il n'est pas suffisant pour notre problème.
+ Ceci dit, il pourra être implémenté en complément avec une autre solution
+ plus appropriée à notre cas d'étude.
+\end_layout
+
+\end_body
+\end_document

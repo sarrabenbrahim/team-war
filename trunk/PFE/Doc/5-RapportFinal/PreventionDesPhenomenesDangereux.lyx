@@ -1,0 +1,399 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Appréciation du risque
+\end_layout
+
+\begin_layout Section
+Méthode générale
+\end_layout
+
+\begin_layout Standard
+L’analyse du risque En trois étapes (Cf Fig
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Analyse-du-risque"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Itemize
+Détermination des limites de la machine : il faut fixer les signaux de l’appréci
+ation du risque, ensuite il faudra décrire et prendre en compte l’environnement
+ dans lequel est utilisée la machine et les facteurs qui peuvent avoir une
+ influence sur cette dernière.
+ 
+\end_layout
+
+\begin_layout Itemize
+Repérage (identification) des phénomènes dangereux Dans notre projet les
+ plaques de silicium une fois exposées à un phénomène dangereux peuvent
+ être affectées et subir des dommages.
+ Le repérage des phénomènes dangereux est une étape longue et demande beaucoup
+ de précision.
+\end_layout
+
+\begin_layout Itemize
+Estimation du risque : L’estimation du risque consiste à comparer entre
+ elles les différentes situations dangereuses constatées.
+ Le risque peut être définit comme une composition entre la gravité du dommage
+ (notée G) subit par la plaque de silicium et la probabilité d’occurrence
+ de ce dommage.
+ L’occurrence d’un dommage est décomposée en 3 parties :
+\end_layout
+
+\begin_layout Enumerate
+La fréquence et la durée d’exposition aux phénomènes dangereux (notée F)
+ 
+\end_layout
+
+\begin_layout Enumerate
+La probabilité d’occurrence d’un évènement dangereux (notée O)
+\end_layout
+
+\begin_layout Enumerate
+La possibilité d’éviter ou de limiter le dommage (notée P).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Analyse-du-risque"
+
+\end_inset
+
+Les éléments du risque
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../Images/figure1GestionRisque.jpg
+	lyxscale 40
+	width 100col%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Gravité du dommage (G):
+\end_layout
+
+\begin_layout Standard
+La gravité du dommage peut être estimée en prenant en compte le taux de
+ rejet de la plaque de silicium.
+ On a deux possibilités :
+\end_layout
+
+\begin_layout Description
+G1 léger défaut (normalement réversible).
+ 
+\end_layout
+
+\begin_layout Description
+G2 grave défaut (normalement irréversible, y compris la destruction de la
+ plaque).
+ 
+\end_layout
+
+\begin_layout Section
+Fréquence ou durée d’exposition au phénomène dangereux (F)
+\end_layout
+
+\begin_layout Standard
+L’exposition peut être estimée en prenant en compte : 
+\end_layout
+
+\begin_layout Itemize
+le besoin d’accéder à la zone dangereuse;
+\end_layout
+
+\begin_layout Itemize
+la raison de l’accès; 
+\end_layout
+
+\begin_layout Itemize
+le temps passé dans la zone dangereuse ; 
+\end_layout
+
+\begin_layout Itemize
+la fréquence d’accès.
+\end_layout
+
+\begin_layout Standard
+deux choix se présentent : 
+\end_layout
+
+\begin_layout Description
+F1 De rare à assez fréquente ou courte durée d’exposition ; 
+\end_layout
+
+\begin_layout Description
+F2 De fréquente à continue ou longue durée d’exposition.
+\end_layout
+
+\begin_layout Section
+Probabilité d’occurrence de l’événement dangereux (O)
+\end_layout
+
+\begin_layout Standard
+La probabilité d’occurrence d’un événement dangereux peut être estimée en
+ tenant compte :
+\end_layout
+
+\begin_layout Itemize
+des données de fiabilité et d’autres données statistiques 
+\end_layout
+
+\begin_layout Itemize
+de l’historique des défaillances 
+\end_layout
+
+\begin_layout Itemize
+de l’historique des atteintes des plaques
+\end_layout
+
+\begin_layout Standard
+trois choix proposés : 
+\end_layout
+
+\begin_layout Description
+O1 Très faible (de très faible à faible).
+ Technologie stable, éprouvée et reconnue pour les applications de sécurité,
+ robustesse du matériel ; 
+\end_layout
+
+\begin_layout Description
+O2 Faible (de faible à moyenne).
+ Événement dangereux lié à une défaillance technique.
+ 
+\end_layout
+
+\begin_layout Description
+O3 Élevée (de moyenne à élevée).
+ Événement dangereux entraîné par une action.
+ Principes généraux de gestion du risque 
+\end_layout
+
+\begin_layout Section
+Possibilité d’évitement du dommage (P)
+\end_layout
+
+\begin_layout Standard
+La possibilité d’évitement permet d’empêcher que le dommage se produise
+ ou de le Limiter, en fonction :
+\end_layout
+
+\begin_layout Itemize
+de la rapidité d’apparition de l’événement dangereux ; 
+\end_layout
+
+\begin_layout Itemize
+de la conscience de l’existence du phénomène dangereux ;
+\end_layout
+
+\begin_layout Itemize
+de la possibilité d’éviter ou de limiter le dommage
+\end_layout
+
+\begin_layout Standard
+deux choix proposés :
+\end_layout
+
+\begin_layout Description
+P1 Possible dans certaines conditions ;
+\end_layout
+
+\begin_layout Description
+P2 Impossible ou rarement possible.
+ 
+\end_layout
+
+\begin_layout Standard
+Pour définir l’indice de risque nous utiliserons un logigramme de risque
+ en combinant les résultats des 4 paramètres définit précédemment.
+ 
+\end_layout
+
+\begin_layout Section
+réduction du risque
+\end_layout
+
+\begin_layout Standard
+Cf Fig
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Réduction-du-risque"
+
+\end_inset
+
+.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+ici je n'ai pas encore fini j'ai plusieurs page a lire et a faire correspondre
+ merci pour votre patience .
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Réduction-du-risque"
+
+\end_inset
+
+Réduction du risque
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../Images/figure2GestionRisque.jpg
+	lyxscale 40
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La figure présente la gestion du risque sous deux parties : l'appréciation
+ du risque précédemment développé et la réduction du risque que nous allons
+ expliqués.
+\end_layout
+
+\begin_layout Subsection
+Élimination des phénomènes dangereux et réduction du risque:
+\end_layout
+
+\begin_layout Standard
+La prévention intrinsèque peut être définie comme l'élimination du phénomène
+ dangereux et le chemin qui mène vers des situations sécuritaires.
+ Par conséquent la qualité des plaques de silicium va dépendre de la machine
+ utilisée et donc tout se joue lors de la conception de cette machine.
+ Les caractéristiques de cette dernière doivent participer à la réduction
+ du risque.
+ 
+\end_layout
+
+\begin_layout Subsection
+Dispositifs de protection:
+\end_layout
+
+\begin_layout Standard
+Une fois la prévention intrinsèque mise en place , les dispositifs de protection
+ viennent prendre place dans le processus , par exemple la mise en place
+ de détecteurs de défaillance après chaque machine.
+\end_layout
+
+\begin_layout Subsection
+Formation et information:
+\end_layout
+
+\begin_layout Standard
+Dans le cas où il y a des phénomènes dangereux persistant ou qui ne peuvent
+ pas êtres éliminés , une formation sera donnée aux employés sur les différents
+ mode de défaillance mais aussi sur le mode d'utilisation des machines de
+ telles sortes qu'ils puissent détecter quand cette dernière commence à
+ produire des pièces défectueuses.
+\end_layout
+
+\end_body
+\end_document
