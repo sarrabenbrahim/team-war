@@ -52,13 +52,13 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-Le domaine de la micro electronique est extremement compétitif.
+Le domaine de la micro électronique est extrêmement compétitif.
  Un des points clefs pour être compétitif est la réduction de la non qualité
  dans la production des lots de 
 \emph on
 chips
 \emph default
- electroniques.
+ électroniques.
  
 \end_layout
 
@@ -83,8 +83,8 @@ Le présent rapport sera organisé de la façon suivante
 \end_layout
 
 \begin_layout Itemize
-Tout d'abbord nous préciserons un peu plus finement les contraintes et le
- contexte de la micro électronqiue
+Tout d'abord nous préciserons un peu plus finement les contraintes et le
+ contexte de la micro électronique
 \end_layout
 
 \begin_layout Itemize
@@ -94,13 +94,13 @@ Ensuite nous nous intéresserons à l'état de la connaissance dans ce domaine
 \end_layout
 
 \begin_layout Itemize
-l'abscence de solution concrête nous a poussé à développer notre propre
- solution et nous detaillerons cette solution et discuterons de sa pertinence.
+l'absence de solution concrète nous a poussé à développer notre propre solution
+ et nous détaillerons cette solution et discuterons de sa pertinence.
 \end_layout
 
 \begin_layout Itemize
-Nous terminerons par une présentation breve de notre gestion de projet et
- une étude de coûts (Enfin plus exactement des bénefices possibles de cette
+Nous terminerons par une présentation brève de notre gestion de projet et
+ une étude de coûts (Enfin plus exactement des bénéfices possibles de cette
  méthode...)
 \end_layout
 
