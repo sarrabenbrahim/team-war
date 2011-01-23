@@ -130,11 +130,15 @@ Note sur les données receuillis
 \begin_layout Standard
 Le marché de la microélectronique est très concurrentiel et qui évolue rapidemen
 t, le prix de vente des produits varie aussi en conséquent.
- Toute fuite d'information sur le coût peut être critique pour l'entreprise.
+ Toute fuite d'informations sur le coût peut être critique pour l'entreprise.
  En effet la concurence pourrait se servir de ces informations afin d'asphyxier
  l'entreprise en vendant des produits concurents à un coût moindre.
- STMicroelectronics ne peut donc se permettre de donner les chiffres réels
- de la production et de la non qualité.
+ 
+\emph on
+STMicroelectronics
+\emph default
+ ne peut donc se permettre de donner les chiffres réels de la production
+ et de la non qualité.
 \end_layout
 
 \begin_layout Standard
@@ -148,8 +152,8 @@ Données à receuillir
 \end_layout
 
 \begin_layout Itemize
-En production, le coût d'une plaque de silicium est estimée à $1000, on
- suppose que le coût d'une plaque défectueux coûte aussi $1000 à l'entreprise.
+En production, le coût d'une plaque de silicium est estimé à $1000, on suppose
+ que le coût d'une plaque défectueux coûte aussi $1000 à l'entreprise.
  Car les produits défectueux sont directement broyés pour éviter le 
 \begin_inset Quotes fld
 \end_inset
@@ -179,12 +183,9 @@ r plus rapidement.
 
 \begin_layout Section
 Taux d'intérêt
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-http://www.minefe.gouv.fr/directions_services/dgtpe/taux/taux_legal.php
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "web:tauxDirectionDuTresor"
 
 \end_inset
 
@@ -220,7 +221,7 @@ Récapitulatif des taux légaux d'intérêt
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/SVN/TeamWAR/PFE/Doc/Images/TauxActualisation2010.png
+	filename ../Images/TauxActualisation2010.png
 	width 90col%
 
 \end_inset
@@ -258,6 +259,18 @@ Le taux légal d’une année étant égal à la moyenne arithmétique des TMB d
 Ce que nous recherchons ce n'est pas un taux exact mais sa tendance pour
  les années suivantes afin d'estimer notre taux d'actualisation.
  Nous avons validé le taux d'actualisation à 0,65% pour nos calculs.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Vu le caractère exceptionnel de la crise est-ce bien raisonnable de prendre
+ la dernière valeure ? De plus les deux sources ne disent pas les même choses...
+ 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
