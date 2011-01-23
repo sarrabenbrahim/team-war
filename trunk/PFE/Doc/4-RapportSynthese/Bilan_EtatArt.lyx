@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -52,10 +52,10 @@ Bilan sur l'état de l'art
 \end_layout
 
 \begin_layout Standard
-Durant notre étude de l’art nous avons pu analyser et évaluer plusieurs
- approches distinctes.
- Dans ce qui suit nous allons vous présenter les résultats de l’étude de
- l’art ainsi que les motivations pour retenir ou non une méthode.
+Suite à l'énnoncé des contraintes du client, nous avons analysé et évalué
+ plusieurs approches possibles.
+ Voici le résumé de ces méthodes et notre avis sur celles-ci.
+ Nous détaillerons les forces et les faiblesses de chacune.
 \end_layout
 
 \begin_layout Standard
@@ -1292,15 +1292,20 @@ Conclusion de l'état de l'art
 \end_layout
 
 \begin_layout Standard
-Cette absence de solution concrète dans cette industrie, nous a poussé à
- développer notre propre méthode de détection.
+Au terme de cette analyse, il s'est avéré qu'aucune solution concrète ne
+ s'est détachée.
+ Aussi avons-nous décidé de concevoir et développer notre propre méthode
+ de détection.
  
 \end_layout
 
 \begin_layout Standard
-L'idée étant d'utiliser nos contraintes pour développer notre propre algorithme
- de calcul, nous détaillerons cet algorithme ainsi que ces résultats dans
- la partie suivante.
+L'idée étant d'utiliser les contraintes industrielles pour élaborer notre
+ propre algorithme de calcul.
+\end_layout
+
+\begin_layout Standard
+Nous détaillerons celui-ci ainsi que ces résultats dans la partie suivante.
 \end_layout
 
 \end_body
