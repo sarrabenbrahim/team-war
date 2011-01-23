@@ -587,7 +587,7 @@ lstparams "caption={C'est à partir de cette classe que tout est excuté il appe
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "../../../Bibliographie/BiblioTeamWAR"
-options "plain"
+options "bibtotoc,plain"
 
 \end_inset
 

@@ -1,8 +1,57 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
 \textclass amsbook
+\begin_preamble
+\usepackage{color}
+\usepackage[french]{minitoc}
+\usepackage{wallpaper}
+\usepackage{fancyhdr}
+\usepackage[unicode=true, 
+bookmarks=true,
+bookmarksnumbered=true,
+bookmarksopen=true,
+bookmarksopenlevel=1,
+breaklinks=true,
+backref=section,
+colorlinks=true,
+linkcolor=blue,
+urlcolor=blue]
+{hyperref}
+
+\hypersetup{pdftitle={[PFE] - Rapport d'Étude},
+% backref=true,
+%pagebackref=true,
+pdfauthor={Equipe TeamW@R - Promo2011 -  Polytech'Marseille},
+pdfkeywords={PFE, Waffer@Risk,
+ST, Polytech'Marseille,
+Génie Industriel,
+Gestion Production}
+}
+
+%%------------------------- Parametrage des entetes et pieds de page
+
+%http://www.nanotechnologies.qc.ca/propos/linux/documentation/Redaction_documents_Latex/s1-entete_pied_page.html
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.5px}
+%\renewcommand{\footrulewidth}{1px}
+%%---- entete
+\lhead{Gestion des coûts}
+\rhead{\leftmark}
+%%----pied de page
+\cfoot{\today}
+
+\lfoot{\includegraphics[height=1.0cm]{../../../Logo/team-WAR.png}}
+%\cfoot{\boitecolor{white}{blue}{Promo 2011 - Team-w@r}}
+%\rfoot{page {\thepage} sur \pageref{LastPage}}
+\rfoot{page {\thepage}}
+
+\setcounter{parttocdepth}{0}
+
+\ThisULCornerWallPaper{1}{../Images/fond.png}% pour la page courante
+%\ULCornerWallPaper{1}{../Images/fond.png}
+\end_preamble
 \use_default_options true
 \begin_modules
 theorems-ams
@@ -194,6 +243,22 @@ Team-war@prunetwork.fr
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LRCornerWallPaper{0.25}{../Images/coin.png}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
 
@@ -249,6 +314,14 @@ filename "Indicateurs.lyx"
 \begin_inset CommandInset include
 LatexCommand input
 filename "Conclusion.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "../../../Bibliographie/BiblioTeamWAR"
+options "plainurl"
 
 \end_inset
 

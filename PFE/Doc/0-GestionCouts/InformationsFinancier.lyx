@@ -154,6 +154,30 @@ La présente étude permettra d'avoir une estimation d'un gain potentiel de
 Données à receuillir 
 \end_layout
 
+\begin_layout Subsection
+Hypothèse
+\end_layout
+
+\begin_layout Itemize
+Le coût d'une plaque de silicium est estimée à $1000 en production, on suppose
+ que le coût d'une plaque défectueux coûte aussi $1000 à l'entreprise.
+\end_layout
+
+\begin_layout Itemize
+La production hebdomadaire est estimée à 10000 plaques de silicium.
+\end_layout
+
+\begin_layout Itemize
+Le pourcentage de la non-qualité d'une bonne entreprise est estimé à 1%.
+\end_layout
+
+\begin_layout Itemize
+Notre solution ne nécessite à priori pas d'investissement initial si ce
+ n'est qu'un thésard pour le développement de l'algorithme ($30000 par an)
+ et éventuellement un nouveau puissant ordinateur ($3000) pour l'exécuter
+ plus rapidement.
+\end_layout
+
 \begin_layout Standard
 \begin_inset Note Note
 status open
@@ -161,7 +185,7 @@ status open
 \begin_layout Plain Layout
 Il faut éclater cette parie en 2 voire 3 parties pour obtenir la symétrie
  du rapport.
- Parce que le chapitre 3 comporte 5 sous parties tandis que cette chapitre
+ Parce que le chapitre 3 comporte 5 sous parties tandis que ce chapitre
  (2e) possède seulement que 3 parties.
 \end_layout
 
@@ -172,6 +196,271 @@ Il faut éclater cette parie en 2 voire 3 parties pour obtenir la symétrie
 
 \begin_layout Section
 Taux d'intérêt
+\end_layout
+
+\begin_layout Standard
+La situation actuelle économique étant assez particulière les taux d'intérêts
+ ont beaucoup changé ces dernieres mois nous avons deux sources différentes.
+ La première nous donne une valeur moyenne du taux d'intérêt sur l'année.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "web:banquedeFrance"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Source 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Taux
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+EURIBOR (Moyenne sur 1 an)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1,5260\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+De plus afin d'illustrer le charactère assez exceptionnel de cette année
+ le gouvernement donne des valeurs du taux au cours de ces dernières années.
+ Le tableau suivant n'est là que pour illustrer le caractère exceptionnel
+ de cette année
+\begin_inset CommandInset citation
+LatexCommand cite
+key "web:tauxDirectionDuTresor"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features>
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Année
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Taux
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2010$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,65\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2009$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3,79\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2008$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3,99\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2007$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2,95\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2006$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2,11\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Nous prendrons comme hypothèse de travail la valeur moyenne du taux d'intérêt
+ à savoir 
+\begin_inset Formula $1,5260\%$
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "web:banquedeFrance"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
