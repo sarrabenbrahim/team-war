@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -47,10 +47,6 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Chapter
-L’utilisation du jugement d’expert en sûreté de fonctionnement
-\end_layout
-
 \begin_layout Paragraph
 L'ouvrage intitulé 
 \begin_inset Quotes fld
@@ -71,7 +67,7 @@ t AMDEC.
  Nous citerons également des éléments sur l'utilisation des avis d'experts.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Utilisation de l'avis d'experts
 \end_layout
 
@@ -94,7 +90,7 @@ En sûreté de fonctionnement, comme dans d'autres domaines, le jugement d'exper
  des expertises, le traitement statistique de l'expertise.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 AMDEC
 \end_layout
 
@@ -118,7 +114,7 @@ Une fois l'état d'art du systéme est réalisé nous essaierons d'identifier
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Démarche
 \end_layout
 
@@ -208,7 +204,7 @@ Tableau récapitulatif de la démarche AMDEC
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Objectif de démarche
 \end_layout
 
@@ -228,7 +224,7 @@ Améliorer le fonctionnement des processus
 Optimiser la conception 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Avantages
 \end_layout
 
@@ -263,7 +259,7 @@ Obtenir le côut maximum de rendement globale des équipements de production.
 Réduire les coûts de maintenance préventive ou corrective.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Inconvénient
 \end_layout
 

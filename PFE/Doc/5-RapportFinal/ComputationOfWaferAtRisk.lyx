@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -47,18 +47,7 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Chapter
-Computation of wafer at risk
-\begin_inset CommandInset citation
-LatexCommand cite
-key "art:war"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
+\begin_layout Subsection
 Introduction
 \end_layout
 
@@ -80,7 +69,7 @@ L'évaluation des risques de chaque outil est caractérisée par le Wafer-At-Ris
  de développer un algorithme pour les calculer.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Description de l'algorithme
 \end_layout
 
@@ -265,7 +254,7 @@ Global W@R and W@R by recipe
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Résultats
 \end_layout
 
@@ -282,7 +271,7 @@ De plus l'algorithme a été amélioré pour être plus réactif sur la ligne
  minutes.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Remarques
 \end_layout
 

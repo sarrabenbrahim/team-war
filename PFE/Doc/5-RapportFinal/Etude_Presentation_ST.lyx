@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -47,10 +47,6 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Chapter
-Recherches récentes et autre thèses 
-\end_layout
-
 \begin_layout Standard
 Dans le cadre de notre recherche, une série de document de recherche nous
  a été confié, ces articles et supports ont été présenté lors de différentes
@@ -58,7 +54,7 @@ Dans le cadre de notre recherche, une série de document de recherche nous
  
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Operational risk evaluation and control plan design
 \end_layout
 
@@ -111,7 +107,7 @@ Cependant ce support de présentation n'apporte pas plus d'information pertinent
  que l'extrait de la thèse pour être retenu comme solution de notre problème.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 A novel approach to minimize the number of controls in the defectivity area
 \begin_inset OptArg
 status open
