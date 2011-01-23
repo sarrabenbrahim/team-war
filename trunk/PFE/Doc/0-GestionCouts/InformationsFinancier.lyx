@@ -233,6 +233,13 @@ status open
 
 \begin_layout Plain Layout
 Récapitulatif des taux de l'intérêt légaux
+\begin_inset CommandInset citation
+LatexCommand cite
+key "web:tauxDirectionDuTresor"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -243,20 +250,12 @@ Récapitulatif des taux de l'intérêt légaux
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /home/philippe/SVN/TeamWAR/PFE/Doc/Images/TauxActualisation2010.png
+	filename ../Images/TauxActualisation2010.png
 	width 90col%
 
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-
-\shape italic
-\size small
-Source : http://www.minefe.gouv.fr/directions_services/dgtpe/taux/taux_legal.php
 \end_layout
 
 \end_inset
