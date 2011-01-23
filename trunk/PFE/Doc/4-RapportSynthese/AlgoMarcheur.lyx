@@ -70,12 +70,12 @@ Présentation générale
 
 \begin_layout Standard
 La recherche de solution déjà faite pour répondre à notre problématique
- étant infructueuse, nous avons du imaginer une méthode tenant compte des
- contraintes et permettant d'effectuer une analyse des données pour déterminer
- les lots à contrôler.
+ étant infructueuse, nous avons utilisé une méthode tenant compte des contrainte
+s et permettant d'effectuer une analyse des données pour déterminer les
+ lots à contrôler.
  L'idée pour expliquer cet algorithme est assez simple.
  Nous cherchons à déterminer la chance qu'a un marcheur de se faire attaquer
- en se balladant dans une grande ville.
+ en se baladant dans une grande ville.
  
 \end_layout
 
@@ -155,8 +155,8 @@ Idée de l'algorithme
 \end_layout
 
 \begin_layout Standard
-L'idée de l'algorithme est assez simple, on se propose de regarder avec
- quelle probabilité a un marcheur d'être attaqué dans une grande ville .
+L'idée de l'algorithme est facile, on se propose de regarder quelle est
+ la probabilité qu'un marcheur a d'être attaqué dans une grande ville .
  Pour cela nous allons faire quelques hypothèses pour construire notre modèle.
  
 \end_layout
@@ -173,8 +173,8 @@ Par exemple les quartiers nord sont plus dangereux que le quartier du vieux
 
 \end_inset
 
-, donc plus un promeneur reste dans des quartiers réputés dangereux plus
- il aura de chance d'être agressé.
+, plus un promeneur reste dans des quartiers réputés dangereux plus il aura
+ de chance d'être agressé.
 \end_layout
 
 \begin_layout Itemize
@@ -263,11 +263,123 @@ MSL
 
 \begin_layout Itemize
 L'état de santé du marcheur sera l'indice de santé du lot (ou fiabilité
- du lot)
+ du lot
+\end_layout
+
+\begin_layout Paragraph
+L'algorithme prend en entrée un fichier contenant un historique des opérations
+ de production,dans ce fichier chaque opération est caractérisée comme suit:
+\end_layout
+
+\begin_layout Paragraph
+\begin_inset Quotes fld
+\end_inset
+
+taskID
+\begin_inset Quotes frd
+\end_inset
+
+,
+\begin_inset Quotes fld
+\end_inset
+
+date
+\begin_inset Quotes frd
+\end_inset
+
+,
+\begin_inset Quotes fld
+\end_inset
+
+batchName
+\begin_inset Quotes frd
+\end_inset
+
+,
+\begin_inset Quotes fld
+\end_inset
+
+operation
+\begin_inset Quotes frd
+\end_inset
+
+,
+\begin_inset Quotes fld
+\end_inset
+
+quantity
+\begin_inset Quotes frd
+\end_inset
+
+,
+\begin_inset Quotes fld
+\end_inset
+
+event
+\begin_inset Quotes frd
+\end_inset
+
+,
+\begin_inset Quotes fld
+\end_inset
+
+technology
+\begin_inset Quotes frd
+\end_inset
+
+,
+\begin_inset Quotes fld
+\end_inset
+
+workstationID
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\emph on
+Explication :
+\end_layout
+
+\begin_layout Paragraph
+TaskID : l'identifiant de la tâche.
+\end_layout
+
+\begin_layout Paragraph
+date : la date de la tâche.
+\end_layout
+
+\begin_layout Paragraph
+batchName : le nom du lot.
+\end_layout
+
+\begin_layout Paragraph
+operation : ce champs qualifie le type d'opération effectués sur le lot.
+\end_layout
+
+\begin_layout Paragraph
+quantity : le nombre de plaques dans le lot.
+\end_layout
+
+\begin_layout Paragraph
+event : permet de préciser le type d'évènement (PRP , MSL , MSE).
+\end_layout
+
+\begin_layout Paragraph
+technology : le nom de la technologie, il y a 5 types de technologies(T1,T2,T3,T
+4,T5).
+\end_layout
+
+\begin_layout Paragraph
+workstationID :l'identifiant de la machine dans laquelle l'opération va
+ être exécutée.
 \end_layout
 
 \begin_layout Standard
-L'algorithme se décompose en deux parties,
+Notre calcul se décompose en deux parties,
 \end_layout
 
 \begin_layout Itemize
@@ -279,7 +391,7 @@ nous nous intéressons à l'indice de santé du lot.
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Paragraph
 Le calcul de la fiabilité du lot prend en compte la fiabilité de la machine
  (Cf Algorithme 
 \begin_inset CommandInset ref
@@ -379,6 +491,11 @@ Algorithm Marcheur
 \begin_layout Plain Layout
 
 				calculateWorkstationFiability(tracability.Workstation)
+\end_layout
+
+\begin_layout Plain Layout
+
+			batch.progress = NbTraçabilityProgressed / batch.NbOfSteps
 \end_layout
 
 \begin_layout Plain Layout
@@ -523,8 +640,25 @@ Algorithme du calcul de fiabilité de la machine
 
 \end_layout
 
+\begin_layout Paragraph
+
+\emph on
+Résultat de l'algorithme :
+\end_layout
+
+\begin_layout Paragraph
+Chaque lot dispose d'un indice de santé et de son état d'avancement, c'est
+ ces indices qui nous permettent de savoir si le lot a besoin d'être contrôlé.
+\end_layout
+
 \begin_layout Section
 Implémentation de l'algorithme
+\end_layout
+
+\begin_layout Standard
+Dans le but de valider et de concevoir un prototype pour vérifier le bon
+ fonctionnement de notre algorithme , nous l'avons implémenté en utilisant
+ le langage de programmation JAVA.
 \end_layout
 
 \begin_layout Subsection
@@ -532,9 +666,7 @@ Choix du langage
 \end_layout
 
 \begin_layout Standard
-Afin de pouvoir tester la validité de notre algorithme nous avons décidé
- de concevoir un prototype pour vérifier son bon fonctionnement.
- Le choix du langage de la maquette s'est porté sur 
+Le choix du langage de la maquette s'est porté sur 
 \begin_inset Quotes fld
 \end_inset
 
@@ -588,22 +720,19 @@ ion.
 \end_layout
 
 \begin_layout Subsection
-Package entities
+Structure du projet
+\end_layout
+
+\begin_layout Paragraph
+Notre projet analyse le fichier de données en entrée.
+ Chaque ligne du fichier fait l'objet d'une opération et chaque opération
+ est une instance de la classe Traçability.En suite il y a des classes Extractors
+ qui associent les bons tracabilities au bon lot et à la bonne machine .
 \end_layout
 
 \begin_layout Standard
-Ce paquetage contient les entités virtuelles contenues dans l'usine.
- Il y a la classe 
-\emph on
-Batch
-\emph default
- qui représente un lot en production, il y a de plus la classe 
-\emph on
-Workstation
-\emph default
- qui représente les différentes machines présentes dans l'usine.
- Chacune de ces classes contient sa mémoire propre et est capable de calculer
- sa fiabilité et/ou son indice de santé (Cf Fig 
+Les classes principalles dans notre projet son illustrées dans le diagramme
+ (Cf Fig 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:classe-Entities"
@@ -611,6 +740,9 @@ reference "fig:classe-Entities"
 \end_inset
 
 ).
+ Chacune de ces classes contient sa mémoire propre et est capable de calculer
+ sa fiabilité et/ou son indice de santé.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -650,8 +782,8 @@ Diagramme de classe des différentes entités
 \align center
 
 \emph on
-Ce diagramme de classe représente l'ensemble des classes entities, les Batch
- et Workstation contiennent des collections de tracability, qui constituent
+Ce diagramme de classe représente l'ensemble des classes entités, les Bat
+ ch et Workstation contiennent des collections de tracability, qui constituent
  la mémoire de chacun des éléments.
  
 \end_layout
@@ -661,143 +793,24 @@ Ce diagramme de classe représente l'ensemble des classes entities, les Batch
 
 \end_layout
 
-\begin_layout Subsection
-Classe Constants
-\end_layout
-
 \begin_layout Standard
-Cette classe contient toutes les constantes nécessaires au réglage de notre
- application.
+Remarque : Dans le projet existe une classe nommée Constants qui contient
+ toutes les constantes nécessaires au réglage de notre application.
  Ces connaissances faisant référence au savoir faire métier, les valeurs
- que nous avons utilisées sont donc parfaitement arbitraires (Cf Fig 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:classe-Constants"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:classe-Constants"
-
-\end_inset
-
-Diagramme de classe des constantes
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename ../Images/DiagrammeClassConstants.svg
-	lyxscale 40
-	width 50col%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-
-\emph on
-Cette classe permet de paramétrer l'ensemble du projet en définissant les
- constantes utilisées dans le projet.
- 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-Package Extractors
-\end_layout
-
-\begin_layout Standard
-Dans cette classe se trouve absolument toutes les classes permettant l'interprét
-ation des données de l'usine et d'y associer les bonnes instances d'objet
- en conséquent (Cf Fig 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:classe-Extractor"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:classe-Extractor"
-
-\end_inset
-
-Diagramme de classe des extractors
-\end_layout
-
-\end_inset
-
-
-\begin_inset Graphics
-	filename ../Images/DiagrameClassExtractors.svg
-	lyxscale 40
-	width 100col%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-
-\emph on
-Cet ensemble de classe permet d'affecter les traçabilités au sein des bons
- lots et des bonnes machines
-\end_layout
-
-\end_inset
-
-
+ que nous avons utilisées sont donc parfaitement arbitraires.
 \end_layout
 
 \begin_layout Section
-Résultats 
+Test 
 \end_layout
 
 \begin_layout Standard
-Le programme s'exécute et analyse les 
+Pour tester notre projet, nous l'avons exécuté sur un fichier contenant
+ l'historique d'un mois de production filtré soit 
 \begin_inset Formula $400000$
 \end_inset
 
- évènements de l'usine, ce qui représente un mois de production.
+ évènements de l'usine.
  En sortie, nous avons un fichier qui indique pour chaque produit son avancement
  dans la production et son indice de santé (Figures 
 \begin_inset CommandInset ref
@@ -814,8 +827,8 @@ reference "fig:Représentation-des-résultats-2"
 \end_inset
 
 ).
- Nous faisons tourner le même algorithme avec deux réglages différentes
- (Tableau 
+ Nous faisons tourner le même algorithme avec deux réglages différents (Tableau
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Données-de-règlage"
@@ -986,7 +999,7 @@ Valeur
 \begin_layout Plain Layout
 
 \emph on
-Valeurs de réglage utilisés pour générer les résultats représenté en fig
+Valeurs de réglage utilisées pour générer les résultats représenté en fig
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Représentation-des-résultats"
@@ -1025,7 +1038,7 @@ Représentation des résultats après calculs
 
 
 \begin_inset Graphics
-	filename ../Images/GrapheDonnee.eps
+	filename E:/home/garciaf/SVN/team-war/PFE/Doc/Images/GrapheDonnee.eps
 	width 100col%
 
 \end_inset
@@ -1061,7 +1074,7 @@ reference "tab:Données-de-règlage"
 \begin_inset Float table
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1243,7 +1256,7 @@ reference "fig:Représentation-des-résultats-2"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -1263,7 +1276,7 @@ Représentation des résultats après calculs
 
 
 \begin_inset Graphics
-	filename ../Images/grapheV2.eps
+	filename E:/home/garciaf/SVN/team-war/PFE/Doc/Images/grapheV2.eps
 	width 100col%
 
 \end_inset
