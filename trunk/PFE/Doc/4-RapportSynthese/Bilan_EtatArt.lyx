@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -137,7 +137,7 @@ Il faut laisser la nature des documents dans les titres.
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="11" columns="2">
+<lyxtabular version="3" rows="10" columns="2">
 <features islongtable="true" headBottomDL="true">
 <column alignment="center" valignment="middle" width="25col%">
 <column alignment="center" valignment="top" width="80col%">
@@ -285,6 +285,13 @@ cette démarche n'est pas faisable, elle requiert un niveau de détails trop
 
 \begin_layout Plain Layout
 Dossier « Principes généraux de gestion du risque »
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:controlplan"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -401,6 +408,17 @@ Si les ressources de l'entreprise le permettent, elle peut constituer une
 \begin_layout Plain Layout
 Article « Optimized Design of Control Plans Based on Risk Exposure and Resources
  Capabilities
+\begin_inset Quotes frd
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:controlplan"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -477,6 +495,17 @@ cette méthode ne peut être retenue pour notre cas d'étude car il faut identif
 \begin_layout Plain Layout
 Article « An Approach for Operational Risk Evaluation and its Link to Control
  Plan
+\begin_inset Quotes frd
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:risk"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -599,6 +628,13 @@ cette méthode n'est pas industriellement viable dès lors qu'on exige un
 \begin_layout Plain Layout
 Article « Optimizing Return On Inspection Trough Defectivity Smart Sampling
  »
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:sampling"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -716,6 +752,13 @@ cette méthode peut être retenue pour être exploitée en complément avec une
 \begin_layout Plain Layout
 Article « Computation of Wafer-At-Risk from Theory To Real Life Demonstration
  »
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:war"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -833,6 +876,10 @@ Par manque de consistance des informations, cette méthode n'a pas été retenue
 
 \begin_layout Plain Layout
 Présentation « Operational Risk Evaluation and Control Plan Design
+\begin_inset Quotes frd
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1037,133 +1084,18 @@ Nous aboutissons à la même conclusion que l’article « Optimizing return
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 Article « A New Competitive Algorithm for Group Testing»
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="2">
-<features>
-<column alignment="center" valignment="top" width="17col%">
-<column alignment="center" valignment="top" width="60col%">
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Objectif
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Évoque une méthode quantitative basée sur l’analyse systématique d’ensemble
- de produit, en effet elle est décrite sous la forme d’un algorithme qui
- cherche les produits défectueux en optimisant le nombre de test.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Avantages
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Cette méthode est programmable et a priori correspond au sujet
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Inconvénients
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-demande beaucoup de tests et donc systématique.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Conclusion
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Nous l’avons adoptée dans un premier temps puis nous l’avons rejetée.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-On peut préciser pourquoi ?
-\end_layout
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:DCube"
 
 \end_inset
 
 
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-A New Competitive Algorithm for Group Testing
 \end_layout
 
 \end_inset
