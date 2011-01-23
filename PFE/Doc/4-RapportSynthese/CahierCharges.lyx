@@ -51,30 +51,42 @@ figs-within-sections
 Cahier des charges
 \end_layout
 
+\begin_layout Section
+Cahier des charges fourni
+\end_layout
+
 \begin_layout Standard
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-ou est le cahier de charge tel qu'il à été donné dans la feuille par st?
- nous avons l'obligation de le copier coller meme si c'est du charabbia
- pour montrer que de rien nous avons pu accomplir quelque chose
+Je ne vois pas l'intérêt de ce paragraphe même si Mme Frydman l'exige.
 \end_layout
 
-\begin_layout Plain Layout
-=> cf.
- la section 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Quotes fld
 \end_inset
 
-Mission du PFE
+Le travail consistera en une étude de faisabilité sur l'évaluation des 'wafer@ri
+sk' (WAR).
+ Actuellement nous comptons le nombre de plaque de silicium travaillées
+ entre deux contrôles (mesures).
+ Ce comptage peut être référencé par rapport à une machine de production
+ ou par rapport à une technologie.
+ Ce comptage ne tient pas compte de l'existence de plusieurs type de paramètres
+ ni de l'intéraction potentielle entre paramètres.
+ Pour l'instant les mesures effectuées sur des plaques de production et
+ les mesures sur plaque de test liées aux qualifications périodique sont
+ prisent en compte de la même manière sans tenir compte de la signification
+ de la mesure.
+ Cette méthode ne nous permet pas de régler nos outils d'échantillonnage
+ par rapport à un risque maximal garanti.
 \begin_inset Quotes frd
-\end_inset
-
- et pour vérifier cf.
- PFE/Sujet/PFE-Team-War-2010.pdf
-\end_layout
-
 \end_inset
 
 
@@ -93,13 +105,9 @@ e.
  de paramètres ni de l'intéraction potentielle entre paramètres.
 \end_layout
 
-\begin_layout Itemize
-Le cycle de production moyen est de trois mois, tracé par un système GPAO.
- 
-\end_layout
-
-\begin_layout Itemize
-La production est de type 
+\begin_layout Standard
+Leur cycle de production moyen est de trois mois, tracé par un système GPAO.
+ La production est de type 
 \begin_inset Quotes fld
 \end_inset
 
@@ -119,7 +127,7 @@ Production en atelier, mouvement brownien des produits dans le cycle de
 \end_inset
 
  par lots de 25 plaques de silicium.
- La production ne suit pas le principe FIFO 
+ Elle ne suit pas le principe FIFO 
 \begin_inset Foot
 status collapsed
 
@@ -129,7 +137,7 @@ First In First Out
 
 \end_inset
 
- et constitue ainsi une des difficultés majeure de cette étude.
+ et ce qui constitue une des difficultés majeure de cette étude.
 \end_layout
 
 \begin_layout Standard
@@ -220,8 +228,8 @@ Wafers At Risk
 Notre action se limite à la recherche des solutions et à l'étude de leur
  faisabilité.
  Etant donné que le domaine est limité en source d'informations (à cause
- de la confidentialité et de l'ultra compétivité de la micro-électronique)
- , nous serons amener à concevoir notre propre solution.
+ de la confidentialité et de l'ultra compétivité de la micro-électronique),
+ nous serons peut-être amener à concevoir notre propre solution.
 \end_layout
 
 \begin_layout Section
@@ -231,7 +239,7 @@ Plan de l'étude
 \begin_layout Standard
 Nous avons effectué une étude préliminaire en collaboration avec le client
  afin d'analyser le sujet et les pistes de recherche d'informations, cela
- nous a amèné à 
+ nous a amené à 
 \begin_inset Quotes fld
 \end_inset
 
@@ -248,7 +256,7 @@ Benchmarking
 \end_layout
 
 \begin_layout Standard
-une fois cet 
+Une fois cet 
 \begin_inset Quotes fld
 \end_inset
 
@@ -256,7 +264,7 @@ une fois cet
 \begin_inset Quotes frd
 \end_inset
 
- etabli, nous avons essayé de trier et de garder des solutions pertinentes
+ établi, nous avons essayé de trier et de garder des solutions pertinentes
  pour une étude plus approfondie.
  
 \end_layout
