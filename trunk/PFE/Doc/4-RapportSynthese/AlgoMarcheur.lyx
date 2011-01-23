@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -156,7 +156,34 @@ Idée de l'algorithme
 
 \begin_layout Standard
 L'idée de l'algorithme est facile, on se propose de regarder quelle est
- la probabilité qu'un marcheur a d'être attaqué dans une grande ville .
+ la probabilité qu'un marcheur 
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Le nom 
+\begin_inset Quotes fld
+\end_inset
+
+modèle du marcheur
+\begin_inset Quotes frd
+\end_inset
+
+ est un clin d'oeil à 
+\begin_inset Quotes fld
+\end_inset
+
+la marche de l'ivrogne
+\begin_inset Quotes frd
+\end_inset
+
+ qui est un modèle utilisé en thermodynamique et pour modéliser le mouvement
+ brownien des particules.
+\end_layout
+
+\end_inset
+
+a d'être attaqué dans une grande ville .
  Pour cela nous allons faire quelques hypothèses pour construire notre modèle.
  
 \end_layout
@@ -164,7 +191,7 @@ L'idée de l'algorithme est facile, on se propose de regarder quelle est
 \begin_layout Itemize
 Le marcheur se promène dans des quartiers plus ou moins dangereux
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Par exemple les quartiers nord sont plus dangereux que le quartier du vieux
