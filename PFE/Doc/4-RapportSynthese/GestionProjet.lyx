@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -56,9 +56,9 @@ Organisation de l'équipe
 \end_layout
 
 \begin_layout Standard
-Après notre première réunion, nous avons décidé de nous répartir les responsabil
-ités en fonctions des centres d'intérêts de chacun.
- Nous avons répartis les responsabilités en fonction du sujet de PFE lui-même.
+Suite à notre première réunion avec le client, il a été décidé de nous répartir
+ les responsabilités en fonction des centres d'intérêt de chacun .
+ Voici la présentation de l'équipe.
  
 \end_layout
 
@@ -142,13 +142,13 @@ Chef d'équipe
 \begin_inset Text
 
 \begin_layout Plain Layout
-Son rôle est similaire à celui d'un 
+Son rôle est apparenté à celui d'un 
 \emph on
 coach
 \emph default
 .
- Il fait en sorte de tirer le meilleur de chacun.
- Il tranche les problèmes épineux.
+ Elle motive et stimule l'équipe et gère tous les problèmes organisationnels
+ .
  
 \end_layout
 
@@ -191,8 +191,8 @@ de communication
 \begin_inset Text
 
 \begin_layout Plain Layout
-Il interface l'équipe et les intervenants extérieurs et gère le système
- d'information propre à l'équipe.
+Il fait l'interface entre l'équipe et les intervenants extérieurs et gère
+ le système d'information .
 \end_layout
 
 \end_inset
@@ -359,24 +359,20 @@ Choix de la méthode agile
 \end_layout
 
 \begin_layout Standard
-Après une explication détaillée du sujet par notre client.
- Il est apparue que la gestion de projet collant au mieux au sujet du PFE
- est la méthode agile.
-  En effet le projet pourra subir de nombreuses modifications en fonction
- de l'avancement.
- 
-\end_layout
+Après l'expression de besoin du client, la gestion de projet collant au
+ mieux au sujet du PFE s'avère être la méthode 
+\begin_inset Quotes fld
+\end_inset
 
-\begin_layout Standard
-Plutôt que de subir ces modifications avec une gestion de projet traditionnelle,
- nous préférons en prendre notre partie et l'intégrer dans notre gestion
- de projet.
-\end_layout
+agile
+\begin_inset Quotes frd
+\end_inset
 
-\begin_layout Standard
-En effet la méthode agile est une méthode de suivie de projet héritée des
- développements informatiques.
- 
+.
+  En effet, en fonction de l'avancement du projet, cette méhode permettra
+ de rester réactif face aux nombreuses modifications possibles, nous intégrerons
+ celle-ci dans notre gestion de projet, elle provient de la gestion de projet
+ des développements informatiques.
 \end_layout
 
 \begin_layout Subsection
@@ -384,8 +380,7 @@ Caractéristiques de la méthode agile
 \end_layout
 
 \begin_layout Standard
-Notre équipe fonctionne sur le modèle de la gestion de projet "Agile".
- La méthode agile retenue est la méthode 
+La méthode agile retenue est la méthode 
 \emph on
 SCRUM
 \emph default
@@ -407,10 +402,9 @@ Simplicité
 \series bold
 Flexibilité
 \series default
- : cette flexibilité est obtenu par une forte implication du client.
+ : cette flexibilité est obtenue par une forte implication du client.
  Le client peut faire des modifications sur ses besoins mais pas à n'importe
- quel moment.
- Uniquement entre deux itération.
+ quel moment, uniquement entre deux itérations.
  Cela permet de mieux répondre aux besoins du client.
 \end_layout
 

@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -69,23 +69,23 @@ Présentation générale
 \end_layout
 
 \begin_layout Standard
-L'algorithme du marcheur repose sur l'idée assez simple 
-\end_layout
-
-\begin_layout Standard
 La recherche de solution déjà faite pour répondre à notre problématique
  étant infructueuse, nous avons du imaginer une méthode tenant compte des
  contraintes et permettant d'effectuer une analyse des données pour déterminer
  les lots à contrôler.
  L'idée pour expliquer cet algorithme est assez simple.
  Nous cherchons à déterminer la chance qu'a un marcheur de se faire attaquer
- en marchant dans une grande ville.
+ en se balladant dans une grande ville.
  
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Dans notre cas un marcheur est un lot, les quartiers des villes sont des
- machines, les descentes de police dans un quartier sont les tâches qualités
+ machines, les descentes de police dans un quartier sont les tâches qualité
  (
 \emph on
 MSE
@@ -118,7 +118,7 @@ Mesure Sur Lot
 ).
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Ensuite nous définissons un indice de santé pour le marcheur, ou fiabilité
  pour le produit.
  Plus cet indice est proche de 
@@ -141,12 +141,13 @@ Si un marcheur est sorti en bonne santé, alors le quartier n'est pas si
  dangereux et la criminalité redescend à niveau seuil.
 \end_layout
 
-\begin_layout Section
-Détail de l'algorithme
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsection
-Présentation générale
+\begin_layout Section
+Détail de l'algorithme
 \end_layout
 
 \begin_layout Subsection
@@ -155,7 +156,7 @@ Idée de l'algorithme
 
 \begin_layout Standard
 L'idée de l'algorithme est assez simple, on se propose de regarder avec
- quel chance un marcheur dans une grande ville a d'être attaqué.
+ quelle probabilité a un marcheur d'être attaqué dans une grande ville .
  Pour cela nous allons faire quelques hypothèses pour construire notre modèle.
  
 \end_layout
@@ -172,24 +173,25 @@ Par exemple les quartiers nord sont plus dangereux que le quartier du vieux
 
 \end_inset
 
-, donc plus un promeneur reste dans des quartiers réputé dangereux plus
+, donc plus un promeneur reste dans des quartiers réputés dangereux plus
  il aura de chance d'être agressé.
 \end_layout
 
 \begin_layout Itemize
-Un quartier devient de plus en plus dangereux quand il est laissé à l'abandon.
- En effet plus des voyageurs passent dans un quartier plus cela attire la
- convoitise des bandits et plus le quartier devient dangereux.
- Jusqu'au jour ou la police arrive et envoie tous les bandits en prison.
+Un quartier devient de plus en plus dangereux quand il est laissé à l'abandon
+ par la police.
+ En effet, plus les voyageurs passent dans un quartier, plus cela attire
+ la convoitise des bandits et plus le quartier devient dangereux.
+ Jusqu'au jour où la police arrive et envoie tous les bandits en prison.
  Le quartier sera alors de nouveau sûr et recommencera à devenir de plus
  en plus dangereux au fur et à mesure des nouvelles visites.
 \end_layout
 
 \begin_layout Itemize
-Si un marcheur qui sort d'un quartier est contrôlé par un médecin et que
- ce dernier constate que l'état de santé du marcheur est bon alors on se
- ravise sur la dangerosité du dernier quartier et on le remet à un nouveau
- seuil de confiance.
+Si un marcheur sortant d'un quartier et contrôlé par un médecin et que ce
+ dernier constate que l'état de santé du marcheur est bon.
+ Alors on change d'opinion sur la dangerosité du dernier quartier et il
+ est remis à nouveau à un seuil de confiance.
  
 \end_layout
 
@@ -200,11 +202,11 @@ Si un marcheur est petit et mince il a plus de chance de se faire agresser
 \end_layout
 
 \begin_layout Standard
-Ensuite nous calculerons le l'indice de santé du marcheur en fonction des
- quartiers qu'il a traversé et de son physique.
+Ensuite nous calculerons l'indice de santé du marcheur en fonction des quartiers
+ qu'il a traversé et de son physique.
  Dans l'absolu un marcheur petit et maigre qui reste dans des quartiers
- déserté par la police aura de plus forte chance d'être blessé qu'un grand
- qui se balade dans des quartiers avec une forte présence policière
+ désertés par la police aura de plus fortes chances d'être blessé qu'un
+ grand qui se balade dans des quartiers avec une forte présence policière
 \begin_inset Foot
 status open
 
@@ -265,10 +267,20 @@ L'état de santé du marcheur sera l'indice de santé du lot (ou fiabilité
 \end_layout
 
 \begin_layout Standard
-L'algorithme se décompose de deux parties, tout d'abord nous calculons la
- fiabilité d'une machine, et ensuite nous nous intéressons à l'indice de
- santé du lot.
- Le calcul de la fiabilité du lot prend en compte la fiabilité de la machine
+L'algorithme se décompose en deux parties,
+\end_layout
+
+\begin_layout Itemize
+nous calculons la fiabilité d'une machine, 
+\end_layout
+
+\begin_layout Itemize
+nous nous intéressons à l'indice de santé du lot.
+ 
+\end_layout
+
+\begin_layout Standard
+Le calcul de la fiabilité du lot prend en compte la fiabilité de la machine
  (Cf Algorithme 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -520,10 +532,17 @@ Choix du langage
 \end_layout
 
 \begin_layout Standard
-Afin de pouvoir valider notre algorithme nous avons décidé de faire un prototype
- pour vérifier son fonctionnement.
- Le choix du langage de la maquette s'est porté sur Java pour différentes
- raisons :
+Afin de pouvoir tester la validité de notre algorithme nous avons décidé
+ de concevoir un prototype pour vérifier son bon fonctionnement.
+ Le choix du langage de la maquette s'est porté sur 
+\begin_inset Quotes fld
+\end_inset
+
+Java
+\begin_inset Quotes frd
+\end_inset
+
+ pour différentes raisons :
 \end_layout
 
 \begin_layout Itemize
@@ -537,7 +556,7 @@ Projet n'étant qu'une maquette et ne servant qu'à la validation de notre
 \end_layout
 
 \begin_layout Itemize
-C'est un langage maîtrisé au seins de l'équipe.
+Langage maîtrisé au sein de l'équipe.
 \end_layout
 
 \begin_layout Itemize
@@ -545,19 +564,27 @@ Simplicité de la modélisation.
 \end_layout
 
 \begin_layout Itemize
-Grand catalogue de fonctionnalités pré-définis.
+Grand catalogue de fonctionnalités pré-définies.
  
 \end_layout
 
 \begin_layout Itemize
-Ne nécessite pas l'achat d'une licence d'utilisation.
+Gratuité de la licence d'utilisation.
  
 \end_layout
 
 \begin_layout Standard
-Pour toutes ces raisons l'utilisation du Java nous a parue évidente.
- Dans la partie suivante nous nous intéressons d'avantage à la description
- de l'implémentation.
+Pour toutes ces raisons, l'utilisation du 
+\begin_inset Quotes fld
+\end_inset
+
+Java
+\begin_inset Quotes frd
+\end_inset
+
+ nous a paru évidente.
+ Dans la partie suivante nous nous intéressons à la description de l'implémentat
+ion.
 \end_layout
 
 \begin_layout Subsection
@@ -576,7 +603,7 @@ Workstation
 \emph default
  qui représente les différentes machines présentes dans l'usine.
  Chacune de ces classes contient sa mémoire propre et est capable de calculer
- sa fiabilité et/ou indice de santé (Cf Fig 
+ sa fiabilité et/ou son indice de santé (Cf Fig 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:classe-Entities"
@@ -639,11 +666,10 @@ Classe Constants
 \end_layout
 
 \begin_layout Standard
-Cette classe contient toutes les constantes nécessaire au réglage de notre
+Cette classe contient toutes les constantes nécessaires au réglage de notre
  application.
- Ces connaissances faisant d'avantage référence au savoir faire métier,
- les valeurs que nous avons utilisé sont parfaitement arbitraires (Cf Fig
- 
+ Ces connaissances faisant référence au savoir faire métier, les valeurs
+ que nous avons utilisées sont donc parfaitement arbitraires (Cf Fig 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:classe-Constants"
@@ -706,7 +732,7 @@ Package Extractors
 
 \begin_layout Standard
 Dans cette classe se trouve absolument toutes les classes permettant l'interprét
-ation des données de l'usine et d'associer les bonnes instances d'objet
+ation des données de l'usine et d'y associer les bonnes instances d'objet
  en conséquent (Cf Fig 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -753,7 +779,7 @@ Diagramme de classe des extractors
 \align center
 
 \emph on
-Cet ensemble de classe permet d'affecter les traçabilités au seins des bons
+Cet ensemble de classe permet d'affecter les traçabilités au sein des bons
  lots et des bonnes machines
 \end_layout
 
@@ -772,7 +798,7 @@ Le programme s'exécute et analyse les
 \end_inset
 
  évènements de l'usine, ce qui représente un mois de production.
- En sortie nous avons un fichier qui indique pour chaque produit son avancement
+ En sortie, nous avons un fichier qui indique pour chaque produit son avancement
  dans la production et son indice de santé (Figures 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1295,7 +1321,7 @@ Le langage C est un langage particulièrement adapté dans ce type de problème
 \begin_layout Itemize
 Rajout de paramètres, en effet le problème dans la réalité est plus complexe
  que notre modélisation.
- La fiabilité que nous prenons est dans la réalité dépendante de la technologie
+ La fiabilité que nous prenons est en réalité dépendante de la technologie
  observée.
  Les 
 \emph on
@@ -1305,8 +1331,8 @@ MSL
 \emph on
 MSE
 \emph default
- sont découpées en des sous catégories qui dépendent des technologies analysées.
- De plus l'application d'un seuil à la fiabilité d'un lot fait perdre une
+ sont découpées en sous catégories qui dépendent des technologies analysées.
+ De plus l'application d'un seuil de fiabilité d'un lot fait perdre une
  partie de l'historique.
  
 \end_layout
@@ -1314,8 +1340,8 @@ MSE
 \begin_layout Itemize
 Dans notre projet toutes les machines ont le même poids pour le calcul de
  la fiabilité.
- Ce qui diffère avec la réalité, c'est que certaines machines ont un poids
- plus important que d'autres.
+ Ce qui diffère avec la réalité, c'est que certaines machines ont des poids
+ différents
 \end_layout
 
 \begin_layout Itemize
@@ -1329,10 +1355,9 @@ Interprétation des résultats, en effet il convient de définir au mieux l'inte
 
 \begin_layout Itemize
 Le paramétrage des machines pourrait se faire de manière plus fine en fonction
- de l'historique de la machine.
- Le Seuil minimal, le coefficient de dérèglement et la fiabilité par défaut
- de la machine.
- (Rentrer ces données à la main est impossible à cause du nombre d'entrée
+ de l'historique de la machine par exemple : le seuil minimal, le coefficient
+ de dérèglement et la fiabilité par défaut de la machine, et entrer manuellement
+ ces données est impossible à cause de leur trop grand nombre 
 \begin_inset Foot
 status open
 
@@ -1342,7 +1367,7 @@ status open
 
 \end_inset
 
-)
+.
 \end_layout
 
 \end_body
