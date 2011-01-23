@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -355,6 +355,15 @@ filename "Introduction.lyx"
 
 \begin_layout Part
 Contexte de l'étude
+\end_layout
+
+\begin_layout Standard
+Dans cette partie nous allons vous présenter dans un premier temps l'entreprise
+ STMicroelectronics ainsi que son activité.
+ Dans un second temps nous allons vous présenter tout d'abord le cahier
+ de charge qui nous a été fournis, ensuite nous expliquerons l'objectif
+ de cette étude et finalement nous annoncerons le plan d'étude qui n'est
+ autre que la suite de ce rapport de synthèse.
 \end_layout
 
 \begin_layout Standard
