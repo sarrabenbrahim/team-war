@@ -147,9 +147,9 @@ Le pourcentage de la non-qualité d'une bonne entreprise est estimé à 1%.
 
 \begin_layout Itemize
 Notre solution ne nécessite à priori pas d'investissement initial si ce
- n'est qu'un thésard pour le développement de l'algorithme ($30000 par an)
- et éventuellement un nouveau puissant ordinateur ($3000) pour l'exécuter
- plus rapidement.
+ n'est qu'un thésard pour le développement de l'algorithme ($35000 par an)
+ et éventuellement du matériel informatique plus puissant ($5000) pour l'exécute
+r plus rapidement.
 \end_layout
 
 \begin_layout Subsection
@@ -229,12 +229,24 @@ réduire le coût de la non-qualité entre 0,26 et 1,56 millions dollars par
  Comme nous avons mentionné plus haut qu'il n'y a pas besoin d'autres d'investis
 sements que le développement de l'algorithme car la solution utilise les
  ressources déjà existantes.
+ Cette présente analyse des coûts permet seulement d'apprécier le gain potentiel
+ annuel de notre solution sur le coût liée à la défectivité.
+ L'analyse détaillée de l'investissement de ce projet est présentée dans
+ notre rapport de la gestion des coûts.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
 Il faut peut être inclure le salaire d'un thésard pendant 3 ans pour affiner
  et développer l'outils...
+\end_layout
+
+\begin_layout Plain Layout
+=> je pense que c'est mieux de le garder pour le vrai rapport de la gestion
+ des coûts.
 \end_layout
 
 \end_inset

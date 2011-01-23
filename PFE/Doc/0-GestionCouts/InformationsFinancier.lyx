@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -124,338 +124,67 @@ On se projette dans un monde idéal où l'on a une méthode qui marche et diminu
 \end_layout
 
 \begin_layout Section
-Note sur les données recueillies
+Note sur les données receuillis
 \end_layout
 
 \begin_layout Standard
-Le domaine de la micro electronique est un domaine ultra compétitif.
- La moindre information filtrant sur un coût peut être critique pour l'entrepris
-e.
- En effet la concurence pourrait se servir de ces informations afin d'asphixier
- l'entreprise en vendant les produits concurents à un coût moindre.
- 
+Le marché de la microélectronique est très concurrentiel et qui évolue rapidemen
+t, le prix de vente des produits varie aussi en conséquent.
+ Toute fuite d'information sur le coût peut être critique pour l'entreprise.
+ En effet la concurence pourrait se servir de ces informations afin d'asphyxier
+ l'entreprise en vendant des produits concurents à un coût moindre.
+ STMicroelectronics ne peut donc se permettre de donner les chiffres réels
+ de la production et de la non qualité.
 \end_layout
 
 \begin_layout Standard
-De fait STMicroElectronics ne peut se permettre de donner les chiffres réels
- de sa production et de la non qualité.
- Les valeurs de la non qualité que nous prendrons sont donc des chiffres
- hypothétiques sans aucun lien avec la réalité.
- 
+Pour respecter la confidentialité, toutes les données financières utilisées
+ dans cette analyse des coûts sont des estimations issues de notre étude
+ et des recherches sur le web.
 \end_layout
 
 \begin_layout Section
-Données à recueillir 
-\end_layout
-
-\begin_layout Subsection
-Hypothèse
+Données à receuillir 
 \end_layout
 
 \begin_layout Itemize
-Le coût de la production d'une plaque de silicium est estimée à $1000, de
- même que le coût d'une plaque défectueuse.
- 
-\end_layout
-
-\begin_layout Itemize
-La production hebdomadaire est estimée à 10000 plaques de silicium.
-\end_layout
-
-\begin_layout Itemize
-Le pourcentage de 
+En production, le coût d'une plaque de silicium est estimée à $1000, on
+ suppose que le coût d'une plaque défectueux coûte aussi $1000 à l'entreprise.
+ Car les produits défectueux sont directement broyés pour éviter le 
 \begin_inset Quotes fld
 \end_inset
 
-rebuts
+marché noir
 \begin_inset Quotes frd
 \end_inset
 
- d'une bonne entreprise est estimé à 1%.
+ de ces produits qui nuit à l'image de l'entreprise.
 \end_layout
 
 \begin_layout Itemize
-Notre solution ne nécessite à priori peu d'investissement initial, à savoir
- :
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-l'embauche d'un thésard afin de développer l'algorithme ($30000 par an)
- 
+La production hebdomadaire est estimée à 10000 plaques de silicium, soit
+ 520000 plaques par an.
 \end_layout
 
 \begin_layout Itemize
-l'acquisition d'un ordinateur puissant($3000) 
+Le pourcentage de la non-qualité d'une bonne entreprise est estimé à 1%.
 \end_layout
 
-\end_deeper
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Il faut éclater cette parie en 2 voire 3 parties pour obtenir la symétrie
- du rapport.
- Parce que le chapitre 3 comporte 5 sous parties tandis que ce chapitre
- (2e) possède seulement que 3 parties.
-\end_layout
-
-\end_inset
-
-
+\begin_layout Itemize
+Notre solution ne nécessite à priori pas d'investissement initial si ce
+ n'est qu'un thésard pour le développement de l'algorithme ($35000 par an)
+ et éventuellement du matériel informatique plus puissant ($5000) pour l'exécute
+r plus rapidement.
 \end_layout
 
 \begin_layout Section
 Taux d'intérêt
-\end_layout
-
-\begin_layout Standard
-La situation actuelle économique étant ce qu'elle est, les taux d'intérêts
- ont beaucoup changé ces dernieres mois.
- Nous avons utilisé deux sources différentes :
-\end_layout
-
-\begin_layout Standard
-La première nous donne une valeur moyenne du taux d'intérêt sur l'année.
-\begin_inset CommandInset citation
-LatexCommand cite
-key "web:banquedeFrance"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="2">
-<features>
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
+\begin_inset Foot
+status collapsed
 
 \begin_layout Plain Layout
-Source 
+http://www.minefe.gouv.fr/directions_services/dgtpe/taux/taux_legal.php
 \end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Taux
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-EURIBOR (Moyenne sur 1 an)
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $1,5260\%$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
-De plus afin d'illustrer le caractère assez exceptionnel de cette année,
- nous donnons pour comparaison les valeurs du taux d'intérêt des années
- précédentes dans le  tableau suivant
-\begin_inset CommandInset citation
-LatexCommand cite
-key "web:tauxDirectionDuTresor"
-
-\end_inset
-
-.
- 
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="6" columns="2">
-<features>
-<column alignment="center" valignment="top" width="0">
-<column alignment="center" valignment="top" width="0">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Année
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Taux
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $2010$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $0,65\%$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $2009$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $3,79\%$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $2008$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $3,99\%$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $2007$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $2,95\%$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $2006$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-\begin_inset Formula $2,11\%$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
 
 \end_inset
 
@@ -463,40 +192,72 @@ Taux
 \end_layout
 
 \begin_layout Standard
-Nous prendrons comme hypothèse de travail la valeur moyenne du taux d'intérêt
- à savoir 
-\begin_inset Formula $1,5260\%$
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "web:banquedeFrance"
-
-\end_inset
-
-
+Pour la première fois depuis la réforme de 1989, le taux d'intérêt légal
+ pour 2010 atteint son niveau le plus bas.
+ Il vient d'être fixé par le décret (n°2010-127) du 10 février 2010, à seulement
+ 0,65% (contre 3,79% en 2009, 3,99% en 2008 et 2,95% en 2007).
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+\begin_inset Float figure
+placement h
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-Voir http://www.dgtpe.minefi.gouv.fr/taux/taux_legal.php
-\end_layout
+\begin_inset Caption
 
 \begin_layout Plain Layout
-http://www.banque-france.fr/fr/poli_mone/taux/credit/til.htm
-\end_layout
-
-\begin_layout Plain Layout
-Pour avoir le taux d'intéret officiel du gouvernement
+Récapitulatif des taux légaux d'intérêt
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/philippe/SVN/TeamWAR/PFE/Doc/Images/TauxActualisation2010.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ce faible taux nous a semblé très bizarre au début par rapport à l'année
+ 2009 et aussi par rapport au taux d'actualisation utilisé en cours mais
+ ce taux est justifié par l'économie de ces dernières années (crise économique).
+\end_layout
+
+\begin_layout Standard
+Pour s'assurer de ne pas utiliser un taux trop bas, nous avons effectué
+ une recherche sur le taux légal 2011.
+ Nous sommes tombés sur la prévision suivante : 
+\begin_inset Quotes fld
+\end_inset
+
+Le taux légal d’une année étant égal à la moyenne arithmétique des TMB de
+ l’année précédente, il s’établira en 2011 à 0,38%
+\begin_inset Quotes frd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Ce que nous recherchons ce n'est pas un taux exact mais sa tendance pour
+ les années suivantes afin d'estimer notre taux d'actualisation.
+ Nous avons validé le taux d'actualisation à 0,65% pour nos calculs.
 \end_layout
 
 \begin_layout Section
