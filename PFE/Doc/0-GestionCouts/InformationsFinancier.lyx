@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -124,12 +124,12 @@ On se projette dans un monde idéal où l'on a une méthode qui marche et diminu
 \end_layout
 
 \begin_layout Section
-Note sur les données receuillis
+Note sur les données recueillies
 \end_layout
 
 \begin_layout Standard
 Le domaine de la micro electronique est un domaine ultra compétitif.
- La moindre information filtrant sur le coût peut être critique pour l'entrepris
+ La moindre information filtrant sur un coût peut être critique pour l'entrepris
 e.
  En effet la concurence pourrait se servir de ces informations afin d'asphixier
  l'entreprise en vendant les produits concurents à un coût moindre.
@@ -138,20 +138,14 @@ e.
 
 \begin_layout Standard
 De fait STMicroElectronics ne peut se permettre de donner les chiffres réels
- de la production et de la non qualité.
+ de sa production et de la non qualité.
  Les valeurs de la non qualité que nous prendrons sont donc des chiffres
  hypothétiques sans aucun lien avec la réalité.
  
 \end_layout
 
-\begin_layout Standard
-La présente étude permettra d'avoir une estimation d'un gain potentiel de
- notre programme.
- 
-\end_layout
-
 \begin_layout Section
-Données à receuillir 
+Données à recueillir 
 \end_layout
 
 \begin_layout Subsection
@@ -159,8 +153,9 @@ Hypothèse
 \end_layout
 
 \begin_layout Itemize
-Le coût d'une plaque de silicium est estimée à $1000 en production, on suppose
- que le coût d'une plaque défectueux coûte aussi $1000 à l'entreprise.
+Le coût de la production d'une plaque de silicium est estimée à $1000, de
+ même que le coût d'une plaque défectueuse.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -168,16 +163,33 @@ La production hebdomadaire est estimée à 10000 plaques de silicium.
 \end_layout
 
 \begin_layout Itemize
-Le pourcentage de la non-qualité d'une bonne entreprise est estimé à 1%.
+Le pourcentage de 
+\begin_inset Quotes fld
+\end_inset
+
+rebuts
+\begin_inset Quotes frd
+\end_inset
+
+ d'une bonne entreprise est estimé à 1%.
 \end_layout
 
 \begin_layout Itemize
-Notre solution ne nécessite à priori pas d'investissement initial si ce
- n'est qu'un thésard pour le développement de l'algorithme ($30000 par an)
- et éventuellement un nouveau puissant ordinateur ($3000) pour l'exécuter
- plus rapidement.
+Notre solution ne nécessite à priori peu d'investissement initial, à savoir
+ :
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+l'embauche d'un thésard afin de développer l'algorithme ($30000 par an)
+ 
+\end_layout
+
+\begin_layout Itemize
+l'acquisition d'un ordinateur puissant($3000) 
+\end_layout
+
+\end_deeper
 \begin_layout Standard
 \begin_inset Note Note
 status open
@@ -199,9 +211,13 @@ Taux d'intérêt
 \end_layout
 
 \begin_layout Standard
-La situation actuelle économique étant assez particulière les taux d'intérêts
- ont beaucoup changé ces dernieres mois nous avons deux sources différentes.
- La première nous donne une valeur moyenne du taux d'intérêt sur l'année.
+La situation actuelle économique étant ce qu'elle est, les taux d'intérêts
+ ont beaucoup changé ces dernieres mois.
+ Nous avons utilisé deux sources différentes :
+\end_layout
+
+\begin_layout Standard
+La première nous donne une valeur moyenne du taux d'intérêt sur l'année.
 \begin_inset CommandInset citation
 LatexCommand cite
 key "web:banquedeFrance"
@@ -269,10 +285,9 @@ EURIBOR (Moyenne sur 1 an)
 \end_layout
 
 \begin_layout Standard
-De plus afin d'illustrer le charactère assez exceptionnel de cette année
- le gouvernement donne des valeurs du taux au cours de ces dernières années.
- Le tableau suivant n'est là que pour illustrer le caractère exceptionnel
- de cette année
+De plus afin d'illustrer le caractère assez exceptionnel de cette année,
+ nous donnons pour comparaison les valeurs du taux d'intérêt des années
+ précédentes dans le  tableau suivant
 \begin_inset CommandInset citation
 LatexCommand cite
 key "web:tauxDirectionDuTresor"

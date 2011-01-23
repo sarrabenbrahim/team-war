@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -120,7 +120,7 @@ L'indice de Profitabilité (IP)
 
 \begin_layout Standard
 L'Indice de Profitabilité est le quotient de la somme des flux positifs
- actualisé par le montant du capital investi :
+ actualisés par le montant du capital investi :
 \end_layout
 
 \begin_layout Standard
@@ -229,12 +229,12 @@ Delai de récupération du capital investi
 \end_layout
 
 \begin_layout Standard
-Le délais de récupération d'un capital investi est le temps au bout duquel
- le montant cumulé des flux financier positifs (
+Le délai de récupération d'un capital investi est le temps au bout duquel
+ le montant cumulé des flux financiers positifs (
 \begin_inset Formula $\oplus$
 \end_inset
 
-) actualisés est égal au capital investi.
+) actualisé est égal au capital investi.
 \end_layout
 
 \begin_layout Standard
