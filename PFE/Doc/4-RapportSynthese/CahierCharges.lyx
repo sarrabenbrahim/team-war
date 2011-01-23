@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -67,7 +67,7 @@ ou est le cahier de charge tel qu'il à été donné dans la feuille par st?
 \end_layout
 
 \begin_layout Section
-Formalisation des besoins clients à partir du cahier des charges
+Formalisation du cahier des charge à partir du besoin du client 
 \end_layout
 
 \begin_layout Standard
@@ -75,11 +75,25 @@ La pratique actuelle de STMicroelectronics consiste à compter le nombre
  de plaques de silicium travaillées entre deux mesures.
  Ce comptage peut être référencé à une machine de production ou à une technologi
 e et il ne prend pas en compte les paramètres des plaques.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+pas clair !!!
 \end_layout
 
-\begin_layout Standard
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
 Le cycle de production moyen est de trois mois, tracé par un système GPAO.
- La production est du type 
+ 
+\end_layout
+
+\begin_layout Itemize
+La production est de type 
 \begin_inset Quotes fld
 \end_inset
 
@@ -99,7 +113,7 @@ Production en atelier, mouvement brownien des produits dans le cycle de
 \end_inset
 
  par lots de 25 plaques de silicium.
- Ce dernier ne suit pas le principe FIFO 
+ La production ne suit pas le principe FIFO 
 \begin_inset Foot
 status collapsed
 
@@ -109,7 +123,7 @@ First In First Out
 
 \end_inset
 
- ce qui constitue une des difficultés majeure de cette étude.
+ et constitue ainsi une des difficultés majeure de cette étude.
 \end_layout
 
 \begin_layout Standard
@@ -129,21 +143,21 @@ Contrôle du produit par échantillonage
 \end_inset
 
  travaillées à l'aide des appareils de métrologie.
- Ce type de contrôle est très onéreux et nécessite de quelques heures pour
- contrôler seulement 3 plaques.
+ Ce type de contrôle est très onéreux et nécessite plusieurs heures pour
+ seulement 3 plaques.
 \end_layout
 
 \begin_layout Itemize
 Contrôle de fiabilité des machines de production, c'est une tâche de maintenance
- périodique qui consiste à vérifier son bon fonctionnement à l'aide d'une
+ périodique consistant à vérifier son bon fonctionnement à l'aide d'une
  plaque de silicium vierge.
- Ce type de contrôle n'est pas onéreux ni trop long mais qui engendre l'indispon
-ibilité de la machine de production.
+ Ce type de contrôle n'est ni onéreux ni long mais engendre l'indisponibilité
+ de la machine .
 \end_layout
 
 \begin_layout Standard
-Les règles de contrôle sont basées sur l'expérience des contremaîtres, par
- pifométre.
+Les règles de contrôle sont basées sur l'expérience des contremaîtres, sans
+ procédure définie.
 \end_layout
 
 \begin_layout Section
@@ -151,21 +165,20 @@ Mission du PFE
 \end_layout
 
 \begin_layout Standard
-Le coût de la non-qualité est souvent l'ancre qui peut faire couler une
- entreprise.
- D'une part, par son coût important qui ne rentre pas dans la valeur ajoutée,
- et d'autre part par son impacte sur le marché concurrentiel.
+Le coût de la non-qualité est souvent la raison de la faillite d'une entreprise.
+ D'une part, celui-ci ne participe pas à la valeur ajoutée du produit, et
+ d'autre part rend impossibible la prise de pouvoir économique sur le marché.
 \end_layout
 
 \begin_layout Standard
-Notre travail consiste à rechercher une ou des solutions susceptibles d'améliore
-r la gestion des contrôles et de pouvoir maîtriser la production à risque.
+Notre travail consiste donc à rechercher une ou des solutions susceptibles
+ d'améliorer la gestion des contrôles et de pouvoir maîtriser la production
+ à risque.
 \end_layout
 
 \begin_layout Standard
-La mission telle qu'elle est mentionnée dans le cahier des charges du client
- est la suivante : « Le travail consistera en une étude de faisabilité sur
- l'évaluation des 'wafer@risk'
+La mission énnoncée dans le cahier des charges est la suivante : « Le travail
+ consistera en une étude de faisabilité sur l'évaluation des 'wafer@risk'
 \begin_inset Foot
 status collapsed
 
@@ -191,11 +204,11 @@ Wafers At Risk
 \end_layout
 
 \begin_layout Standard
-En principe, notre mission se limite à la recherche des solutions et l'étude
- de leur faisabilité.
- Etant donné le domaine d'étude qui risque d'être limité en source d'information
- due à la confidentialité et à la spécificité du domaine d'activité (micro-élect
-ronique), nous serons peut-être amener à imaginer notre propre solution.
+Notre action se limite à la recherche des solutions et à l'étude de leur
+ faisabilité.
+ Etant donné que le domaine est limité en source d'informations (à cause
+ de la confidentialité et de l'ultra compétivité de la micro-électronique)
+ , nous serons amener à concevoir notre propre solution.
 \end_layout
 
 \begin_layout Section
@@ -203,19 +216,36 @@ Plan de l'étude
 \end_layout
 
 \begin_layout Standard
-Nous avons effectué une étude préliminaire pour analyser le sujet et les
- pistes de recherche d'information possibles, qui nous a amèné à l'étude
- de l'art, une sorte de travail de 
+Nous avons effectué une étude préliminaire en collaboration avec le client
+ afin d'analyser le sujet et les pistes de recherche d'informations, cela
+ nous a amèné à 
+\begin_inset Quotes fld
+\end_inset
+
+l'étude de l'état de l'art
+\begin_inset Quotes frd
+\end_inset
+
+ et un 
 \emph on
 Benchmarking
 \emph default
 .
- une fois le cet état de l'art etablis, nous avons essayé de trier et de
- garder les solutions pertinentes pour une étude plus approfondie.
- Dans le cas où l'état de l'art ne permet pas de répondre pertinemment à
- nos attentes, une solution sera développée par notre équipe pour répondre
- aux besoins de notre client, suivi de la phase de simulation et de validation
- de la solution.
+ 
+\end_layout
+
+\begin_layout Standard
+une fois cet 
+\begin_inset Quotes fld
+\end_inset
+
+état de l'art
+\begin_inset Quotes frd
+\end_inset
+
+ etabli, nous avons essayé de trier et de garder des solutions pertinentes
+ pour une étude plus approfondie.
+ 
 \end_layout
 
 \end_body
