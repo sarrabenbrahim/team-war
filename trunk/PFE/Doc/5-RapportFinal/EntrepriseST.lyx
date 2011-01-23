@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -52,28 +52,78 @@ Présentation de STMicroelectronics
 \end_layout
 
 \begin_layout Section
+Présentation de STMicroelectronics
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Madame Frydman nous a demandé de virer les figures concernant les deux figures
+ qui se trouvait en bas pour les types de produits elle ne voit pas d'ou
+ l'intêrt de les mettre !!!!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 STMicroelectronics
+\begin_inset CommandInset citation
+LatexCommand cite
+key "web:WikipediaST"
+
+\end_inset
+
+ (plus connu sous le nom de ST) est une multinationale du semi-conducteurs,
+ créée en 1987, suite à la fusion de SGS Microelettronica et de Thomson
+ Semiconducteurs, sous le nom de SGS-THOMSON.
+ Renommée en STMicroelectronics, après le retrait de Thomson en 1998.
+ Cette entreprise développe, fabrique et commercialise des puces électroniques
+ à travers le monde (Cf Fig
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Historique-de-STMicroelectronics"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
-STMicroelectronics (plus connu sous ST) est une société internationale de
- semi-conducteurs, qui développe, fabrique et commercialise des puces électroniq
-ues.
- Elle a été initialement créée en 1987, de la fusion de SGS Microelettronica
- et de Thomson Semiconducteurs, sous le nom de SGS-THOMSON.
- Puis renommée en STMicroelectronics, suite au retrait de Thomson du capital
- en 1998.
+Elle se décompose comme suit : 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
 La société mère STMicroelectronics est de droit hollandais (enregistrée
- à Amsterdam), la direction administrative est regroupée en grande partie
- sur le site de Genève en Suisse, mais la direction opérationnelle du groupe
- est toujours italienne, implantée sur le principal site du groupe à Agrate
- (à côté de Milan).
- C'est une société en expansion économique depuis sa création, son chiffre
- d'affaire a même doublé en dix ans depuis son renommage (CA : $9,84 milliards
- en 2008 contre $4,25 milliards en 1988).
+ à Amsterdam),
+\end_layout
+
+\begin_layout Itemize
+la direction administrative est regroupée en grande partie sur le site de
+ Genève en Suisse, l
+\end_layout
+
+\begin_layout Itemize
+la direction opérationnelle du groupe est italienne, implantée sur le principal
+ site du groupe à Agrate (à côté de Milan).
+ 
+\end_layout
+
+\begin_layout Standard
+Société en expansion économique depuis sa création, son chiffre d'affaire
+ a même doublé en dix ans depuis son nouveau nom 
+\begin_inset Quotes fld
+\end_inset
+
+STMicroelectronics
+\begin_inset Quotes frd
+\end_inset
+
+ (CA : $9,84 milliards en 2008 contre $4,25 milliards en 1988).
 \end_layout
 
 \begin_layout Standard
@@ -82,11 +132,11 @@ S'appuyant sur sa technologie et son expertise, ST se positionne au
 \end_inset
 
  rang mondial dans la fabrication des semi-conducteurs depuis 2005.
- Elle comprend approximativement 51000 employés répartis dans plus de 15
- sites de production (cf Fig 
+ 51000 employés (approximativement) sont répartis dans plus de 15 sites
+ de production (cf Fig 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:Principaux-sites-Production"
+reference "fig:Principaux-sites-Production-1"
 
 \end_inset
 
@@ -107,7 +157,7 @@ status open
 Principaux sites de production
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:Principaux-sites-Production"
+name "fig:Principaux-sites-Production-1"
 
 \end_inset
 
@@ -123,6 +173,69 @@ name "fig:Principaux-sites-Production"
 \align center
 \begin_inset Graphics
 	filename ../Images/ST_Monde_Production.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\emph on
+Cette carte indique la répartitions des usines de production de ST à travers
+ le monde
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ST propose divers groupes de produit, chaque groupe étant lui-même composé
+ de plusieures divisions qui gèrent de façon autonome la conception, la
+ fabrication et la commercialisation de leurs produits.
+ (cf Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Divers-Groupes-Produit"
+
+\end_inset
+
+) :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Divers groupes de produit
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Divers-Groupes-Produit"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ST_ProductsGroup.jpg
 	width 70col%
 
 \end_inset
@@ -136,80 +249,53 @@ name "fig:Principaux-sites-Production"
 \end_layout
 
 \begin_layout Standard
-ST propose divers groupes de produit, chaque groupe étant lui-même composé
- de plusieurs divisions qui gèrent de façon autonome la conception, la fabricati
-on et la commercialisation de leurs produits 
-\end_layout
+Voici quelques exemples d'application des produits semi-conducteurs et de
+ la technologie de ST dans la vie quotidinne (cf Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Exemple-Produits"
 
-\begin_layout Section
-Historique
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-1987 : Fusion entre la société italienne SGS –Société Générale Semiconduttori-
- et la société française Thomson semi-conducteurs.
- La nouvelle société est nommée SGS-Thomson
-\end_layout
-
-\begin_layout Itemize
-1989 : Rachat de la société britannique Inmos.
- Celle-ci avait commencé la fabrication de microprecesseurs Transputer depuis
- 1978 
-\end_layout
-
-\begin_layout Itemize
-1993 : Grâce à un accord de partenariat technologique entre SGS-Thomson
- et Philips Semiconductors, la société bénéficie d'une nouvelle salle blanche
- appartenant à l'unité de recherche et développement implantée à Crolles
- sur un projet baptisé Grenoble 92
-\end_layout
-
-\begin_layout Itemize
-1994 : Rachat de quelques activités de semi-conducteurs de la société canadienne
- Nortel Networks et de l'usine Rancho Bernardo
-\end_layout
-
-\begin_layout Itemize
-1998 : Thomoson se retire de la société, SGS-Thomson prend alors le nom
- de STMicroelectronics (ST)
-\end_layout
-
-\begin_layout Itemize
-2000 : Rachat de toutes les activités relatives à la société canadienne
- Nortel Networks et de l'usine Rancho Bernardo
-\end_layout
-
-\begin_layout Itemize
-2002 : Arrivée de la firme Motorola Semiconductors et TSMC au partenariat
- technologique ST-Philips.
- Création de l'Alliance Crolles2 et construction d'une nouvelle unité de
- fabrication (300 mm), dans une salle blanche de 10.000 m²
-\end_layout
-
-\begin_layout Itemize
-2007 : NXP (ex Philips Semiconductors) et Freescale (ex Motorola Semi-conducteur
-) quittent Crolles2.
- Une nouvelle société est crée par ST et Intel nommée Numonyx.
- Elle regroupe toutes leurs activités de mémoires flash
-\end_layout
-
-\begin_layout Itemize
-2008 : ST détiend 80% de la nouvelle société en créant une co-entreprise
- dans le domaine des technologies mobiles avec NXP Semiconductors et se
- lance dans le projet ST-NXP Wireless.
-\end_layout
-
-\begin_layout Itemize
-2009 : ST se lia à Ericsson sous le nom de ST-Ericsson tout en gardant les
- mêmes activités et tranchant les 20% que NXP détenait de l’union ST-NXP
- Wireless
+):
 \end_layout
 
 \begin_layout Standard
-cf fig:
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Historique-de-STMicroelectronics"
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Exemple des produits
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Exemple-Produits"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ST_Products.jpg
+	width 70col%
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
