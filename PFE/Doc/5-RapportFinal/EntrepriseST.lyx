@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -138,172 +138,82 @@ name "fig:Principaux-sites-Production"
 \begin_layout Standard
 ST propose divers groupes de produit, chaque groupe étant lui-même composé
  de plusieurs divisions qui gèrent de façon autonome la conception, la fabricati
-on et la commercialisation de leurs produits (cf Fig 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Divers-Groupes-Produit"
-
-\end_inset
-
-) :
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Divers groupes de produit
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Divers-Groupes-Produit"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../Images/ST_ProductsGroup.jpg
-	width 70col%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Voici quelques exemples d'application des produits semi-conducteurs et de
- la technologie de ST dans la vie quotidinne (cf Fig 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Exemple-Produits"
-
-\end_inset
-
-):
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Exemple des produits
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Exemple-Produits"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../Images/ST_Products.jpg
-	width 70col%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+on et la commercialisation de leurs produits 
 \end_layout
 
 \begin_layout Section
 Historique
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Jaafar, c'est la partie que tu devrais modifier et corriger.
+\begin_layout Itemize
+1987 : Fusion entre la société italienne SGS –Société Générale Semiconduttori-
+ et la société française Thomson semi-conducteurs.
+ La nouvelle société est nommée SGS-Thomson
 \end_layout
 
-\end_inset
+\begin_layout Itemize
+1989 : Rachat de la société britannique Inmos.
+ Celle-ci avait commencé la fabrication de microprecesseurs Transputer depuis
+ 1978 
+\end_layout
 
+\begin_layout Itemize
+1993 : Grâce à un accord de partenariat technologique entre SGS-Thomson
+ et Philips Semiconductors, la société bénéficie d'une nouvelle salle blanche
+ appartenant à l'unité de recherche et développement implantée à Crolles
+ sur un projet baptisé Grenoble 92
+\end_layout
 
+\begin_layout Itemize
+1994 : Rachat de quelques activités de semi-conducteurs de la société canadienne
+ Nortel Networks et de l'usine Rancho Bernardo
+\end_layout
+
+\begin_layout Itemize
+1998 : Thomoson se retire de la société, SGS-Thomson prend alors le nom
+ de STMicroelectronics (ST)
+\end_layout
+
+\begin_layout Itemize
+2000 : Rachat de toutes les activités relatives à la société canadienne
+ Nortel Networks et de l'usine Rancho Bernardo
+\end_layout
+
+\begin_layout Itemize
+2002 : Arrivée de la firme Motorola Semiconductors et TSMC au partenariat
+ technologique ST-Philips.
+ Création de l'Alliance Crolles2 et construction d'une nouvelle unité de
+ fabrication (300 mm), dans une salle blanche de 10.000 m²
+\end_layout
+
+\begin_layout Itemize
+2007 : NXP (ex Philips Semiconductors) et Freescale (ex Motorola Semi-conducteur
+) quittent Crolles2.
+ Une nouvelle société est crée par ST et Intel nommée Numonyx.
+ Elle regroupe toutes leurs activités de mémoires flash
+\end_layout
+
+\begin_layout Itemize
+2008 : ST détiend 80% de la nouvelle société en créant une co-entreprise
+ dans le domaine des technologies mobiles avec NXP Semiconductors et se
+ lance dans le projet ST-NXP Wireless.
+\end_layout
+
+\begin_layout Itemize
+2009 : ST se lia à Ericsson sous le nom de ST-Ericsson tout en gardant les
+ mêmes activités et tranchant les 20% que NXP détenait de l’union ST-NXP
+ Wireless
 \end_layout
 
 \begin_layout Standard
-Nommée SGS-Thomson
-\begin_inset CommandInset citation
-LatexCommand cite
-key "web:WikipediaST"
-
-\end_inset
-
- après la fusion de la société italienne SGS –Société Générale Semiconduttori-
- et la société française Thomson semi-conducteurs en 1987, St n’a pas gardé
- pour longtemps ce nom la puisqu’en 1998 Thomson s’est retiré et elle fut
- nommé STMicroelectronics.
- Avant le retrait du capital Thomson, SGS-Thomson a racheté Inmos, Société
- britannique en 1989 qui commençait sa fabrication de microprocesseurs Transpute
-r depuis 1978.
- Au début des 90’s un accord de partenariat technologique entre SGS-Thomson
- et Philips Semiconductors fut signé permettant a cette dernière de bénéficier
- en 1993 de la nouvelle salle blanche de l'unité de R&D de SGS-Thomson à
- Crolles sur un projet baptisé Grenoble 92.
- L’année qui suit SGS-Thomson rachète quelques activités de semi-conducteurs
- de la société canadienne Nortel Networks et l'usine de Rancho Bernardo,
- pour racheter toute l’activité en 2000.
- En 2002, Motorola Semiconductors et TSMC s'associent au partenariat technologiq
-ue ST-Philips.
- C'est la création de l'Alliance Crolles2 avec la construction d'une nouvelle
- unité de fabrication 300 mm, dans une salle blanche de 10.000 m², mais cette
- alliance n’a pas durer pour longtemps puisqu’en 2007 NXP (ex Philips Semiconduc
-tors) et Freescale (ex Motorola Semi-conducteur) quittent Crolles2.
- En cette même année ST et Intel créent une société commune nommée Numonyx
- regroupant ainsi leurs activités de mémoires flash.
- En avril 2008, ST détiendra 80% de la nouvelle société en créant une co-entrepr
-ise dans le domaine des technologies mobiles avec NXP Semiconductors et
- se lança quelques mois après dans le projet ST-NXP Wireless.
- En 2009, ST se lia à Ericsson sous le nom de ST-Ericsson tout en gardant
- les mêmes activités et tranchant les 20% que NXP détenait de l’union ST-NXP
- Wireless, cf fig:
+cf fig:
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Historique-de-STMicroelectronics"
 
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Standard
