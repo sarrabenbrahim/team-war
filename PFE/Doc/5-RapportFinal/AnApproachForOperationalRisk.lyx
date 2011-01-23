@@ -1,0 +1,400 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass amsbook
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\language french
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+An approach for operational risk
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:risk"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Description de la méthode
+\end_layout
+
+\begin_layout Standard
+Cet article présente une méthode d'évaluation des risques opérationnels
+ aidant à la prise de décisions sur les plans de contrôle.
+ La méthode consiste à évaluer l'évolution du risque 
+\begin_inset Formula $R^{0}(t)$
+\end_inset
+
+ sur un horizon (durée) considéré (H) sans aucun contrôle.
+ Puis, une valeur ajoutée (en termes de risques) pourrait être évalués avec
+ un plan de contrôle X (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Added-value-of-control-plan"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Added-value-of-control-plan"
+
+\end_inset
+
+Added value of a control plan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/AnApproachForOperationalRisk_Fig1.png
+	width 100col%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le risque est calculé comme le produit de la probabilité de l'évènement
+ non-désiré (NDE : panne, défaillance, etc) et de la Perte Potentielle (PL)
+ lorsque cet événement se produit.
+ La Perte Potentielle est ici exprimée par le nombre de produits perdus
+ (puce, plaquette ou le lot).
+ Lorsqu'un événement non-désiré se produit, la qualité de ses prochaines
+ exécutions (machine) sera alors diminuée jusqu'à son prochain contrôle
+ (le contrôle signifie mesurer et corriger si ce n'est pas 
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Dans ce cas, la Perte Potentielle augmentera linéairement avec le nombre
+ d'exécutions.
+\end_layout
+
+\begin_layout Standard
+En l'absence du plan de contrôle, l'évolution de la Perte Potentielle dépend
+ du moment d'apparition de l'évènement non-désiré (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Potential-Loss-when-no-control-plan"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Potential-Loss-when-no-control-plan"
+
+\end_inset
+
+Potential Loss when no control plan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/AnApproachForOperationalRisk_Fig2.png
+	width 100col%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lorsque les contrôles (les mesures et les actions correctives en cas de
+ détection) sont prévues, la perte potentielle est différente parce que
+ :
+\end_layout
+
+\begin_layout Itemize
+Si le résultat de la mesure envisagée est 
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+, il n'est pas nécessaire d'envisager la perte potentielle qui correspond
+ à l'occurrence de l'évènement non-désiré précédant la mesure (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Potential-Loss-for-control-with-one-control"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Potential-Loss-for-control-with-one-control"
+
+\end_inset
+
+Potential Loss for a control with one control
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/AnApproachForOperationalRisk_Fig3.png
+	width 100col%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Si la mesure n'est pas 
+\begin_inset Quotes eld
+\end_inset
+
+OK
+\begin_inset Quotes erd
+\end_inset
+
+, une action imminente qui va 
+\begin_inset Quotes eld
+\end_inset
+
+réinitialiser ou modifier
+\begin_inset Quotes erd
+\end_inset
+
+ la probabilité de l'événement non-désiré puis la perte potentielle devient
+ 
+\begin_inset Quotes eld
+\end_inset
+
+une perte probable
+\begin_inset Quotes erd
+\end_inset
+
+ ou 
+\begin_inset Quotes eld
+\end_inset
+
+perte prouvée
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+En supposant que la loi de distribution de la probabilité des évènements
+ non-désirés sur l'horizon considéré (H) est connue, la fonction de l'évolution
+ du risque avec un plan de contrôle X pourrait être calculé comme suit :
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $R^{x}(i)=$
+\end_inset
+
+
+\begin_inset Formula $\sum_{j=1}^{i}(i-j+1).PL_{j}^{i}(i).Pr_{j}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Résultats
+\end_layout
+
+\begin_layout Standard
+L'évolution du risque dépend des plans de contrôle, en fonction de leurs
+ nombre de contrôles ainsi que de leurs répartitions sur l'horizon (cf.
+ Fig 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Examples-of-risk-evolution-for-different-control-plans"
+
+\end_inset
+
+) :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Examples-of-risk-evolution-for-different-control-plans"
+
+\end_inset
+
+Examples of risk evolution for different control plans
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/AnApproachForOperationalRisk_Fig5.png
+	width 100col%
+	rotateOrigin center
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L'objectif futur de cette approche consiste à optimiser les plans de contrôle
+ en fonction des exigences de l'entreprise.
+\end_layout
+
+\begin_layout Section
+Remarques
+\end_layout
+
+\begin_layout Standard
+Cette approche nous semble déjà été mise en place chez STMicroelectonics
+ mais cette dernière ne permet pas de satisfaire les exigences de l'industriel.
+ Les plans de contrôle (tâche de qualité) exigent à chaque fois un temps
+ d'improductivité, or d'après l'étude plus il y aura de contrôle plus le
+ risque est réduit, donc cette approche est industriellement non faisable.
+\end_layout
+
+\end_body
+\end_document
