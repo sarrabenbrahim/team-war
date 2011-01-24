@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -96,7 +96,7 @@ l'algorithme du marcheur
 
 \begin_layout Standard
 Pour la gestion des coûts, nous avons émis deux hypothèses sur le gain approrté
- par notre solution en terme de réduction en défectivité :
+ par notre solution en terme de réduction de la non qualité :
 \end_layout
 
 \begin_layout Itemize
@@ -120,16 +120,14 @@ Estimation des coûts
 \end_layout
 
 \begin_layout Standard
-Le marché des sémi-conducteurs est très concurrentiel et qui évolue rapidement,
- le prix de vente des produits varie aussi en conséquent.
- Il est donc difficile de chiffrer le coût de la non-qualité.
- De plus pour des raisons de confidentialité, notre accès aux données de
- comptabilité est donc aussi limité.
- Les données dans cette partie sont des estimations.
+Le marché des sémi-conducteurs est très concurrentiel et évolue rapidement.
+ Pour des raisons de sécurité économique de l'entreprise, notre accès aux
+ données de comptabilité a été limité.
+ Les données dans cette partie sont donc des estimations.
 \end_layout
 
 \begin_layout Subsection
-Hypothèse
+Hypothèses
 \end_layout
 
 \begin_layout Itemize
@@ -148,12 +146,12 @@ Le pourcentage de la non-qualité d'une bonne entreprise est estimé à 1%.
 \begin_layout Itemize
 Notre solution ne nécessite à priori pas d'investissement initial si ce
  n'est qu'un thésard pour le développement de l'algorithme ($35000 par an)
- et éventuellement des matériels informatiques plus puissant ($15000) pour
- une exécution plus rapidement (plus de réactivité).
+ et éventuellement du matériel informatique plus puissant ($15000) pour
+ une exécution plus rapide (plus de réactivité).
 \end_layout
 
 \begin_layout Subsection
-Calcul
+Calculs
 \end_layout
 
 \begin_layout Itemize
@@ -230,7 +228,17 @@ réduire le coût de la non-qualité entre 0,26 et 1,56 millions dollars par
 sements que le développement de l'algorithme car la solution utilise les
  ressources déjà existantes.
  Cette présente analyse des coûts permet seulement d'apprécier le gain potentiel
- annuel de notre solution sur le coût liée à la défectivité.
+ annuel de notre solution sur le coût liée à la défectivité
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Présence de défauts dans le cristal d'un semi-conducteur.
+\end_layout
+
+\end_inset
+
+.
  L'analyse détaillée de l'investissement de ce projet est présentée dans
  notre rapport de la gestion des coûts.
 \end_layout

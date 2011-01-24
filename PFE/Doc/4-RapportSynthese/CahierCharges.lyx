@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -69,11 +69,23 @@ Je ne vois pas l'intérêt de ce paragraphe même si Mme Frydman l'exige.
 \end_layout
 
 \begin_layout Standard
+Nous donnons le cahier des charges tel qu'il nous a été donné au commencement
+ du projet :
+\end_layout
+
+\begin_layout Standard
 \begin_inset Quotes fld
 \end_inset
 
-Le travail consistera en une étude de faisabilité sur l'évaluation des 'wafer@ri
-sk' (WAR).
+Le travail consistera en une étude de faisabilité sur l'évaluation des 
+\begin_inset Quotes fld
+\end_inset
+
+wafer@risk
+\begin_inset Quotes frd
+\end_inset
+
+ (WAR).
  Actuellement nous comptons le nombre de plaque de silicium travaillées
  entre deux contrôles (mesures).
  Ce comptage peut être référencé par rapport à une machine de production
@@ -99,14 +111,13 @@ Formalisation du cahier des charge à partir du besoin du client
 \begin_layout Standard
 La pratique actuelle de STMicroelectronics consiste à compter le nombre
  de plaques de silicium travaillées entre deux mesures.
- Ce comptage peut être référencé à une machine de production ou à une technologi
-e.
- Par contre, il ne prend pas en compte de l'existence de plusieurs type
- de paramètres ni de l'intéraction potentielle entre paramètres.
+ Ce comptage peut être associé à une machine de production ou à une technologie.
+ Par contre, il ne prend pas en compte l'existence de plusieurs type de
+ paramètres ni de l'intéraction potentielle entre ces paramètres.
 \end_layout
 
 \begin_layout Standard
-Leur cycle de production moyen est de trois mois, tracé par un système GPAO.
+Leur cycle de production moyen dure trois mois, suivi par un système GPAO.
  La production est de type 
 \begin_inset Quotes fld
 \end_inset
@@ -158,7 +169,7 @@ Contrôle du produit par échantillonage
 
  travaillées à l'aide des appareils de métrologie.
  Ce type de contrôle est très onéreux et nécessite plusieurs heures pour
- seulement 3 plaques.
+ peu de plaques.
 \end_layout
 
 \begin_layout Itemize
