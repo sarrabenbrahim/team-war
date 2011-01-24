@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -746,7 +746,7 @@ Ce diagramme de classe représente l'ensemble des classes entités, les Bat
 \end_layout
 
 \begin_layout Standard
-Remarque : Dans le projet existe une classe nommée Constants qui contient
+Remarque : Dans le projet il existe une classe nommée Constants qui contient
  toutes les constantes nécessaires au réglage de notre application.
  Ces connaissances faisant référence au savoir faire métier, les valeurs
  que nous avons utilisées sont donc parfaitement arbitraires.
