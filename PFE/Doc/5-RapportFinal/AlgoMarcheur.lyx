@@ -185,7 +185,7 @@ La criminalité est remise à un niveau seuil quand la police passe.
 La criminalité est remise à un seuil de confiance si la santé du marcheur
  est bonne en sortant du quartier.
  Un médecin contrôle le marcheur, si il est en bonne santé nous en déduisons
- que la criminalité du quartier a été surévaluée, nous réaugmentons cette
+ que la criminalité du quartier a été surévaluée, nous ré-augmentons cette
  sûreté à un niveau seuil.
  
 \end_layout
@@ -648,7 +648,7 @@ Afin de faire le parallèle avec les technologie :
 \end_inset
 
  correspond aux technologies de logique, qui sont les plus faciles à mettre
- en oeuvre
+ en œuvre
 \end_layout
 
 \begin_layout Itemize
@@ -672,7 +672,7 @@ mémoire et logique
 
 \end_inset
 
- qui sont les technologies les plus délicates à mettre en oeuvre et ayant
+ qui sont les technologies les plus délicates à mettre en œuvre et ayant
  de fortes chances de générer de la non qualité.
 \end_layout
 
@@ -736,7 +736,7 @@ Analyse des données
 Afin de tester notre algorithme nous avons récupéré un fichier de données
  de 
 \emph on
-STMicroelectronics
+Microélectroniques
 \emph default
 , afin de bien comprendre ces données nous allons les analyser.
  
@@ -1208,7 +1208,7 @@ Package entities
 \end_layout
 
 \begin_layout Standard
-C'est dans ce package que se situe le coeur de l'algorithme.
+C'est dans ce package que se situe le cœur de l'algorithme.
  En effet les calculs de fiabilités sont des méthodes associées au objets
  
 \emph on
@@ -1255,7 +1255,7 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
-Diagramme de classe des différentes entitées
+Diagramme de classe des différentes entités
 \end_layout
 
 \end_inset
@@ -1275,7 +1275,7 @@ Diagramme de classe des différentes entitées
 \align center
 
 \emph on
-Ce diagramme de classe représente l'ensemble des classes entities, les Batch
+Ce diagramme de classe représente l'ensemble des classes entités, les Batch
  et Workstation contiennent des collections de tracability, qui constituent
  la mémoire de chacun des éléments.
  De plus 
@@ -1319,7 +1319,7 @@ DISTURBANCE_WORSTATION_PER_EVENT Il s'agit là du dérèglement d'une machine
 \begin_layout Description
 FIABILITY_DEFAULT_BATCH Il s'agit de l'indice de santé par défaut d'un lot
  
-\begin_inset Formula $Indice_{Santé}$
+\begin_inset Formula $Indice_{SantéLotDefaut}$
 \end_inset
 
 
