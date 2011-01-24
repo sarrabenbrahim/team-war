@@ -51,20 +51,59 @@ figs-within-sections
 Cahier des charges
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Je ne vois pas l'intérêt de ce paragraphe même si Mme Frydman l'exige.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes fld
+\end_inset
+
+Le travail consistera en une étude de faisabilité sur l'évaluation des 'wafer@ri
+sk' (WAR).
+ Actuellement nous comptons le nombre de plaque de silicium travaillées
+ entre deux contrôles (mesures).
+ Ce comptage peut être référencé par rapport à une machine de production
+ ou par rapport à une technologie.
+ Ce comptage ne tient pas compte de l'existence de plusieurs type de paramètres
+ ni de l'intéraction potentielle entre paramètres.
+ Pour l'instant les mesures effectuées sur des plaques de production et
+ les mesures sur plaque de test liées aux qualifications périodique sont
+ prisent en compte de la même manière sans tenir compte de la signification
+ de la mesure.
+ Cette méthode ne nous permet pas de régler nos outils d'échantillonnage
+ par rapport à un risque maximal garanti.
+\begin_inset Quotes frd
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
-Fonctionnement actuel de l'entreprise
+Formalisation du cahier des charge à partir du besoin du client 
 \end_layout
 
 \begin_layout Standard
 La pratique actuelle de STMicroelectronics consiste à compter le nombre
  de plaques de silicium travaillées entre deux mesures.
  Ce comptage peut être référencé à une machine de production ou à une technologi
-e et il ne prend pas en compte les paramètres des plaques.
+e.
+ Par contre, il ne prend pas en compte de l'existence de plusieurs type
+ de paramètres ni de l'intéraction potentielle entre paramètres.
 \end_layout
 
 \begin_layout Standard
-Le cycle de production moyen est de trois mois, tracé par un système GPAO.
- La production est du type 
+Leur cycle de production moyen est de trois mois, tracé par un système GPAO.
+ La production est de type 
 \begin_inset Quotes fld
 \end_inset
 
@@ -84,7 +123,7 @@ Production en atelier, mouvement brownien des produits dans le cycle de
 \end_inset
 
  par lots de 25 plaques de silicium.
- Ce dernier ne suit pas le principe FIFO 
+ Elle ne suit pas le principe FIFO 
 \begin_inset Foot
 status collapsed
 
@@ -94,7 +133,7 @@ First In First Out
 
 \end_inset
 
- ce qui constitue une des difficultés majeure de cette étude.
+ et ce qui constitue une des difficultés majeure de cette étude.
 \end_layout
 
 \begin_layout Standard
@@ -108,27 +147,29 @@ Contrôle de qualité sur des plaques de silicium
 status collapsed
 
 \begin_layout Plain Layout
-Contrôle du produit par échantillonnage
+Contrôle du produit par échantillonage
 \end_layout
 
 \end_inset
 
  travaillées à l'aide des appareils de métrologie.
- Ce type de contrôle est très onéreux et nécessite de quelques heures pour
- contrôler seulement 3 plaques.
+ Ce type de contrôle est très onéreux et nécessite plusieurs heures pour
+ seulement 3 plaques.
 \end_layout
 
 \begin_layout Itemize
 Contrôle de fiabilité des machines de production, c'est une tâche de maintenance
- périodique qui consiste à vérifier son bon fonctionnement à l'aide d'une
+ périodique consistant à vérifier son bon fonctionnement à l'aide d'une
  plaque de silicium vierge.
- Ce type de contrôle n'est pas onéreux ni trop long mais qui engendre l'indispon
-ibilité de la machine de production.
+ Ce type de contrôle n'est ni onéreux ni long mais engendre l'indisponibilité
+ de la machine .
 \end_layout
 
 \begin_layout Standard
-Les règles de contrôle sont basées sur l'expérience des contremaîtres, par
- pifométrie.
+Les règles de contrôle sont basées sur l'expérience des contremaîtres, sans
+ procédure définie.
+ Cette méthode ne permet donc pas de pouvoir régler les outils d'échantillonnage
+ par rapport à un risque maximal garanti.
 \end_layout
 
 \begin_layout Section
