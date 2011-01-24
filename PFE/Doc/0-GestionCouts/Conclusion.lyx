@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -54,7 +54,7 @@ Conclusion
 \begin_layout Standard
 L'analyse des coûts, basée sur de telles hypothèses et estimations, a montré
  que le projet est très rentable.
- En effet, les indicateurs tels que le VAN, IP et TRI sont très positifs
+ En effet, les indicateurs tels que la VAN, l'IP et le TRI sont très positifs
  et très élevés par rapport à la plupart des investissements.
 \end_layout
 
@@ -68,8 +68,9 @@ Face à de tels résultats, aussi positifs, nous nous sommes demandés si nous
 Il est normal d'être sceptique face à une estimation annuelle de 5,2 millions
  dollars pour la non-qualité mais si nous regardons son chiffre d'affaire
  pour 2009 (période de crise) qui est 8,424 milliards dollars, cette estimation
- est devenue relativement correcte pour une multinationale.
- Notre estimation pour le gain annuel du projet n'est donc pas trop exagérée.
+ est devenue relativement correcte pour une multinationale comme STMicroelectron
+ics.
+ Notre estimation pour le gain annuel du projet n'est donc pas exagérée.
 \end_layout
 
 \begin_layout Standard
@@ -79,9 +80,9 @@ Pour l'investissement initial, ce projet n'est pas une création mais une
  Comme ce n'est pas un projet qui va créer de la valeur ajoutée mais une
  réduction des dépenses (ou ce qui n'apporte pas de la valeur ajoutée) que
  nous l'avons considéré comme un gain financier dans la gestion des coûts.
- Le VAN est tellement élevé qu'il permet de couvrir une grande marge d'erreur
- dans l'estimation pour l'investissement initial, sans remettre pour autant
- en question la rentabilité du projet.
+ La VAN est tellement élevée qu'elle permet de couvrir une grande marge
+ d'erreur dans l'estimation pour l'investissement initial, sans remettre
+ pour autant en question la rentabilité du projet.
 \end_layout
 
 \begin_layout Standard
