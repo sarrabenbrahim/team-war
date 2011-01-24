@@ -81,7 +81,7 @@ La démarche AMDEC :
 \end_layout
 
 \begin_layout Standard
-une démarche
+Une démarche 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "art:AMDEC"
@@ -106,14 +106,14 @@ L’avantage de cette démarche est d’évaluer et de garantir : la fiabilité,
  la maintenabilité, la disponibilité, la sécurité, le rendement maximum
  au moindre cout.
  Par contre cette démarche ne permet pas de combiner plusieurs défaillances,
- en effet elle ne peut detecter qu'une défaillance à la fois.
+ en effet elle ne peut détecter qu'une défaillance à la fois.
 \end_layout
 
 \end_deeper
 \begin_layout Standard
 En conclusion nous n’allons pas utiliser cette démarche pour la suite de
  notre étude car ce type d'étude requiert un niveau de détail beaucoup trop
- important pour une production de ce type (non liénaire, multi produits,
+ important pour une production de ce type (non linéaire, multi produits,
  grand nombre d'étape de fabrication).
 \end_layout
 
@@ -122,7 +122,7 @@ L’étude de la gestion du risque
 \end_layout
 
 \begin_layout Standard
-Cette étude
+Cette étude 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "book:jugement-expert"
@@ -148,11 +148,11 @@ e parfaite des machines, donc vu les contrainte de temps que nous avons-nous
 \end_layout
 
 \begin_layout Section
-Plan de controle optimisé en se basant sur le risque
+Plan de contrôle optimisé en se basant sur le risque
 \end_layout
 
 \begin_layout Standard
-Cet article
+Cet article 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "art:controlplan"
@@ -187,7 +187,7 @@ Risk evaluation and control plan
 \end_layout
 
 \begin_layout Standard
-Un article
+Un article 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "art:risk"
@@ -196,7 +196,7 @@ key "art:risk"
 
  qui a pour idée d’évaluer les risques des machines, en effet a chaque traitemen
 t la fiabilité du processus diminue (c’est l’usure de la machine) jusqu’à
- la tache de qualité (maintenance) 
+ la tâche de qualité (maintenance) 
 \end_layout
 
 \begin_layout Itemize
@@ -228,7 +228,7 @@ Defectivity Smart Sampling
 \end_layout
 
 \begin_layout Standard
-Évoque une méthode
+Évoque une méthode 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "art:sampling"
@@ -266,7 +266,7 @@ Wafer at Risk
 \end_layout
 
 \begin_layout Standard
-Introduit une méthode
+Introduit une méthode 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "art:war"
@@ -349,7 +349,7 @@ La méthode
 \end_layout
 
 \begin_layout Standard
-Cette méthode
+Cette méthode 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "art:DCube"
@@ -376,9 +376,9 @@ Nous avons décidé de garder cette méthode au début, mais une fois que nous
  nous avons une taille de lot fixe et nous ne pouvons faire des tests simultanés
  sur plusieurs lots et finalement cette méthode imposera l'arrêt de la productio
 n plusieurs fois afin de prélever l'échantillons à tester, la taille de
- ce dernier peut devenir trés grande.
+ ce dernier peut devenir très grande.
  Cette méthode s'applique dans un cadres ou la taille de l'échantillon n'est
- pas fixe et que le contrôle n'en est pas pertubé
+ pas fixe et que le contrôle n'en est pas perturbé
 \begin_inset Foot
 status collapsed
 
@@ -391,8 +391,8 @@ Dans le cadre d'une analyse épidémologique par exemple, tester un échantillon
 \end_inset
 
 .
- Malheuresement les contraintes fortes liés au contrôle des lots nous empêchent
- d'avoir des contrôles des tailles de lot de plus en plus importante.
+ Malheureusement les contraintes fortes liées au contrôle des lots nous
+ empêchent d'avoir des contrôles des tailles de lot de plus en plus importante.
 \end_layout
 
 \begin_layout Section
