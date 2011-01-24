@@ -506,64 +506,6 @@ filename "AlgoMarcheur.lyx"
 \end_layout
 
 \begin_layout Part
-Gestion de projet
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "GestionProjet.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Part
-Gestion des coûts
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "../0-GestionCouts/Introduction.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "../0-GestionCouts/InformationsFinancier.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "../0-GestionCouts/Indicateurs.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand input
-filename "../0-GestionCouts/Conclusion.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Part
 Conclusion de l'étude
 \end_layout
 
