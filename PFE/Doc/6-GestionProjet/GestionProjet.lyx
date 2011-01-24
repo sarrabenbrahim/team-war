@@ -52,16 +52,16 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Introduction pour le rapport
-\end_layout
-
-\end_inset
-
-
+La gestion de projet est une étape primordiale.
+ Quand nous envisageons de construire une maison par exemple, nous adoptons
+ une démarche de gestion de projet.
+ Nous fixons les plans de la construction et les tâches à envisager pour
+ répondre au cahier des charges.
+ Pour améliorer la productivité de notre équipe et pour suivre l’évolution
+ du cahier des charges, nous avons décidé d’utiliser une méthode entièrement
+ développée et testée pour de courtes itérations, cette méthode n’est autre
+ que SCRUM que nous détaillerons par la suite.
+ 
 \end_layout
 
 \begin_layout Chapter
