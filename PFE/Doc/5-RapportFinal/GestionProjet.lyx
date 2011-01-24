@@ -940,13 +940,13 @@ Problèmes rencontrés et solutions apportées
 
 \begin_layout Standard
 Malheureusement (ou heureusement) un projet n'est pas un long fleuve tranquille.
- Et comme souvent es problèmes apparaissent là où on ne les attends pas
+ Et comme souvent les problèmes apparaissent là où on ne les attends pas
  :
 \end_layout
 
 \begin_layout Standard
 le cahier de charges n'a pas cessé d'évoluer ce qui nous obliger à redistribuer
- les roles à chaque fois et de reaffecter les taches.
+ les roles à chaque fois et de réaffecter les taches.
 \end_layout
 
 \begin_layout Standard
@@ -1039,39 +1039,52 @@ ces atténuante...
 \end_layout
 
 \begin_layout Standard
-Tout d’abord, notre projet de fin d’étude est une expérience très enrichissante,
- elle nous a permis de mener à bien un projet sur 5 mois qui commence par
- la phase de la spécification jusqu'à la phase de test et validation de
- la solution en passant par la phase de réalisation.
- De plus nous avons eu la chance d’être dans de vraies conditions de travail,
- en contact avec notre client final (StMicroelectronics), ce long projet
- fut très enrichissant.
- Cet avantage n’étant pas de tout repos, en effet nous avons été confrontés
- à la difficulté du monde de travail avec les réunions de dernière minute
- dans lesquelles le client final n’est pas toujours en accord avec nos propositi
-ons et provoquant ainsi une évolution permanente du cahier de charge, même
- lors de l’ultime réunion.
+Tout d’abord, notre projet de fin d’étude fut une expérience enrichissante,
+ elle nous a permis de mener à bien un projet sur cinq mois.
+ A cette occasion, nous avons eu la chance d’être dans de vraies conditions
+ de travail, en contact avec un client final (
+\emph on
+STMicroelectronics
+\emph default
+).
+ Cet chance n’étant pas de tout repos, en effet nous avons été confrontés
+ à différentes difficultés liés à la gestion du client : réunions de dernière
+ minute, changement désacord du client avec nos propositions, changement
+ permanent du cahier de charge et difficulté à avoir un énnoncé claire du
+ cahier de charge (le client ne sait pas oujours ce qu'il veut, ou demande
+ le mouton à cinq pattes).
 \end_layout
 
 \begin_layout Standard
-Ensuite nous avons eu des difficultés au sein même de notre équipe de travail,
- les caractères, les points de vues divergentes et les différentes manière
- de travailler ne nous ont pas facilités la tâche, mais chacun a pu s’imposer
+Ce plus nous avons eu des difficultés au sein de notre équipe de travail,
+ les caractères forts, les points de vues divergents et les différentes
+ manière de travailler n'ont pas facilités la tâche, mais chacun a pu échanger
  et participer à toutes les phases.
- Malgré ces difficultés, nous avons eu le plaisir de mener ce travail jusqu’à
+ Malgré ces épreuves, nous avons eu le plaisir de mener ce travail jusqu’à
  son terme.
  
 \end_layout
 
 \begin_layout Standard
-Finalement, nous ne retenons que le bon coté de cette expérience grâce à
- laquelle nous avons pu voir qu’il faut être prêt à travailler dans n’importe
- quel domaine et quelle situation, mais aussi nous avons pu mettre en œuvre
- tous ce dont nous avons appris en cours de génie industriel pour pouvoir
- manager ce projet et le mener à bien.
- Nos connaissances en informatiques restent un atout pour réaliser notre
- maquette en réponse à un cahier des charges réduit afin de mieux vendre
- notre solution.
+Nos connaissances en informatiques furent un atout pour réaliser notre maquette.
+ Cela nous a permis aussi de mieux communiquer avec le client pour mieux
+ lui 
+\begin_inset Quotes fld
+\end_inset
+
+vendre
+\begin_inset Quotes frd
+\end_inset
+
+ notre solution et valider notre travail.
+\end_layout
+
+\begin_layout Standard
+Finalement, nous ne retiendrons que le bon coté de cette expérience grâce
+ à laquelle nous avons pu voir que l'adaptation était cruciale dans le métier
+ d'ingénieur.
+ Nous avons aussi pu mettre en œuvre tous ce que nous avons appris au cours
+ de nos enseignements de génie industriel pour manager à bien un projet.
 \end_layout
 
 \end_body
