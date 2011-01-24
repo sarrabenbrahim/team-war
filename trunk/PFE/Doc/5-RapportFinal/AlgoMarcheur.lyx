@@ -56,19 +56,16 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-Au terme de notre étude sur l'existant et l'état de l'art, il nous est paru
- nécessaire de développer un outils plus adapté au problème.
- En effet développer un modèle complet est plus réaliste, à l'heure actuelle,
- car nous n'avons trouvé aucun outils approprié.
- 
+Au terme de notre étude sur l'état de l'art, nous n'avons pas trouvé de
+ solution adaptable à notre problème, de ce fait il nous est paru nécessaire
+ de développer un algorithme plus adapté au problème.
 \end_layout
 
 \begin_layout Standard
-En résumer nous allons détailler le modèle que nous avons développé par
- la suite.
+Par la suite nous allons détailler le modèle que nous avons développé :
  Le modèle du marcheur :
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Le nom 
@@ -97,19 +94,19 @@ marche de l'ivrogne
 
 \begin_layout Standard
 Il permet dans un premier temps de déterminer un indice de risque pour les
- pièces (Indice de santé).
- Et dans un deuxième temps se servir de cette indice de confiance pour détermine
-r les pièces les plus risqués, prioriser leur contrôle, et remonter plus
- rapidement aux lots impactés.
- Afin de représenter ces données nous les coupleront avec l'avancement du
- lot dans l'usine.
+ marcheurs (Indice de santé).
+ Et dans un deuxième temps se servir de cet indice de santé pour déterminer
+ les marcheurs les plus risqués, prioriser leur contrôle médical, et remonter
+ plus rapidement aux marcheurs blessés.
+ Afin de représenter ces données nous les avons couplé avec l'avancement
+ du marcheur dans la ville.
 \end_layout
 
 \begin_layout Standard
-L'idée de départ est assez simple, on se propose de regarder la probabilité
- d'un marcheur d'être agressé en se baladant dans une ville
+L'idée de départ est assez simple, nous nous proposons de regarder la probabilit
+é d'un marcheur d'être agressé en se baladant dans une ville
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Notre vie à Marseille dans les quartiers nord nous a fortement inspiré pour
@@ -135,11 +132,7 @@ Afin de rendre le propos le plus clair possible nous allons détailler les
 \end_layout
 
 \begin_layout Itemize
-Un marcheur (un lot ou 
-\emph on
-Batch
-\emph default
-) augmente sa 
+Un marcheur augmente sa 
 \begin_inset Quotes fld
 \end_inset
 
@@ -147,34 +140,25 @@ chance
 \begin_inset Quotes frd
 \end_inset
 
- d'être blessé (défectueux) au fur et à mesure qu'il se ballade dans la
- ville (Traverse beaucoup de postes de travail ou 
-\emph on
-Workstation
-\emph default
-).
+ d'être blessé au fur et à mesure qu'il se ballade dans la ville .
 \end_layout
 
 \begin_layout Itemize
-Le marcheur qui traverse des quartiers dangereux (Machine de production,
- 
-\emph on
-Workstation
-\emph default
-) a plus de chance d'être blessé que dans un quartier tranquille.
+Le marcheur qui traverse des quartiers dangereux a plus de chance d'être
+ blessé que dans un quartier tranquille.
 \end_layout
 
 \begin_layout Itemize
-Propriété du quartier dynamique (Machine de production)
+Propriété du quartier dynamique 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Le taux de criminalité d'un quartier augmente linéairement.
- De manière parrallèle la sureté d'un quartier diminue linéairement en fonction
+ De manière parallèle la sûreté d'un quartier diminue linéairement en fonction
  du nombre de marcheur se promenant dans le quartier.
  En effet plus de gens passent dans un quartier plus cela attire les bandits.
- Ce qui entraine une augmentation direct du 
+ Ce qui entraîne une augmentation direct du 
 \begin_inset Formula $Taux_{Criminalité}$
 \end_inset
 
@@ -200,9 +184,9 @@ La criminalité est remise à un niveau seuil quand la police passe.
 \begin_layout Itemize
 La criminalité est remise à un seuil de confiance si la santé du marcheur
  est bonne en sortant du quartier.
- Un medecin contrôle le marcheur, si il est en bonne santé on en déduit
- que la criminalité du quartier a été surévaluer, on réaugmente cette sureté
- à un niveau seuil.
+ Un médecin contrôle le marcheur, si il est en bonne santé nous en déduisons
+ que la criminalité du quartier a été surévaluée, nous réaugmentons cette
+ sûreté à un niveau seuil.
  
 \end_layout
 
@@ -213,8 +197,7 @@ Le contrôle de la santé d'un marcheur donne de l'information uniquement
 
 \end_deeper
 \begin_layout Itemize
-Il y a trois type de marcheur, un petit, moyen et un grand (technologie
- logique, mémoire et mixte)
+Il y a trois type de marcheur, un petit, moyen et un grand 
 \end_layout
 
 \begin_deeper
@@ -225,7 +208,7 @@ Plus un marcheur est petit plus il aura de chance d'être agressé, en effet
 
 \end_deeper
 \begin_layout Itemize
-On formalise le problème : 
+Nous formalisons le problème : 
 \begin_inset Formula \begin{equation}
 Indice_{Santé}=Indice_{SantéDéfaut}\times\prod_{i=1}^{N}\left(Sureté_{Quartier[i]}\right)\end{equation}
 
@@ -236,29 +219,11 @@ Indice_{Santé}=Indice_{SantéDéfaut}\times\prod_{i=1}^{N}\left(Sureté_{Quarti
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $I_{Machine[i]}$
-\end_inset
-
- est la fiabilité de la machine 
-\begin_inset Formula $i$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $I_{Produit}$
-\end_inset
-
- est la fiabilité du produit.
-\end_layout
-
-\begin_layout Itemize
 \begin_inset Formula $Indice_{Santé}$
 \end_inset
 
  est un indice de confiance plus cette valeur est basse plus un marcheur
- a de chance d'être bléssé et un contrôle du médecin s'impose au plus vite.
+ a de chance d'être blessé et un contrôle du médecin s'impose au plus vite.
 \begin_inset Note Note
 status open
 
@@ -273,7 +238,7 @@ Remplacer W@R par indice de santé et F_machine est un indice de santé
 
 \end_deeper
 \begin_layout Subsection
-Adapation de l'algorithme au problème industriel 
+Adaptation de l'algorithme au problème industriel 
 \end_layout
 
 \begin_layout Standard
@@ -303,7 +268,7 @@ Un quartier est une machine de production (
 \emph on
 Workstation
 \emph default
-) et la sureté du quartier sera la fiabilité de la machine
+) et la sûreté du quartier sera la fiabilité de la machine
 \end_layout
 
 \begin_deeper
@@ -332,6 +297,19 @@ MSL
 \end_layout
 
 \begin_layout Itemize
+Le type du marcheur un petit, moyen ou un grand 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Formula $TypeMarcheur\rightarrow Technologie$
+\end_inset
+
+ , (exemple : mémoire, logique ou mixte).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
 L'état de santé du marcheur sera l'indice de santé du lot (ou fiabilité
  du lot)
 \end_layout
@@ -350,18 +328,18 @@ L'algorithme
 \end_layout
 
 \begin_layout Standard
-On définit différents niveaux de complexité à notre algorithme, pour chaque
- niveau de complexité nous détaillerons les différences.
- Il est à noter que tous ces calculs sont donné pour l'
+nous avons défini différents niveaux de complexité à notre algorithme, pour
+ chaque niveau de complexité nous allons détailler les différences.
+ Il est à noter que tous ces calculs sont donnés pour l'
 \begin_inset Formula $Indice_{Santé}$
 \end_inset
 
  d'un seul lot.
- On fera tourner cet algorithme dans une boucle pour comparer les différents
- lots entre eux.
- Ensuite on déterminera un classement des lots les plus risqué en fonction
- de leur avancement.
- Cela permettra de savoir rapidement quel produit contrôler en priorité.
+ nous avons fait tourner cet algorithme dans une boucle pour comparer les
+ différents lots entre eux.
+ Ensuite nous avons déterminé un classement des lots les plus risqué en
+ fonction de leur avancement.
+ Cela va nous permettre de savoir rapidement quel produit contrôler en priorité.
 \end_layout
 
 \begin_layout Subsection
@@ -369,7 +347,7 @@ Niveau 0 : Modèle simple
 \end_layout
 
 \begin_layout Standard
-On suppose que les machines ont une fiabilité 
+nous supposons que les machines ont une fiabilité initiale 
 \begin_inset Formula $F_{Machine}=0,5=50\%$
 \end_inset
 
@@ -381,7 +359,7 @@ On suppose que les machines ont une fiabilité
 \begin_inset Formula $Indice_{santé}$
 \end_inset
 
- est la probabilité du produit d'être défectueux.
+ est la probabilité du lot d'avoir des produits défectueux.
 \end_layout
 
 \begin_layout Itemize
@@ -402,7 +380,7 @@ pour
 
 \begin_deeper
 \begin_layout Itemize
-\begin_inset Formula $Indice_{SantéLot}=Indice_{SantéLot}\times F_{Machine}$
+\begin_inset Formula $Indice_{SantéLot}=Indice_{SantéLot}\times F_{Machine[i]}$
 \end_inset
 
 
@@ -413,12 +391,23 @@ pour
 Fin Pour
 \end_layout
 
+\begin_layout Paragraph
+\begin_inset Formula $F_{Machine[i]}$
+\end_inset
+
+ est la fiabilité de la machine 
+\begin_inset Formula $i$
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection
 Niveau 1 : Modèle des quartiers
 \end_layout
 
 \begin_layout Standard
-On suppose maintenant que la fiabilité est différente sur chaque machine
+Nous supposons maintenant que la fiabilité est différente sur chaque machine
  
 \begin_inset Formula $F_{Machine[i]}$
 \end_inset
@@ -477,7 +466,7 @@ Niveau 2 : Modèle des quartiers avec criminalité croissante
 status open
 
 \begin_layout Plain Layout
-Ne prend pas en compte le medecin ou MSL, plus de modèle temporel
+Ne prend pas en compte le médecin ou MSL, plus de modèle temporel
 \end_layout
 
 \end_inset
@@ -486,8 +475,8 @@ Ne prend pas en compte le medecin ou MSL, plus de modèle temporel
 \end_layout
 
 \begin_layout Standard
-On suppose maintenant que la fiabilité est différente sur chaque machine
- et décroit linéairement : 
+Nous supposons maintenant que la fiabilité est différente sur chaque machine
+ et décroît linéairement : 
 \begin_inset Formula \begin{equation}
 F_{Machine[i]}=F_{MachineDefaut}-\left(\lambda_{Machine}\times N_{Produit}\right)\end{equation}
 
@@ -500,22 +489,29 @@ F_{Machine[i]}=F_{MachineDefaut}-\left(\lambda_{Machine}\times N_{Produit}\right
 \begin_inset Formula $N_{Produit}$
 \end_inset
 
- le nombre de produits passés sur la machine depuis le dernier contrôle.
+ : le nombre de produits passés sur la machine depuis le dernier contrôle.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\lambda_{Machine}$
+\end_inset
+
+ : Taux de détérioration de la machine .
 \end_layout
 
 \begin_layout Itemize
 \begin_inset Formula $F_{MachineDefaut}$
 \end_inset
 
- est la fiabilité maximal par défaut, suite à un contrôle de la machine.
+ : est la fiabilité maximal par défaut, suite à un contrôle de la machine.
  
 \end_layout
 
 \begin_layout Standard
-Afin de définir un seuil minmal de Fiabilité de la machine on définira la
- Fiabilité de la manière suivante 
+Afin de définir un seuil minimal de Fiabilité de la machine nous avons défini
+ la Fiabilité de la manière suivante 
 \begin_inset Formula \begin{equation}
-F_{Machine}=\max\left(F_{MachineMin},F_{MachineProduits[i]}\right)\end{equation}
+F_{Machine}=\max\left(F_{MachineMin},F_{Machine}\right)\end{equation}
 
 \end_inset
 
@@ -553,6 +549,7 @@ Fin Pour
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -587,11 +584,11 @@ Modèles d'évolution fiabilité (ou la criminalité) d'une machine (ou quartier
 \emph on
 Le graphique suivant représente l'évolution de la fiabilité d'une machine
  en fonction du nombre de produits qui passent sur la machine.
- Certains évenement font remonter le niveau de fiabilité de la machine à
+ Certains évènement font remonter le niveau de fiabilité de la machine à
  un seuil par défaut (trait rouge).
  De plus la fiabilité est minoré par un seuil minimal de fiabilité (trait
  bleu).
- Tant qu'aucun évenement de contrôle (MSL ou MSE) se produit sur la machine
+ Tant qu'aucun évènement de contrôle (MSL ou MSE) se produit sur la machine
  la fiabilité reste au même niveau.
  
 \end_layout
@@ -616,8 +613,8 @@ N'est pas implemanté dans le code
 \end_layout
 
 \begin_layout Standard
-On suppose maintenant que le type de marcheur (la technologie), est plus
- susceptible d'être blessé suivant son type intrinsèque
+Nous supposons maintenant que le type de marcheur (la technologie), est
+ plus susceptible d'être blessé suivant son type intrinsèque
 \end_layout
 
 \begin_layout Standard
@@ -680,7 +677,7 @@ mémoire et logique
 \end_layout
 
 \begin_layout Standard
-Le calcul s'effectue de la même manière ensuite, on introduira simplement
+Le calcul s'effectue de la même manière, ensuite nous introduirons simplement
  le nouveau coefficient de risque du lot (
 \begin_inset Formula $\beta$
 \end_inset
@@ -690,8 +687,8 @@ Le calcul s'effectue de la même manière ensuite, on introduira simplement
 \end_layout
 
 \begin_layout Standard
-On déduira la valeur de l'indice de santé après calcul précédent de la manière
- suivante.
+Nous déduirons la valeur de l'indice de santé après calcul précédent de
+ la manière suivante.
  
 \begin_inset Formula \[
 Indice_{SantéLot}=Indice_{SantéLot}\times\beta\]
@@ -707,13 +704,13 @@ Il est à noter que les informations de complexité ne nous ayant pas été
 \end_layout
 
 \begin_layout Section
-Specification du Code
+Spécification du Code
 \end_layout
 
 \begin_layout Standard
 Vu la complexité du projet nous avons décidé de développer notre code en
- Java, la structure des données et l'algorithme nous incite à utiliser ce
- type de langage.
+ Java, la structure des données et l'algorithme nous incitent à utiliser
+ ce type de langage.
  De plus comme il s'agit simplement de la validation d'algorithme, ce code
  n'a pas pour vocation d'être développé ultérieurement.
  En effet le Java est le langage enseigné dans notre formation et permettra
@@ -725,9 +722,9 @@ Traitement des données
 \end_layout
 
 \begin_layout Standard
-Concernant les données utilisés il faut préciser que pour des raisons de
- temps et de moyens nous avons travaillé sur un ensemble de données tronqué.
- En effet les informations liées aux technologies ont été supprimés.
+Concernant les données utilisées il faut préciser que pour des raisons de
+ temps et de moyens nous avons travaillé sur un ensemble de données tronquées.
+ En effet les informations liées aux technologies ont été supprimées.
  
 \end_layout
 
@@ -746,7 +743,7 @@ STMicroelectronics
 \end_layout
 
 \begin_layout Standard
-On distingue différents champs de données :
+nous distinguons différents champs de données :
 \end_layout
 
 \begin_layout Description
@@ -764,8 +761,8 @@ Vide) Le premier champs vide est le numéro de la tâche, chaque tâche est
 
 \begin_layout Description
 Date Il s'agit de la date à laquelle l'évènement étudié a eu lieux.
- Il est à noter que notre fichier de données repose sur 15 jours de productions,
- le temps est donné en secondes.
+ Il est à noter que le fichier de données dont nous disposons fait l'objet
+ d'un historique d'un mois de production filtré, le temps est donné en secondes.
 \end_layout
 
 \begin_deeper
@@ -833,7 +830,7 @@ Lot
 
 (batch) Il s'agit du numéro du lot, impacté par la tâche.
  Dans le cas où ce champ est vide, cela veut dire que la machine ne traite
- pas de produit mais qu'on effectue une tâche qualité sur la machine.
+ pas de produit mais que nous effectuons une tâche qualité sur la machine.
 \end_layout
 
 \begin_layout Description
@@ -841,7 +838,7 @@ Oper
 \begin_inset space ~
 \end_inset
 
-(operation) Ce champs qualifie le type d'opération effectués sur le lot
+(operation) Ce champs qualifie le type d'opération effectuées sur le lot
 \end_layout
 
 \begin_layout Description
@@ -849,7 +846,7 @@ Nbr
 \begin_inset space ~
 \end_inset
 
-(quantity) Représente le nombre de Wafers concernés par un événement de
+(quantity) Représente le nombre de plaques concernées par un événement de
  process, c'est-à-dire le nombre de plaques passées dans la machine.
 \end_layout
 
@@ -908,7 +905,7 @@ Classe des entités
 
 \begin_layout Standard
 Afin d'utiliser les données au mieux, nous allons organiser les données
- sous forme de la structure suivante détaillé dans la suite.
+ sous forme de la structure suivante détaillée dans la suite.
  Ces classes font partie du package 
 \emph on
 entities
@@ -992,7 +989,7 @@ Charactere
 \begin_inset space ~
 \end_inset
 
-Tâche numéro de tâche
+Tâche numéro de tâche.
 \end_layout
 
 \begin_layout Description
@@ -1008,7 +1005,7 @@ Charactere
 \begin_inset space ~
 \end_inset
 
-Type Précise le type de tâche 
+Type Précise le type de tâche.
 \end_layout
 
 \end_deeper
@@ -1105,6 +1102,7 @@ Cette structure nous permet d'organiser les données de manière logique,
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1158,7 +1156,7 @@ Marcheur
 
 \begin_layout Standard
 Contient l'algorithme qui lance les méthodes de calculs qui se trouvent
- sur les batch et workstations.
+ sur les batchs et workstations.
  Les méthodes de calcul de fiabilité se font sur l'objet batch et Workstation.
  En effet à la vue de notre architecture, les données nécessaires au calcul
  sont présentes sur ces objets et il est naturel d'associer les méthodes
@@ -1175,9 +1173,9 @@ Nous organisons notre lecture de fichier de façon à ranger les informations
 \end_layout
 
 \begin_layout Standard
-On définit une classe qui lit les fichiers et instancie les traçabilités
+Nous définissons une classe qui lit les fichiers et instancie les traçabilités
  associées à chaque ligne.
- De plus ce chargeur de fichier est spécificié pour comprendre le fichier
+ De plus ce chargeur de fichier est spécifié pour comprendre le fichier
  donné par 
 \emph on
 STMICROELECTRONICS.
@@ -1196,12 +1194,12 @@ Extracteur
 \end_layout
 
 \begin_layout Standard
-Ces classes interprètent les traçabilité extraites par le load et crée les
- objets batch, workstation et insère les traçabilités associées.
+Ces classes interprètent les traçabilités extraites par le extractors et
+ crée les objets batch, workstation et insère les traçabilités associées.
  Il fait en quelque sorte le trie des données et permet d'associer chaque
  traçabilité à la machine et au lot qui lui correspond.
- De plus ces classes créent les objets et instance d'objet nécessaire à
- l'excution de l'algorithme.
+ De plus ces classes créent les objets et instance d'autre objet nécessaire
+ à l'exécution de l'algorithme.
  
 \end_layout
 
@@ -1221,8 +1219,8 @@ Batch
 Workstation
 \emph default
 .
- Ces objets possèdent comme atributs leur nom, leur technoloie et leur mémoire
- qui est représenté par une collection de 
+ Ces objets possèdent comme attributs leur nom, leur technologie et leur
+ mémoire qui est représentée par une collection de 
 \emph on
 tracabilies
 \emph default
@@ -1247,6 +1245,7 @@ reference "sec:Classe-Batch"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1293,9 +1292,9 @@ Classe Constants
 
 \begin_layout Standard
 Les connaissances métiers pouvant être à même d'évoluer nous avons effectué
- une classe constante qui regroupe toutes les données utilisés pour les
- calculs d'algorithme et peuvent être regler très facilement.
- On retrouve dans cette classe les attributs suivants :
+ une classe constante qui regroupe toutes les données utilisées pour les
+ calculs d'algorithme et peuvent être réglées très facilement.
+ Nous retrouvons dans cette classe les attributs suivants :
 \end_layout
 
 \begin_layout Description
@@ -1309,9 +1308,9 @@ DEFAULT_VALUE_WHEN_EMPTY_ROW Permet de donner le texte à écrire lors de
 \end_layout
 
 \begin_layout Description
-DISTURBANCE_WORSTATION_PER_EVENT Il s'agit là du déreglement d'une machine
+DISTURBANCE_WORSTATION_PER_EVENT Il s'agit là du dérèglement d'une machine
  après le passage d'un lot il s'agit de 
-\begin_inset Formula $\lambda_{Dereglement}$
+\begin_inset Formula $\lambda_{Machine}$
 \end_inset
 
 
@@ -1353,16 +1352,17 @@ LONG_FILE le chemin pour les données complètes
 \end_layout
 
 \begin_layout Description
-QUALITYTASK La chaine de charactère qui indique une tâche de qualité sur
+QUALITYTASK La chaîne de caractères qui indique une tâche de qualité sur
  une machine
 \end_layout
 
 \begin_layout Description
-BATCH_CONTROL Chaine de caractère qui indique un contrôle de lot 
+BATCH_CONTROL Chaîne de caractère qui indique un contrôle de lot 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1392,7 +1392,7 @@ Diagramme de classe des constantes
 \align center
 
 \emph on
-Cette classe permet de paramétrer l'ensemble du projet en definissant les
+Cette classe permet de paramétrer l'ensemble du projet en définissant les
  constantes utilisées dans le projet.
  
 \end_layout
@@ -1416,7 +1416,7 @@ Batch
 \emph on
 Workstation
 \emph default
- à partir de l'ensemble des traçabilités générees par les classes StoreData
+ à partir de l'ensemble des traçabilités générées par les classes StoreData
 \begin_inset Foot
 status open
 
@@ -1434,6 +1434,7 @@ Ces classes ne sont pas détaillés, car elles ne font que lire et écrire
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1477,8 +1478,9 @@ Résultats
 
 \begin_layout Standard
 Pour représenter les résultats de l'algorithme.
- Nous représentons dans un graphique en deux dimensions dans lequel on affiche
- l'indice de santé en fonction de l'avancement du produit (cf Fig 
+ Nous représentons dans un graphique en deux dimensions dans lequel nous
+ affichons l'indice de santé en fonction de l'avancement du produit (cf
+ Fig 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Représentation-des-résultats"
@@ -1492,8 +1494,8 @@ reference "fig:Représentation-des-résultats-2"
 
 \end_inset
 
-) ces données on été obtenues avec les réglages présent réciproquement en
- tableau 
+) ces données ont été obtenues avec les réglages présent réciproquement
+ en tableau 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "tab:Données-de-règlage"
@@ -1513,6 +1515,7 @@ reference "tab:Données-de-règlage-2"
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
@@ -1528,7 +1531,7 @@ name "tab:Données-de-règlage"
 
 \end_inset
 
-Données de règlage de l'algorithme
+Données de réglage de l'algorithme
 \end_layout
 
 \end_inset
@@ -1665,7 +1668,7 @@ Valeur
 \begin_layout Plain Layout
 
 \emph on
-Valeurs de réglage utilisés pour générer les résultats représenté en fign
+Valeurs de réglage utilisés pour générer les résultats représenté en figure
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Représentation-des-résultats"
@@ -1682,6 +1685,7 @@ reference "fig:Représentation-des-résultats"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1717,7 +1721,7 @@ Représentation des résultats après calculs
 
 \emph on
 Sur l'axe des abscisses nous avons l'avancement du produit et l'axe des
- ordonées représente l'indice de santé.
+ ordonnées représente l'indice de santé.
  Chaque croix représente un produit à l'instant t.
  Les réglages de cette simulation sont donnés dans le tab
 \emph default
@@ -1738,6 +1742,7 @@ reference "tab:Données-de-règlage"
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
@@ -1753,7 +1758,7 @@ name "tab:Données-de-règlage-2"
 
 \end_inset
 
-Données de règlage de l'algorithme
+Données de réglage de l'algorithme
 \end_layout
 
 \end_inset
@@ -1920,6 +1925,7 @@ reference "fig:Représentation-des-résultats-2"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1955,7 +1961,7 @@ Représentation des résultats après calculs
 
 \emph on
 Sur l'axe des abscisses nous avons l'avancement du produit et l'axe des
- ordonées représente l'indice de santé.
+ ordonnées représente l'indice de santé.
  Chaque croix représente un produit à l'instant t.
  Les réglages de cette simulation sont donnés dans le tab
 \emph default
@@ -2004,7 +2010,7 @@ A calculer !!!!
 \end_inset
 
 calculs.
- Ce qui est génant dans ce type de problème car le nombre de donnée est
+ Ce qui est gênant dans ce type de problème car le nombre de donnée est
  assez considérable et le temps de calcul qui en découle est important.
 \end_layout
 
@@ -2014,7 +2020,7 @@ Manque de réalisme avec la réalité
 
 \begin_layout Standard
 Le code actuel ne fait pas état de la réalité complète.
- Pour les besoins de l'études quelques hypothèses simplificatrices ont été
+ Pour les besoins de l'étude quelques hypothèses simplificatrices ont été
  faites : 
 \end_layout
 
@@ -2024,15 +2030,11 @@ Les technologies ne sont pas détaillées dans les données traitées.
 
 \begin_layout Itemize
 Les contrôles MSE et MSL sont sur une technologie particulière et non pas
- sur la 
-\begin_inset Formula $F_{Produit}$
-\end_inset
-
- globale de la 
+ sur la fiabilité globale de la 
 \emph on
 Workstation
 \emph default
- et le 
+ et l'indice de santé du 
 \emph on
 Batch
 \emph default
@@ -2051,9 +2053,9 @@ MSE
 \end_layout
 
 \begin_layout Itemize
-Dans notre projet toutes les machines ont le même poid pour le calcul de
+Dans notre projet toutes les machines ont le même poids pour le calcul de
  la fiabilité.
- Ce qui diffère avec la réalité, c'est que certaines machines ont un poid
+ Ce qui diffère avec la réalité, c'est que certaines machines ont un poids
  plus important que d'autres.
 \end_layout
 
