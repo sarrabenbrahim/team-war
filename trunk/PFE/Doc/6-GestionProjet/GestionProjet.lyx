@@ -462,6 +462,18 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ScrumShemaGlobal.png
+	lyxscale 50
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -475,18 +487,6 @@ name "fig:Structure-Methode-Scrum"
 \emph on
 Structure Globale de la méthode SCRUM
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename /Users/fabiengarcia/SVN/team-war/PFE/Doc/Images/ScrumShemaGlobal.png
-	lyxscale 50
-	width 70col%
 
 \end_inset
 
@@ -521,7 +521,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/fabiengarcia/SVN/team-war/PFE/Doc/Images/CompteRendu.png
+	filename ../Images/CompteRendu.png
 	height 30pheight%
 
 \end_inset
@@ -615,7 +615,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/fabiengarcia/SVN/team-war/PFE/Doc/Images/Planning.PNG
+	filename ../Images/Planning.PNG
 	width 70col%
 
 \end_inset
@@ -1103,7 +1103,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename /Users/fabiengarcia/SVN/team-war/PFE/Doc/Images/DiagrammeIDEEF0.png
+	filename ../Images/DiagrammeIDEEF0.png
 	height 30theight%
 
 \end_inset
