@@ -36,6 +36,7 @@
 \tracking_changes false
 \output_changes false
 \author "" 
+\author "" 
 \end_header
 
 \begin_body
@@ -1078,6 +1079,44 @@ Au terme de cette itération deux rapport ont été livré un rapport de synthé
  des coûts et un rapport de gestion de projet.
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/DiagrammeIDEEF0.png
+	width 30col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Récapitulatif des itérations
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Problèmes rencontrés et solutions apportées
 \end_layout
@@ -1093,19 +1132,19 @@ Les problèmes rencontrés durant le développement du PFE :
 \end_layout
 
 \begin_layout Itemize
-Un cahier des charges trés léger et qui n'a pas cessé d'évoluer,
+Un cahier des charges trés léger et qui n'a pas cessé d'évoluer
 \end_layout
 
 \begin_layout Itemize
-Manque de ressources d'informations bibliographiques, 
+Manque de ressources d'informations bibliographiques
 \end_layout
 
 \begin_layout Itemize
-Manque de données pour le calcul de gestion des coûts,
+Manque de données pour le calcul de gestion des coûts
 \end_layout
 
 \begin_layout Itemize
-Le choix du langage pour le développement de la maquette.
+Le choix du langage pour le développement de la maquette
 \end_layout
 
 \begin_layout Standard
@@ -1120,7 +1159,7 @@ Sollicitation des pistes de recherches auprés des chercheurs du LSIS
 Pour les données concernant le rapport de gestion des coûts, nous avons
  dû poser nous mêmes nos propres hypothèses à cause du manque d'informations.
  En effet ce genre de données est confidentiel et ne peut pas être divulgué
- ni fournis,
+ ni fournis
 \end_layout
 
 \begin_layout Itemize
@@ -1128,7 +1167,7 @@ Pour le développement de la maquette nous avons choisi le langage Java puisque
  nous le maîtrisons, de plus il est simple à interpréter en comparaison
  avec d'autre langage.
  sachant que nous nous sommes pas obligés de programmer la solution , le
- problème d'optimisation ne se pose pas.
+ problème d'optimisation ne se pose pas
 \end_layout
 
 \begin_layout Standard
