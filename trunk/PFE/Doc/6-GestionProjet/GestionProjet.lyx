@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -48,10 +48,23 @@ figs-within-sections
 \begin_body
 
 \begin_layout Chapter
-Organisation du projet
+Introduction
 \end_layout
 
-\begin_layout Section
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Introduction pour le rapport
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
 Organisation de l'équipe
 \end_layout
 
@@ -71,6 +84,15 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tableau récapitulatif des rôles
+\end_layout
+
+\end_inset
+
+
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="3">
 <features>
@@ -337,15 +359,6 @@ Son rôle est de contrôler le bon déroulement de tous les réunions de l'équi
 \end_inset
 
 
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Tableau récapitulatif des rôles
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -359,11 +372,11 @@ Pour le travail nous nous sommes génarelement organisé en fonction du nombre
  ya des fois ou nous avons travaillé en binômes , en équipe de 3 personnes.
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Gestion de projet
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Choix de la méthode agile
 \end_layout
 
@@ -388,7 +401,7 @@ En effet la méthode agile est une méthode de suivie de projet héritée des
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Caractéristiques de la méthode agile
 \end_layout
 
@@ -462,18 +475,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../Images/ScrumShemaGlobal.png
-	lyxscale 50
-	width 70col%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -494,6 +495,18 @@ Structure Globale de la méthode SCRUM
 \end_layout
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../Images/ScrumShemaGlobal.png
+	lyxscale 50
+	width 70col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 Source : Wikipedia.
 \end_layout
 
@@ -502,13 +515,13 @@ Source : Wikipedia.
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Outils de travail
 \end_layout
 
 \begin_layout Itemize
 Compte rendu : Le but de faire des comptes rendus est d'avoir à la fois
- une trace écrite d'une réunion ainsi qu'un support d'information
+ une trace écrite d'une réunion ainsi qu'un support d'information.
 \end_layout
 
 \begin_layout Standard
@@ -520,21 +533,18 @@ status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Graphics
-	filename ../Images/CompteRendu.png
-	height 30pheight%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
 Exemple de compte rendu
 \end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../Images/CompteRendu.png
+	width 80col%
 
 \end_inset
 
@@ -547,21 +557,14 @@ Exemple de compte rendu
 \end_layout
 
 \begin_layout Itemize
-Gestionnaire de version 
-\emph on
-Subversion
-\emph default
- : Nous avons choisi le gestionnaire 
-\emph on
-Subversion
-\emph default
- qui est un logiciel de gestion de version, afin de palier au probléme relatif
- à la perte des données ainsi qu'au probléme lié à la gestion versions de
- documents.
- Il permet à une équipe de disposer d'un ensemble de fichier commun et transmett
-re les modifications de manière simultanée à tous ces membres.
- Cela permet d'avoir un archivage des données et permet un travail colaboratif.
- 
+Serveur SVN : Nous avons choisi le serveur SVN qui est un logiciel de gestion
+ de version afin de palier au probléme relatif à la perte des données ainsi
+ qu'au probléme lié à la gestion des conflits.
+ En résumé cela consiste à travailler sur des versions précedente de sauvegarde
+ afin de pouvoir résoudre le conflit.
+ TortoiseSVN est un client gratuit multiplateforme du serveur ; il permet
+ d'interfacer avec celui-ci afin d'effectuer des opération d'ajout, d'envoi,
+ de mise à jour, etc...
 \end_layout
 
 \begin_layout Itemize
@@ -572,14 +575,11 @@ LyX est un outil open source multiplateforme pour l’édition et le traitement
  les parties du rapport puis de les réintégrer d’une façon simple.
  Cet outil est performant, il permet de faire la mise en forme de la totalité
  du rapport automatiquement.
- De plus utilisant des fichiers textes il est compatible avec un gestionnaire
- de fichier texte (impossible avec les document Word ou Open office car
- binaire)
 \end_layout
 
 \begin_layout Itemize
-DIA est un outil libre de création de différents diagramme du même type
- que Visio (Visio étant payant)
+DIA est un outil libre de création de différents diagrammes du même type
+ que Visio (Visio étant payant).
 \end_layout
 
 \begin_layout Itemize
@@ -587,10 +587,10 @@ NetBeans est un environnement de développement intégré (IDE).
  Il permet de faciliter le développement du code Java.
  Nous l'avons choisi car il permet d'intégrer le Serveur SVN afin de pouvoir
  travailler sur le code en groupe.
- De plus cet outil est gratuit et performant.
+ De plus cet outil est gratuit.
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Suivi du projet
 \end_layout
 
@@ -614,16 +614,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Graphics
-	filename ../Images/Planning.PNG
-	width 70col%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -636,6 +626,13 @@ name "fig:Planning-du-projet"
 
 
 \end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../Images/Planning.PNG
+	width 80col%
 
 \end_inset
 
@@ -661,6 +658,15 @@ status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Répartition des charges
+\end_layout
+
+\end_inset
+
+
 \begin_inset Tabular
 <lyxtabular version="3" rows="4" columns="2">
 <features>
@@ -753,24 +759,12 @@ Développement de la solution
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Répartition des charges
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Section
 Product back log
 \end_layout
 
@@ -859,7 +853,7 @@ Tests
 \end_layout
 
 \end_deeper
-\begin_layout Subsection
+\begin_layout Section
 La première itération 
 \end_layout
 
@@ -934,7 +928,7 @@ Mise en place de la de la méthode de gestion de projet agile (SCRUM) pour
  notre PFE 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 La deuxième itération 
 \end_layout
 
@@ -1030,7 +1024,7 @@ Au terme de cette itération un rapport intérmédiaire était livré qui d'écr
  ainsi des ouvrages étudiés et une proposition de l'algorithme du marcheur.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 La troisiéme itération 
 \end_layout
 
@@ -1096,22 +1090,13 @@ Au terme de cette itération deux rapport ont été livré un rapport de synthé
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Graphics
-	filename ../Images/DiagrammeIDEEF0.png
-	height 30theight%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -1121,6 +1106,17 @@ Récapitulatif des itérations
 \end_inset
 
 
+\begin_inset Graphics
+	filename ../Images/DiagrammeIDEEF0.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -1128,7 +1124,7 @@ Récapitulatif des itérations
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Problèmes rencontrés et solutions apportées
 \end_layout
 
@@ -1143,23 +1139,19 @@ Les problèmes rencontrés durant le développement du PFE :
 \end_layout
 
 \begin_layout Itemize
-Un cahier des charges trés léger et qui n'a pas cessé d'évoluer,
+Un cahier des charges trés léger et qui n'a pas cessé d'évoluer
 \end_layout
 
 \begin_layout Itemize
-Manque de ressources d'informations bibliographiques, 
+Manque de ressources d'informations bibliographiques
 \end_layout
 
 \begin_layout Itemize
-Manque de données pour le calcul de gestion des coûts,
+Manque de données pour le calcul de gestion des coûts
 \end_layout
 
 \begin_layout Itemize
-Le choix du langage pour le développement de la maquette.
-\end_layout
-
-\begin_layout Itemize
-Difficultées relationnelles au seins de l'équipe
+Le choix du langage pour le développement de la maquette
 \end_layout
 
 \begin_layout Standard
@@ -1174,27 +1166,20 @@ Sollicitation des pistes de recherches auprés des chercheurs du LSIS
 Pour les données concernant le rapport de gestion des coûts, nous avons
  dû poser nous mêmes nos propres hypothèses à cause du manque d'informations.
  En effet ce genre de données est confidentiel et ne peut pas être divulgué
- ni fournis,
+ ni fournis
 \end_layout
 
 \begin_layout Itemize
 Pour le développement de la maquette nous avons choisi le langage Java puisque
  nous le maîtrisons, de plus il est simple à interpréter en comparaison
  avec d'autre langage.
- sachant que nous nous sommes pas forcés de programmer la solution, le problème
- d'optimisation ne se pose pas.
-\end_layout
-
-\begin_layout Itemize
-Concernant l'aspect relationnel, nous n'avons jamais cessé de communiquer
- et malgré des opositions de caractères forts nous n'avons jamais hésité
- à nous dire les choses et ne pas laisser de non dit s'installer.
- 
+ sachant que nous nous sommes pas obligés de programmer la solution , le
+ problème d'optimisation ne se pose pas
 \end_layout
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Je suis conscient que cela peut paraître un peu honteux, mais malgrès des
@@ -1223,7 +1208,7 @@ Fabien
 
 \begin_layout Standard
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Par exemple Philippe tu arrives à dire ce que tu penses directement à qui
@@ -1260,7 +1245,7 @@ ces atténuante...
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Conclusion
 \end_layout
 
@@ -1272,11 +1257,11 @@ Tout d’abord, notre projet de fin d’étude fut une expérience enrichissante
 \end_layout
 
 \begin_layout Standard
-Cet configuration n’étant pas de tout repos, en effet nous avons été confrontés
- à différentes contraintes liés à la gestion du client : désacord du client
- avec nos propositions, changement permanent du cahier de charge, obtention
- d'un énnoncé claire des besoins (le client ne sait pas toujours ce qu'il
- veut, ou demande le mouton à cinq pattes).
+Cette chance n’étant pas de tout repos, en effet nous avons été confrontés
+ à la difficulté du monde de travail avec les réunions de dernière minute
+ dans lesquelles le client final n’est pas toujours en accord avec nos propositi
+ons et provoquant ainsi une évolution permanente du cahier de charge, même
+ lors de l’ultime réunion.
 \end_layout
 
 \begin_layout Standard
