@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -80,13 +80,19 @@ Durant notre étude de l’art nous avons pu traiter différents documents qui
 La démarche AMDEC : 
 \end_layout
 
-\begin_layout Itemize
-une démarche qualitative et quantitative qui se traduit par l’analyse des
- modes de défaillance de leurs effets et de leurs criticités.
+\begin_layout Standard
+une démarche
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:AMDEC"
+
+\end_inset
+
+ qualitative et quantitative qui se traduit par l’analyse des modes de défaillan
+ce de leurs effets et de leurs criticités.
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Elle repose sur une décomposition fonctionnelle de la machine, une identificatio
 n des modes de défaillances afin de les classés ainsi que des méthodes de
@@ -94,6 +100,7 @@ n des modes de défaillances afin de les classés ainsi que des méthodes de
  
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 L’avantage de cette démarche est d’évaluer et de garantir : la fiabilité,
  la maintenabilité, la disponibilité, la sécurité, le rendement maximum
@@ -114,19 +121,24 @@ En conclusion nous n’allons pas utiliser cette démarche pour la suite de
 L’étude de la gestion du risque 
 \end_layout
 
-\begin_layout Itemize
-Cette étude pour la détection et la réduction du risque rentre dans la préventio
-n des phénomènes dangereux, elle a pour objectif d’apprécier le risque et
- de le réduire 
+\begin_layout Standard
+Cette étude
+\begin_inset CommandInset citation
+LatexCommand cite
+key "book:jugement-expert"
+
+\end_inset
+
+ pour la détection et la réduction du risque rentre dans la prévention des
+ phénomènes dangereux, elle a pour objectif d’apprécier le risque et de
+ le réduire 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Une démarche complète et entière, consiste en une action en amont qui gère
  et corrige le risque en aval.
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 Cette étude peut être intéressante car elle a pour finalité de réduire le
  risque, malgré ceci c’est une démarche très longue et qui exige une connaissanc
@@ -140,9 +152,16 @@ Plan de controle optimisé en se basant sur le risque
 \end_layout
 
 \begin_layout Standard
-Cet article propose une méthode pour élaborer un plan de contrôle en 2 étapes
- : d’abord consiste à identifier les risques possibles et de faire une répartiti
-on de risque et puis à ajuster le plan construit en ajoutant ou en supprimant
+Cet article
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:controlplan"
+
+\end_inset
+
+ propose une méthode pour élaborer un plan de contrôle en 2 étapes : d’abord
+ consiste à identifier les risques possibles et de faire une répartition
+ de risque et puis à ajuster le plan construit en ajoutant ou en supprimant
  des contrôles selon la capacité.
  
 \end_layout
@@ -167,13 +186,19 @@ Risk evaluation and control plan
  
 \end_layout
 
-\begin_layout Itemize
-Un article qui a pour idée d’évaluer les risques des machines, en effet
- a chaque traitement la fiabilité du processus diminue (c’est l’usure de
- la machine) jusqu’à la tache de qualité (maintenance) 
+\begin_layout Standard
+Un article
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:risk"
+
+\end_inset
+
+ qui a pour idée d’évaluer les risques des machines, en effet a chaque traitemen
+t la fiabilité du processus diminue (c’est l’usure de la machine) jusqu’à
+ la tache de qualité (maintenance) 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Son avantage est de réduire fortement le risque du processus.
  D’autre part cette méthode a pour inconvénient la proportionnalité de la
@@ -181,7 +206,6 @@ Son avantage est de réduire fortement le risque du processus.
  
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 Cette méthode très gourmande en arrêt de la chaine de production lors des
  plans de contrôle ne sera pas développée par la suite car elle est industrielle
@@ -203,19 +227,24 @@ Defectivity Smart Sampling
 
 \end_layout
 
-\begin_layout Itemize
-Évoque une méthode d’échantillonnage “intelligente” permettant d’identifier
- les produits qui ont besoins de contrôle sans la perte d’information 
+\begin_layout Standard
+Évoque une méthode
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:sampling"
+
+\end_inset
+
+ d’échantillonnage “intelligente” permettant d’identifier les produits qui
+ ont besoins de contrôle sans la perte d’information 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Son avantage est de réduire le nombre de contrôle non nécessaire par contre
  les résultats ne sont pas suffisant par rapport aux exigences industrielles
  
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 Cette méthode ne sera pas retenue même les résultats sont intéressants.
  En effet cette approche ne permet pas réduire les risques en défectivité
@@ -236,20 +265,24 @@ Wafer at Risk
 
 \end_layout
 
-\begin_layout Itemize
-Introduit une méthode d’évaluation des risques et d’optimisation de l’utilisatio
-n des équipements de contrôle en introduisant les indicateurs W@R et W@R-Réducti
-on 
+\begin_layout Standard
+Introduit une méthode
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:war"
+
+\end_inset
+
+ d’évaluation des risques et d’optimisation de l’utilisation des équipements
+ de contrôle en introduisant les indicateurs W@R et W@R-Réduction 
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Son avantage est de réduire fortement le risque presque en temps réel par
  contre elle est complexe et sa faisabilité reste à prouver.
  
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 Malgré des promesses de grandes réduction de risque, nous ne pouvons pas
  nous engager sur sa fiabilité ni sur son utilisation dans notre étude,
@@ -264,7 +297,7 @@ Operational risk evaluation and control plan design
 Support de Présentation 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 Cette approche d'évaluation des risques est basée sur l'évolution du 
 \begin_inset Quotes fld
 \end_inset
@@ -277,7 +310,6 @@ Potential Loss
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Cette évolution est supposée linéairement croissante avec le nombre d'exécution
  (traitement par la machine), sans contrôle, sur un horizon donné.
@@ -286,6 +318,7 @@ Cette évolution est supposée linéairement croissante avec le nombre d'exécut
  
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 L'évolution du 
 \begin_inset Quotes fld
@@ -315,21 +348,26 @@ La méthode
  
 \end_layout
 
-\begin_layout Itemize
-Cette méthode est quantitative basée sur l’analyse systématique d’ensemble
- de produit, en effet elle est décrite sous la forme d’un algorithme qui
- cherche les produits défectueux en optimisant le nombre de test.
+\begin_layout Standard
+Cette méthode
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:DCube"
+
+\end_inset
+
+ est quantitative basée sur l’analyse systématique d’ensemble de produit,
+ en effet elle est décrite sous la forme d’un algorithme qui cherche les
+ produits défectueux en optimisant le nombre de test.
  
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 Cette méthode est programmable et a priori correspond au sujet.
  Son inconvénient et qu’elle demande beaucoup de tests et donc systématique.
  
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 Nous avons décidé de garder cette méthode au début, mais une fois que nous
  avons commencé à faire la correspondance avec notre étude, nous nous sommes

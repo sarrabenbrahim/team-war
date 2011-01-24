@@ -47,6 +47,10 @@ figs-within-sections
 
 \begin_body
 
+\begin_layout Chapter
+Computation of wafer-At-Risk from theory to real life demonstration
+\end_layout
+
 \begin_layout Standard
 La fabrication de semi-conducteurs devient de plus en plus complexe et le
  contrôle exhaustif des plaques n'est pas réalisable d'un point de vue financier.
@@ -58,14 +62,21 @@ La fabrication de semi-conducteurs devient de plus en plus complexe et le
 \end_layout
 
 \begin_layout Standard
-L'évaluation des risques de chaque outil est caractérisée par le Wafer-At-Risk.
+L'évaluation des risques de chaque outil est caractérisée par le Wafer-At-Risk
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:war"
+
+\end_inset
+
+.
  L'information apportée par chaque lot, qui peut être inspecté, est appelée
  Wafer-At-Risk-Reduction.
  Ces deux informations ne sont pas exploitables directement, d'où la nécessité
  de développer un algorithme pour les calculer.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Description de l'algorithme
 \end_layout
 
@@ -249,7 +260,7 @@ Global W@R and W@R by recipe
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Résultats
 \end_layout
 
@@ -266,7 +277,7 @@ De plus l'algorithme a été amélioré pour être plus réactif sur la ligne
  minutes.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Remarques
 \end_layout
 

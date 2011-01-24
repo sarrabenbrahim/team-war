@@ -47,7 +47,15 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Subsection
+\begin_layout Chapter
+Méthode 
+\begin_inset Formula $D^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 Généralités
 \end_layout
 
@@ -135,7 +143,7 @@ Les produits issus de la production proviennent de différents chemins l'analyse
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Objectifs de la méthode
 \end_layout
 
@@ -145,7 +153,7 @@ Objectif minimiser le nombre maximum de test pour identifier tous les objets
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Hypothèses de la méthode
 \end_layout
 
@@ -346,7 +354,7 @@ key "book:groupeTesting"
  une constante et un algorithme de ce genre existe.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 L'algorithme 
 \end_layout
 
@@ -409,12 +417,44 @@ En d'autre mots l'état de
  tests.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Algorithme détaillé
 \end_layout
 
 \begin_layout Subsection*
 Algorithme DOUBLE
+\end_layout
+
+\begin_layout Standard
+L'algoritthme est présenté de manière détaillé dans les algorithme 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Algorithme-Double-pour"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Algorithme-Double-pour-1"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Procédure-3-TEST"
+
+\end_inset
+
+ et 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "alg:Procédure-FINAL-TESTS"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -604,6 +644,12 @@ end-algoritm
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:Algorithme-Double-pour"
+
+\end_inset
+
 Algorithme Double pour tester 
 \begin_inset Formula $n$
 \end_inset
@@ -728,6 +774,12 @@ Procedure 3-TEST({x,y,z})
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:Procédure-3-TEST"
+
+\end_inset
+
 Procédure 3-TEST
 \end_layout
 
@@ -746,7 +798,7 @@ Procédure 3-TEST
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset listings
@@ -823,6 +875,12 @@ end-procedure;
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:Algorithme-Double-pour-1"
+
+\end_inset
+
 Algorithme Double pour tester 
 \begin_inset Formula $n$
 \end_inset
@@ -845,7 +903,7 @@ Algorithme Double pour tester
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset listings
@@ -907,6 +965,12 @@ end-procedure;
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "alg:Procédure-FINAL-TESTS"
+
+\end_inset
+
 Procédure FINAL-TESTS
 \end_layout
 
