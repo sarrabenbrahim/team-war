@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -100,6 +100,74 @@ D'un point de vue plus général ce projet fut l'occasion de nous frotter
 \begin_layout Standard
 Avant le départ en stage cela constitue une bonne mise en jambe en nous
  donnons un aperçu de ce que nous attends nos prochaines années...
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+j'ai ecrit une conclusion et peut etre la fusionn des 2 donnera quelque
+ chose de plus complet si non il faut juste la selectionner et la supprimé
+ et en aucun j'aurai des rancune la dessus
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lors de ce projet de fin d’étude nous avons réussi à atteindre les objectifs
+ que nous nous sommes fixés, en effet nous avons répondu à la problématique
+ posée en respectant le cahier de charge définit avec le client.
+ 
+\end_layout
+
+\begin_layout Standard
+De ce fait nous avons définit notre propre solution sous le format d’un
+ algorithme, ensuite nous avons élaboré une maquette qui a pour fonctions
+ principales,
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+rajouter ce que fait essentiellement le programme
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Notre maquette modélisant uniquement l’algorithme dans ses fonctions les
+ plus basiques, par conséquent nous avons défini trois axes d’évolution
+ possible.
+ 
+\end_layout
+
+\begin_layout Standard
+Tout d’abord nous pourrons rajouter d’autres variables et paramètres pour
+ compléter l’algorithme et le complexifier afin de mieux contrôler les événement
+s lors des contrôles qualité.
+ 
+\end_layout
+
+\begin_layout Standard
+Ensuite nous pouvons optimiser cet algorithme afin qu’il puisse être exécuté
+ dans des temps plus rapides et donc être exécuté en temps réel pour une
+ correction de la non qualité directement lors du processus de production.
+ 
+\end_layout
+
+\begin_layout Standard
+Finalement, il est nécessaire de mener une étude détaillée sur le sujet.
+ En effet actuellement, aucune publication n’est accessible au public, toutes
+ les études concernant ce sujet restent confidentielles et les industriels
+ ne partagent pas leurs expériences sur ce type de problèmes, ce qui est
+ tout à fait normal d’un point de vue concurrentiel.
+ 
 \end_layout
 
 \end_body
