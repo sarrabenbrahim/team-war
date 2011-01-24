@@ -2,8 +2,13 @@
 \lyxformat 345
 \begin_document
 \begin_header
-\textclass article
+\textclass amsbook
 \use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
 \language french
 \inputencoding auto
 \font_roman default
@@ -17,6 +22,7 @@
 
 \graphics default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -478,7 +484,7 @@ Structure Globale de la méthode SCRUM
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/team-war/PFE/Doc/Images/ScrumShemaGlobal.png
+	filename /Users/fabiengarcia/SVN/team-war/PFE/Doc/Images/ScrumShemaGlobal.png
 	lyxscale 50
 	width 70col%
 
@@ -515,9 +521,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/team-war/PFE/Doc/Images/CompteRendu.png
-	width 70col%
-	height 30col%
+	filename /Users/fabiengarcia/SVN/team-war/PFE/Doc/Images/CompteRendu.png
+	height 30pheight%
 
 \end_inset
 
@@ -542,14 +547,21 @@ Exemple de compte rendu
 \end_layout
 
 \begin_layout Itemize
-Serveur SVN : Nous avons choisi le serveur SVN qui est un logiciel de gestion
- de version afin de palier au probléme relatif à la perte des données ainsi
- qu'au probléme lié à la gestion des conflits.
- En résumé cela consiste à travailler sur des versions précedente de sauvegarde
- afin de pouvoir résoudre le conflit.
- TortoiseSVN est un client gratuit multiplateforme du serveur ; il permet
- d'interfacer avec celui-ci afin d'effectuer des opération d'ajout, d'envoi,
- de mise à jour, etc...
+Gestionnaire de version 
+\emph on
+Subversion
+\emph default
+ : Nous avons choisi le gestionnaire 
+\emph on
+Subversion
+\emph default
+ qui est un logiciel de gestion de version, afin de palier au probléme relatif
+ à la perte des données ainsi qu'au probléme lié à la gestion versions de
+ documents.
+ Il permet à une équipe de disposer d'un ensemble de fichier commun et transmett
+re les modifications de manière simultanée à tous ces membres.
+ Cela permet d'avoir un archivage des données et permet un travail colaboratif.
+ 
 \end_layout
 
 \begin_layout Itemize
@@ -560,10 +572,13 @@ LyX est un outil open source multiplateforme pour l’édition et le traitement
  les parties du rapport puis de les réintégrer d’une façon simple.
  Cet outil est performant, il permet de faire la mise en forme de la totalité
  du rapport automatiquement.
+ De plus utilisant des fichiers textes il est compatible avec un gestionnaire
+ de fichier texte (impossible avec les document Word ou Open office car
+ binaire)
 \end_layout
 
 \begin_layout Itemize
-DIA est un outil libre de création de différents diagrammes du même type
+DIA est un outil libre de création de différents diagramme du même type
  que Visio (Visio étant payant)
 \end_layout
 
@@ -572,7 +587,7 @@ NetBeans est un environnement de développement intégré (IDE).
  Il permet de faciliter le développement du code Java.
  Nous l'avons choisi car il permet d'intégrer le Serveur SVN afin de pouvoir
  travailler sur le code en groupe.
- De plus cet outil est gratuit
+ De plus cet outil est gratuit et performant.
 \end_layout
 
 \begin_layout Section
@@ -600,7 +615,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename D:/team-war/PFE/Doc/Images/Planning.PNG
+	filename /Users/fabiengarcia/SVN/team-war/PFE/Doc/Images/Planning.PNG
 	width 70col%
 
 \end_inset
@@ -1079,44 +1094,6 @@ Au terme de cette itération deux rapport ont été livré un rapport de synthé
  des coûts et un rapport de gestion de projet.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../Images/DiagrammeIDEEF0.png
-	width 30col%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Récapitulatif des itérations
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Problèmes rencontrés et solutions apportées
 \end_layout
@@ -1132,19 +1109,23 @@ Les problèmes rencontrés durant le développement du PFE :
 \end_layout
 
 \begin_layout Itemize
-Un cahier des charges trés léger et qui n'a pas cessé d'évoluer
+Un cahier des charges trés léger et qui n'a pas cessé d'évoluer,
 \end_layout
 
 \begin_layout Itemize
-Manque de ressources d'informations bibliographiques
+Manque de ressources d'informations bibliographiques, 
 \end_layout
 
 \begin_layout Itemize
-Manque de données pour le calcul de gestion des coûts
+Manque de données pour le calcul de gestion des coûts,
 \end_layout
 
 \begin_layout Itemize
-Le choix du langage pour le développement de la maquette
+Le choix du langage pour le développement de la maquette.
+\end_layout
+
+\begin_layout Itemize
+Difficultées relationnelles au seins de l'équipe
 \end_layout
 
 \begin_layout Standard
@@ -1159,20 +1140,27 @@ Sollicitation des pistes de recherches auprés des chercheurs du LSIS
 Pour les données concernant le rapport de gestion des coûts, nous avons
  dû poser nous mêmes nos propres hypothèses à cause du manque d'informations.
  En effet ce genre de données est confidentiel et ne peut pas être divulgué
- ni fournis
+ ni fournis,
 \end_layout
 
 \begin_layout Itemize
 Pour le développement de la maquette nous avons choisi le langage Java puisque
  nous le maîtrisons, de plus il est simple à interpréter en comparaison
  avec d'autre langage.
- sachant que nous nous sommes pas obligés de programmer la solution , le
- problème d'optimisation ne se pose pas
+ sachant que nous nous sommes pas forcés de programmer la solution, le problème
+ d'optimisation ne se pose pas.
+\end_layout
+
+\begin_layout Itemize
+Concernant l'aspect relationnel, nous n'avons jamais cessé de communiquer
+ et malgré des opositions de caractères forts nous n'avons jamais hésité
+ à nous dire les choses et ne pas laisser de non dit s'installer.
+ 
 \end_layout
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Je suis conscient que cela peut paraître un peu honteux, mais malgrès des
@@ -1201,7 +1189,7 @@ Fabien
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Par exemple Philippe tu arrives à dire ce que tu penses directement à qui
@@ -1250,11 +1238,11 @@ Tout d’abord, notre projet de fin d’étude fut une expérience enrichissante
 \end_layout
 
 \begin_layout Standard
-Cette chance n’étant pas de tout repos, en effet nous avons été confrontés
- à la difficulté du monde de travail avec les réunions de dernière minute
- dans lesquelles le client final n’est pas toujours en accord avec nos propositi
-ons et provoquant ainsi une évolution permanente du cahier de charge, même
- lors de l’ultime réunion.
+Cet configuration n’étant pas de tout repos, en effet nous avons été confrontés
+ à différentes contraintes liés à la gestion du client : désacord du client
+ avec nos propositions, changement permanent du cahier de charge, obtention
+ d'un énnoncé claire des besoins (le client ne sait pas toujours ce qu'il
+ veut, ou demande le mouton à cinq pattes).
 \end_layout
 
 \begin_layout Standard
