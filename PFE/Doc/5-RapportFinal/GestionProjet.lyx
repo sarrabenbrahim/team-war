@@ -1104,38 +1104,54 @@ Problèmes rencontrés et solutions apportées
 \end_layout
 
 \begin_layout Standard
-Malheureusement (ou heureusement) un projet n'est pas un long fleuve tranquille.
- Et comme souvent les problèmes apparaissent là où on ne les attends pas
- :
+Malheureusement un projet n'est pas un long fleuve tranquille nous allons
+ essayé dans cette partie de liste l'ensembles des probléme ainsi les solutions
+ apporter pour la résolution de ses probléme.
 \end_layout
 
 \begin_layout Standard
-le cahier de charges n'a pas cessé d'évoluer ce qui nous obliger à redistribuer
- les roles à chaque fois et de réaffecter les taches.
+Les problèmes rencontrés durant le développement du PFE :
+\end_layout
+
+\begin_layout Itemize
+Le cahier des charges qui n'a pas cessé d'évoluer 
+\end_layout
+
+\begin_layout Itemize
+Nous avons eu du mal à trouver de la documentation(Bibliographie) 
+\end_layout
+
+\begin_layout Itemize
+Manque de donnée pour le calcul de gestion des coûts 
+\end_layout
+
+\begin_layout Itemize
+Le choix du langage pour le développement de la maquette
 \end_layout
 
 \begin_layout Standard
-les choix du langage de programmation de la maquettes
+Les solutions que nous avons apportées à ses problèmes : 
+\end_layout
+
+\begin_layout Itemize
+Demande de la bibliographie aux prés de nos tuteurs afin de mieux analyser
+ le sujet 
+\end_layout
+
+\begin_layout Itemize
+Pour le calcul de la gestion des coûts nous avons posé des hypothèses afin
+ d’avancer la gestion des coûts vue que notre travail consistait à une étude
+ de faisabilité et nous avons pas droit au donnée vue que le marché du SemiCondu
+cteur est trés concurencié
+\end_layout
+
+\begin_layout Itemize
+Pour le développement de la maquette nous avons retenu le langage java puisque
+ nous sommes familiarisés là-dessus et qu'il est simple à interpréter en
+ comparaison avec d'autre langage de programmation
 \end_layout
 
 \begin_layout Standard
-Forte individualités et difficultés relationnelles : en effet notre groupe
- a dû se construire autour de trois fortes personnalités, ce qui a entrainer
- un nombre important de conflits, lié à le plus souvent à la prise du leadership.
- Nous n'avons pas été un exemple de camaraderie, ceci dit nous n'avons jamais
- cessé le dialogue.
- De plus durant nos échanges nous n'hésitions pas à appuyer 
-\begin_inset Quotes fld
-\end_inset
-
-là ou ça fait mal
-\begin_inset Quotes frd
-\end_inset
-
- de façon à ne jamais laisser le non dit dans notre équipe.
- Ce qui nous a poussé à dévelloper notre capacité à s'exprimer et à se parler
- de manière proffessionnelle et avancer dans le projet malgré tout.
- 
 \begin_inset Note Note
 status open
 
