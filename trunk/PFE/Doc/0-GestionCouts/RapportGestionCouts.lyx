@@ -115,7 +115,7 @@ Rapport gestion des coûts
 
 
 \emph on
-Détermination d'un Wafer à Risque dans une ligne de production 
+Recherche de méthode d'estimation de volume de production à risque
 \begin_inset Quotes frd
 \end_inset
 
@@ -235,7 +235,7 @@ Claudia Frydmann
 \end_layout
 
 \begin_layout Author
-Mardi 25 Janvier
+Lundi 24 Janvier
 \begin_inset Newline newline
 \end_inset
 
@@ -261,19 +261,6 @@ LRCornerWallPaper{0.25}{../Images/coin.png}
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Proposition de plan à discuter librement
-\end_layout
 
 \end_inset
 
@@ -314,14 +301,6 @@ filename "Indicateurs.lyx"
 \begin_inset CommandInset include
 LatexCommand input
 filename "Conclusion.lyx"
-
-\end_inset
-
-
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "../../../Bibliographie/BiblioTeamWAR"
-options "plainurl"
 
 \end_inset
 

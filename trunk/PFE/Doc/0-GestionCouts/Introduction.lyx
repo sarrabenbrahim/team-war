@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -52,21 +52,20 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-Dans le cadre de notre formation, nous effectuons une étude de faisabilité,
+Dans le cadre de notre formation, nous effectuons une étude de faisabilité
  pour l'entreprise 
 \emph on
 STMicroelectronics
 \emph default
 .
- Cette entreprise est spécialisée dans la fabrication de composants électronique
-s.
- Le secteur dans lequel s'inscrit l'activité de cette entreprise est très
- particulier et très concurentiel, en effet, il necessite un niveau de qualité
- très élevé pour se maintenir au meilleur niveau.
+ Elle est spécialisée dans la fabrication des sémi-conducteurs (microélectroniqu
+e).
+ Son domaine d'activité est très pointu et très concurentiel, en effet,
+ il necessite un niveau de qualité très élevé pour rester compétitif.
 \end_layout
 
 \begin_layout Standard
-Le but avoué de cette industrie est le 
+Comme toutes les industrie le but recherché est le 
 \begin_inset Quotes fld
 \end_inset
 
@@ -74,38 +73,116 @@ zéro défaut
 \begin_inset Quotes frd
 \end_inset
 
-, malheureusement, la complexité des processus de fabrication ne permet
- pas d'atteindre cet objectif.
- Afin de palier ce manque, nous étudions comment détecter rapidement la
- non qualité.
- D'autre part, notre étude consiste à anticiper les défauts de qualité sur
- les plaques de silicium et de tester les composants les plus sensibles,
- dans le but de réduire la non qualité.
+, malheureusement la complexité des processus de fabrication des plaques
+ de silicium ne permet pas d'atteindre cet objectif.
+ En plus des recherches menées au sein de l'entreprise, STMicroelectronics
+ fait aussi appel à nous, futurs jeunes ingénieurs, afin de trouver une
+ solution pour :
+\end_layout
+
+\begin_layout Itemize
+réduire le temps de contrôle des produits et le temps de maintenance sur
+ les machines
+\end_layout
+
+\begin_layout Itemize
+maîtriser le volume de production à risque (maîtriser la défectivité)
+\end_layout
+
+\begin_layout Itemize
+réduire les coûts de la non-qualité
 \end_layout
 
 \begin_layout Standard
-La sensibilité de cette étude est liée au fait que les lots traités coûtent
- excessivement cher, les machines contrôlant les produits aussi, et le but
- est d'arriver à trouver l'équilibre entre le contrôle des produits et le
- contrôle des machines.
+La sensibilité de cette étude est liée à la complexité des processus de
+ fabrication des plaques de silicium (non linéaire) et la gestion de deux
+ types de contrôle :
+\end_layout
+
+\begin_layout Itemize
+contrôle de qualité sur des plaques de silicium
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Contrôle du produit par échantillonage
+\end_layout
+
+\end_inset
+
+ travaillées à l'aide des appareils de métrologie.
+ Ce type de contrôle est très onéreux et nécessite plusieurs heures pour
+ seulement 3 plaques.
+\end_layout
+
+\begin_layout Itemize
+contrôle de fiabilité des machines de production, c'est une tâche de maintenance
+ périodique consistant à vérifier son bon fonctionnement à l'aide d'une
+ plaque de silicium vierge.
+ Ce type de contrôle n'est ni onéreux ni long mais engendre l'indisponibilité
+ de la machine .
 \end_layout
 
 \begin_layout Standard
-Dans une première partie, nous nous intéresserons à l'aspect financier du
- problème afin de bien expliquer les enjeux économiques.
- 
+Afin de répondre à ces objectifs, nous avons proposé une solution 
+\begin_inset Quotes fld
+\end_inset
+
+l'algorithme du marcheur
+\begin_inset Quotes frd
+\end_inset
+
+ qui permet de détecter rapidement la non qualité et d'exploiter au mieux
+ les deux types de contrôle.
 \end_layout
 
 \begin_layout Standard
-Dans un deuxième temps nous chiffrerons la solution proposée, ainsi que
- le  gain envisagé par ce type de solution.
- La solution n'étant pas encore implémenter nous discuterons sur deux résultats,
- un optimiste et un pessimiste.
- 
+Nous avons aussi développé une maquette de cet algorithme afin de pouvoir
+ quantifier la réduction de la non qualité et de ce fait calculer le bénéfice
+ dont l'entreprise pourra en bénéficier plus tard.
+ Cependant, faute de temps notre maquette ne permet pas encore de quantifier
+ l'amélioration apporté par notre solution.
+ Il est à noter que notre mission principale consiste surtout à l'étude
+ de la faisabilité des solutions et non à leurs développements.
 \end_layout
 
 \begin_layout Standard
-Pour terminer nous concluerons sur la viabilité économique de notre solution.
+En vue de la particularité de notre étude, l'analyse des coûts sera basée
+ sur le gain envisagé avec notre solution de l'algorithme du marcheur.
+ Nous avons donc émis deux hypothèses sur le gain approrté par notre solution
+ en terme de réduction en défectivité :
+\end_layout
+
+\begin_layout Itemize
+cas pessimiste : notre solution permettrait une réduction de 
+\begin_inset Formula $5\%$
+\end_inset
+
+ des produits défectueux.
+\end_layout
+
+\begin_layout Itemize
+cas optimiste : notre solution permettrait une réduction de 
+\begin_inset Formula $30\%$
+\end_inset
+
+ des produits défectueux.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $_{\,}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pour l'analyse des coûts, nous nous intéresserons d'abord à l'aspect financier
+ du projet.
+ Puis nous évaluerons son investissement à l'aide de divers indicateurs.
+ La solution n'étant pas encore implémentée, nous mènerons en parallèle
+ l'étude des deux cas supposés (pessimiste et optimiste).
+ Pour terminer, nous concluerons sur la viabilité économique de notre solution.
  
 \end_layout
 

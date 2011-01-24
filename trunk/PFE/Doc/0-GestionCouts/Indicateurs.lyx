@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -53,6 +53,10 @@ Calculs des indicateurs de gestion des coûts
 
 \begin_layout Section
 La valeur Actualisée Nette (VAN)
+\end_layout
+
+\begin_layout Subsection
+Définition
 \end_layout
 
 \begin_layout Standard
@@ -114,8 +118,53 @@ la
  mesure la création de valeur engendrée par l'investissement.
 \end_layout
 
+\begin_layout Subsection
+Calcul
+\end_layout
+
+\begin_layout Itemize
+Cas pessimiste (
+\begin_inset Formula $-5\%$
+\end_inset
+
+) :
+\begin_inset Formula \[
+VAN_{5}=\dfrac{260000-35000}{(1+0,0065)^{1}}+\dfrac{225000}{(1,0065)^{2}}+\dfrac{225000}{(1,0065)^{3}}-20000=\$646319\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Cas optimiste (
+\begin_inset Formula $-30\%$
+\end_inset
+
+) :
+\begin_inset Formula \[
+VAN_{30}=\dfrac{1560000-35000}{(1+0,0065)^{1}}+\dfrac{1525000}{(1,0065)^{2}}+\dfrac{1525000}{(1,0065)^{3}}-20000=\$4516163\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Remarque
+\end_layout
+
+\begin_layout Standard
+Dans les deux cas envisagés, nous avons un VAN positif, ce qui signifie
+ d'un point de vue financier que le projet rapporte plus que son investissement.
+\end_layout
+
 \begin_layout Section
 L'indice de Profitabilité (IP)
+\end_layout
+
+\begin_layout Subsection
+Définition
 \end_layout
 
 \begin_layout Standard
@@ -133,7 +182,7 @@ IP=\dfrac{1}{I}\sum_{i}C_{i}(1+t)^{-i}\]
 \end_layout
 
 \begin_layout Standard
-Qui s'écrit également sous la forme
+Qui s'écrit également sous la forme :
 \begin_inset Formula \[
 IP=\dfrac{VAN}{I}\]
 
@@ -142,44 +191,55 @@ IP=\dfrac{VAN}{I}\]
 
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Formula $i$
-\end_inset
-
- = année;
+\begin_layout Subsection
+Calcul
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $C_{i}$
+Cas pessimiste (
+\begin_inset Formula $-5\%$
 \end_inset
 
- = 
-\emph on
-cash-flow
-\emph default
- (flux 
-\begin_inset Formula $\oplus$
+) :
+\begin_inset Formula \[
+IP_{5}=\dfrac{VAN_{5}}{I}=\dfrac{646319}{20000}=32,3\]
+
 \end_inset
 
-)
+
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $t$
+Cas optimiste (
+\begin_inset Formula $-30\%$
 \end_inset
 
- = le taux d'intérêt (taux d'actualisation)
+) :
+\begin_inset Formula \[
+IP_{30}=\dfrac{VAN_{30}}{I}=\dfrac{4516163}{20000}=225,8\]
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Formula $I$
-\end_inset
+\begin_layout Subsection
+Remarque
+\end_layout
 
- = investissement initial
+\begin_layout Standard
+Dans les deux cas envisagés, nous avons un IP positif, ce qui signifie que
+ le projet est rentable.
+ Pour $1 investi, le projet engendre $31,3 de profit pour le cas pessimiste
+ et $224,8 pour le cas optimiste.
 \end_layout
 
 \begin_layout Section
 Le Taux de Rentabilité Interne (TRI)
+\end_layout
+
+\begin_layout Subsection
+Définition
 \end_layout
 
 \begin_layout Standard
@@ -192,10 +252,7 @@ Le Taux de Rentabilité Interne est le taux pour lequel la
 \end_inset
 
 ).
-\end_layout
-
-\begin_layout Standard
-C'est-à-dire qu'il y a équivalence entre le capital investi et l'ensemble
+ C'est-à-dire qu'il y a équivalence entre le capital investi et l'ensemble
  des 
 \emph on
 cash-flow
@@ -212,7 +269,7 @@ Il faut donc chercher la valeur de
 \begin_inset Formula $t$
 \end_inset
 
- dans l'équation.
+ dans l'équation :
 \end_layout
 
 \begin_layout Standard
@@ -224,8 +281,81 @@ VAN(t)=-I+C_{1}(1+t)^{-1}+C_{2}(1+t)^{-2}+\cdots=0\]
 
 \end_layout
 
+\begin_layout Subsection
+Calcul
+\end_layout
+
+\begin_layout Itemize
+Cas pessimiste (
+\begin_inset Formula $-5\%$
+\end_inset
+
+) :
+\begin_inset Formula \[
+VAN_{5}(t)=-20000+225000\times(1+t)^{-1}+225000\times(1+t)^{-2}+225000\times(1+t)^{-3}=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+=>
+\begin_inset Formula $t_{5}=11,244$
+\end_inset
+
+ soit 
+\begin_inset Formula $t_{5}=1124,4\%$
+\end_inset
+
+ ! 
+\end_layout
+
+\begin_layout Itemize
+Cas optimiste (
+\begin_inset Formula $-30\%$
+\end_inset
+
+) :
+\begin_inset Formula \[
+VAN_{30}(t)=-20000+1525000\times(1+t)^{-1}+1525000\times(1+t)^{-2}+1525000\times(1+t)^{-3}=0\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+=>
+\begin_inset Formula $t_{30}=76,25$
+\end_inset
+
+ soit 
+\begin_inset Formula $t_{30}=7625\%$
+\end_inset
+
+ ! 
+\end_layout
+
+\begin_layout Subsection
+Remarque
+\end_layout
+
+\begin_layout Standard
+Avec des IP aussi élevés, il est donc normal d'avoir des TRI aussi élevés
+ pour les deux cas envisagés.
+ Dans la réalité il n'est pas concevable d'avoir un taux d'intérêt aussi
+ élevé, le projet est donc très rentable.
+\end_layout
+
 \begin_layout Section
 Delai de récupération du capital investi
+\end_layout
+
+\begin_layout Subsection
+Définition
 \end_layout
 
 \begin_layout Standard
@@ -243,12 +373,35 @@ C'est donc le temps nécessaire pour que les flux nets de trésorerie générés
  du temps.
 \end_layout
 
+\begin_layout Subsection
+Calcul
+\end_layout
+
+\begin_layout Itemize
+Cas pessimiste (
+\begin_inset Formula $-5\%$
+\end_inset
+
+) :
+\end_layout
+
 \begin_layout Standard
-\begin_inset Note Note
+\begin_inset Float table
+placement H
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-Pertinent dans le cadre de notre PFE ?
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Cash-Flow actualisés et cumulés pour le cas pessimiste (
+\begin_inset Formula $-5\%$
+\end_inset
+
+)
 \end_layout
 
 \end_inset
@@ -256,8 +409,414 @@ Pertinent dans le cadre de notre PFE ?
 
 \end_layout
 
-\begin_layout Section
-Synthèses des différents indicateurs
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features>
+<column alignment="center" valignment="middle" width="40col%">
+<column alignment="center" valignment="middle" width="15col%">
+<column alignment="center" valignment="middle" width="15col%">
+<column alignment="center" valignment="middle" width="15col%">
+<row>
+<cell multicolumn="1" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none" width="40col%">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cas Pessimiste
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1^{ère}$
+\end_inset
+
+année
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2^{ème}$
+\end_inset
+
+année
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3^{ème}$
+\end_inset
+
+année
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cash-Flow
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$225000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$225000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$225000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cash-Flow actualisés
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$223547
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$222103
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$220669
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cash-Flow actualisés et cumulés
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+$223547
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$445650
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$666319
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Cas optimiste (
+\begin_inset Formula $-30\%$
+\end_inset
+
+) :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Cash-Flow actualisés et cumulés pour le cas optimiste (
+\begin_inset Formula $-30\%$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="4">
+<features>
+<column alignment="center" valignment="middle" width="40col%">
+<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="15col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cas Pessimiste
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1^{ère}$
+\end_inset
+
+année
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2^{ème}$
+\end_inset
+
+année
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3^{ème}$
+\end_inset
+
+année
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cash-Flow
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$1525000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$1525000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$1525000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cash-Flow actualisés
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$1515152
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$1505366
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$1495645
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cash-Flow actualisés et cumulés
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+$1515152
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$3020518
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$4516163
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Remarque
+\end_layout
+
+\begin_layout Standard
+Avec de tels indicateurs (VAN, IP et TRI) aussi élévés, il n'est pas surprenant
+ de constater qu'au bout de la première année le projet a déjà récupéré
+ son capital investi ($20000) même pour le cas pessimiste.
 \end_layout
 
 \end_body
