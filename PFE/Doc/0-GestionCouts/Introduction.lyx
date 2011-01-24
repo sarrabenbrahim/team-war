@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -58,14 +58,14 @@ Dans le cadre de notre formation, nous effectuons une étude de faisabilité
 STMicroelectronics
 \emph default
 .
- Elle est spécialisée dans la fabrication des sémi-conducteurs (microélectroniqu
+ Elle est spécialisée dans la fabrication des semi-conducteurs (microélectroniqu
 e).
- Son domaine d'activité est très pointu et très concurentiel, en effet,
- il necessite un niveau de qualité très élevé pour rester compétitif.
+ Son domaine d'activité est très pointu et très concurrentiel, en effet,
+ il nécessite un niveau de qualité très élevé pour rester compétitif.
 \end_layout
 
 \begin_layout Standard
-Comme toutes les industrie le but recherché est le 
+Comme toutes les industries le but recherché est le 
 \begin_inset Quotes fld
 \end_inset
 
@@ -120,7 +120,7 @@ contrôle de fiabilité des machines de production, c'est une tâche de maintena
  périodique consistant à vérifier son bon fonctionnement à l'aide d'une
  plaque de silicium vierge.
  Ce type de contrôle n'est ni onéreux ni long mais engendre l'indisponibilité
- de la machine .
+ de la machine.
 \end_layout
 
 \begin_layout Standard
@@ -141,7 +141,7 @@ Nous avons aussi développé une maquette de cet algorithme afin de pouvoir
  quantifier la réduction de la non qualité et de ce fait calculer le bénéfice
  dont l'entreprise pourra en bénéficier plus tard.
  Cependant, faute de temps notre maquette ne permet pas encore de quantifier
- l'amélioration apporté par notre solution.
+ l'amélioration apportée par notre solution.
  Il est à noter que notre mission principale consiste surtout à l'étude
  de la faisabilité des solutions et non à leurs développements.
 \end_layout
@@ -149,8 +149,8 @@ Nous avons aussi développé une maquette de cet algorithme afin de pouvoir
 \begin_layout Standard
 En vue de la particularité de notre étude, l'analyse des coûts sera basée
  sur le gain envisagé avec notre solution de l'algorithme du marcheur.
- Nous avons donc émis deux hypothèses sur le gain approrté par notre solution
- en terme de réduction en défectivité :
+ Nous avons donc émis deux hypothèses sur le gain apporté par notre solution
+ en termes de réduction en défectivité :
 \end_layout
 
 \begin_layout Itemize
@@ -182,7 +182,7 @@ Pour l'analyse des coûts, nous nous intéresserons d'abord à l'aspect financie
  Puis nous évaluerons son investissement à l'aide de divers indicateurs.
  La solution n'étant pas encore implémentée, nous mènerons en parallèle
  l'étude des deux cas supposés (pessimiste et optimiste).
- Pour terminer, nous concluerons sur la viabilité économique de notre solution.
+ Pour terminer, nous conclurons sur la viabilité économique de notre solution.
  
 \end_layout
 

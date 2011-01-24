@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -60,14 +60,14 @@ L'analyse des coûts, basée sur de telles hypothèses et estimations, a montré
 
 \begin_layout Standard
 Face à de tels résultats, aussi positifs, nous nous sommes demandés si nous
- n'avons pas trop sur-estimé le gain annuel de notre projet ? ou trop sous-estim
-é l'investissement initial ? ou pire un raisonnement erronné ?
+ n'avons pas trop surestimé le gain annuel de notre projet ? Ou trop sous-estimé
+ l'investissement initial ? Ou pire un raisonnement erroné ?
 \end_layout
 
 \begin_layout Standard
 Il est normal d'être sceptique face à une estimation annuelle de 5,2 millions
  dollars pour la non-qualité mais si nous regardons son chiffre d'affaire
- pour 2009 (période de crise) qui est 8,424 milliards dollars, cette estimations
+ pour 2009 (période de crise) qui est 8,424 milliards dollars, cette estimation
  est devenue relativement correcte pour une multinationale.
  Notre estimation pour le gain annuel du projet n'est donc pas trop exagérée.
 \end_layout
@@ -85,34 +85,27 @@ Pour l'investissement initial, ce projet n'est pas une création mais une
 \end_layout
 
 \begin_layout Standard
-Le fait que le taux d'intérêt légal utilisé (2010) soit faible et que la
- durée de l'exploitation de l'investissement soit de trois ans ont accentué
- la profitabilité dans le calcul des indicateurs (VAN et IP).
- En effet, un taux d'intérêt faible engendre des cash-flow actualisés plus
+La rencontre entre un taux d'intérêt légal faible et une durée d’exploitation
+ d'investissement de trois ans engendre une augmentation du profit dans
+ le calcul des indicateurs (VAN et IP).
+ En effet, un taux d'intérêt faible engendre des cash-flows actualisés plus
  élevés.
- Et une durée d'exploitation de l'investissement plus longue accentue l'écat
+ Et une durée d'exploitation de l'investissement plus longue accentue l'écart
  entre les flux générés et l'investissement initial.
 \end_layout
 
 \begin_layout Standard
 En prenant un peu de recul, nous remarquons que les projets informatiques
- (programmes, logiciels) sont très rentables et rapidement par rapport à
- son investissement initial à condition qu'ils soient fonctionnels et opérationn
-els.
+ (programmes, logiciels) sont très rentables et rapides par rapport à l’investis
+sement initial à condition qu'ils soient fonctionnels et opérationnels.
  
 \end_layout
 
 \begin_layout Standard
-Il suffit donc que notre solution 
-\begin_inset Quotes fld
-\end_inset
-
-l'algorithme du marcheur
-\begin_inset Quotes frd
-\end_inset
-
- puisse répondre aux besoins du client et réduire seulement quelques pourcent
- (cas pessimiste avec -5%) pour qu'elle soit rentable pour l'entreprise.
+Il suffit donc que notre solution « l'algorithme du marcheur » puisse répondre
+ aux besoins du client et réduire seulement quelques pourcent (cas pessimiste
+ avec -5%) pour qu'elle soit rentable pour l'entreprise.
+ 
 \end_layout
 
 \end_body

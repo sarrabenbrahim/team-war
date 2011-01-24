@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -124,15 +124,15 @@ On se projette dans un monde idéal où l'on a une méthode qui marche et diminu
 \end_layout
 
 \begin_layout Section
-Note sur les données receuillis
+Hypothèse
 \end_layout
 
 \begin_layout Standard
-Le marché de la microélectronique est très concurrentiel et qui évolue rapidemen
-t, le prix de vente des produits varie aussi en conséquent.
+Le marché de la microélectronique est très concurrentiel et évolue rapidement,
+ le prix de vente des produits varie aussi en conséquent.
  Toute fuite d'information sur le coût peut être critique pour l'entreprise.
- En effet la concurence pourrait se servir de ces informations afin d'asphyxier
- l'entreprise en vendant des produits concurents à un coût moindre.
+ En effet la concurrence pourrait se servir de ces informations afin d'asphyxier
+ l'entreprise en vendant des produits concurrents à un coût moindre.
  STMicroelectronics ne peut donc se permettre de donner les chiffres réels
  de la production et de la non qualité.
 \end_layout
@@ -144,12 +144,12 @@ Pour respecter la confidentialité, toutes les données financières utilisées
 \end_layout
 
 \begin_layout Section
-Données à receuillir 
+Données recueillis
 \end_layout
 
 \begin_layout Itemize
 En production, le coût d'une plaque de silicium est estimée à $1000, on
- suppose que le coût d'une plaque défectueux coûte aussi $1000 à l'entreprise.
+ suppose que le coût d'une plaque défectueuse coûte aussi $1000 à l'entreprise.
  Car les produits défectueux sont directement broyés pour éviter le 
 \begin_inset Quotes fld
 \end_inset
@@ -205,13 +205,13 @@ Salaire d'un thésard, en CIFRE, est estimé à environ $35000 par an.
 \end_layout
 
 \begin_layout Itemize
-Nous estimons qu'un investissement de $15000 pour des matériels informatiques
+Nous estimons l'investissement à $15000 pour du matériels informatiques
  plus performants y compris sa maintenance sur trois ans.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Nous supposons aussi que l'entreprise finance un PFE pouvant apporté une
+Nous supposons aussi que l'entreprise finance un PFE pouvant apporter une
  vraie solution à la hauteur de $5000.
  Ceci suppose que notre maquette est opérationnelle.
 \end_layout
