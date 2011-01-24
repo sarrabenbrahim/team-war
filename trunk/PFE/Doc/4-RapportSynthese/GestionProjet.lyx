@@ -58,8 +58,7 @@ Organisation de l'équipe
 \begin_layout Standard
 Suite à notre première réunion avec le client, il a été décidé de nous répartir
  les responsabilités en fonction des centres d'intérêt de chacun .
- Voici la présentation de l'équipe.
- 
+ Voici la présentation de l'équipe: 
 \end_layout
 
 \begin_layout Standard
@@ -369,7 +368,7 @@ agile
 \end_inset
 
 .
-  En effet, en fonction de l'avancement du projet, cette méhode permettra
+  En effet, en fonction de l'avancement du projet, cette méthode permettra
  de rester réactif face aux nombreuses modifications possibles, nous intégrerons
  celle-ci dans notre gestion de projet, elle provient de la gestion de projet
  des développements informatiques.
@@ -494,7 +493,7 @@ Source : Wikipedia.
 
 \end_inset
 
-Nous détaillons les itérations de notre projet en figure 
+Nous détaillons les itérations de notre projet dans la figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Planning-du-projet"
@@ -544,6 +543,16 @@ name "fig:Planning-du-projet"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Bilan
+\end_layout
+
+\begin_layout Standard
+Cette méthode de gestion de projet nous a permis de rester flexible face
+ aux évolutions et changements des besoins client tout au long du projet(pour
+ plus de détails cf: rapport de gestion de projet)
 \end_layout
 
 \end_body

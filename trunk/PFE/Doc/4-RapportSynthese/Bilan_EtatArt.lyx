@@ -52,7 +52,7 @@ Bilan sur l'état de l'art
 \end_layout
 
 \begin_layout Standard
-Suite à l'énnoncé des contraintes du client, nous avons analysé et évalué
+Suite à l'énoncé des contraintes du client, nous avons analysé et évalué
  plusieurs approches possibles.
  Voici le résumé de ces méthodes et notre avis sur celles-ci.
  Nous détaillerons les forces et les faiblesses de chacune.
@@ -176,7 +176,7 @@ Avantages
 
 \begin_layout Plain Layout
 Évaluer et garantir : la fiabilité, la maintenabilité, la disponibilité,
- la sécurité et le rendement maximum au moindre cout
+ la sécurité et le rendement maximum au moindre coût
 \end_layout
 
 \end_inset
@@ -1155,7 +1155,7 @@ n plusieurs fois afin de prélever l'échantillon à tester, la taille de ce
 status collapsed
 
 \begin_layout Plain Layout
-Dans le cadre d'une analyse épidémiologique par exemple, tester un échantillon
+Dans le cadre d'une analyse épistémologique par exemple, tester un échantillon
  de sang d'une personne ou cent personnes ne fait pas de différence dans
  le cas de la recherche d'un virus dans une population
 \end_layout
@@ -1203,7 +1203,7 @@ Au terme de cette analyse, il s'est avéré qu'aucune solution concrète ne
 \begin_layout Standard
 L'idée étant d'utiliser les contraintes industrielles pour élaborer notre
  propre algorithme de calcul.
- Nous détaillerons celui-ci ainsi que ces résultats dans la partie suivante.
+ Nous détaillerons celui-ci ainsi que ses résultats dans la partie suivante.
 \end_layout
 
 \end_body

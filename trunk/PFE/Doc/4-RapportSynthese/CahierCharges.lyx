@@ -91,7 +91,7 @@ wafer@risk
  Ce comptage peut être référencé par rapport à une machine de production
  ou par rapport à une technologie.
  Ce comptage ne tient pas compte de l'existence de plusieurs type de paramètres
- ni de l'intéraction potentielle entre paramètres.
+ ni de l'interaction potentielle entre paramètres.
  Pour l'instant les mesures effectuées sur des plaques de production et
  les mesures sur plaque de test liées aux qualifications périodique sont
  prisent en compte de la même manière sans tenir compte de la signification
@@ -105,7 +105,7 @@ wafer@risk
 \end_layout
 
 \begin_layout Section
-Formalisation du cahier des charge à partir du besoin du client 
+Formalisation du cahier des charges à partir du besoin du client 
 \end_layout
 
 \begin_layout Standard
@@ -113,7 +113,7 @@ La pratique actuelle de STMicroelectronics consiste à compter le nombre
  de plaques de silicium travaillées entre deux mesures.
  Ce comptage peut être associé à une machine de production ou à une technologie.
  Par contre, il ne prend pas en compte l'existence de plusieurs type de
- paramètres ni de l'intéraction potentielle entre ces paramètres.
+ paramètres ni de l'interaction potentielle entre ces paramètres.
 \end_layout
 
 \begin_layout Standard
@@ -194,7 +194,7 @@ Mission du PFE
 \begin_layout Standard
 Le coût de la non-qualité est souvent la raison de la faillite d'une entreprise.
  D'une part, celui-ci ne participe pas à la valeur ajoutée du produit, et
- d'autre part rend impossibible la prise de pouvoir économique sur le marché.
+ d'autre part rend impossible la prise de pouvoir économique sur le marché.
 \end_layout
 
 \begin_layout Standard
@@ -220,7 +220,7 @@ Wafers At Risk
 \begin_inset Quotes frd
 \end_inset
 
- (W@R) est un indicateur qui represente le nombre de plaques traitées sur
+ (W@R) est un indicateur qui représente le nombre de plaques traitées sur
  un équipement depuis la dernière tâche de contrôle.
 \end_layout
 
@@ -238,8 +238,8 @@ Wafers At Risk
 \begin_layout Standard
 Notre action se limite à la recherche des solutions et à l'étude de leur
  faisabilité.
- Etant donné que le domaine est limité en source d'informations (à cause
- de la confidentialité et de l'ultra compétivité de la micro-électronique),
+ Étant donné que le domaine est limité en source d'informations (à cause
+ de la confidentialité et de l'ultra compétitivité de la micro-électronique),
  nous serons peut-être amener à concevoir notre propre solution.
 \end_layout
 

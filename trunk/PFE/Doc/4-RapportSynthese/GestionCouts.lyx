@@ -52,7 +52,7 @@ Gestion des coûts
 \end_layout
 
 \begin_layout Section
-Objectif
+Objectifs
 \end_layout
 
 \begin_layout Paragraph
@@ -131,8 +131,8 @@ Hypothèses
 \end_layout
 
 \begin_layout Itemize
-Le coût d'une plaque de silicium est estimée à $1000 en production, on suppose
- que le coût d'une plaque défectueux coûte aussi $1000 à l'entreprise.
+Le coût d'une plaque de silicium est estimé à $1000 en production, nous
+ supposons que le coût d'une plaque défectueuse coûte aussi $1000 à l'entreprise.
 \end_layout
 
 \begin_layout Itemize
@@ -144,10 +144,10 @@ Le pourcentage de la non-qualité d'une bonne entreprise est estimé à 1%.
 \end_layout
 
 \begin_layout Itemize
-Notre solution ne nécessite à priori pas d'investissement initial si ce
- n'est qu'un thésard pour le développement de l'algorithme ($35000 par an)
- et éventuellement du matériel informatique plus puissant ($15000) pour
- une exécution plus rapide (plus de réactivité).
+Notre solution ne nécessite à priori pas d'investissement initial si il
+ embauche un thésard pour le développement de l'algorithme ($35000 par an)
+ et achéte éventuellement du matériel informatique plus puissant ($15000)
+ pour une exécution plus rapide (plus de réactivité).
 \end_layout
 
 \begin_layout Subsection
@@ -240,7 +240,7 @@ Présence de défauts dans le cristal d'un semi-conducteur.
 
 .
  L'analyse détaillée de l'investissement de ce projet est présentée dans
- notre rapport de la gestion des coûts.
+ notre rapport de gestion des coûts.
 \end_layout
 
 \begin_layout Standard

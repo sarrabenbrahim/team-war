@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -52,16 +52,25 @@ Introduction
 \end_layout
 
 \begin_layout Standard
-Pour survivre dans le domaine de la micro électronique et être compétitif,
- les entreprises ont comme moyens d'action la réduction de la non qualité,
- l'objectif étant de tendre vers zéro défaut.
+Pour subsister dans le domaine de la micro-électronique et rester compétitif,
+ les entreprises ont comme moyens d'action la réduction de la non qualité
+ sans l'augmentation des prix de ventes; l'objectif étant de tendre vers
+ 
+\begin_inset Quotes fld
+\end_inset
+
+le zéro défaut
+\begin_inset Quotes frd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
 Consciente de ces enjeux, l'entreprise STMicroelectronics investit dans
  la recherche et c'est dans cette optique qu'ils nous ont contacté afin
- de commencer à élaborer un projet pour détecter la non qualité de leurs
- produits.
+ de commencer à élaborer un projet pour détecter et diminuer la non qualité
+ de leurs produits.
 \end_layout
 
 \begin_layout Standard
@@ -72,12 +81,14 @@ Ce type d'entreprise possède un certain nombre de contraintes propres, (salle
 \end_layout
 
 \begin_layout Standard
-Notre travail consiste à étudier la faisabilité de l'implémentation d'une
- nouvelle méthode.
+Notre travail consiste à répondre à un besoin client qui se manifeste par
+ la recherche d'une méthode réduisant la non qualité en terme de temps et
+ d'argent.
+ 
 \end_layout
 
 \begin_layout Standard
-Cette dernière permettra d'optimiser le contrôle des produits et des machines
+Cette méthode permettra d'optimiser le contrôle des produits et des machines
  de façon à détecter de manière rapide, automatique et fiable les rebuts
  possibles.
 \end_layout
@@ -87,28 +98,33 @@ Le présent rapport se décompose de la manière suivante :
 \end_layout
 
 \begin_layout Itemize
-présentation de l'entreprise et son contexte 
+Le contexte de l'étude dans lequel il y a une présentation de l'entreprise
+ et de son activité suivie du cahier des charges et de sa spécification
 \end_layout
 
 \begin_layout Itemize
-etat de l'art des différentes méthodes employées dans l'industrie pour cette
- problèmatique 
+L'état de l'art des différentes méthodes existantes et employées dans l'industri
+e pour cette problématique 
 \end_layout
 
 \begin_layout Itemize
-développement de notre propre solution à partir des contraintes énoncées
+Le développement de notre propre solution.
+ La solution sera d'abord définit, ensuite adaptée à notre cas d'étude ,
+ puis implémentée et testée et finalement nous analyserons les résultats
+ obtenus pour proposer des pistes d'amélioration.
 \end_layout
 
 \begin_layout Itemize
-point sur notre gestion de projet 
+Une synthèse de notre gestion et organisation de projet.
 \end_layout
 
 \begin_layout Itemize
-point et analyse financière du projet 
+Une gestion des coûts comprenant une estimation et un bilan sur les hypothèses
+ avancées
 \end_layout
 
 \begin_layout Itemize
-conclusions et perspectives sur la faisabilité de ce projet
+La conclusions et les perspectives sur la faisabilité de ce projet
 \end_layout
 
 \begin_layout Standard

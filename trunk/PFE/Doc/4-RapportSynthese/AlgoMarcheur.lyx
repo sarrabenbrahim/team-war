@@ -80,7 +80,7 @@ La recherche de solution déjà faite pour répondre à notre problématique
 \end_layout
 
 \begin_layout Section
-Détail de l'algorithme
+Détails de l'algorithme
 \end_layout
 
 \begin_layout Subsection
@@ -678,7 +678,7 @@ Structure du projet
 Notre projet analyse le fichier de données en entrée.
  Chaque ligne du fichier fait l'objet d'une opération et chaque opération
  est une instance de la classe Traçability.
- Ensuite il y a des classes Extractors qui associent les bonnees tracabilités
+ Ensuite il y a des classes Extractors qui associent les bonnes traçabilités
  au bon lot et à la bonne machine .
 \end_layout
 
@@ -951,7 +951,8 @@ Valeur
 \begin_layout Plain Layout
 
 \emph on
-Valeurs de réglage utilisées pour générer les résultats représenté en fig
+Valeurs de réglage utilisées pour générer les résultats représentés dans
+ la fig
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Représentation-des-résultats"
@@ -1188,8 +1189,8 @@ Valeur
 \begin_layout Plain Layout
 
 \emph on
-Valeurs de réglage utilisés pour générer les résultats représenté en figure
- 
+Valeurs de réglage utilisés pour générer les résultats représentés dans
+ la figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Représentation-des-résultats-2"
