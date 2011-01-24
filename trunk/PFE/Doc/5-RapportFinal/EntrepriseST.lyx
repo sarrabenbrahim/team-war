@@ -249,60 +249,6 @@ name "fig:Divers-Groupes-Produit"
 \end_layout
 
 \begin_layout Standard
-Voici quelques exemples d'application des produits semi-conducteurs et de
- la technologie de ST dans la vie quotidinne (cf Fig 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Exemple-Produits"
-
-\end_inset
-
-):
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Exemple des produits
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Exemple-Produits"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../Images/ST_Products.jpg
-	width 70col%
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false

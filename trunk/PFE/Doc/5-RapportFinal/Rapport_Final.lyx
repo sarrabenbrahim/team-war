@@ -526,7 +526,7 @@ Gestion des coûts
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "GestionCouts.lyx"
+filename "../0-GestionCouts/Introduction.lyx"
 
 \end_inset
 
@@ -546,7 +546,17 @@ filename "../0-GestionCouts/InformationsFinancier.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand input
-filename "/home/garciaf/SVN/team-war/PFE/Doc/0-GestionCouts/Indicateurs.lyx"
+filename "../0-GestionCouts/Indicateurs.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "../0-GestionCouts/Conclusion.lyx"
 
 \end_inset
 

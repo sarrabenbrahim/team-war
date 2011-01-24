@@ -248,36 +248,20 @@ Plan de l'étude
 \end_layout
 
 \begin_layout Standard
-Nous avons effectué une étude préliminaire en collaboration avec le client
- afin d'analyser le sujet et les pistes de recherche d'informations, cela
- nous a amené à 
-\begin_inset Quotes fld
-\end_inset
-
-l'étude de l'état de l'art
-\begin_inset Quotes frd
-\end_inset
-
- et un 
+Une étude préliminaire pour balayer le sujet et les pistes de recherche
+ d'information possibles.
+ Ce qui nous amène à l'étude de l'art, une sorte de travail de 
 \emph on
 Benchmarking
 \emph default
 .
- 
-\end_layout
-
-\begin_layout Standard
-Une fois cet 
-\begin_inset Quotes fld
-\end_inset
-
-état de l'art
-\begin_inset Quotes frd
-\end_inset
-
- établi, nous avons essayé de trier et de garder des solutions pertinentes
- pour une étude plus approfondie.
- 
+ A partir du bilan de cette étude, de fouille d'information, nous essaierons
+ de trier et de garder les solutions pertinentes pour une étude plus approfondie.
+ Dans le cas où l'état de l'art ne permet pas de répondre pertinemment à
+ nos attentes.
+ Une tentative solution sera développer par notre équipe pour répondre à
+ notre problème d'optimisation, suivi de la phase de simulation et de validation
+ de la solution.
 \end_layout
 
 \end_body
