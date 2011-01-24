@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -75,25 +75,47 @@ key "web:WikipediaST"
 \end_inset
 
  (plus connu sous le nom de ST) est une multinationale du semi-conducteurs,
- créée en 1987, suite à la fusion de SGS Microelettronica et de Thomson
- Semiconducteurs, sous le nom de SGS-THOMSON.
- Renommée en STMicroelectronics, après le retrait de Thomson en 1998.
+ créée en 1987, suite à la fusion de 
+\emph on
+SGS Microelettronica
+\emph default
+ et de 
+\emph on
+Thomson
+\emph default
+ Semiconducteurs, sous le nom de 
+\emph on
+SGS-THOMSON
+\emph default
+.
+ Renommée en 
+\emph on
+STMicroelectronics
+\emph default
+, après le retrait de 
+\emph on
+Thomson
+\emph default
+ en 1998.
  Cette entreprise développe, fabrique et commercialise des puces électroniques
  à travers le monde.
 \end_layout
 
 \begin_layout Standard
-Elle se décompose comme suit : 
+Elle est organisé de la manière suivante : 
 \end_layout
 
 \begin_layout Itemize
-La société mère STMicroelectronics est de droit hollandais (enregistrée
- à Amsterdam),
+La société mère 
+\emph on
+STMicroelectronics
+\emph default
+ est de droit hollandais (enregistrée à Amsterdam),
 \end_layout
 
 \begin_layout Itemize
 la direction administrative est regroupée en grande partie sur le site de
- Genève en Suisse, l
+ Genève en Suisse, 
 \end_layout
 
 \begin_layout Itemize
@@ -104,11 +126,15 @@ la direction opérationnelle du groupe est italienne, implantée sur le principa
 
 \begin_layout Standard
 Société en expansion économique depuis sa création, son chiffre d'affaire
- a même doublé en dix ans depuis son nouveau nom 
+ a doublé en dix ans depuis son changement de nom 
 \begin_inset Quotes fld
 \end_inset
 
+
+\emph on
 STMicroelectronics
+\emph default
+
 \begin_inset Quotes frd
 \end_inset
 
@@ -116,20 +142,38 @@ STMicroelectronics
 \end_layout
 
 \begin_layout Standard
-S'appuyant sur sa technologie et son expertise, ST se positionne au 
+S'appuyant sur sa technologie et son expertise, 
+\emph on
+ST
+\emph default
+ se positionne au 
 \begin_inset Formula $5^{e}$
 \end_inset
 
  rang mondial dans la fabrication des semi-conducteurs depuis 2005.
- 51000 employés (approximativement) sont répartis dans plus de 15 sites
- de production (cf Fig 
+ ST emploie environs 51000 personnes répartis dans 15 sites de production
+ (cf Fig 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Principaux-sites-Production"
 
 \end_inset
 
-), plus de 39 centres de R&D et plus de 78 bureaux de vente dans le monde.
+), 39 centres de R&D
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Recherche et développement
+\end_layout
+
+\end_inset
+
+ et plus de 78 bureaux de vente à traver le globe.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Standard
@@ -179,12 +223,6 @@ Cette carte indique la répartitions des usines de production de ST à travers
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-ST propose divers groupes de produit, chaque groupe étant lui-même composé
- de plusieures divisions qui gèrent de façon autonome la conception, la
- fabrication et la commercialisation de leurs produits.
 \end_layout
 
 \end_body

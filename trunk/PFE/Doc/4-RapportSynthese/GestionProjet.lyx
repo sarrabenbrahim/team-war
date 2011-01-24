@@ -1,4 +1,4 @@
-#LyX 1.6.4 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -249,7 +249,7 @@ SCRUM.
 
 \series bold
 \noun on
-Ait
+Nait
 \begin_inset space ~
 \end_inset
 
@@ -359,7 +359,7 @@ Choix de la méthode agile
 \end_layout
 
 \begin_layout Standard
-Après l'expression de besoin du client, la gestion de projet collant au
+Après l'expression des besoins du client, la gestion de projet collant au
  mieux au sujet du PFE s'avère être la méthode 
 \begin_inset Quotes fld
 \end_inset
@@ -384,6 +384,13 @@ La méthode agile retenue est la méthode
 \emph on
 SCRUM
 \emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Book:PolyBenchmark"
+
+\end_inset
+
 .
  Ces caractéristiques principales sont :
 \end_layout
@@ -471,7 +478,7 @@ Structure Globale de la méthode SCRUM
 \begin_inset Graphics
 	filename ../Images/ScrumShemaGlobal.png
 	lyxscale 50
-	width 70col%
+	width 100col%
 
 \end_inset
 
@@ -479,12 +486,15 @@ Structure Globale de la méthode SCRUM
 \end_layout
 
 \begin_layout Plain Layout
+\align center
+
+\emph on
 Source : Wikipedia.
 \end_layout
 
 \end_inset
 
-Voici les itérations de notre projet (Réf: 
+Nous détaillons les itérations de notre projet en figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Planning-du-projet"
@@ -528,10 +538,6 @@ name "fig:Planning-du-projet"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 

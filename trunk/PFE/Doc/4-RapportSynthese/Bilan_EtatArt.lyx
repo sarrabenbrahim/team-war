@@ -117,6 +117,13 @@ Résumé
 \begin_layout Plain Layout
 Ouvrage « Utilisation du jugement d'expert en sûreté de fonctionnement »
  
+\begin_inset CommandInset citation
+LatexCommand cite
+key "book:jugement-expert"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -923,7 +930,7 @@ Conclusion
 \begin_inset Text
 
 \begin_layout Plain Layout
-ce support de présentation n'apporte pas plus d'information pertinente que
+Ce support de présentation n'apporte pas plus d'information pertinente que
  le 2ème article, cette présentation n'a pas été retenue comme solution
  pour les mêmes raisons que l'article.
 \begin_inset Note Note
@@ -1196,10 +1203,7 @@ Au terme de cette analyse, il s'est avéré qu'aucune solution concrète ne
 \begin_layout Standard
 L'idée étant d'utiliser les contraintes industrielles pour élaborer notre
  propre algorithme de calcul.
-\end_layout
-
-\begin_layout Standard
-Nous détaillerons celui-ci ainsi que ces résultats dans la partie suivante.
+ Nous détaillerons celui-ci ainsi que ces résultats dans la partie suivante.
 \end_layout
 
 \end_body
