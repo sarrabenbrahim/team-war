@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -155,7 +155,7 @@ Remarque
 \end_layout
 
 \begin_layout Standard
-Dans les deux cas envisagés, nous avons un VAN positif, ce qui signifie
+Dans les deux cas envisagés, nous avons une VAN positive, ce qui signifie
  d'un point de vue financier que le projet rapporte plus que son investissement.
 \end_layout
 
@@ -351,7 +351,7 @@ Avec des IP aussi élevés, il est donc normal d'avoir des TRI aussi élevés
 \end_layout
 
 \begin_layout Section
-Delai de récupération du capital investi
+Délai de récupération du capital investi
 \end_layout
 
 \begin_layout Subsection
