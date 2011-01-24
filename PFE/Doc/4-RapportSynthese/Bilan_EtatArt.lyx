@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.5 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -176,7 +176,7 @@ Avantages
 
 \begin_layout Plain Layout
 Évaluer et garantir : la fiabilité, la maintenabilité, la disponibilité,
- la sécurité et le rendement maximum au moindre coût
+ la sécurité et le rendement maximum au moindre coût.
 \end_layout
 
 \end_inset
@@ -197,7 +197,7 @@ Inconvénients
 
 \begin_layout Plain Layout
 Ne permet pas de combiner plusieurs défaillances, en effet elle ne peut
- détecter qu'une défaillance à la fois
+ détecter qu'une défaillance à la fois.
 \end_layout
 
 \end_inset
@@ -217,7 +217,7 @@ Conclusion
 \begin_inset Text
 
 \begin_layout Plain Layout
-cette démarche n'est pas faisable, elle requiert un niveau de détails trop
+Cette démarche n'est pas faisable, elle requiert un niveau de détails trop
  important pour une production de ce type (non linéaire, multi produits,
  interaction de nombreux paramètres et grand nombre d'étape de fabrication).
 \end_layout
@@ -297,7 +297,7 @@ Avantages
 \begin_inset Text
 
 \begin_layout Plain Layout
-une démarche complète et entière, qui gère et corrige le risque grâce à
+Une démarche complète et entière, qui gère et corrige le risque grâce à
  des actions en amont et en aval.
 \end_layout
 
@@ -402,7 +402,7 @@ Objectif
 \begin_inset Text
 
 \begin_layout Plain Layout
-une méthode d'élaboration d'un plan de contrôle en deux étapes : la première
+Une méthode d'élaboration d'un plan de contrôle en deux étapes : la première
  étape consiste à identifier les risques possibles et de faire une répartition
  de risque.
  Ensuite ajuster le plan construit en ajoutant ou en supprimant des contrôles
@@ -426,7 +426,7 @@ Conclusion
 \begin_inset Text
 
 \begin_layout Plain Layout
-cette méthode ne peut être retenue pour notre cas d'étude car il faut identifier
+Cette méthode ne peut être retenue pour notre cas d'étude car il faut identifier
  tous les risques possibles ainsi que la capacité de contrôle.
  
 \end_layout
@@ -538,7 +538,7 @@ Inconvénients
 \begin_inset Text
 
 \begin_layout Plain Layout
-la proportionnalité de la réduction du risque dépend du nombre de plan de
+La proportionnalité de la réduction du risque dépend du nombre de plan de
  contrôle
 \end_layout
 
@@ -559,7 +559,7 @@ Conclusion
 \begin_inset Text
 
 \begin_layout Plain Layout
-cette méthode n'est pas industriellement viable dès lors qu'on exige un
+Cette méthode n'est pas industriellement viable dès lors qu'on exige un
  niveau de fiabilité élevé pour les processus car cela engendrait d'important
  temps d'indisponibilité des machines
 \end_layout
@@ -621,7 +621,7 @@ Objectif
 Repose sur une méthode d'échantillonnage « intelligente » qui permet d'identifie
 r seulement les produits (échantillons pertinents) à contrôler sans perte
  d'information.
- Pour 
+ 
 \end_layout
 
 \end_inset
@@ -642,7 +642,7 @@ Avantages
 
 \begin_layout Plain Layout
 Un algorithme a été développé pour identifier et contrôler un critère sur
- les produits inspectés 
+ les produits inspectés.
 \end_layout
 
 \end_inset
@@ -662,7 +662,7 @@ Inconvénients
 \begin_inset Text
 
 \begin_layout Plain Layout
-cette approche ne permet pas de réduire les risques en défectivité mais
+Cette approche ne permet pas de réduire les risques en défectivité mais
  seulement l'échantillonnage pour la mesure.
 \end_layout
 
@@ -683,7 +683,7 @@ Conclusion
 \begin_inset Text
 
 \begin_layout Plain Layout
-cette méthode peut être retenue pour être exploitée en complément avec une
+Cette méthode peut être retenue pour être exploitée en complément avec une
  solution qui traite plus le cœur de notre problème en terme de défectivité.
  
 \end_layout
@@ -768,7 +768,7 @@ Avantages
 \begin_inset Text
 
 \begin_layout Plain Layout
-c'est une méthode très prometteuse au niveau des résultats
+C'est une méthode très prometteuse au niveau des résultats.
 \end_layout
 
 \end_inset
@@ -933,16 +933,6 @@ Conclusion
 Ce support de présentation n'apporte pas plus d'information pertinente que
  le 2ème article, cette présentation n'a pas été retenue comme solution
  pour les mêmes raisons que l'article.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-A repréciser les raisons
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -1101,7 +1091,7 @@ Avantages
 \begin_inset Text
 
 \begin_layout Plain Layout
-Cette méthode est programmable et a priori correspond au sujet
+Cette méthode est programmable et a priori correspond au sujet.
 \end_layout
 
 \end_inset
@@ -1121,7 +1111,7 @@ Inconvénients
 \begin_inset Text
 
 \begin_layout Plain Layout
-demande beaucoup de tests et donc systématique.
+Demande beaucoup de tests et donc systématique.
 \end_layout
 
 \end_inset
