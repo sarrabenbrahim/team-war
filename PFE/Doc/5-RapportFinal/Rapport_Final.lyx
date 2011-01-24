@@ -1,4 +1,4 @@
-#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -344,6 +344,22 @@ LatexCommand tableofcontents
 \end_layout
 
 \begin_layout Standard
+\begin_inset FloatList algorithm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "Introduction.lyx"
@@ -389,7 +405,7 @@ Etat de l'art
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand input
+LatexCommand include
 filename "Etude_Presentation_ST.lyx"
 
 \end_inset
@@ -399,7 +415,7 @@ filename "Etude_Presentation_ST.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand input
+LatexCommand include
 filename "Dcube.lyx"
 
 \end_inset
@@ -409,7 +425,7 @@ filename "Dcube.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand input
+LatexCommand include
 filename "AnApproachForOperationalRisk.lyx"
 
 \end_inset
@@ -419,7 +435,7 @@ filename "AnApproachForOperationalRisk.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand input
+LatexCommand include
 filename "OptimizingReturnOnInspection.lyx"
 
 \end_inset
@@ -429,7 +445,7 @@ filename "OptimizingReturnOnInspection.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand input
+LatexCommand include
 filename "OuvrageSdF.lyx"
 
 \end_inset
@@ -439,7 +455,7 @@ filename "OuvrageSdF.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand input
+LatexCommand include
 filename "OptimizedPlansRisk.lyx"
 
 \end_inset
@@ -449,7 +465,7 @@ filename "OptimizedPlansRisk.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand input
+LatexCommand include
 filename "ComputationOfWaferAtRisk.lyx"
 
 \end_inset
@@ -459,7 +475,7 @@ filename "ComputationOfWaferAtRisk.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand input
+LatexCommand include
 filename "PreventionDesPhenomenesDangereux.lyx"
 
 \end_inset
@@ -469,7 +485,7 @@ filename "PreventionDesPhenomenesDangereux.lyx"
 
 \begin_layout Standard
 \begin_inset CommandInset include
-LatexCommand input
+LatexCommand include
 filename "Bilan_EtatArt.lyx"
 
 \end_inset
