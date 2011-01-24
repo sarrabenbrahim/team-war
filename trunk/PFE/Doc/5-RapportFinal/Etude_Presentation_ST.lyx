@@ -54,7 +54,11 @@ Dans le cadre de notre recherche, une série de document de recherche nous
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Chapter
+Conférences
+\end_layout
+
+\begin_layout Section
 Operational risk evaluation and control plan design
 \end_layout
 
@@ -107,7 +111,7 @@ Cependant ce support de présentation n'apporte pas plus d'information pertinent
  que l'extrait de la thèse pour être retenu comme solution de notre problème.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 A novel approach to minimize the number of controls in the defectivity area
 \begin_inset OptArg
 status open

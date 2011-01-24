@@ -47,31 +47,30 @@ figs-within-sections
 
 \begin_body
 
+\begin_layout Chapter
+Utilisation du jugement d'expert
+\end_layout
+
 \begin_layout Paragraph
-L'ouvrage intitulé 
-\begin_inset Quotes fld
+Le jugement d'expert
+\begin_inset CommandInset citation
+LatexCommand cite
+key "book:jugement-expert"
+
 \end_inset
 
-Utilisation du jugement d'expert en sûreté de fonctionnement
-\begin_inset Quotes frd
-\end_inset
-
- écrit par 
-\emph on
-André Lannoy et Henri Procaccia
-\emph default
- en 2001 présente différents éléments qui peuvent être intéressants dans
- le contexte de ce PFE, nous dénoterons une présentation de l'Analyse des
- Modes de Défaillances de leurs Effets et de leurs Criticité, méthode communémen
-t appelée AMDEC.
+ présente différents éléments qui peuvent être intéressants dans le contexte
+ de ce PFE, nous dénoterons une affiliation avec l'Analyse des Modes de
+ Défaillances de leurs Effets et de leurs Criticité, méthode communément
+ appelée AMDEC.
  Nous citerons également des éléments sur l'utilisation des avis d'experts.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Utilisation de l'avis d'experts
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 En sûreté de fonctionnement, comme dans d'autres domaines, le jugement d'expert
  peut être considéré comme une des réponses possibles à un problème technique
  de retour d'expérience ou d'aide à la décision.
@@ -90,11 +89,11 @@ En sûreté de fonctionnement, comme dans d'autres domaines, le jugement d'exper
  des expertises, le traitement statistique de l'expertise.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 AMDEC
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 AMDEC (l'acronyme d'Analyse des modes de défaillance, de leurs effets et
  de leur criticité) est une démarche déductive qui consiste à identifier
  au niveau d'un système donné, les modes potentiels de défaillance de ses
@@ -102,7 +101,7 @@ AMDEC (l'acronyme d'Analyse des modes de défaillance, de leurs effets et
  
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 Une fois l'état d'art du systéme est réalisé nous essaierons d'identifier
  de maniére systématique les modes de défaillance potentiels, ensuite nous
  identifierons pour chaque mode de défaillance les causes qui l'ont provoqué,
@@ -114,11 +113,11 @@ Une fois l'état d'art du systéme est réalisé nous essaierons d'identifier
  
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Section
 Démarche
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 La démarche est simple, elle est basée sur une analyse compléte du systéme
  qui nous permettera d'identifier les fonctions offertes par le systéme
  ainsi que les contraintes d'utilisation et d'environnement, les paramètres
@@ -149,7 +148,7 @@ Identification des méthodes de détection des défaillance et des actions
  préventives ou correctives
 \end_layout
 
-\begin_layout Paragraph
+\begin_layout Standard
 la figure
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -204,7 +203,7 @@ Tableau récapitulatif de la démarche AMDEC
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Section
 Objectif de démarche
 \end_layout
 
@@ -224,20 +223,20 @@ Améliorer le fonctionnement des processus
 Optimiser la conception 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Section
 Avantages
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 Evaluer et garantir les 4 propriétés de la sûreté de fonctionnement qui
  sont :
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
 La fiabilité
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
 La maintenabilité
 \end_layout
@@ -256,16 +255,21 @@ Obtenir le côut maximum de rendement globale des équipements de production.
 \end_layout
 
 \begin_layout Itemize
-Réduire les coûts de maintenance préventive ou corrective.
+Réduire les coûts de maintenance préventive 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Itemize
+Réduire les coûts de maintenace corrective.
+\end_layout
+
+\begin_layout Section
 Inconvénient
 \end_layout
 
 \begin_layout Standard
 Elle ne permet pas de prendre en compte la combinaison de plusieurs défaillances
  en même temps.
+ Et sont utilisation peut devenir fastidieuse pour les processus complexes.
 \end_layout
 
 \end_body

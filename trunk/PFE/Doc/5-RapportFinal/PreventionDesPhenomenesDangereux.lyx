@@ -47,11 +47,11 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Standard
-
+\begin_layout Chapter
+Analye du risque
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Méthode générale
 \end_layout
 
@@ -64,6 +64,16 @@ reference "fig:Analyse-du-risque"
 \end_inset
 
 ):
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Il manque la source de ce document 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
@@ -150,7 +160,7 @@ Les éléments du risque
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Gravité du dommage (G)
 \end_layout
 
@@ -171,7 +181,7 @@ G2 grave défaut (normalement irréversible, y compris la destruction de la
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Fréquence ou durée d’exposition au phénomène dangereux (F)
 \end_layout
 
@@ -207,7 +217,7 @@ F1 De rare à assez fréquente ou courte durée d’exposition ;
 F2 De fréquente à continue ou longue durée d’exposition.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Probabilité d’occurrence de l’événement dangereux (O)
 \end_layout
 
@@ -250,7 +260,7 @@ O3 Élevée (de moyenne à élevée).
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Possibilité d’évitement du dommage (P)
 \end_layout
 
@@ -290,7 +300,7 @@ Pour définir l’indice de risque nous utiliserons un logigramme de risque
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Réduction du risque
 \end_layout
 
@@ -304,11 +314,21 @@ reference "fig:Réduction-du-risque"
 
 .
 \begin_inset Note Note
-status collapsed
+status open
 
 \begin_layout Plain Layout
 ici je n'ai pas encore fini j'ai plusieurs page a lire et a faire correspondre
  merci pour votre patience .
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Peux tu donner tes sources ?
 \end_layout
 
 \end_inset
@@ -359,7 +379,7 @@ La figure présente la gestion du risque sous deux parties : l'appréciation
  expliqués.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Élimination des phénomènes dangereux et réduction du risque:
 \end_layout
 

@@ -47,17 +47,28 @@ figs-within-sections
 
 \begin_body
 
+\begin_layout Chapter
+Optimizing Return on inspection trough defectivity smart sampling
+\end_layout
+
 \begin_layout Standard
 Avec la croissance de la complexité et du besoin de la réactivité des processus,
  la méthode d'échantillonnage est devenue limitée face aux exigences.
  Pour combler le défaut de cette méthode, nous avons remarqué que le contrôle
  de certains échantillons peut être éviter sans perte d'information notable
  sur la série de produits.
- Un algorithme a été développé pour identifier et contrôler ce critère sur
- les produits inspectés inutilement.
+ Un algorithme
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:sampling"
+
+\end_inset
+
+ a été développé pour identifier et contrôler ce critère sur les produits
+ inspectés inutilement.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Description de l'algorithme
 \end_layout
 
@@ -355,7 +366,7 @@ Zoom on case of skip
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Résultats
 \end_layout
 
@@ -365,7 +376,7 @@ L'algorithme a été éxécuté sur plus de trois mois de production.
  ignorées, parce qu'elles n'apportaient aucune information supplémentaire.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Remarques
 \end_layout
 

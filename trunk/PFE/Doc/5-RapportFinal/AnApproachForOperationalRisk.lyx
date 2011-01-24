@@ -47,13 +47,24 @@ figs-within-sections
 
 \begin_body
 
-\begin_layout Subsection
+\begin_layout Chapter
+An aproach for operational risk evaluation and its link to control plan
+\end_layout
+
+\begin_layout Section
 Déscription de la méthode
 \end_layout
 
 \begin_layout Standard
-Cet article présente une méthode d'évaluation des risques opérationnels
- aidant à la prise de décisions sur les plans de contrôle.
+Cet article
+\begin_inset CommandInset citation
+LatexCommand cite
+key "art:risk"
+
+\end_inset
+
+ présente une méthode d'évaluation des risques opérationnels aidant à la
+ prise de décisions sur les plans de contrôle.
  La méthode consiste à évaluer l'évolution du risque 
 \begin_inset Formula $R^{0}(t)$
 \end_inset
@@ -311,7 +322,7 @@ En supposant que la loi de distribution de la probabilité des évènements
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Résultats
 \end_layout
 
@@ -374,7 +385,7 @@ L'objectif futur de cette approche consiste à optimiser les plans de contrôle
  en fonction des exigences de l'entreprise.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Remarques
 \end_layout
 
