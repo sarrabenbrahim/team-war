@@ -52,41 +52,67 @@ Conclusion
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Ne pas utiliser l'expression 
-\begin_inset Quotes fld
-\end_inset
-
-l'entreprise ne vas pas regretter
-\begin_inset Quotes frd
-\end_inset
-
- l'entreprise n'est pas une personne.
- Préferer 
-\begin_inset Quotes fld
-\end_inset
-
-globalement positif pour l'entreprise
-\begin_inset Quotes frd
-\end_inset
-
- ou 
-\begin_inset Quotes fld
-\end_inset
-
-pas d'aspect négatifs pour...
-\begin_inset Quotes frd
-\end_inset
-
- etc ...
+L'analyse des coûts, basée sur de telles hypothèses et estimations, a montré
+ que le projet est très rentable.
+ En effet, les indicateurs tels que le VAN, IP et TRI sont très positifs
+ et très élevés par rapport à la plupart des investissements.
 \end_layout
 
+\begin_layout Standard
+Face à de tels résultats, aussi positifs, nous nous sommes demandés si nous
+ n'avons pas trop sur-estimé le gain annuel de notre projet ? ou trop sous-estim
+é l'investissement initial ? ou pire un raisonnement erronné ?
+\end_layout
+
+\begin_layout Standard
+Il est normal d'être sceptique face à une estimation annuelle de 5,2 millions
+ dollars pour la non-qualité mais si nous regardons son chiffre d'affaire
+ pour 2009 (période de crise) qui est 8,424 milliards dollars, cette estimations
+ est devenue relativement correcte pour une multinationale.
+ Notre estimation pour le gain annuel du projet n'est donc pas trop exagérée.
+\end_layout
+
+\begin_layout Standard
+Pour l'investissement initial, ce projet n'est pas une création mais une
+ amélioration de l'existant d'où l'hypothèse que notre solution puisse exploiter
+ les ressources déjà existantes.
+ Comme ce n'est pas un projet qui va créer de la valeur ajoutée mais une
+ réduction des dépenses (ou ce qui n'apporte pas de la valeur ajoutée) que
+ nous l'avons considéré comme un gain financier dans la gestion des coûts.
+ Le VAN est tellement élevé qu'il permet de couvrir une grande marge d'erreur
+ dans l'estimation pour l'investissement initial, sans remettre pour autant
+ en question la rentabilité du projet.
+\end_layout
+
+\begin_layout Standard
+Le fait que le taux d'intérêt légal utilisé (2010) soit faible et que la
+ durée de l'exploitation de l'investissement soit de trois ans ont accentué
+ la profitabilité dans le calcul des indicateurs (VAN et IP).
+ En effet, un taux d'intérêt faible engendre des cash-flow actualisés plus
+ élevés.
+ Et une durée d'exploitation de l'investissement plus longue accentue l'écat
+ entre les flux générés et l'investissement initial.
+\end_layout
+
+\begin_layout Standard
+En prenant un peu de recul, nous remarquons que les projets informatiques
+ (programmes, logiciels) sont très rentables et rapidement par rapport à
+ son investissement initial à condition qu'ils soient fonctionnels et opérationn
+els.
+ 
+\end_layout
+
+\begin_layout Standard
+Il suffit donc que notre solution 
+\begin_inset Quotes fld
 \end_inset
 
+l'algorithme du marcheur
+\begin_inset Quotes frd
+\end_inset
 
+ puisse répondre aux besoins du client et réduire seulement quelques pourcent
+ (cas pessimiste avec -5%) pour qu'elle soit rentable pour l'entreprise.
 \end_layout
 
 \end_body

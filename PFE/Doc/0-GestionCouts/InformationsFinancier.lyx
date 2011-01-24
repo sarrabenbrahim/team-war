@@ -53,7 +53,7 @@ Informations financières
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Remarques de la prof des coûts le 13 décembre
@@ -210,15 +210,31 @@ Nous estimons qu'un investissement de $15000 pour des matériels informatiques
 \end_layout
 
 \end_deeper
+\begin_layout Itemize
+Nous supposons aussi que l'entreprise finance un PFE pouvant apporté une
+ vraie solution à la hauteur de $5000.
+ Ceci suppose que notre maquette est opérationnelle.
+\end_layout
+
 \begin_layout Section
 Taux de l'intérêt légal
 \end_layout
 
 \begin_layout Standard
-Pour la première fois depuis la réforme de 1989, le taux d'intérêt légal
- pour 2010 atteint son niveau le plus bas.
- Il vient d'être fixé par le décret (n°2010-127) du 10 février 2010, à seulement
- 0,65% (contre 3,79% en 2009, 3,99% en 2008 et 2,95% en 2007).
+Pour la première fois depuis la réforme de 1989, 
+\series bold
+le taux d'intérêt légal pour 2010
+\series default
+ atteint son niveau le plus bas.
+ Il vient d'être fixé par le décret (n°2010-127) du 
+\series bold
+10 février 2010
+\series default
+, à seulement 
+\series bold
+0,65%
+\series default
+ (contre 3,79% en 2009, 3,99% en 2008 et 2,95% en 2007).
 \end_layout
 
 \begin_layout Standard
@@ -287,7 +303,7 @@ Le taux légal d’une année étant égal à la moyenne arithmétique des TMB d
 \begin_layout Standard
 Ce que nous recherchons ce n'est pas un taux exact mais sa tendance pour
  les années suivantes afin d'estimer notre taux d'actualisation.
- Nous avons validé le taux d'actualisation à 0,65% pour nos calculs.
+ Nous avons donc validé le taux d'actualisation à 0,65% pour nos calculs.
 \end_layout
 
 \begin_layout Section
@@ -315,7 +331,7 @@ Avec
 \begin_deeper
 \begin_layout Itemize
 Cas pessimiste (
-\begin_inset Formula $5\%$
+\begin_inset Formula $-5\%$
 \end_inset
 
 ) : 
@@ -326,8 +342,8 @@ Cas pessimiste (
 \end_layout
 
 \begin_layout Itemize
-Cas pessimiste (
-\begin_inset Formula $30\%$
+Cas optimiste (
+\begin_inset Formula $-30\%$
 \end_inset
 
 ) : 
@@ -339,12 +355,370 @@ Cas pessimiste (
 
 \end_deeper
 \begin_layout Standard
-Notre solution permet de 
+=> Notre solution permet de 
 \series bold
 réduire le coût de la non-qualité entre 0,26 et 1,56 millions dollars par
  an
 \series default
 .
+\end_layout
+
+\begin_layout Standard
+Pour pouvoir calculer les différents indicateurs en analyse des coûts, nous
+ avons supposé que le durée d'exploitation du projet est sur trois années,
+ dans l'hypothèse que dans trois ans il va falloir changer les appareils
+ de métrologie existants et la technologie des produits.
+\end_layout
+
+\begin_layout Standard
+Son investissement initial est de $20000 qui correspond au financement du
+ PFE et l'achat de nouveau matériel informatique puisque les appareils de
+ métrologie et le personnel de maintenance sont supposés inchanger.
+\end_layout
+
+\begin_layout Standard
+Le flux monétaire entrant (recette) est l'argent économisé en réduisant
+ le coût de la non-qualité.
+\end_layout
+
+\begin_layout Standard
+Le flux monétaire sortant (dépense) est le salaire pour un thésard.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Cash-Flow pour le cas pessimiste (
+\begin_inset Formula $-5\%$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features>
+<column alignment="center" valignment="top" width="30col%">
+<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="15col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cas Pessimiste
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1^{ère}$
+\end_inset
+
+année
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2^{ème}$
+\end_inset
+
+année
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3^{ème}$
+\end_inset
+
+année
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Recette
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$260000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$260000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$260000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dépense
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$35000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$35000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$35000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Cash-Flow pour le cas optimiste (
+\begin_inset Formula $-30\%$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="4">
+<features>
+<column alignment="center" valignment="top" width="30col%">
+<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="15col%">
+<column alignment="center" valignment="top" width="15col%">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Cas Pessimiste
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1^{ère}$
+\end_inset
+
+année
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2^{ème}$
+\end_inset
+
+année
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3^{ème}$
+\end_inset
+
+année
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Recette
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$1560000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$1560000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$1560000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Dépense
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$35000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$35000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+$35000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
