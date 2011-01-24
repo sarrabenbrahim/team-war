@@ -98,7 +98,7 @@ La pratique actuelle de STMicroelectronics consiste à compter le nombre
  Ce comptage peut être référencé à une machine de production ou à une technologi
 e.
  Par contre, il ne prend pas en compte de l'existence de plusieurs type
- de paramètres ni de l'intéraction potentielle entre paramètres.
+ de paramètres ni de l'interaction potentielle entre paramètres.
 \end_layout
 
 \begin_layout Standard
