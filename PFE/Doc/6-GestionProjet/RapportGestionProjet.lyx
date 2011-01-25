@@ -101,7 +101,7 @@ Projet de Fin d'Étude
 \begin_inset Newline newline
 \end_inset
 
-Rapport de la gestion de projet
+Rapport de gestion de projet
 \begin_inset Newline newline
 \end_inset
 
@@ -293,13 +293,6 @@ filename "Annexe.lyx"
 \end_layout
 
 \begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "../../../Bibliographie/BiblioTeamWAR"
-options "bibtotoc,plain"
-
-\end_inset
-
 
 \end_layout
 

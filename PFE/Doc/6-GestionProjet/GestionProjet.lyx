@@ -59,8 +59,8 @@ La gestion de projet est une étape primordiale.
  répondre au cahier des charges.
  Pour améliorer la productivité de notre équipe et pour suivre l’évolution
  du cahier des charges, nous avons décidé d’utiliser une méthode entièrement
- développée et testée pour de courtes itérations, cette méthode n’est autre
- que SCRUM que nous détaillerons par la suite.
+ développée et testée pour de courtes itérations.
+ Cette méthode n’est autre que SCRUM que nous détaillerons par la suite.
  
 \end_layout
 
@@ -70,7 +70,7 @@ Organisation de l'équipe
 
 \begin_layout Standard
 Après notre première réunion, nous avons décidé de nous répartir les responsabil
-ités en fonctions des centres d'intérêts de chacun.
+ités en fonction des centres d'intérêts de chacun.
  Nous avons répartis les responsabilités en fonction du sujet de PFE lui-même.
  
 \end_layout
@@ -170,8 +170,8 @@ Son rôle est similaire à celui du
 coach
 \series default
 \noun default
- dans une équipe, il fait en sorte de tirer le meilleur de chacun.
- Il est aussi celui qui tranche les problèmes épineux.
+ dans une équipe, elle fait en sorte de tirer le meilleur de chacun.
+ Elle est aussi celui qui tranche les problèmes épineux.
  
 \end_layout
 
@@ -214,7 +214,7 @@ de communication
 \begin_inset Text
 
 \begin_layout Plain Layout
-Il interface l'équipe et les intervenants extérieurs.
+Il est l'interface entre l'équipe et les intervenants extérieurs.
 \end_layout
 
 \end_inset
@@ -305,7 +305,7 @@ Développement
 \begin_inset Text
 
 \begin_layout Plain Layout
-Il a pour mission de manager la partie développement du 
+Il a pour mission la supervision de la partie développement du 
 \series bold
 \noun on
 PFE
@@ -346,8 +346,8 @@ Responsable Réunion
 \begin_inset Text
 
 \begin_layout Plain Layout
-Son rôle est de contrôler le bon déroulement de tous les réunions de l'équipe,
- l'animation et l'ordre du jour.
+Son rôle est de contrôler le bon déroulement des réunions de l'équipe, de
+ l'animer et de rappeler l'ordre du jour.
  
 \end_layout
 
@@ -367,9 +367,10 @@ Son rôle est de contrôler le bon déroulement de tous les réunions de l'équi
 \end_layout
 
 \begin_layout Standard
-Pour le travail nous nous sommes génarelement organisé en fonction du nombre
+Pour le travail nous nous sommes génarelement organisés en fonction du nombre
  de tâches et des compétences de chaque membre de l'équipe, en effet il
- ya des fois ou nous avons travaillé en binômes , en équipe de 3 personnes.
+ y a des fois ou nous avons travaillé en binômes, en trinôme et voire en
+ équipe complète.
 \end_layout
 
 \begin_layout Chapter
@@ -377,14 +378,14 @@ Gestion de projet
 \end_layout
 
 \begin_layout Section
-Choix de la méthode agile
+Choix de la méthode Agile
 \end_layout
 
 \begin_layout Standard
 Après une explication du sujet par notre client.
- Il est apparue que la gestion de projet collant au mieux au sujet du PFE
- est la méthode agile.
-  En effet le projet pourra subir de nombreuses modifications en fonction
+ Il est apparue que le type de gestion de projet qui correspondait le mieux
+ à notre sujet du PFE est la méthode Agile.
+ En effet le projet pourra subir de nombreuses modifications en fonction
  de l'avancement.
  
 \end_layout
@@ -393,16 +394,12 @@ Après une explication du sujet par notre client.
 Plutôt que de subir ces modifications avec une gestion de projet traditionnelle,
  nous préférons en prendre notre partie et l'intégrer dans notre gestion
  de projet.
-\end_layout
-
-\begin_layout Standard
-En effet la méthode agile est une méthode de suivie de projet héritée des
- développements informatiques.
- 
+ En effet la méthode agile est une méthode de suivie de projet, héritée
+ des développements informatiques.
 \end_layout
 
 \begin_layout Section
-Caractéristiques de la méthode agile
+Caractéristiques de la méthode Agile
 \end_layout
 
 \begin_layout Standard
@@ -412,7 +409,7 @@ Notre équipe fonctionne sur le modèle de la gestion de projet "Agile".
 SCRUM
 \emph default
 .
- Ces caractéristiques principales sont :
+ Ses caractéristiques principales sont :
 \end_layout
 
 \begin_layout Standard
@@ -429,7 +426,7 @@ Simplicité
 \series bold
 Flexibilité
 \series default
- : cette flexibilité est obtenu par une forte implication du client.
+ : cette flexibilité est obtenue par une forte implication du client.
  Le client peut faire des modifications sur ses besoins mais pas à n'importe
  quel moment.
  Uniquement entre deux itération.
@@ -441,10 +438,9 @@ Flexibilité
 \series bold
 Auto-gestion
 \series default
- : basée sur la confiance mutuelle entre les membres de l'équipe ainsi qu'avec
+ : basée sur la confiance mutuelle entre les membres de l'équipe ainsi que
  le client.
  Motivation de l'équipe.
- 
 \end_layout
 
 \begin_layout Standard
@@ -521,7 +517,8 @@ Outils de travail
 
 \begin_layout Itemize
 Compte rendu : Le but de faire des comptes rendus est d'avoir à la fois
- une trace écrite d'une réunion ainsi qu'un support d'information.
+ une trace écrite d'une réunion et c'es aussi un support d'information pour
+ la suivi de l'avancement.
 \end_layout
 
 \begin_layout Standard
@@ -544,7 +541,7 @@ Exemple de compte rendu
 
 \begin_inset Graphics
 	filename ../Images/CompteRendu.png
-	width 80col%
+	width 75col%
 
 \end_inset
 
@@ -559,7 +556,7 @@ Exemple de compte rendu
 \begin_layout Itemize
 Serveur SVN : Nous avons choisi le serveur SVN qui est un logiciel de gestion
  de version afin de palier au probléme relatif à la perte des données ainsi
- qu'au probléme lié à la gestion des conflits.
+ qu'au problème lié à la gestion des conflits.
  En résumé cela consiste à travailler sur des versions précedente de sauvegarde
  afin de pouvoir résoudre le conflit.
  TortoiseSVN est un client gratuit multiplateforme du serveur ; il permet
@@ -575,6 +572,8 @@ LyX est un outil open source multiplateforme pour l’édition et le traitement
  les parties du rapport puis de les réintégrer d’une façon simple.
  Cet outil est performant, il permet de faire la mise en forme de la totalité
  du rapport automatiquement.
+ C'est surtout un éditeur qui s'intègre très bien avec le mode de travail
+ collaboratif comme SVN.
 \end_layout
 
 \begin_layout Itemize
@@ -706,7 +705,7 @@ Analyse du sujet
 \begin_inset Text
 
 \begin_layout Plain Layout
-76h
+48h
 \end_layout
 
 \end_inset
@@ -746,7 +745,7 @@ Développement de la solution
 \begin_inset Text
 
 \begin_layout Plain Layout
-82
+82h
 \end_layout
 
 \end_inset
@@ -773,7 +772,7 @@ Après une première interprétation du sujet nous avons retenue différentes
  grandes tâches.
  Ces tâches seront détaillées d'avantage en fonction de la compréhension
  du sujet et de l'avancement du projet.
- Cette liste de tâche sera notre matière première pour constituer nos 
+ Cette liste de tâches sera notre matière première pour constituer nos 
 \emph on
 Sprint
 \emph default
@@ -814,7 +813,7 @@ Benchmarking
 
 \begin_deeper
 \begin_layout Itemize
-Visions des pratiques des autres industries 
+Visions des pratiques dans les autres industries 
 \end_layout
 
 \begin_layout Itemize
@@ -910,7 +909,7 @@ Rédaction de la partie analyse et développement du sujet
 \end_layout
 
 \begin_layout Standard
-Au terme de cette itération, un rapport préliminaire était livré.
+Au terme de cette itération, un rapport préliminaire a été livré.
  De plus, la mise en place des outils suivants au sein de l'équipe Team
  W@R :
 \end_layout
@@ -923,9 +922,9 @@ Serveur SVN comme dépôt de donnée
 LyX pour la rédaction des rapports
 \end_layout
 
-\begin_layout Standard
-Mise en place de la de la méthode de gestion de projet agile (SCRUM) pour
- notre PFE 
+\begin_layout Itemize
+Mise en place de la méthode de gestion de projet Agile (SCRUM) pour notre
+ PFE
 \end_layout
 
 \begin_layout Section
@@ -934,7 +933,7 @@ La deuxième itération
 
 \begin_layout Standard
 Cette seconde itération consiste à faire l'état d'art de notre PFE grâce
- à l'analyse des documents, d'articles ainsi d'ouvrages (Travail bibliographique
+ à l'analyse des documents, d'articles ainsi d'ouvrages (travail bibliographique
 ).
  C'est une sorte de benchmarking qui consiste à analyser les techniques
  de gestion, les modes d'organisation des autres entreprises, les visions
@@ -1019,9 +1018,18 @@ Analyse et étude de faisabilité des méthodes abordées dans les articles
 \end_layout
 
 \begin_layout Standard
-Au terme de cette itération un rapport intérmédiaire était livré qui d'écrit
- l'état d'art de notre étude qui comporte des résumés d'articles, de documents
- ainsi des ouvrages étudiés et une proposition de l'algorithme du marcheur.
+Au terme de cette itération un rapport intérmédiaire a été livré qui décrit
+ l'état d'art.
+ Notre étude comporte les résumés d'articles, de documents et d'ouvrages.
+ Ainsi qu'une proposition de notre solution 
+\begin_inset Quotes eld
+\end_inset
+
+l'algorithme du marcheur
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
@@ -1032,8 +1040,8 @@ La troisiéme itération
 Cette dérniére itération est une étape de validation qui consiste à écarter
  le plus possible les méthodes que nous avons trouvé et retenir celle qui
  s'adapte le mieux à notre étude.
- L'implémentation de l'algorithme du marcheur afin de le tester sur un jeux
- de donnée.
+ L'implémentation de l'algorithme du marcheur afin de le tester sur un jeu
+ de données.
  Le travail est partagé comme suit : 
 \end_layout
 
@@ -1067,7 +1075,7 @@ Nakara
 \begin_inset Formula $\rightarrow$
 \end_inset
 
-Gestion de projet + état de l'art
+Gestion de projet + Bilan de l'état de l'art
 \end_layout
 
 \begin_layout Itemize
@@ -1083,9 +1091,9 @@ Travail bibliographique + Gestion des coûts
 \end_layout
 
 \begin_layout Standard
-Au terme de cette itération deux rapport ont été livré un rapport de synthése
- et un dossier final contenant un rapport final , yn rapport de gestion
- des coûts et un rapport de gestion de projet.
+Au terme de cette itération plusieurs documents ont été livré : un rapport
+ de synthése, un rapport final, un rapport de gestion des coûts et un rapport
+ de gestion de projet.
 \end_layout
 
 \begin_layout Standard
@@ -1125,17 +1133,18 @@ Récapitulatif des itérations
 \end_layout
 
 \begin_layout Chapter
-Problèmes rencontrés et solutions apportées
+Difficultés et solutions
 \end_layout
 
 \begin_layout Standard
-Malheureusement un projet n'est pas un long fleuve tranquille nous allons
- essayé dans cette partie de lister l'ensembles des problémes ainsi les
- solutions apportées pour la résolution de ces problémes.
+Comme la plupart des projets il y a toujours des difficultés à surmonter.
+ Dans cette partie, nous allons lister l'ensembles des difficultés rencontrées
+ ainsi que les solutions apportées.
 \end_layout
 
 \begin_layout Standard
-Les problèmes rencontrés durant le développement du PFE :
+Tout d'abord les difficultés rencontrées durant le développement du PFE
+ étaient les suivantes :
 \end_layout
 
 \begin_layout Itemize
@@ -1155,7 +1164,7 @@ Le choix du langage pour le développement de la maquette
 \end_layout
 
 \begin_layout Standard
-Les solutions que nous avons apporté à ces problèmes : 
+Ensuite les solutions que nous avons apporté face à ces problèmes : 
 \end_layout
 
 \begin_layout Itemize
@@ -1173,76 +1182,8 @@ Pour les données concernant le rapport de gestion des coûts, nous avons
 Pour le développement de la maquette nous avons choisi le langage Java puisque
  nous le maîtrisons, de plus il est simple à interpréter en comparaison
  avec d'autre langage.
- sachant que nous nous sommes pas obligés de programmer la solution , le
+ Sachant que nous nous sommes pas obligés de programmer la solution, le
  problème d'optimisation ne se pose pas
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Je suis conscient que cela peut paraître un peu honteux, mais malgrès des
- tensions évidentes dans le groupes nous sommes toujours arrivé à travailler
- et nos bagauarre n'était jamais de la langue de bois, nous n'avons jamais
- hésité à nous dire les choses.
- De plus la situation s'est amélioré en fin de projet ce qui laisse à penser
- que nous avons sut rester proffessionel malgrès tout ...
-\end_layout
-
-\begin_layout Plain Layout
-Je pense que c'est inéteressant de le noter dans les difficultés, écrivez
- votre prénom si vous êtes d'accord, si vous n'êtes pas d'accord je le retire
- mais je trouve ça dommage car ce sont les expériences difficiles qui sont
- le plus formateur :
-\end_layout
-
-\begin_layout Plain Layout
-Fabien
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Par exemple Philippe tu arrives à dire ce que tu penses directement à qui
- tu le penses, et j'ai le sentiment que tu es moins lisse qu'avant et plus
- affirmé.
- 
-\end_layout
-
-\begin_layout Plain Layout
-De même pour Jaafar tu n'as pas hésité à dire ce qui t'embétait, peut être
- un plus de travail régulier te serait benefique.
- Je dois reconnaitre que je t'ai relativement malmené cette année...
-\end_layout
-
-\begin_layout Plain Layout
-Abdou tu as sût garder ton sang froid mais tu (nous) as (avons) appris à
- nous faire confiance.
- 
-\end_layout
-
-\begin_layout Plain Layout
-Rahma tu as appris à mettre de la diplomatie dans ton discours car je ne
- pense pas avoir été spécialement tolérant ni t'avoir fait de cadeau.
- Mais tu as tenu bon malgré tout
-\end_layout
-
-\begin_layout Plain Layout
-Quand à Moi je pense que je n'ai pas été un cadeau, et je n'ai aucune circonstan
-ces atténuante...
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Chapter
@@ -1267,7 +1208,7 @@ ons et provoquant ainsi une évolution permanente du cahier de charge, même
 \begin_layout Standard
 De plus nous avons eu des difficultés au sein de notre équipe de travail,
  les caractères forts, les points de vue divergents et les différentes manières
- de travailler n'ont pas facilités la tâche, mais chacun a pu échanger et
+ de travailler n'ont pas facilité la tâche, mais chacun a pu échanger et
  participer à toutes les phases.
  Malgré ces épreuves, nous avons eu le plaisir de mener ce travail jusqu’à
  son terme.
@@ -1275,9 +1216,9 @@ De plus nous avons eu des difficultés au sein de notre équipe de travail,
 \end_layout
 
 \begin_layout Standard
-Nos connaissances en informatiques furent un atout pour réaliser notre maquette.
- Cela nous a permis aussi de mieux communiquer avec le client pour mieux
- lui « vendre » notre solution et valider notre travail.
+Nos connaissances en informatique furent un atout pour réaliser notre maquette.
+ Cela nous a permis aussi de mieux communiquer avec le client et de mieux
+ lui « vendre » notre solution et faire valider notre travail.
  
 \end_layout
 
