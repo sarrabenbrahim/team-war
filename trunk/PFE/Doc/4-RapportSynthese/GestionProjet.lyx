@@ -1,4 +1,4 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
 \lyxformat 345
 \begin_document
 \begin_header
@@ -63,13 +63,22 @@ Suite à notre première réunion avec le client, il a été décidé de nous r�
 
 \begin_layout Standard
 \begin_inset Float table
-placement h
+placement H
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
 \align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tableau récapitulatif des rôles
+\end_layout
+
+\end_inset
+
+
 \begin_inset Tabular
 <lyxtabular version="3" rows="6" columns="3">
 <features>
@@ -333,15 +342,6 @@ Son rôle est de contrôler le bon déroulement de tous les réunions de l'équi
 \end_inset
 
 
-\begin_inset Caption
-
-\begin_layout Plain Layout
-Tableau récapitulatif des rôles
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -447,7 +447,7 @@ reference "fig:Structure-Methode-Scrum"
 
 \begin_layout Standard
 \begin_inset Float figure
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -477,7 +477,7 @@ Structure Globale de la méthode SCRUM
 \begin_inset Graphics
 	filename ../Images/ScrumShemaGlobal.png
 	lyxscale 50
-	width 100col%
+	width 80col%
 
 \end_inset
 
@@ -512,16 +512,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Graphics
-	filename ../Images/Planning.PNG
-	width 100col%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -534,6 +524,13 @@ name "fig:Planning-du-projet"
 
 
 \end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../Images/Planning.PNG
+	width 80col%
 
 \end_inset
 

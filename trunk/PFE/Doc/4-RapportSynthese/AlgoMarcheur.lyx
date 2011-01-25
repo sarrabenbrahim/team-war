@@ -385,7 +385,7 @@ MSL
 
 \begin_layout Standard
 \begin_inset Float algorithm
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -498,7 +498,7 @@ Algorithme du marcheur en séquentiel
 
 
 \begin_inset Float algorithm
-placement h
+placement H
 wide false
 sideways false
 status open
@@ -699,6 +699,7 @@ reference "fig:classe-Entities"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -746,10 +747,10 @@ Ce diagramme de classe représente l'ensemble des classes entités, les Bat
 \end_layout
 
 \begin_layout Standard
-Remarque : Dans le projet il existe une classe nommée Constants qui contient
+Remarque : Dans le projet existe une classe nommée Constants qui contient
  toutes les constantes nécessaires au réglage de notre application.
- Ces connaissances faisant référence au savoir faire métier, les valeurs
- que nous avons utilisées sont donc parfaitement arbitraires.
+ Ces connaissances faisant référence au savoir-faire métier, les valeurs
+ que nous avons utilisé sont donc parfaitement arbitraires.
 \end_layout
 
 \begin_layout Section
@@ -798,7 +799,15 @@ reference "tab:Données-de-règlage-2"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
@@ -952,7 +961,7 @@ Valeur
 
 \emph on
 Valeurs de réglage utilisées pour générer les résultats représentés dans
- la fig
+ la figure
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Représentation-des-résultats"
@@ -969,6 +978,7 @@ reference "fig:Représentation-des-résultats"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -992,7 +1002,7 @@ Représentation des résultats après calculs
 
 \begin_inset Graphics
 	filename ../Images/GrapheDonnee.eps
-	width 100col%
+	width 80col%
 
 \end_inset
 
@@ -1025,6 +1035,7 @@ reference "tab:Données-de-règlage"
 
 \begin_layout Standard
 \begin_inset Float table
+placement H
 wide false
 sideways false
 status open
@@ -1207,6 +1218,7 @@ reference "fig:Représentation-des-résultats-2"
 
 \begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -1230,7 +1242,7 @@ Représentation des résultats après calculs
 
 \begin_inset Graphics
 	filename ../Images/grapheV2.eps
-	width 100col%
+	width 80col%
 
 \end_inset
 
