@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StatSVN - Directory EP952/CodeCLIPS/</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="Generator" content="StatSVN 0.7.0"/>
+<link rel="stylesheet" href="objectlab-statcvs.css" type="text/css"/>
+<script type="text/javascript" charset="utf-8" src="http://bit.ly/javascript-api.js?version=latest&#38;login=statsvn&#38;apiKey=R_2c362b417d0517c27876cbaca1bb68cc"></script>
+<script type="text/javascript" charset="utf-8">
+   // wait until page is loaded to call API
+   var redir_url;
+   var short_url;
+   BitlyCB.myShortenCallback = function(data) {
+      // this is how to get a result of shortening a single url
+      var result;
+      short_url=null;
+      for (var r in data.results) {
+         result = data.results[r];
+         result['longUrl'] = r;
+         short_url = result['shortUrl'];
+         break;
+      }
+      if (short_url==null) // bit.ly failed
+      document.location=redir_url;
+      else
+      redirToTwitter();
+   };
+   function shortenTweet(url) {
+      if (short_url == null || redir_url!=url) {
+      redir_url = url;
+      BitlyClient.shorten(document.location, 'BitlyCB.myShortenCallback');
+      }
+      else
+      redirToTwitter();
+      return false;
+   }
+   function redirToTwitter() { 
+      // replace {0} which is visible as %7B0} in the link
+      document.location = redir_url.replace('%7B0}', short_url);
+   }
+</script>
+  </head>
+
+<body>
+
+<h1>Directory EP952/CodeCLIPS/</h1>
+<div id="parentlink">&#171; <a href="index.html">Development Statistics for /trunk</a></div>
+<dl class="attributes">
+    <dt>Directory Created:</dt>
+    <dd><span class="date">2010-11-17 18:20</span></dd>
+    <dt>Total Files:</dt>
+    <dd>5</dd>
+    <dt>Deleted Files:</dt>
+    <dd>1</dd>
+    <dt>Lines of Code:</dt>
+    <dd>1204</dd>
+</dl>
+<p class="dirtree">
+<a href="dir.html">[root]</a>/<a href="dir_EP952.html">EP952</a>/<strong>CodeCLIPS</strong><br/>
+</p>
+
+<div class="section">
+<h2>Lines of Code</h2>
+<p class="chart"><img src="loc_module_EP952_CodeCLIPS.png" alt="EP952/CodeCLIPS/ Lines of Code" width="800" height="500" /></p></div>
+<div class="section">
+<h2>Developers</h2>
+  <table  rules="groups" summary="All authors and the number of their changes and lines of code in this directory">
+    <colgroup align="left"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <thead>
+      <tr>
+        <th>Author</th>
+        <th>Changes</th>
+        <th>Lines of Code</th>
+        <th>Lines per Change</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>Totals</th>
+        <td>17 (100.0%)</td>
+        <td>1412 (100.0%)</td>
+        <td>83.0</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr  class="odd">
+        <th><a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a></th>
+        <td>8 (47.1%)</td>
+        <td>751 (53.2%)</td>
+        <td>93.8</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_fab0670312047.html" class="author">fab0670312047</a></th>
+        <td>8 (47.1%)</td>
+        <td>610 (43.2%)</td>
+        <td>76.2</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="user_nakara.rahma.html" class="author">nakara.rahma</a></th>
+        <td>1 (5.9%)</td>
+        <td>51 (3.6%)</td>
+        <td>51.0</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+<div class="section">
+<h2>Most Recent Commits</h2>
+<dl class="commitlist">
+  <dt><a name="13"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 19:38</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">151</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++- Modification de EP.Bat Version Finale
+    </p>
+    <p class="commitdetails"><strong>24</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        EP.bat&#160;<span class="change">(+24&#160;-23)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="12"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 16:19</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">146</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Version Finale du syteme expert
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        InitialisationEP.BAT&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="11"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 16:18</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">145</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Version finale du Syteme Expert
+    </p>
+    <p class="commitdetails"><strong>36</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        EP.bat&#160;<span class="change">(+36&#160;-8)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="10"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-24 09:38</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">144</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Mise en page <br />
++ rajout du code dans le rapport<br />
+
+    </p>
+    <p class="commitdetails"><strong>510</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        faits.txt&#160;<span class="new">(new&#160;130)</span>,
+        regles.txt&#160;<span class="change">(+343&#160;-73)</span>,
+        structure.txt&#160;<span class="change">(+37&#160;-13)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="9"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 03:11</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">143</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Systeme expert
+    </p>
+    <p class="commitdetails"><strong>82</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        InitialisationEP.BAT&#160;<span class="change">(+82&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="8"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 03:10</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">142</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Finalement le system expert est pret ;)
+    </p>
+    <p class="commitdetails"><strong>573</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        EP.bat&#160;<span class="new">(new&#160;573)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="7"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-21 20:21</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">129</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Regles (difficulte sur la regle de duree qu'est ce qui est vraiment intéressant ?)<br />
++ Ajout de structure qui correspondent aux différentes règles<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>79</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        regles.txt&#160;<span class="change">(+75&#160;-5)</span>,
+        structure.txt&#160;<span class="change">(+4)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="6"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-21 18:59</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">128</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ première Version du programme à completer après<br />
+Abdelali et Jaafar
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        InitialisationEP.BAT&#160;<span class="new">(new&#160;1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="5"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-19 16:00</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">126</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout des règles
+    </p>
+    <p class="commitdetails"><strong>51</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        regles.txt&#160;<span class="change">(+51)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="4"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-19 15:54</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">125</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction du DiagrammeClasse.dia
+    </p>
+    <p class="commitdetails"><strong>4</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        structure.txt&#160;<span class="change">(+4&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="3"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-19 15:46</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">124</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du fichier InitialisationEP.CLP 
+    </p>
+    <p class="commitdetails"><strong>31</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        InitialisationEP.CLP&#160;<span class="new">(new&#160;31)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="2"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-19 15:34</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">123</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Modif structure<br />
++ et ajout d'hypothèse pour le rapport<br />
+
+    </p>
+    <p class="commitdetails"><strong>10</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        structure.txt&#160;<span class="change">(+10&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="1"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-17 18:20</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">116</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout code<br />
++ Ajout fichier regles.txt<br />
++ Mise en forme rapport<br />
+
+    </p>
+    <p class="commitdetails"><strong>11</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        regles.txt&#160;<span class="new">(new)</span>,
+        structure.txt&#160;<span class="new">(new&#160;11)</span>
+      </li>
+    </ul>
+  </dd>
+
+</dl>
+
+</div><div id="generatedby">Generated by <a href="http://www.statsvn.org">StatSVN</a> 0.7.0</div>
+</body>
+</html>

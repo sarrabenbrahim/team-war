@@ -1,0 +1,430 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StatSVN - /trunk Developers</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="Generator" content="StatSVN 0.7.0"/>
+<link rel="stylesheet" href="objectlab-statcvs.css" type="text/css"/>
+<script type="text/javascript" charset="utf-8" src="http://bit.ly/javascript-api.js?version=latest&#38;login=statsvn&#38;apiKey=R_2c362b417d0517c27876cbaca1bb68cc"></script>
+<script type="text/javascript" charset="utf-8">
+   // wait until page is loaded to call API
+   var redir_url;
+   var short_url;
+   BitlyCB.myShortenCallback = function(data) {
+      // this is how to get a result of shortening a single url
+      var result;
+      short_url=null;
+      for (var r in data.results) {
+         result = data.results[r];
+         result['longUrl'] = r;
+         short_url = result['shortUrl'];
+         break;
+      }
+      if (short_url==null) // bit.ly failed
+      document.location=redir_url;
+      else
+      redirToTwitter();
+   };
+   function shortenTweet(url) {
+      if (short_url == null || redir_url!=url) {
+      redir_url = url;
+      BitlyClient.shorten(document.location, 'BitlyCB.myShortenCallback');
+      }
+      else
+      redirToTwitter();
+      return false;
+   }
+   function redirToTwitter() { 
+      // replace {0} which is visible as %7B0} in the link
+      document.location = redir_url.replace('%7B0}', short_url);
+   }
+</script>
+  </head>
+
+<body>
+
+<h1>/trunk Developers</h1>
+<div id="parentlink">&#171; <a href="index.html">Development Statistics for /trunk</a></div>
+<dl class="attributes">
+    <dt>Number of Developers:</dt>
+    <dd>10</dd>
+</dl>
+  <table  rules="groups" summary="All authors and the number of their changes and lines of code">
+    <colgroup align="left"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <thead>
+      <tr>
+        <th>Author</th>
+        <th>Author Id</th>
+        <th>Changes</th>
+        <th>Lines of Code</th>
+        <th>Lines per Change</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th></th>
+        <td>Totals</td>
+        <td>1037 (100.0%)</td>
+        <td>363288 (100.0%)</td>
+        <td>350.3</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr  class="odd">
+        <th><a href="user_fab0670312047.html" class="author">fab0670312047</a></th>
+        <td><a href="user_fab0670312047.html" class="author">fab0670312047</a></td>
+        <td>498 (48.0%)</td>
+        <td>167371 (46.1%)</td>
+        <td>336.0</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_hoc5783.html" class="author">hoc5783</a></th>
+        <td><a href="user_hoc5783.html" class="author">hoc5783</a></td>
+        <td>192 (18.5%)</td>
+        <td>141197 (38.9%)</td>
+        <td>735.4</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="user_nakara.rahma.html" class="author">nakara.rahma</a></th>
+        <td><a href="user_nakara.rahma.html" class="author">nakara.rahma</a></td>
+        <td>107 (10.3%)</td>
+        <td>32444 (8.9%)</td>
+        <td>303.2</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a></th>
+        <td><a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a></td>
+        <td>47 (4.5%)</td>
+        <td>9584 (2.6%)</td>
+        <td>203.9</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a></th>
+        <td><a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a></td>
+        <td>19 (1.8%)</td>
+        <td>5554 (1.5%)</td>
+        <td>292.3</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a></th>
+        <td><a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a></td>
+        <td>77 (7.4%)</td>
+        <td>4365 (1.2%)</td>
+        <td>56.6</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="user_josianegarcia66.html" class="author">josianegarcia66</a></th>
+        <td><a href="user_josianegarcia66.html" class="author">josianegarcia66</a></td>
+        <td>10 (1.0%)</td>
+        <td>1169 (0.3%)</td>
+        <td>116.9</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_jpierre03@gmail.com.html" class="author">jpierre03@gmail.com</a></th>
+        <td><a href="user_jpierre03@gmail.com.html" class="author">jpierre03@gmail.com</a></td>
+        <td>61 (5.9%)</td>
+        <td>1066 (0.3%)</td>
+        <td>17.4</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="user_Abdelali.nait@gmail.com.html" class="author">Abdelali.nait@gmail.com</a></th>
+        <td><a href="user_Abdelali.nait@gmail.com.html" class="author">Abdelali.nait@gmail.com</a></td>
+        <td>13 (1.3%)</td>
+        <td>482 (0.1%)</td>
+        <td>37.0</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_jpierre03.html" class="author">jpierre03</a></th>
+        <td><a href="user_jpierre03.html" class="author">jpierre03</a></td>
+        <td>13 (1.3%)</td>
+        <td>56 (0.0%)</td>
+        <td>4.3</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+<div class="section">
+<h2>Last 12 Months</h2>
+  <table  rules="groups" summary="All authors and the number of their changes and lines of code">
+    <colgroup align="left"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <thead>
+      <tr>
+        <th>Author</th>
+        <th>Up to 1/2010</th>
+        <th>2/2010</th>
+        <th>3/2010</th>
+        <th>4/2010</th>
+        <th>5/2010</th>
+        <th>6/2010</th>
+        <th>7/2010</th>
+        <th>8/2010</th>
+        <th>9/2010</th>
+        <th>10/2010</th>
+        <th>11/2010</th>
+        <th>12/2010</th>
+        <th>1/2011</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>Totals</th>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>22207 (100.0%)</td>
+        <td>923 (100.0%)</td>
+        <td>43900 (100.0%)</td>
+        <td>33287 (100.0%)</td>
+        <td>262971 (100.0%)</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr  class="odd">
+        <th><a href="user_fab0670312047.html" class="author">fab0670312047</a></th>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>19218 (86.5%)</td>
+        <td>776 (84.1%)</td>
+        <td>27515 (62.7%)</td>
+        <td>8713 (26.2%)</td>
+        <td>111149 (42.3%)</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_hoc5783.html" class="author">hoc5783</a></th>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>474 (2.1%)</td>
+        <td>0 (0.0%)</td>
+        <td>2214 (5.0%)</td>
+        <td>22976 (69.0%)</td>
+        <td>115533 (43.9%)</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="user_nakara.rahma.html" class="author">nakara.rahma</a></th>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>2039 (9.2%)</td>
+        <td>147 (15.9%)</td>
+        <td>8705 (19.8%)</td>
+        <td>236 (0.7%)</td>
+        <td>21317 (8.1%)</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a></th>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>4613 (10.5%)</td>
+        <td>540 (1.6%)</td>
+        <td>4431 (1.7%)</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a></th>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>5554 (2.1%)</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a></th>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>853 (1.9%)</td>
+        <td>199 (0.6%)</td>
+        <td>3313 (1.3%)</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="user_josianegarcia66.html" class="author">josianegarcia66</a></th>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>1169 (0.4%)</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_jpierre03@gmail.com.html" class="author">jpierre03@gmail.com</a></th>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>623 (1.9%)</td>
+        <td>443 (0.2%)</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="user_Abdelali.nait@gmail.com.html" class="author">Abdelali.nait@gmail.com</a></th>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>476 (2.1%)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>6 (0.0%)</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_jpierre03.html" class="author">jpierre03</a></th>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (-)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>0 (0.0%)</td>
+        <td>56 (0.0%)</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+<div class="section">
+<h2>Lines of Code</h2>
+<p class="chart"><img src="loc_per_author.png" alt="Contributed Lines of Code" width="800" height="500" /></p></div>
+<div class="section">
+<h2>Developer of the Month</h2>
+  <table  rules="groups" summary="Repository Tags">
+    <colgroup align="left"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <thead>
+      <tr>
+        <th>Month</th>
+        <th>Author</th>
+        <th>Lines</th>
+        <th>Tweet This</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  class="odd">
+        <th><a href="2011-01.html">January 2011</a></th>
+        <td><a href="user_hoc5783.html" class="author">hoc5783</a></td>
+        <td>115533</td>
+        <td><a onclick="return shortenTweet(this.href);" href="http://twitter.com/home?status=hoc5783%20is%20Developer%20of%20The%20Month%20for%20January%202011%20for%20%2Ftrunk%20%7B0}%20with%20115 533%20lines.%20Stats%20by%20StatSVN%20http%3A%2F%2Fstatsvn.org"><img style="border:0px" alt="Tweet this" src="tt-twitter-micro3.png"/></a></td>
+      </tr>
+      <tr  class="even">
+        <th><a href="2010-12.html">December 2010</a></th>
+        <td><a href="user_hoc5783.html" class="author">hoc5783</a></td>
+        <td>22976</td>
+        <td><a onclick="return shortenTweet(this.href);" href="http://twitter.com/home?status=hoc5783%20is%20Developer%20of%20The%20Month%20for%20December%202010%20for%20%2Ftrunk%20%7B0}%20with%2022 976%20lines.%20Stats%20by%20StatSVN%20http%3A%2F%2Fstatsvn.org"><img style="border:0px" alt="Tweet this" src="tt-twitter-micro3.png"/></a></td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="2010-11.html">November 2010</a></th>
+        <td><a href="user_fab0670312047.html" class="author">fab0670312047</a></td>
+        <td>27515</td>
+        <td><a onclick="return shortenTweet(this.href);" href="http://twitter.com/home?status=fab0670312047%20is%20Developer%20of%20The%20Month%20for%20November%202010%20for%20%2Ftrunk%20%7B0}%20with%2027 515%20lines.%20Stats%20by%20StatSVN%20http%3A%2F%2Fstatsvn.org"><img style="border:0px" alt="Tweet this" src="tt-twitter-micro3.png"/></a></td>
+      </tr>
+      <tr  class="even">
+        <th><a href="2010-10.html">October 2010</a></th>
+        <td><a href="user_fab0670312047.html" class="author">fab0670312047</a></td>
+        <td>776</td>
+        <td><a onclick="return shortenTweet(this.href);" href="http://twitter.com/home?status=fab0670312047%20is%20Developer%20of%20The%20Month%20for%20October%202010%20for%20%2Ftrunk%20%7B0}%20with%20776%20lines.%20Stats%20by%20StatSVN%20http%3A%2F%2Fstatsvn.org"><img style="border:0px" alt="Tweet this" src="tt-twitter-micro3.png"/></a></td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="2010-09.html">September 2010</a></th>
+        <td><a href="user_fab0670312047.html" class="author">fab0670312047</a></td>
+        <td>19218</td>
+        <td><a onclick="return shortenTweet(this.href);" href="http://twitter.com/home?status=fab0670312047%20is%20Developer%20of%20The%20Month%20for%20September%202010%20for%20%2Ftrunk%20%7B0}%20with%2019 218%20lines.%20Stats%20by%20StatSVN%20http%3A%2F%2Fstatsvn.org"><img style="border:0px" alt="Tweet this" src="tt-twitter-micro3.png"/></a></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+<div class="section">
+<h2>Developer Activity </h2>
+<p class="chart"><img src="commitscatterauthors.png" alt="Commit Activity" width="800" height="880" /></p><p class="chart"><img src="activity.png" alt="Author Activity" width="512" height="300" /></p></div>
+<div class="section">
+<h2>Activity by Clock Time</h2>
+<p class="chart"><img src="activity_time.png" alt="Activity by Hour of Day" width="800" height="500" /></p><p class="chart"><img src="activity_day.png" alt="Activity by Day of Week" width="800" height="500" /></p></div><div id="generatedby">Generated by <a href="http://www.statsvn.org">StatSVN</a> 0.7.0</div>
+</body>
+</html>

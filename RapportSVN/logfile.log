@@ -1,0 +1,6718 @@
+<?xml version="1.0"?>
+<log>
+<logentry
+   revision="375">
+<author>fab0670312047</author>
+<date>2011-01-30T15:49:21.478256Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/Modelisation.psd</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/poster.psd</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/Quartiers.psd</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/Criminalite.psd</path>
+</paths>
+<msg>+ Ajout des sources des images 
+</msg>
+</logentry>
+<logentry
+   revision="374">
+<author>fab0670312047</author>
+<date>2011-01-28T07:10:43.242666Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Rendu/PresentationPFE2011.pttx</path>
+</paths>
+<msg>+ Ajout de la présentation rendu à Mr Pujo (Pas la même que la dernière)
+</msg>
+</logentry>
+<logentry
+   revision="373">
+<author>fab0670312047</author>
+<date>2011-01-28T07:07:32.042970Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Presentation/PresentationPFE2011.pttx</path>
+</paths>
+<msg>+ Presentation à Jour faite par Philipe 
+</msg>
+</logentry>
+<logentry
+   revision="372">
+<author>fab0670312047</author>
+<date>2011-01-27T21:59:50.148458Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Presentation/PresentationPFE2011.pttx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Presentation/presentation - Rahma.pptx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Presentation/presentation - Philippe.pptx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Presentation/presentation - Abdelali.pptx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Presentation/presentation.pptx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Presentation/presentation - Fabien.pptx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Presentation/presentation - Jaafar.pptx</path>
+</paths>
+<msg>+ Ajout presentation de Philippe 
+- Suppression des fichiers personnel de presentation
+</msg>
+</logentry>
+<logentry
+   revision="371">
+<author>fab0670312047</author>
+<date>2011-01-27T14:52:32.378449Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Rendu/Poster02_2011.ppt</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Rendu/Poster02_2011.png</path>
+</paths>
+<msg>+ Ajout des posters envoyés
+</msg>
+</logentry>
+<logentry
+   revision="370">
+<author>fab0670312047</author>
+<date>2011-01-27T14:34:32.881345Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Presentation/presentation - Jaafar.pptx</path>
+</paths>
+<msg>+ Relecture partie Jaafar
+</msg>
+</logentry>
+<logentry
+   revision="369">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-27T13:51:42.970143Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Presentation/GestionCoutsProjet.ppt</path>
+</paths>
+<msg>+ Présentation partie Gesrion Coûts et Projet</msg>
+</logentry>
+<logentry
+   revision="368">
+<author>Abdelali.nait</author>
+<date>2011-01-27T12:19:58.835886Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Presentation/presentation - Abdelali.pptx</path>
+</paths>
+<msg>+ Prise en compte des remarques de Mme Frydman</msg>
+</logentry>
+<logentry
+   revision="367">
+<author>fab0670312047</author>
+<date>2011-01-27T09:19:55.803503Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/analogie.png</path>
+</paths>
+<msg>+ Conversion = en fleches
+</msg>
+</logentry>
+<logentry
+   revision="366">
+<author>Abdelali.nait</author>
+<date>2011-01-27T08:26:02.264868Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Presentation/presentation - Abdelali.pptx</path>
+</paths>
+<msg>+ Modification du diapos</msg>
+</logentry>
+<logentry
+   revision="365">
+<author>fab0670312047</author>
+<date>2011-01-27T08:24:22.480593Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/7-Poster/posterPro.png</path>
+</paths>
+<msg>+ Maj du poster
+</msg>
+</logentry>
+<logentry
+   revision="364">
+<author>Abdelali.nait</author>
+<date>2011-01-27T08:19:51.211426Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Presentation/presentation - Abdelali.pptx</path>
+</paths>
+<msg>+ Ajout du présentation Abdelali</msg>
+</logentry>
+<logentry
+   revision="363">
+<author>fab0670312047</author>
+<date>2011-01-27T08:06:40.523262Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/modelisationBis.png</path>
+</paths>
+<msg>+ Ajout modelisation pour Abdou
+</msg>
+</logentry>
+<logentry
+   revision="362">
+<author>fab0670312047</author>
+<date>2011-01-27T08:02:27.976938Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/EquivalenceModeleImplementation.png</path>
+</paths>
+<msg>+ Ajout Equivalence modele implementation
+</msg>
+</logentry>
+<logentry
+   revision="361">
+<author>fab0670312047</author>
+<date>2011-01-27T07:53:40.805644Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Images/Criminalite.png</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Images/ModeleQuartiers.png</path>
+</paths>
+<msg>+ Mise à Jour d'images
+</msg>
+</logentry>
+<logentry
+   revision="360">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-27T07:41:21.109922Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Presentation/presentation - Jaafar.pptx</path>
+</paths>
+<msg>-+ Gestion de projet et Gestion des coûts</msg>
+</logentry>
+<logentry
+   revision="359">
+<author>fab0670312047</author>
+<date>2011-01-27T07:34:36.159497Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/correspondance.png</path>
+</paths>
+<msg>+ Ajout image de correspondance Modele et Implémentation
+</msg>
+</logentry>
+<logentry
+   revision="358">
+<author>fab0670312047</author>
+<date>2011-01-27T07:24:42.736949Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/ModelisationProbleme.png</path>
+</paths>
+<msg>+ Ajout de l'image de modélisation du problème
+</msg>
+</logentry>
+<logentry
+   revision="357">
+<author>fab0670312047</author>
+<date>2011-01-27T07:16:16.722333Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Images/ModeleQuartiers.png</path>
+</paths>
+<msg>+ Mise à jour du modèle des quartier
+</msg>
+</logentry>
+<logentry
+   revision="356">
+<author>fab0670312047</author>
+<date>2011-01-26T22:23:28.595371Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/7-Poster/posterPro.png</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/7-Poster/posterEbauche.png</path>
+</paths>
+<msg>+ Ajout du poster avec Police d'écriture "Pro"
+</msg>
+</logentry>
+<logentry
+   revision="355">
+<author>fab0670312047</author>
+<date>2011-01-26T22:05:17.766086Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/7-Poster/posterAvecSepartaion.png</path>
+</paths>
+<msg>+ Ajout poster avec idée demarquation
+</msg>
+</logentry>
+<logentry
+   revision="354">
+<author>fab0670312047</author>
+<date>2011-01-26T21:49:38.993992Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/7-Poster/poster.png</path>
+</paths>
+<msg>+ Ajout d'une version avancé du poster 
+(Je ne sais pas encore comment séparer les parties)
+</msg>
+</logentry>
+<logentry
+   revision="353">
+<author>fab0670312047</author>
+<date>2011-01-26T13:33:10.660587Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Presentation/presentation - Fabien.pptx</path>
+</paths>
+<msg>+ Rédaction de la présentation
+</msg>
+</logentry>
+<logentry
+   revision="352">
+<author>fab0670312047</author>
+<date>2011-01-25T23:47:07.568741Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/grapheV2WithLine.png</path>
+</paths>
+<msg>+ Ajout graphique avec ligne de démarcation
+</msg>
+</logentry>
+<logentry
+   revision="351">
+<author>fab0670312047</author>
+<date>2011-01-25T23:28:07.704461Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/7-Poster</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/Criminalite.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/7-Poster/posterEbauche.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/ModeleQuartiers.png</path>
+</paths>
+<msg>+ Ajout d'ébauche de poster 
++ Ajout de quelques images pouvant servir à la présentation et au poster
+</msg>
+</logentry>
+<logentry
+   revision="350">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-25T14:30:57.346752Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Presentation/presentation - Rahma.pptx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Presentation/presentation - Philippe.pptx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Presentation/presentation - Abdelali.pptx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Presentation/presentation - Fabien.pptx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Presentation/presentation - Jaafar.pptx</path>
+</paths>
+<msg>+ Duplication du modéle afin que chaqu'un bosse indépendament sur ça Bartie pour éviter d'avoir des conflits</msg>
+</logentry>
+<logentry
+   revision="349">
+<author>Abdelali.nait</author>
+<date>2011-01-25T14:16:04.730480Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Presentation/presentation.pptx</path>
+</paths>
+<msg>+ Ajout du fichier presentation.pptx</msg>
+</logentry>
+<logentry
+   revision="348">
+<author>Abdelali.nait</author>
+<date>2011-01-25T14:15:17.633933Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Presentation</path>
+</paths>
+<msg>+ Ajout du dossier Presentation</msg>
+</logentry>
+<logentry
+   revision="347">
+<author>hoc5783</author>
+<date>2011-01-25T10:02:34.548722Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/6-GestionProjet/RapportGestionProjet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionProjet.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Rendu/RapportGestionProjetR347.pdf</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/6-GestionProjet/GestionProjet.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Rendu/Rapport_SyntheseR347.pdf</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/RapportGestionCouts.lyx</path>
+</paths>
+<msg>+ MON DERNIER COMMIT POUR LES RAPPORTS !
+(Fabien, garde ces documents si tu y tiennes tellement, perso je n'en veux pas :p)
+
+Philippe
+
+</msg>
+</logentry>
+<logentry
+   revision="346">
+<author>fab0670312047</author>
+<date>2011-01-24T15:01:14.056472Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Correction mineure
+</msg>
+</logentry>
+<logentry
+   revision="345">
+<author>mesbahi.jaafar</author>
+<date>2011-01-24T14:49:10.959005Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+</paths>
+<msg>-+ Relecture + correction
+</msg>
+</logentry>
+<logentry
+   revision="344">
+<author>nakara.rahma</author>
+<date>2011-01-24T14:36:14.283528Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionProjet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Introduction.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+</paths>
+<msg>+ correction</msg>
+</logentry>
+<logentry
+   revision="343">
+<author>hoc5783</author>
+<date>2011-01-24T13:54:30.705354Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Rendu/RapportPreliminaireR40.pdf</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Rendu/RapportGestionCoutsR339.pdf</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Rendu/Rapport_FinalR256.pdf</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Rendu/Rapport_SyntheseR256.pdf</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Rendu/Rapport_FinalR342.pdf</path>
+</paths>
+<msg>+ Rapports rendus
+
+</msg>
+</logentry>
+<logentry
+   revision="342">
+<author>hoc5783</author>
+<date>2011-01-24T13:36:06.200225Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Introduction.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Conclusion.lyx</path>
+</paths>
+<msg>+ Corrections à la dernière minute.
+
+</msg>
+</logentry>
+<logentry
+   revision="341">
+<author>Abdelali.nait</author>
+<date>2011-01-24T13:09:43.458096Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/6-GestionProjet/GestionProjet.lyx</path>
+</paths>
+<msg>+- Ajout de l'introduction </msg>
+</logentry>
+<logentry
+   revision="340">
+<author>nakara.rahma</author>
+<date>2011-01-24T13:04:47.515110Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Dernieres corrections</msg>
+</logentry>
+<logentry
+   revision="339">
+<author>hoc5783</author>
+<date>2011-01-24T12:52:10.653354Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Conclusion.lyx</path>
+</paths>
+<msg>+ Dernières modifs du rapport de gestion des coûts.
+
+</msg>
+</logentry>
+<logentry
+   revision="338">
+<author>fab0670312047</author>
+<date>2011-01-24T12:48:50.452135Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/6-GestionProjet/RapportGestionProjet.lyx</path>
+</paths>
+<msg>+ correction bug
+
+</msg>
+</logentry>
+<logentry
+   revision="337">
+<author>fab0670312047</author>
+<date>2011-01-24T12:40:09.990457Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+</paths>
+<msg>+ Ne soyons pas timide
+</msg>
+</logentry>
+<logentry
+   revision="336">
+<author>hoc5783</author>
+<date>2011-01-24T12:39:15.375978Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/6-GestionProjet/RapportGestionProjet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/6-GestionProjet/GestionProjet.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/6-GestionProjet/Annexe.lyx</path>
+</paths>
+<msg>+ Mise en page du rapport.
+
+</msg>
+</logentry>
+<logentry
+   revision="335">
+<author>fab0670312047</author>
+<date>2011-01-24T12:28:28.882999Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Relecture algo marcheur
+</msg>
+</logentry>
+<logentry
+   revision="334">
+<author>Abdelali.nait</author>
+<date>2011-01-24T12:24:16.267364Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/CahierCharges.lyx</path>
+</paths>
+<msg>+ correction</msg>
+</logentry>
+<logentry
+   revision="333">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-24T12:17:37.848398Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/6-GestionProjet/GestionProjet.lyx</path>
+</paths>
+<msg>-+ Correc-+ Correction du chemin relatif et absolu
+</msg>
+</logentry>
+<logentry
+   revision="332">
+<author>fab0670312047</author>
+<date>2011-01-24T12:09:28.078299Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/6-GestionProjet/GestionProjet.lyx</path>
+</paths>
+<msg>+ Integration du shema de Jaafar
+
+</msg>
+</logentry>
+<logentry
+   revision="331">
+<author>fab0670312047</author>
+<date>2011-01-24T12:06:52.762298Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/6-GestionProjet/GestionProjet.lyx</path>
+</paths>
+<msg>+ Correction sur les outils subversion
+</msg>
+</logentry>
+<logentry
+   revision="330">
+<author>hoc5783</author>
+<date>2011-01-24T12:03:20.292525Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/6-GestionProjet/RapportGestionProjet.lyx</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/6-GestionProjet</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/6-GestionProjet/GestionProjet.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>+ Nouveau dossier dédié à la gestion de projet =&gt; Rapport à part.
+
+</msg>
+</logentry>
+<logentry
+   revision="329">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-24T11:58:41.419370Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/DiagrammeIDEEF0.png</path>
+</paths>
+<msg>+ Ajout DiagrammeIDEEF0.png
+-+ Intégration du diagramme dans la partie gestion de projet :)</msg>
+</logentry>
+<logentry
+   revision="328">
+<author>hoc5783</author>
+<date>2011-01-24T11:54:09.536535Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+</paths>
+<msg>+ Séparation des rapports : final, gestion de projet et gestions des coûts.
+
+</msg>
+</logentry>
+<logentry
+   revision="327">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-24T11:44:57.104778Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Images/DiagrammeIDEEF0.DIA</path>
+</paths>
+<msg>-+ Modification du Modéle IDEEF0</msg>
+</logentry>
+<logentry
+   revision="326">
+<author>nakara.rahma</author>
+<date>2011-01-24T11:39:57.627197Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>+ corrections</msg>
+</logentry>
+<logentry
+   revision="325">
+<author>nakara.rahma</author>
+<date>2011-01-24T11:36:36.213613Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>+ correction
+</msg>
+</logentry>
+<logentry
+   revision="324">
+<author>hoc5783</author>
+<date>2011-01-24T11:24:31.307544Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/5-RapportFinal/GestionCouts.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/EntrepriseST.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Etude_Presentation_ST.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/CahierCharges.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Indicateurs.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/OptimizedPlansRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Conclusion.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>+ Mise en forme du rapport avec corrections.
+
+</msg>
+</logentry>
+<logentry
+   revision="323">
+<author>Abdelali.nait</author>
+<date>2011-01-24T11:21:13.362278Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+- Reclecture et modification du AlgoMarcheur.lyx (rapport Final)
+n'hesitez à faire une relecture ... ;)</msg>
+</logentry>
+<logentry
+   revision="322">
+<author>nakara.rahma</author>
+<date>2011-01-24T11:01:52.860560Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Bilan_EtatArt.lyx</path>
+</paths>
+<msg>+ correction orthographe </msg>
+</logentry>
+<logentry
+   revision="321">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-24T11:00:49.011394Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>-+ Ajout partie Pb et solution apporté</msg>
+</logentry>
+<logentry
+   revision="320">
+<author>fab0670312047</author>
+<date>2011-01-24T11:00:01.575490Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+</paths>
+<msg>+ Correction d'un bug
+</msg>
+</logentry>
+<logentry
+   revision="319">
+<author>fab0670312047</author>
+<date>2011-01-24T10:54:16.283284Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Dcube.lyx</path>
+</paths>
+<msg>+ Pour être sûr que les figures soient dans les bon chapitres
+</msg>
+</logentry>
+<logentry
+   revision="318">
+<author>nakara.rahma</author>
+<date>2011-01-24T10:38:43.893069Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Bilan_EtatArt.lyx</path>
+</paths>
+<msg>+ correction orthographe</msg>
+</logentry>
+<logentry
+   revision="317">
+<author>nakara.rahma</author>
+<date>2011-01-24T10:22:43.351330Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>+ correction de la conslusion</msg>
+</logentry>
+<logentry
+   revision="316">
+<author>fab0670312047</author>
+<date>2011-01-24T10:20:25.057535Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionProjet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+</paths>
+<msg>+ Relecture du rapport de synthèse
+
+</msg>
+</logentry>
+<logentry
+   revision="315">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-24T09:53:50.503813Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>+ Ajout de la répartition des charges dans la partie Gestion des coûts</msg>
+</logentry>
+<logentry
+   revision="314">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-24T09:52:00.520652Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/CompteRendu.png</path>
+</paths>
+<msg>+ Ajout figure Compte Rendu</msg>
+</logentry>
+<logentry
+   revision="313">
+<author>nakara.rahma</author>
+<date>2011-01-24T09:45:58.771178Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Introduction.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Indicateurs.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Conclusion.lyx</path>
+</paths>
+<msg>+ correction orthographe , synthaxe, grammaire</msg>
+</logentry>
+<logentry
+   revision="312">
+<author>fab0670312047</author>
+<date>2011-01-24T08:26:54.024916Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>+ Relecture de la conclusion de management de projet
+</msg>
+</logentry>
+<logentry
+   revision="311">
+<author>fab0670312047</author>
+<date>2011-01-24T08:08:29.864691Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Dcube.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/OptimizingReturnOnInspection.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/OuvrageSdF.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Etude_Presentation_ST.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/AnApproachForOperationalRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/ComputationOfWaferAtRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/PreventionDesPhenomenesDangereux.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/Bibliographie/BiblioTeamWAR.bib</path>
+</paths>
+<msg>+ Relecture 
++ Remise sous forme de chapitres (plus facile à lire et à naviguer dans 
+le document par la suite)
++ Ajout des sources bibliographique 
+</msg>
+</logentry>
+<logentry
+   revision="310">
+<author>fab0670312047</author>
+<date>2011-01-24T07:50:04.889936Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/Bibliographie/BiblioTeamWAR.bib</path>
+</paths>
+<msg>+ Ajout d'une référence biblio
+</msg>
+</logentry>
+<logentry
+   revision="309">
+<author>hoc5783</author>
+<date>2011-01-24T05:38:29.412575Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Introduction.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Indicateurs.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/0-GestionCouts/Questions.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Conclusion.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/RapportGestionCouts.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+</paths>
+<msg>+ Voilà le rapport gestion des coûts.
++ Veuillez faire une relecture pour les fautes de français.
+
+Philippe
+</msg>
+</logentry>
+<logentry
+   revision="308">
+<author>nakara.rahma</author>
+<date>2011-01-24T00:10:44.288753Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Conclusion.lyx</path>
+</paths>
+<msg>+ j'ai mis une deuxieme version de la conclusion si quelquen veu mixer les 2 si non il fau juste la supprimer </msg>
+</logentry>
+<logentry
+   revision="307">
+<author>nakara.rahma</author>
+<date>2011-01-23T23:42:55.650721Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>+ une sorte de conclusion pour le rapport de gestion de projet </msg>
+</logentry>
+<logentry
+   revision="306">
+<author>nakara.rahma</author>
+<date>2011-01-23T22:37:16.060796Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/EtatArt.lyx</path>
+</paths>
+<msg>+ confusion sur la conclusion excusez moi pour les commit :p</msg>
+</logentry>
+<logentry
+   revision="305">
+<author>nakara.rahma</author>
+<date>2011-01-23T22:34:14.533479Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/OptimizingReturnOnInspection.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/OuvrageSdF.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Etude_Presentation_ST.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/AnApproachForOperationalRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/ComputationOfWaferAtRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/PreventionDesPhenomenesDangereux.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/OptimizedPlansRisk.lyx</path>
+</paths>
+<msg>+ état de l'art normalement finis pour ceux qui veulent jeter un coup d'oeil</msg>
+</logentry>
+<logentry
+   revision="304">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-23T21:46:06.939903Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>-+ Modification du Produit Back log
+-+ Ajout des itérations</msg>
+</logentry>
+<logentry
+   revision="303">
+<author>fab0670312047</author>
+<date>2011-01-23T20:38:33.801810Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>+ Ajout petite note 
++ Ajout d'une partie que je suugère à chacun de lire dans la gestion de 
+projet 
+</msg>
+</logentry>
+<logentry
+   revision="302">
+<author>hoc5783</author>
+<date>2011-01-23T20:25:27.065213Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+</paths>
+<msg>+ Ajout du CDC comme demandé.
+
+</msg>
+</logentry>
+<logentry
+   revision="301">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-23T20:07:51.928620Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+- Modification du fichier AlgoMarcheur.lyx (rapport de synthése)
+
+Abdou Nait Abdelkacem</msg>
+</logentry>
+<logentry
+   revision="300">
+<author>nakara.rahma</author>
+<date>2011-01-23T19:47:55.104916Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+</paths>
+<msg>+ conclusion sur D3 incorporé dans le tableau</msg>
+</logentry>
+<logentry
+   revision="299">
+<author>nakara.rahma</author>
+<date>2011-01-23T19:43:23.097949Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Dcube.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/OptimizingReturnOnInspection.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/OuvrageSdF.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Etude_Presentation_ST.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/AnApproachForOperationalRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/ComputationOfWaferAtRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/PreventionDesPhenomenesDangereux.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/OptimizedPlansRisk.lyx</path>
+</paths>
+<msg>+ etat de l'art pas encore corrigé</msg>
+</logentry>
+<logentry
+   revision="298">
+<author>hoc5783</author>
+<date>2011-01-23T19:43:11.849997Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+</paths>
+<msg>+ Ajout d'éléments manquants
+
+</msg>
+</logentry>
+<logentry
+   revision="297">
+<author>fab0670312047</author>
+<date>2011-01-23T19:10:30.242803Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+</paths>
+<msg>+ Intégration des fichiers ajouté par Rahma 
++ Correction d'un chemin absolu en chemin relatif
+
+</msg>
+</logentry>
+<logentry
+   revision="296">
+<author>fab0670312047</author>
+<date>2011-01-23T18:41:43.668241Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Conclusion.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Introduction.lyx</path>
+</paths>
+<msg>+ Mise en forme rapport de synthèse
++ Rajout de citations pour Etat de l'art
+</msg>
+</logentry>
+<logentry
+   revision="295">
+<author>nakara.rahma</author>
+<date>2011-01-23T18:27:19.529915Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/OptimizingReturnOnInspection.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/OuvrageSdF.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/AnApproachForOperationalRisk.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/ComputationOfWaferAtRisk.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/PreventionDesPhenomenesDangereux.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/OptimizedPlansRisk.lyx</path>
+</paths>
+<msg>+ fichier composant l'état de l'art</msg>
+</logentry>
+<logentry
+   revision="294">
+<author>hoc5783</author>
+<date>2011-01-23T18:04:19.870119Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Bibliographie/Presentation_cifre.pdf</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+</paths>
+<msg>+ S'il te plait arrête de travailler sur la même partie que moi car ça créer de$
+$le mois prochain surement). Donc il n'y a pas d'incohérence entre les 2 taux si tu as bien lu le rapport (2010 c'est officiel et 2011 c'est une prévision statistique).
+
+
+</msg>
+</logentry>
+<logentry
+   revision="293">
+<author>fab0670312047</author>
+<date>2011-01-23T17:55:29.355475Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Correction du bug qui empèche la compilation
+</msg>
+</logentry>
+<logentry
+   revision="292">
+<author>josianegarcia66</author>
+<date>2011-01-23T17:32:33.112517Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionProjet.lyx</path>
+</paths>
+<msg>+ Correction Ortographe et Syntaxe
+</msg>
+</logentry>
+<logentry
+   revision="291">
+<author>fab0670312047</author>
+<date>2011-01-23T17:23:01.250334Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/EntrepriseST.lyx</path>
+</paths>
+<msg>+ Prise en compte des modif de chacuns
++ Correction orthographe et syntaxe
+</msg>
+</logentry>
+<logentry
+   revision="290">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-23T17:07:36.006724Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>-+ Ajout des Outils de travail</msg>
+</logentry>
+<logentry
+   revision="289">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-23T17:05:52.060720Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/EntrepriseST.lyx</path>
+</paths>
+<msg>-+ Partie Historique ST + quelque modif.</msg>
+</logentry>
+<logentry
+   revision="288">
+<author>josianegarcia66</author>
+<date>2011-01-23T16:26:42.535056Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Introduction.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+</paths>
+<msg>+ Relecture globale et mise en cohérence des parties
+</msg>
+</logentry>
+<logentry
+   revision="287">
+<author>hoc5783</author>
+<date>2011-01-23T15:44:27.089447Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/TauxActualisation2010.png</path>
+</paths>
+<msg>IMPORTANT : Fabien, tu es incorrigible ! Ce n'est pas que je ne fais pas de commit tous les heures, ça ne veut pas dire que je ne bosse pas ! De plus tes petits copier-coller, je sais le faire aussi ! Voire peut-être mieux puisque c'est moi qui l'a rédigé.
++ Modif de quelques valeurs sur gestion des coûts / synthèse.
++ Rédaction en cours du rapport de gestion des coûts ainsi que le calcul des indicateurs (je pense avoir une piste). Donc Fabien, si tu t'ennuis fais autres choses, ne vient pas mettre le désordre dans ma partie. Une fois, finis, tu seras libre de corrigier.
+Merci de votre compréhension,
+
+Philippe
+
+</msg>
+</logentry>
+<logentry
+   revision="286">
+<author>fab0670312047</author>
+<date>2011-01-23T15:23:23.791699Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Introduction.lyx</path>
+</paths>
+<msg>+ Correction orthographe
+</msg>
+</logentry>
+<logentry
+   revision="285">
+<author>josianegarcia66</author>
+<date>2011-01-23T13:03:58.177685Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Indicateurs.lyx</path>
+</paths>
+<msg>+ Correction orthographique et syntaxe
+</msg>
+</logentry>
+<logentry
+   revision="284">
+<author>josianegarcia66</author>
+<date>2011-01-23T12:42:36.367046Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Introduction.lyx</path>
+</paths>
+<msg>+ Correction de l'introduction 
+</msg>
+</logentry>
+<logentry
+   revision="283">
+<author>fab0670312047</author>
+<date>2011-01-23T12:36:36.130752Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+</paths>
+<msg>+ Remise du bilan de l'état de l'art dans le rapport de synthèse avec 
+La conclusion à part
+</msg>
+</logentry>
+<logentry
+   revision="282">
+<author>fab0670312047</author>
+<date>2011-01-23T11:59:53.615200Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Introduction.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/EntrepriseST.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/RapportGestionCouts.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/Bibliographie/BiblioTeamWAR.bib</path>
+</paths>
+<msg>+ Ajout d'information sur rapport de cout 
++ Correction d'adresse relative
++ Relecture 
+</msg>
+</logentry>
+<logentry
+   revision="281">
+<author>nakara.rahma</author>
+<date>2011-01-23T09:32:04.746557Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+</paths>
+<msg>+ je re commit tous car sur ma boite ya qu'un seul commit jen ai fait 4 ou son passé les autres?</msg>
+</logentry>
+<logentry
+   revision="280">
+<author>nakara.rahma</author>
+<date>2011-01-23T09:28:36.815836Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+</paths>
+<msg>+ introduction de la parti contexte , il faut faire la meme chose pour toute les parti afin de guider le lecteur</msg>
+</logentry>
+<logentry
+   revision="279">
+<author>nakara.rahma</author>
+<date>2011-01-23T09:27:58.808182Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+</paths>
+<msg>+ quelque modification </msg>
+</logentry>
+<logentry
+   revision="278">
+<author>nakara.rahma</author>
+<date>2011-01-23T09:27:31.237385Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+</paths>
+<msg>+ quelque modification mais il manque toujour l'ennoncé du cahier de charge tel qu'il est jai mis une note dessus</msg>
+</logentry>
+<logentry
+   revision="277">
+<author>nakara.rahma</author>
+<date>2011-01-23T09:26:38.892157Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+</paths>
+<msg>+ je ne suit pas arrivé a revenir à la ligne pour faire une parti sur la D3 et une parti conclusion, il faut juste arranger ça </msg>
+</logentry>
+<logentry
+   revision="276">
+<author>fab0670312047</author>
+<date>2011-01-22T16:41:33.034846Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Conclusion.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/3-Finale/Conclusion.lyx</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx"
+   copyfrom-rev="274"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/3-Finale/Introduction.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/3-Finale/DCube.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/3-Finale/OperationnalRisk.lyx</path>
+</paths>
+<msg>- Supression et déplacement des doublons
++ Ajout conclusion rapport de Synthèse
++ Correction orthographique
+
+</msg>
+</logentry>
+<logentry
+   revision="275">
+<author>fab0670312047</author>
+<date>2011-01-22T15:11:35.211867Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+</paths>
+<msg>+ Relecture rapide
+</msg>
+</logentry>
+<logentry
+   revision="274">
+<author>fab0670312047</author>
+<date>2011-01-22T15:02:38.915693Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Refonte de l'algo marcheur du rapport final pour le rendre plus claire
+Cette partie ayant été faite au fil de l'eau, quelques nomenclatures ont changé
+
+</msg>
+</logentry>
+<logentry
+   revision="273">
+<author>hoc5783</author>
+<date>2011-01-22T14:09:29.470952Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+</paths>
+<msg>+Suppression des références qui n'existent plus.
++Gestion des coûts
+
+
+</msg>
+</logentry>
+<logentry
+   revision="272">
+<author>fab0670312047</author>
+<date>2011-01-22T13:48:57.117288Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Resultat/ResultatExcelV3.txt</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Resultat/ResultForExcelV2.txt</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/grapheV2.eps</path>
+</paths>
+<msg>+ Ajout de deux nouveaux tirages
+(Excuse Abdou j'en ai refait encore un, car sinon on ne voyait pas de grosses 
+différences entre les 2 tirages)
++ intégration des graphiques dans le rapport final 
+</msg>
+</logentry>
+<logentry
+   revision="271">
+<author>fab0670312047</author>
+<date>2011-01-22T11:46:57.189054Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/nbproject/private/private.properties</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Workstation.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Constants.java</path>
+</paths>
+<msg>+ Ajout d'élement pour avoir des données directement utilisable sous gnuplot
+</msg>
+</logentry>
+<logentry
+   revision="270">
+<author>fab0670312047</author>
+<date>2011-01-22T11:38:50.298918Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+</paths>
+<msg>+ Rajout du tableau de conclusion
+</msg>
+</logentry>
+<logentry
+   revision="269">
+<author>nakara.rahma</author>
+<date>2011-01-21T23:05:50.344042Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>+ je commit meme si ce n'est pas fini pour ne pas avoir de conflit plus tard </msg>
+</logentry>
+<logentry
+   revision="268">
+<author>Abdelali.nait@gmail.com</author>
+<date>2011-01-21T16:53:44.692668Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/nbproject/private/private.properties</path>
+</paths>
+<msg>+ Ajour du fichier résultat Version 2xcxcxc
+</msg>
+</logentry>
+<logentry
+   revision="267">
+<author>fab0670312047</author>
+<date>2011-01-21T16:52:01.125370Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Ajout d'explication pour l'algo
+</msg>
+</logentry>
+<logentry
+   revision="266">
+<author>Abdelali.nait</author>
+<date>2011-01-21T16:40:40.820168Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+</paths>
+<msg>-+ Modification présentation STMicroeletronics</msg>
+</logentry>
+<logentry
+   revision="265">
+<author>fab0670312047</author>
+<date>2011-01-21T16:03:53.452389Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Conclusion.lyx</path>
+</paths>
+<msg>+ Ajout conclusion
+</msg>
+</logentry>
+<logentry
+   revision="264">
+<author>mesbahi.jaafar@gmail.com</author>
+<date>2011-01-21T15:50:35.816513Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/CompteRendu/CR_11.lyx</path>
+</paths>
+<msg>+ Compte réunion avec Madame Frydman</msg>
+</logentry>
+<logentry
+   revision="263">
+<author>hoc5783</author>
+<date>2011-01-21T13:28:04.668914Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/5-RapportFinal/Marcheur_Code.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur_Bilan.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/EntrepriseST.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/5-RapportFinal/Marcheur_Algo.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/5-RapportFinal/Marcheur_Bilan.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+</paths>
+<msg>+ Gestion des coûts  pour le rapport de synthèse sera fini ce soir au plus tard.
++ EntrepiseST pour Jaafar.
++ Bilan Etat de l'Art : corrections et remettre la nature du document.
++ Suppression des fichiers non utilisés dans les dossiers des rapports.
+
+</msg>
+</logentry>
+<logentry
+   revision="262">
+<author>fab0670312047</author>
+<date>2011-01-20T21:44:46.228773Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Ajout des données qui ont permit de construire le graphe. 
+</msg>
+</logentry>
+<logentry
+   revision="261">
+<author>fab0670312047</author>
+<date>2011-01-20T20:16:28.744033Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Introduction.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/GestionCouts.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+</paths>
+<msg>+ ajout d'une intro 
++ Mise en forme des calculs
++ Mise en forme de la gestion des coûts
+</msg>
+</logentry>
+<logentry
+   revision="260">
+<author>fab0670312047</author>
+<date>2011-01-20T19:18:06.597131Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Annexe.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+</paths>
+<msg>+ Ajout de références bibilographiques
+</msg>
+</logentry>
+<logentry
+   revision="259">
+<author>fab0670312047</author>
+<date>2011-01-20T18:32:29.009867Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/Bibliographie/BiblioTeamWAR.bib</path>
+</paths>
+<msg>+ Correction bug dans la bibliographie
+</msg>
+</logentry>
+<logentry
+   revision="258">
+<author>fab0670312047</author>
+<date>2011-01-20T07:30:27.919519Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+</paths>
+<msg>+ Ajout référence et structuration
+</msg>
+</logentry>
+<logentry
+   revision="257">
+<author>fab0670312047</author>
+<date>2011-01-20T07:15:26.573518Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/Bibliographie/BiblioTeamWAR.bib</path>
+</paths>
+<msg>+ Ajout Biblio DCube
+</msg>
+</logentry>
+<logentry
+   revision="256">
+<author>fab0670312047</author>
+<date>2011-01-19T22:13:27.353607Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Rendu/Rapport_FinalR256.pdf</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionProjet.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Rendu/Rapport_SyntheseR256.pdf</path>
+</paths>
+<msg>+ Correction et mise des rapports envoyés
+</msg>
+</logentry>
+<logentry
+   revision="255">
+<author>fab0670312047</author>
+<date>2011-01-19T20:12:43.121757Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+</paths>
+<msg>+ Ajout du vrai rapport de gestion des coûts 
+
+</msg>
+</logentry>
+<logentry
+   revision="254">
+<author>fab0670312047</author>
+<date>2011-01-19T20:01:49.711908Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Doc/3-Finale/DCube.lyx"
+   copyfrom-rev="252"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/Dcube.lyx</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Doc/3-Finale/Etude_PPT.lyx"
+   copyfrom-rev="252"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/Etude_Presentation_ST.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/CahierCharges.lyx</path>
+</paths>
+<msg>+ Relecture Rapport 
++ Etoffage de la partie etat de l'art
+</msg>
+</logentry>
+<logentry
+   revision="253">
+<author>fab0670312047</author>
+<date>2011-01-19T19:32:32.908436Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Batch.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Workstation.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionProjet.lyx</path>
+</paths>
+<msg>+ Quelques petites corrections
+</msg>
+</logentry>
+<logentry
+   revision="252">
+<author>nakara.rahma</author>
+<date>2011-01-19T19:28:11.535912Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ correction
+</msg>
+</logentry>
+<logentry
+   revision="251">
+<author>nakara.rahma</author>
+<date>2011-01-19T19:17:26.511061Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+</paths>
+<msg>+ correction</msg>
+</logentry>
+<logentry
+   revision="250">
+<author>hoc5783</author>
+<date>2011-01-19T18:38:09.054960Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+</paths>
+<msg>+ Relecture et de nombreux modifs. Il reste toutefois la parie D3 et la petite conclusion sur l'état de l'art pour introduire l'algorithme du marcheur que je n'ai pas encore eu le temps de relire.
+
+</msg>
+</logentry>
+<logentry
+   revision="249">
+<author>fab0670312047</author>
+<date>2011-01-19T18:06:37.479569Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Correction d'un petit bug 
+
+</msg>
+</logentry>
+<logentry
+   revision="248">
+<author>fab0670312047</author>
+<date>2011-01-19T17:58:28.546960Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Sujet/CompteRendu.doc</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Sujet/CompteRendu.doc"
+   copyfrom-rev="245"
+   action="A">/trunk/PFE/CompteRendu/CR_10.doc</path>
+</paths>
+<msg>+ Cosmetique partie 2
++ Correction et relecture 
++ Déplacement CR 10 
+
+</msg>
+</logentry>
+<logentry
+   revision="247">
+<author>fab0670312047</author>
+<date>2011-01-19T17:47:34.800962Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/coin.png</path>
+</paths>
+<msg>+ Ajout de cosmetique 1 er partie 
+</msg>
+</logentry>
+<logentry
+   revision="246">
+<author>fab0670312047</author>
+<date>2011-01-19T17:16:56.917659Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Batch.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/ResultForExcel.txt</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/nbproject/private/private.properties</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Workstation.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Annexe.lyx</path>
+</paths>
+<msg>+ Relecture Synthese 
++ Un peu de cosmetique
++ Mise en forme du code source 
++ Reformatage des données pour les lire dans gnuplot
++ Ajout de réference dans Rapport Final
++ Rajout des résultats dans tous les rapports 
+
+</msg>
+</logentry>
+<logentry
+   revision="245">
+<author>mesbahi.jaafar</author>
+<date>2011-01-19T15:35:23.639820Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+</paths>
+<msg>-+ Parti gestion des coûts</msg>
+</logentry>
+<logentry
+   revision="244">
+<author>fab0670312047</author>
+<date>2011-01-19T15:26:09.026880Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Ajout et correction de quelques fautes dans algo marcheur
+
+</msg>
+</logentry>
+<logentry
+   revision="243">
+<author>fab0670312047</author>
+<date>2011-01-19T14:54:24.632299Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/ModeleFiabilityWorkstation.png</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Ajout de résultat dans la partie algo marcheur 
++ Travail de redaction sur l'algo du marcheur
+</msg>
+</logentry>
+<logentry
+   revision="242">
+<author>Abdelali.nait</author>
+<date>2011-01-19T14:47:06.878158Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+</paths>
+<msg>-+ Relecture / correction des fautes d'orthographe
+Fabien je t'invite à refaire une relecture stp ;).</msg>
+</logentry>
+<logentry
+   revision="241">
+<author>fab0670312047</author>
+<date>2011-01-19T14:37:52.155412Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/GrapheDonnee.eps</path>
+</paths>
+<msg>+ Ajout image des résultats
+</msg>
+</logentry>
+<logentry
+   revision="240">
+<author>fab0670312047</author>
+<date>2011-01-19T13:12:06.686779Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/ResultForExcel.txt</path>
+</paths>
+<msg>+ Ajout des resultats en fonction de l'avancement pour construire une représentation des données
+en fonction de l'avancement
+
+</msg>
+</logentry>
+<logentry
+   revision="239">
+<author>fab0670312047</author>
+<date>2011-01-19T10:22:14.143554Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/StoreEntities.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java</path>
+</paths>
+<msg>+ Transformation du code pour avoir le résultat en fonction de 
+l'avancement et de la fiabilité, ce qui sera plus facile à présenter
+</msg>
+</logentry>
+<logentry
+   revision="238">
+<author>fab0670312047</author>
+<date>2011-01-18T17:10:37.162914Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Images/DiagrammeClassEntities.svg</path>
+</paths>
+<msg>+ Travail sur algo marcheur 
+Abdou et Fabien 
+
+
+</msg>
+</logentry>
+<logentry
+   revision="237">
+<author>nakara.rahma</author>
+<date>2011-01-18T16:54:31.184398Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+</paths>
+<msg>+ correction orthographe </msg>
+</logentry>
+<logentry
+   revision="236">
+<author>hoc5783</author>
+<date>2011-01-18T16:36:47.641246Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/Marcheur_Code.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/Rapport_Final.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/RapportFinale.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/1-Preliminaire/RapportPreliminaire.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/RapportIntermediaire.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/Marcheur_Algo.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/Marcheur_Bilan.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/Conclusion.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/Annexe.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/Introduction.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/4-RapportSynthese/Bilan_Etude.lyx</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/5-RapportFinal</path>
+<path
+   kind="dir"
+   action="D">/trunk/PFE/Doc/4-Synthese</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/GestionCouts.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur_Bilan.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/EntrepriseST.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/CahierCharges.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/5-RapportFinal/GestionProjet.lyx</path>
+</paths>
+<msg>+ Modif du titre de nos rapports.
++ Squelette du rapport final.
+
+
+</msg>
+</logentry>
+<logentry
+   revision="235">
+<author>nakara.rahma</author>
+<date>2011-01-18T16:28:20.517055Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Sujet/CompteRendu.doc</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Sujet/~$mpte rendu.doc</path>
+</paths>
+<msg>+ compte rendu
+</msg>
+</logentry>
+<logentry
+   revision="234">
+<author>nakara.rahma</author>
+<date>2011-01-18T16:22:28.084745Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Sujet/~$mpte rendu.doc</path>
+</paths>
+<msg>+ compte rendu </msg>
+</logentry>
+<logentry
+   revision="233">
+<author>hoc5783</author>
+<date>2011-01-18T13:13:41.964317Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionProjet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/1-Preliminaire/Sujet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/1-Preliminaire/gestionPojet.lyx</path>
+</paths>
+<msg>+ Mise à jour pour le rapport de synthèse.
+
+</msg>
+</logentry>
+<logentry
+   revision="232">
+<author>fab0670312047</author>
+<date>2011-01-18T13:12:01.114159Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/DiagrameClassExtractors.svg</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/DiagrammeClassEntities.svg</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/DiagrammeClassConstants.svg</path>
+</paths>
+<msg>+ Ajout image Diagramme de classe
+</msg>
+</logentry>
+<logentry
+   revision="231">
+<author>fab0670312047</author>
+<date>2011-01-18T13:10:03.837426Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Resultat/ResultatR227.txt</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Resultat</path>
+</paths>
+<msg>+ Envoie des resultats longs 
+
+</msg>
+</logentry>
+<logentry
+   revision="230">
+<author>mesbahi.jaafar</author>
+<date>2011-01-18T13:05:21.148488Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Images/Planning.PNG</path>
+</paths>
+<msg>-+ Modification du Planning.PNG</msg>
+</logentry>
+<logentry
+   revision="229">
+<author>mesbahi.jaafar</author>
+<date>2011-01-18T13:00:58.558849Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/Planning.PNG</path>
+</paths>
+<msg>-+Modification du Planning.PNG</msg>
+</logentry>
+<logentry
+   revision="228">
+<author>nakara.rahma</author>
+<date>2011-01-18T12:52:40.529352Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+</paths>
+<msg>+ gestion cout et modification sur bilan </msg>
+</logentry>
+<logentry
+   revision="227">
+<author>fab0670312047</author>
+<date>2011-01-18T11:04:37.532855Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Ajout spec sur algo marcheur 
+Abdou et fabien 
+</msg>
+</logentry>
+<logentry
+   revision="226">
+<author>fab0670312047</author>
+<date>2011-01-18T11:03:45.357996Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Batch.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/StoreEntities.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Workstation.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Constants.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor/BatchAndWorkstationLinkExtractor.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/entities/WorkstationTest.java</path>
+</paths>
+<msg>+ Correction du calcul de fiabilité pour le rendre plus fiable
+
+Abdou et Fabien
+ </msg>
+</logentry>
+<logentry
+   revision="225">
+<author>hoc5783</author>
+<date>2011-01-18T10:46:37.747611Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionProjet.lyx</path>
+</paths>
+<msg>+ Mise en page de la partie gestion de projet.
+
+</msg>
+</logentry>
+<logentry
+   revision="224">
+<author>hoc5783</author>
+<date>2011-01-18T10:24:21.010045Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="223">
+<author>nakara.rahma</author>
+<date>2011-01-18T10:20:39.937964Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/4-RapportSynthese/GestionPojet.lyx</path>
+</paths>
+<msg>+ suppression gestion de projet </msg>
+</logentry>
+<logentry
+   revision="222">
+<author>mesbahi.jaafar</author>
+<date>2011-01-18T10:18:33.237235Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionProjet.lyx</path>
+</paths>
+<msg>+ Correction chemin relative</msg>
+</logentry>
+<logentry
+   revision="221">
+<author>nakara.rahma</author>
+<date>2011-01-18T10:13:11.223797Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/4-RapportSynthese/EtatArt.lyx</path>
+</paths>
+<msg>+ suppression de la partie état de l'art du depot et rapport de synthese</msg>
+</logentry>
+<logentry
+   revision="220">
+<author>mesbahi.jaafar</author>
+<date>2011-01-18T10:06:49.880083Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionProjet.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/Gantt.PNG</path>
+</paths>
+<msg>+ Ajout Gantt.PNG
+-+ Ajout partie gestionProjet</msg>
+</logentry>
+<logentry
+   revision="219">
+<author>nakara.rahma</author>
+<date>2011-01-18T10:04:07.232245Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+</paths>
+<msg>+ ajout resumé presentation alexis et des détails</msg>
+</logentry>
+<logentry
+   revision="218">
+<author>hoc5783</author>
+<date>2011-01-18T10:02:12.687611Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/ST_Monde_Production.jpg</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/ST_ProductsGroup.jpg</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/ST_Products.jpg</path>
+</paths>
+<msg>+ Presentation de ST
+
+</msg>
+</logentry>
+<logentry
+   revision="217">
+<author>mesbahi.jaafar</author>
+<date>2011-01-18T10:02:13.740557Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/GestionProjet.lyx</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="216">
+<author>fab0670312047</author>
+<date>2011-01-16T17:32:39.795896Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionPojet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EtatArt.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+</paths>
+<msg>+ Travail sur le rapport de synthèse
+</msg>
+</logentry>
+<logentry
+   revision="215">
+<author>nakara.rahma</author>
+<date>2011-01-16T01:05:49.569483Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+</paths>
+<msg>+ ennoncé fourrnit par ST a reformuler :p</msg>
+</logentry>
+<logentry
+   revision="214">
+<author>nakara.rahma</author>
+<date>2011-01-16T01:03:30.443433Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+</paths>
+<msg>+ bilan de l'etat de l'art , la ou il ya des notes il faut completer </msg>
+</logentry>
+<logentry
+   revision="213">
+<author>fab0670312047</author>
+<date>2011-01-15T17:19:15.470668Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Ajout de quelques contraintes de l'algo 
++ Corrections
+</msg>
+</logentry>
+<logentry
+   revision="212">
+<author>fab0670312047</author>
+<date>2011-01-14T15:34:48.125277Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Workstation.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Constants.java</path>
+</paths>
+<msg>+Ajout d'un seuil min pour les workstation 
+
+</msg>
+</logentry>
+<logentry
+   revision="211">
+<author>fab0670312047</author>
+<date>2011-01-14T13:11:12.147519Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/RapportFinale.lyx</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Doc/2-Intermediaire/ComputationOfWaferAtRisk.lyx"
+   copyfrom-rev="206"
+   action="A">/trunk/PFE/Doc/3-Finale/WAFRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Workstation.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Doc/2-Intermediaire/AnApproachForOperationalRisk.lyx"
+   copyfrom-rev="206"
+   action="A">/trunk/PFE/Doc/3-Finale/OperationnalRisk.lyx</path>
+</paths>
+<msg>+ Ajoutr des modif de code
++ modif rapport
+</msg>
+</logentry>
+<logentry
+   revision="210">
+<author>fab0670312047</author>
+<date>2011-01-14T09:43:25.196641Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/nbproject/private/private.properties</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/StorageSuite.java</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/reader/ReaderSuite.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/FileCCCC</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/writer/WriterSuite.java</path>
+</paths>
+<msg>- Suppreesion des fichiers inutiles de test
+</msg>
+</logentry>
+<logentry
+   revision="209">
+<author>hoc5783</author>
+<date>2011-01-14T09:35:23.958513Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/CahierCharges.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/Bilan_EtatArt.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/Rapport_Synthese.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/GestionPojet.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/Bilan_Etude.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/Conclusion.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/Annexe.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/Introduction.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/EtatArt.lyx</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/GestionCouts.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-RapportSynthese/EntrepriseST.lyx</path>
+</paths>
+<msg>+ Le squelette du rapport de synthèse + commentaire des parties.
+PS : Fabien, si tu n'as pas confiance en ton équipe, dis-le moi dès le début pour que je bosse autre chose comme l'atelier ou ma propre révision ! Peut-être c'est encore un mal entendu mais je suis vexé !
+
+Philippe
+</msg>
+</logentry>
+<logentry
+   revision="208">
+<author>fab0670312047</author>
+<date>2011-01-14T07:23:56.094909Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/4-Synthese/develloppementSolution.lyx~</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/4-Synthese/introduction.lyx~</path>
+</paths>
+<msg>- Suppression des fichiers inutiles 
+</msg>
+</logentry>
+<logentry
+   revision="207">
+<author>fab0670312047</author>
+<date>2011-01-14T07:21:54.386873Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-Synthese/develloppementSolution.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-Synthese/introduction.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-Synthese/etudeExistant.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-Synthese/cahierCharges.lyx</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Doc/3-Finale/RapportFinale.lyx"
+   copyfrom-rev="206"
+   action="A">/trunk/PFE/Doc/4-Synthese/rapportSynthese.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-Synthese/validation.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-Synthese/conclusion.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-Synthese/develloppementSolution.lyx~</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/4-Synthese/introduction.lyx~</path>
+</paths>
+<msg>+ Ajout ossature rapport de synthese
+
+</msg>
+</logentry>
+<logentry
+   revision="206">
+<author>fab0670312047</author>
+<date>2011-01-13T23:12:48.955945Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Quelques corrections sur l'algo du marcheur
+</msg>
+</logentry>
+<logentry
+   revision="205">
+<author>fab0670312047</author>
+<date>2011-01-13T16:59:53.530448Z</date>
+<paths>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Doc/3-Finale/RapportIntermediaire.lyx"
+   copyfrom-rev="204"
+   action="A">/trunk/PFE/Doc/3-Finale/RapportFinale.lyx</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/reader/ReaderSuite.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/entities/EntitiesSuite.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Constants.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/extractor/WorkstationExtractorTestTest.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/extractor/WorkstationExtractorTest.java</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/utilities</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/StoreEntities.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/reader/ExtractDataFromFileTest.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/utilities/MyDateTest.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/example/ExampleSuite.java</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/4-Synthese</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Tracability.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/writer/WriterSuite.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/writer/StoreDataToFileTest.java</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/example</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Batch.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/nbproject/private/private.properties</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Workstation.java</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/example/ReadWriteFileTest.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/StorageSuite.java</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/entities/StoreEntitiesTest.java</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/reader</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/extractor/BatchExtractorTest.java</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/extractor</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/entities/TracabilityTest.java</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/writer</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/utilities/UtilitiesSuite.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/PFEMarcheur/nbproject/project.xml</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/nbproject/project.properties</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/3-Finale/RapportIntermediaire.lyx</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/entities</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/entities/BatchTest.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/utilities/MyDate.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/MarcheurTest.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/test/fr/prunetwork/teamwar/entities/WorkstationTest.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/TableauSynthese.lyx</path>
+</paths>
+<msg>+ Ajout d'un dossier pour la sythèse
++ Codage de la dernière fonction de l'algo avec les medecins 
++ Ajout de remarque dans le rapport 
++ Ajout des tests Unitaires du projet et rédaction d'un test
+
+</msg>
+</logentry>
+<logentry
+   revision="204">
+<author>fab0670312047</author>
+<date>2011-01-12T22:30:59.783447Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/Images/DiagrammeDémarche.PNG</path>
+</paths>
+<msg>- Suprression fichier avec charactère accentué
+</msg>
+</logentry>
+<logentry
+   revision="203">
+<author>fab0670312047</author>
+<date>2011-01-12T22:27:32.922797Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Test et petite correction
+</msg>
+</logentry>
+<logentry
+   revision="202">
+<author>fab0670312047</author>
+<date>2011-01-10T19:26:57.812028Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Batch.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/nbproject/private/private.properties</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Constants.java</path>
+</paths>
+<msg>+ Ajout de petites constantes pour faciliter les réglages
+</msg>
+</logentry>
+<logentry
+   revision="201">
+<author>hoc5783</author>
+<date>2011-01-10T16:29:52.338764Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/3-Finale/Etude_PPT.lyx</path>
+</paths>
+<msg>+ Ajout de la partie de l'étude des 2 présentations.
+
+
+</msg>
+</logentry>
+<logentry
+   revision="200">
+<author>fab0670312047</author>
+<date>2011-01-10T16:28:28.474802Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Batch.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/StoreEntities.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/nbproject/private/private.properties</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Workstation.java</path>
+<path
+   kind="dir"
+   copyfrom-path="/trunk/PFE/Donnee"
+   copyfrom-rev="199"
+   action="A">/trunk/PFE/Code/Marcheur/Donnee</path>
+<path
+   kind="dir"
+   action="D">/trunk/PFE/Donnee</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Constants.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/reader/ExtractDataFromFile.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/utilities/MyDate.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/Donnee/db_risk_Sample.csv</path>
+</paths>
+<msg>+ Implementation de la methode qui calcule la fiabilité en fonction
+des taches qualités 
++ Et une autre qui tient compte des controles
+produits
+
+Fabien Garcia &amp; Abdelali 
+
+</msg>
+</logentry>
+<logentry
+   revision="199">
+<author>fab0670312047</author>
+<date>2011-01-10T13:20:44.882639Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Batch.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/StoreEntities.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Workstation.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor/BatchExtractor.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Tracability.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor/WorkstationExtractor.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Constants.java</path>
+<path
+   kind="dir"
+   action="M">/trunk/PFE/Code/Marcheur</path>
+</paths>
+<msg>+ Ajout d'une classe permettant de stocker les entités et y acceder par le nom 
++ Début calcul algo avec TQ
+</msg>
+</logentry>
+<logentry
+   revision="198">
+<author>fab0670312047</author>
+<date>2011-01-09T18:57:31.121812Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Ajout de précisions sur l'algo marcheurs
+</msg>
+</logentry>
+<logentry
+   revision="197">
+<author>jpierre03</author>
+<date>2011-01-08T19:13:18.479657Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Batch.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Workstation.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor/BatchExtractor.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor/BatchExtractorTest.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/writer/StoreDataToFile.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Tracability.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor/WorkstationExtractor.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor/WorkstationExtractorTest.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/reader/ExtractDataFromFile.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/reader/ExtractDataFromFileTest.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/utilities/MyDate.java</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/example/ReadWriteFile.java</path>
+</paths>
+<msg>+ Changement de mon nom d'auteur par un pseudo (adresse mail en fait)
+    (suite à la demande de l'équipe Team-W@R)
+</msg>
+</logentry>
+<logentry
+   revision="196">
+<author>jpierre03@gmail.com</author>
+<date>2011-01-08T15:16:04.654849Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/trunk/PFE/Code/W@r</path>
+</paths>
+<msg>- Destruction du projet Visual Studio en C++
+  (vu qu'il existe aussi sous netbeans)
+  (cela m'a été demmandé, car les caractères spéciaux font que c'est la galère à modifier)
+  Solution: à partir de la racine du dépot, svn rm --force Code/W@r
+	car lorsque l'on est dans le même répertoire svn considère cela comme un dossier (W) à la révision r.
+        Et donc ça marche pô
+
+</msg>
+</logentry>
+<logentry
+   revision="195">
+<author>jpierre03@gmail.com</author>
+<date>2011-01-08T15:05:19.017601Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Donnee/db_risk.csv</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Donnee/db_risk_Sample.csv</path>
+</paths>
+<msg>+ changement de l'entête des données pour mieux comprendre
+garciaf &amp; jpierre03
+</msg>
+</logentry>
+<logentry
+   revision="194">
+<author>jpierre03@gmail.com</author>
+<date>2011-01-08T15:04:16.097476Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ relecture + commentaire &amp; suggestions
+  (pas taper, cela m'a été demmandé)
+</msg>
+</logentry>
+<logentry
+   revision="193">
+<author>fab0670312047</author>
+<date>2011-01-08T10:49:37.134259Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/ClasseEntity.dia</path>
+</paths>
+<msg>+ Reformulation de la spec du code ajout d'un diagramme de classe 
+(pas tout à fait juste pour le moment)
+</msg>
+</logentry>
+<logentry
+   revision="192">
+<author>fab0670312047</author>
+<date>2011-01-08T10:06:55.646655Z</date>
+<paths>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/CompteRendu/CR_8.html"
+   copyfrom-rev="189"
+   action="A">/trunk/PFE/CompteRendu/CR_9.html</path>
+</paths>
+<msg>+ Ajout du dernier Compte Rendue  
+</msg>
+</logentry>
+<logentry
+   revision="191">
+<author>fab0670312047</author>
+<date>2011-01-08T09:37:59.351500Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/manifest.mf</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/writer/StoreDataToFile.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/writer/StoreDataToFileTest.java</path>
+<path
+   kind="dir"
+   action="D">/trunk/PFE/Code/W@r/debug</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/example</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/nbproject/private/private.xml</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Constants.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/nbproject/genfiles.properties</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/example/ReadWriteFile.java</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/test</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/reader</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor/BatchExtractorTest.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor/BatchExtractor.java</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/nbproject</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Tracability.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/nbproject/project.xml</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/writer</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/nbproject/private</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Batch.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/Marcheur.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/nbproject/private/private.properties</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities/Workstation.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/nbproject/private/profiler/configurations.xml</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Code/Structure.c</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Code/Marcheur.c</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/nbproject/private/profiler</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/nbproject/build-impl.xml</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Code/Fichier.c</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/src</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/nbproject/project.properties</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor/WorkstationExtractor.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor/WorkstationExtractorTest.java</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/utilities</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/reader/ExtractDataFromFile.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/reader/ExtractDataFromFileTest.java</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr/prunetwork/teamwar/utilities/MyDate.java</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/Marcheur/src/fr</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/build.xml</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/nbproject/private/profiler/snapshot-1294331680805.nps</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur/nbproject/private/config.properties</path>
+</paths>
+<msg>+ Ajout du code java en brut 
+
+</msg>
+</logentry>
+<logentry
+   revision="190">
+<author>hoc5783</author>
+<date>2011-01-07T15:48:07.990139Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Indicateurs.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/0-GestionCouts/Questions.lyx</path>
+</paths>
+<msg>+ Ajout des questions pour calculer la VAN.
++ Ajout des définitions des indicateurs.
+
+</msg>
+</logentry>
+<logentry
+   revision="189">
+<author>fab0670312047</author>
+<date>2011-01-06T21:29:21.446176Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ relecture algo marcheur
+</msg>
+</logentry>
+<logentry
+   revision="188">
+<author>mesbahi.jaafar</author>
+<date>2011-01-06T10:22:21.778400Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/Makefile-impl.mk</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/Package-Release.bash</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/Makefile</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/configurations.xml</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/Package-Debug.bash</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/Machine.cpp</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/Marcheur.cpp</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/Tracability.cpp</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/private/configurations.xml</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/.dep.inc</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/Date.cpp</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/private/private.properties</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/private/private.xml</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/Produit.h</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/Makefile-variables.mk</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/PFEMarcheur/build/Debug</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/Makefile-Release.mk</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/project.properties</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/PFEMarcheur/dist/Debug</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/Machine.h</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/project.xml</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/Marcheur.h</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/Makefile-Debug.mk</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/Tracability.h</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/PFEMarcheur/build/Debug/MinGW-Windows</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/PFEMarcheur/build</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/PFEMarcheur/nbproject/private</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/PFEMarcheur</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/PFEMarcheur/dist/Debug/MinGW-Windows</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/PFEMarcheur/dist</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/Date.h</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/main.cpp</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/PFEMarcheur/Produit.cpp</path>
+</paths>
+<msg> + Création du projet PFEMarcheur sous NetBeans
+-+ Intégration de l'ensemble des classe
+N.B. Pour ceux qui sont sur Windows pour travailler sur le projet il faut rajouter le plugin C/C++ sur NetBeans mais c'est pas tout il faut installer MinGW et Msys pour pourvoir compiler le programme de plus il faut rajouter la varibles d'environnement à la classpath  Bon courage.
+La prochaine fois essayez de nous notifier par mail si vous voulez que chaqu'un bosse chez soi. 
+ 
+Jaafar &amp; Abdou</msg>
+</logentry>
+<logentry
+   revision="187">
+<author>jpierre03@gmail.com</author>
+<date>2011-01-06T08:06:14.859688Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Donnee/db_risk_pfe.csv</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Donnee/db_risk_pfe.csv"
+   copyfrom-rev="184"
+   action="A">/trunk/PFE/Donnee/db_risk.csv</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Donnee/db_risk_Sample.csv</path>
+</paths>
+<msg>+ renommage (fichiers, en-tete de fichiers)
++ création d'une version courte pour tester
+</msg>
+</logentry>
+<logentry
+   revision="186">
+<author>nakara.rahma</author>
+<date>2011-01-05T15:53:44.637249Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Introduction.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/RapportGestionCouts.lyx</path>
+</paths>
+<msg>++ changement des chemins et correction de l'intro</msg>
+</logentry>
+<logentry
+   revision="185">
+<author>hoc5783</author>
+<date>2011-01-05T13:54:25.905685Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Bibliographie/Operational risk evaluation and control plan design.pdf</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Bibliographie/A novel approach to minimize the number of controls in the defectivity area.pdf</path>
+</paths>
+<msg>+Ajout Documentation
+
+</msg>
+</logentry>
+<logentry
+   revision="184">
+<author>jpierre03@gmail.com</author>
+<date>2010-12-28T03:52:48.851166Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/Machine.h</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/Marcheur.h</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Code/W@r/W@r/Tracabilite.h"
+   copyfrom-rev="183"
+   action="A">/trunk/PFE/Code/W@r/W@r/Tracability.h</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/Date.cpp</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/LoadFile.cpp</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/Date.h</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Code/W@r/W@r/Tracabilite.cpp</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/LoadFile.h</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/Produit.cpp</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/W@r.cpp</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Code/W@r/W@r/Tracabilite.h</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/stdafx.cpp</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/ReadMe.txt</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/Produit.h</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/stdafx.h</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/Machine.cpp</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/W@r/W@r/Marcheur.cpp</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Code/W@r/W@r/Tracabilite.cpp"
+   copyfrom-rev="183"
+   action="A">/trunk/PFE/Code/W@r/W@r/Tracability.cpp</path>
+</paths>
+<msg>[découverte du C++ --&gt; j'ai jeté un oeil pour voir à quoi ça ressemble]
+- suppression des librairies non c++ pur
+  (conio.h, dos.h, que j'ai pas sur ma machine, et qui servaient pas)
+  --&gt; compile et s'xecute bien avec gcc (gratuit et fournis avec GNU/Linux :)
+  --&gt; après une légère manip, le code s'intègre bien à netbeans
+      manip : créer un nouveau projet c++
+              lorsque c'est fait : ajouter aux sources "Existing Items from folder"
+              et le tour est joué.
+
++ ajout d'une license de code (GLP3).
+  Car en l'absence de code : c'est le bo**el pour savoir qui est possesseur du code
+  surtout sur un dépôt public (comme l'est google code)
+
+-+ transformation en anglais
+   * Tracalibite --&gt; Tracability
+   * Machine --&gt; WorkStation
+
+PS : Oh, une contribution externe sur un projet open-source naissant !
+</msg>
+</logentry>
+<logentry
+   revision="183">
+<author>mesbahi.jaafar</author>
+<date>2010-12-28T01:19:34.919024Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Machine.h</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r.sln</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Date.cpp</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/W@r/debug</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/W@r/W@r</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r.ncb</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/Machine.obj</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Tracabilite.cpp</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/LoadFile.h</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/W@r.exe.embed.manifest.res</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Produit.cpp</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/W@r.vcproj.AMRANI-PC.Administrateur.user</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/W@r.cpp</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/ReadMe.txt</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/mt.dep</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/BuildLog.htm</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/LoadFile.obj</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/stdafx.h</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Machine.cpp</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/W@r.pch</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/stdafx.obj</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/W@r.vcproj</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Marcheur.h</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/LoadFile.cpp</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/vc80.idb</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Date.h</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r.suo</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/Marcheur.obj</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/W@r</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Tracabilite.h</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/vc80.pdb</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/stdafx.cpp</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Produit.h</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/W@r.exe.intermediate.manifest</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/Date.obj</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/W@r.exe.embed.manifest</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/Tracabilite.obj</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/Produit.obj</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Marcheur.cpp</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/W@r/W@r/Debug/W@r.obj</path>
+</paths>
+<msg>+ Ajout Projet W@R crée sous Visual Studio 2005 express c'est une version gratuite que vous pouvez la télécharger et l'installer facilement.
+ 
+
+
+</msg>
+</logentry>
+<logentry
+   revision="182">
+<author>fab0670312047</author>
+<date>2010-12-14T08:55:05.517704Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Fichier.c</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Structure.c</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur.c</path>
+</paths>
+<msg>+ Ajout de spec structure
++ Début de code
+</msg>
+</logentry>
+<logentry
+   revision="181">
+<author>nakara.rahma</author>
+<date>2010-12-14T08:13:03.026423Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Introduction.lyx</path>
+</paths>
+<msg>+ petite modif </msg>
+</logentry>
+<logentry
+   revision="180">
+<author>fab0670312047</author>
+<date>2010-12-13T16:54:13.963434Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/RapportIntermediaire.lyx</path>
+</paths>
+<msg>+ Ajout de cosmétique
++ Ajout de début de spec pour le marcheur
+</msg>
+</logentry>
+<logentry
+   revision="179">
+<author>fab0670312047</author>
+<date>2010-12-13T10:48:40.661041Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Conclusion.lyx</path>
+</paths>
+<msg>+ Rajout de remarques
+</msg>
+</logentry>
+<logentry
+   revision="178">
+<author>fab0670312047</author>
+<date>2010-12-13T09:58:53.568377Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+</paths>
+<msg>+ Question posé en cours durant la gestion des coûts intégration des réponses sous forme de remarque 
+</msg>
+</logentry>
+<logentry
+   revision="177">
+<author>fab0670312047</author>
+<date>2010-12-09T16:12:59.848433Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/fond.png</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/RapportIntermediaire.lyx</path>
+</paths>
+<msg>+ Ajout d'un peu de cosmetique dans le rapport 
+
+By Fabien ;-)
+</msg>
+</logentry>
+<logentry
+   revision="176">
+<author>fab0670312047</author>
+<date>2010-12-08T16:25:07.250900Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Fichier.c</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Code/Marcheur.c</path>
+</paths>
+<msg>+ Ajout code pour ouvrir fichier 
+
+</msg>
+</logentry>
+<logentry
+   revision="175">
+<author>fab0670312047</author>
+<date>2010-12-08T14:35:12.193089Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/Introduction.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Sujet/gestion du risque.pdf"
+   copyfrom-rev="174"
+   action="A">/trunk/PFE/Doc/Bibliographie/gestion du risque.pdf</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Code</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Sujet/gestion du risque.pdf</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Code/Marcheur.c</path>
+</paths>
+<msg>+ Deplacement d'un fichier 
++ Ajout du début du code du marcheur 
+
+
+</msg>
+</logentry>
+<logentry
+   revision="174">
+<author>fab0670312047</author>
+<date>2010-12-07T14:01:41.690521Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Ajout de d'élement pour le marcheur 
++ Début analyse des données 
+
+</msg>
+</logentry>
+<logentry
+   revision="173">
+<author>fab0670312047</author>
+<date>2010-12-06T16:58:08.246911Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/3-Finale</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/3-Finale/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/3-Finale/RapportIntermediaire.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/3-Finale/gestionPojet.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/3-Finale/Conclusion.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/3-Finale/TableauSynthese.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/3-Finale/Introduction.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/3-Finale/DCube.lyx</path>
+</paths>
+<msg>+ Ajout ossature dernier rapport 
++ travail sur le marcheur
++ Inclusion de la gestion des coûts dans le rapport 
+</msg>
+</logentry>
+<logentry
+   revision="172">
+<author>fab0670312047</author>
+<date>2010-12-06T10:48:35.377823Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+</paths>
+<msg>+ ajout d'info pour le taux d'intéret 
+</msg>
+</logentry>
+<logentry
+   revision="171">
+<author>fab0670312047</author>
+<date>2010-12-06T10:09:18.021265Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/0-GestionCouts/Introduction.lyx</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/0-GestionCouts</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/0-GestionCouts/InformationsFinancier.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/0-GestionCouts/Indicateurs.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/0-GestionCouts/Conclusion.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/0-GestionCouts/RapportGestionCouts.lyx</path>
+</paths>
+<msg>+ Ajout Gestion des coûts (Proposition de plan basé sur les précédents PFE)
+</msg>
+</logentry>
+<logentry
+   revision="170">
+<author>fab0670312047</author>
+<date>2010-12-06T10:07:23.447511Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Donnee</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Donnee/db_risk_pfe.csv</path>
+</paths>
+<msg>+ Ajout des données de ST
+</msg>
+</logentry>
+<logentry
+   revision="169">
+<author>fab0670312047</author>
+<date>2010-12-01T17:14:24.783449Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/DiagrammeIDEEF0.DIA</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Doc/DiagrammeIDEEF0.DIA"
+   copyfrom-rev="168"
+   action="A">/trunk/PFE/Doc/Images/DiagrammeIDEEF0.DIA</path>
+</paths>
+<msg>Déplacement d'une image à sa place 
+
+Équipe Team W@R
+WAR
+W@R de Wafer @ risk
+ 
+</msg>
+</logentry>
+<logentry
+   revision="168">
+<author>hoc5783</author>
+<date>2010-12-01T16:39:30.921447Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Rendu/RapportIntermediaireR167.pdf</path>
+</paths>
+<msg>+ rapport intermediaire en pdf
+
+</msg>
+</logentry>
+<logentry
+   revision="167">
+<author>mesbahi.jaafar</author>
+<date>2010-12-01T16:33:01.549226Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/DiagrammeIDEEF0.DIA</path>
+</paths>
+<msg>+ Ajout Diagramme IDEEF0
+
+
+</msg>
+</logentry>
+<logentry
+   revision="166">
+<author>fab0670312047</author>
+<date>2010-12-01T16:23:18.411195Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/RapportIntermediaire.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/Conclusion.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ relecture 
+
+</msg>
+</logentry>
+<logentry
+   revision="165">
+<author>hoc5783</author>
+<date>2010-12-01T15:12:40.570144Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/RapportIntermediaire.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/OptimizedPlansRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/Conclusion.lyx</path>
+</paths>
+<msg>+ Relecture et ajout de la conclusion dans le rapport
+
+</msg>
+</logentry>
+<logentry
+   revision="164">
+<author>Abdelali.nait</author>
+<date>2010-12-01T15:03:43.621067Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/gestionPojet.lyx</path>
+</paths>
+<msg>+ Ajout de la deuxième itération du gestionPojet.lyx</msg>
+</logentry>
+<logentry
+   revision="163">
+<author>nakara.rahma</author>
+<date>2010-12-01T15:01:09.010133Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/Introduction.lyx</path>
+</paths>
+<msg>+ correction Introduction.lyx</msg>
+</logentry>
+<logentry
+   revision="162">
+<author>hoc5783</author>
+<date>2010-12-01T15:00:27.967925Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/Conclusion.lyx</path>
+</paths>
+<msg>+ Voilà la conclusion à relire et à valider ^^
+
+</msg>
+</logentry>
+<logentry
+   revision="161">
+<author>hoc5783</author>
+<date>2010-12-01T14:09:43.739103Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/2-Intermediaire/Conclusion.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/Introduction.lyx</path>
+</paths>
+<msg>+ Correction Intro
++ Première partie de la conclusion que je vais le finir dans l'heur qui suive
+
+</msg>
+</logentry>
+<logentry
+   revision="160">
+<author>fab0670312047</author>
+<date>2010-12-01T13:23:44.136004Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/gestionPojet.lyx</path>
+</paths>
+<msg>+ Ajout début gestion de projet
+</msg>
+</logentry>
+<logentry
+   revision="159">
+<author>fab0670312047</author>
+<date>2010-12-01T13:01:22.933891Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/RapportIntermediaire.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/2-Intermediaire/gestionPojet.lyx</path>
+</paths>
+<msg>+ Ajout gestion de projet
+</msg>
+</logentry>
+<logentry
+   revision="158">
+<author>nakara.rahma</author>
+<date>2010-11-30T21:04:22.745840Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/AnApproachForOperationalRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/ComputationOfWaferAtRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/PreventionDesPhenomenesDangereux.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/OptimizedPlansRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/TableauSynthese.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/OptimizingReturnOnInspection.lyx</path>
+</paths>
+<msg>++ correction générale</msg>
+</logentry>
+<logentry
+   revision="157">
+<author>fab0670312047</author>
+<date>2010-11-30T14:29:21.179011Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/RapportIntermediaire.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/ComputationOfWaferAtRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/2-Intermediaire/TableauSynthese.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/2-Intermediaire/Introduction.lyx</path>
+</paths>
+<msg>+ Ajout Intro
++ Relecture et mise en forme
+</msg>
+</logentry>
+<logentry
+   revision="156">
+<author>hoc5783</author>
+<date>2010-11-30T13:47:04.860435Z</date>
+<paths>
+<path
+   kind="dir"
+   copyfrom-path="/trunk/PFE/SimulationArena/Version 1 ( Simple )"
+   copyfrom-rev="155"
+   action="A">/trunk/PFE/SimulationArena/Version1_simple</path>
+<path
+   kind="dir"
+   action="D">/trunk/PFE/SimulationArena/Version 1 ( Simple )</path>
+</paths>
+<msg> -+ renommage (convention toussa)
+</msg>
+</logentry>
+<logentry
+   revision="155">
+<author>hoc5783</author>
+<date>2010-11-30T13:45:24.981961Z</date>
+<paths>
+<path
+   kind="dir"
+   copyfrom-path="/trunk/PFE/Doc/Preliminaire"
+   copyfrom-rev="154"
+   action="A">/trunk/PFE/Doc/1-Preliminaire</path>
+<path
+   kind="dir"
+   copyfrom-path="/trunk/PFE/Doc/Intermediaire"
+   copyfrom-rev="154"
+   action="A">/trunk/PFE/Doc/2-Intermediaire</path>
+<path
+   kind="dir"
+   action="D">/trunk/PFE/Doc/Preliminaire</path>
+<path
+   kind="dir"
+   action="D">/trunk/PFE/Doc/Intermediaire</path>
+<path
+   kind="dir"
+   copyfrom-path="/trunk/PFE/Simulation Aréna"
+   copyfrom-rev="154"
+   action="A">/trunk/PFE/SimulationArena</path>
+<path
+   kind="dir"
+   action="D">/trunk/PFE/Simulation Aréna</path>
+</paths>
+<msg>-+ un peu de renommage de répertoires pour être plus compréhensibles
+   et surtout plus conforme à la convention de nommage
+  (pas de caractères spéciaux [accents, espaces, parentèses, ...])
+</msg>
+</logentry>
+<logentry
+   revision="154">
+<author>fab0670312047</author>
+<date>2010-11-30T10:41:55.118726Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/PreventionDesPhenomenesDangereux.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ Relecture 
++ Correction d'erreur dans le tableau
+</msg>
+</logentry>
+<logentry
+   revision="153">
+<author>fab0670312047</author>
+<date>2010-11-25T08:09:40.145450Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/TableauSyntheseCodeClipse.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/RapportEP952.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Rendu/RapportEP952Bis.pdf</path>
+</paths>
+<msg>+ Ajout du rapport à rendre(en pdf)
++ Mise en forme des tableaux (Dernière fois)
+</msg>
+</logentry>
+<logentry
+   revision="152">
+<author>fab0670312047</author>
+<date>2010-11-24T21:13:45.832787Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/EP952/Rendu</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/RapportEP952.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/offreDeStage.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Rendu/RapportEP952.pdf</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/Bilan.lyx</path>
+</paths>
+<msg>+ Correction 
++ Mise d'adresse relative 
++ Reformatage du tableau.
+
+</msg>
+</logentry>
+<logentry
+   revision="151">
+<author>Abdelali.nait</author>
+<date>2010-11-24T18:38:27.900209Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/CodeCLIPS/EP.bat</path>
+</paths>
+<msg>+- Modification de EP.Bat Version Finale</msg>
+</logentry>
+<logentry
+   revision="150">
+<author>Abdelali.nait</author>
+<date>2010-11-24T17:57:33.079665Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/ComprehensionGenerale.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/RapportEP952.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/offreDeStage.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/Bilan.lyx</path>
+</paths>
+<msg>+ Dossier final EP , n'oublie pas le .bat (stp)</msg>
+</logentry>
+<logentry
+   revision="149">
+<author>Abdelali.nait</author>
+<date>2010-11-24T17:56:25.310523Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Image/Execustion2.PNG</path>
+</paths>
+<msg>+ Ajout de l'image Execustion2.PNG</msg>
+</logentry>
+<logentry
+   revision="148">
+<author>Abdelali.nait</author>
+<date>2010-11-24T17:45:55.789414Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Image/Execustion.PNG</path>
+</paths>
+<msg>+ Ajout de l'image Execustion.PNG</msg>
+</logentry>
+<logentry
+   revision="147">
+<author>nakara.rahma</author>
+<date>2010-11-24T17:03:36.344593Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Raport/TableauSyntheseCodeClipse.lyx</path>
+</paths>
+<msg>+ Ajout du TableauSyntheseCodeClipse.lyx</msg>
+</logentry>
+<logentry
+   revision="146">
+<author>Abdelali.nait</author>
+<date>2010-11-24T15:19:58.722229Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/trunk/EP952/CodeCLIPS/InitialisationEP.BAT</path>
+</paths>
+<msg>+ Version Finale du syteme expert</msg>
+</logentry>
+<logentry
+   revision="145">
+<author>Abdelali.nait</author>
+<date>2010-11-24T15:18:58.160535Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/CodeCLIPS/EP.bat</path>
+</paths>
+<msg>+ Version finale du Syteme Expert</msg>
+</logentry>
+<logentry
+   revision="144">
+<author>fab0670312047</author>
+<date>2010-11-24T08:38:18.421720Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/CodeCLIPS/faits.txt</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/ComprehensionGenerale.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/RapportEP952.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/CodeCLIPS/structure.txt</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/CodeCLIPS/regles.txt</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/Bilan.lyx</path>
+</paths>
+<msg>+ Mise en page 
++ rajout du code dans le rapport
+</msg>
+</logentry>
+<logentry
+   revision="143">
+<author>Abdelali.nait</author>
+<date>2010-11-24T02:11:36.479465Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Simulation Aréna/Version 1 ( Simple )/Model1.mdb</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/CodeCLIPS/InitialisationEP.BAT</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/offreDeStage.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Simulation Aréna/Version 1 ( Simple )/Model1.doe</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Simulation Aréna/Version 1 ( Simple )/Model1.out</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Simulation Aréna/Version 1 ( Simple )/Model1.Backup.doe</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Simulation Aréna/Version 1 ( Simple )/Model1.p</path>
+</paths>
+<msg>+ Systeme expert</msg>
+</logentry>
+<logentry
+   revision="142">
+<author>Abdelali.nait</author>
+<date>2010-11-24T02:10:57.067476Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/CodeCLIPS/EP.bat</path>
+</paths>
+<msg>+ Finalement le system expert est pret ;)</msg>
+</logentry>
+<logentry
+   revision="141">
+<author>fab0670312047</author>
+<date>2010-11-23T16:26:11.970419Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/OptimizingReturnOnInspection.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/ComputationOfWaferAtRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/PreventionDesPhenomenesDangereux.lyx</path>
+</paths>
+<msg>+ Correction chemins 
++ Bugs 
+</msg>
+</logentry>
+<logentry
+   revision="140">
+<author>nakara.rahma</author>
+<date>2010-11-23T16:17:23.395360Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/Bilan.lyx</path>
+</paths>
+<msg>+ rapport semi final</msg>
+</logentry>
+<logentry
+   revision="139">
+<author>fab0670312047</author>
+<date>2010-11-23T16:12:47.677527Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/AnApproachForOperationalRisk.lyx</path>
+</paths>
+<msg>+ Correction des chemins absolus en chemins relatifs
+</msg>
+</logentry>
+<logentry
+   revision="138">
+<author>hoc5783</author>
+<date>2010-11-23T16:08:21.558820Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/AnApproachForOperationalRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/ComputationOfWaferAtRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ MàJ des articles et tableau de synthèse
+
+</msg>
+</logentry>
+<logentry
+   revision="137">
+<author>fab0670312047</author>
+<date>2010-11-23T15:36:26.570092Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/CompteRendu/CR_8.html</path>
+</paths>
+<msg>+ Ajout CR_8
+</msg>
+</logentry>
+<logentry
+   revision="136">
+<author>hoc5783</author>
+<date>2010-11-23T12:54:33.111331Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ MàJ Tableau synthèse
+
+</msg>
+</logentry>
+<logentry
+   revision="135">
+<author>Abdelali.nait</author>
+<date>2010-11-23T11:54:22.463100Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ Ajout de la ligne du plan de contrôle optimisé</msg>
+</logentry>
+<logentry
+   revision="134">
+<author>hoc5783</author>
+<date>2010-11-22T23:29:09.340045Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ Petite MàJ du tableau de synthèse
+
+</msg>
+</logentry>
+<logentry
+   revision="133">
+<author>hoc5783</author>
+<date>2010-11-22T22:54:27.725873Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/OptimizingReturnOnInspection.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/OptimizingReturnOnInspection_Fig1.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/OptimizingReturnOnInspection_Fig2.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/OptimizingReturnOnInspection_Fig3.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/OptimizingReturnOnInspection_Fig4.png</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/RapportIntermediaire.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/AnApproachForOperationalRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/ComputationOfWaferAtRisk.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/AnApproachForOperationalRisk_Fig1.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/ComputationOfWaferAtRisk_Fig1.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/AnApproachForOperationalRisk_Fig2.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/ComputationOfWaferAtRisk_Fig2.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/AnApproachForOperationalRisk_Fig3.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/ComputationOfWaferAtRisk_Fig3.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/AnApproachForOperationalRisk_Fig5.png</path>
+</paths>
+<msg>+ MàJ des 3 articles
++ Ajout des figures pour les articles
++ Ajout d'un sous-document dans le rapport intermédiaire
+
+Question : Le tableau récapitulatif est confuse pour moi =&gt; pourquoi 2 tableaux ?
+
+</msg>
+</logentry>
+<logentry
+   revision="132">
+<author>fab0670312047</author>
+<date>2010-11-22T16:20:33.888484Z</date>
+<paths>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/CompteRendu/CR_7.html"
+   copyfrom-rev="131"
+   action="A">/trunk/PFE/CompteRendu/CR_8.html</path>
+</paths>
+<msg>+ Ajout du CR_8 pour demain, voir les points qu'on va aborder compléter au besoin
+
+</msg>
+</logentry>
+<logentry
+   revision="131">
+<author>fab0670312047</author>
+<date>2010-11-22T09:10:47.600466Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Raport/Bilan.lyx</path>
+</paths>
+<msg>+ Ajout Bilan pour PFE
+</msg>
+</logentry>
+<logentry
+   revision="130">
+<author>hoc5783</author>
+<date>2010-11-22T09:04:43.161497Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/AnApproachForOperationalRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/ComputationOfWaferAtRisk.lyx</path>
+</paths>
+<msg>+ MàJ des documents
++ En attente de Fabien pour les figures flottants etc...
+
+</msg>
+</logentry>
+<logentry
+   revision="129">
+<author>fab0670312047</author>
+<date>2010-11-21T19:21:34.175017Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/CodeCLIPS/structure.txt</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/CodeCLIPS/regles.txt</path>
+</paths>
+<msg>+ Ajout Regles (difficulte sur la regle de duree qu'est ce qui est vraiment intéressant ?)
++ Ajout de structure qui correspondent aux différentes règles
+
+</msg>
+</logentry>
+<logentry
+   revision="128">
+<author>Abdelali.nait</author>
+<date>2010-11-21T17:59:09.863501Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/CodeCLIPS/InitialisationEP.BAT</path>
+</paths>
+<msg>+ première Version du programme à completer après
+Abdelali et Jaafar</msg>
+</logentry>
+<logentry
+   revision="127">
+<author>nakara.rahma</author>
+<date>2010-11-21T12:46:18.758955Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/OuvrageSdF.lyx</path>
+</paths>
+<msg>+ correction. Jaafar ramene le bouquin demain PLZ</msg>
+</logentry>
+<logentry
+   revision="126">
+<author>nakara.rahma</author>
+<date>2010-11-19T15:00:02.894941Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/CodeCLIPS/regles.txt</path>
+</paths>
+<msg>+ Ajout des règles</msg>
+</logentry>
+<logentry
+   revision="125">
+<author>Abdelali.nait</author>
+<date>2010-11-19T14:54:16.217961Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Image/DiagrammeClasse.dia</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/CodeCLIPS/structure.txt</path>
+</paths>
+<msg>+ Correction du DiagrammeClasse.dia</msg>
+</logentry>
+<logentry
+   revision="124">
+<author>Abdelali.nait</author>
+<date>2010-11-19T14:46:10.050712Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/CodeCLIPS/InitialisationEP.CLP</path>
+</paths>
+<msg>+ Ajout du fichier InitialisationEP.CLP </msg>
+</logentry>
+<logentry
+   revision="123">
+<author>fab0670312047</author>
+<date>2010-11-19T14:34:11.645250Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/CodeCLIPS/structure.txt</path>
+</paths>
+<msg>+ Modif structure
++ et ajout d'hypothèse pour le rapport
+</msg>
+</logentry>
+<logentry
+   revision="122">
+<author>fab0670312047</author>
+<date>2010-11-18T19:11:33.199076Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/Outils</path>
+<path
+   kind="file"
+   action="A">/trunk/Outils/UtilisationSVN/Subversion-memento.pdf</path>
+<path
+   kind="file"
+   action="A">/trunk/Outils/UtilisationSVN/Liens</path>
+<path
+   kind="file"
+   action="A">/trunk/Outils/UtilisationSVN/svnintro.pdf</path>
+<path
+   kind="file"
+   action="A">/trunk/Outils/UtilisationSVN/svn-switch.pdf</path>
+<path
+   kind="dir"
+   action="A">/trunk/Outils/UtilisationSVN</path>
+<path
+   kind="file"
+   action="A">/trunk/Outils/UtilisationSVN/svn-refcard.pdf</path>
+</paths>
+<msg>+ Ajout d'un peu d'aide pour SVN 
+
+</msg>
+</logentry>
+<logentry
+   revision="121">
+<author>fab0670312047</author>
+<date>2010-11-18T16:34:22.707726Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/ComprehensionGenerale.lyx</path>
+</paths>
+<msg>+ Ajout commentaire sur presentation Generale
+</msg>
+</logentry>
+<logentry
+   revision="120">
+<author>fab0670312047</author>
+<date>2010-11-18T16:16:49.046852Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/ComprehensionGenerale.lyx</path>
+</paths>
+<msg>+ Ajout petite touche avec l'accord du prof
+</msg>
+</logentry>
+<logentry
+   revision="119">
+<author>fab0670312047</author>
+<date>2010-11-17T17:51:53.313234Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Raport/offreDeStage.lyx</path>
+</paths>
+<msg>+ Ajout tableau des offres 
+</msg>
+</logentry>
+<logentry
+   revision="118">
+<author>hoc5783</author>
+<date>2010-11-17T17:51:26.129211Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/ComprehensionGenerale.lyx</path>
+</paths>
+<msg>+ MàJ
+</msg>
+</logentry>
+<logentry
+   revision="117">
+<author>hoc5783</author>
+<date>2010-11-17T17:32:59.355571Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/ComprehensionGenerale.lyx</path>
+</paths>
+<msg>+ La première partie, je n'arrive pas à conclure, pouvez-vous y jeter un coup d'oeil ?
+</msg>
+</logentry>
+<logentry
+   revision="116">
+<author>fab0670312047</author>
+<date>2010-11-17T17:20:09.537637Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/RapportEP952.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/EP952/CodeCLIPS/structure.txt</path>
+<path
+   kind="file"
+   action="A">/trunk/EP952/CodeCLIPS/regles.txt</path>
+</paths>
+<msg>+ Ajout code
++ Ajout fichier regles.txt
++ Mise en forme rapport
+</msg>
+</logentry>
+<logentry
+   revision="115">
+<author>Abdelali.nait</author>
+<date>2010-11-17T17:02:37.661876Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Image/DiagrammeClasse.dia</path>
+</paths>
+<msg>+- Modification du DiagrammeClasse.dia</msg>
+</logentry>
+<logentry
+   revision="114">
+<author>fab0670312047</author>
+<date>2010-11-17T16:36:34.469419Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/EP952/CodeCLIPS</path>
+</paths>
+<msg>+ Ajout dossier Code
+</msg>
+</logentry>
+<logentry
+   revision="113">
+<author>fab0670312047</author>
+<date>2010-11-17T15:25:29.969479Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/RapportEP952.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+</paths>
+<msg>+ Ajout Diagramme de classe 
++ Modi mise en page 
+</msg>
+</logentry>
+<logentry
+   revision="112">
+<author>Abdelali.nait</author>
+<date>2010-11-17T15:22:12.703608Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Image/DiagrammeClasse.dia</path>
+</paths>
+<msg>+ Modification du DiagrammeClasse.dia</msg>
+</logentry>
+<logentry
+   revision="111">
+<author>nakara.rahma</author>
+<date>2010-11-17T14:45:11.608735Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+</paths>
+<msg>+ ontologie
+</msg>
+</logentry>
+<logentry
+   revision="110">
+<author>fab0670312047</author>
+<date>2010-11-17T14:27:02.291517Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Raport/RapportEP952.lyx</path>
+</paths>
+<msg>+ Ajout ossature du rapport
+</msg>
+</logentry>
+<logentry
+   revision="109">
+<author>fab0670312047</author>
+<date>2010-11-17T14:25:37.108417Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/trunk/EP952/Image/DiagrammeSéquence.PNG</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Image/DiagrammeClasse.dia</path>
+</paths>
+<msg>+ Destruction fichier corrompu
++ Mise à jour Diagramme Classe
+</msg>
+</logentry>
+<logentry
+   revision="108">
+<author>Abdelali.nait</author>
+<date>2010-11-17T14:25:07.358340Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+</paths>
+<msg>+- Modification de l'image du Diagramme sequence</msg>
+</logentry>
+<logentry
+   revision="107">
+<author>Abdelali.nait</author>
+<date>2010-11-17T14:23:42.197928Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Image/DiagrammeSequence.PNG</path>
+</paths>
+<msg>+ Ajout Image/DiagrammeSequence.PNG version 2</msg>
+</logentry>
+<logentry
+   revision="106">
+<author>Abdelali.nait</author>
+<date>2010-11-17T14:22:13.868494Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+</paths>
+<msg>+ Explication du diagramme de séquence (la partie 2.2.1 est finie)</msg>
+</logentry>
+<logentry
+   revision="105">
+<author>Abdelali.nait</author>
+<date>2010-11-17T13:56:49.710521Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Image/DiagrammeSéquence.PNG</path>
+</paths>
+<msg>+ Ajout du DiagrammeSéquence.PNG</msg>
+</logentry>
+<logentry
+   revision="104">
+<author>fab0670312047</author>
+<date>2010-11-17T13:53:10.294490Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Image/DiagrammeClasse.dia</path>
+</paths>
+<msg>+ Mise à jour diagramme de classe
+
+</msg>
+</logentry>
+<logentry
+   revision="103">
+<author>nakara.rahma</author>
+<date>2010-11-17T13:20:39.466486Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Image/DiagrammeClasse.dia</path>
+</paths>
+<msg>+ diagramme de classe intermediaire</msg>
+</logentry>
+<logentry
+   revision="102">
+<author>nakara.rahma</author>
+<date>2010-11-17T10:55:58.447453Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+</paths>
+<msg>+ ontologie</msg>
+</logentry>
+<logentry
+   revision="101">
+<author>fab0670312047</author>
+<date>2010-11-17T10:53:35.011326Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Bibliographie/AMDEC.pdf</path>
+</paths>
+<msg>+ Ajout AMDEC
+</msg>
+</logentry>
+<logentry
+   revision="100">
+<author>hoc5783</author>
+<date>2010-11-17T10:21:56.661170Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Raport/ComprehensionGenerale.lyx</path>
+</paths>
+<msg>+ Compréhension Générale (en cours)
+
+</msg>
+</logentry>
+<logentry
+   revision="99">
+<author>fab0670312047</author>
+<date>2010-11-17T10:00:10.953408Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/OuvrageSdF.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/TableauRecapitulatifAMDEC.png</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ Ajout Image tableau récapitulatif AMDEC
++- Ouvrage SdF
++- Correction Tableau de synthése
+</msg>
+</logentry>
+<logentry
+   revision="98">
+<author>fab0670312047</author>
+<date>2010-11-17T08:54:46.320904Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+</paths>
+<msg>+ Ajout Algo pour calculer la satisfaction en fonction de la distance
+</msg>
+</logentry>
+<logentry
+   revision="97">
+<author>fab0670312047</author>
+<date>2010-11-17T08:22:11.533919Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/OptimizingReturnOnInspection.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/RapportIntermediaire.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/AnApproachForOperationalRisk.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/ComputationOfWaferAtRisk.lyx</path>
+</paths>
+<msg>+ intégration figure
++ Différentes correction sur rapport PFE
+</msg>
+</logentry>
+<logentry
+   revision="96">
+<author>fab0670312047</author>
+<date>2010-11-16T16:49:24.338742Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+</paths>
+<msg>+ Ajout règles et algo
+Rahma et Fabien
+</msg>
+</logentry>
+<logentry
+   revision="95">
+<author>mesbahi.jaafar</author>
+<date>2010-11-16T16:27:59.793164Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Image/ArchitectureLogicielle.dia</path>
+</paths>
+<msg>+ Ajout architecture logicielle
+Abdou &amp; Jaafar
+--Cette ligne, et les suivantes ci-dessous, seront ignorées-
+AM   EP952/Image/ArchitectureLogicielle.dicd
+/home2/promo2011/amranimesbahij/pfe/trunk/EP952/Image
+a
+</msg>
+</logentry>
+<logentry
+   revision="94">
+<author>fab0670312047</author>
+<date>2010-11-16T15:56:57.309591Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/EP952/Image</path>
+</paths>
+<msg>+ Ajout dossier image pour mettre toute les images du rapport
+</msg>
+</logentry>
+<logentry
+   revision="93">
+<author>fab0670312047</author>
+<date>2010-11-16T14:05:57.332314Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Raport/DeveloppementSE.lyx</path>
+<path
+   kind="dir"
+   action="A">/trunk/EP952/Raport</path>
+</paths>
+<msg>+ Ajout ossature rapport EP 
+
+</msg>
+</logentry>
+<logentry
+   revision="92">
+<author>fab0670312047</author>
+<date>2010-11-15T17:11:54.792475Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/EP952/Cours</path>
+<path
+   kind="file"
+   action="A">/trunk/EP952/Cours/IACours.lyx</path>
+<path
+   kind="dir"
+   action="A">/trunk/EP952</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ Ajout blabla EP
+</msg>
+</logentry>
+<logentry
+   revision="91">
+<author>hoc5783</author>
+<date>2010-11-15T13:41:30.619303Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Intermediaire/OptimizingReturnOnInspection.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Intermediaire/AnApproachForOperationalRisk.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Intermediaire/ComputationOfWaferAtRisk.lyx</path>
+</paths>
+<msg>+3 articles, à venir les améliorations
+
+</msg>
+</logentry>
+<logentry
+   revision="90">
+<author>nakara.rahma</author>
+<date>2010-11-14T21:30:59.695477Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ méthode gestion des risque
+</msg>
+</logentry>
+<logentry
+   revision="89">
+<author>nakara.rahma</author>
+<date>2010-11-14T20:46:05.253391Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/PreventionDesPhenomenesDangereux.lyx</path>
+</paths>
+<msg>+ explication des figures </msg>
+</logentry>
+<logentry
+   revision="88">
+<author>fab0670312047</author>
+<date>2010-11-14T12:19:02.307410Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/OuvrageSdF.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/PreventionDesPhenomenesDangereux.lyx</path>
+</paths>
+<msg>+ Rajout de commentaire OuvrageSdF, à reprendre impérativemet n'est pas présentable dans l'état actuel 
++ Petite relecture
+</msg>
+</logentry>
+<logentry
+   revision="87">
+<author>fab0670312047</author>
+<date>2010-11-11T22:01:46.576559Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/OuvrageSdF.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/RapportIntermediaire.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/PreventionDesPhenomenesDangereux.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ Corection Bug 
++ Ajout commentaire
++ Petite relecture
+</msg>
+</logentry>
+<logentry
+   revision="86">
+<author>nakara.rahma</author>
+<date>2010-11-11T13:11:49.155208Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Intermediaire/PreventionDesPhenomenesDangereux.lyx</path>
+</paths>
+<msg>+ partie sur gestion du risque</msg>
+</logentry>
+<logentry
+   revision="85">
+<author>nakara.rahma</author>
+<date>2010-11-11T13:10:40.222021Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/figure1GestionRisque.jpg</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/figure2GestionRisque.jpg</path>
+</paths>
+<msg>+ figure de la partie gestion du risque
+</msg>
+</logentry>
+<logentry
+   revision="84">
+<author>mesbahi.jaafar</author>
+<date>2010-11-10T16:38:05.790530Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Intermediaire/OuvrageSdF.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>-+ AMDEC </msg>
+</logentry>
+<logentry
+   revision="83">
+<author>fab0670312047</author>
+<date>2010-11-10T15:57:24.633833Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ Ajout de D Cube dans le tableau
+</msg>
+</logentry>
+<logentry
+   revision="82">
+<author>mesbahi.jaafar</author>
+<date>2010-11-10T15:46:03.105550Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ AMDEC </msg>
+</logentry>
+<logentry
+   revision="81">
+<author>fab0670312047</author>
+<date>2010-11-10T14:32:51.897831Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/DCube.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/RapportIntermediaire.lyx</path>
+</paths>
+<msg>+ Ajout de l'algo 
++ Mise en forme du rapport 
+
+</msg>
+</logentry>
+<logentry
+   revision="80">
+<author>fab0670312047</author>
+<date>2010-11-10T11:13:43.734384Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Intermediaire/TableauSynthese.lyx</path>
+</paths>
+<msg>+ Ajout du tableau pour le résumé
+</msg>
+</logentry>
+<logentry
+   revision="79">
+<author>fab0670312047</author>
+<date>2010-11-10T11:07:34.629841Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/DCube.lyx</path>
+</paths>
+<msg>+ Ajout Relecture Abdelali
+</msg>
+</logentry>
+<logentry
+   revision="78">
+<author>fab0670312047</author>
+<date>2010-11-10T10:52:04.865021Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/OptimizedPlansRisk.lyx</path>
+</paths>
+<msg>+ Correction images 
++ Relecture
+
+Autheur : Abdelali
+</msg>
+</logentry>
+<logentry
+   revision="77">
+<author>fab0670312047</author>
+<date>2010-11-10T09:54:07.004079Z</date>
+<paths>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/CompteRendu/CR_6.html"
+   copyfrom-rev="76"
+   action="A">/trunk/PFE/CompteRendu/CR_7.html</path>
+</paths>
+<msg>+ Ajout CR_10 avant la réunion
+
+</msg>
+</logentry>
+<logentry
+   revision="76">
+<author>fab0670312047</author>
+<date>2010-11-10T09:42:16.135919Z</date>
+<paths>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Doc/Images/control plan.JPG"
+   copyfrom-rev="75"
+   action="A">/trunk/PFE/Doc/Images/ControlPlan.jpg</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/Images/control plan.JPG</path>
+</paths>
+<msg>+ Renommage fichier convention JAVA
+</msg>
+</logentry>
+<logentry
+   revision="75">
+<author>Abdelali.nait</author>
+<date>2010-11-10T09:32:08.328773Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/control plan.JPG</path>
+</paths>
+<msg>+ Ajout de l'image "control plan.JPG"</msg>
+</logentry>
+<logentry
+   revision="74">
+<author>fab0670312047</author>
+<date>2010-11-10T09:27:42.852922Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/trunk/PFE/Doc/Articles</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Doc/Articles/OptimizedPlansRisk.lyx"
+   copyfrom-rev="73"
+   action="A">/trunk/PFE/Doc/Intermediaire/OptimizedPlansRisk.lyx</path>
+</paths>
+<msg>+ Déplacement fichier 
+</msg>
+</logentry>
+<logentry
+   revision="73">
+<author>fab0670312047</author>
+<date>2010-11-10T09:20:34.933902Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/GestionDuRisque.png</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Articles/OptimizedPlansRisk.lyx</path>
+</paths>
+<msg>+ ajout de la figure dans l'article optimizedPlanRisk
+</msg>
+</logentry>
+<logentry
+   revision="72">
+<author>fab0670312047</author>
+<date>2010-11-09T22:53:41.598934Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/Articles/Optimized design of control plans based on risk exposure and resources capabilities.lyx</path>
+<path
+   kind="file"
+   copyfrom-path="/trunk/PFE/Doc/Articles/Optimized design of control plans based on risk exposure and resources capabilities.lyx"
+   copyfrom-rev="71"
+   action="A">/trunk/PFE/Doc/Articles/OptimizedPlansRisk.lyx</path>
+</paths>
+<msg>+ Renommage fichier avec convention JAVA
++ Relecture et Mise en forme
+PS: Mettez les papiers que vous écrivez dans le dossier "Intermédiaire" pour nous en servir pour le raport du 1 dec. Merci</msg>
+</logentry>
+<logentry
+   revision="71">
+<author>Abdelali.nait</author>
+<date>2010-11-09T22:08:40.102897Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/Articles</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Articles/Optimized design of control plans based on risk exposure and resources capabilities.lyx</path>
+</paths>
+<msg>+ Ajout du résumé de l'article : Optimized design of control plans based on risk exposure and resources capabilities </msg>
+</logentry>
+<logentry
+   revision="70">
+<author>fab0670312047</author>
+<date>2010-11-09T14:20:09.000220Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/DCube.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/Bibliographie/BiblioTeamWAR.bib</path>
+</paths>
+<msg>+ Ajout Algorithme DOUBLE
++ Ajout référence
+</msg>
+</logentry>
+<logentry
+   revision="69">
+<author>fab0670312047</author>
+<date>2010-11-08T20:30:22.571484Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/DCube.lyx</path>
+</paths>
+<msg>+ Changé une image en vectoriel</msg>
+</logentry>
+<logentry
+   revision="68">
+<author>fab0670312047</author>
+<date>2010-11-08T18:19:31.641033Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/DCube.lyx</path>
+</paths>
+<msg>+ Mise à jour de DCube
+
+</msg>
+</logentry>
+<logentry
+   revision="67">
+<author>fab0670312047</author>
+<date>2010-11-08T15:32:09.264858Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/DCube.lyx</path>
+<path
+   kind="dir"
+   action="M">/trunk</path>
+</paths>
+<msg>+ ajout de la référence externe vers le dépôt de l'atelier de production (925)
+</msg>
+</logentry>
+<logentry
+   revision="66">
+<author>Abdelali.nait</author>
+<date>2010-11-08T08:37:53.361881Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Simulation Aréna/Version 1 ( Simple )</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Simulation Aréna/Version 1 ( Simple )/Model1.mdb</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Simulation Aréna/Version 1 ( Simple )/Model1.opw</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Simulation Aréna/Version 1 ( Simple )/Model1.doe</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Simulation Aréna/Version 1 ( Simple )/Model1.out</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Simulation Aréna/Version 1 ( Simple )/Model1.Backup.doe</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Simulation Aréna</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Simulation Aréna/Version 1 ( Simple )/Model1.p</path>
+</paths>
+<msg>+ Ajout d'une première Version 1 ( Simple ) du modèle de Simulation Aréna</msg>
+</logentry>
+<logentry
+   revision="65">
+<author>nakara.rahma</author>
+<date>2010-11-08T08:23:58.790867Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Sujet/gestion du risque.pdf</path>
+</paths>
+<msg>++document gestion du risque </msg>
+</logentry>
+<logentry
+   revision="64">
+<author>fab0670312047</author>
+<date>2010-11-07T20:33:30.198930Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/DCube.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Intermediaire/RapportIntermediaire.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/Bibliographie/BiblioTeamWAR.bib</path>
+</paths>
+<msg>+ Ajout partie DCube introduction, explication Mr Mercantini
++ Traduction et adaptation de l'article  
++ Ajout d'élément à la biblio
+
+</msg>
+</logentry>
+<logentry
+   revision="63">
+<author>fab0670312047</author>
+<date>2010-10-20T14:15:42.430978Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/Images/SourcesImages</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Intermediaire/DCube.lyx</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/Intermediaire</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Intermediaire/RapportIntermediaire.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/DCubeShema.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/SourcesImages/DCubeShema.dia</path>
+</paths>
+<msg>+ Ajout dossier rapport intermédiaire 
+(mettez vos résumé dans ce dossier en Lyx SVP, pas de word ou odt)
++ Ajout schéma
++ Ajout dossier source image 
+(Dossier où vous mettrez les sources des images que vous produisez)
++ Ajout Rapport Intermédiaire caneva 
+</msg>
+</logentry>
+<logentry
+   revision="62">
+<author>fab0670312047</author>
+<date>2010-10-19T14:09:20.308830Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/Bibliographie</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Bibliographie/MethodeDCube.pdf</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/CompteRendu/CR_6.html</path>
+</paths>
+<msg>+  Ajout CR et doc D cube
+</msg>
+</logentry>
+<logentry
+   revision="61">
+<author>fab0670312047</author>
+<date>2010-10-13T14:07:28.190725Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/AlgoMarcheur.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/CompteRendu/CR_5.html</path>
+</paths>
+<msg>+ Mise à jour CR 
++ Mise à Jour Algo Marcheur 
+</msg>
+</logentry>
+<logentry
+   revision="60">
+<author>nakara.rahma</author>
+<date>2010-10-13T13:45:09.114526Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Preliminaire/RapportPreliminaireWindows.lyx</path>
+</paths>
+<msg>+ Ajout d'un Fichier pour les utilisateurs de Windaub 
+(Perte des raccourcis cliquable)</msg>
+</logentry>
+<logentry
+   revision="59">
+<author>fab0670312047</author>
+<date>2010-10-13T12:15:28.785248Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/CompteRendu/CR_5.html</path>
+</paths>
+<msg>+ Suppression de l'inutile sur CR 5
+</msg>
+</logentry>
+<logentry
+   revision="58">
+<author>fab0670312047</author>
+<date>2010-10-13T06:09:40.678272Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/CompteRendu/CR_5.html</path>
+</paths>
+<msg>+ Ajout CR chez ST 
+</msg>
+</logentry>
+<logentry
+   revision="57">
+<author>fab0670312047</author>
+<date>2010-10-11T15:15:06.662736Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Mise à jour Algo
++ Ajout de formule 
+</msg>
+</logentry>
+<logentry
+   revision="56">
+<author>fab0670312047</author>
+<date>2010-10-11T15:11:13.183249Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Mise à Jour algo 
+</msg>
+</logentry>
+<logentry
+   revision="55">
+<author>fab0670312047</author>
+<date>2010-10-11T14:22:40.357019Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Preliminaire/AlgoMarcheur.lyx</path>
+</paths>
+<msg>+ Ajout Algo PFE 
+Philipe et Fabien 
+</msg>
+</logentry>
+<logentry
+   revision="54">
+<author>nakara.rahma</author>
+<date>2010-10-05T12:59:50.364720Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Question/Reunion.lyx</path>
+</paths>
+<msg>+ question et remarques</msg>
+</logentry>
+<logentry
+   revision="53">
+<author>mesbahi.jaafar</author>
+<date>2010-10-05T10:46:00.799823Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Images/HistoriqueSiteRouset.PNG</path>
+</paths>
+<msg>Bonjour tous le monde je tiens à m'execuser au prés de vous. J'ai un petit empechement pour cette apréme je dois récupérer mes bagages de l'aéroport Merci et bonne journée</msg>
+</logentry>
+<logentry
+   revision="52">
+<author>fab0670312047</author>
+<date>2010-10-04T13:46:22.078206Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Question/Reunion.lyx</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/Question</path>
+<path
+   kind="file"
+   action="M">/trunk/Bibliographie/BiblioTeamWAR.bib</path>
+</paths>
+<msg>+ Ajout question, à remplir de votre coté avant la visite de ST
++ Introduction au modèle du marcheur 
++ MAJ de la bibliographie (Rajout des articles donnés par ST)
+
+</msg>
+</logentry>
+<logentry
+   revision="51">
+<author>fab0670312047</author>
+<date>2010-10-04T07:10:30.676167Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Sujet/Modalites-PFE2009-10.pdf</path>
+</paths>
+<msg>+ Ajout modalité sujet 
+</msg>
+</logentry>
+<logentry
+   revision="50">
+<author>fab0670312047</author>
+<date>2010-09-30T20:41:06.891396Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Rendu/RapportPreliminaireR50.pdf</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/RapportPreliminaire.lyx</path>
+</paths>
+<msg>+ Rajout du dernier rapport envoyé 
+</msg>
+</logentry>
+<logentry
+   revision="49">
+<author>fab0670312047</author>
+<date>2010-09-30T16:26:23.865680Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/RapportPreliminaire.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Conclusion.lyx</path>
+</paths>
+<msg>+ Correction d'orthographe et ajout de petites précisions.
+
+</msg>
+</logentry>
+<logentry
+   revision="48">
+<author>hoc5783</author>
+<date>2010-09-30T15:54:43.650477Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Conclusion.lyx</path>
+</paths>
+<msg>+Conclusion terminée. Veuillez s'il vous plait relire et vérifier la cohérence de la conclusion. J'ai essayé de reprendre les idées de Rahma. Voyez s'il faut la modifier.</msg>
+</logentry>
+<logentry
+   revision="47">
+<author>Abdelali.nait@gmail.com</author>
+<date>2010-09-29T19:37:45.162527Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Images/DiagrammeDémarche.PNG</path>
+</paths>
+<msg>+- Changement de l'image de la démarche à suivre 
+PS : Désolé pour le retard je n'ai pas pu faire mieux :(, j'ai eu un imprévu</msg>
+</logentry>
+<logentry
+   revision="46">
+<author>fab0670312047</author>
+<date>2010-09-29T15:01:57.064177Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/RapportPreliminaire.lyx</path>
+</paths>
+<msg>+ Mise à jour de l'ordre des noms d'équipes 
+</msg>
+</logentry>
+<logentry
+   revision="45">
+<author>nakara.rahma</author>
+<date>2010-09-29T14:53:36.456530Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Conclusion.lyx</path>
+</paths>
+<msg>++ philippe</msg>
+</logentry>
+<logentry
+   revision="44">
+<author>fab0670312047</author>
+<date>2010-09-29T14:50:18.892194Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/RapportPreliminaire.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/gestionPojet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Introduction.lyx</path>
+</paths>
+<msg>+ Prise en compte des remarques
+</msg>
+</logentry>
+<logentry
+   revision="43">
+<author>Abdelali.nait@gmail.com</author>
+<date>2010-09-29T14:39:33.274461Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+</paths>
+<msg>+- modification Sujet.lyx
+</msg>
+</logentry>
+<logentry
+   revision="42">
+<author>Abdelali.nait@gmail.com</author>
+<date>2010-09-29T14:35:12.839047Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+</paths>
+<msg>+- modification du Sujet.lyx
+q
+</msg>
+</logentry>
+<logentry
+   revision="41">
+<author>fab0670312047</author>
+<date>2010-09-29T08:32:23.618360Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/gestionPojet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Conclusion.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Introduction.lyx</path>
+</paths>
+<msg>+ Remarques de Frydmann
+</msg>
+</logentry>
+<logentry
+   revision="40">
+<author>fab0670312047</author>
+<date>2010-09-27T16:41:03.486799Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Rendu/RapportPreliminaireR40.pdf</path>
+<path
+   kind="file"
+   action="A">/trunk/Logo/STMicroelectronics.png</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/RapportPreliminaire.lyx</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Rendu</path>
+<path
+   kind="file"
+   action="A">/trunk/Logo/Logo_Polytech.png</path>
+</paths>
+<msg>+ Ajout de logos utiles (Polytech et ST)
++ Ajout d'un dossier Rendu où sont centralisé tous les documents rendu avec
+le numéro de la révision correspondant
++ Mise à jour de la première page et mise en forme
+</msg>
+</logentry>
+<logentry
+   revision="39">
+<author>Abdelali.nait@gmail.com</author>
+<date>2010-09-27T13:02:49.430574Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+</paths>
+<msg>+- Correction d'une faute d'orthographe</msg>
+</logentry>
+<logentry
+   revision="38">
+<author>Abdelali.nait@gmail.com</author>
+<date>2010-09-27T12:58:47.058582Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+</paths>
+<msg>+- Version finale de la partie sujet</msg>
+</logentry>
+<logentry
+   revision="37">
+<author>fab0670312047</author>
+<date>2010-09-27T11:51:12.419193Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+</paths>
+<msg>+ Ajout références 
+</msg>
+</logentry>
+<logentry
+   revision="36">
+<author>fab0670312047</author>
+<date>2010-09-27T11:46:20.405932Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+</paths>
+<msg>+ Oups un petit oublie
+
+</msg>
+</logentry>
+<logentry
+   revision="35">
+<author>fab0670312047</author>
+<date>2010-09-27T11:45:26.293443Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+</paths>
+<msg>+ Mix de la version d'abdou et de Rahma.
+En gros c'est le fichier d'abdou avec les correction de rahma 
++ N'oubliez pas de faire des up avant de travailler ....
+Bon après-midi 
+</msg>
+</logentry>
+<logentry
+   revision="34">
+<author>Abdelali.nait@gmail.com</author>
+<date>2010-09-27T08:09:01.160428Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+</paths>
+<msg>+- corréction orthographe / réorganisation du sujet</msg>
+</logentry>
+<logentry
+   revision="33">
+<author>Abdelali.nait@gmail.com</author>
+<date>2010-09-27T08:00:07.230566Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/DiagrammeDémarche.PNG</path>
+</paths>
+<msg>+ Image 'Diagramme démarche'</msg>
+</logentry>
+<logentry
+   revision="32">
+<author>hoc5783</author>
+<date>2010-09-27T07:58:20.959559Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Introduction.lyx</path>
+</paths>
+<msg>+MàJ Intro</msg>
+</logentry>
+<logentry
+   revision="31">
+<author>nakara.rahma</author>
+<date>2010-09-27T07:51:44.792949Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Conclusion.lyx</path>
+</paths>
+<msg>+ conclusion</msg>
+</logentry>
+<logentry
+   revision="30">
+<author>fab0670312047</author>
+<date>2010-09-27T07:24:50.167833Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/RapportPreliminaire.lyx</path>
+</paths>
+<msg>+ Correction nom philippe
+</msg>
+</logentry>
+<logentry
+   revision="29">
+<author>fab0670312047</author>
+<date>2010-09-27T07:22:45.725672Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/EntrepriseST.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/RapportPreliminaire.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Annexe.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/Bibliographie/BiblioTeamWAR.bib</path>
+</paths>
+<msg>+ Ajout biblio
+
+</msg>
+</logentry>
+<logentry
+   revision="28">
+<author>hoc5783</author>
+<date>2010-09-27T07:19:26.368679Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/RapportPreliminaire.lyx</path>
+</paths>
+<msg>+Correction mon prénom!</msg>
+</logentry>
+<logentry
+   revision="27">
+<author>nakara.rahma</author>
+<date>2010-09-26T21:26:27.226144Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/EntrepriseST.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/gestionPojet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Conclusion.lyx</path>
+</paths>
+<msg>+ relecture du rapport et debut de conclusion</msg>
+</logentry>
+<logentry
+   revision="26">
+<author>fab0670312047</author>
+<date>2010-09-26T20:52:27.799354Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/Bibliographie/BiblioTeamWAR.bib</path>
+</paths>
+<msg>+ Correction de la bibliographie
+</msg>
+</logentry>
+<logentry
+   revision="25">
+<author>fab0670312047</author>
+<date>2010-09-26T17:47:39.013575Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/BurndownChart.png</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Annexe.lyx</path>
+</paths>
+<msg>+ Ajout graphique et corection bug oups
+</msg>
+</logentry>
+<logentry
+   revision="24">
+<author>fab0670312047</author>
+<date>2010-09-26T17:42:49.681149Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Annexe.lyx</path>
+</paths>
+<msg>+ Correction petit bug
+</msg>
+</logentry>
+<logentry
+   revision="23">
+<author>fab0670312047</author>
+<date>2010-09-26T17:35:40.019776Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/Preliminaire/Sujet Philippe.lyx</path>
+<path
+   kind="file"
+   action="D">/trunk/PFE/Doc/Preliminaire/Sujet Abdelali.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+</paths>
+<msg>+ Mise d'un peu d'ordre 
++ Fusion des fichiers 
+</msg>
+</logentry>
+<logentry
+   revision="22">
+<author>hoc5783</author>
+<date>2010-09-26T15:14:33.158864Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet Philippe.lyx</path>
+</paths>
+<msg>+Correction orthographes dans "Sujet Philippe.lyx"</msg>
+</logentry>
+<logentry
+   revision="21">
+<author>hoc5783</author>
+<date>2010-09-26T15:08:59.726100Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Preliminaire/Sujet Philippe.lyx</path>
+</paths>
+<msg>Désolé pour le retard mais j'ai fait de mon mieux dans mon état actuel. Après relecture du rapport, je trouve que la partie "Sujet" est un peu bizarre je propose donc ma solution. C'est ma façon de voir les choses, vous êtes donc libres de garder ou de modifier ou de supprimer tout ce que j'ai écris. Je n'aurai aucune objection et je ne prendrai pas mal votre désaccord. Encore désolé de ne pas pouvoir investir d'avantage dans ce PFE.</msg>
+</logentry>
+<logentry
+   revision="20">
+<author>nakara.rahma</author>
+<date>2010-09-25T22:16:46.923439Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Introduction.lyx</path>
+</paths>
+<msg>+ intro corrigé et enrichit 
+j'attend de lire toute les parties pour faire la conclusion</msg>
+</logentry>
+<logentry
+   revision="19">
+<author>fab0670312047</author>
+<date>2010-09-25T21:53:14.514718Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/Bibliographie</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/EntrepriseST.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/RapportPreliminaire.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/Bibliographie/BiblioTeamWAR.bib</path>
+</paths>
+<msg>+ Relecture et correction Sujet.Lyx(partie abdelali) 
++ Correction de bug sur Entreprise.lyx
++ Ajout d'une bibliographie globale
+
+</msg>
+</logentry>
+<logentry
+   revision="18">
+<author>Abdelali.nait@gmail.com</author>
+<date>2010-09-25T12:37:55.989624Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/EntrepriseST.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Sujet/PFE-Team-War-2010.pdf</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/HistoriqueSiteRouset.PNG</path>
+</paths>
+<msg>+ Ajout Figure HistoriqueSiteRouset.PNG
++- Ajout Partie Présentation EntrepriseST</msg>
+</logentry>
+<logentry
+   revision="17">
+<author>Abdelali.nait@gmail.com</author>
+<date>2010-09-25T12:24:54.007297Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Preliminaire/Sujet Abdelali.lyx</path>
+</paths>
+<msg>+ Ajout de la partie (Démarche adoptée - Objectif PFE) Première Version</msg>
+</logentry>
+<logentry
+   revision="16">
+<author>fab0670312047</author>
+<date>2010-09-24T22:00:50.791886Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Introduction.lyx</path>
+</paths>
+<msg>+ Ajout de commentaire et relecture de l'intro
+</msg>
+</logentry>
+<logentry
+   revision="15">
+<author>fab0670312047</author>
+<date>2010-09-24T21:46:12.418868Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/RapportPreliminaire.lyx</path>
+</paths>
+<msg>+ Correction d'un bug du fichier 
+</msg>
+</logentry>
+<logentry
+   revision="14">
+<author>nakara.rahma</author>
+<date>2010-09-24T20:44:30.100423Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/RapportPreliminaire.lyx</path>
+</paths>
+<msg>+ correction non d'équipe et nom d'abdou</msg>
+</logentry>
+<logentry
+   revision="13">
+<author>nakara.rahma</author>
+<date>2010-09-24T20:39:30.807379Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Introduction.lyx</path>
+</paths>
+<msg>+ introduction , n'hesiter pas a me faire part de vos remarques</msg>
+</logentry>
+<logentry
+   revision="12">
+<author>fab0670312047</author>
+<date>2010-09-24T11:03:31.514749Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/Logo/team-WAR.png</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Preliminaire/RapportPreliminaire.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/gestionPojet.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/Logo/team-WAR.xcf</path>
+</paths>
+<msg>+ Ajout logo d'équipe
++ Mise à jour Gestion de projet 
++ Ajout du fichier mère qui centrailise tous les autres fichiers
++ Blague pour philipe  
+</msg>
+</logentry>
+<logentry
+   revision="11">
+<author>hoc5783</author>
+<date>2010-09-24T09:24:01.369194Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+</paths>
+<msg>Test command "COMMIT"</msg>
+</logentry>
+<logentry
+   revision="10">
+<author>fab0670312047</author>
+<date>2010-09-22T15:05:09.278786Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Images/ScrumShemaGlobal.png</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/Images</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Preliminaire/Annexe.lyx</path>
+</paths>
+<msg>+ Ajout d'une annexe pour détailler la methode SCRUM
++ Rédaction de la partie gestion de projet 
+</msg>
+</logentry>
+<logentry
+   revision="9">
+<author>fab0670312047</author>
+<date>2010-09-22T15:01:23.639736Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/gestionPojet.lyx</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Sujet</path>
+</paths>
+<msg>+ Création dossier Sujet -&gt; Abdou tu n'auras plus qu'à laisser le sujet dedans
+</msg>
+</logentry>
+<logentry
+   revision="8">
+<author>fab0670312047</author>
+<date>2010-09-22T14:04:37.165880Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/CompteRendu/CR_4.html</path>
+</paths>
+<msg>+ Ajout du CR4 avec attribution des roles
+
+</msg>
+</logentry>
+<logentry
+   revision="7">
+<author>nakara.rahma</author>
+<date>2010-09-22T13:44:24.550498Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+<path
+   kind="file"
+   action="M">/trunk/PFE/Doc/Preliminaire/gestionPojet.lyx</path>
+</paths>
+<msg>+ plan de travail détaillé</msg>
+</logentry>
+<logentry
+   revision="6">
+<author>fab0670312047</author>
+<date>2010-09-21T15:31:00.237660Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/CompteRendu/CR_3.html</path>
+</paths>
+<msg>+ ajout CR_3
+</msg>
+</logentry>
+<logentry
+   revision="5">
+<author>fab0670312047</author>
+<date>2010-09-21T13:44:32.827542Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Preliminaire/EntrepriseST.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Preliminaire/Sujet.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Preliminaire/gestionPojet.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Preliminaire/Conclusion.lyx</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/Doc/Preliminaire/Introduction.lyx</path>
+</paths>
+<msg>+ Ajout ossature rapport preliminaire
+</msg>
+</logentry>
+<logentry
+   revision="4">
+<author>fab0670312047</author>
+<date>2010-09-21T13:31:20.657418Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/trunk/PFE/CompteRendu/CR_2.html</path>
+</paths>
+<msg>+ Ajout CR_2 
+</msg>
+</logentry>
+<logentry
+   revision="3">
+<author>fab0670312047</author>
+<date>2010-09-21T13:16:55.185678Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/Doc/Preliminaire</path>
+<path
+   kind="dir"
+   action="A">/trunk/Logo</path>
+</paths>
+<msg>+ ajout dossier pour doc et preliminaire
+
+</msg>
+</logentry>
+<logentry
+   revision="2">
+<author>fab0670312047</author>
+<date>2010-09-21T13:08:00.499912Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk/PFE/CompteRendu</path>
+<path
+   kind="file"
+   action="A">/trunk/PFE/CompteRendu/CompteRendu1.html</path>
+<path
+   kind="dir"
+   action="A">/trunk/PFE</path>
+</paths>
+<msg>+ Ajout PFE et CR
+
+</msg>
+</logentry>
+<logentry
+   revision="1">
+<date>2010-09-21T12:45:13.695380Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/trunk</path>
+<path
+   kind="dir"
+   action="A">/wiki</path>
+<path
+   kind="dir"
+   action="A">/branches</path>
+<path
+   kind="dir"
+   action="A">/tags</path>
+</paths>
+<msg>Initial directory structure.</msg>
+</logentry>
+</log>

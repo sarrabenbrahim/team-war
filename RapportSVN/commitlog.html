@@ -1,0 +1,4689 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StatSVN - January 2011 Commit Log</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="Generator" content="StatSVN 0.7.0"/>
+<link rel="stylesheet" href="objectlab-statcvs.css" type="text/css"/>
+<script type="text/javascript" charset="utf-8" src="http://bit.ly/javascript-api.js?version=latest&#38;login=statsvn&#38;apiKey=R_2c362b417d0517c27876cbaca1bb68cc"></script>
+<script type="text/javascript" charset="utf-8">
+   // wait until page is loaded to call API
+   var redir_url;
+   var short_url;
+   BitlyCB.myShortenCallback = function(data) {
+      // this is how to get a result of shortening a single url
+      var result;
+      short_url=null;
+      for (var r in data.results) {
+         result = data.results[r];
+         result['longUrl'] = r;
+         short_url = result['shortUrl'];
+         break;
+      }
+      if (short_url==null) // bit.ly failed
+      document.location=redir_url;
+      else
+      redirToTwitter();
+   };
+   function shortenTweet(url) {
+      if (short_url == null || redir_url!=url) {
+      redir_url = url;
+      BitlyClient.shorten(document.location, 'BitlyCB.myShortenCallback');
+      }
+      else
+      redirToTwitter();
+      return false;
+   }
+   function redirToTwitter() { 
+      // replace {0} which is visible as %7B0} in the link
+      document.location = redir_url.replace('%7B0}', short_url);
+   }
+</script>
+  </head>
+
+<body>
+
+<h1>January 2011 Commit Log</h1>
+<div id="parentlink">&#171; <a href="index.html">Development Statistics for /trunk</a></div>
+
+<div id="nav" class="section">
+<h2>Commit Logs</h2>
+<ul>
+    <li><span class="here">January 2011</span></li>
+    <li><a href="2010-12.html">December 2010</a></li>
+    <li><a href="2010-11.html">November 2010</a></li>
+    <li><a href="2010-10.html">October 2010</a></li>
+    <li><a href="2010-09.html">September 2010</a></li>
+</ul>
+</div><dl class="attributes">
+    <dt>Number of Commits:</dt>
+    <dd>189</dd>
+    <dt>Number of Active Developers:</dt>
+    <dd>10</dd>
+</dl>
+<dl class="commitlist">
+  <dt><a name="189"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-30 16:49</span>
+    <a class="permalink" title="Permalink to this commit" href="#189">#189</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">375</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout des sources des images <br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        Criminalite.psd&#160;<span class="new">(new)</span>,
+        Modelisation.psd&#160;<span class="new">(new)</span>,
+        Quartiers.psd&#160;<span class="new">(new)</span>,
+        poster.psd&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="188"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-28 08:10</span>
+    <a class="permalink" title="Permalink to this commit" href="#188">#188</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">374</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de la présentation rendu à Mr Pujo (Pas la même que la dernière)<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Rendu</strong>:
+        PresentationPFE2011.pttx&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="187"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-28 08:07</span>
+    <a class="permalink" title="Permalink to this commit" href="#187">#187</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">373</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Presentation à Jour faite par Philipe <br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Presentation</strong>:
+        PresentationPFE2011.pttx&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="186"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-27 22:59</span>
+    <a class="permalink" title="Permalink to this commit" href="#186">#186</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">372</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout presentation de Philippe <br />
+- Suppression des fichiers personnel de presentation<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Presentation</strong>:
+        PresentationPFE2011.pttx&#160;<span class="new">(new)</span>,
+        presentation - Abdelali.pptx&#160;<span class="del">(del)</span>,
+        presentation - Fabien.pptx&#160;<span class="del">(del)</span>,
+        presentation - Jaafar.pptx&#160;<span class="del">(del)</span>,
+        presentation - Philippe.pptx&#160;<span class="del">(del)</span>,
+        presentation - Rahma.pptx&#160;<span class="del">(del)</span>,
+        presentation.pptx&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="185"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-27 15:52</span>
+    <a class="permalink" title="Permalink to this commit" href="#185">#185</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">371</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout des posters envoyés<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Rendu</strong>:
+        Poster02_2011.png&#160;<span class="new">(new)</span>,
+        Poster02_2011.ppt&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="184"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-27 15:34</span>
+    <a class="permalink" title="Permalink to this commit" href="#184">#184</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">370</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture partie Jaafar<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Presentation</strong>:
+        presentation - Jaafar.pptx&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="183"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-27 14:51</span>
+    <a class="permalink" title="Permalink to this commit" href="#183">#183</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">369</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Présentation partie Gesrion Coûts et Projet
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Presentation</strong>:
+        GestionCoutsProjet.ppt&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="182"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2011-01-27 13:19</span>
+    <a class="permalink" title="Permalink to this commit" href="#182">#182</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">368</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Prise en compte des remarques de Mme Frydman
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Presentation</strong>:
+        presentation - Abdelali.pptx&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="181"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-27 10:19</span>
+    <a class="permalink" title="Permalink to this commit" href="#181">#181</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">367</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Conversion = en fleches<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        analogie.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="180"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2011-01-27 09:26</span>
+    <a class="permalink" title="Permalink to this commit" href="#180">#180</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">366</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Modification du diapos
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Presentation</strong>:
+        presentation - Abdelali.pptx&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="179"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-27 09:24</span>
+    <a class="permalink" title="Permalink to this commit" href="#179">#179</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">365</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Maj du poster<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/7-Poster</strong>:
+        posterPro.png&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="178"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2011-01-27 09:19</span>
+    <a class="permalink" title="Permalink to this commit" href="#178">#178</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">364</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du présentation Abdelali
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Presentation</strong>:
+        presentation - Abdelali.pptx&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="177"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-27 09:06</span>
+    <a class="permalink" title="Permalink to this commit" href="#177">#177</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">363</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout modelisation pour Abdou<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        modelisationBis.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="176"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-27 09:02</span>
+    <a class="permalink" title="Permalink to this commit" href="#176">#176</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">362</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Equivalence modele implementation<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        EquivalenceModeleImplementation.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="175"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-27 08:53</span>
+    <a class="permalink" title="Permalink to this commit" href="#175">#175</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">361</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Mise à Jour d'images<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        Criminalite.png&#160;<span class="change">(changed)</span>,
+        ModeleQuartiers.png&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="174"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-27 08:41</span>
+    <a class="permalink" title="Permalink to this commit" href="#174">#174</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">360</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Gestion de projet et Gestion des coûts
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Presentation</strong>:
+        presentation - Jaafar.pptx&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="173"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-27 08:34</span>
+    <a class="permalink" title="Permalink to this commit" href="#173">#173</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">359</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout image de correspondance Modele et Implémentation<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        correspondance.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="172"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-27 08:24</span>
+    <a class="permalink" title="Permalink to this commit" href="#172">#172</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">358</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de l'image de modélisation du problème<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        ModelisationProbleme.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="171"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-27 08:16</span>
+    <a class="permalink" title="Permalink to this commit" href="#171">#171</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">357</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Mise à jour du modèle des quartier<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        ModeleQuartiers.png&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="170"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-26 23:23</span>
+    <a class="permalink" title="Permalink to this commit" href="#170">#170</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">356</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du poster avec Police d'écriture "Pro"<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/7-Poster</strong>:
+        posterEbauche.png&#160;<span class="del">(del)</span>,
+        posterPro.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="169"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-26 23:05</span>
+    <a class="permalink" title="Permalink to this commit" href="#169">#169</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">355</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout poster avec idée demarquation<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/7-Poster</strong>:
+        posterAvecSepartaion.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="168"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-26 22:49</span>
+    <a class="permalink" title="Permalink to this commit" href="#168">#168</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">354</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'une version avancé du poster <br />
+(Je ne sais pas encore comment séparer les parties)<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/7-Poster</strong>:
+        poster.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="167"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-26 14:33</span>
+    <a class="permalink" title="Permalink to this commit" href="#167">#167</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">353</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Rédaction de la présentation<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Presentation</strong>:
+        presentation - Fabien.pptx&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="166"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-26 00:47</span>
+    <a class="permalink" title="Permalink to this commit" href="#166">#166</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">352</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout graphique avec ligne de démarcation<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        grapheV2WithLine.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="165"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-26 00:28</span>
+    <a class="permalink" title="Permalink to this commit" href="#165">#165</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">351</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'ébauche de poster <br />
++ Ajout de quelques images pouvant servir à la présentation et au poster<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/7-Poster</strong>:
+        posterEbauche.png&#160;<span class="new">(new)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        Criminalite.png&#160;<span class="new">(new)</span>,
+        ModeleQuartiers.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="164"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-25 15:30</span>
+    <a class="permalink" title="Permalink to this commit" href="#164">#164</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">350</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Duplication du modéle afin que chaqu'un bosse indépendament sur ça Bartie pour éviter d'avoir des conflits
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">5 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Presentation</strong>:
+        presentation - Abdelali.pptx&#160;<span class="new">(new)</span>,
+        presentation - Fabien.pptx&#160;<span class="new">(new)</span>,
+        presentation - Jaafar.pptx&#160;<span class="new">(new)</span>,
+        presentation - Philippe.pptx&#160;<span class="new">(new)</span>,
+        presentation - Rahma.pptx&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="163"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2011-01-25 15:16</span>
+    <a class="permalink" title="Permalink to this commit" href="#163">#163</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">349</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du fichier presentation.pptx
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Presentation</strong>:
+        presentation.pptx&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="162"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-25 11:02</span>
+    <a class="permalink" title="Permalink to this commit" href="#162">#162</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">347</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ MON DERNIER COMMIT POUR LES RAPPORTS !<br />
+(Fabien, garde ces documents si tu y tiennes tellement, perso je n'en veux pas :p)<br />
+<br />
+Philippe<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>40222</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        RapportGestionCouts.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+20&#160;-8)</span>,
+        GestionProjet.lyx&#160;<span class="change">(+556&#160;-559)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/6-GestionProjet</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1226&#160;-1285)</span>,
+        RapportGestionProjet.lyx&#160;<span class="change">(+1&#160;-8)</span>
+      </li>
+      <li>
+        <strong>PFE/Rendu</strong>:
+        RapportGestionProjetR347.pdf&#160;<span class="new">(new&#160;20073)</span>,
+        Rapport_SyntheseR347.pdf&#160;<span class="new">(new&#160;18345)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="161"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 16:01</span>
+    <a class="permalink" title="Permalink to this commit" href="#161">#161</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">346</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction mineure<br />
+
+    </p>
+    <p class="commitdetails"><strong>1340</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+1340&#160;-1340)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="160"></a>
+    <a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a>
+    <span class="date">2011-01-24 15:49</span>
+    <a class="permalink" title="Permalink to this commit" href="#160">#160</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">345</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Relecture + correction<br />
+
+    </p>
+    <p class="commitdetails"><strong>1200</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+1200&#160;-1210)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="159"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 15:36</span>
+    <a class="permalink" title="Permalink to this commit" href="#159">#159</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">344</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction
+    </p>
+    <p class="commitdetails"><strong>4016</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+1340&#160;-1339)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="change">(+1210&#160;-1210)</span>,
+        CahierCharges.lyx&#160;<span class="change">(+268&#160;-268)</span>,
+        EntrepriseST.lyx&#160;<span class="change">(+229&#160;-229)</span>,
+        GestionCouts.lyx&#160;<span class="change">(+266&#160;-266)</span>,
+        GestionProjet.lyx&#160;<span class="change">(+559&#160;-550)</span>,
+        Introduction.lyx&#160;<span class="change">(+144&#160;-128)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="158"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-24 14:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#158">#158</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">343</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Rapports rendus<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>59822</strong> lines of code changed in <span class="files">5 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Rendu</strong>:
+        RapportGestionCoutsR339.pdf&#160;<span class="new">(new&#160;16978)</span>,
+        RapportPreliminaireR40.pdf&#160;<span class="del">(del)</span>,
+        Rapport_FinalR256.pdf&#160;<span class="del">(del)</span>,
+        Rapport_FinalR342.pdf&#160;<span class="new">(new&#160;42844)</span>,
+        Rapport_SyntheseR256.pdf&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="157"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-24 14:36</span>
+    <a class="permalink" title="Permalink to this commit" href="#157">#157</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">342</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Corrections à la dernière minute.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>27</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Conclusion.lyx&#160;<span class="change">(+19&#160;-19)</span>,
+        Introduction.lyx&#160;<span class="change">(+7&#160;-12)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="156"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2011-01-24 14:09</span>
+    <a class="permalink" title="Permalink to this commit" href="#156">#156</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">341</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++- Ajout de l'introduction 
+    </p>
+    <p class="commitdetails"><strong>1285</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/6-GestionProjet</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1285&#160;-1285)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="155"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 14:04</span>
+    <a class="permalink" title="Permalink to this commit" href="#155">#155</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">340</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Dernieres corrections
+    </p>
+    <p class="commitdetails"><strong>2076</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+2076&#160;-2069)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="154"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-24 13:52</span>
+    <a class="permalink" title="Permalink to this commit" href="#154">#154</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">339</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Dernières modifs du rapport de gestion des coûts.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>113</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        Conclusion.lyx&#160;<span class="change">(+113&#160;-112)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="153"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 13:48</span>
+    <a class="permalink" title="Permalink to this commit" href="#153">#153</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">338</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction bug<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>11</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/6-GestionProjet</strong>:
+        RapportGestionProjet.lyx&#160;<span class="change">(+11)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="152"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 13:40</span>
+    <a class="permalink" title="Permalink to this commit" href="#152">#152</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">337</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ne soyons pas timide<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="151"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-24 13:39</span>
+    <a class="permalink" title="Permalink to this commit" href="#151">#151</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">336</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Mise en page du rapport.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>2222</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/6-GestionProjet</strong>:
+        Annexe.lyx&#160;<span class="new">(new&#160;921)</span>,
+        GestionProjet.lyx&#160;<span class="change">(+1285&#160;-1300)</span>,
+        RapportGestionProjet.lyx&#160;<span class="change">(+16&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="150"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 13:28</span>
+    <a class="permalink" title="Permalink to this commit" href="#150">#150</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">335</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture algo marcheur<br />
+
+    </p>
+    <p class="commitdetails"><strong>2069</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+2069&#160;-2069)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="149"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2011-01-24 13:24</span>
+    <a class="permalink" title="Permalink to this commit" href="#149">#149</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">334</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction
+    </p>
+    <p class="commitdetails"><strong>250</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+250&#160;-250)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="148"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-24 13:17</span>
+    <a class="permalink" title="Permalink to this commit" href="#148">#148</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">333</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Correc-+ Correction du chemin relatif et absolu<br />
+
+    </p>
+    <p class="commitdetails"><strong>1300</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/6-GestionProjet</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1300&#160;-1300)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="147"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 13:09</span>
+    <a class="permalink" title="Permalink to this commit" href="#147">#147</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">332</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Integration du shema de Jaafar<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>34</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/6-GestionProjet</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+34)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="146"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 13:06</span>
+    <a class="permalink" title="Permalink to this commit" href="#146">#146</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">331</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction sur les outils subversion<br />
+
+    </p>
+    <p class="commitdetails"><strong>1271</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Rapport_Synthese.lyx&#160;<span class="change">(+5&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/6-GestionProjet</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1266&#160;-1278)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="145"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-24 13:03</span>
+    <a class="permalink" title="Permalink to this commit" href="#145">#145</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">330</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Nouveau dossier dédié à la gestion de projet =&gt; Rapport à part.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>1560</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="del">(del)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/6-GestionProjet</strong>:
+        GestionProjet.lyx&#160;<span class="new">(new&#160;1278)</span>,
+        RapportGestionProjet.lyx&#160;<span class="new">(new&#160;281)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="144"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-24 12:58</span>
+    <a class="permalink" title="Permalink to this commit" href="#144">#144</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">329</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout DiagrammeIDEEF0.png<br />
+-+ Intégration du diagramme dans la partie gestion de projet :)
+    </p>
+    <p class="commitdetails"><strong>45</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+45&#160;-6)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        DiagrammeIDEEF0.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="143"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-24 12:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#143">#143</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">328</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Séparation des rapports : final, gestion de projet et gestions des coûts.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(-58)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="142"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-24 12:44</span>
+    <a class="permalink" title="Permalink to this commit" href="#142">#142</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">327</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Modification du Modéle IDEEF0
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        DiagrammeIDEEF0.DIA&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="141"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 12:39</span>
+    <a class="permalink" title="Permalink to this commit" href="#141">#141</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">326</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ corrections
+    </p>
+    <p class="commitdetails"><strong>9</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+9&#160;-1294)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="140"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 12:36</span>
+    <a class="permalink" title="Permalink to this commit" href="#140">#140</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">325</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction<br />
+
+    </p>
+    <p class="commitdetails"><strong>1263</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1263)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="139"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-24 12:24</span>
+    <a class="permalink" title="Permalink to this commit" href="#139">#139</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">324</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Mise en forme du rapport avec corrections.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>2464</strong> lines of code changed in <span class="files">10 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        Indicateurs.lyx&#160;<span class="change">(+823&#160;-823)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+10&#160;-26)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+55&#160;-14)</span>,
+        Conclusion.lyx&#160;<span class="change">(+2&#160;-2)</span>,
+        EntrepriseST.lyx&#160;<span class="change">(-54)</span>,
+        Etude_Presentation_ST.lyx&#160;<span class="change">(+1&#160;-8)</span>,
+        GestionCouts.lyx&#160;<span class="del">(del)</span>,
+        GestionProjet.lyx&#160;<span class="change">(+1261&#160;-1259)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="change">(+300&#160;-286)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+12&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="138"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2011-01-24 12:21</span>
+    <a class="permalink" title="Permalink to this commit" href="#138">#138</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">323</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++- Reclecture et modification du AlgoMarcheur.lyx (rapport Final)<br />
+n'hesitez à faire une relecture ... ;)
+    </p>
+    <p class="commitdetails"><strong>2069</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+2069&#160;-2067)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="137"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 12:01</span>
+    <a class="permalink" title="Permalink to this commit" href="#137">#137</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">322</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction orthographe 
+    </p>
+    <p class="commitdetails"><strong>6</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+6&#160;-6)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="136"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-24 12:00</span>
+    <a class="permalink" title="Permalink to this commit" href="#136">#136</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">321</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Ajout partie Pb et solution apporté
+    </p>
+    <p class="commitdetails"><strong>38</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+38&#160;-22)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="135"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 12:00</span>
+    <a class="permalink" title="Permalink to this commit" href="#135">#135</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">320</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction d'un bug<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-9)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="134"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 11:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#134">#134</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">319</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Pour être sûr que les figures soient dans les bon chapitres<br />
+
+    </p>
+    <p class="commitdetails"><strong>27</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Dcube.lyx&#160;<span class="change">(+1&#160;-1)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+26&#160;-10)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="133"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 11:38</span>
+    <a class="permalink" title="Permalink to this commit" href="#133">#133</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">318</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction orthographe
+    </p>
+    <p class="commitdetails"><strong>425</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+425&#160;-425)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="132"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 11:22</span>
+    <a class="permalink" title="Permalink to this commit" href="#132">#132</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">317</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction de la conslusion
+    </p>
+    <p class="commitdetails"><strong>19</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+19&#160;-32)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="131"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 11:20</span>
+    <a class="permalink" title="Permalink to this commit" href="#131">#131</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">316</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture du rapport de synthèse<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>1374</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+42&#160;-117)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="change">(+1210&#160;-1206)</span>,
+        CahierCharges.lyx&#160;<span class="change">(+20&#160;-9)</span>,
+        EntrepriseST.lyx&#160;<span class="change">(+57&#160;-19)</span>,
+        GestionCouts.lyx&#160;<span class="change">(+21&#160;-13)</span>,
+        GestionProjet.lyx&#160;<span class="change">(+15&#160;-9)</span>,
+        Rapport_Synthese.lyx&#160;<span class="change">(+9&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="130"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-24 10:53</span>
+    <a class="permalink" title="Permalink to this commit" href="#130">#130</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">315</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de la répartition des charges dans la partie Gestion des coûts
+    </p>
+    <p class="commitdetails"><strong>1256</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1256&#160;-1091)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="129"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-24 10:52</span>
+    <a class="permalink" title="Permalink to this commit" href="#129">#129</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">314</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout figure Compte Rendu
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        CompteRendu.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="128"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 10:45</span>
+    <a class="permalink" title="Permalink to this commit" href="#128">#128</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">313</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction orthographe , synthaxe, grammaire
+    </p>
+    <p class="commitdetails"><strong>1850</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        Conclusion.lyx&#160;<span class="change">(+112&#160;-119)</span>,
+        Indicateurs.lyx&#160;<span class="change">(+823&#160;-823)</span>,
+        InformationsFinancier.lyx&#160;<span class="change">(+725&#160;-725)</span>,
+        Introduction.lyx&#160;<span class="change">(+190&#160;-190)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="127"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 09:26</span>
+    <a class="permalink" title="Permalink to this commit" href="#127">#127</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">312</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture de la conclusion de management de projet<br />
+
+    </p>
+    <p class="commitdetails"><strong>1091</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1091&#160;-1078)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="126"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 09:08</span>
+    <a class="permalink" title="Permalink to this commit" href="#126">#126</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">311</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture <br />
++ Remise sous forme de chapitres (plus facile à lire et à naviguer dans <br />
+le document par la suite)<br />
++ Ajout des sources bibliographique <br />
+
+    </p>
+    <p class="commitdetails"><strong>3171</strong> lines of code changed in <span class="files">9 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>Bibliographie</strong>:
+        BiblioTeamWAR.bib&#160;<span class="change">(+75&#160;-69)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+401&#160;-390)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="change">(+77&#160;-39)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+295&#160;-284)</span>,
+        Dcube.lyx&#160;<span class="change">(+988&#160;-924)</span>,
+        Etude_Presentation_ST.lyx&#160;<span class="change">(+250&#160;-246)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="change">(+390&#160;-379)</span>,
+        OuvrageSdF.lyx&#160;<span class="change">(+276&#160;-272)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+419&#160;-399)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="125"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 08:50</span>
+    <a class="permalink" title="Permalink to this commit" href="#125">#125</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">310</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'une référence biblio<br />
+
+    </p>
+    <p class="commitdetails"><strong>8</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>Bibliographie</strong>:
+        BiblioTeamWAR.bib&#160;<span class="change">(+8)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="124"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-24 06:38</span>
+    <a class="permalink" title="Permalink to this commit" href="#124">#124</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">309</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Voilà le rapport gestion des coûts.<br />
++ Veuillez faire une relecture pour les fautes de français.<br />
+<br />
+Philippe<br />
+
+    </p>
+    <p class="commitdetails"><strong>1133</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        Conclusion.lyx&#160;<span class="change">(+50&#160;-24)</span>,
+        Indicateurs.lyx&#160;<span class="change">(+589&#160;-30)</span>,
+        InformationsFinancier.lyx&#160;<span class="change">(+384&#160;-10)</span>,
+        Introduction.lyx&#160;<span class="change">(+105&#160;-28)</span>,
+        Questions.lyx&#160;<span class="del">(del)</span>,
+        RapportGestionCouts.lyx&#160;<span class="change">(+2&#160;-23)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        GestionCouts.lyx&#160;<span class="change">(+3&#160;-3)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="123"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 01:10</span>
+    <a class="permalink" title="Permalink to this commit" href="#123">#123</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">308</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ j'ai mis une deuxieme version de la conclusion si quelquen veu mixer les 2 si non il fau juste la supprimer 
+    </p>
+    <p class="commitdetails"><strong>174</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Conclusion.lyx&#160;<span class="change">(+174&#160;-106)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="122"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 00:42</span>
+    <a class="permalink" title="Permalink to this commit" href="#122">#122</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">307</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ une sorte de conclusion pour le rapport de gestion de projet 
+    </p>
+    <p class="commitdetails"><strong>46</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+46&#160;-6)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="121"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 23:37</span>
+    <a class="permalink" title="Permalink to this commit" href="#121">#121</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">306</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ confusion sur la conclusion excusez moi pour les commit :p
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        EtatArt.lyx&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="120"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 23:34</span>
+    <a class="permalink" title="Permalink to this commit" href="#120">#120</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">305</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ état de l'art normalement finis pour ceux qui veulent jeter un coup d'oeil
+    </p>
+    <p class="commitdetails"><strong>85</strong> lines of code changed in <span class="files">8 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+6&#160;-5)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+4&#160;-8)</span>,
+        EtatArt.lyx&#160;<span class="change">(+36)</span>,
+        Etude_Presentation_ST.lyx&#160;<span class="change">(+12&#160;-12)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="change">(+7&#160;-7)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="change">(+7&#160;-11)</span>,
+        OuvrageSdF.lyx&#160;<span class="change">(+2&#160;-2)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+11&#160;-11)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="119"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-23 22:46</span>
+    <a class="permalink" title="Permalink to this commit" href="#119">#119</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">304</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Modification du Produit Back log<br />
+-+ Ajout des itérations
+    </p>
+    <p class="commitdetails"><strong>1038</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1038&#160;-856)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="118"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 21:38</span>
+    <a class="permalink" title="Permalink to this commit" href="#118">#118</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">303</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout petite note <br />
++ Ajout d'une partie que je suugère à chacun de lire dans la gestion de <br />
+projet <br />
+
+    </p>
+    <p class="commitdetails"><strong>2270</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+1414&#160;-1387)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+856&#160;-760)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="117"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-23 21:25</span>
+    <a class="permalink" title="Permalink to this commit" href="#117">#117</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">302</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du CDC comme demandé.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>34</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+34&#160;-26)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="116"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-23 21:07</span>
+    <a class="permalink" title="Permalink to this commit" href="#116">#116</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">301</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++- Modification du fichier AlgoMarcheur.lyx (rapport de synthése)<br />
+<br />
+Abdou Nait Abdelkacem
+    </p>
+    <p class="commitdetails"><strong>1387</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+1387&#160;-1374)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="115"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 20:47</span>
+    <a class="permalink" title="Permalink to this commit" href="#115">#115</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">300</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ conclusion sur D3 incorporé dans le tableau
+    </p>
+    <p class="commitdetails"><strong>1206</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+1206&#160;-1244)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="114"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 20:43</span>
+    <a class="permalink" title="Permalink to this commit" href="#114">#114</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">299</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ etat de l'art pas encore corrigé
+    </p>
+    <p class="commitdetails"><strong>1675</strong> lines of code changed in <span class="files">9 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+4&#160;-15)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+5&#160;-16)</span>,
+        Dcube.lyx&#160;<span class="change">(+924&#160;-932)</span>,
+        EtatArt.lyx&#160;<span class="change">(+188&#160;-55)</span>,
+        Etude_Presentation_ST.lyx&#160;<span class="change">(+246&#160;-250)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="change">(+286&#160;-297)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="change">(+5&#160;-16)</span>,
+        OuvrageSdF.lyx&#160;<span class="change">(+7&#160;-11)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+10&#160;-10)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="113"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-23 20:43</span>
+    <a class="permalink" title="Permalink to this commit" href="#113">#113</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">298</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'éléments manquants<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>27</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+27&#160;-14)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="112"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 20:10</span>
+    <a class="permalink" title="Permalink to this commit" href="#112">#112</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">297</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Intégration des fichiers ajouté par Rahma <br />
++ Correction d'un chemin absolu en chemin relatif<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>68</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        InformationsFinancier.lyx&#160;<span class="change">(+8&#160;-9)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(+60)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="111"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 19:41</span>
+    <a class="permalink" title="Permalink to this commit" href="#111">#111</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">296</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Mise en forme rapport de synthèse<br />
++ Rajout de citations pour Etat de l'art<br />
+
+    </p>
+    <p class="commitdetails"><strong>56</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+53&#160;-121)</span>,
+        Conclusion.lyx&#160;<span class="change">(+1&#160;-1)</span>,
+        Introduction.lyx&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="110"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 19:27</span>
+    <a class="permalink" title="Permalink to this commit" href="#110">#110</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">295</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ fichier composant l'état de l'art
+    </p>
+    <p class="commitdetails"><strong>2065</strong> lines of code changed in <span class="files">6 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="new">(new&#160;400)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="new">(new&#160;299)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="new">(new&#160;297)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="new">(new&#160;394)</span>,
+        OuvrageSdF.lyx&#160;<span class="new">(new&#160;276)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="new">(new&#160;399)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="109"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-23 19:04</span>
+    <a class="permalink" title="Permalink to this commit" href="#109">#109</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">294</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ S'il te plait arrête de travailler sur la même partie que moi car ça créer de$<br />
+$le mois prochain surement). Donc il n'y a pas d'incohérence entre les 2 taux si tu as bien lu le rapport (2010 c'est officiel et 2011 c'est une prévision statistique).<br />
+<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>102</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        InformationsFinancier.lyx&#160;<span class="change">(+100&#160;-29)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        GestionCouts.lyx&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Bibliographie</strong>:
+        Presentation_cifre.pdf&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="108"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 18:55</span>
+    <a class="permalink" title="Permalink to this commit" href="#108">#108</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">293</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction du bug qui empèche la compilation<br />
+
+    </p>
+    <p class="commitdetails"><strong>5</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+5&#160;-5)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="107"></a>
+    <a href="user_josianegarcia66.html" class="author">josianegarcia66</a>
+    <span class="date">2011-01-23 18:32</span>
+    <a class="permalink" title="Permalink to this commit" href="#107">#107</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">292</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction Ortographe et Syntaxe<br />
+
+    </p>
+    <p class="commitdetails"><strong>123</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+84&#160;-59)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="change">(+15&#160;-10)</span>,
+        GestionProjet.lyx&#160;<span class="change">(+24&#160;-30)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="106"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 18:23</span>
+    <a class="permalink" title="Permalink to this commit" href="#106">#106</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">291</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Prise en compte des modif de chacuns<br />
++ Correction orthographe et syntaxe<br />
+
+    </p>
+    <p class="commitdetails"><strong>383</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        InformationsFinancier.lyx&#160;<span class="change">(+25&#160;-12)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+358&#160;-272)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="105"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-23 18:07</span>
+    <a class="permalink" title="Permalink to this commit" href="#105">#105</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">290</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Ajout des Outils de travail
+    </p>
+    <p class="commitdetails"><strong>32</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+32&#160;-3)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="104"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-23 18:05</span>
+    <a class="permalink" title="Permalink to this commit" href="#104">#104</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">289</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Partie Historique ST + quelque modif.
+    </p>
+    <p class="commitdetails"><strong>272</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+272&#160;-362)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="103"></a>
+    <a href="user_josianegarcia66.html" class="author">josianegarcia66</a>
+    <span class="date">2011-01-23 17:26</span>
+    <a class="permalink" title="Permalink to this commit" href="#103">#103</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">288</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture globale et mise en cohérence des parties<br />
+
+    </p>
+    <p class="commitdetails"><strong>988</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+252&#160;-222)</span>,
+        EntrepriseST.lyx&#160;<span class="change">(+191&#160;-176)</span>,
+        Introduction.lyx&#160;<span class="change">(+61&#160;-1)</span>,
+        Rapport_Synthese.lyx&#160;<span class="change">(+484&#160;-489)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="102"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-23 16:44</span>
+    <a class="permalink" title="Permalink to this commit" href="#102">#102</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">287</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+IMPORTANT : Fabien, tu es incorrigible ! Ce n'est pas que je ne fais pas de commit tous les heures, ça ne veut pas dire que je ne bosse pas ! De plus tes petits copier-coller, je sais le faire aussi ! Voire peut-être mieux puisque c'est moi qui l'a rédigé.<br />
++ Modif de quelques valeurs sur gestion des coûts / synthèse.<br />
++ Rédaction en cours du rapport de gestion des coûts ainsi que le calcul des indicateurs (je pense avoir une piste). Donc Fabien, si tu t'ennuis fais autres choses, ne vient pas mettre le désordre dans ma partie. Une fois, finis, tu seras libre de corrigier.<br />
+Merci de votre compréhension,<br />
+<br />
+Philippe<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>73</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        InformationsFinancier.lyx&#160;<span class="change">(+58&#160;-297)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        GestionCouts.lyx&#160;<span class="change">(+15&#160;-3)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        TauxActualisation2010.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="101"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 16:23</span>
+    <a class="permalink" title="Permalink to this commit" href="#101">#101</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">286</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction orthographe<br />
+
+    </p>
+    <p class="commitdetails"><strong>8</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Introduction.lyx&#160;<span class="change">(+8&#160;-8)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="100"></a>
+    <a href="user_josianegarcia66.html" class="author">josianegarcia66</a>
+    <span class="date">2011-01-23 14:03</span>
+    <a class="permalink" title="Permalink to this commit" href="#100">#100</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">285</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction orthographique et syntaxe<br />
+
+    </p>
+    <p class="commitdetails"><strong>45</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        Indicateurs.lyx&#160;<span class="change">(+5&#160;-5)</span>,
+        InformationsFinancier.lyx&#160;<span class="change">(+40&#160;-25)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="99"></a>
+    <a href="user_josianegarcia66.html" class="author">josianegarcia66</a>
+    <span class="date">2011-01-23 13:42</span>
+    <a class="permalink" title="Permalink to this commit" href="#99">#99</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">284</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction de l'introduction <br />
+
+    </p>
+    <p class="commitdetails"><strong>13</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        Introduction.lyx&#160;<span class="change">(+13&#160;-13)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="98"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 13:36</span>
+    <a class="permalink" title="Permalink to this commit" href="#98">#98</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">283</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Remise du bilan de l'état de l'art dans le rapport de synthèse avec <br />
+La conclusion à part<br />
+
+    </p>
+    <p class="commitdetails"><strong>1307</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="new">(new&#160;1307)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="97"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 12:59</span>
+    <a class="permalink" title="Permalink to this commit" href="#97">#97</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">282</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'information sur rapport de cout <br />
++ Correction d'adresse relative<br />
++ Relecture <br />
+
+    </p>
+    <p class="commitdetails"><strong>752</strong> lines of code changed in <span class="files">6 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>Bibliographie</strong>:
+        BiblioTeamWAR.bib&#160;<span class="change">(+15&#160;-6)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        InformationsFinancier.lyx&#160;<span class="change">(+290&#160;-1)</span>,
+        Introduction.lyx&#160;<span class="change">(+113&#160;-113)</span>,
+        RapportGestionCouts.lyx&#160;<span class="change">(+332&#160;-259)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+1&#160;-1)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="96"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 10:32</span>
+    <a class="permalink" title="Permalink to this commit" href="#96">#96</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">281</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ je re commit tous car sur ma boite ya qu'un seul commit jen ai fait 4 ou son passé les autres?
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="95"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 10:28</span>
+    <a class="permalink" title="Permalink to this commit" href="#95">#95</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">280</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ introduction de la parti contexte , il faut faire la meme chose pour toute les parti afin de guider le lecteur
+    </p>
+    <p class="commitdetails"><strong>489</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Rapport_Synthese.lyx&#160;<span class="change">(+489&#160;-480)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="94"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 10:27</span>
+    <a class="permalink" title="Permalink to this commit" href="#94">#94</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">279</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ quelque modification 
+    </p>
+    <p class="commitdetails"><strong>176</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+176&#160;-186)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="93"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 10:27</span>
+    <a class="permalink" title="Permalink to this commit" href="#93">#93</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">278</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ quelque modification mais il manque toujour l'ennoncé du cahier de charge tel qu'il est jai mis une note dessus
+    </p>
+    <p class="commitdetails"><strong>23</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+23&#160;-9)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="92"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 10:26</span>
+    <a class="permalink" title="Permalink to this commit" href="#92">#92</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">277</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ je ne suit pas arrivé a revenir à la ligne pour faire une parti sur la D3 et une parti conclusion, il faut juste arranger ça 
+    </p>
+    <p class="commitdetails"><strong>1205</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+1205&#160;-1573)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="91"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-22 17:41</span>
+    <a class="permalink" title="Permalink to this commit" href="#91">#91</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">276</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+- Supression et déplacement des doublons<br />
++ Ajout conclusion rapport de Synthèse<br />
++ Correction orthographique<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>2605</strong> lines of code changed in <span class="files">10 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="del">(del)</span>,
+        Conclusion.lyx&#160;<span class="del">(del)</span>,
+        DCube.lyx&#160;<span class="del">(del)</span>,
+        Introduction.lyx&#160;<span class="del">(del)</span>,
+        OperationnalRisk.lyx&#160;<span class="del">(del)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+460&#160;-12)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="change">(+34&#160;-34)</span>,
+        Conclusion.lyx&#160;<span class="change">(+43&#160;-5)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AlgoMarcheur.lyx&#160;<span class="new">(new&#160;2067)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="90"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-22 16:11</span>
+    <a class="permalink" title="Permalink to this commit" href="#90">#90</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">275</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture rapide<br />
+
+    </p>
+    <p class="commitdetails"><strong>20</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+8&#160;-1)</span>,
+        GestionCouts.lyx&#160;<span class="change">(+12&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="89"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-22 16:02</span>
+    <a class="permalink" title="Permalink to this commit" href="#89">#89</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">274</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Refonte de l'algo marcheur du rapport final pour le rendre plus claire<br />
+Cette partie ayant été faite au fil de l'eau, quelques nomenclatures ont changé<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>170</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+170&#160;-144)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="88"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-22 15:09</span>
+    <a class="permalink" title="Permalink to this commit" href="#88">#88</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">273</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++Suppression des références qui n'existent plus.<br />
++Gestion des coûts<br />
+<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>238</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+179&#160;-186)</span>,
+        GestionCouts.lyx&#160;<span class="change">(+59&#160;-180)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="87"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-22 14:48</span>
+    <a class="permalink" title="Permalink to this commit" href="#87">#87</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">272</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de deux nouveaux tirages<br />
+(Excuse Abdou j'en ai refait encore un, car sinon on ne voyait pas de grosses <br />
+différences entre les 2 tirages)<br />
++ intégration des graphiques dans le rapport final <br />
+
+    </p>
+    <p class="commitdetails"><strong>14779</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Resultat</strong>:
+        ResultForExcelV2.txt&#160;<span class="new">(new&#160;4617)</span>,
+        ResultatExcelV3.txt&#160;<span class="new">(new&#160;4617)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+268&#160;-2)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        grapheV2.eps&#160;<span class="new">(new&#160;5277)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="86"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-22 12:46</span>
+    <a class="permalink" title="Permalink to this commit" href="#86">#86</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">271</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'élement pour avoir des données directement utilisable sous gnuplot<br />
+
+    </p>
+    <p class="commitdetails"><strong>6</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur/nbproject/private</strong>:
+        private.properties&#160;<span class="change">(+1&#160;-6)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Constants.java&#160;<span class="change">(+3&#160;-3)</span>,
+        Marcheur.java&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        Workstation.java&#160;<span class="change">(-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="85"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-22 12:38</span>
+    <a class="permalink" title="Permalink to this commit" href="#85">#85</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">270</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Rajout du tableau de conclusion<br />
+
+    </p>
+    <p class="commitdetails"><strong>1573</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+1573&#160;-546)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="84"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-22 00:05</span>
+    <a class="permalink" title="Permalink to this commit" href="#84">#84</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">269</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ je commit meme si ce n'est pas fini pour ne pas avoir de conflit plus tard 
+    </p>
+    <p class="commitdetails"><strong>1277</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+546&#160;-546)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+731&#160;-557)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="83"></a>
+    <a href="user_Abdelali.nait@gmail.com.html" class="author">Abdelali.nait@gmail.com</a>
+    <span class="date">2011-01-21 17:53</span>
+    <a class="permalink" title="Permalink to this commit" href="#83">#83</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">268</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajour du fichier résultat Version 2xcxcxc<br />
+
+    </p>
+    <p class="commitdetails"><strong>6</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur/nbproject/private</strong>:
+        private.properties&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Marcheur.java&#160;<span class="change">(+5&#160;-5)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="82"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-21 17:52</span>
+    <a class="permalink" title="Permalink to this commit" href="#82">#82</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">267</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'explication pour l'algo<br />
+
+    </p>
+    <p class="commitdetails"><strong>899</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+899&#160;-780)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="81"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2011-01-21 17:40</span>
+    <a class="permalink" title="Permalink to this commit" href="#81">#81</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">266</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Modification présentation STMicroeletronics
+    </p>
+    <p class="commitdetails"><strong>186</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+186&#160;-257)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="80"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-21 17:03</span>
+    <a class="permalink" title="Permalink to this commit" href="#80">#80</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">265</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout conclusion<br />
+
+    </p>
+    <p class="commitdetails"><strong>75</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Conclusion.lyx&#160;<span class="change">(+75&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="79"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-21 16:50</span>
+    <a class="permalink" title="Permalink to this commit" href="#79">#79</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">264</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Compte réunion avec Madame Frydman
+    </p>
+    <p class="commitdetails"><strong>186</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/CompteRendu</strong>:
+        CR_11.lyx&#160;<span class="new">(new&#160;186)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="78"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-21 14:28</span>
+    <a class="permalink" title="Permalink to this commit" href="#78">#78</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">263</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Gestion des coûts  pour le rapport de synthèse sera fini ce soir au plus tard.<br />
++ EntrepiseST pour Jaafar.<br />
++ Bilan Etat de l'Art : corrections et remettre la nature du document.<br />
++ Suppression des fichiers non utilisés dans les dossiers des rapports.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>246</strong> lines of code changed in <span class="files">9 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur_Bilan.lyx&#160;<span class="del">(del)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="change">(+88&#160;-4)</span>,
+        GestionCouts.lyx&#160;<span class="change">(+37&#160;-56)</span>,
+        Rapport_Synthese.lyx&#160;<span class="change">(+1&#160;-50)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+119&#160;-1)</span>,
+        Marcheur_Algo.lyx&#160;<span class="del">(del)</span>,
+        Marcheur_Bilan.lyx&#160;<span class="del">(del)</span>,
+        Marcheur_Code.lyx&#160;<span class="del">(del)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-27)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="77"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-20 22:44</span>
+    <a class="permalink" title="Permalink to this commit" href="#77">#77</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">262</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout des données qui ont permit de construire le graphe. <br />
+
+    </p>
+    <p class="commitdetails"><strong>181</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+181&#160;-4)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="76"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-20 21:16</span>
+    <a class="permalink" title="Permalink to this commit" href="#76">#76</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">261</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ ajout d'une intro <br />
++ Mise en forme des calculs<br />
++ Mise en forme de la gestion des coûts<br />
+
+    </p>
+    <p class="commitdetails"><strong>363</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        InformationsFinancier.lyx&#160;<span class="change">(+27)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionCouts.lyx&#160;<span class="change">(+282&#160;-279)</span>,
+        Introduction.lyx&#160;<span class="change">(+54&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="75"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-20 20:18</span>
+    <a class="permalink" title="Permalink to this commit" href="#75">#75</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">260</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de références bibilographiques<br />
+
+    </p>
+    <p class="commitdetails"><strong>668</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Annexe.lyx&#160;<span class="change">(+1&#160;-1)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="change">(+35&#160;-1)</span>,
+        EntrepriseST.lyx&#160;<span class="change">(+257&#160;-251)</span>,
+        GestionCouts.lyx&#160;<span class="change">(+375&#160;-332)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="74"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-20 19:32</span>
+    <a class="permalink" title="Permalink to this commit" href="#74">#74</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">259</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction bug dans la bibliographie<br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>Bibliographie</strong>:
+        BiblioTeamWAR.bib&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="73"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-20 08:30</span>
+    <a class="permalink" title="Permalink to this commit" href="#73">#73</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">258</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout référence et structuration<br />
+
+    </p>
+    <p class="commitdetails"><strong>26</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+26&#160;-66)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="72"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-20 08:15</span>
+    <a class="permalink" title="Permalink to this commit" href="#72">#72</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">257</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Biblio DCube<br />
+
+    </p>
+    <p class="commitdetails"><strong>8</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>Bibliographie</strong>:
+        BiblioTeamWAR.bib&#160;<span class="change">(+8)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="71"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 23:13</span>
+    <a class="permalink" title="Permalink to this commit" href="#71">#71</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">256</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction et mise des rapports envoyés<br />
+
+    </p>
+    <p class="commitdetails"><strong>43700</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+3&#160;-10)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+      <li>
+        <strong>PFE/Rendu</strong>:
+        Rapport_FinalR256.pdf&#160;<span class="new">(new&#160;24140)</span>,
+        Rapport_SyntheseR256.pdf&#160;<span class="new">(new&#160;19555)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="70"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 21:12</span>
+    <a class="permalink" title="Permalink to this commit" href="#70">#70</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">255</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du vrai rapport de gestion des coûts <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>24</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(+24)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="69"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 21:01</span>
+    <a class="permalink" title="Permalink to this commit" href="#69">#69</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">254</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture Rapport <br />
++ Etoffage de la partie etat de l'art<br />
+
+    </p>
+    <p class="commitdetails"><strong>1206</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+4&#160;-5)</span>,
+        Dcube.lyx&#160;<span class="new">(new&#160;932)</span>,
+        Etude_Presentation_ST.lyx&#160;<span class="new">(new&#160;250)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+20)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="68"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 20:32</span>
+    <a class="permalink" title="Permalink to this commit" href="#68">#68</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">253</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Quelques petites corrections<br />
+
+    </p>
+    <p class="commitdetails"><strong>37</strong> lines of code changed in <span class="files">5 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Marcheur.java&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        Batch.java&#160;<span class="change">(+1&#160;-1)</span>,
+        Workstation.java&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+12&#160;-12)</span>,
+        Rapport_Synthese.lyx&#160;<span class="change">(+22)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="67"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-19 20:28</span>
+    <a class="permalink" title="Permalink to this commit" href="#67">#67</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">252</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction<br />
+
+    </p>
+    <p class="commitdetails"><strong>780</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+780&#160;-778)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="66"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-19 20:17</span>
+    <a class="permalink" title="Permalink to this commit" href="#66">#66</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">251</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction
+    </p>
+    <p class="commitdetails"><strong>38</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        GestionCouts.lyx&#160;<span class="change">(+38&#160;-16)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="65"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-19 19:38</span>
+    <a class="permalink" title="Permalink to this commit" href="#65">#65</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">250</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture et de nombreux modifs. Il reste toutefois la parie D3 et la petite conclusion sur l'état de l'art pour introduire l'algorithme du marcheur que je n'ai pas encore eu le temps de relire.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>228</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+228&#160;-179)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="64"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 19:06</span>
+    <a class="permalink" title="Permalink to this commit" href="#64">#64</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">249</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction d'un petit bug <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="63"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 18:58</span>
+    <a class="permalink" title="Permalink to this commit" href="#63">#63</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">248</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Cosmetique partie 2<br />
++ Correction et relecture <br />
++ Déplacement CR 10 <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>86</strong> lines of code changed in <span class="files">5 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/CompteRendu</strong>:
+        CR_10.doc&#160;<span class="new">(new)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+2&#160;-2)</span>,
+        Rapport_Synthese.lyx&#160;<span class="change">(+42&#160;-10)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(+42&#160;-6)</span>
+      </li>
+      <li>
+        <strong>PFE/Sujet</strong>:
+        CompteRendu.doc&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="62"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 18:47</span>
+    <a class="permalink" title="Permalink to this commit" href="#62">#62</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">247</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de cosmetique 1 er partie <br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        coin.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="61"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 18:16</span>
+    <a class="permalink" title="Permalink to this commit" href="#61">#61</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">246</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture Synthese <br />
++ Un peu de cosmetique<br />
++ Mise en forme du code source <br />
++ Reformatage des données pour les lire dans gnuplot<br />
++ Ajout de réference dans Rapport Final<br />
++ Rajout des résultats dans tous les rapports <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>5976</strong> lines of code changed in <span class="files">10 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur</strong>:
+        ResultForExcel.txt&#160;<span class="change">(+4616&#160;-4616)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/nbproject/private</strong>:
+        private.properties&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Marcheur.java&#160;<span class="change">(+12&#160;-8)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        Batch.java&#160;<span class="change">(+22&#160;-9)</span>,
+        Workstation.java&#160;<span class="change">(+61&#160;-36)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+16&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+780&#160;-641)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Annexe.lyx&#160;<span class="change">(+1&#160;-1)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="change">(+387&#160;-463)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+80&#160;-6)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="60"></a>
+    <a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a>
+    <span class="date">2011-01-19 16:35</span>
+    <a class="permalink" title="Permalink to this commit" href="#60">#60</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">245</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Parti gestion des coûts
+    </p>
+    <p class="commitdetails"><strong>104</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        GestionCouts.lyx&#160;<span class="change">(+104&#160;-73)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="59"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 16:26</span>
+    <a class="permalink" title="Permalink to this commit" href="#59">#59</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">244</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout et correction de quelques fautes dans algo marcheur<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>37</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+27&#160;-4)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(+10&#160;-4)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="58"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 15:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#58">#58</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">243</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de résultat dans la partie algo marcheur <br />
++ Travail de redaction sur l'algo du marcheur<br />
+
+    </p>
+    <p class="commitdetails"><strong>329</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+329&#160;-110)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        ModeleFiabilityWorkstation.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="57"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2011-01-19 15:47</span>
+    <a class="permalink" title="Permalink to this commit" href="#57">#57</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">242</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Relecture / correction des fautes d'orthographe<br />
+Fabien je t'invite à refaire une relecture stp ;).
+    </p>
+    <p class="commitdetails"><strong>641</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+641&#160;-641)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="56"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 15:37</span>
+    <a class="permalink" title="Permalink to this commit" href="#56">#56</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">241</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout image des résultats<br />
+
+    </p>
+    <p class="commitdetails"><strong>5235</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        GrapheDonnee.eps&#160;<span class="new">(new&#160;5235)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="55"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 14:12</span>
+    <a class="permalink" title="Permalink to this commit" href="#55">#55</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">240</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout des resultats en fonction de l'avancement pour construire une représentation des données<br />
+en fonction de l'avancement<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>4617</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur</strong>:
+        ResultForExcel.txt&#160;<span class="new">(new&#160;4617)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="54"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 11:22</span>
+    <a class="permalink" title="Permalink to this commit" href="#54">#54</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">239</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Transformation du code pour avoir le résultat en fonction de <br />
+l'avancement et de la fiabilité, ce qui sera plus facile à présenter<br />
+
+    </p>
+    <p class="commitdetails"><strong>19</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Marcheur.java&#160;<span class="change">(+6&#160;-5)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        StoreEntities.java&#160;<span class="change">(+13)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="53"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-18 18:10</span>
+    <a class="permalink" title="Permalink to this commit" href="#53">#53</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">238</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Travail sur algo marcheur <br />
+Abdou et Fabien <br />
+<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>968</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+200&#160;-10)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+268&#160;-5)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        DiagrammeClassEntities.svg&#160;<span class="change">(+500&#160;-82)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="52"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-18 17:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#52">#52</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">237</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction orthographe 
+    </p>
+    <p class="commitdetails"><strong>459</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+208&#160;-210)</span>,
+        EntrepriseST.lyx&#160;<span class="change">(+251&#160;-244)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="51"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-18 17:36</span>
+    <a class="permalink" title="Permalink to this commit" href="#51">#51</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">236</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Modif du titre de nos rapports.<br />
++ Squelette du rapport final.<br />
+<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>3176</strong> lines of code changed in <span class="files">30 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/1-Preliminaire</strong>:
+        RapportPreliminaire.lyx&#160;<span class="new">(new)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/2-Intermediaire</strong>:
+        RapportIntermediaire.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        RapportFinale.lyx&#160;<span class="change">(+2&#160;-37)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur_Bilan.lyx&#160;<span class="new">(new&#160;68)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="change">(+419&#160;-463)</span>,
+        Bilan_Etude.lyx&#160;<span class="del">(del)</span>,
+        Rapport_Synthese.lyx&#160;<span class="change">(+4&#160;-4)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-Synthese</strong>:
+        cahierCharges.lyx&#160;<span class="del">(del)</span>,
+        conclusion.lyx&#160;<span class="del">(del)</span>,
+        develloppementSolution.lyx&#160;<span class="del">(del)</span>,
+        develloppementSolution.lyx~&#160;<span class="del">(del)</span>,
+        etudeExistant.lyx&#160;<span class="del">(del)</span>,
+        introduction.lyx&#160;<span class="del">(del)</span>,
+        introduction.lyx~&#160;<span class="del">(del)</span>,
+        rapportSynthese.lyx&#160;<span class="del">(del)</span>,
+        validation.lyx&#160;<span class="del">(del)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Annexe.lyx&#160;<span class="new">(new&#160;64)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="new">(new&#160;463)</span>,
+        CahierCharges.lyx&#160;<span class="new">(new&#160;210)</span>,
+        Conclusion.lyx&#160;<span class="new">(new&#160;68)</span>,
+        EntrepriseST.lyx&#160;<span class="new">(new&#160;244)</span>,
+        EtatArt.lyx&#160;<span class="new">(new&#160;55)</span>,
+        GestionCouts.lyx&#160;<span class="new">(new&#160;279)</span>,
+        GestionProjet.lyx&#160;<span class="new">(new&#160;557)</span>,
+        Introduction.lyx&#160;<span class="new">(new&#160;68)</span>,
+        Marcheur_Algo.lyx&#160;<span class="new">(new&#160;72)</span>,
+        Marcheur_Bilan.lyx&#160;<span class="new">(new&#160;68)</span>,
+        Marcheur_Code.lyx&#160;<span class="new">(new&#160;68)</span>,
+        Rapport_Final.lyx&#160;<span class="new">(new&#160;464)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="50"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-18 17:28</span>
+    <a class="permalink" title="Permalink to this commit" href="#50">#50</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">235</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ compte rendu<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Sujet</strong>:
+        CompteRendu.doc&#160;<span class="new">(new)</span>,
+        ~$mpte rendu.doc&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="49"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-18 17:22</span>
+    <a class="permalink" title="Permalink to this commit" href="#49">#49</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">234</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ compte rendu 
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Sujet</strong>:
+        ~$mpte rendu.doc&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="48"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-18 14:13</span>
+    <a class="permalink" title="Permalink to this commit" href="#48">#48</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">233</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Mise à jour pour le rapport de synthèse.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>552</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/1-Preliminaire</strong>:
+        Sujet.lyx&#160;<span class="new">(new)</span>,
+        gestionPojet.lyx&#160;<span class="new">(new)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+50&#160;-55)</span>,
+        GestionProjet.lyx&#160;<span class="change">(+22&#160;-22)</span>,
+        Rapport_Synthese.lyx&#160;<span class="change">(+475&#160;-484)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="47"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-18 14:12</span>
+    <a class="permalink" title="Permalink to this commit" href="#47">#47</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">232</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout image Diagramme de classe<br />
+
+    </p>
+    <p class="commitdetails"><strong>358</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        DiagrameClassExtractors.svg&#160;<span class="new">(new&#160;95)</span>,
+        DiagrammeClassConstants.svg&#160;<span class="new">(new&#160;178)</span>,
+        DiagrammeClassEntities.svg&#160;<span class="new">(new&#160;85)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="46"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-18 14:10</span>
+    <a class="permalink" title="Permalink to this commit" href="#46">#46</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">231</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Envoie des resultats longs <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>4617</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Resultat</strong>:
+        ResultatR227.txt&#160;<span class="new">(new&#160;4617)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="45"></a>
+    <a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a>
+    <span class="date">2011-01-18 14:05</span>
+    <a class="permalink" title="Permalink to this commit" href="#45">#45</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">230</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Modification du Planning.PNG
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        Planning.PNG&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="44"></a>
+    <a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a>
+    <span class="date">2011-01-18 14:00</span>
+    <a class="permalink" title="Permalink to this commit" href="#44">#44</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">229</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+Modification du Planning.PNG
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        Planning.PNG&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="43"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-18 13:52</span>
+    <a class="permalink" title="Permalink to this commit" href="#43">#43</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">228</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ gestion cout et modification sur bilan 
+    </p>
+    <p class="commitdetails"><strong>376</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+97&#160;-2)</span>,
+        GestionCouts.lyx&#160;<span class="change">(+279&#160;-80)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="42"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-18 12:04</span>
+    <a class="permalink" title="Permalink to this commit" href="#42">#42</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">227</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout spec sur algo marcheur <br />
+Abdou et fabien <br />
+
+    </p>
+    <p class="commitdetails"><strong>248</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+248&#160;-3)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="41"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-18 12:03</span>
+    <a class="permalink" title="Permalink to this commit" href="#41">#41</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">226</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction du calcul de fiabilité pour le rendre plus fiable<br />
+<br />
+Abdou et Fabien<br />
+ 
+    </p>
+    <p class="commitdetails"><strong>127</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Constants.java&#160;<span class="change">(+2&#160;-2)</span>,
+        Marcheur.java&#160;<span class="change">(+11&#160;-2)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        Batch.java&#160;<span class="change">(+18&#160;-4)</span>,
+        StoreEntities.java&#160;<span class="change">(+5&#160;-2)</span>,
+        Workstation.java&#160;<span class="change">(+51&#160;-8)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor</strong>:
+        BatchAndWorkstationLinkExtractor.java&#160;<span class="new">(new&#160;36)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/test/fr/prunetwork/teamwar/entities</strong>:
+        WorkstationTest.java&#160;<span class="change">(+4&#160;-4)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="40"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-18 11:46</span>
+    <a class="permalink" title="Permalink to this commit" href="#40">#40</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">225</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Mise en page de la partie gestion de projet.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>565</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+8&#160;-5)</span>,
+        GestionProjet.lyx&#160;<span class="change">(+557&#160;-532)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="39"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-18 11:24</span>
+    <a class="permalink" title="Permalink to this commit" href="#39">#39</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">224</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+
+    </p>
+    <p class="commitdetails"><strong>72</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+71&#160;-26)</span>,
+        EntrepriseST.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="38"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-18 11:20</span>
+    <a class="permalink" title="Permalink to this commit" href="#38">#38</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">223</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ suppression gestion de projet 
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        GestionPojet.lyx&#160;<span class="del">(del)</span>,
+        Rapport_Synthese.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="37"></a>
+    <a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a>
+    <span class="date">2011-01-18 11:18</span>
+    <a class="permalink" title="Permalink to this commit" href="#37">#37</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">222</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction chemin relative
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1&#160;-4)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="36"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-18 11:13</span>
+    <a class="permalink" title="Permalink to this commit" href="#36">#36</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">221</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ suppression de la partie état de l'art du depot et rapport de synthese
+    </p>
+    <p class="commitdetails"><strong>484</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        EtatArt.lyx&#160;<span class="del">(del)</span>,
+        Rapport_Synthese.lyx&#160;<span class="change">(+484&#160;-490)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="35"></a>
+    <a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a>
+    <span class="date">2011-01-18 11:06</span>
+    <a class="permalink" title="Permalink to this commit" href="#35">#35</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">220</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Gantt.PNG<br />
+-+ Ajout partie gestionProjet
+    </p>
+    <p class="commitdetails"><strong>6</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+6&#160;-2)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        Gantt.PNG&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="34"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-18 11:04</span>
+    <a class="permalink" title="Permalink to this commit" href="#34">#34</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">219</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ ajout resumé presentation alexis et des détails
+    </p>
+    <p class="commitdetails"><strong>368</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+368&#160;-347)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="33"></a>
+    <a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a>
+    <span class="date">2011-01-18 11:02</span>
+    <a class="permalink" title="Permalink to this commit" href="#33">#33</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">217</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+
+    </p>
+    <p class="commitdetails"><strong>531</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        GestionProjet.lyx&#160;<span class="new">(new&#160;531)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="32"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-18 11:02</span>
+    <a class="permalink" title="Permalink to this commit" href="#32">#32</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">218</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Presentation de ST<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>95</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+95&#160;-128)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        ST_Monde_Production.jpg&#160;<span class="new">(new)</span>,
+        ST_Products.jpg&#160;<span class="new">(new)</span>,
+        ST_ProductsGroup.jpg&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="31"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-16 18:32</span>
+    <a class="permalink" title="Permalink to this commit" href="#31">#31</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">216</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Travail sur le rapport de synthèse<br />
+
+    </p>
+    <p class="commitdetails"><strong>645</strong> lines of code changed in <span class="files">8 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+66&#160;-1)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="change">(+347&#160;-311)</span>,
+        CahierCharges.lyx&#160;<span class="change">(+167&#160;-145)</span>,
+        EntrepriseST.lyx&#160;<span class="change">(+23&#160;-4)</span>,
+        EtatArt.lyx&#160;<span class="change">(+1&#160;-1)</span>,
+        GestionCouts.lyx&#160;<span class="change">(+13&#160;-1)</span>,
+        GestionPojet.lyx&#160;<span class="change">(+3&#160;-10)</span>,
+        Rapport_Synthese.lyx&#160;<span class="change">(+25&#160;-13)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="30"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-16 02:05</span>
+    <a class="permalink" title="Permalink to this commit" href="#30">#30</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">215</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ ennoncé fourrnit par ST a reformuler :p
+    </p>
+    <p class="commitdetails"><strong>145</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+145&#160;-114)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="29"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-16 02:03</span>
+    <a class="permalink" title="Permalink to this commit" href="#29">#29</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">214</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ bilan de l'etat de l'art , la ou il ya des notes il faut completer 
+    </p>
+    <p class="commitdetails"><strong>311</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+311&#160;-71)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="28"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-15 18:19</span>
+    <a class="permalink" title="Permalink to this commit" href="#28">#28</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">213</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de quelques contraintes de l'algo <br />
++ Corrections<br />
+
+    </p>
+    <p class="commitdetails"><strong>42</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+42&#160;-25)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="27"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-14 16:34</span>
+    <a class="permalink" title="Permalink to this commit" href="#27">#27</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">212</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++Ajout d'un seuil min pour les workstation <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>14</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Constants.java&#160;<span class="change">(+2&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        Workstation.java&#160;<span class="change">(+12&#160;-17)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="26"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-14 14:11</span>
+    <a class="permalink" title="Permalink to this commit" href="#26">#26</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">211</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajoutr des modif de code<br />
++ modif rapport<br />
+
+    </p>
+    <p class="commitdetails"><strong>751</strong> lines of code changed in <span class="files">6 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Marcheur.java&#160;<span class="change">(+6&#160;-5)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        Workstation.java&#160;<span class="change">(+5&#160;-11)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+26&#160;-2)</span>,
+        OperationnalRisk.lyx&#160;<span class="new">(new&#160;400)</span>,
+        RapportFinale.lyx&#160;<span class="change">(+15&#160;-1)</span>,
+        WAFRisk.lyx&#160;<span class="new">(new&#160;299)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="25"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-14 10:43</span>
+    <a class="permalink" title="Permalink to this commit" href="#25">#25</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">210</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+- Suppreesion des fichiers inutiles de test<br />
+
+    </p>
+    <p class="commitdetails"><strong>46</strong> lines of code changed in <span class="files">5 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur</strong>:
+        FileCCCC&#160;<span class="new">(new&#160;45)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/nbproject/private</strong>:
+        private.properties&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage</strong>:
+        StorageSuite.java&#160;<span class="del">(del)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/reader</strong>:
+        ReaderSuite.java&#160;<span class="del">(del)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/writer</strong>:
+        WriterSuite.java&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="24"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-14 10:35</span>
+    <a class="permalink" title="Permalink to this commit" href="#24">#24</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">209</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Le squelette du rapport de synthèse + commentaire des parties.<br />
+PS : Fabien, si tu n'as pas confiance en ton équipe, dis-le moi dès le début pour que je bosse autre chose comme l'atelier ou ma propre révision ! Peut-être c'est encore un mal entendu mais je suis vexé !<br />
+<br />
+Philippe<br />
+
+    </p>
+    <p class="commitdetails"><strong>2049</strong> lines of code changed in <span class="files">12 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="new">(new&#160;68)</span>,
+        Annexe.lyx&#160;<span class="new">(new&#160;64)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="new">(new&#160;173)</span>,
+        Bilan_Etude.lyx&#160;<span class="new">(new&#160;68)</span>,
+        CahierCharges.lyx&#160;<span class="new">(new&#160;114)</span>,
+        Conclusion.lyx&#160;<span class="new">(new&#160;68)</span>,
+        EntrepriseST.lyx&#160;<span class="new">(new&#160;258)</span>,
+        EtatArt.lyx&#160;<span class="new">(new&#160;69)</span>,
+        GestionCouts.lyx&#160;<span class="new">(new&#160;68)</span>,
+        GestionPojet.lyx&#160;<span class="new">(new&#160;553)</span>,
+        Introduction.lyx&#160;<span class="new">(new&#160;68)</span>,
+        Rapport_Synthese.lyx&#160;<span class="new">(new&#160;478)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="23"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-14 08:21</span>
+    <a class="permalink" title="Permalink to this commit" href="#23">#23</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">207</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout ossature rapport de synthese<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">9 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-Synthese</strong>:
+        cahierCharges.lyx&#160;<span class="new">(new)</span>,
+        conclusion.lyx&#160;<span class="new">(new)</span>,
+        develloppementSolution.lyx&#160;<span class="new">(new)</span>,
+        develloppementSolution.lyx~&#160;<span class="new">(new)</span>,
+        etudeExistant.lyx&#160;<span class="new">(new)</span>,
+        introduction.lyx&#160;<span class="new">(new)</span>,
+        introduction.lyx~&#160;<span class="new">(new)</span>,
+        rapportSynthese.lyx&#160;<span class="new">(new)</span>,
+        validation.lyx&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="22"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-14 00:12</span>
+    <a class="permalink" title="Permalink to this commit" href="#22">#22</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">206</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Quelques corrections sur l'algo du marcheur<br />
+
+    </p>
+    <p class="commitdetails"><strong>70</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+70&#160;-116)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="21"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-13 17:59</span>
+    <a class="permalink" title="Permalink to this commit" href="#21">#21</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">205</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'un dossier pour la sythèse<br />
++ Codage de la dernière fonction de l'algo avec les medecins <br />
++ Ajout de remarque dans le rapport <br />
++ Ajout des tests Unitaires du projet et rédaction d'un test<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>2233</strong> lines of code changed in <span class="files">32 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur/nbproject</strong>:
+        project.properties&#160;<span class="change">(-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/nbproject/private</strong>:
+        private.properties&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Constants.java&#160;<span class="change">(+1&#160;-1)</span>,
+        Marcheur.java&#160;<span class="change">(+6&#160;-2)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        Batch.java&#160;<span class="change">(+26&#160;-5)</span>,
+        StoreEntities.java&#160;<span class="change">(+4&#160;-2)</span>,
+        Tracability.java&#160;<span class="change">(+14&#160;-1)</span>,
+        Workstation.java&#160;<span class="change">(+54&#160;-7)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/utilities</strong>:
+        MyDate.java&#160;<span class="change">(+3&#160;-7)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/test/fr/prunetwork/teamwar</strong>:
+        MarcheurTest.java&#160;<span class="new">(new&#160;52)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/test/fr/prunetwork/teamwar/entities</strong>:
+        BatchTest.java&#160;<span class="new">(new&#160;170)</span>,
+        EntitiesSuite.java&#160;<span class="new">(new&#160;39)</span>,
+        StoreEntitiesTest.java&#160;<span class="new">(new&#160;132)</span>,
+        TracabilityTest.java&#160;<span class="new">(new&#160;285)</span>,
+        WorkstationTest.java&#160;<span class="new">(new&#160;195)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/test/fr/prunetwork/teamwar/example</strong>:
+        ExampleSuite.java&#160;<span class="new">(new&#160;39)</span>,
+        ReadWriteFileTest.java&#160;<span class="new">(new&#160;52)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/test/fr/prunetwork/teamwar/extractor</strong>:
+        BatchExtractorTest.java&#160;<span class="new">(new&#160;69)</span>,
+        WorkstationExtractorTest.java&#160;<span class="new">(new&#160;69)</span>,
+        WorkstationExtractorTestTest.java&#160;<span class="new">(new&#160;110)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage</strong>:
+        StorageSuite.java&#160;<span class="new">(new&#160;39)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/reader</strong>:
+        ExtractDataFromFileTest.java&#160;<span class="new">(new&#160;55)</span>,
+        ReaderSuite.java&#160;<span class="new">(new&#160;39)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/test/fr/prunetwork/teamwar/storage/writer</strong>:
+        StoreDataToFileTest.java&#160;<span class="new">(new&#160;93)</span>,
+        WriterSuite.java&#160;<span class="new">(new&#160;39)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/test/fr/prunetwork/teamwar/utilities</strong>:
+        MyDateTest.java&#160;<span class="new">(new&#160;74)</span>,
+        UtilitiesSuite.java&#160;<span class="new">(new&#160;39)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/PFEMarcheur/nbproject</strong>:
+        project.xml&#160;<span class="change">(+15&#160;-15)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+8&#160;-39)</span>,
+        RapportFinale.lyx&#160;<span class="new">(new&#160;495)</span>,
+        RapportIntermediaire.lyx&#160;<span class="del">(del)</span>,
+        TableauSynthese.lyx&#160;<span class="change">(+16&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="20"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-12 23:30</span>
+    <a class="permalink" title="Permalink to this commit" href="#20">#20</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">204</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+- Suprression fichier avec charactère accentué<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        DiagrammeDémarche.PNG&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="19"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-12 23:27</span>
+    <a class="permalink" title="Permalink to this commit" href="#19">#19</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">203</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Test et petite correction<br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+2&#160;-11)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="18"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-10 20:26</span>
+    <a class="permalink" title="Permalink to this commit" href="#18">#18</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">202</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de petites constantes pour faciliter les réglages<br />
+
+    </p>
+    <p class="commitdetails"><strong>9</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur/nbproject/private</strong>:
+        private.properties&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Constants.java&#160;<span class="change">(+3&#160;-1)</span>,
+        Marcheur.java&#160;<span class="change">(+2&#160;-18)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        Batch.java&#160;<span class="change">(+3&#160;-3)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="17"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-10 17:29</span>
+    <a class="permalink" title="Permalink to this commit" href="#17">#17</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">201</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de la partie de l'étude des 2 présentations.<br />
+<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>229</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        Etude_PPT.lyx&#160;<span class="new">(new&#160;229)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="16"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-10 17:28</span>
+    <a class="permalink" title="Permalink to this commit" href="#16">#16</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">200</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Implementation de la methode qui calcule la fiabilité en fonction<br />
+des taches qualités <br />
++ Et une autre qui tient compte des controles<br />
+produits<br />
+<br />
+Fabien Garcia &amp; Abdelali <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>191</strong> lines of code changed in <span class="files">13 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur/Donnee</strong>:
+        db_risk_Sample.csv&#160;<span class="change">(+66)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/nbproject/private</strong>:
+        private.properties&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Constants.java&#160;<span class="change">(+4&#160;-2)</span>,
+        Marcheur.java&#160;<span class="change">(+41&#160;-9)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        Batch.java&#160;<span class="change">(+22&#160;-7)</span>,
+        StoreEntities.java&#160;<span class="change">(+13)</span>,
+        Workstation.java&#160;<span class="change">(+11&#160;-8)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/reader</strong>:
+        ExtractDataFromFile.java&#160;<span class="change">(+3)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/utilities</strong>:
+        MyDate.java&#160;<span class="change">(+30&#160;-8)</span>
+      </li>
+      <li>
+        <strong>PFE/Donnee</strong>:
+        db_risk.csv&#160;<span class="del">(del)</span>,
+        db_risk_Sample.csv&#160;<span class="del">(del)</span>,
+        db_risk_pfe.csv&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="15"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-10 14:20</span>
+    <a class="permalink" title="Permalink to this commit" href="#15">#15</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">199</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'une classe permettant de stocker les entités et y acceder par le nom <br />
++ Début calcul algo avec TQ<br />
+
+    </p>
+    <p class="commitdetails"><strong>124</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Constants.java&#160;<span class="change">(+5&#160;-3)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        Batch.java&#160;<span class="change">(+15)</span>,
+        StoreEntities.java&#160;<span class="new">(new&#160;44)</span>,
+        Tracability.java&#160;<span class="change">(+4&#160;-1)</span>,
+        Workstation.java&#160;<span class="change">(+52&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor</strong>:
+        BatchExtractor.java&#160;<span class="change">(+2&#160;-2)</span>,
+        WorkstationExtractor.java&#160;<span class="change">(+2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="14"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-09 19:57</span>
+    <a class="permalink" title="Permalink to this commit" href="#14">#14</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">198</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de précisions sur l'algo marcheurs<br />
+
+    </p>
+    <p class="commitdetails"><strong>8</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+8&#160;-59)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="13"></a>
+    <a href="user_jpierre03.html" class="author">jpierre03</a>
+    <span class="date">2011-01-08 20:13</span>
+    <a class="permalink" title="Permalink to this commit" href="#13">#13</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">197</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Changement de mon nom d'auteur par un pseudo (adresse mail en fait)<br />
+    (suite à la demande de l'équipe Team-W@R)<br />
+
+    </p>
+    <p class="commitdetails"><strong>56</strong> lines of code changed in <span class="files">13 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Marcheur.java&#160;<span class="change">(+4&#160;-4)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        Batch.java&#160;<span class="change">(+4&#160;-4)</span>,
+        Tracability.java&#160;<span class="change">(+4&#160;-4)</span>,
+        Workstation.java&#160;<span class="change">(+4&#160;-4)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/example</strong>:
+        ReadWriteFile.java&#160;<span class="change">(+6&#160;-6)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor</strong>:
+        BatchExtractor.java&#160;<span class="change">(+5&#160;-5)</span>,
+        BatchExtractorTest.java&#160;<span class="change">(+4&#160;-4)</span>,
+        WorkstationExtractor.java&#160;<span class="change">(+5&#160;-5)</span>,
+        WorkstationExtractorTest.java&#160;<span class="change">(+4&#160;-4)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/reader</strong>:
+        ExtractDataFromFile.java&#160;<span class="change">(+4&#160;-4)</span>,
+        ExtractDataFromFileTest.java&#160;<span class="change">(+4&#160;-4)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/writer</strong>:
+        StoreDataToFile.java&#160;<span class="change">(+4&#160;-4)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/utilities</strong>:
+        MyDate.java&#160;<span class="change">(+4&#160;-4)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="12"></a>
+    <a href="user_jpierre03@gmail.com.html" class="author">jpierre03@gmail.com</a>
+    <span class="date">2011-01-08 16:16</span>
+    <a class="permalink" title="Permalink to this commit" href="#12">#12</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">196</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+- Destruction du projet Visual Studio en C++<br />
+  (vu qu'il existe aussi sous netbeans)<br />
+  (cela m'a été demmandé, car les caractères spéciaux font que c'est la galère à modifier)<br />
+  Solution: à partir de la racine du dépot, svn rm --force Code/W@r<br />
+	car lorsque l'on est dans le même répertoire svn considère cela comme un dossier (W) à la révision r.<br />
+        Et donc ça marche pô<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">40 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/W@r</strong>:
+        W@r.ncb&#160;<span class="del">(del)</span>,
+        W@r.sln&#160;<span class="del">(del)</span>,
+        W@r.suo&#160;<span class="del">(del)</span>,
+        debug&#160;<span class="del">(del)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/W@r/W@r</strong>:
+        Date.cpp&#160;<span class="del">(del)</span>,
+        Date.h&#160;<span class="del">(del)</span>,
+        LoadFile.cpp&#160;<span class="del">(del)</span>,
+        LoadFile.h&#160;<span class="del">(del)</span>,
+        Machine.cpp&#160;<span class="del">(del)</span>,
+        Machine.h&#160;<span class="del">(del)</span>,
+        Marcheur.cpp&#160;<span class="del">(del)</span>,
+        Marcheur.h&#160;<span class="del">(del)</span>,
+        Produit.cpp&#160;<span class="del">(del)</span>,
+        Produit.h&#160;<span class="del">(del)</span>,
+        ReadMe.txt&#160;<span class="del">(del)</span>,
+        Tracabilite.cpp&#160;<span class="del">(del)</span>,
+        Tracabilite.h&#160;<span class="del">(del)</span>,
+        Tracability.cpp&#160;<span class="del">(del)</span>,
+        Tracability.h&#160;<span class="del">(del)</span>,
+        W@r.cpp&#160;<span class="del">(del)</span>,
+        W@r.vcproj&#160;<span class="del">(del)</span>,
+        W@r.vcproj.AMRANI-PC.Administrateur.user&#160;<span class="del">(del)</span>,
+        stdafx.cpp&#160;<span class="del">(del)</span>,
+        stdafx.h&#160;<span class="del">(del)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/W@r/W@r/Debug</strong>:
+        BuildLog.htm&#160;<span class="del">(del)</span>,
+        Date.obj&#160;<span class="del">(del)</span>,
+        LoadFile.obj&#160;<span class="del">(del)</span>,
+        Machine.obj&#160;<span class="del">(del)</span>,
+        Marcheur.obj&#160;<span class="del">(del)</span>,
+        Produit.obj&#160;<span class="del">(del)</span>,
+        Tracabilite.obj&#160;<span class="del">(del)</span>,
+        W@r.exe.embed.manifest&#160;<span class="del">(del)</span>,
+        W@r.exe.embed.manifest.res&#160;<span class="del">(del)</span>,
+        W@r.exe.intermediate.manifest&#160;<span class="del">(del)</span>,
+        W@r.obj&#160;<span class="del">(del)</span>,
+        W@r.pch&#160;<span class="del">(del)</span>,
+        mt.dep&#160;<span class="del">(del)</span>,
+        stdafx.obj&#160;<span class="del">(del)</span>,
+        vc80.idb&#160;<span class="del">(del)</span>,
+        vc80.pdb&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="11"></a>
+    <a href="user_jpierre03@gmail.com.html" class="author">jpierre03@gmail.com</a>
+    <span class="date">2011-01-08 16:05</span>
+    <a class="permalink" title="Permalink to this commit" href="#11">#11</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">195</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ changement de l'entête des données pour mieux comprendre<br />
+garciaf &amp; jpierre03<br />
+
+    </p>
+    <p class="commitdetails"><strong>26</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Donnee</strong>:
+        db_risk.csv&#160;<span class="change">(+1&#160;-1)</span>,
+        db_risk_Sample.csv&#160;<span class="change">(+25&#160;-100)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="10"></a>
+    <a href="user_jpierre03@gmail.com.html" class="author">jpierre03@gmail.com</a>
+    <span class="date">2011-01-08 16:04</span>
+    <a class="permalink" title="Permalink to this commit" href="#10">#10</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">194</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ relecture + commentaire &amp; suggestions<br />
+  (pas taper, cela m'a été demmandé)<br />
+
+    </p>
+    <p class="commitdetails"><strong>316</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+316&#160;-67)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="9"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-08 11:49</span>
+    <a class="permalink" title="Permalink to this commit" href="#9">#9</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">193</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Reformulation de la spec du code ajout d'un diagramme de classe <br />
+(pas tout à fait juste pour le moment)<br />
+
+    </p>
+    <p class="commitdetails"><strong>108</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+108&#160;-69)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        ClasseEntity.dia&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="8"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-08 11:06</span>
+    <a class="permalink" title="Permalink to this commit" href="#8">#8</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">192</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du dernier Compte Rendue  <br />
+
+    </p>
+    <p class="commitdetails"><strong>244</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/CompteRendu</strong>:
+        CR_9.html&#160;<span class="new">(new&#160;244)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="7"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-08 10:37</span>
+    <a class="permalink" title="Permalink to this commit" href="#7">#7</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">191</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du code java en brut <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>2403</strong> lines of code changed in <span class="files">29 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code</strong>:
+        Fichier.c&#160;<span class="del">(del)</span>,
+        Marcheur.c&#160;<span class="del">(del)</span>,
+        Structure.c&#160;<span class="del">(del)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur</strong>:
+        build.xml&#160;<span class="new">(new&#160;74)</span>,
+        manifest.mf&#160;<span class="new">(new&#160;3)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/nbproject</strong>:
+        build-impl.xml&#160;<span class="new">(new&#160;1015)</span>,
+        genfiles.properties&#160;<span class="new">(new&#160;8)</span>,
+        project.properties&#160;<span class="new">(new&#160;84)</span>,
+        project.xml&#160;<span class="new">(new&#160;15)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/nbproject/private</strong>:
+        config.properties&#160;<span class="new">(new)</span>,
+        private.properties&#160;<span class="new">(new&#160;6)</span>,
+        private.xml&#160;<span class="new">(new&#160;4)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/nbproject/private/profiler</strong>:
+        configurations.xml&#160;<span class="new">(new&#160;110)</span>,
+        snapshot-1294331680805.nps&#160;<span class="new">(new)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar</strong>:
+        Constants.java&#160;<span class="new">(new&#160;18)</span>,
+        Marcheur.java&#160;<span class="new">(new&#160;63)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/entities</strong>:
+        Batch.java&#160;<span class="new">(new&#160;81)</span>,
+        Tracability.java&#160;<span class="new">(new&#160;187)</span>,
+        Workstation.java&#160;<span class="new">(new&#160;80)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/example</strong>:
+        ReadWriteFile.java&#160;<span class="new">(new&#160;61)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/extractor</strong>:
+        BatchExtractor.java&#160;<span class="new">(new&#160;105)</span>,
+        BatchExtractorTest.java&#160;<span class="new">(new&#160;47)</span>,
+        WorkstationExtractor.java&#160;<span class="new">(new&#160;103)</span>,
+        WorkstationExtractorTest.java&#160;<span class="new">(new&#160;46)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/reader</strong>:
+        ExtractDataFromFile.java&#160;<span class="new">(new&#160;90)</span>,
+        ExtractDataFromFileTest.java&#160;<span class="new">(new&#160;34)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/storage/writer</strong>:
+        StoreDataToFile.java&#160;<span class="new">(new&#160;60)</span>,
+        StoreDataToFileTest.java&#160;<span class="new">(new&#160;40)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/Marcheur/src/fr/prunetwork/teamwar/utilities</strong>:
+        MyDate.java&#160;<span class="new">(new&#160;69)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="6"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-07 16:48</span>
+    <a class="permalink" title="Permalink to this commit" href="#6">#6</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">190</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout des questions pour calculer la VAN.<br />
++ Ajout des définitions des indicateurs.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>284</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        Indicateurs.lyx&#160;<span class="change">(+176)</span>,
+        InformationsFinancier.lyx&#160;<span class="change">(+17&#160;-1)</span>,
+        Questions.lyx&#160;<span class="new">(new&#160;91)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="5"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-06 22:29</span>
+    <a class="permalink" title="Permalink to this commit" href="#5">#5</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">189</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ relecture algo marcheur<br />
+
+    </p>
+    <p class="commitdetails"><strong>52</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+52&#160;-13)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="4"></a>
+    <a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a>
+    <span class="date">2011-01-06 11:22</span>
+    <a class="permalink" title="Permalink to this commit" href="#4">#4</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">188</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+ + Création du projet PFEMarcheur sous NetBeans<br />
+-+ Intégration de l'ensemble des classe<br />
+N.B. Pour ceux qui sont sur Windows pour travailler sur le projet il faut rajouter le plugin C/C++ sur NetBeans mais c'est pas tout il faut installer MinGW et Msys pour pourvoir compiler le programme de plus il faut rajouter la varibles d'environnement à la classpath  Bon courage.<br />
+La prochaine fois essayez de nous notifier par mail si vous voulez que chaqu'un bosse chez soi. <br />
+ <br />
+Jaafar &amp; Abdou
+    </p>
+    <p class="commitdetails"><strong>1471</strong> lines of code changed in <span class="files">25 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Code/PFEMarcheur</strong>:
+        .dep.inc&#160;<span class="new">(new&#160;5)</span>,
+        Date.cpp&#160;<span class="new">(new&#160;109)</span>,
+        Date.h&#160;<span class="new">(new&#160;46)</span>,
+        Machine.cpp&#160;<span class="new">(new&#160;113)</span>,
+        Machine.h&#160;<span class="new">(new&#160;45)</span>,
+        Makefile&#160;<span class="new">(new&#160;109)</span>,
+        Marcheur.cpp&#160;<span class="new">(new&#160;50)</span>,
+        Marcheur.h&#160;<span class="new">(new&#160;31)</span>,
+        Produit.cpp&#160;<span class="new">(new&#160;112)</span>,
+        Produit.h&#160;<span class="new">(new&#160;50)</span>,
+        Tracability.cpp&#160;<span class="new">(new&#160;85)</span>,
+        Tracability.h&#160;<span class="new">(new&#160;43)</span>,
+        main.cpp&#160;<span class="new">(new&#160;18)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/PFEMarcheur/nbproject</strong>:
+        Makefile-Debug.mk&#160;<span class="new">(new&#160;109)</span>,
+        Makefile-Release.mk&#160;<span class="new">(new&#160;109)</span>,
+        Makefile-impl.mk&#160;<span class="new">(new&#160;123)</span>,
+        Makefile-variables.mk&#160;<span class="new">(new&#160;24)</span>,
+        Package-Debug.bash&#160;<span class="new">(new&#160;74)</span>,
+        Package-Release.bash&#160;<span class="new">(new&#160;74)</span>,
+        configurations.xml&#160;<span class="new">(new&#160;80)</span>,
+        project.properties&#160;<span class="new">(new)</span>,
+        project.xml&#160;<span class="new">(new&#160;15)</span>
+      </li>
+      <li>
+        <strong>PFE/Code/PFEMarcheur/nbproject/private</strong>:
+        configurations.xml&#160;<span class="new">(new&#160;43)</span>,
+        private.properties&#160;<span class="new">(new)</span>,
+        private.xml&#160;<span class="new">(new&#160;4)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="3"></a>
+    <a href="user_jpierre03@gmail.com.html" class="author">jpierre03@gmail.com</a>
+    <span class="date">2011-01-06 09:06</span>
+    <a class="permalink" title="Permalink to this commit" href="#3">#3</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">187</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ renommage (fichiers, en-tete de fichiers)<br />
++ création d'une version courte pour tester<br />
+
+    </p>
+    <p class="commitdetails"><strong>101</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Donnee</strong>:
+        db_risk.csv&#160;<span class="new">(new&#160;1)</span>,
+        db_risk_Sample.csv&#160;<span class="new">(new&#160;100)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="2"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-05 16:53</span>
+    <a class="permalink" title="Permalink to this commit" href="#2">#2</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">186</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+++ changement des chemins et correction de l'intro
+    </p>
+    <p class="commitdetails"><strong>268</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        Introduction.lyx&#160;<span class="change">(+9&#160;-8)</span>,
+        RapportGestionCouts.lyx&#160;<span class="change">(+259&#160;-259)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="1"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-05 14:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#1">#1</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">185</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++Ajout Documentation<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Bibliographie</strong>:
+        A novel approach to minimize the number of controls in the defectivity area.pdf&#160;<span class="new">(new)</span>,
+        Operational risk evaluation and control plan design.pdf&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+</dl>
+
+<p class="previous"><a href="2010-12.html">December 2010</a> &#187; </p>
+<div id="generatedby">Generated by <a href="http://www.statsvn.org">StatSVN</a> 0.7.0</div>
+</body>
+</html>

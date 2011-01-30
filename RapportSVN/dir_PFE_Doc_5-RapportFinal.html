@@ -1,0 +1,944 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StatSVN - Directory PFE/Doc/5-RapportFinal/</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="Generator" content="StatSVN 0.7.0"/>
+<link rel="stylesheet" href="objectlab-statcvs.css" type="text/css"/>
+<script type="text/javascript" charset="utf-8" src="http://bit.ly/javascript-api.js?version=latest&#38;login=statsvn&#38;apiKey=R_2c362b417d0517c27876cbaca1bb68cc"></script>
+<script type="text/javascript" charset="utf-8">
+   // wait until page is loaded to call API
+   var redir_url;
+   var short_url;
+   BitlyCB.myShortenCallback = function(data) {
+      // this is how to get a result of shortening a single url
+      var result;
+      short_url=null;
+      for (var r in data.results) {
+         result = data.results[r];
+         result['longUrl'] = r;
+         short_url = result['shortUrl'];
+         break;
+      }
+      if (short_url==null) // bit.ly failed
+      document.location=redir_url;
+      else
+      redirToTwitter();
+   };
+   function shortenTweet(url) {
+      if (short_url == null || redir_url!=url) {
+      redir_url = url;
+      BitlyClient.shorten(document.location, 'BitlyCB.myShortenCallback');
+      }
+      else
+      redirToTwitter();
+      return false;
+   }
+   function redirToTwitter() { 
+      // replace {0} which is visible as %7B0} in the link
+      document.location = redir_url.replace('%7B0}', short_url);
+   }
+</script>
+  </head>
+
+<body>
+
+<h1>Directory PFE/Doc/5-RapportFinal/</h1>
+<div id="parentlink">&#171; <a href="index.html">Development Statistics for /trunk</a></div>
+<dl class="attributes">
+    <dt>Directory Created:</dt>
+    <dd><span class="date">2011-01-18 17:36</span></dd>
+    <dt>Total Files:</dt>
+    <dd>17</dd>
+    <dt>Deleted Files:</dt>
+    <dd>5</dd>
+    <dt>Lines of Code:</dt>
+    <dd>7530</dd>
+</dl>
+<p class="dirtree">
+<a href="dir.html">[root]</a>/<a href="dir_PFE.html">PFE</a>/<a href="dir_PFE_Doc.html">Doc</a>/<strong>5-RapportFinal</strong><br/>
+</p>
+
+<div class="section">
+<h2>Lines of Code</h2>
+<p class="chart"><img src="loc_module_PFE_Doc_5-RapportFinal.png" alt="PFE/Doc/5-RapportFinal/ Lines of Code" width="800" height="500" /></p></div>
+<div class="section">
+<h2>Developers</h2>
+  <table  rules="groups" summary="All authors and the number of their changes and lines of code in this directory">
+    <colgroup align="left"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <thead>
+      <tr>
+        <th>Author</th>
+        <th>Changes</th>
+        <th>Lines of Code</th>
+        <th>Lines per Change</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>Totals</th>
+        <td>108 (100.0%)</td>
+        <td>29661 (100.0%)</td>
+        <td>274.6</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr  class="odd">
+        <th><a href="user_fab0670312047.html" class="author">fab0670312047</a></th>
+        <td>36 (33.3%)</td>
+        <td>11800 (39.8%)</td>
+        <td>327.7</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_nakara.rahma.html" class="author">nakara.rahma</a></th>
+        <td>32 (29.6%)</td>
+        <td>8402 (28.3%)</td>
+        <td>262.5</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="user_hoc5783.html" class="author">hoc5783</a></th>
+        <td>32 (29.6%)</td>
+        <td>4459 (15.0%)</td>
+        <td>139.3</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a></th>
+        <td>6 (5.6%)</td>
+        <td>2681 (9.0%)</td>
+        <td>446.8</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a></th>
+        <td>2 (1.9%)</td>
+        <td>2319 (7.8%)</td>
+        <td>1159.5</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+<div class="section">
+<h2>Most Recent Commits</h2>
+<dl class="commitlist">
+  <dt><a name="40"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-24 14:36</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">342</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Corrections à la dernière minute.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>27</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Conclusion.lyx&#160;<span class="change">(+19&#160;-19)</span>,
+        Introduction.lyx&#160;<span class="change">(+7&#160;-12)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="39"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 14:04</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">340</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Dernieres corrections
+    </p>
+    <p class="commitdetails"><strong>2076</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+2076&#160;-2069)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="38"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 13:40</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">337</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ne soyons pas timide<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="37"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 13:28</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">335</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture algo marcheur<br />
+
+    </p>
+    <p class="commitdetails"><strong>2069</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+2069&#160;-2069)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="36"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2011-01-24 13:24</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">334</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction
+    </p>
+    <p class="commitdetails"><strong>250</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+250&#160;-250)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="35"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-24 13:03</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">330</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Nouveau dossier dédié à la gestion de projet =&gt; Rapport à part.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="del">(del)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="34"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-24 12:58</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">329</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout DiagrammeIDEEF0.png<br />
+-+ Intégration du diagramme dans la partie gestion de projet :)
+    </p>
+    <p class="commitdetails"><strong>45</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+45&#160;-6)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="33"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-24 12:54</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">328</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Séparation des rapports : final, gestion de projet et gestions des coûts.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(-58)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="32"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 12:39</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">326</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ corrections
+    </p>
+    <p class="commitdetails"><strong>9</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+9&#160;-1294)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="31"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 12:36</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">325</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction<br />
+
+    </p>
+    <p class="commitdetails"><strong>1263</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1263)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="30"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-24 12:24</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">324</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Mise en forme du rapport avec corrections.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>1631</strong> lines of code changed in <span class="files">8 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+55&#160;-14)</span>,
+        Conclusion.lyx&#160;<span class="change">(+2&#160;-2)</span>,
+        EntrepriseST.lyx&#160;<span class="change">(-54)</span>,
+        Etude_Presentation_ST.lyx&#160;<span class="change">(+1&#160;-8)</span>,
+        GestionCouts.lyx&#160;<span class="del">(del)</span>,
+        GestionProjet.lyx&#160;<span class="change">(+1261&#160;-1259)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="change">(+300&#160;-286)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+12&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="29"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2011-01-24 12:21</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">323</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++- Reclecture et modification du AlgoMarcheur.lyx (rapport Final)<br />
+n'hesitez à faire une relecture ... ;)
+    </p>
+    <p class="commitdetails"><strong>2069</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+2069&#160;-2067)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="28"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 12:01</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">322</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction orthographe 
+    </p>
+    <p class="commitdetails"><strong>6</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+6&#160;-6)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="27"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-24 12:00</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">321</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Ajout partie Pb et solution apporté
+    </p>
+    <p class="commitdetails"><strong>38</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+38&#160;-22)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="26"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 12:00</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">320</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction d'un bug<br />
+
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-9)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="25"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 11:54</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">319</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Pour être sûr que les figures soient dans les bon chapitres<br />
+
+    </p>
+    <p class="commitdetails"><strong>27</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Dcube.lyx&#160;<span class="change">(+1&#160;-1)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+26&#160;-10)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="24"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 11:38</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">318</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction orthographe
+    </p>
+    <p class="commitdetails"><strong>425</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+425&#160;-425)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="23"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 11:22</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">317</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction de la conslusion
+    </p>
+    <p class="commitdetails"><strong>19</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+19&#160;-32)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="22"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-24 10:53</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">315</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de la répartition des charges dans la partie Gestion des coûts
+    </p>
+    <p class="commitdetails"><strong>1256</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1256&#160;-1091)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="21"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 09:26</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">312</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture de la conclusion de management de projet<br />
+
+    </p>
+    <p class="commitdetails"><strong>1091</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1091&#160;-1078)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="20"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-24 09:08</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">311</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture <br />
++ Remise sous forme de chapitres (plus facile à lire et à naviguer dans <br />
+le document par la suite)<br />
++ Ajout des sources bibliographique <br />
+
+    </p>
+    <p class="commitdetails"><strong>3096</strong> lines of code changed in <span class="files">8 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+401&#160;-390)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="change">(+77&#160;-39)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+295&#160;-284)</span>,
+        Dcube.lyx&#160;<span class="change">(+988&#160;-924)</span>,
+        Etude_Presentation_ST.lyx&#160;<span class="change">(+250&#160;-246)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="change">(+390&#160;-379)</span>,
+        OuvrageSdF.lyx&#160;<span class="change">(+276&#160;-272)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+419&#160;-399)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="19"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 00:42</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">307</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ une sorte de conclusion pour le rapport de gestion de projet 
+    </p>
+    <p class="commitdetails"><strong>46</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+46&#160;-6)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="18"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 23:37</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">306</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ confusion sur la conclusion excusez moi pour les commit :p
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        EtatArt.lyx&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="17"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 23:34</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">305</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ état de l'art normalement finis pour ceux qui veulent jeter un coup d'oeil
+    </p>
+    <p class="commitdetails"><strong>85</strong> lines of code changed in <span class="files">8 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+6&#160;-5)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+4&#160;-8)</span>,
+        EtatArt.lyx&#160;<span class="change">(+36)</span>,
+        Etude_Presentation_ST.lyx&#160;<span class="change">(+12&#160;-12)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="change">(+7&#160;-7)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="change">(+7&#160;-11)</span>,
+        OuvrageSdF.lyx&#160;<span class="change">(+2&#160;-2)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+11&#160;-11)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="16"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-23 22:46</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">304</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Modification du Produit Back log<br />
+-+ Ajout des itérations
+    </p>
+    <p class="commitdetails"><strong>1038</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1038&#160;-856)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="15"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 21:38</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">303</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout petite note <br />
++ Ajout d'une partie que je suugère à chacun de lire dans la gestion de <br />
+projet <br />
+
+    </p>
+    <p class="commitdetails"><strong>856</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+856&#160;-760)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="14"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 20:43</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">299</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ etat de l'art pas encore corrigé
+    </p>
+    <p class="commitdetails"><strong>1675</strong> lines of code changed in <span class="files">9 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+4&#160;-15)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+5&#160;-16)</span>,
+        Dcube.lyx&#160;<span class="change">(+924&#160;-932)</span>,
+        EtatArt.lyx&#160;<span class="change">(+188&#160;-55)</span>,
+        Etude_Presentation_ST.lyx&#160;<span class="change">(+246&#160;-250)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="change">(+286&#160;-297)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="change">(+5&#160;-16)</span>,
+        OuvrageSdF.lyx&#160;<span class="change">(+7&#160;-11)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+10&#160;-10)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="13"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 20:10</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">297</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Intégration des fichiers ajouté par Rahma <br />
++ Correction d'un chemin absolu en chemin relatif<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>60</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(+60)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="12"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 19:27</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">295</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ fichier composant l'état de l'art
+    </p>
+    <p class="commitdetails"><strong>2065</strong> lines of code changed in <span class="files">6 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="new">(new&#160;400)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="new">(new&#160;299)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="new">(new&#160;297)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="new">(new&#160;394)</span>,
+        OuvrageSdF.lyx&#160;<span class="new">(new&#160;276)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="new">(new&#160;399)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="11"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 18:23</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">291</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Prise en compte des modif de chacuns<br />
++ Correction orthographe et syntaxe<br />
+
+    </p>
+    <p class="commitdetails"><strong>358</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+358&#160;-272)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="10"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-23 18:07</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">290</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Ajout des Outils de travail
+    </p>
+    <p class="commitdetails"><strong>32</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+32&#160;-3)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="9"></a>
+    <a href="user_mesbahi.jaafar@gmail.com.html" class="author">mesbahi.jaafar@gmail.com</a>
+    <span class="date">2011-01-23 18:05</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">289</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ Partie Historique ST + quelque modif.
+    </p>
+    <p class="commitdetails"><strong>272</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+272&#160;-362)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="8"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 16:23</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">286</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction orthographe<br />
+
+    </p>
+    <p class="commitdetails"><strong>8</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Introduction.lyx&#160;<span class="change">(+8&#160;-8)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="7"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-23 12:59</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">282</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'information sur rapport de cout <br />
++ Correction d'adresse relative<br />
++ Relecture <br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+1&#160;-1)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="6"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-22 17:41</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">276</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+- Supression et déplacement des doublons<br />
++ Ajout conclusion rapport de Synthèse<br />
++ Correction orthographique<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>2068</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AlgoMarcheur.lyx&#160;<span class="new">(new&#160;2067)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="5"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-22 00:05</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">269</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ je commit meme si ce n'est pas fini pour ne pas avoir de conflit plus tard 
+    </p>
+    <p class="commitdetails"><strong>731</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+731&#160;-557)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="4"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-21 17:03</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">265</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout conclusion<br />
+
+    </p>
+    <p class="commitdetails"><strong>75</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Conclusion.lyx&#160;<span class="change">(+75&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="3"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-21 14:28</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">263</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Gestion des coûts  pour le rapport de synthèse sera fini ce soir au plus tard.<br />
++ EntrepiseST pour Jaafar.<br />
++ Bilan Etat de l'Art : corrections et remettre la nature du document.<br />
++ Suppression des fichiers non utilisés dans les dossiers des rapports.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>120</strong> lines of code changed in <span class="files">5 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+119&#160;-1)</span>,
+        Marcheur_Algo.lyx&#160;<span class="del">(del)</span>,
+        Marcheur_Bilan.lyx&#160;<span class="del">(del)</span>,
+        Marcheur_Code.lyx&#160;<span class="del">(del)</span>,
+        Rapport_Final.lyx&#160;<span class="change">(+1&#160;-27)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="2"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-20 21:16</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">261</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ ajout d'une intro <br />
++ Mise en forme des calculs<br />
++ Mise en forme de la gestion des coûts<br />
+
+    </p>
+    <p class="commitdetails"><strong>336</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionCouts.lyx&#160;<span class="change">(+282&#160;-279)</span>,
+        Introduction.lyx&#160;<span class="change">(+54&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="1"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 23:13</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">256</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction et mise des rapports envoyés<br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Rapport_Final.lyx&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+</dl>
+
+<p>(6 more)</p>
+</div><div id="generatedby">Generated by <a href="http://www.statsvn.org">StatSVN</a> 0.7.0</div>
+</body>
+</html>
