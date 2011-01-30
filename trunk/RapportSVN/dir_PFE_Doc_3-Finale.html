@@ -1,0 +1,654 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StatSVN - Directory PFE/Doc/3-Finale/</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="Generator" content="StatSVN 0.7.0"/>
+<link rel="stylesheet" href="objectlab-statcvs.css" type="text/css"/>
+<script type="text/javascript" charset="utf-8" src="http://bit.ly/javascript-api.js?version=latest&#38;login=statsvn&#38;apiKey=R_2c362b417d0517c27876cbaca1bb68cc"></script>
+<script type="text/javascript" charset="utf-8">
+   // wait until page is loaded to call API
+   var redir_url;
+   var short_url;
+   BitlyCB.myShortenCallback = function(data) {
+      // this is how to get a result of shortening a single url
+      var result;
+      short_url=null;
+      for (var r in data.results) {
+         result = data.results[r];
+         result['longUrl'] = r;
+         short_url = result['shortUrl'];
+         break;
+      }
+      if (short_url==null) // bit.ly failed
+      document.location=redir_url;
+      else
+      redirToTwitter();
+   };
+   function shortenTweet(url) {
+      if (short_url == null || redir_url!=url) {
+      redir_url = url;
+      BitlyClient.shorten(document.location, 'BitlyCB.myShortenCallback');
+      }
+      else
+      redirToTwitter();
+      return false;
+   }
+   function redirToTwitter() { 
+      // replace {0} which is visible as %7B0} in the link
+      document.location = redir_url.replace('%7B0}', short_url);
+   }
+</script>
+  </head>
+
+<body>
+
+<h1>Directory PFE/Doc/3-Finale/</h1>
+<div id="parentlink">&#171; <a href="index.html">Development Statistics for /trunk</a></div>
+<dl class="attributes">
+    <dt>Directory Created:</dt>
+    <dd><span class="date">2010-12-06 17:58</span></dd>
+    <dt>Total Files:</dt>
+    <dd>5</dd>
+    <dt>Deleted Files:</dt>
+    <dd>6</dd>
+    <dt>Lines of Code:</dt>
+    <dd>2520</dd>
+</dl>
+<p class="dirtree">
+<a href="dir.html">[root]</a>/<a href="dir_PFE.html">PFE</a>/<a href="dir_PFE_Doc.html">Doc</a>/<strong>3-Finale</strong><br/>
+</p>
+
+<div class="section">
+<h2>Lines of Code</h2>
+<p class="chart"><img src="loc_module_PFE_Doc_3-Finale.png" alt="PFE/Doc/3-Finale/ Lines of Code" width="800" height="500" /></p></div>
+<div class="section">
+<h2>Developers</h2>
+  <table  rules="groups" summary="All authors and the number of their changes and lines of code in this directory">
+    <colgroup align="left"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <thead>
+      <tr>
+        <th>Author</th>
+        <th>Changes</th>
+        <th>Lines of Code</th>
+        <th>Lines per Change</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>Totals</th>
+        <td>42 (100.0%)</td>
+        <td>7461 (100.0%)</td>
+        <td>177.6</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr  class="odd">
+        <th><a href="user_fab0670312047.html" class="author">fab0670312047</a></th>
+        <td>39 (92.9%)</td>
+        <td>6914 (92.7%)</td>
+        <td>177.2</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="user_jpierre03@gmail.com.html" class="author">jpierre03@gmail.com</a></th>
+        <td>1 (2.4%)</td>
+        <td>316 (4.2%)</td>
+        <td>316.0</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="user_hoc5783.html" class="author">hoc5783</a></th>
+        <td>2 (4.8%)</td>
+        <td>231 (3.1%)</td>
+        <td>115.5</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+<div class="section">
+<h2>Most Recent Commits</h2>
+<dl class="commitlist">
+  <dt><a name="25"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-22 17:41</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">276</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+- Supression et déplacement des doublons<br />
++ Ajout conclusion rapport de Synthèse<br />
++ Correction orthographique<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">5 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="del">(del)</span>,
+        Conclusion.lyx&#160;<span class="del">(del)</span>,
+        DCube.lyx&#160;<span class="del">(del)</span>,
+        Introduction.lyx&#160;<span class="del">(del)</span>,
+        OperationnalRisk.lyx&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="24"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-22 16:02</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">274</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Refonte de l'algo marcheur du rapport final pour le rendre plus claire<br />
+Cette partie ayant été faite au fil de l'eau, quelques nomenclatures ont changé<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>170</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+170&#160;-144)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="23"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-22 14:48</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">272</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de deux nouveaux tirages<br />
+(Excuse Abdou j'en ai refait encore un, car sinon on ne voyait pas de grosses <br />
+différences entre les 2 tirages)<br />
++ intégration des graphiques dans le rapport final <br />
+
+    </p>
+    <p class="commitdetails"><strong>268</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+268&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="22"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-20 22:44</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">262</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout des données qui ont permit de construire le graphe. <br />
+
+    </p>
+    <p class="commitdetails"><strong>181</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+181&#160;-4)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="21"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 18:16</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">246</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture Synthese <br />
++ Un peu de cosmetique<br />
++ Mise en forme du code source <br />
++ Reformatage des données pour les lire dans gnuplot<br />
++ Ajout de réference dans Rapport Final<br />
++ Rajout des résultats dans tous les rapports <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>16</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+16&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="20"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 16:26</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">244</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout et correction de quelques fautes dans algo marcheur<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>27</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+27&#160;-4)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="19"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-19 15:54</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">243</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de résultat dans la partie algo marcheur <br />
++ Travail de redaction sur l'algo du marcheur<br />
+
+    </p>
+    <p class="commitdetails"><strong>329</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+329&#160;-110)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="18"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-18 18:10</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">238</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Travail sur algo marcheur <br />
+Abdou et Fabien <br />
+<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>200</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+200&#160;-10)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="17"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-18 17:36</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">236</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Modif du titre de nos rapports.<br />
++ Squelette du rapport final.<br />
+<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        RapportFinale.lyx&#160;<span class="change">(+2&#160;-37)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="16"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-15 18:19</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">213</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de quelques contraintes de l'algo <br />
++ Corrections<br />
+
+    </p>
+    <p class="commitdetails"><strong>42</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+42&#160;-25)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="15"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-14 14:11</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">211</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajoutr des modif de code<br />
++ modif rapport<br />
+
+    </p>
+    <p class="commitdetails"><strong>740</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+26&#160;-2)</span>,
+        OperationnalRisk.lyx&#160;<span class="new">(new&#160;400)</span>,
+        RapportFinale.lyx&#160;<span class="change">(+15&#160;-1)</span>,
+        WAFRisk.lyx&#160;<span class="new">(new&#160;299)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="14"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-14 00:12</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">206</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Quelques corrections sur l'algo du marcheur<br />
+
+    </p>
+    <p class="commitdetails"><strong>70</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+70&#160;-116)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="13"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-13 17:59</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">205</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'un dossier pour la sythèse<br />
++ Codage de la dernière fonction de l'algo avec les medecins <br />
++ Ajout de remarque dans le rapport <br />
++ Ajout des tests Unitaires du projet et rédaction d'un test<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>519</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+8&#160;-39)</span>,
+        RapportFinale.lyx&#160;<span class="new">(new&#160;495)</span>,
+        RapportIntermediaire.lyx&#160;<span class="del">(del)</span>,
+        TableauSynthese.lyx&#160;<span class="change">(+16&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="12"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-12 23:27</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">203</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Test et petite correction<br />
+
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+2&#160;-11)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="11"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2011-01-10 17:29</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">201</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de la partie de l'étude des 2 présentations.<br />
+<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>229</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        Etude_PPT.lyx&#160;<span class="new">(new&#160;229)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="10"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-09 19:57</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">198</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de précisions sur l'algo marcheurs<br />
+
+    </p>
+    <p class="commitdetails"><strong>8</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+8&#160;-59)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="9"></a>
+    <a href="user_jpierre03@gmail.com.html" class="author">jpierre03@gmail.com</a>
+    <span class="date">2011-01-08 16:04</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">194</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ relecture + commentaire &amp; suggestions<br />
+  (pas taper, cela m'a été demmandé)<br />
+
+    </p>
+    <p class="commitdetails"><strong>316</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+316&#160;-67)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="8"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-08 11:49</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">193</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Reformulation de la spec du code ajout d'un diagramme de classe <br />
+(pas tout à fait juste pour le moment)<br />
+
+    </p>
+    <p class="commitdetails"><strong>108</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+108&#160;-69)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="7"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2011-01-06 22:29</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">189</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ relecture algo marcheur<br />
+
+    </p>
+    <p class="commitdetails"><strong>52</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+52&#160;-13)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="6"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-12-14 09:55</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">182</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de spec structure<br />
++ Début de code<br />
+
+    </p>
+    <p class="commitdetails"><strong>149</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+149&#160;-14)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="5"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-12-13 17:54</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">180</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de cosmétique<br />
++ Ajout de début de spec pour le marcheur<br />
+
+    </p>
+    <p class="commitdetails"><strong>143</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+141&#160;-12)</span>,
+        RapportIntermediaire.lyx&#160;<span class="change">(+2&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="4"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-12-09 17:12</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">177</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'un peu de cosmetique dans le rapport <br />
+<br />
+By Fabien ;-)<br />
+
+    </p>
+    <p class="commitdetails"><strong>30</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        RapportIntermediaire.lyx&#160;<span class="change">(+30&#160;-7)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="3"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-12-08 15:35</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">175</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Deplacement d'un fichier <br />
++ Ajout du début du code du marcheur <br />
+<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>25</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+25&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="2"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-12-07 15:01</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">174</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de d'élement pour le marcheur <br />
++ Début analyse des données <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>136</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+136)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="1"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-12-06 17:58</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">173</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout ossature dernier rapport <br />
++ travail sur le marcheur<br />
++ Inclusion de la gestion des coûts dans le rapport <br />
+
+    </p>
+    <p class="commitdetails"><strong>3699</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/3-Finale</strong>:
+        AlgoMarcheur.lyx&#160;<span class="new">(new&#160;496)</span>,
+        Conclusion.lyx&#160;<span class="new">(new&#160;168)</span>,
+        DCube.lyx&#160;<span class="new">(new&#160;936)</span>,
+        Introduction.lyx&#160;<span class="new">(new&#160;124)</span>,
+        RapportIntermediaire.lyx&#160;<span class="new">(new&#160;471)</span>,
+        TableauSynthese.lyx&#160;<span class="new">(new&#160;964)</span>,
+        gestionPojet.lyx&#160;<span class="new">(new&#160;540)</span>
+      </li>
+    </ul>
+  </dd>
+
+</dl>
+
+</div><div id="generatedby">Generated by <a href="http://www.statsvn.org">StatSVN</a> 0.7.0</div>
+</body>
+</html>

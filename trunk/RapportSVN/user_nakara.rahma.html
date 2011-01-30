@@ -1,0 +1,563 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StatSVN - /trunk Developers: nakara.rahma</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="Generator" content="StatSVN 0.7.0"/>
+<link rel="stylesheet" href="objectlab-statcvs.css" type="text/css"/>
+<script type="text/javascript" charset="utf-8" src="http://bit.ly/javascript-api.js?version=latest&#38;login=statsvn&#38;apiKey=R_2c362b417d0517c27876cbaca1bb68cc"></script>
+<script type="text/javascript" charset="utf-8">
+   // wait until page is loaded to call API
+   var redir_url;
+   var short_url;
+   BitlyCB.myShortenCallback = function(data) {
+      // this is how to get a result of shortening a single url
+      var result;
+      short_url=null;
+      for (var r in data.results) {
+         result = data.results[r];
+         result['longUrl'] = r;
+         short_url = result['shortUrl'];
+         break;
+      }
+      if (short_url==null) // bit.ly failed
+      document.location=redir_url;
+      else
+      redirToTwitter();
+   };
+   function shortenTweet(url) {
+      if (short_url == null || redir_url!=url) {
+      redir_url = url;
+      BitlyClient.shorten(document.location, 'BitlyCB.myShortenCallback');
+      }
+      else
+      redirToTwitter();
+      return false;
+   }
+   function redirToTwitter() { 
+      // replace {0} which is visible as %7B0} in the link
+      document.location = redir_url.replace('%7B0}', short_url);
+   }
+</script>
+  </head>
+
+<body>
+
+<h1>/trunk Developers: nakara.rahma</h1>
+<div id="parentlink">&#171; <a href="index.html">Development Statistics for /trunk</a> &#171; <a href="developers.html">Developers</a></div>
+<dl class="attributes">
+    <dt>Login name:</dt>
+    <dd>nakara.rahma</dd>
+    <dt>Total Commits:</dt>
+    <dd>107 (10,2 %)</dd>
+    <dt>Lines of Code:</dt>
+    <dd>32 444 (8,9 %)</dd>
+    <dt>Most Recent Commit:</dt>
+    <dd><span class="date">2011-01-24 15:36</span></dd>
+    <dt>Tweet this:</dt>
+    <dd><a onclick="return shortenTweet(this.href);" href="http://twitter.com/home?status=nakara.rahma%20contributed%2032 444%20(8%2C9%20%25)%20lines%20to%20%2Ftrunk%20%7B0}%20most%20recent%20commit%202011-01-24%20stats%20by%20StatSVN%20http%3A%2F%2Fstatsvn.org"><img style="border:0px" alt="Tweet this" src="tweet-this.png"/></a></dd>
+</dl>
+
+<div class="section">
+<h2>Activity by Clock Time</h2>
+<p class="chart"><img src="activity_time_nakara.rahma.png" alt="Activity by Hour of Day for nakara.rahma" width="800" height="500" /></p><p class="chart"><img src="activity_day_nakara.rahma.png" alt="Activity by Day of Week for nakara.rahma" width="800" height="500" /></p></div>
+<div class="section">
+<h2>Activity in Directories</h2>
+  <table  rules="groups" summary="Overview of this author's activities in different directories">
+    <colgroup align="left"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <colgroup align="right"/>
+    <thead>
+      <tr>
+        <th>Directory</th>
+        <th>Changes</th>
+        <th>Lines of Code</th>
+        <th>Lines per Change</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <th>Totals</th>
+        <td>107 (100.0%)</td>
+        <td>32444 (100.0%)</td>
+        <td>303.2</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr  class="odd">
+        <th><a href="dir_PFE_Doc_4-RapportSynthese.html" class="directory">PFE/Doc/4-RapportSynthese/</a></th>
+        <td>28 (26.2%)</td>
+        <td>10797 (33.3%)</td>
+        <td>385.6</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="dir_PFE_Doc_5-RapportFinal.html" class="directory">PFE/Doc/5-RapportFinal/</a></th>
+        <td>32 (29.9%)</td>
+        <td>8402 (25.9%)</td>
+        <td>262.5</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="dir_PFE_Doc_2-Intermediaire.html" class="directory">PFE/Doc/2-Intermediaire/</a></th>
+        <td>11 (10.3%)</td>
+        <td>2861 (8.8%)</td>
+        <td>260.0</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="dir_PFE_Doc_0-GestionCouts.html" class="directory">PFE/Doc/0-GestionCouts/</a></th>
+        <td>7 (6.5%)</td>
+        <td>2230 (6.9%)</td>
+        <td>318.5</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="dir_EP952_Raport.html" class="directory">EP952/Raport/</a></th>
+        <td>4 (3.7%)</td>
+        <td>2184 (6.7%)</td>
+        <td>546.0</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="dir_PFE_Sujet.html" class="directory">PFE/Sujet/</a></th>
+        <td>4 (3.7%)</td>
+        <td>2177 (6.7%)</td>
+        <td>544.2</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="dir_PFE_Doc_Preliminaire.html" class="directory">PFE/Doc/Preliminaire/</a></th>
+        <td>12 (11.2%)</td>
+        <td>2039 (6.3%)</td>
+        <td>169.9</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="dir_PFE_Doc_Intermediaire.html" class="directory">PFE/Doc/Intermediaire/</a></th>
+        <td>4 (3.7%)</td>
+        <td>1556 (4.8%)</td>
+        <td>389.0</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="dir_PFE_Doc_Question.html" class="directory">PFE/Doc/Question/</a></th>
+        <td>1 (0.9%)</td>
+        <td>147 (0.5%)</td>
+        <td>147.0</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="dir_EP952_CodeCLIPS.html" class="directory">EP952/CodeCLIPS/</a></th>
+        <td>1 (0.9%)</td>
+        <td>51 (0.2%)</td>
+        <td>51.0</td>
+      </tr>
+      <tr  class="odd">
+        <th><a href="dir_PFE_Doc_Images.html" class="directory">PFE/Doc/Images/</a></th>
+        <td>2 (1.9%)</td>
+        <td>0 (0.0%)</td>
+        <td>0.0</td>
+      </tr>
+      <tr  class="even">
+        <th><a href="dir_EP952_Image.html" class="directory">EP952/Image/</a></th>
+        <td>1 (0.9%)</td>
+        <td>0 (0.0%)</td>
+        <td>0.0</td>
+      </tr>
+    </tbody>
+  </table>
+
+<p class="chart"><img src="directory_sizes_nakara.rahma.png" alt="Activity of nakara.rahma" width="800" height="500" /></p></div>
+<div class="section">
+<h2>Most Recent Commits</h2>
+<dl class="commitlist">
+  <dt><a name="20"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 15:36</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">344</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction
+    </p>
+    <p class="commitdetails"><strong>4016</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+1340&#160;-1339)</span>,
+        Bilan_EtatArt.lyx&#160;<span class="change">(+1210&#160;-1210)</span>,
+        CahierCharges.lyx&#160;<span class="change">(+268&#160;-268)</span>,
+        EntrepriseST.lyx&#160;<span class="change">(+229&#160;-229)</span>,
+        GestionCouts.lyx&#160;<span class="change">(+266&#160;-266)</span>,
+        GestionProjet.lyx&#160;<span class="change">(+559&#160;-550)</span>,
+        Introduction.lyx&#160;<span class="change">(+144&#160;-128)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="19"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 14:04</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">340</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Dernieres corrections
+    </p>
+    <p class="commitdetails"><strong>2076</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AlgoMarcheur.lyx&#160;<span class="change">(+2076&#160;-2069)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="18"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 12:39</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">326</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ corrections
+    </p>
+    <p class="commitdetails"><strong>9</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+9&#160;-1294)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="17"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 12:36</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">325</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction<br />
+
+    </p>
+    <p class="commitdetails"><strong>1263</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+1263)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="16"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 12:01</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">322</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction orthographe 
+    </p>
+    <p class="commitdetails"><strong>6</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+6&#160;-6)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="15"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 11:38</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">318</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction orthographe
+    </p>
+    <p class="commitdetails"><strong>425</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+425&#160;-425)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="14"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 11:22</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">317</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction de la conslusion
+    </p>
+    <p class="commitdetails"><strong>19</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+19&#160;-32)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="13"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 10:45</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">313</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction orthographe , synthaxe, grammaire
+    </p>
+    <p class="commitdetails"><strong>1850</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/0-GestionCouts</strong>:
+        Conclusion.lyx&#160;<span class="change">(+112&#160;-119)</span>,
+        Indicateurs.lyx&#160;<span class="change">(+823&#160;-823)</span>,
+        InformationsFinancier.lyx&#160;<span class="change">(+725&#160;-725)</span>,
+        Introduction.lyx&#160;<span class="change">(+190&#160;-190)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="12"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 01:10</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">308</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ j'ai mis une deuxieme version de la conclusion si quelquen veu mixer les 2 si non il fau juste la supprimer 
+    </p>
+    <p class="commitdetails"><strong>174</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Conclusion.lyx&#160;<span class="change">(+174&#160;-106)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="11"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-24 00:42</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">307</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ une sorte de conclusion pour le rapport de gestion de projet 
+    </p>
+    <p class="commitdetails"><strong>46</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        GestionProjet.lyx&#160;<span class="change">(+46&#160;-6)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="10"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 23:37</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">306</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ confusion sur la conclusion excusez moi pour les commit :p
+    </p>
+    <p class="commitdetails"><strong>2</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        EtatArt.lyx&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="9"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 23:34</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">305</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ état de l'art normalement finis pour ceux qui veulent jeter un coup d'oeil
+    </p>
+    <p class="commitdetails"><strong>85</strong> lines of code changed in <span class="files">8 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+6&#160;-5)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+4&#160;-8)</span>,
+        EtatArt.lyx&#160;<span class="change">(+36)</span>,
+        Etude_Presentation_ST.lyx&#160;<span class="change">(+12&#160;-12)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="change">(+7&#160;-7)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="change">(+7&#160;-11)</span>,
+        OuvrageSdF.lyx&#160;<span class="change">(+2&#160;-2)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+11&#160;-11)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="8"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 20:47</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">300</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ conclusion sur D3 incorporé dans le tableau
+    </p>
+    <p class="commitdetails"><strong>1206</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+1206&#160;-1244)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="7"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 20:43</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">299</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ etat de l'art pas encore corrigé
+    </p>
+    <p class="commitdetails"><strong>1675</strong> lines of code changed in <span class="files">9 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+4&#160;-15)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+5&#160;-16)</span>,
+        Dcube.lyx&#160;<span class="change">(+924&#160;-932)</span>,
+        EtatArt.lyx&#160;<span class="change">(+188&#160;-55)</span>,
+        Etude_Presentation_ST.lyx&#160;<span class="change">(+246&#160;-250)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="change">(+286&#160;-297)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="change">(+5&#160;-16)</span>,
+        OuvrageSdF.lyx&#160;<span class="change">(+7&#160;-11)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+10&#160;-10)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="6"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 19:27</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">295</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ fichier composant l'état de l'art
+    </p>
+    <p class="commitdetails"><strong>2065</strong> lines of code changed in <span class="files">6 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/5-RapportFinal</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="new">(new&#160;400)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="new">(new&#160;299)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="new">(new&#160;297)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="new">(new&#160;394)</span>,
+        OuvrageSdF.lyx&#160;<span class="new">(new&#160;276)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="new">(new&#160;399)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="5"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 10:32</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">281</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ je re commit tous car sur ma boite ya qu'un seul commit jen ai fait 4 ou son passé les autres?
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="4"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 10:28</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">280</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ introduction de la parti contexte , il faut faire la meme chose pour toute les parti afin de guider le lecteur
+    </p>
+    <p class="commitdetails"><strong>489</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Rapport_Synthese.lyx&#160;<span class="change">(+489&#160;-480)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="3"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 10:27</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">279</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ quelque modification 
+    </p>
+    <p class="commitdetails"><strong>176</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        EntrepriseST.lyx&#160;<span class="change">(+176&#160;-186)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="2"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 10:27</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">278</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ quelque modification mais il manque toujour l'ennoncé du cahier de charge tel qu'il est jai mis une note dessus
+    </p>
+    <p class="commitdetails"><strong>23</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        CahierCharges.lyx&#160;<span class="change">(+23&#160;-9)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="1"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2011-01-23 10:26</span>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">277</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ je ne suit pas arrivé a revenir à la ligne pour faire une parti sur la D3 et une parti conclusion, il faut juste arranger ça 
+    </p>
+    <p class="commitdetails"><strong>1205</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/4-RapportSynthese</strong>:
+        Bilan_EtatArt.lyx&#160;<span class="change">(+1205&#160;-1573)</span>
+      </li>
+    </ul>
+  </dd>
+
+</dl>
+
+<p>(37 more)</p>
+</div><div id="generatedby">Generated by <a href="http://www.statsvn.org">StatSVN</a> 0.7.0</div>
+</body>
+</html>

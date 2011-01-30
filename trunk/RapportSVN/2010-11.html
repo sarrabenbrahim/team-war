@@ -1,0 +1,2124 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>StatSVN - November 2010 Commit Log</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+    <meta name="Generator" content="StatSVN 0.7.0"/>
+<link rel="stylesheet" href="objectlab-statcvs.css" type="text/css"/>
+<script type="text/javascript" charset="utf-8" src="http://bit.ly/javascript-api.js?version=latest&#38;login=statsvn&#38;apiKey=R_2c362b417d0517c27876cbaca1bb68cc"></script>
+<script type="text/javascript" charset="utf-8">
+   // wait until page is loaded to call API
+   var redir_url;
+   var short_url;
+   BitlyCB.myShortenCallback = function(data) {
+      // this is how to get a result of shortening a single url
+      var result;
+      short_url=null;
+      for (var r in data.results) {
+         result = data.results[r];
+         result['longUrl'] = r;
+         short_url = result['shortUrl'];
+         break;
+      }
+      if (short_url==null) // bit.ly failed
+      document.location=redir_url;
+      else
+      redirToTwitter();
+   };
+   function shortenTweet(url) {
+      if (short_url == null || redir_url!=url) {
+      redir_url = url;
+      BitlyClient.shorten(document.location, 'BitlyCB.myShortenCallback');
+      }
+      else
+      redirToTwitter();
+      return false;
+   }
+   function redirToTwitter() { 
+      // replace {0} which is visible as %7B0} in the link
+      document.location = redir_url.replace('%7B0}', short_url);
+   }
+</script>
+  </head>
+
+<body>
+
+<h1>November 2010 Commit Log</h1>
+<div id="parentlink">&#171; <a href="index.html">Development Statistics for /trunk</a></div>
+
+<div id="nav" class="section">
+<h2>Commit Logs</h2>
+<ul>
+    <li><a href="commitlog.html">January 2011</a></li>
+    <li><a href="2010-12.html">December 2010</a></li>
+    <li><span class="here">November 2010</span></li>
+    <li><a href="2010-10.html">October 2010</a></li>
+    <li><a href="2010-09.html">September 2010</a></li>
+</ul>
+</div><dl class="attributes">
+    <dt>Number of Commits:</dt>
+    <dd>93</dd>
+    <dt>Number of Active Developers:</dt>
+    <dd>5</dd>
+</dl>
+<dl class="commitlist">
+  <dt><a name="93"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-30 22:04</span>
+    <a class="permalink" title="Permalink to this commit" href="#93">#93</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">158</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+++ correction générale
+    </p>
+    <p class="commitdetails"><strong>2737</strong> lines of code changed in <span class="files">10 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/2-Intermediaire</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="new">(new)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+299&#160;-298)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="new">(new)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="new">(new)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+399&#160;-399)</span>,
+        TableauSynthese.lyx&#160;<span class="change">(+953&#160;-949)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="92"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-30 15:29</span>
+    <a class="permalink" title="Permalink to this commit" href="#92">#92</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">157</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Intro<br />
++ Relecture et mise en forme<br />
+
+    </p>
+    <p class="commitdetails"><strong>119</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/2-Intermediaire</strong>:
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(changed)</span>,
+        Introduction.lyx&#160;<span class="new">(new&#160;119)</span>,
+        RapportIntermediaire.lyx&#160;<span class="change">(changed)</span>,
+        TableauSynthese.lyx&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="91"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2010-11-30 14:47</span>
+    <a class="permalink" title="Permalink to this commit" href="#91">#91</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">156</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+ -+ renommage (convention toussa)<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/SimulationArena</strong>:
+        Version 1 ( Simple )&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="90"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2010-11-30 14:45</span>
+    <a class="permalink" title="Permalink to this commit" href="#90">#90</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">155</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ un peu de renommage de répertoires pour être plus compréhensibles<br />
+   et surtout plus conforme à la convention de nommage<br />
+  (pas de caractères spéciaux [accents, espaces, parentèses, ...])<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">26 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="del">(del)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="del">(del)</span>,
+        DCube.lyx&#160;<span class="del">(del)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="del">(del)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="del">(del)</span>,
+        OuvrageSdF.lyx&#160;<span class="del">(del)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="del">(del)</span>,
+        RapportIntermediaire.lyx&#160;<span class="del">(del)</span>,
+        TableauSynthese.lyx&#160;<span class="del">(del)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Preliminaire</strong>:
+        AlgoMarcheur.lyx&#160;<span class="del">(del)</span>,
+        Annexe.lyx&#160;<span class="del">(del)</span>,
+        Conclusion.lyx&#160;<span class="del">(del)</span>,
+        EntrepriseST.lyx&#160;<span class="del">(del)</span>,
+        Introduction.lyx&#160;<span class="del">(del)</span>,
+        RapportPreliminaire.lyx&#160;<span class="del">(del)</span>,
+        RapportPreliminaireWindows.lyx&#160;<span class="del">(del)</span>,
+        Sujet Abdelali.lyx&#160;<span class="del">(del)</span>,
+        Sujet Philippe.lyx&#160;<span class="del">(del)</span>,
+        Sujet.lyx&#160;<span class="del">(del)</span>,
+        gestionPojet.lyx&#160;<span class="del">(del)</span>
+      </li>
+      <li>
+        <strong>PFE/Simulation Aréna/Version 1 ( Simple )</strong>:
+        Model1.Backup.doe&#160;<span class="del">(del)</span>,
+        Model1.doe&#160;<span class="del">(del)</span>,
+        Model1.mdb&#160;<span class="del">(del)</span>,
+        Model1.opw&#160;<span class="del">(del)</span>,
+        Model1.out&#160;<span class="del">(del)</span>,
+        Model1.p&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="89"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-30 11:41</span>
+    <a class="permalink" title="Permalink to this commit" href="#89">#89</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">154</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Relecture <br />
++ Correction d'erreur dans le tableau<br />
+
+    </p>
+    <p class="commitdetails"><strong>5</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+3&#160;-3)</span>,
+        TableauSynthese.lyx&#160;<span class="change">(+2&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="88"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-25 09:09</span>
+    <a class="permalink" title="Permalink to this commit" href="#88">#88</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">153</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du rapport à rendre(en pdf)<br />
++ Mise en forme des tableaux (Dernière fois)<br />
+
+    </p>
+    <p class="commitdetails"><strong>7297</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        RapportEP952.lyx&#160;<span class="change">(+10)</span>,
+        TableauSyntheseCodeClipse.lyx&#160;<span class="change">(+1505&#160;-1344)</span>
+      </li>
+      <li>
+        <strong>EP952/Rendu</strong>:
+        RapportEP952Bis.pdf&#160;<span class="new">(new&#160;5782)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="87"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-24 22:13</span>
+    <a class="permalink" title="Permalink to this commit" href="#87">#87</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">152</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction <br />
++ Mise d'adresse relative <br />
++ Reformatage du tableau.<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>8541</strong> lines of code changed in <span class="files">5 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        Bilan.lyx&#160;<span class="change">(+152&#160;-153)</span>,
+        DeveloppementSE.lyx&#160;<span class="change">(+1390&#160;-1384)</span>,
+        RapportEP952.lyx&#160;<span class="change">(+11&#160;-1)</span>,
+        offreDeStage.lyx&#160;<span class="change">(+1565&#160;-987)</span>
+      </li>
+      <li>
+        <strong>EP952/Rendu</strong>:
+        RapportEP952.pdf&#160;<span class="new">(new&#160;5423)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="86"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 19:38</span>
+    <a class="permalink" title="Permalink to this commit" href="#86">#86</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">151</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++- Modification de EP.Bat Version Finale
+    </p>
+    <p class="commitdetails"><strong>24</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        EP.bat&#160;<span class="change">(+24&#160;-23)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="85"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 18:57</span>
+    <a class="permalink" title="Permalink to this commit" href="#85">#85</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">150</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Dossier final EP , n'oublie pas le .bat (stp)
+    </p>
+    <p class="commitdetails"><strong>1569</strong> lines of code changed in <span class="files">5 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        Bilan.lyx&#160;<span class="change">(+153&#160;-155)</span>,
+        ComprehensionGenerale.lyx&#160;<span class="change">(+1&#160;-1)</span>,
+        DeveloppementSE.lyx&#160;<span class="change">(+1384&#160;-1025)</span>,
+        RapportEP952.lyx&#160;<span class="change">(+1&#160;-15)</span>,
+        offreDeStage.lyx&#160;<span class="change">(+30&#160;-171)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="84"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 18:56</span>
+    <a class="permalink" title="Permalink to this commit" href="#84">#84</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">149</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de l'image Execustion2.PNG
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Image</strong>:
+        Execustion2.PNG&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="83"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 18:45</span>
+    <a class="permalink" title="Permalink to this commit" href="#83">#83</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">148</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de l'image Execustion.PNG
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Image</strong>:
+        Execustion.PNG&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="82"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-24 18:03</span>
+    <a class="permalink" title="Permalink to this commit" href="#82">#82</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">147</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du TableauSyntheseCodeClipse.lyx
+    </p>
+    <p class="commitdetails"><strong>1344</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        TableauSyntheseCodeClipse.lyx&#160;<span class="new">(new&#160;1344)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="81"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 16:19</span>
+    <a class="permalink" title="Permalink to this commit" href="#81">#81</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">146</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Version Finale du syteme expert
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        InitialisationEP.BAT&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="80"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 16:18</span>
+    <a class="permalink" title="Permalink to this commit" href="#80">#80</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">145</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Version finale du Syteme Expert
+    </p>
+    <p class="commitdetails"><strong>36</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        EP.bat&#160;<span class="change">(+36&#160;-8)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="79"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-24 09:38</span>
+    <a class="permalink" title="Permalink to this commit" href="#79">#79</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">144</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Mise en page <br />
++ rajout du code dans le rapport<br />
+
+    </p>
+    <p class="commitdetails"><strong>726</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        faits.txt&#160;<span class="new">(new&#160;130)</span>,
+        regles.txt&#160;<span class="change">(+343&#160;-73)</span>,
+        structure.txt&#160;<span class="change">(+37&#160;-13)</span>
+      </li>
+      <li>
+        <strong>EP952/Raport</strong>:
+        Bilan.lyx&#160;<span class="change">(+155&#160;-150)</span>,
+        ComprehensionGenerale.lyx&#160;<span class="change">(+1&#160;-1)</span>,
+        DeveloppementSE.lyx&#160;<span class="change">(+45&#160;-12)</span>,
+        RapportEP952.lyx&#160;<span class="change">(+15&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="78"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 03:11</span>
+    <a class="permalink" title="Permalink to this commit" href="#78">#78</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">143</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Systeme expert
+    </p>
+    <p class="commitdetails"><strong>1239</strong> lines of code changed in <span class="files">7 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        InitialisationEP.BAT&#160;<span class="change">(+82&#160;-1)</span>
+      </li>
+      <li>
+        <strong>EP952/Raport</strong>:
+        offreDeStage.lyx&#160;<span class="change">(+1128&#160;-991)</span>
+      </li>
+      <li>
+        <strong>PFE/Simulation Aréna/Version 1 ( Simple )</strong>:
+        Model1.Backup.doe&#160;<span class="change">(changed)</span>,
+        Model1.doe&#160;<span class="change">(changed)</span>,
+        Model1.mdb&#160;<span class="change">(changed)</span>,
+        Model1.out&#160;<span class="change">(+29&#160;-29)</span>,
+        Model1.p&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="77"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-24 03:10</span>
+    <a class="permalink" title="Permalink to this commit" href="#77">#77</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">142</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Finalement le system expert est pret ;)
+    </p>
+    <p class="commitdetails"><strong>573</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        EP.bat&#160;<span class="new">(new&#160;573)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="76"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-23 17:26</span>
+    <a class="permalink" title="Permalink to this commit" href="#76">#76</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">141</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction chemins <br />
++ Bugs <br />
+
+    </p>
+    <p class="commitdetails"><strong>413</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+6&#160;-6)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="change">(+8&#160;-8)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+399&#160;-399)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="75"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-23 17:17</span>
+    <a class="permalink" title="Permalink to this commit" href="#75">#75</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">140</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ rapport semi final
+    </p>
+    <p class="commitdetails"><strong>150</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        Bilan.lyx&#160;<span class="change">(+150&#160;-145)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="74"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-23 17:12</span>
+    <a class="permalink" title="Permalink to this commit" href="#74">#74</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">139</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction des chemins absolus en chemins relatifs<br />
+
+    </p>
+    <p class="commitdetails"><strong>8</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+8&#160;-8)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="73"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2010-11-23 17:08</span>
+    <a class="permalink" title="Permalink to this commit" href="#73">#73</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">138</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ MàJ des articles et tableau de synthèse<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>30</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+4&#160;-4)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+2)</span>,
+        TableauSynthese.lyx&#160;<span class="change">(+24&#160;-9)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="72"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-23 16:36</span>
+    <a class="permalink" title="Permalink to this commit" href="#72">#72</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">137</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout CR_8<br />
+
+    </p>
+    <p class="commitdetails"><strong>27</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/CompteRendu</strong>:
+        CR_8.html&#160;<span class="change">(+27&#160;-10)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="71"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2010-11-23 13:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#71">#71</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">136</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ MàJ Tableau synthèse<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>934</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        TableauSynthese.lyx&#160;<span class="change">(+934&#160;-1047)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="70"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-23 12:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#70">#70</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">135</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de la ligne du plan de contrôle optimisé
+    </p>
+    <p class="commitdetails"><strong>1047</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        TableauSynthese.lyx&#160;<span class="change">(+1047&#160;-959)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="69"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2010-11-23 00:29</span>
+    <a class="permalink" title="Permalink to this commit" href="#69">#69</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">134</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Petite MàJ du tableau de synthèse<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>335</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        TableauSynthese.lyx&#160;<span class="change">(+335&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="68"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2010-11-22 23:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#68">#68</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">133</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ MàJ des 3 articles<br />
++ Ajout des figures pour les articles<br />
++ Ajout d'un sous-document dans le rapport intermédiaire<br />
+<br />
+Question : Le tableau récapitulatif est confuse pour moi =&gt; pourquoi 2 tableaux ?<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>472</strong> lines of code changed in <span class="files">15 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        AnApproachForOperationalRisk_Fig1.png&#160;<span class="new">(new)</span>,
+        AnApproachForOperationalRisk_Fig2.png&#160;<span class="new">(new)</span>,
+        AnApproachForOperationalRisk_Fig3.png&#160;<span class="new">(new)</span>,
+        AnApproachForOperationalRisk_Fig5.png&#160;<span class="new">(new)</span>,
+        ComputationOfWaferAtRisk_Fig1.png&#160;<span class="new">(new)</span>,
+        ComputationOfWaferAtRisk_Fig2.png&#160;<span class="new">(new)</span>,
+        ComputationOfWaferAtRisk_Fig3.png&#160;<span class="new">(new)</span>,
+        OptimizingReturnOnInspection_Fig1.png&#160;<span class="new">(new)</span>,
+        OptimizingReturnOnInspection_Fig2.png&#160;<span class="new">(new)</span>,
+        OptimizingReturnOnInspection_Fig3.png&#160;<span class="new">(new)</span>,
+        OptimizingReturnOnInspection_Fig4.png&#160;<span class="new">(new)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+118&#160;-5)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+88&#160;-3)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="change">(+253&#160;-21)</span>,
+        RapportIntermediaire.lyx&#160;<span class="change">(+13&#160;-3)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="67"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-22 17:20</span>
+    <a class="permalink" title="Permalink to this commit" href="#67">#67</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">132</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du CR_8 pour demain, voir les points qu'on va aborder compléter au besoin<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>265</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/CompteRendu</strong>:
+        CR_8.html&#160;<span class="new">(new&#160;265)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="66"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-22 10:10</span>
+    <a class="permalink" title="Permalink to this commit" href="#66">#66</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">131</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Bilan pour PFE<br />
+
+    </p>
+    <p class="commitdetails"><strong>145</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        Bilan.lyx&#160;<span class="new">(new&#160;145)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="65"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2010-11-22 10:04</span>
+    <a class="permalink" title="Permalink to this commit" href="#65">#65</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">130</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ MàJ des documents<br />
++ En attente de Fabien pour les figures flottants etc...<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>231</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+135&#160;-22)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+96&#160;-20)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="64"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-21 20:21</span>
+    <a class="permalink" title="Permalink to this commit" href="#64">#64</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">129</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Regles (difficulte sur la regle de duree qu'est ce qui est vraiment intéressant ?)<br />
++ Ajout de structure qui correspondent aux différentes règles<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>79</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        regles.txt&#160;<span class="change">(+75&#160;-5)</span>,
+        structure.txt&#160;<span class="change">(+4)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="63"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-21 18:59</span>
+    <a class="permalink" title="Permalink to this commit" href="#63">#63</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">128</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ première Version du programme à completer après<br />
+Abdelali et Jaafar
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        InitialisationEP.BAT&#160;<span class="new">(new&#160;1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="62"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-21 13:46</span>
+    <a class="permalink" title="Permalink to this commit" href="#62">#62</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">127</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ correction. Jaafar ramene le bouquin demain PLZ
+    </p>
+    <p class="commitdetails"><strong>276</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        OuvrageSdF.lyx&#160;<span class="change">(+276&#160;-261)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="61"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-19 16:00</span>
+    <a class="permalink" title="Permalink to this commit" href="#61">#61</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">126</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout des règles
+    </p>
+    <p class="commitdetails"><strong>51</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        regles.txt&#160;<span class="change">(+51)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="60"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-19 15:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#60">#60</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">125</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction du DiagrammeClasse.dia
+    </p>
+    <p class="commitdetails"><strong>4</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        structure.txt&#160;<span class="change">(+4&#160;-2)</span>
+      </li>
+      <li>
+        <strong>EP952/Image</strong>:
+        DiagrammeClasse.dia&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="59"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-19 15:46</span>
+    <a class="permalink" title="Permalink to this commit" href="#59">#59</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">124</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du fichier InitialisationEP.CLP 
+    </p>
+    <p class="commitdetails"><strong>31</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        InitialisationEP.CLP&#160;<span class="new">(new&#160;31)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="58"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-19 15:34</span>
+    <a class="permalink" title="Permalink to this commit" href="#58">#58</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">123</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Modif structure<br />
++ et ajout d'hypothèse pour le rapport<br />
+
+    </p>
+    <p class="commitdetails"><strong>37</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        structure.txt&#160;<span class="change">(+10&#160;-1)</span>
+      </li>
+      <li>
+        <strong>EP952/Raport</strong>:
+        DeveloppementSE.lyx&#160;<span class="change">(+27)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="57"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-18 20:11</span>
+    <a class="permalink" title="Permalink to this commit" href="#57">#57</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">122</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'un peu d'aide pour SVN <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>2801</strong> lines of code changed in <span class="files">5 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>Outils/UtilisationSVN</strong>:
+        Liens&#160;<span class="new">(new&#160;13)</span>,
+        Subversion-memento.pdf&#160;<span class="new">(new)</span>,
+        svn-refcard.pdf&#160;<span class="new">(new&#160;827)</span>,
+        svn-switch.pdf&#160;<span class="new">(new)</span>,
+        svnintro.pdf&#160;<span class="new">(new&#160;1961)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="56"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-18 17:34</span>
+    <a class="permalink" title="Permalink to this commit" href="#56">#56</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">121</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout commentaire sur presentation Generale<br />
+
+    </p>
+    <p class="commitdetails"><strong>17</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        ComprehensionGenerale.lyx&#160;<span class="change">(+17&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="55"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-18 17:16</span>
+    <a class="permalink" title="Permalink to this commit" href="#55">#55</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">120</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout petite touche avec l'accord du prof<br />
+
+    </p>
+    <p class="commitdetails"><strong>15</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        ComprehensionGenerale.lyx&#160;<span class="change">(+15&#160;-3)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="54"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-17 18:51</span>
+    <a class="permalink" title="Permalink to this commit" href="#54">#54</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">119</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout tableau des offres <br />
+
+    </p>
+    <p class="commitdetails"><strong>991</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        offreDeStage.lyx&#160;<span class="new">(new&#160;991)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="53"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2010-11-17 18:51</span>
+    <a class="permalink" title="Permalink to this commit" href="#53">#53</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">118</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ MàJ<br />
+
+    </p>
+    <p class="commitdetails"><strong>9</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        ComprehensionGenerale.lyx&#160;<span class="change">(+9&#160;-3)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="52"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2010-11-17 18:32</span>
+    <a class="permalink" title="Permalink to this commit" href="#52">#52</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">117</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ La première partie, je n'arrive pas à conclure, pouvez-vous y jeter un coup d'oeil ?<br />
+
+    </p>
+    <p class="commitdetails"><strong>77</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        ComprehensionGenerale.lyx&#160;<span class="change">(+77&#160;-15)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="51"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-17 18:20</span>
+    <a class="permalink" title="Permalink to this commit" href="#51">#51</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">116</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout code<br />
++ Ajout fichier regles.txt<br />
++ Mise en forme rapport<br />
+
+    </p>
+    <p class="commitdetails"><strong>96</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/CodeCLIPS</strong>:
+        regles.txt&#160;<span class="new">(new)</span>,
+        structure.txt&#160;<span class="new">(new&#160;11)</span>
+      </li>
+      <li>
+        <strong>EP952/Raport</strong>:
+        DeveloppementSE.lyx&#160;<span class="change">(+84&#160;-20)</span>,
+        RapportEP952.lyx&#160;<span class="change">(+1&#160;-5)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="50"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-17 18:02</span>
+    <a class="permalink" title="Permalink to this commit" href="#50">#50</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">115</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++- Modification du DiagrammeClasse.dia
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Image</strong>:
+        DiagrammeClasse.dia&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="49"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-17 16:25</span>
+    <a class="permalink" title="Permalink to this commit" href="#49">#49</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">113</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Diagramme de classe <br />
++ Modi mise en page <br />
+
+    </p>
+    <p class="commitdetails"><strong>901</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        DeveloppementSE.lyx&#160;<span class="change">(+901&#160;-741)</span>,
+        RapportEP952.lyx&#160;<span class="change">(-67)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="48"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-17 16:22</span>
+    <a class="permalink" title="Permalink to this commit" href="#48">#48</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">112</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Modification du DiagrammeClasse.dia
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Image</strong>:
+        DiagrammeClasse.dia&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="47"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-17 15:45</span>
+    <a class="permalink" title="Permalink to this commit" href="#47">#47</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">111</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ ontologie<br />
+
+    </p>
+    <p class="commitdetails"><strong>127</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        DeveloppementSE.lyx&#160;<span class="change">(+127&#160;-8)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="46"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-17 15:27</span>
+    <a class="permalink" title="Permalink to this commit" href="#46">#46</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">110</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout ossature du rapport<br />
+
+    </p>
+    <p class="commitdetails"><strong>324</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        RapportEP952.lyx&#160;<span class="new">(new&#160;324)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="45"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-17 15:25</span>
+    <a class="permalink" title="Permalink to this commit" href="#45">#45</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">109</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Destruction fichier corrompu<br />
++ Mise à jour Diagramme Classe<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Image</strong>:
+        DiagrammeClasse.dia&#160;<span class="change">(changed)</span>,
+        DiagrammeSéquence.PNG&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="44"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-17 15:25</span>
+    <a class="permalink" title="Permalink to this commit" href="#44">#44</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">108</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++- Modification de l'image du Diagramme sequence
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        DeveloppementSE.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="43"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-17 15:23</span>
+    <a class="permalink" title="Permalink to this commit" href="#43">#43</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">107</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Image/DiagrammeSequence.PNG version 2
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Image</strong>:
+        DiagrammeSequence.PNG&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="42"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-17 15:22</span>
+    <a class="permalink" title="Permalink to this commit" href="#42">#42</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">106</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Explication du diagramme de séquence (la partie 2.2.1 est finie)
+    </p>
+    <p class="commitdetails"><strong>59</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        DeveloppementSE.lyx&#160;<span class="change">(+59)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="41"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-17 14:56</span>
+    <a class="permalink" title="Permalink to this commit" href="#41">#41</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">105</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du DiagrammeSéquence.PNG
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Image</strong>:
+        DiagrammeSéquence.PNG&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="40"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-17 14:53</span>
+    <a class="permalink" title="Permalink to this commit" href="#40">#40</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">104</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Mise à jour diagramme de classe<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Image</strong>:
+        DiagrammeClasse.dia&#160;<span class="change">(changed)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="39"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-17 14:20</span>
+    <a class="permalink" title="Permalink to this commit" href="#39">#39</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">103</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ diagramme de classe intermediaire
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Image</strong>:
+        DiagrammeClasse.dia&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="38"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-17 11:55</span>
+    <a class="permalink" title="Permalink to this commit" href="#38">#38</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">102</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ ontologie
+    </p>
+    <p class="commitdetails"><strong>563</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        DeveloppementSE.lyx&#160;<span class="change">(+563&#160;-507)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="37"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-17 11:53</span>
+    <a class="permalink" title="Permalink to this commit" href="#37">#37</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">101</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout AMDEC<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Bibliographie</strong>:
+        AMDEC.pdf&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="36"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2010-11-17 11:21</span>
+    <a class="permalink" title="Permalink to this commit" href="#36">#36</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">100</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Compréhension Générale (en cours)<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>93</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        ComprehensionGenerale.lyx&#160;<span class="new">(new&#160;93)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="35"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-17 11:00</span>
+    <a class="permalink" title="Permalink to this commit" href="#35">#35</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">99</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Image tableau récapitulatif AMDEC<br />
++- Ouvrage SdF<br />
++- Correction Tableau de synthése<br />
+
+    </p>
+    <p class="commitdetails"><strong>169</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        TableauRecapitulatifAMDEC.png&#160;<span class="new">(new)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        OuvrageSdF.lyx&#160;<span class="change">(+165&#160;-54)</span>,
+        TableauSynthese.lyx&#160;<span class="change">(+4&#160;-3)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="34"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-17 09:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#34">#34</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">98</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Algo pour calculer la satisfaction en fonction de la distance<br />
+
+    </p>
+    <p class="commitdetails"><strong>112</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        DeveloppementSE.lyx&#160;<span class="change">(+112&#160;-8)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="33"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-17 09:22</span>
+    <a class="permalink" title="Permalink to this commit" href="#33">#33</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">97</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ intégration figure<br />
++ Différentes correction sur rapport PFE<br />
+
+    </p>
+    <p class="commitdetails"><strong>122</strong> lines of code changed in <span class="files">5 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        DeveloppementSE.lyx&#160;<span class="change">(+56&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="change">(+15&#160;-5)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="change">(+17&#160;-7)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="change">(+17&#160;-7)</span>,
+        RapportIntermediaire.lyx&#160;<span class="change">(+17)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="32"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-16 17:49</span>
+    <a class="permalink" title="Permalink to this commit" href="#32">#32</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">96</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout règles et algo<br />
+Rahma et Fabien<br />
+
+    </p>
+    <p class="commitdetails"><strong>276</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        DeveloppementSE.lyx&#160;<span class="change">(+276&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="31"></a>
+    <a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a>
+    <span class="date">2010-11-16 17:27</span>
+    <a class="permalink" title="Permalink to this commit" href="#31">#31</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">95</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout architecture logicielle<br />
+Abdou &amp; Jaafar<br />
+--Cette ligne, et les suivantes ci-dessous, seront ignorées-<br />
+AM   EP952/Image/ArchitectureLogicielle.dicd<br />
+/home2/promo2011/amranimesbahij/pfe/trunk/EP952/Image<br />
+a<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Image</strong>:
+        ArchitectureLogicielle.dia&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="30"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-16 15:05</span>
+    <a class="permalink" title="Permalink to this commit" href="#30">#30</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">93</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout ossature rapport EP <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>74</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Raport</strong>:
+        DeveloppementSE.lyx&#160;<span class="new">(new&#160;74)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="29"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-15 18:11</span>
+    <a class="permalink" title="Permalink to this commit" href="#29">#29</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">92</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout blabla EP<br />
+
+    </p>
+    <p class="commitdetails"><strong>788</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>EP952/Cours</strong>:
+        IACours.lyx&#160;<span class="new">(new&#160;164)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        TableauSynthese.lyx&#160;<span class="change">(+624&#160;-624)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="28"></a>
+    <a href="user_hoc5783.html" class="author">hoc5783</a>
+    <span class="date">2010-11-15 14:41</span>
+    <a class="permalink" title="Permalink to this commit" href="#28">#28</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">91</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++3 articles, à venir les améliorations<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>33</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        AnApproachForOperationalRisk.lyx&#160;<span class="new">(new&#160;12)</span>,
+        ComputationOfWaferAtRisk.lyx&#160;<span class="new">(new&#160;10)</span>,
+        OptimizingReturnOnInspection.lyx&#160;<span class="new">(new&#160;11)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="27"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-14 22:30</span>
+    <a class="permalink" title="Permalink to this commit" href="#27">#27</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">90</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ méthode gestion des risque<br />
+
+    </p>
+    <p class="commitdetails"><strong>624</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        TableauSynthese.lyx&#160;<span class="change">(+624&#160;-612)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="26"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-14 21:46</span>
+    <a class="permalink" title="Permalink to this commit" href="#26">#26</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">89</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ explication des figures 
+    </p>
+    <p class="commitdetails"><strong>399</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+399&#160;-368)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="25"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-14 13:19</span>
+    <a class="permalink" title="Permalink to this commit" href="#25">#25</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">88</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Rajout de commentaire OuvrageSdF, à reprendre impérativemet n'est pas présentable dans l'état actuel <br />
++ Petite relecture<br />
+
+    </p>
+    <p class="commitdetails"><strong>39</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        OuvrageSdF.lyx&#160;<span class="change">(+28&#160;-8)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+11&#160;-11)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="24"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-11 23:01</span>
+    <a class="permalink" title="Permalink to this commit" href="#24">#24</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">87</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Corection Bug <br />
++ Ajout commentaire<br />
++ Petite relecture<br />
+
+    </p>
+    <p class="commitdetails"><strong>1130</strong> lines of code changed in <span class="files">4 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        OuvrageSdF.lyx&#160;<span class="change">(+130&#160;-61)</span>,
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="change">(+368&#160;-257)</span>,
+        RapportIntermediaire.lyx&#160;<span class="change">(+20)</span>,
+        TableauSynthese.lyx&#160;<span class="change">(+612&#160;-424)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="23"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-11 14:11</span>
+    <a class="permalink" title="Permalink to this commit" href="#23">#23</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">86</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ partie sur gestion du risque
+    </p>
+    <p class="commitdetails"><strong>257</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        PreventionDesPhenomenesDangereux.lyx&#160;<span class="new">(new&#160;257)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="22"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-11 14:10</span>
+    <a class="permalink" title="Permalink to this commit" href="#22">#22</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">85</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ figure de la partie gestion du risque<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        figure1GestionRisque.jpg&#160;<span class="new">(new)</span>,
+        figure2GestionRisque.jpg&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="21"></a>
+    <a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a>
+    <span class="date">2010-11-10 17:38</span>
+    <a class="permalink" title="Permalink to this commit" href="#21">#21</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">84</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+-+ AMDEC 
+    </p>
+    <p class="commitdetails"><strong>485</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        OuvrageSdF.lyx&#160;<span class="new">(new&#160;61)</span>,
+        TableauSynthese.lyx&#160;<span class="change">(+424&#160;-377)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="20"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-10 16:57</span>
+    <a class="permalink" title="Permalink to this commit" href="#20">#20</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">83</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de D Cube dans le tableau<br />
+
+    </p>
+    <p class="commitdetails"><strong>377</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        TableauSynthese.lyx&#160;<span class="change">(+377&#160;-368)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="19"></a>
+    <a href="user_mesbahi.jaafar.html" class="author">mesbahi.jaafar</a>
+    <span class="date">2010-11-10 16:46</span>
+    <a class="permalink" title="Permalink to this commit" href="#19">#19</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">82</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ AMDEC 
+    </p>
+    <p class="commitdetails"><strong>368</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        TableauSynthese.lyx&#160;<span class="change">(+368&#160;-368)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="18"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-10 15:32</span>
+    <a class="permalink" title="Permalink to this commit" href="#18">#18</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">81</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de l'algo <br />
++ Mise en forme du rapport <br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>312</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        DCube.lyx&#160;<span class="change">(+290&#160;-4)</span>,
+        RapportIntermediaire.lyx&#160;<span class="change">(+22&#160;-29)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="17"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-10 12:13</span>
+    <a class="permalink" title="Permalink to this commit" href="#17">#17</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">80</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du tableau pour le résumé<br />
+
+    </p>
+    <p class="commitdetails"><strong>368</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        TableauSynthese.lyx&#160;<span class="new">(new&#160;368)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="16"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-10 12:07</span>
+    <a class="permalink" title="Permalink to this commit" href="#16">#16</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">79</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Relecture Abdelali<br />
+
+    </p>
+    <p class="commitdetails"><strong>16</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        DCube.lyx&#160;<span class="change">(+16&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="15"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-10 11:52</span>
+    <a class="permalink" title="Permalink to this commit" href="#15">#15</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">78</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Correction images <br />
++ Relecture<br />
+<br />
+Autheur : Abdelali<br />
+
+    </p>
+    <p class="commitdetails"><strong>10</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        OptimizedPlansRisk.lyx&#160;<span class="change">(+10&#160;-36)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="14"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-10 10:54</span>
+    <a class="permalink" title="Permalink to this commit" href="#14">#14</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">77</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout CR_10 avant la réunion<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>283</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/CompteRendu</strong>:
+        CR_7.html&#160;<span class="new">(new&#160;283)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="13"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-10 10:42</span>
+    <a class="permalink" title="Permalink to this commit" href="#13">#13</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">76</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Renommage fichier convention JAVA<br />
+
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        ControlPlan.jpg&#160;<span class="new">(new)</span>,
+        control plan.JPG&#160;<span class="del">(del)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="12"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-10 10:32</span>
+    <a class="permalink" title="Permalink to this commit" href="#12">#12</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">75</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout de l'image "control plan.JPG"
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        control plan.JPG&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="11"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-10 10:27</span>
+    <a class="permalink" title="Permalink to this commit" href="#11">#11</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">74</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Déplacement fichier <br />
+
+    </p>
+    <p class="commitdetails"><strong>36</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Articles</strong>:
+        Optimized design of control plans based on risk exposure and resources capabilities.lyx&#160;<span class="del">(del)</span>,
+        OptimizedPlansRisk.lyx&#160;<span class="del">(del)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        OptimizedPlansRisk.lyx&#160;<span class="new">(new&#160;36)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="10"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-10 10:20</span>
+    <a class="permalink" title="Permalink to this commit" href="#10">#10</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">73</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ ajout de la figure dans l'article optimizedPlanRisk<br />
+
+    </p>
+    <p class="commitdetails"><strong>49</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Articles</strong>:
+        OptimizedPlansRisk.lyx&#160;<span class="change">(+49&#160;-1)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Images</strong>:
+        GestionDuRisque.png&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="9"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-09 23:53</span>
+    <a class="permalink" title="Permalink to this commit" href="#9">#9</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">72</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Renommage fichier avec convention JAVA<br />
++ Relecture et Mise en forme<br />
+PS: Mettez les papiers que vous écrivez dans le dossier "Intermédiaire" pour nous en servir pour le raport du 1 dec. Merci
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Articles</strong>:
+        OptimizedPlansRisk.lyx&#160;<span class="new">(new&#160;1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="8"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-09 23:08</span>
+    <a class="permalink" title="Permalink to this commit" href="#8">#8</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">71</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout du résumé de l'article : Optimized design of control plans based on risk exposure and resources capabilities 
+    </p>
+    <p class="commitdetails"><strong>0</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Articles</strong>:
+        Optimized design of control plans based on risk exposure and resources capabilities.lyx&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="7"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-09 15:20</span>
+    <a class="permalink" title="Permalink to this commit" href="#7">#7</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">70</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout Algorithme DOUBLE<br />
++ Ajout référence<br />
+
+    </p>
+    <p class="commitdetails"><strong>207</strong> lines of code changed in <span class="files">2 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>Bibliographie</strong>:
+        BiblioTeamWAR.bib&#160;<span class="change">(+7&#160;-6)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        DCube.lyx&#160;<span class="change">(+200&#160;-20)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="6"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-08 21:30</span>
+    <a class="permalink" title="Permalink to this commit" href="#6">#6</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">69</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Changé une image en vectoriel
+    </p>
+    <p class="commitdetails"><strong>1</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        DCube.lyx&#160;<span class="change">(+1&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="5"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-08 19:19</span>
+    <a class="permalink" title="Permalink to this commit" href="#5">#5</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">68</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Mise à jour de DCube<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>60</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        DCube.lyx&#160;<span class="change">(+60&#160;-2)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="4"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-08 16:32</span>
+    <a class="permalink" title="Permalink to this commit" href="#4">#4</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">67</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ ajout de la référence externe vers le dépôt de l'atelier de production (925)<br />
+
+    </p>
+    <p class="commitdetails"><strong>34</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        DCube.lyx&#160;<span class="change">(+34&#160;-1)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="3"></a>
+    <a href="user_Abdelali.nait.html" class="author">Abdelali.nait</a>
+    <span class="date">2010-11-08 09:37</span>
+    <a class="permalink" title="Permalink to this commit" href="#3">#3</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">66</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout d'une première Version 1 ( Simple ) du modèle de Simulation Aréna
+    </p>
+    <p class="commitdetails"><strong>29</strong> lines of code changed in <span class="files">6 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Simulation Aréna/Version 1 ( Simple )</strong>:
+        Model1.Backup.doe&#160;<span class="new">(new)</span>,
+        Model1.doe&#160;<span class="new">(new)</span>,
+        Model1.mdb&#160;<span class="new">(new)</span>,
+        Model1.opw&#160;<span class="new">(new)</span>,
+        Model1.out&#160;<span class="new">(new&#160;29)</span>,
+        Model1.p&#160;<span class="new">(new)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="2"></a>
+    <a href="user_nakara.rahma.html" class="author">nakara.rahma</a>
+    <span class="date">2010-11-08 09:23</span>
+    <a class="permalink" title="Permalink to this commit" href="#2">#2</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">65</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
+++document gestion du risque 
+    </p>
+    <p class="commitdetails"><strong>2177</strong> lines of code changed in <span class="files">1 file</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>PFE/Sujet</strong>:
+        gestion du risque.pdf&#160;<span class="new">(new&#160;2177)</span>
+      </li>
+    </ul>
+  </dd>
+
+  <dt><a name="1"></a>
+    <a href="user_fab0670312047.html" class="author">fab0670312047</a>
+    <span class="date">2010-11-07 21:33</span>
+    <a class="permalink" title="Permalink to this commit" href="#1">#1</a>
+    <span class="revisionNumberOuter">Rev.: <span class="revisionNumberInner">64</span></span>
+  </dt>
+  <dd>
+    <p class="comment">
++ Ajout partie DCube introduction, explication Mr Mercantini<br />
++ Traduction et adaptation de l'article  <br />
++ Ajout d'élément à la biblio<br />
+<br />
+
+    </p>
+    <p class="commitdetails"><strong>244</strong> lines of code changed in <span class="files">3 files</span>:</p>
+    <ul class="commitdetails">
+      <li>
+        <strong>Bibliographie</strong>:
+        BiblioTeamWAR.bib&#160;<span class="change">(+8)</span>
+      </li>
+      <li>
+        <strong>PFE/Doc/Intermediaire</strong>:
+        DCube.lyx&#160;<span class="change">(+222&#160;-7)</span>,
+        RapportIntermediaire.lyx&#160;<span class="change">(+14)</span>
+      </li>
+    </ul>
+  </dd>
+
+</dl>
+
+<p class="previous"><a href="2010-10.html">October 2010</a> &#187; </p>
+<div id="generatedby">Generated by <a href="http://www.statsvn.org">StatSVN</a> 0.7.0</div>
+</body>
+</html>
